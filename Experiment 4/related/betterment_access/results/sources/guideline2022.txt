@@ -1,0 +1,388 @@
+Queensland Betterment Funding
+Guidelines
+
+Version 2 June 2022
+Document details
+ Security classification                          Public
+ Date of review of security classification        July 2021
+ Authority                                        Queensland Reconstruction Authority
+ Document status                                  Final
+ QRA Reference                                    DOC/21/18732
+ Version                                          2
+ Date of approval                                 6 June 2022
+
+
+Copyright
+This publication is protected by the Copyright Act 1968.
+© The State of Queensland (Queensland Reconstruction Authority) August 2021.
+
+Licence
+                        This work is licensed by State of Queensland (Queensland Reconstruction Authority)
+                        under a Creative Commons Attribution (CC BY) 4.0 International licence. To view a
+                        copy of this licence, visit www.creativecommons.org/licenses/by/4.0/
+In essence, you are free to copy, communicate and adapt this publication, as long as you attribute the work
+to the State of Queensland (Queensland Reconstruction Authority).
+
+Interpreter
+              The Queensland Government is committed to providing accessible services to Queenslanders
+              from all culturally and linguistically diverse backgrounds. If you have difficulty in understanding
+              this report, you can access the Translating and Interpreting Services via
+              www.qld.gov.au/languages or by phoning 13 14 50.
+
+Disclaimer
+While every care has been taken in preparing this publication, the State of Queensland accepts no
+responsibility for decisions or actions taken as a result of any data, information, statement or advice,
+expressed or implied, contained within. To the best of our knowledge, the content was correct at the time
+of publishing.
+
+Copies
+Copies of this publication are available on our website at www.qra.qld.gov.au. Further copies are available
+upon request to:
+Queensland Reconstruction Authority
+PO Box 15428
+City East QLD 4002
+Phone (07) 3008 7200
+info@qra.qld.gov.au
+www.qra.qld.gov.au
+
+Contact for enquiries
+All enquiries regarding this document should be directed to:
+Queensland Reconstruction Authority
+Email: grants@qra.qld.gov.au
+Phone: (07) 3008 7200
+
+
+
+
+Betterment Funding is jointly funded by the
+Australian Government and Queensland Government
+Contents
+Introduction and background .............................................................................. 1
+Objectives of Betterment Funding ...................................................................... 1
+Eligibility ............................................................................................................. 1
+Funding .............................................................................................................. 2
+Assessment criteria ............................................................................................ 2
+Timeframes/key dates ........................................................................................ 3
+Application requirements .................................................................................... 3
+Detailed design review ....................................................................................... 4
+Progress reporting .............................................................................................. 4
+Extension of time ................................................................................................ 4
+Project acquittal reports ...................................................................................... 4
+Monitoring and evaluation .................................................................................. 5
+Assurance activities............................................................................................ 5
+Certification ........................................................................................................ 5
+Goods and Services Tax (GST) ......................................................................... 5
+Funding agreement ............................................................................................ 5
+Procurement ....................................................................................................... 6
+Record keeping .................................................................................................. 6
+Public acknowledgment of funding source ......................................................... 6
+Annexure 1 – Lodging Betterment ...................................................................... 7
+Annexure 2 – Betterment Funding Rounds ........................................................ 7
+Introduction and background
+  1. The success of betterment funds delivered under Category D of the Disaster Recovery Funding
+     Arrangements (DRFA) has been proven. The Queensland Government, through the Queensland
+     Reconstruction Authority (QRA), developed a betterment framework in 2013. The ongoing utilisation
+     of betterment programs in conjunction with the delivery of restoration of essential public assets
+     (REPA) has seen resilience improvements to Queensland communities from the southern border
+     through to the Torres Strait Islands.
+  2. Betterment Funding enables restoration of essential public assets damaged in eligible events, to a
+     more resilient standard. This builds the resilience of infrastructure and communities, and reduces
+     future costs associated with disasters.
+  3. The DRFA, which came into effect on 1 November 2018, includes an Efficiencies Framework, where
+     efficiencies realised in delivery of the DRFA reconstruction program are retained by the state and
+     allocated to disaster mitigation and resilience activities in accordance with the Commonwealth’s
+     disaster mitigation principles. Funding administered through the Efficiencies Framework is referred to
+     as Category E funding.
+  4. All Queensland Betterment Funding is administered by the QRA and managed within QRA’s grants
+     Monitoring and Reporting System (MARS). Annexure 1 Lodging Betterment, of this guideline
+     provides a MARS user guide for developing and lodging betterment scope in a REPA submission.
+
+
+Objectives of Betterment Funding
+  5. The objectives of Betterment Funding are to restore essential public assets damaged in eligible
+     events to a more resilient standard:
+      •   so infrastructure and communities are more resilient to future disasters
+      •   so future costs associated with disasters are reduced
+      •   to address Queensland’s assessed natural hazard risks, and
+      •   in alignment with the National Strategy for Disaster Resilience and the Queensland Strategy for
+          Disaster Resilience objectives of strengthened disaster risk management and investment in
+          disaster risk reduction.
+
+
+Eligibility
+  6. Eligible applicants are local governments and state agencies with assets that are eligible for
+     Category B REPA funding under the DRFA for events listed under each Betterment funding round in
+     Annexure 2 – Betterment Funding Rounds - eligible events
+  7. Eligible projects are betterment works proposed for assets that:
+      •   meet the DRFA definition of an essential public asset
+      •   have sustained damage as a direct result of an event listed in Annexure 2, and
+      •   meet all eligibility requirements for DRFA REPA funding under the event.
+  8. Eligible costs must be related to the approved scope of the betterment proposal and be consistent
+     with Section 9.2 of the Queensland Disaster Funding Guidelines (QDFG). Eligible costs may include:
+      •   local government labour and plant costs directly associated with delivering the eligible works
+      •   extraordinary wages such as overtime, additional allowances
+      •   plant operating consumables
+      •   contractor and hire costs, and
+      •   materials.
+
+
+                                                                                                            1
+  9. Ineligible costs include:
+      •   non-specific indirect and overhead costs
+      •   profit margins of applicant including (but not limited to) that associated with the applicant’s
+          supply or use of plant, labour or materials
+      •   costs that are reimbursable under other funding sources, including insurance, and
+      •   costs of works completed prior to approval of the betterment project.
+
+
+Funding
+  10. The total value of Category D Betterment Funding rounds vary, based on the extraordinary nature of
+      each particular disaster. Category E Betterment funding rounds also vary, based on distribution of
+      DRFA efficiencies (if available) to resilience and risk reduction measures across the state. The total
+      value of each Betterment Funding round is detailed in Annexure 2.
+  11. Betterment funding is calculated as the difference between the Category B estimated cost to restore
+      an eligible essential public asset to its pre-disaster function and the cost to build back the damaged
+      asset to a more resilient state.
+  12. Upper-limits of betterment funding applying to singular betterment projects vary between programs,
+      and are specified in Annexure 2. For the purposes of considering a singular betterment project:
+      •   A singular betterment ‘project’ is considered all betterment works to improve the resilience of a
+          single essential public asset.
+      •   Determining whether the Betterment works are deemed one ‘project’ involves a common-sense
+          approach to the location of the REPA eligible sites, the betterment works, asset and submission.
+  13. The upper-limit amount refers to the betterment component only, not the estimated total project cost.
+      An exemption to the upper limit may be considered for assets of national significance, assessed and
+      approved on a case-by-case basis, based on the applicant’s betterment project application.
+  14. Applicants may apply for betterment funding for more than one project.
+  15. Betterment funding is approved as a capped amount to an approved project. Only the actual eligible
+      cost, up to the capped amount and directly associated with delivering the approved betterment
+      works, is eligible for reimbursement.
+  16. Any funds not expended in the delivery of the project will be returned to the State for re-allocation
+      under the relevant Category D or Category E Betterment Fund.
+  17. Achieving improved resilience for Queensland communities requires commitment by all levels of
+      government, as such, applicants are required to provide a co-contribution to the project. A co-
+      contribution is considered an in-kind or monetary contribution from the applicant (or otherwise
+      sourced by the applicant), relating to eligible costs and/or costs associated with an enhanced or
+      increased project scope.
+  18. In recognition of limited revenue generating capacity, Indigenous councils are not required to make a
+      contribution.
+
+
+Assessment criteria
+  QRA will assess project proposals against the objectives, eligibility criteria and following assessment
+  criteria:
+  a) Issue identification: The proposed project addresses an assessed natural hazard risk. The project
+     is justified as the preferred option to address an identified need, risk or vulnerability (for example, as
+     identified in the State Disaster Risk Report or a local hazard risk assessment), and is supported by
+     an options analysis, which includes the potential outcome of inaction.
+  b) Cost-benefit analysis: The proposed project restores an essential public asset to a more resilient
+     standard so future costs associated with a disaster are reduced. The proposal includes the
+
+
+                                                                                                               2
+     preliminary estimate of proposed works, financial and non-financial benefits, and the avoided costs
+     when calculating benefits. Note: rigour of analysis is expected to vary according to the complexity,
+     risk profile and attributable cost of the proposed project, including any regulatory requirements.
+ c) Community benefits: The proposed project restores an essential public asset to a more resilient
+    standard so communities are more resilient to future disasters. The community resilience benefits of
+    the proposed project have been identified and quantified.
+ d) Evidence based: The proposed project is informed by investigation and/or consultation,
+    demonstrating a measured approach to the identified risk, the forecast effectiveness of the
+    betterment solution, and compliance with legislative requirements.
+ e) Innovation: The proposed project may demonstrate innovative mitigation solutions to long-standing
+    risks and may introduce new methods or approaches to enhance the existing landscape.
+ 19. In prioritising projects, QRA will consider:
+     •   whether local and regional needs are balanced
+     •   whether duplication of effort and funding is avoided
+     •   whether vulnerable groups/diverse populations are supported, and
+     •   whether alternative funding streams may be available for projects.
+ 20. The Chief Executive Officer, QRA provides final project approval.
+ 21. Details of unsuccessful betterment projects will be retained by QRA and may be reconsidered should
+     further funding become available.
+
+
+Timeframes/key dates
+ 22. Betterment projects should be lodged at time of lodging the corresponding REPA submission, unless
+     otherwise agreed with QRA. Although REPA submissions may be submitted to QRA up until nine
+     months after the end of the financial year of the event (i.e. by 30 March), it should be anticipated that
+     Betterment Funding rounds will be exhausted quickly, meaning applicants should endeavour to
+     submit their betterment projects as soon as possible for consideration.
+ 23. Where REPA submissions were lodged or approved prior to the announcement of Betterment
+     funding rounds, applicants should submit their betterment projects as soon as practicable as an
+     Estimate Update, including the approved REPA scope.
+ 24. Estimate Updates for approved projects with awarded tenders/contracts must be lodged to QRA by
+     no later than the 30 March deadline (per 22 above), unless otherwise agreed in writing with QRA.
+ 25. All approved projects must be completed within two financial years after the end of the financial year
+     of the event (i.e. if the event occurred in March 2020 the works must be completed by 30 June
+     2022).
+ 26. All approved project close-out submissions are due to QRA within three months of when the works
+     were completed, and by no later than three months after 30 June completion date at 25 above (i.e.
+     by 30 September).
+
+
+Application requirements
+ 27. Annexure 1 provides a MARS user guide for developing and lodging Betterment scope in a REPA
+     submission. Applicants will be required to prepare and lodge the betterment project together with the
+     corresponding REPA submission, including a completed betterment project application consisting of:
+         •   preliminary or detailed designs or specifications
+         •   options analysis / consideration
+         •   cost benefit analysis
+         •   details of resilience outcomes
+
+
+                                                                                                             3
+          •   results of investigation/consultation
+          •   project plan, and
+          •   demonstration of the co-contribution.
+
+
+
+
+Detailed design review
+  28. Where there are significant changes subsequent to the project approval, applicants must provide
+      QRA with updated project details for consideration, and where appropriate, an Estimate Update to
+      account for changes to the Category B component of the project (noting the betterment funding is
+      approved as a capped amount).
+
+
+Progress reporting
+  29. Monthly progress reporting is mandatory throughout project delivery, consistent with Section 9.5.5 of
+      the Queensland Disaster Funding Guidelines (QDFG). Monthly progress reports are created and
+      lodged via the MARS Portal, detailing:
+      •   actual expenditure reported against the approved capped amount
+      •   percentage of scope of works completed
+      •   project start and finish dates
+      •   reasons for, and details of, any variances in scope, cost or time, and
+      •   details of complementary works.
+  30. Once actual expenditure has exceeded the initial submission advance, applicants can progressively
+      claim expenditure incurred up to 90 per cent of the approved capped value or the Estimated Final
+      Cost, whichever is the lowest.
+  31. Claims for expenditure must be lodged with a progress report and a general ledger or transaction
+      report (or similar financial document produced from the applicant’s financial system) supporting the
+      claimed amount and demonstrating the actual expenditure incurred against the approved scope of
+      works.
+
+
+Extension of time
+  32. Extension of time (EOT) to the approved project completion date will only be considered in
+      exceptional circumstances. Applicants are required to formally request an EOT, detailing the
+      unforeseen circumstance impacting on project completion, the actions taken to minimise the impact,
+      and the adjusted project plan and milestones.
+  33. Regional Liaison Officers can assist with the process of formally lodging an EOT request.
+
+
+Project acquittal reports
+  34. Project acquittal reports must be consistent with Section 9.5.8 of the Queensland Disaster Funding
+      Guidelines (QDFG), and include:
+      •   final progress report detailing the completed works at line-item level and reasons for variances in
+          cost or scope delivered
+      •   final actual expenditure reported against the approved capped betterment funding
+      •   detailed general ledger or transaction reports evidencing the final expenditure claimed (including
+          details of final co-contributions), and
+
+
+
+                                                                                                             4
+      •   photo evidence demonstrating the completed betterment works.
+  35. Photographic evidence demonstrating the completed works should represent the extent of the
+      completed works - (JPG including EXIF metadata, GPS coordinates and time/date taken) at line-item
+      level.
+  36. The quantity and distribution of photographic evidence of the completed works should be sufficient to
+      enable assessment of the treatment type and extents of reconstruction and betterment works.
+  37. It is recommended that additional post construction photographic evidence be collected by the
+      applicant for use as pre-disaster evidence should a subsequent disaster occur in the following years.
+  38. Supporting documents are to be made available for sampling if requested by the QRA. This may
+      include:
+      •   internal costing/payroll reports for internal plant/payroll costs claimed to be available for
+          sampling
+      •   source documents such as tax invoices or requisitions to be available for sampling, and
+      •   timesheets to be available for sampling.
+  39. Following assessment and approval, the final eligible actual expenditure for the completed approved
+      scope of works, submitted and delivered according to required timeframes, less the co-contribution
+      (if applicable) is reimbursed.
+
+
+Monitoring and evaluation
+  40. The program will be evaluated against a series of key evaluation questions which cover the domains
+      of Appropriateness, Effectiveness, Efficiency, Impact and Sustainability. Ongoing monitoring and
+      evaluation of betterment projects will occur beyond the delivery of works.
+
+
+Assurance activities
+  41. Agencies/applicants may be required to provide documentation to support any assurance activities.
+      These assurance activities may include, but are not limited to:
+      •   audit, site visits or inspections
+      •   obtaining relevant documentary evidence to support estimated reconstruction costs and or value
+          for money assessments, and
+      •   verification reviews on measures or projects.
+
+
+Certification
+  42. All submissions, including progress reports, must be certified within MARS by the applicant in line
+      with its delegations.
+
+
+Goods and Services Tax (GST)
+  43. When claiming reimbursement of expenditure, the amount to be lodged must be the GST exclusive
+      actual cost incurred.
+
+
+Funding agreement
+  44. It is a requirement that all recipients of QRA funding enter into a Head Agreement with QRA.
+
+
+
+
+                                                                                                            5
+ 45. Where a recipient is successful in its application for funding, QRA will issue a Project Funding
+     Schedule which, when executed by both parties, will be considered a binding Project Funding
+     Agreement under the terms and conditions of the Head Agreement.
+ 46. The Project Funding Schedule will detail the terms and conditions specific to the approved funding,
+     including reference to the relevant funding guidelines that govern the program, funding type and
+     amount, key date and milestone schedules, payment claim and reporting requirements.
+
+
+Procurement
+ 47. The procurement of goods or services must be in accordance with the applicant’s procurement
+     policy. When procuring goods or services local governments must act in accordance with the Local
+     Government Act 2009 and the Local Government Regulation 2012 and their own procurement
+     policy. State government agencies must comply with the Queensland Procurement Policy.
+ 48. If expenditure is in breach of the applicant's procurement standards, reimbursement of these costs
+     are unable to be sought under the DRFA.
+
+
+Record keeping
+ 49. All agencies must keep an accurate audit trail.
+ 50. Records must be available for seven years from the end of the financial year the claim is acquitted
+     by the Australian Government.
+ 51. For assurance purposes, the Queensland and/or Australian Government may at any time, via QRA,
+     request documentation from agencies to evidence the state’s compliance with any aspect of the
+     DRFA. This may include, but not be limited to, access to project level information, to confirm
+     acquittal in accordance with the DRFA.
+
+
+Public acknowledgment of funding source
+ 52. Funding recipients must acknowledge relevant funding contributions in public materials. This
+     includes, but is not limited to:
+     •   Media releases regarding the approved project
+     •   Acknowledgement or statements in project publications and materials
+     •   Events that use or include reference to the approved project, and
+     •   Plaques and signage at construction sites or completed works.
+ 53. To comply with this requirement, all public advice and media releases should refer to the relevant
+     funding source, as detailed in the Project Funding Schedule/Agreement.
+ 54. Contact QRA for assistance and to coordinate approval for any materials by emailing
+     media@qra.qld.gov.au.
+
+
+
+
+                                                                                                           6
+Annexure 1 – Lodging Betterment
+
+Annexure 2 – Betterment Funding Rounds and
+eligible events
+
+
+
+
+                                             7
+

@@ -1,0 +1,55 @@
+column,role
+council,audit / alignment only; excluded from tree
+council_key,audit / alignment only; excluded from tree
+year_start,audit / alignment only; excluded from tree
+financial_year,audit / alignment only; excluded from tree
+fiscal_source_file,audit / alignment only; excluded from tree
+fiscal_source_sheet,audit / alignment only; excluded from tree
+fiscal_excel_row,audit / alignment only; excluded from tree
+actual_maintenance_aud,audit / alignment only; excluded from tree
+required_maintenance_aud,audit / alignment only; excluded from tree
+maintenance_gap_aud,audit / alignment only; excluded from tree
+maintenance_ratio_pct,prior predictor and/or target
+outcome_observed,audit / alignment only; excluded from tree
+outcome_quality_eligible,audit / alignment only; excluded from tree
+maintenance_conflict,audit / alignment only; excluded from tree
+cash_cover_months,prior predictor and/or target
+current_ratio,prior predictor and/or target
+operating_ratio_pct,prior predictor and/or target
+own_source_pct,prior predictor and/or target
+grants_pct,audit / alignment only; excluded from tree
+debt_service_cover,prior predictor and/or target
+population,prior predictor and/or target
+area_km2,audit / alignment only; excluded from tree
+road_km,prior predictor and/or target
+road_expenditure_aud,audit / alignment only; excluded from tree
+classification,audit / alignment only; excluded from tree
+fesm_burned_ha,event predictor
+fesm_burned_pct_raw,audit / alignment only; excluded from tree
+fesm_extent_only_ha,audit / alignment only; excluded from tree
+fesm_min_fire_size_ha_exclusive,audit / alignment only; excluded from tree
+fesm_source_file,audit / alignment only; excluded from tree
+fesm_excel_total_row,audit / alignment only; excluded from tree
+fesm_status,audit / alignment only; excluded from tree
+boundary_change_flag,audit / alignment only; excluded from tree
+boundary_compatibility,audit / alignment only; excluded from tree
+physical_flood_status,audit / alignment only; excluded from tree
+verified_zero_all_disaster_exposure,audit / alignment only; excluded from tree
+bushfire_declared_event_count,event predictor
+bushfire_agrns,audit / alignment only; excluded from tree
+bushfire_declaration_status,audit / alignment only; excluded from tree
+flood_declared_event_count,event predictor
+flood_agrns,audit / alignment only; excluded from tree
+flood_declaration_status,audit / alignment only; excluded from tree
+all_declared_event_count,audit / alignment only; excluded from tree
+all_agrns,audit / alignment only; excluded from tree
+all_declaration_status,audit / alignment only; excluded from tree
+source_list_disagreement_count,audit / alignment only; excluded from tree
+open_ended_onset_event_count,audit / alignment only; excluded from tree
+known_prior_year_carryover_count,audit / alignment only; excluded from tree
+prior_fy_declared_event_count,audit / alignment only; excluded from tree
+declaration_vs_fesm_scope_difference,audit / alignment only; excluded from tree
+candidate_no_new_declared_event,audit / alignment only; excluded from tree
+candidate_strict_scoped_comparison,audit / alignment only; excluded from tree
+direct_infrastructure_damage_documented,audit / alignment only; excluded from tree
+direct_infrastructure_evidence_ids,audit / alignment only; excluded from tree

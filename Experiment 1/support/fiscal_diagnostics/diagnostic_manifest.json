@@ -1,0 +1,20 @@
+{
+  "source_sha256": "d96fd82b53295460f5b7baacd7a10124d1b061826ad70f6148a6728d71d77bab",
+  "alpha_grid": [
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "test_years": [
+    2021,
+    2022,
+    2023
+  ],
+  "sklearn": "1.9.1",
+  "python": "3.12.14",
+  "tree_depth": 3,
+  "min_leaf": 20,
+  "inner_fallback": "deterministic GroupKFold by council, training data only",
+  "outer_training_rule": "training outcome year < test event year"
+}

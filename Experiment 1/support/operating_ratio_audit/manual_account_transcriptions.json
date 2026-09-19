@@ -1,0 +1,1874 @@
+[
+  {
+    "council_key": "carrathool",
+    "year_start": 2020,
+    "component": "rates_annual_charges",
+    "raw_value": 5492,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2020,
+    "component": "user_charges_fees",
+    "raw_value": 4640,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2020,
+    "component": "other_revenue",
+    "raw_value": 812,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2020,
+    "component": "operating_grants",
+    "raw_value": 13681,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2020,
+    "component": "capital_grants",
+    "raw_value": 3573,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2020,
+    "component": "interest_investment",
+    "raw_value": 139,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2020,
+    "component": "other_income",
+    "raw_value": 0,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2020,
+    "component": "disposal_gain",
+    "raw_value": 0,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2020,
+    "component": "employee_cost",
+    "raw_value": 7809,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2020,
+    "component": "materials_services",
+    "raw_value": 9741,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2020,
+    "component": "borrowing_cost",
+    "raw_value": 118,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2020,
+    "component": "depreciation_impairment",
+    "raw_value": 8124,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2020,
+    "component": "other_expense",
+    "raw_value": 417,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2020,
+    "component": "disposal_loss",
+    "raw_value": 166,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2020,
+    "component": "total_revenue_including_capital",
+    "raw_value": 28337,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2020,
+    "component": "total_expenses",
+    "raw_value": 26375,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2020,
+    "component": "result_before_capital",
+    "raw_value": -1611,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2021,
+    "component": "rates_annual_charges",
+    "raw_value": 5651,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2021,
+    "component": "user_charges_fees",
+    "raw_value": 4241,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2021,
+    "component": "other_revenue",
+    "raw_value": 613,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2021,
+    "component": "operating_grants",
+    "raw_value": 20510,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2021,
+    "component": "capital_grants",
+    "raw_value": 8046,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2021,
+    "component": "interest_investment",
+    "raw_value": 150,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2021,
+    "component": "other_income",
+    "raw_value": 0,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2021,
+    "component": "disposal_gain",
+    "raw_value": 170,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2021,
+    "component": "employee_cost",
+    "raw_value": 7804,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2021,
+    "component": "materials_services",
+    "raw_value": 8854,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2021,
+    "component": "borrowing_cost",
+    "raw_value": 542,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2021,
+    "component": "depreciation_impairment",
+    "raw_value": 6161,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2021,
+    "component": "other_expense",
+    "raw_value": 332,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2021,
+    "component": "disposal_loss",
+    "raw_value": 0,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2021,
+    "component": "total_revenue_including_capital",
+    "raw_value": 39381,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2021,
+    "component": "total_expenses",
+    "raw_value": 23693,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2021,
+    "component": "result_before_capital",
+    "raw_value": 7642,
+    "source_id": "carrathool_2022",
+    "page": 47,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2022,
+    "component": "rates_annual_charges",
+    "raw_value": 5766,
+    "source_id": "carrathool_2023",
+    "page": 52,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2022,
+    "component": "user_charges_fees",
+    "raw_value": 4366,
+    "source_id": "carrathool_2023",
+    "page": 52,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2022,
+    "component": "other_revenue",
+    "raw_value": 499,
+    "source_id": "carrathool_2023",
+    "page": 52,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2022,
+    "component": "operating_grants",
+    "raw_value": 21267,
+    "source_id": "carrathool_2023",
+    "page": 52,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2022,
+    "component": "capital_grants",
+    "raw_value": 3589,
+    "source_id": "carrathool_2023",
+    "page": 52,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2022,
+    "component": "interest_investment",
+    "raw_value": 1121,
+    "source_id": "carrathool_2023",
+    "page": 52,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2022,
+    "component": "other_income",
+    "raw_value": 0,
+    "source_id": "carrathool_2023",
+    "page": 52,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2022,
+    "component": "disposal_gain",
+    "raw_value": 174,
+    "source_id": "carrathool_2023",
+    "page": 52,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2022,
+    "component": "employee_cost",
+    "raw_value": 8378,
+    "source_id": "carrathool_2023",
+    "page": 52,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2022,
+    "component": "materials_services",
+    "raw_value": 8785,
+    "source_id": "carrathool_2023",
+    "page": 52,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2022,
+    "component": "borrowing_cost",
+    "raw_value": 195,
+    "source_id": "carrathool_2023",
+    "page": 52,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2022,
+    "component": "depreciation_impairment",
+    "raw_value": 6540,
+    "source_id": "carrathool_2023",
+    "page": 52,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2022,
+    "component": "other_expense",
+    "raw_value": 419,
+    "source_id": "carrathool_2023",
+    "page": 52,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2022,
+    "component": "disposal_loss",
+    "raw_value": 0,
+    "source_id": "carrathool_2023",
+    "page": 52,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2022,
+    "component": "total_revenue_including_capital",
+    "raw_value": 36782,
+    "source_id": "carrathool_2023",
+    "page": 52,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2022,
+    "component": "total_expenses",
+    "raw_value": 24317,
+    "source_id": "carrathool_2023",
+    "page": 52,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "carrathool",
+    "year_start": 2022,
+    "component": "result_before_capital",
+    "raw_value": 8876,
+    "source_id": "carrathool_2023",
+    "page": 52,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2020,
+    "component": "rates_annual_charges",
+    "raw_value": 31221,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2020,
+    "component": "user_charges_fees",
+    "raw_value": 15347,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2020,
+    "component": "other_revenue",
+    "raw_value": 1315,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2020,
+    "component": "operating_grants",
+    "raw_value": 23236,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2020,
+    "component": "capital_grants",
+    "raw_value": 9775,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2020,
+    "component": "interest_investment",
+    "raw_value": 1183,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2020,
+    "component": "other_income",
+    "raw_value": 844,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2020,
+    "component": "disposal_gain",
+    "raw_value": 0,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2020,
+    "component": "employee_cost",
+    "raw_value": 33425,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2020,
+    "component": "materials_services",
+    "raw_value": 27464,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2020,
+    "component": "borrowing_cost",
+    "raw_value": 487,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2020,
+    "component": "depreciation_impairment",
+    "raw_value": 22039,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2020,
+    "component": "other_expense",
+    "raw_value": 13950,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2020,
+    "component": "disposal_loss",
+    "raw_value": 640,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2020,
+    "component": "total_revenue_including_capital",
+    "raw_value": 82921,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2020,
+    "component": "total_expenses",
+    "raw_value": 98005,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2020,
+    "component": "result_before_capital",
+    "raw_value": -24859,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2021,
+    "component": "rates_annual_charges",
+    "raw_value": 32709,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2021,
+    "component": "user_charges_fees",
+    "raw_value": 18608,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2021,
+    "component": "other_revenue",
+    "raw_value": 3282,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2021,
+    "component": "operating_grants",
+    "raw_value": 30353,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2021,
+    "component": "capital_grants",
+    "raw_value": 22514,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2021,
+    "component": "interest_investment",
+    "raw_value": 1036,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2021,
+    "component": "other_income",
+    "raw_value": 990,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2021,
+    "component": "disposal_gain",
+    "raw_value": 0,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2021,
+    "component": "employee_cost",
+    "raw_value": 33182,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2021,
+    "component": "materials_services",
+    "raw_value": 32655,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2021,
+    "component": "borrowing_cost",
+    "raw_value": 266,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2021,
+    "component": "depreciation_impairment",
+    "raw_value": 19655,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2021,
+    "component": "other_expense",
+    "raw_value": 1625,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2021,
+    "component": "disposal_loss",
+    "raw_value": 818,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2021,
+    "component": "total_revenue_including_capital",
+    "raw_value": 109492,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2021,
+    "component": "total_expenses",
+    "raw_value": 88201,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2021,
+    "component": "result_before_capital",
+    "raw_value": -1223,
+    "source_id": "snowymonaro_17",
+    "page": 7,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2022,
+    "component": "rates_annual_charges",
+    "raw_value": 32536,
+    "source_id": "snowymonaro_14",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2022,
+    "component": "user_charges_fees",
+    "raw_value": 19675,
+    "source_id": "snowymonaro_14",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2022,
+    "component": "other_revenue",
+    "raw_value": 1645,
+    "source_id": "snowymonaro_14",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2022,
+    "component": "operating_grants",
+    "raw_value": 35607,
+    "source_id": "snowymonaro_14",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2022,
+    "component": "capital_grants",
+    "raw_value": 47431,
+    "source_id": "snowymonaro_14",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2022,
+    "component": "interest_investment",
+    "raw_value": 2814,
+    "source_id": "snowymonaro_14",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2022,
+    "component": "other_income",
+    "raw_value": 1055,
+    "source_id": "snowymonaro_14",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2022,
+    "component": "disposal_gain",
+    "raw_value": 0,
+    "source_id": "snowymonaro_14",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2022,
+    "component": "employee_cost",
+    "raw_value": 33297,
+    "source_id": "snowymonaro_14",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2022,
+    "component": "materials_services",
+    "raw_value": 35976,
+    "source_id": "snowymonaro_14",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2022,
+    "component": "borrowing_cost",
+    "raw_value": 951,
+    "source_id": "snowymonaro_14",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2022,
+    "component": "depreciation_impairment",
+    "raw_value": 23106,
+    "source_id": "snowymonaro_14",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2022,
+    "component": "other_expense",
+    "raw_value": 2009,
+    "source_id": "snowymonaro_14",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2022,
+    "component": "disposal_loss",
+    "raw_value": 629,
+    "source_id": "snowymonaro_14",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2022,
+    "component": "total_revenue_including_capital",
+    "raw_value": 140763,
+    "source_id": "snowymonaro_14",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2022,
+    "component": "total_expenses",
+    "raw_value": 95968,
+    "source_id": "snowymonaro_14",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2022,
+    "component": "result_before_capital",
+    "raw_value": -2636,
+    "source_id": "snowymonaro_14",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2021,
+    "component": "rates_annual_charges",
+    "raw_value": 13189,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2021,
+    "component": "user_charges_fees",
+    "raw_value": 4385,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2021,
+    "component": "other_revenue",
+    "raw_value": 410,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2021,
+    "component": "operating_grants",
+    "raw_value": 10600,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2021,
+    "component": "capital_grants",
+    "raw_value": 14474,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2021,
+    "component": "interest_investment",
+    "raw_value": 204,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2021,
+    "component": "other_income",
+    "raw_value": 12,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2021,
+    "component": "disposal_gain",
+    "raw_value": 0,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2021,
+    "component": "employee_cost",
+    "raw_value": 9513,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2021,
+    "component": "materials_services",
+    "raw_value": 11207,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2021,
+    "component": "borrowing_cost",
+    "raw_value": 250,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2021,
+    "component": "depreciation_impairment",
+    "raw_value": 12946,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2021,
+    "component": "other_expense",
+    "raw_value": 581,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2021,
+    "component": "disposal_loss",
+    "raw_value": 215,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2021,
+    "component": "total_revenue_including_capital",
+    "raw_value": 43274,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2021,
+    "component": "total_expenses",
+    "raw_value": 34712,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2021,
+    "component": "result_before_capital",
+    "raw_value": -5912,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2022,
+    "component": "rates_annual_charges",
+    "raw_value": 14034,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2022,
+    "component": "user_charges_fees",
+    "raw_value": 5300,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2022,
+    "component": "other_revenue",
+    "raw_value": 420,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2022,
+    "component": "operating_grants",
+    "raw_value": 16925,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2022,
+    "component": "capital_grants",
+    "raw_value": 19087,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2022,
+    "component": "interest_investment",
+    "raw_value": 773,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2022,
+    "component": "other_income",
+    "raw_value": 602,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2022,
+    "component": "disposal_gain",
+    "raw_value": 0,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2022,
+    "component": "employee_cost",
+    "raw_value": 9731,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2022,
+    "component": "materials_services",
+    "raw_value": 14795,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2022,
+    "component": "borrowing_cost",
+    "raw_value": 444,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2022,
+    "component": "depreciation_impairment",
+    "raw_value": 13656,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2022,
+    "component": "other_expense",
+    "raw_value": 378,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2022,
+    "component": "disposal_loss",
+    "raw_value": 932,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2022,
+    "component": "total_revenue_including_capital",
+    "raw_value": 57141,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2022,
+    "component": "total_expenses",
+    "raw_value": 39936,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "liverpoolplains",
+    "year_start": 2022,
+    "component": "result_before_capital",
+    "raw_value": -1882,
+    "source_id": "liverpoolplains_5",
+    "page": 5,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2020,
+    "component": "rates_annual_charges",
+    "raw_value": 4553,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2020,
+    "component": "user_charges_fees",
+    "raw_value": 1047,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2020,
+    "component": "other_revenue",
+    "raw_value": 62,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2020,
+    "component": "operating_grants",
+    "raw_value": 7008,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2020,
+    "component": "capital_grants",
+    "raw_value": 8574,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2020,
+    "component": "interest_investment",
+    "raw_value": 48,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2020,
+    "component": "other_income",
+    "raw_value": 86,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2020,
+    "component": "disposal_gain",
+    "raw_value": 100,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2020,
+    "component": "employee_cost",
+    "raw_value": 4241,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2020,
+    "component": "materials_services",
+    "raw_value": 4585,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2020,
+    "component": "borrowing_cost",
+    "raw_value": 92,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2020,
+    "component": "depreciation_impairment",
+    "raw_value": 3628,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2020,
+    "component": "other_expense",
+    "raw_value": 278,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2020,
+    "component": "disposal_loss",
+    "raw_value": 0,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2020,
+    "component": "total_revenue_including_capital",
+    "raw_value": 21478,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2020,
+    "component": "total_expenses",
+    "raw_value": 12824,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2020,
+    "component": "result_before_capital",
+    "raw_value": 80,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2021,
+    "component": "rates_annual_charges",
+    "raw_value": 4721,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2021,
+    "component": "user_charges_fees",
+    "raw_value": 1077,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2021,
+    "component": "other_revenue",
+    "raw_value": 85,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2021,
+    "component": "operating_grants",
+    "raw_value": 8500,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2021,
+    "component": "capital_grants",
+    "raw_value": 6067,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2021,
+    "component": "interest_investment",
+    "raw_value": 31,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2021,
+    "component": "other_income",
+    "raw_value": 103,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2021,
+    "component": "disposal_gain",
+    "raw_value": 0,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2021,
+    "component": "employee_cost",
+    "raw_value": 4254,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2021,
+    "component": "materials_services",
+    "raw_value": 4487,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2021,
+    "component": "borrowing_cost",
+    "raw_value": 75,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2021,
+    "component": "depreciation_impairment",
+    "raw_value": 3621,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2021,
+    "component": "other_expense",
+    "raw_value": 209,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2021,
+    "component": "disposal_loss",
+    "raw_value": 624,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2021,
+    "component": "total_revenue_including_capital",
+    "raw_value": 20584,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2021,
+    "component": "total_expenses",
+    "raw_value": 13270,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "hay",
+    "year_start": 2021,
+    "component": "result_before_capital",
+    "raw_value": 1247,
+    "source_id": "hay_2022",
+    "page": 6,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2022,
+    "component": "rates_annual_charges",
+    "raw_value": 19096,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2022,
+    "component": "user_charges_fees",
+    "raw_value": 9097,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2022,
+    "component": "other_revenue",
+    "raw_value": 1567,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2022,
+    "component": "operating_grants",
+    "raw_value": 21270,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2022,
+    "component": "capital_grants",
+    "raw_value": 33698,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2022,
+    "component": "interest_investment",
+    "raw_value": 1599,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2022,
+    "component": "other_income",
+    "raw_value": 287,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2022,
+    "component": "disposal_gain",
+    "raw_value": 0,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2022,
+    "component": "employee_cost",
+    "raw_value": 19288,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2022,
+    "component": "materials_services",
+    "raw_value": 22817,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2022,
+    "component": "borrowing_cost",
+    "raw_value": 382,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2022,
+    "component": "depreciation_impairment",
+    "raw_value": 23245,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2022,
+    "component": "other_expense",
+    "raw_value": 1061,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2022,
+    "component": "disposal_loss",
+    "raw_value": 4800,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2022,
+    "component": "total_revenue_including_capital",
+    "raw_value": 86614,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2022,
+    "component": "total_expenses",
+    "raw_value": 71593,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2022,
+    "component": "result_before_capital",
+    "raw_value": -18677,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2023,
+    "component": "rates_annual_charges",
+    "raw_value": 21553,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2023,
+    "component": "user_charges_fees",
+    "raw_value": 12940,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2023,
+    "component": "other_revenue",
+    "raw_value": 1361,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2023,
+    "component": "operating_grants",
+    "raw_value": 20156,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2023,
+    "component": "capital_grants",
+    "raw_value": 54203,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2023,
+    "component": "interest_investment",
+    "raw_value": 3025,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2023,
+    "component": "other_income",
+    "raw_value": 601,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2023,
+    "component": "disposal_gain",
+    "raw_value": 0,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2023,
+    "component": "employee_cost",
+    "raw_value": 21180,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2023,
+    "component": "materials_services",
+    "raw_value": 20392,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2023,
+    "component": "borrowing_cost",
+    "raw_value": 348,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2023,
+    "component": "depreciation_impairment",
+    "raw_value": 20884,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2023,
+    "component": "other_expense",
+    "raw_value": 1100,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2023,
+    "component": "disposal_loss",
+    "raw_value": 9203,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2023,
+    "component": "total_revenue_including_capital",
+    "raw_value": 113839,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2023,
+    "component": "total_expenses",
+    "raw_value": 73107,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "murrayriver",
+    "year_start": 2023,
+    "component": "result_before_capital",
+    "raw_value": -13471,
+    "source_id": "murrayriver_5",
+    "page": 4,
+    "definition_caveat": "Audited income statement, actual column; AUD thousands. Not the adjusted operating-ratio numerator."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2020,
+    "component": "adjusted_OP_numerator",
+    "raw_value": -22143,
+    "source_id": "snowymonaro_18",
+    "page": 83,
+    "definition_caveat": "Audited performance-measure note, adjusted OP amounts; AUD thousands. Exact numerator/denominator used in arithmetic bridge."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2020,
+    "component": "adjusted_OP_denominator",
+    "raw_value": 73146,
+    "source_id": "snowymonaro_18",
+    "page": 83,
+    "definition_caveat": "Audited performance-measure note, adjusted OP amounts; AUD thousands. Exact numerator/denominator used in arithmetic bridge."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2022,
+    "component": "adjusted_OP_numerator",
+    "raw_value": -2003,
+    "source_id": "snowymonaro_14",
+    "page": 74,
+    "definition_caveat": "Audited performance-measure note, adjusted OP amounts; AUD thousands. Exact numerator/denominator used in arithmetic bridge."
+  },
+  {
+    "council_key": "snowymonaro",
+    "year_start": 2022,
+    "component": "adjusted_OP_denominator",
+    "raw_value": 93332,
+    "source_id": "snowymonaro_14",
+    "page": 74,
+    "definition_caveat": "Audited performance-measure note, adjusted OP amounts; AUD thousands. Exact numerator/denominator used in arithmetic bridge."
+  }
+]

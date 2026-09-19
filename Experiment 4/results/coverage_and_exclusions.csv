@@ -1,0 +1,6 @@
+council_key,category_chains,ordinary_scope_certified,complete_ordinary_chains,excluded_from_causal_modelling,exclusion,B0_observed,B0_missing,Q1_observed,Q1_missing,Q2_observed,Q2_missing,Q3_observed,Q3_missing,ACTUAL_observed,ACTUAL_missing
+eurobodalla,24,0,0,24,No certified fixed ordinary portfolio with matched year-end actual; other issues in cleaning log,24,0,24,0,24,0,24,0,0,24
+griffith,5,0,0,5,No certified fixed ordinary portfolio with matched year-end actual; other issues in cleaning log,5,0,5,0,5,0,5,0,0,5
+lismore,14,0,0,14,No certified fixed ordinary portfolio with matched year-end actual; other issues in cleaning log,14,0,14,0,14,0,14,0,0,14
+richmondvalley,32,0,0,32,No certified fixed ordinary portfolio with matched year-end actual; other issues in cleaning log,32,0,32,0,32,0,32,0,0,32
+waggawagga,4,0,0,4,No certified fixed ordinary portfolio with matched year-end actual; other issues in cleaning log,0,4,4,0,4,0,4,0,0,4

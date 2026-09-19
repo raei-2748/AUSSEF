@@ -1,0 +1,77 @@
+{
+  "Location_Name": {
+    "meaning": "Recorded geographic label; neither applicant nor payee identifier",
+    "definition_verification": "Interpretation consistent with records; publisher field-level definition absent",
+    "definition_source": "https://data.gov.au/data/api/3/action/package_show?id=10ba7303-e3af-41b4-98b5-e04db77caea8"
+  },
+  "Location_Type": {
+    "meaning": "LGA or SAL. SAL means suburb/locality in ABS geography; LGA includes unincorporated areas, not necessarily an elected council",
+    "definition_verification": "Values verified; ABS SAL definition verified; export boundary vintage unknown",
+    "definition_source": "https://data.gov.au/data/api/3/action/package_show?id=10ba7303-e3af-41b4-98b5-e04db77caea8"
+  },
+  "Location_code": {
+    "meaning": "Recorded geographic code; preserve as text. ABS-like values; geographic vintage and historical boundary crosswalk not specified",
+    "definition_verification": "Interpretation consistent with records; publisher field-level definition absent",
+    "definition_source": "https://data.gov.au/data/api/3/action/package_show?id=10ba7303-e3af-41b4-98b5-e04db77caea8"
+  },
+  "STATE": {
+    "meaning": "Recorded state/territory label; enforce state when linking similarly named locations",
+    "definition_verification": "Interpretation consistent with records; publisher field-level definition absent",
+    "definition_source": "https://data.gov.au/data/api/3/action/package_show?id=10ba7303-e3af-41b4-98b5-e04db77caea8"
+  },
+  "event_name": {
+    "meaning": "Human-readable event description containing AGRN and sometimes onset/end dates; not a single measure or decision",
+    "definition_verification": "Interpretation consistent with records; publisher field-level definition absent",
+    "definition_source": "https://data.gov.au/data/api/3/action/package_show?id=10ba7303-e3af-41b4-98b5-e04db77caea8"
+  },
+  "agrn": {
+    "meaning": "Australian Government Reference Number identifying a registered disaster; does not identify a funding application, package or independent physical event",
+    "definition_verification": "Official DisasterAssist pages label matching AGRNs",
+    "definition_source": "https://data.gov.au/data/api/3/action/package_show?id=10ba7303-e3af-41b4-98b5-e04db77caea8"
+  },
+  "cat_A": {
+    "meaning": "Binary recorded Category A flag. Policy category: personal hardship/distress; export zero encoding undocumented",
+    "definition_verification": "Interpretation consistent with records; publisher field-level definition absent",
+    "definition_source": "https://data.gov.au/data/api/3/action/package_show?id=10ba7303-e3af-41b4-98b5-e04db77caea8"
+  },
+  "cat_B": {
+    "meaning": "Binary recorded Category B flag. Policy category includes essential public asset recovery and other loans/subsidies; export zero encoding undocumented",
+    "definition_verification": "Interpretation consistent with records; publisher field-level definition absent",
+    "definition_source": "https://data.gov.au/data/api/3/action/package_show?id=10ba7303-e3af-41b4-98b5-e04db77caea8"
+  },
+  "cat_C": {
+    "meaning": "Binary recorded C activation indicator; cannot interpret as receipt. Category C comprises recovery funds or sector recovery measures. 0 only establishes recorded flag absence, not eligible denial. Mapping of multiple measures to flag undocumented",
+    "definition_verification": "Interpretation consistent with records; publisher field-level definition absent",
+    "definition_source": "https://data.gov.au/data/api/3/action/package_show?id=10ba7303-e3af-41b4-98b5-e04db77caea8"
+  },
+  "cat_D": {
+    "meaning": "Binary recorded D activation indicator for exceptional relief/recovery beyond A\u2013C; heterogeneous programs. 0 does not establish eligible denial or no funding",
+    "definition_verification": "Interpretation consistent with records; publisher field-level definition absent",
+    "definition_source": "https://data.gov.au/data/api/3/action/package_show?id=10ba7303-e3af-41b4-98b5-e04db77caea8"
+  },
+  "highest_drfa_category_group": {
+    "meaning": "Observed broad A/B or C/D grouping (and any other observed values); overlaps target flags, so never a predictor of C/D",
+    "definition_verification": "Interpretation consistent with records; publisher field-level definition absent",
+    "definition_source": "https://data.gov.au/data/api/3/action/package_show?id=10ba7303-e3af-41b4-98b5-e04db77caea8"
+  },
+  "AGDRP": {
+    "meaning": "Recorded Australian Government Disaster Recovery Payment indicator; separate individual-assistance scheme. Flag does not report payment amount or approved council receipt",
+    "definition_verification": "Interpretation consistent with records; publisher field-level definition absent",
+    "definition_source": "https://data.gov.au/data/api/3/action/package_show?id=10ba7303-e3af-41b4-98b5-e04db77caea8"
+  },
+  "DRA": {
+    "meaning": "Recorded Disaster Recovery Allowance indicator; income support to eligible individuals, not council assistance receipt",
+    "definition_verification": "Interpretation consistent with records; publisher field-level definition absent",
+    "definition_source": "https://data.gov.au/data/api/3/action/package_show?id=10ba7303-e3af-41b4-98b5-e04db77caea8"
+  },
+  "hazard_type": {
+    "meaning": "Recorded hazard grouping; one missing entry; event names may contain multiple hazards. Not intensity/damage/need",
+    "definition_verification": "Interpretation consistent with records; publisher field-level definition absent",
+    "definition_source": "https://data.gov.au/data/api/3/action/package_show?id=10ba7303-e3af-41b4-98b5-e04db77caea8"
+  },
+  "disaster_start_date": {
+    "meaning": "Recorded disaster onset date; not category approval, LGA addition, application, announcement or cash receipt date",
+    "definition_verification": "Interpretation consistent with records; publisher field-level definition absent",
+    "definition_source": "https://data.gov.au/data/api/3/action/package_show?id=10ba7303-e3af-41b4-98b5-e04db77caea8"
+  }
+}

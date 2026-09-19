@@ -1,0 +1,26 @@
+observation_id,disaster_id,council_key,date,date_type,limitation,source_id,underlying_source_url
+D1,event:1012,lismore,2022-02-22,DRFA event start,"Regional activation start, not local flood onset",event_timeline,
+D2,event:1012,richmondvalley,2022-02-22,DRFA event start,"Regional activation start, not local flood onset",event_timeline,
+D3,event:1012,lismore,2022-02-28,Local gauge flood peak,14.4m; does not specify first damage time to each project,event_timeline,https://www.lismore.nsw.gov.au/Community/Natural-hazards-and-emergency-information/Flood-information-for-Lismore1/Flood-history
+D4,event:1012,richmondvalley,2022-02-28,Local extreme rainfall date,"Casino daily rainfall; flood arrival varies by locality, exact project impact remains unknown",event_timeline,https://richmondvalley.nsw.gov.au/wp-content/uploads/2022/04/RV-Flooding-EIS-PUBLIC-REPORT-April-2022.pdf
+D5,event:Black Summer,eurobodalla,2019-11-26,Fire ignition,"Currowan ignition; same date as Q1 adoption, not proof of local asset damage that day",event_timeline,https://www.esc.nsw.gov.au/__data/assets/pdf_file/0011/163001/E.ANNUAL-REPORT-2019-2020-FINAL.pdf
+D6,event:Black Summer,eurobodalla,2019-12-31,Major local fire impact,"Major impact day; other firestorm days in January, not one-day treatment",event_timeline,https://www.esc.nsw.gov.au/__data/assets/pdf_file/0006/159018/Six-Monthly-Report-for-25-Feb-Meeting.pdf
+D7,event:follow-on flood,eurobodalla,2020-02-10,Local flood event,Q3 also contains flood and COVID disruption,event_timeline,https://www.esc.nsw.gov.au/__data/assets/pdf_file/0011/163001/E.ANNUAL-REPORT-2019-2020-FINAL.pdf
+D8,event:987,eurobodalla,2021-11-09,Other DRFA event start,Local physical footprint/onset not certified,event_timeline,
+D9,event:1034,eurobodalla,2022-09-14,Other DRFA event start,Local physical footprint/onset not certified,event_timeline,
+D10,event:1001,griffith,2022-01-05,Other DRFA event start,Local physical footprint/onset not certified,event_timeline,
+D11,event:1030,griffith,2022-08-04,Other DRFA event start,Local physical footprint/onset not certified,event_timeline,
+D12,event:1034,griffith,2022-09-14,Other DRFA event start,Local physical footprint/onset not certified,event_timeline,
+D13,event:987,lismore,2021-11-09,Other DRFA event start,Local physical footprint/onset not certified,event_timeline,
+D14,event:1034,lismore,2022-09-14,Other DRFA event start,Local physical footprint/onset not certified,event_timeline,
+D15,event:987,richmondvalley,2021-11-09,Other DRFA event start,Local physical footprint/onset not certified,event_timeline,
+D16,event:1034,richmondvalley,2022-09-14,Other DRFA event start,Local physical footprint/onset not certified,event_timeline,
+D17,event:1030,waggawagga,2022-08-04,Other DRFA event start,Local physical footprint/onset not certified,event_timeline,
+D18,event:1034,waggawagga,2022-09-14,Other DRFA event start,Local physical footprint/onset not certified,event_timeline,
+SV_jan2022,snowy_q3_mention:jan2022,snowyvalleys,,reported_event_month_or_name_only,Reported month January 2022; exact onset and AGRN unknown; QBR PDF page7; not asset-level damage evidence,snowy_q3_2022,https://www.snowyvalleys.nsw.gov.au/files/assets/public/meeting-minutes-amp-agendas/council-meetings/20220519/10.4-attachment-1-quarterly-budget-review-quarter-3-31-march-2022.pdf
+SV_nov_unknown,snowy_q3_mention:nov_unknown,snowyvalleys,,reported_event_month_or_name_only,Year not printed in this note; do not silently assign November 2021; QBR PDF page7; not asset-level damage evidence,snowy_q3_2022,https://www.snowyvalleys.nsw.gov.au/files/assets/public/meeting-minutes-amp-agendas/council-meetings/20220519/10.4-attachment-1-quarterly-budget-review-quarter-3-31-march-2022.pdf
+SV_feb2021,snowy_q3_mention:feb2021,snowyvalleys,,reported_event_month_or_name_only,Earlier-event emergency works; payment recognition in Q3 is not occurrence date; QBR PDF page7; not asset-level damage evidence,snowy_q3_2022,https://www.snowyvalleys.nsw.gov.au/files/assets/public/meeting-minutes-amp-agendas/council-meetings/20220519/10.4-attachment-1-quarterly-budget-review-quarter-3-31-march-2022.pdf
+SV_oct2020,snowy_q3_mention:oct2020,snowyvalleys,,reported_event_month_or_name_only,Earlier-event emergency works; exact day and AGRN unknown; QBR PDF page7; not asset-level damage evidence,snowy_q3_2022,https://www.snowyvalleys.nsw.gov.au/files/assets/public/meeting-minutes-amp-agendas/council-meetings/20220519/10.4-attachment-1-quarterly-budget-review-quarter-3-31-march-2022.pdf
+ballina_DRFA_943,event:943,ballina,2020-12-10,regional_disaster_start_in_activation_register,"Not local inundation onset, declaration publication date, or project damage; register coverage must not imply negative exposure outside listed entries",supplied_drfa_20260811,
+ballina_DRFA_960,event:960,ballina,2021-03-10,regional_disaster_start_in_activation_register,"Not local inundation onset, declaration publication date, or project damage; register coverage must not imply negative exposure outside listed entries",supplied_drfa_20260811,
+ballina_DRFA_1012,event:1012,ballina,2022-02-22,regional_disaster_start_in_activation_register,"Not local inundation onset, declaration publication date, or project damage; register coverage must not imply negative exposure outside listed entries",supplied_drfa_20260811,

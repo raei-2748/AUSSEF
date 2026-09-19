@@ -1,0 +1,19 @@
+{
+  "existing_files_checked": 623,
+  "existing_files_changed": [],
+  "fiscal_backbone_councils": 103,
+  "panel_rows": 36,
+  "panel_councils": 6,
+  "treated_councils": 3,
+  "independent_selected_event_groups": 2,
+  "comparison_screen_rows": 306,
+  "selected_comparison_links": 4,
+  "selected_unique_comparisons": 3,
+  "certified_primary_outcomes": 0,
+  "causal_control_rows": 0,
+  "documentary_observations": 37,
+  "models_fitted": 0,
+  "source_panels_unchanged": true,
+  "unknown_not_filled_with_zero": true,
+  "source_access_attempts": 35
+}

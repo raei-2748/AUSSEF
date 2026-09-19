@@ -1,0 +1,26 @@
+[
+  {
+    "source_id": "nema_catalog",
+    "url": "https://data.gov.au/data/organization/national-emergency-management-agency?res_format=CSV",
+    "status": 200,
+    "file": "sources/nema_catalog.html",
+    "sha256": "37962cfe9a59eac8b8b9a6106235e8f97b51a126aac463754c22e72ac894e935",
+    "retrieved": "2026-09-18"
+  },
+  {
+    "source_id": "fesm_archive_2012",
+    "url": "https://datasets.seed.nsw.gov.au/api/3/action/package_show?id=historical-fire-extent-and-severity-mapping-fesm-statewide-201213",
+    "status": 200,
+    "file": "sources/fesm_archive_2012.json",
+    "sha256": "ae959f828c04f30df56a97ae5bddda8cd42d953a9c9b91af4a354ed3d27530af",
+    "retrieved": "2026-09-18"
+  },
+  {
+    "source_id": "fesm_reports",
+    "url": "https://www.environment.nsw.gov.au/topics/animals-and-plants/native-vegetation/landcover-science/past-landcover-reporting",
+    "status": 200,
+    "file": "sources/fesm_reports.html",
+    "sha256": "d3eb29d5f28a055c5b6fab2c5e253ae8bd42a3420dd3538f87ae1ed31e711611",
+    "retrieved": "2026-09-18"
+  }
+]

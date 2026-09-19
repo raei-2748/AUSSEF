@@ -1,0 +1,9 @@
+target_year,announcement_date,announced_target_fag_advance_pct,source_url,source_location,caveat,available_before_target
+2017,2017-06-08,50,https://www.olg.nsw.gov.au/wp-content/uploads/2020/12/GC-145.pdf,"GC145, p1","First two instalments announced; 50% approximation, not final entitlement",True
+2018,2018-06-21,50,https://www.olg.nsw.gov.au/wp-content/uploads/GC-147-2018-19-Financial-Assistance-Grants-FAGs-%E2%80%93-advance-payment-and-transition-to-implement-improvements-to-the-existing-allocation-model.pdf,"GC147, p1","Approximate advance, balance adjusted later",True
+2019,2019-06-18,52,https://www.olg.nsw.gov.au/wp-content/uploads/2020/12/GC-148.pdf,"GC148, p1","Approximately 52%, not 50%; final entitlement pending",True
+2020,2020-05-27,50,https://www.olg.nsw.gov.au/sites/default/files/2026-01/grants-commission-circular-GC-149-2020-21-financial-assistance-grants–advance-payment.pdf,"GC149, p1",Approximately 50%; final entitlement pending,True
+2021,2021-06-09,50,https://www.olg.nsw.gov.au/sites/default/files/2026-01/council-circular-gc-150-2021-22-financial-assistance-grants–advance-payment.pdf,"GC150, p1",Approximately 50%; final entitlement pending,True
+2022,2022-04-12,75,https://www.olg.nsw.gov.au/sites/default/files/2026-03/council-circular-gc-150-2022-23-financial-assistance-grants-advance-payment.pdf,"GC151, p1; filename incorrectly says150",Approximately 75%; announced before target starts,True
+2023,2023-06-28,100,https://www.olg.nsw.gov.au/sites/default/files/2026-01/grants-commission-circular-gc-152-2023-24-financial-assistance-grants-advance-payment.pdf,"GC152, p1",Approximately 100%; final adjustment pending,True
+2024,2024-06-28,85,https://www.olg.nsw.gov.au/sites/default/files/2026-01/grants-commission-circular-gc-153-2024-25-financial-assistance-grants–advance-payment.pdf,"GC153, p1; visually inspected",Approximately 85%; announcement verified but primary target uncollected,True

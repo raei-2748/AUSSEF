@@ -1,0 +1,28 @@
+field,unit_type,definition
+council_key,string,Stable existing E3 identifier; not display name
+year_start / financial_year,integer/string,July–June year; no calendar-year pooling
+category_id,string,Council-prefixed analyst key; not an official project ID
+official_category_id / official_project_id,string,Source-issued code; blank means unavailable
+project_record_id,string,Analyst evidence ID; not original ledger ID
+B0_aud,nominal AUD,Original column in review; pre-event portfolio/adoption verification separate
+Q1_aud / Q2_aud / Q3_aud,nominal AUD,"Full-year forecast at review, not quarterly spending; inspect approval"
+ACTUAL_aud,nominal AUD,"Same-scope year-end actual, missing throughout; no cash-total substitution"
+carryover_aud,nominal AUD,Prior-year carryovers where available; not original budget
+*_source_id / *_source_url / *_page,string,Trace value to source and physical PDF page or HTML table
+*_status / quality_status,enum,"Observed, missing_not_reconstructed, quarantined_source_conflict; no imputation"
+budget_revision_aud,signed nominal AUD,Negative lowers current-year budget; not necessarily lifetime project cost
+scope_class / spending_class,enum,Mixed/unverified; ordinary_candidate; reconstruction; direct damage; damage assessment pending; scope transfer; scope review
+ordinary_scope_verified / causal_eligible,boolean,False throughout; candidates are not certified outcomes
+reference_period_end,date,"Sep30/Dec31/Mar31 cutoff, not decision or publication"
+decision_date / decision_status,date/enum,Minutes-verified adoption; unverified dates blank
+publication_date,date,First availability of exact vintage; not download/HTTP-modified; unverified here
+date_type,string,DRFA start vs ignition vs local impact/peak
+pre_cash_cover_months,months,Prior-year cash-expense cover; vintage flagged
+pre_operating_ratio_pct / pre_own_source_pct,percent,Prior-year OLG fiscal measurements
+pre_current_ratio / pre_debt_service_cover,ratio,Prior-year ratios; denominator quality retained
+pre_population / pre_road_km,persons/km,Prior-year scale
+annual_cash_pairs amounts,nominal AUD,"All-IPPE original and actual; source thousands ×1000, positive outflows"
+residual_aud,AUD,Reported minus expected reconciliation value; errors retained
+verified_zero_all_hazard_exposure,boolean,False: mapped/declaration zero is not all-hazard physical zero
+rephased_to_fy,year,Documented future allocation year; blank unknown
+year_end_completion_status,string,"Exact project completion, not completion of an associated planning action"

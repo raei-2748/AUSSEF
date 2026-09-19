@@ -1,0 +1,740 @@
+agrn,Location_code,Location_Name,STATE,council_key,join_rule,boundary_vintage_verified
+960,10180,Armidale,New South Wales,,unmatched; outside frozen 103 councils,False
+1012,10180,Armidale,New South Wales,,unmatched; outside frozen 103 councils,False
+1198,10180,Armidale,New South Wales,,unmatched; outside frozen 103 councils,False
+1212,10180,Armidale,New South Wales,,unmatched; outside frozen 103 councils,False
+960,10250,Ballina,New South Wales,ballina,exact normalized name/key; NSW only,False
+1012,10250,Ballina,New South Wales,ballina,exact normalized name/key; NSW only,False
+1198,10250,Ballina,New South Wales,ballina,exact normalized name/key; NSW only,False
+960,10470,Bathurst,New South Wales,bathurst,exact normalized name/key; NSW only,False
+1012,10500,Bayside (NSW),New South Wales,,unmatched; outside frozen 103 councils,False
+960,10550,Bega Valley,New South Wales,begavalley,exact normalized name/key; NSW only,False
+1012,10550,Bega Valley,New South Wales,begavalley,exact normalized name/key; NSW only,False
+1212,10550,Bega Valley,New South Wales,begavalley,exact normalized name/key; NSW only,False
+960,10600,Bellingen,New South Wales,bellingen,exact normalized name/key; NSW only,False
+1012,10600,Bellingen,New South Wales,bellingen,exact normalized name/key; NSW only,False
+1198,10600,Bellingen,New South Wales,bellingen,exact normalized name/key; NSW only,False
+1212,10600,Bellingen,New South Wales,bellingen,exact normalized name/key; NSW only,False
+960,10750,Blacktown,New South Wales,blacktown,exact normalized name/key; NSW only,False
+1012,10750,Blacktown,New South Wales,blacktown,exact normalized name/key; NSW only,False
+960,10900,Blue Mountains,New South Wales,bluemountains,exact normalized name/key; NSW only,False
+1012,10900,Blue Mountains,New South Wales,bluemountains,exact normalized name/key; NSW only,False
+960,10950,Bogan,New South Wales,bogan,exact normalized name/key; NSW only,False
+960,11200,Brewarrina,New South Wales,brewarrina,exact normalized name/key; NSW only,False
+960,11350,Byron,New South Wales,byron,exact normalized name/key; NSW only,False
+1012,11350,Byron,New South Wales,byron,exact normalized name/key; NSW only,False
+1198,11350,Byron,New South Wales,byron,exact normalized name/key; NSW only,False
+960,11400,Cabonne,New South Wales,cabonne,exact normalized name/key; NSW only,False
+960,11450,Camden,New South Wales,camden,exact normalized name/key; NSW only,False
+1012,11450,Camden,New South Wales,camden,exact normalized name/key; NSW only,False
+1212,11450,Camden,New South Wales,camden,exact normalized name/key; NSW only,False
+960,11500,Campbelltown (NSW),New South Wales,campbelltown,exact normalized name/key; NSW only,False
+1012,11500,Campbelltown (NSW),New South Wales,campbelltown,exact normalized name/key; NSW only,False
+960,11570,Canterbury-Bankstown,New South Wales,,unmatched; outside frozen 103 councils,False
+1012,11570,Canterbury-Bankstown,New South Wales,,unmatched; outside frozen 103 councils,False
+960,11650,Central Coast (NSW),New South Wales,,unmatched; outside frozen 103 councils,False
+1012,11650,Central Coast (NSW),New South Wales,,unmatched; outside frozen 103 councils,False
+1212,11650,Central Coast (NSW),New South Wales,,unmatched; outside frozen 103 councils,False
+960,11700,Central Darling,New South Wales,centraldarling,exact normalized name/key; NSW only,False
+960,11720,Cessnock,New South Wales,cessnock,exact normalized name/key; NSW only,False
+1012,11720,Cessnock,New South Wales,cessnock,exact normalized name/key; NSW only,False
+1212,11720,Cessnock,New South Wales,cessnock,exact normalized name/key; NSW only,False
+954,11730,Clarence Valley,New South Wales,clarencevalley,exact normalized name/key; NSW only,False
+960,11730,Clarence Valley,New South Wales,clarencevalley,exact normalized name/key; NSW only,False
+1012,11730,Clarence Valley,New South Wales,clarencevalley,exact normalized name/key; NSW only,False
+1198,11730,Clarence Valley,New South Wales,clarencevalley,exact normalized name/key; NSW only,False
+1212,11730,Clarence Valley,New South Wales,clarencevalley,exact normalized name/key; NSW only,False
+960,11750,Cobar,New South Wales,,unmatched; outside frozen 103 councils,False
+954,11800,Coffs Harbour,New South Wales,coffsharbour,exact normalized name/key; NSW only,False
+960,11800,Coffs Harbour,New South Wales,coffsharbour,exact normalized name/key; NSW only,False
+1012,11800,Coffs Harbour,New South Wales,coffsharbour,exact normalized name/key; NSW only,False
+1198,11800,Coffs Harbour,New South Wales,coffsharbour,exact normalized name/key; NSW only,False
+1212,11800,Coffs Harbour,New South Wales,coffsharbour,exact normalized name/key; NSW only,False
+960,12150,Coonamble,New South Wales,coonamble,exact normalized name/key; NSW only,False
+960,12380,Cumberland,New South Wales,,unmatched; outside frozen 103 councils,False
+1012,12380,Cumberland,New South Wales,,unmatched; outside frozen 103 councils,False
+960,12700,Dungog,New South Wales,dungog,exact normalized name/key; NSW only,False
+1012,12700,Dungog,New South Wales,dungog,exact normalized name/key; NSW only,False
+1198,12700,Dungog,New South Wales,dungog,exact normalized name/key; NSW only,False
+1212,12700,Dungog,New South Wales,dungog,exact normalized name/key; NSW only,False
+960,12750,Eurobodalla,New South Wales,eurobodalla,exact normalized name/key; NSW only,False
+1012,12750,Eurobodalla,New South Wales,eurobodalla,exact normalized name/key; NSW only,False
+960,12850,Fairfield,New South Wales,fairfield,exact normalized name/key; NSW only,False
+1012,12850,Fairfield,New South Wales,fairfield,exact normalized name/key; NSW only,False
+960,12930,Georges River,New South Wales,,unmatched; outside frozen 103 councils,False
+1012,12930,Georges River,New South Wales,,unmatched; outside frozen 103 councils,False
+960,12950,Gilgandra,New South Wales,gilgandra,exact normalized name/key; NSW only,False
+960,13010,Glen Innes Severn,New South Wales,gleninnessevern,exact normalized name/key; NSW only,False
+1012,13010,Glen Innes Severn,New South Wales,gleninnessevern,exact normalized name/key; NSW only,False
+1198,13010,Glen Innes Severn,New South Wales,gleninnessevern,exact normalized name/key; NSW only,False
+960,13310,Goulburn Mulwaree,New South Wales,goulburnmulwaree,exact normalized name/key; NSW only,False
+1012,13310,Goulburn Mulwaree,New South Wales,goulburnmulwaree,exact normalized name/key; NSW only,False
+960,13340,Greater Hume,New South Wales,greaterhume,exact normalized name/key; NSW only,False
+960,13550,Gunnedah,New South Wales,gunnedah,exact normalized name/key; NSW only,False
+960,13660,Gwydir,New South Wales,gwydir,exact normalized name/key; NSW only,False
+960,13800,Hawkesbury,New South Wales,hawkesbury,exact normalized name/key; NSW only,False
+1012,13800,Hawkesbury,New South Wales,hawkesbury,exact normalized name/key; NSW only,False
+1212,13800,Hawkesbury,New South Wales,hawkesbury,exact normalized name/key; NSW only,False
+960,14000,Hornsby,New South Wales,,unmatched; outside frozen 103 councils,False
+1012,14000,Hornsby,New South Wales,,unmatched; outside frozen 103 councils,False
+960,14100,Hunters Hill,New South Wales,huntershill,exact normalized name/key; NSW only,False
+960,14170,Inner West,New South Wales,,unmatched; outside frozen 103 councils,False
+1012,14170,Inner West,New South Wales,,unmatched; outside frozen 103 councils,False
+960,14220,Inverell,New South Wales,,unmatched; outside frozen 103 councils,False
+960,14350,Kempsey,New South Wales,kempsey,exact normalized name/key; NSW only,False
+1012,14350,Kempsey,New South Wales,kempsey,exact normalized name/key; NSW only,False
+1198,14350,Kempsey,New South Wales,kempsey,exact normalized name/key; NSW only,False
+1212,14350,Kempsey,New South Wales,kempsey,exact normalized name/key; NSW only,False
+1012,14400,Kiama,New South Wales,kiama,exact normalized name/key; NSW only,False
+1212,14400,Kiama,New South Wales,kiama,exact normalized name/key; NSW only,False
+960,14500,Ku-ring-gai,New South Wales,kuringgai,exact normalized name/key; NSW only,False
+1012,14500,Ku-ring-gai,New South Wales,kuringgai,exact normalized name/key; NSW only,False
+954,14550,Kyogle,New South Wales,kyogle,exact normalized name/key; NSW only,False
+960,14550,Kyogle,New South Wales,kyogle,exact normalized name/key; NSW only,False
+1012,14550,Kyogle,New South Wales,kyogle,exact normalized name/key; NSW only,False
+1198,14550,Kyogle,New South Wales,kyogle,exact normalized name/key; NSW only,False
+960,14600,Lachlan,New South Wales,,unmatched; outside frozen 103 councils,False
+960,14650,Lake Macquarie,New South Wales,lakemacquarie,exact normalized name/key; NSW only,False
+1012,14650,Lake Macquarie,New South Wales,lakemacquarie,exact normalized name/key; NSW only,False
+1212,14650,Lake Macquarie,New South Wales,lakemacquarie,exact normalized name/key; NSW only,False
+954,14850,Lismore,New South Wales,lismore,exact normalized name/key; NSW only,False
+960,14850,Lismore,New South Wales,lismore,exact normalized name/key; NSW only,False
+1012,14850,Lismore,New South Wales,lismore,exact normalized name/key; NSW only,False
+1198,14850,Lismore,New South Wales,lismore,exact normalized name/key; NSW only,False
+960,14870,Lithgow,New South Wales,lithgow,exact normalized name/key; NSW only,False
+1012,14870,Lithgow,New South Wales,lithgow,exact normalized name/key; NSW only,False
+960,14900,Liverpool,New South Wales,liverpool,exact normalized name/key; NSW only,False
+1012,14900,Liverpool,New South Wales,liverpool,exact normalized name/key; NSW only,False
+960,14920,Liverpool Plains,New South Wales,liverpoolplains,exact normalized name/key; NSW only,False
+960,15050,Maitland,New South Wales,maitland,exact normalized name/key; NSW only,False
+1012,15050,Maitland,New South Wales,maitland,exact normalized name/key; NSW only,False
+1212,15050,Maitland,New South Wales,maitland,exact normalized name/key; NSW only,False
+960,15240,Mid-Coast,New South Wales,,unmatched; outside frozen 103 councils,False
+1012,15240,Mid-Coast,New South Wales,,unmatched; outside frozen 103 councils,False
+1198,15240,Mid-Coast,New South Wales,,unmatched; outside frozen 103 councils,False
+1212,15240,Mid-Coast,New South Wales,,unmatched; outside frozen 103 councils,False
+1012,15270,Mid-Western,New South Wales,midwestern,exact normalized name/key; NSW only,False
+960,15300,Moree Plains,New South Wales,moreeplains,exact normalized name/key; NSW only,False
+960,15650,Muswellbrook,New South Wales,muswellbrook,exact normalized name/key; NSW only,False
+1012,15650,Muswellbrook,New South Wales,muswellbrook,exact normalized name/key; NSW only,False
+1212,15650,Muswellbrook,New South Wales,muswellbrook,exact normalized name/key; NSW only,False
+954,15700,Nambucca Valley,New South Wales,nambuccavalley,exact normalized name/key; NSW only,False
+960,15700,Nambucca Valley,New South Wales,nambuccavalley,exact normalized name/key; NSW only,False
+1012,15700,Nambucca Valley,New South Wales,nambuccavalley,exact normalized name/key; NSW only,False
+1198,15700,Nambucca Valley,New South Wales,nambuccavalley,exact normalized name/key; NSW only,False
+1212,15700,Nambucca Valley,New South Wales,nambuccavalley,exact normalized name/key; NSW only,False
+960,15750,Narrabri,New South Wales,narrabri,exact normalized name/key; NSW only,False
+960,15850,Narromine,New South Wales,narromine,exact normalized name/key; NSW only,False
+960,15900,Newcastle,New South Wales,newcastle,exact normalized name/key; NSW only,False
+1012,15900,Newcastle,New South Wales,newcastle,exact normalized name/key; NSW only,False
+1212,15900,Newcastle,New South Wales,newcastle,exact normalized name/key; NSW only,False
+960,15990,Northern Beaches,New South Wales,,unmatched; outside frozen 103 councils,False
+1012,15990,Northern Beaches,New South Wales,,unmatched; outside frozen 103 councils,False
+960,16100,Oberon,New South Wales,oberon,exact normalized name/key; NSW only,False
+960,16150,Orange,New South Wales,orange,exact normalized name/key; NSW only,False
+960,16260,Parramatta,New South Wales,,unmatched; outside frozen 103 councils,False
+1012,16260,Parramatta,New South Wales,,unmatched; outside frozen 103 councils,False
+960,16350,Penrith,New South Wales,penrith,exact normalized name/key; NSW only,False
+1012,16350,Penrith,New South Wales,penrith,exact normalized name/key; NSW only,False
+954,16380,Port Macquarie-Hastings,New South Wales,portmacquariehastings,exact normalized name/key; NSW only,False
+960,16380,Port Macquarie-Hastings,New South Wales,portmacquariehastings,exact normalized name/key; NSW only,False
+1012,16380,Port Macquarie-Hastings,New South Wales,portmacquariehastings,exact normalized name/key; NSW only,False
+1198,16380,Port Macquarie-Hastings,New South Wales,portmacquariehastings,exact normalized name/key; NSW only,False
+1212,16380,Port Macquarie-Hastings,New South Wales,portmacquariehastings,exact normalized name/key; NSW only,False
+960,16400,Port Stephens,New South Wales,portstephens,exact normalized name/key; NSW only,False
+1012,16400,Port Stephens,New South Wales,portstephens,exact normalized name/key; NSW only,False
+1212,16400,Port Stephens,New South Wales,portstephens,exact normalized name/key; NSW only,False
+960,16490,Queanbeyan-Palerang,New South Wales,,unmatched; outside frozen 103 councils,False
+1012,16490,Queanbeyan-Palerang,New South Wales,,unmatched; outside frozen 103 councils,False
+954,16610,Richmond Valley,New South Wales,richmondvalley,exact normalized name/key; NSW only,False
+960,16610,Richmond Valley,New South Wales,richmondvalley,exact normalized name/key; NSW only,False
+1012,16610,Richmond Valley,New South Wales,richmondvalley,exact normalized name/key; NSW only,False
+1198,16610,Richmond Valley,New South Wales,richmondvalley,exact normalized name/key; NSW only,False
+1012,16700,Ryde,New South Wales,ryde,exact normalized name/key; NSW only,False
+1012,16900,Shellharbour,New South Wales,shellharbour,exact normalized name/key; NSW only,False
+960,16950,Shoalhaven,New South Wales,shoalhaven,exact normalized name/key; NSW only,False
+1012,16950,Shoalhaven,New South Wales,shoalhaven,exact normalized name/key; NSW only,False
+960,17000,Singleton,New South Wales,singleton,exact normalized name/key; NSW only,False
+1012,17000,Singleton,New South Wales,singleton,exact normalized name/key; NSW only,False
+1212,17000,Singleton,New South Wales,singleton,exact normalized name/key; NSW only,False
+960,17040,Snowy Monaro,New South Wales,,unmatched; outside frozen 103 councils,False
+1012,17040,Snowy Monaro,New South Wales,,unmatched; outside frozen 103 councils,False
+1012,17100,Strathfield,New South Wales,strathfield,exact normalized name/key; NSW only,False
+960,17150,Sutherland,New South Wales,sutherland,exact normalized name/key; NSW only,False
+1012,17150,Sutherland,New South Wales,sutherland,exact normalized name/key; NSW only,False
+960,17310,Tamworth,New South Wales,tamworth,exact normalized name/key; NSW only,False
+960,17350,Temora,New South Wales,temora,exact normalized name/key; NSW only,False
+960,17400,Tenterfield,New South Wales,tenterfield,exact normalized name/key; NSW only,False
+1012,17400,Tenterfield,New South Wales,tenterfield,exact normalized name/key; NSW only,False
+1198,17400,Tenterfield,New South Wales,tenterfield,exact normalized name/key; NSW only,False
+960,17420,The Hills,New South Wales,,unmatched; outside frozen 103 councils,False
+1012,17420,The Hills,New South Wales,,unmatched; outside frozen 103 councils,False
+960,17550,Tweed,New South Wales,tweed,exact normalized name/key; NSW only,False
+1012,17550,Tweed,New South Wales,tweed,exact normalized name/key; NSW only,False
+1198,17550,Tweed,New South Wales,tweed,exact normalized name/key; NSW only,False
+1012,17620,Upper Hunter,New South Wales,upperhunter,exact normalized name/key; NSW only,False
+1212,17620,Upper Hunter,New South Wales,upperhunter,exact normalized name/key; NSW only,False
+960,17640,Upper Lachlan,New South Wales,upperlachlan,exact normalized name/key; NSW only,False
+960,17650,Uralla,New South Wales,uralla,exact normalized name/key; NSW only,False
+960,17850,Walcha,New South Wales,walcha,exact normalized name/key; NSW only,False
+1198,17850,Walcha,New South Wales,walcha,exact normalized name/key; NSW only,False
+1212,17850,Walcha,New South Wales,walcha,exact normalized name/key; NSW only,False
+960,17900,Walgett,New South Wales,walgett,exact normalized name/key; NSW only,False
+960,17950,Warren,New South Wales,warren,exact normalized name/key; NSW only,False
+1012,18050,Waverley,New South Wales,waverley,exact normalized name/key; NSW only,False
+1240,18050,Waverley,New South Wales,waverley,exact normalized name/key; NSW only,False
+1012,18250,Willoughby,New South Wales,willoughby,exact normalized name/key; NSW only,False
+960,18350,Wingecarribee,New South Wales,wingecarribee,exact normalized name/key; NSW only,False
+1012,18350,Wingecarribee,New South Wales,wingecarribee,exact normalized name/key; NSW only,False
+1212,18350,Wingecarribee,New South Wales,wingecarribee,exact normalized name/key; NSW only,False
+960,18400,Wollondilly,New South Wales,wollondilly,exact normalized name/key; NSW only,False
+1012,18400,Wollondilly,New South Wales,wollondilly,exact normalized name/key; NSW only,False
+1212,18400,Wollondilly,New South Wales,wollondilly,exact normalized name/key; NSW only,False
+1012,18450,Wollongong,New South Wales,wollongong,exact normalized name/key; NSW only,False
+1198,19399,Unincorporated NSW,New South Wales,,unmatched; outside frozen 103 councils,False
+1037,20110,Alpine,Victoria,,unmatched; outside frozen 103 councils,False
+1242,20110,Alpine,Victoria,,unmatched; outside frozen 103 councils,False
+1037,20260,Ararat,Victoria,,unmatched; outside frozen 103 councils,False
+1166,20260,Ararat,Victoria,,unmatched; outside frozen 103 councils,False
+1242,20260,Ararat,Victoria,,unmatched; outside frozen 103 councils,False
+1037,20570,Ballarat,Victoria,,unmatched; outside frozen 103 councils,False
+1037,20660,Banyule,Victoria,,unmatched; outside frozen 103 councils,False
+1037,20830,Baw Baw,Victoria,,unmatched; outside frozen 103 councils,False
+1037,21010,Benalla,Victoria,,unmatched; outside frozen 103 councils,False
+1242,21010,Benalla,Victoria,,unmatched; outside frozen 103 councils,False
+1037,21110,Boroondara,Victoria,,unmatched; outside frozen 103 councils,False
+1037,21180,Brimbank,Victoria,,unmatched; outside frozen 103 councils,False
+1037,21270,Buloke,Victoria,,unmatched; outside frozen 103 councils,False
+1037,21370,Campaspe,Victoria,,unmatched; outside frozen 103 councils,False
+1242,21370,Campaspe,Victoria,,unmatched; outside frozen 103 councils,False
+1037,21450,Cardinia,Victoria,,unmatched; outside frozen 103 councils,False
+1037,21610,Casey,Victoria,,unmatched; outside frozen 103 councils,False
+1037,21670,Central Goldfields,Victoria,,unmatched; outside frozen 103 councils,False
+1037,21750,Colac Otway,Victoria,,unmatched; outside frozen 103 councils,False
+1242,21750,Colac Otway,Victoria,,unmatched; outside frozen 103 councils,False
+1037,21830,Corangamite,Victoria,,unmatched; outside frozen 103 councils,False
+1242,21830,Corangamite,Victoria,,unmatched; outside frozen 103 councils,False
+1037,22110,East Gippsland,Victoria,,unmatched; outside frozen 103 councils,False
+1242,22110,East Gippsland,Victoria,,unmatched; outside frozen 103 councils,False
+1037,22250,Gannawarra,Victoria,,unmatched; outside frozen 103 councils,False
+1037,22410,Glenelg,Victoria,,unmatched; outside frozen 103 councils,False
+1037,22490,Golden Plains,Victoria,,unmatched; outside frozen 103 councils,False
+1242,22490,Golden Plains,Victoria,,unmatched; outside frozen 103 councils,False
+1037,22620,Greater Bendigo,Victoria,,unmatched; outside frozen 103 councils,False
+1242,22620,Greater Bendigo,Victoria,,unmatched; outside frozen 103 councils,False
+1037,22750,Greater Geelong,Victoria,,unmatched; outside frozen 103 councils,False
+1037,22830,Greater Shepparton,Victoria,,unmatched; outside frozen 103 councils,False
+1242,22830,Greater Shepparton,Victoria,,unmatched; outside frozen 103 councils,False
+1037,22910,Hepburn,Victoria,,unmatched; outside frozen 103 councils,False
+1166,22910,Hepburn,Victoria,,unmatched; outside frozen 103 councils,False
+1037,22980,Hindmarsh,Victoria,,unmatched; outside frozen 103 councils,False
+1166,22980,Hindmarsh,Victoria,,unmatched; outside frozen 103 councils,False
+1037,23190,Horsham,Victoria,,unmatched; outside frozen 103 councils,False
+1166,23190,Horsham,Victoria,,unmatched; outside frozen 103 councils,False
+1242,23190,Horsham,Victoria,,unmatched; outside frozen 103 councils,False
+1037,23270,Hume,Victoria,,unmatched; outside frozen 103 councils,False
+1037,23350,Indigo,Victoria,,unmatched; outside frozen 103 councils,False
+1037,23810,Latrobe (Vic.),Victoria,,unmatched; outside frozen 103 councils,False
+1037,23940,Loddon,Victoria,,unmatched; outside frozen 103 councils,False
+1037,24130,Macedon Ranges,Victoria,,unmatched; outside frozen 103 councils,False
+1166,24130,Macedon Ranges,Victoria,,unmatched; outside frozen 103 councils,False
+1242,24130,Macedon Ranges,Victoria,,unmatched; outside frozen 103 councils,False
+1037,24210,Manningham,Victoria,,unmatched; outside frozen 103 councils,False
+1037,24250,Mansfield,Victoria,,unmatched; outside frozen 103 councils,False
+1242,24250,Mansfield,Victoria,,unmatched; outside frozen 103 councils,False
+1037,24330,Maribyrnong,Victoria,,unmatched; outside frozen 103 councils,False
+1037,24410,Maroondah,Victoria,,unmatched; outside frozen 103 councils,False
+1037,24600,Melbourne,Victoria,,unmatched; outside frozen 103 councils,False
+1037,24650,Melton,Victoria,,unmatched; outside frozen 103 councils,False
+1037,24780,Mildura,Victoria,,unmatched; outside frozen 103 councils,False
+1242,24780,Mildura,Victoria,,unmatched; outside frozen 103 councils,False
+1037,24850,Mitchell,Victoria,,unmatched; outside frozen 103 councils,False
+1242,24850,Mitchell,Victoria,,unmatched; outside frozen 103 councils,False
+1037,24900,Moira,Victoria,,unmatched; outside frozen 103 councils,False
+1242,24900,Moira,Victoria,,unmatched; outside frozen 103 councils,False
+1037,25060,Moonee Valley,Victoria,,unmatched; outside frozen 103 councils,False
+1037,25150,Moorabool,Victoria,,unmatched; outside frozen 103 councils,False
+1037,25340,Mornington Peninsula,Victoria,,unmatched; outside frozen 103 councils,False
+1037,25430,Mount Alexander,Victoria,,unmatched; outside frozen 103 councils,False
+1242,25430,Mount Alexander,Victoria,,unmatched; outside frozen 103 councils,False
+1037,25490,Moyne,Victoria,,unmatched; outside frozen 103 councils,False
+1037,25620,Murrindindi,Victoria,,unmatched; outside frozen 103 councils,False
+1242,25620,Murrindindi,Victoria,,unmatched; outside frozen 103 councils,False
+1037,25710,Nillumbik,Victoria,,unmatched; outside frozen 103 councils,False
+1037,25810,Northern Grampians,Victoria,,unmatched; outside frozen 103 councils,False
+1166,25810,Northern Grampians,Victoria,,unmatched; outside frozen 103 councils,False
+1242,25810,Northern Grampians,Victoria,,unmatched; outside frozen 103 councils,False
+1037,25990,Pyrenees,Victoria,,unmatched; outside frozen 103 councils,False
+1242,25990,Pyrenees,Victoria,,unmatched; outside frozen 103 councils,False
+1037,26170,South Gippsland,Victoria,,unmatched; outside frozen 103 councils,False
+1037,26260,Southern Grampians,Victoria,,unmatched; outside frozen 103 councils,False
+1166,26260,Southern Grampians,Victoria,,unmatched; outside frozen 103 councils,False
+1037,26430,Strathbogie,Victoria,,unmatched; outside frozen 103 councils,False
+1242,26430,Strathbogie,Victoria,,unmatched; outside frozen 103 councils,False
+1037,26490,Surf Coast,Victoria,,unmatched; outside frozen 103 councils,False
+1037,26610,Swan Hill,Victoria,,unmatched; outside frozen 103 councils,False
+1037,26670,Towong,Victoria,,unmatched; outside frozen 103 councils,False
+1242,26670,Towong,Victoria,,unmatched; outside frozen 103 councils,False
+1037,26700,Wangaratta,Victoria,,unmatched; outside frozen 103 councils,False
+1037,26730,Warrnambool,Victoria,,unmatched; outside frozen 103 councils,False
+1037,26810,Wellington,Victoria,,unmatched; outside frozen 103 councils,False
+1242,26810,Wellington,Victoria,,unmatched; outside frozen 103 councils,False
+1037,26890,West Wimmera,Victoria,,unmatched; outside frozen 103 councils,False
+1166,26890,West Wimmera,Victoria,,unmatched; outside frozen 103 councils,False
+1242,26890,West Wimmera,Victoria,,unmatched; outside frozen 103 councils,False
+1037,27070,Whittlesea,Victoria,,unmatched; outside frozen 103 councils,False
+1242,27070,Whittlesea,Victoria,,unmatched; outside frozen 103 councils,False
+1037,27170,Wodonga,Victoria,,unmatched; outside frozen 103 councils,False
+1242,27170,Wodonga,Victoria,,unmatched; outside frozen 103 councils,False
+1037,27260,Wyndham,Victoria,,unmatched; outside frozen 103 councils,False
+1037,27350,Yarra,Victoria,,unmatched; outside frozen 103 councils,False
+1037,27450,Yarra Ranges,Victoria,,unmatched; outside frozen 103 councils,False
+1242,27450,Yarra Ranges,Victoria,,unmatched; outside frozen 103 councils,False
+1037,27630,Yarriambiack,Victoria,,unmatched; outside frozen 103 councils,False
+1242,27630,Yarriambiack,Victoria,,unmatched; outside frozen 103 councils,False
+1037,29399,Unincorporated Vic,Victoria,,unmatched; outside frozen 103 councils,False
+1242,29399,Unincorporated Vic,Victoria,,unmatched; outside frozen 103 councils,False
+1046,30250,Aurukun,Queensland,,unmatched; outside frozen 103 councils,False
+1088,30250,Aurukun,Queensland,,unmatched; outside frozen 103 councils,False
+1174,30250,Aurukun,Queensland,,unmatched; outside frozen 103 councils,False
+1243,30250,Aurukun,Queensland,,unmatched; outside frozen 103 councils,False
+986,30300,Balonne,Queensland,,unmatched; outside frozen 103 councils,False
+1011,30300,Balonne,Queensland,,unmatched; outside frozen 103 councils,False
+1020,30300,Balonne,Queensland,,unmatched; outside frozen 103 councils,False
+1078,30300,Balonne,Queensland,,unmatched; outside frozen 103 councils,False
+1202,30300,Balonne,Queensland,,unmatched; outside frozen 103 councils,False
+1243,30300,Balonne,Queensland,,unmatched; outside frozen 103 councils,False
+986,30370,Banana,Queensland,,unmatched; outside frozen 103 councils,False
+1094,30370,Banana,Queensland,,unmatched; outside frozen 103 councils,False
+1202,30370,Banana,Queensland,,unmatched; outside frozen 103 councils,False
+1243,30370,Banana,Queensland,,unmatched; outside frozen 103 councils,False
+986,30410,Barcaldine,Queensland,,unmatched; outside frozen 103 councils,False
+1046,30410,Barcaldine,Queensland,,unmatched; outside frozen 103 councils,False
+1174,30410,Barcaldine,Queensland,,unmatched; outside frozen 103 councils,False
+1202,30410,Barcaldine,Queensland,,unmatched; outside frozen 103 councils,False
+1243,30410,Barcaldine,Queensland,,unmatched; outside frozen 103 councils,False
+986,30450,Barcoo,Queensland,,unmatched; outside frozen 103 councils,False
+1046,30450,Barcoo,Queensland,,unmatched; outside frozen 103 councils,False
+1202,30450,Barcoo,Queensland,,unmatched; outside frozen 103 councils,False
+1243,30450,Barcoo,Queensland,,unmatched; outside frozen 103 councils,False
+986,30760,Blackall Tambo,Queensland,,unmatched; outside frozen 103 councils,False
+1046,30760,Blackall Tambo,Queensland,,unmatched; outside frozen 103 councils,False
+1174,30760,Blackall Tambo,Queensland,,unmatched; outside frozen 103 councils,False
+1202,30760,Blackall Tambo,Queensland,,unmatched; outside frozen 103 councils,False
+1243,30760,Blackall Tambo,Queensland,,unmatched; outside frozen 103 councils,False
+986,30900,Boulia,Queensland,,unmatched; outside frozen 103 councils,False
+1046,30900,Boulia,Queensland,,unmatched; outside frozen 103 councils,False
+1174,30900,Boulia,Queensland,,unmatched; outside frozen 103 councils,False
+1202,30900,Boulia,Queensland,,unmatched; outside frozen 103 councils,False
+1243,30900,Boulia,Queensland,,unmatched; outside frozen 103 councils,False
+1011,31000,Brisbane,Queensland,,unmatched; outside frozen 103 councils,False
+1020,31000,Brisbane,Queensland,,unmatched; outside frozen 103 councils,False
+1094,31000,Brisbane,Queensland,,unmatched; outside frozen 103 councils,False
+1195,31000,Brisbane,Queensland,,unmatched; outside frozen 103 councils,False
+1202,31750,Bulloo,Queensland,,unmatched; outside frozen 103 councils,False
+1243,31750,Bulloo,Queensland,,unmatched; outside frozen 103 councils,False
+986,31820,Bundaberg,Queensland,,unmatched; outside frozen 103 councils,False
+994,31820,Bundaberg,Queensland,,unmatched; outside frozen 103 councils,False
+1011,31820,Bundaberg,Queensland,,unmatched; outside frozen 103 councils,False
+1020,31820,Bundaberg,Queensland,,unmatched; outside frozen 103 councils,False
+1078,31820,Bundaberg,Queensland,,unmatched; outside frozen 103 councils,False
+1195,31820,Bundaberg,Queensland,,unmatched; outside frozen 103 councils,False
+1243,31820,Bundaberg,Queensland,,unmatched; outside frozen 103 councils,False
+1046,31900,Burdekin,Queensland,,unmatched; outside frozen 103 councils,False
+1174,31900,Burdekin,Queensland,,unmatched; outside frozen 103 councils,False
+1202,31900,Burdekin,Queensland,,unmatched; outside frozen 103 councils,False
+1243,31900,Burdekin,Queensland,,unmatched; outside frozen 103 councils,False
+1046,31950,Burke,Queensland,,unmatched; outside frozen 103 councils,False
+1174,31950,Burke,Queensland,,unmatched; outside frozen 103 councils,False
+1202,31950,Burke,Queensland,,unmatched; outside frozen 103 councils,False
+1243,31950,Burke,Queensland,,unmatched; outside frozen 103 councils,False
+1046,32080,Cairns,Queensland,,unmatched; outside frozen 103 councils,False
+1088,32080,Cairns,Queensland,,unmatched; outside frozen 103 councils,False
+1174,32080,Cairns,Queensland,,unmatched; outside frozen 103 councils,False
+1243,32080,Cairns,Queensland,,unmatched; outside frozen 103 councils,False
+994,32250,Carpentaria,Queensland,,unmatched; outside frozen 103 councils,False
+1046,32250,Carpentaria,Queensland,,unmatched; outside frozen 103 councils,False
+1088,32250,Carpentaria,Queensland,,unmatched; outside frozen 103 councils,False
+1174,32250,Carpentaria,Queensland,,unmatched; outside frozen 103 councils,False
+1202,32250,Carpentaria,Queensland,,unmatched; outside frozen 103 councils,False
+1243,32250,Carpentaria,Queensland,,unmatched; outside frozen 103 councils,False
+1046,32260,Cassowary Coast,Queensland,,unmatched; outside frozen 103 councils,False
+1088,32260,Cassowary Coast,Queensland,,unmatched; outside frozen 103 councils,False
+1174,32260,Cassowary Coast,Queensland,,unmatched; outside frozen 103 councils,False
+1243,32260,Cassowary Coast,Queensland,,unmatched; outside frozen 103 councils,False
+986,32270,Central Highlands (Qld),Queensland,,unmatched; outside frozen 103 councils,False
+1046,32270,Central Highlands (Qld),Queensland,,unmatched; outside frozen 103 councils,False
+1078,32270,Central Highlands (Qld),Queensland,,unmatched; outside frozen 103 councils,False
+1202,32270,Central Highlands (Qld),Queensland,,unmatched; outside frozen 103 councils,False
+1243,32270,Central Highlands (Qld),Queensland,,unmatched; outside frozen 103 councils,False
+1046,32310,Charters Towers,Queensland,,unmatched; outside frozen 103 councils,False
+1174,32310,Charters Towers,Queensland,,unmatched; outside frozen 103 councils,False
+1202,32310,Charters Towers,Queensland,,unmatched; outside frozen 103 councils,False
+1243,32310,Charters Towers,Queensland,,unmatched; outside frozen 103 councils,False
+994,32330,Cherbourg,Queensland,,unmatched; outside frozen 103 councils,False
+1011,32330,Cherbourg,Queensland,,unmatched; outside frozen 103 councils,False
+1243,32330,Cherbourg,Queensland,,unmatched; outside frozen 103 councils,False
+1046,32450,Cloncurry,Queensland,,unmatched; outside frozen 103 councils,False
+1174,32450,Cloncurry,Queensland,,unmatched; outside frozen 103 councils,False
+1202,32450,Cloncurry,Queensland,,unmatched; outside frozen 103 councils,False
+1243,32450,Cloncurry,Queensland,,unmatched; outside frozen 103 councils,False
+1046,32500,Cook,Queensland,,unmatched; outside frozen 103 councils,False
+1088,32500,Cook,Queensland,,unmatched; outside frozen 103 councils,False
+1174,32500,Cook,Queensland,,unmatched; outside frozen 103 councils,False
+1243,32500,Cook,Queensland,,unmatched; outside frozen 103 councils,False
+1046,32600,Croydon,Queensland,,unmatched; outside frozen 103 councils,False
+1174,32600,Croydon,Queensland,,unmatched; outside frozen 103 councils,False
+1202,32600,Croydon,Queensland,,unmatched; outside frozen 103 councils,False
+1243,32600,Croydon,Queensland,,unmatched; outside frozen 103 councils,False
+986,32750,Diamantina,Queensland,,unmatched; outside frozen 103 councils,False
+1046,32750,Diamantina,Queensland,,unmatched; outside frozen 103 councils,False
+1174,32750,Diamantina,Queensland,,unmatched; outside frozen 103 councils,False
+1202,32750,Diamantina,Queensland,,unmatched; outside frozen 103 councils,False
+1243,32750,Diamantina,Queensland,,unmatched; outside frozen 103 councils,False
+1046,32770,Doomadgee,Queensland,,unmatched; outside frozen 103 councils,False
+1174,32770,Doomadgee,Queensland,,unmatched; outside frozen 103 councils,False
+1202,32770,Doomadgee,Queensland,,unmatched; outside frozen 103 councils,False
+1243,32770,Doomadgee,Queensland,,unmatched; outside frozen 103 councils,False
+1046,32810,Douglas,Queensland,,unmatched; outside frozen 103 councils,False
+1088,32810,Douglas,Queensland,,unmatched; outside frozen 103 councils,False
+1174,32810,Douglas,Queensland,,unmatched; outside frozen 103 councils,False
+1243,32810,Douglas,Queensland,,unmatched; outside frozen 103 councils,False
+1046,33100,Etheridge,Queensland,,unmatched; outside frozen 103 councils,False
+1174,33100,Etheridge,Queensland,,unmatched; outside frozen 103 councils,False
+1202,33100,Etheridge,Queensland,,unmatched; outside frozen 103 councils,False
+1243,33100,Etheridge,Queensland,,unmatched; outside frozen 103 councils,False
+986,33200,Flinders (Qld),Queensland,,unmatched; outside frozen 103 councils,False
+1046,33200,Flinders (Qld),Queensland,,unmatched; outside frozen 103 councils,False
+1174,33200,Flinders (Qld),Queensland,,unmatched; outside frozen 103 councils,False
+1202,33200,Flinders (Qld),Queensland,,unmatched; outside frozen 103 councils,False
+1243,33200,Flinders (Qld),Queensland,,unmatched; outside frozen 103 councils,False
+994,33220,Fraser Coast,Queensland,,unmatched; outside frozen 103 councils,False
+1011,33220,Fraser Coast,Queensland,,unmatched; outside frozen 103 councils,False
+1020,33220,Fraser Coast,Queensland,,unmatched; outside frozen 103 councils,False
+1195,33220,Fraser Coast,Queensland,,unmatched; outside frozen 103 councils,False
+1202,33220,Fraser Coast,Queensland,,unmatched; outside frozen 103 councils,False
+1243,33220,Fraser Coast,Queensland,,unmatched; outside frozen 103 councils,False
+1011,33360,Gladstone,Queensland,,unmatched; outside frozen 103 councils,False
+1020,33360,Gladstone,Queensland,,unmatched; outside frozen 103 councils,False
+1078,33360,Gladstone,Queensland,,unmatched; outside frozen 103 councils,False
+1202,33360,Gladstone,Queensland,,unmatched; outside frozen 103 councils,False
+1243,33360,Gladstone,Queensland,,unmatched; outside frozen 103 councils,False
+986,33430,Gold Coast,Queensland,,unmatched; outside frozen 103 councils,False
+994,33430,Gold Coast,Queensland,,unmatched; outside frozen 103 councils,False
+1011,33430,Gold Coast,Queensland,,unmatched; outside frozen 103 councils,False
+1020,33430,Gold Coast,Queensland,,unmatched; outside frozen 103 councils,False
+1094,33430,Gold Coast,Queensland,,unmatched; outside frozen 103 councils,False
+1195,33430,Gold Coast,Queensland,,unmatched; outside frozen 103 councils,False
+1202,33430,Gold Coast,Queensland,,unmatched; outside frozen 103 councils,False
+986,33610,Goondiwindi,Queensland,,unmatched; outside frozen 103 councils,False
+1011,33610,Goondiwindi,Queensland,,unmatched; outside frozen 103 councils,False
+1020,33610,Goondiwindi,Queensland,,unmatched; outside frozen 103 councils,False
+1078,33610,Goondiwindi,Queensland,,unmatched; outside frozen 103 councils,False
+1202,33610,Goondiwindi,Queensland,,unmatched; outside frozen 103 councils,False
+986,33620,Gympie,Queensland,,unmatched; outside frozen 103 councils,False
+994,33620,Gympie,Queensland,,unmatched; outside frozen 103 councils,False
+1011,33620,Gympie,Queensland,,unmatched; outside frozen 103 councils,False
+1020,33620,Gympie,Queensland,,unmatched; outside frozen 103 councils,False
+1078,33620,Gympie,Queensland,,unmatched; outside frozen 103 councils,False
+1195,33620,Gympie,Queensland,,unmatched; outside frozen 103 councils,False
+1202,33620,Gympie,Queensland,,unmatched; outside frozen 103 councils,False
+1243,33620,Gympie,Queensland,,unmatched; outside frozen 103 councils,False
+1088,33800,Hinchinbrook,Queensland,,unmatched; outside frozen 103 councils,False
+1174,33800,Hinchinbrook,Queensland,,unmatched; outside frozen 103 councils,False
+1243,33800,Hinchinbrook,Queensland,,unmatched; outside frozen 103 councils,False
+1046,33830,Hope Vale,Queensland,,unmatched; outside frozen 103 councils,False
+1088,33830,Hope Vale,Queensland,,unmatched; outside frozen 103 councils,False
+1174,33830,Hope Vale,Queensland,,unmatched; outside frozen 103 councils,False
+1243,33830,Hope Vale,Queensland,,unmatched; outside frozen 103 councils,False
+1011,33960,Ipswich,Queensland,,unmatched; outside frozen 103 councils,False
+1020,33960,Ipswich,Queensland,,unmatched; outside frozen 103 councils,False
+1195,33960,Ipswich,Queensland,,unmatched; outside frozen 103 councils,False
+986,33980,Isaac,Queensland,,unmatched; outside frozen 103 councils,False
+1046,33980,Isaac,Queensland,,unmatched; outside frozen 103 councils,False
+1243,33980,Isaac,Queensland,,unmatched; outside frozen 103 councils,False
+994,34420,Kowanyama,Queensland,,unmatched; outside frozen 103 councils,False
+1046,34420,Kowanyama,Queensland,,unmatched; outside frozen 103 councils,False
+1088,34420,Kowanyama,Queensland,,unmatched; outside frozen 103 councils,False
+1174,34420,Kowanyama,Queensland,,unmatched; outside frozen 103 councils,False
+1243,34420,Kowanyama,Queensland,,unmatched; outside frozen 103 councils,False
+1020,34530,Livingstone,Queensland,,unmatched; outside frozen 103 councils,False
+1046,34530,Livingstone,Queensland,,unmatched; outside frozen 103 councils,False
+1195,34530,Livingstone,Queensland,,unmatched; outside frozen 103 councils,False
+1202,34530,Livingstone,Queensland,,unmatched; outside frozen 103 councils,False
+1243,34530,Livingstone,Queensland,,unmatched; outside frozen 103 councils,False
+1046,34570,Lockhart River,Queensland,,unmatched; outside frozen 103 councils,False
+1088,34570,Lockhart River,Queensland,,unmatched; outside frozen 103 councils,False
+1243,34570,Lockhart River,Queensland,,unmatched; outside frozen 103 councils,False
+986,34580,Lockyer Valley,Queensland,,unmatched; outside frozen 103 councils,False
+1011,34580,Lockyer Valley,Queensland,,unmatched; outside frozen 103 councils,False
+1020,34580,Lockyer Valley,Queensland,,unmatched; outside frozen 103 councils,False
+1078,34580,Lockyer Valley,Queensland,,unmatched; outside frozen 103 councils,False
+1195,34580,Lockyer Valley,Queensland,,unmatched; outside frozen 103 councils,False
+1202,34580,Lockyer Valley,Queensland,,unmatched; outside frozen 103 councils,False
+986,34590,Logan,Queensland,,unmatched; outside frozen 103 councils,False
+1011,34590,Logan,Queensland,,unmatched; outside frozen 103 councils,False
+1020,34590,Logan,Queensland,,unmatched; outside frozen 103 councils,False
+1078,34590,Logan,Queensland,,unmatched; outside frozen 103 councils,False
+1094,34590,Logan,Queensland,,unmatched; outside frozen 103 councils,False
+1195,34590,Logan,Queensland,,unmatched; outside frozen 103 councils,False
+986,34710,Longreach,Queensland,,unmatched; outside frozen 103 councils,False
+1046,34710,Longreach,Queensland,,unmatched; outside frozen 103 councils,False
+1174,34710,Longreach,Queensland,,unmatched; outside frozen 103 councils,False
+1202,34710,Longreach,Queensland,,unmatched; outside frozen 103 councils,False
+1243,34710,Longreach,Queensland,,unmatched; outside frozen 103 councils,False
+1046,34770,Mackay,Queensland,,unmatched; outside frozen 103 councils,False
+1174,34770,Mackay,Queensland,,unmatched; outside frozen 103 councils,False
+1243,34770,Mackay,Queensland,,unmatched; outside frozen 103 councils,False
+1046,34800,McKinlay,Queensland,,unmatched; outside frozen 103 councils,False
+1174,34800,McKinlay,Queensland,,unmatched; outside frozen 103 councils,False
+1202,34800,McKinlay,Queensland,,unmatched; outside frozen 103 councils,False
+1243,34800,McKinlay,Queensland,,unmatched; outside frozen 103 councils,False
+1046,34830,Mapoon,Queensland,,unmatched; outside frozen 103 councils,False
+1243,34830,Mapoon,Queensland,,unmatched; outside frozen 103 councils,False
+986,34860,Maranoa,Queensland,,unmatched; outside frozen 103 councils,False
+1078,34860,Maranoa,Queensland,,unmatched; outside frozen 103 councils,False
+1202,34860,Maranoa,Queensland,,unmatched; outside frozen 103 councils,False
+1243,34860,Maranoa,Queensland,,unmatched; outside frozen 103 councils,False
+1046,34880,Mareeba,Queensland,,unmatched; outside frozen 103 councils,False
+1088,34880,Mareeba,Queensland,,unmatched; outside frozen 103 councils,False
+1174,34880,Mareeba,Queensland,,unmatched; outside frozen 103 councils,False
+1243,34880,Mareeba,Queensland,,unmatched; outside frozen 103 councils,False
+1011,35010,Moreton Bay,Queensland,,unmatched; outside frozen 103 councils,False
+1020,35010,Moreton Bay,Queensland,,unmatched; outside frozen 103 councils,False
+1094,35010,Moreton Bay,Queensland,,unmatched; outside frozen 103 councils,False
+1195,35010,Moreton Bay,Queensland,,unmatched; outside frozen 103 councils,False
+1046,35250,Mornington,Queensland,,unmatched; outside frozen 103 councils,False
+1174,35250,Mornington,Queensland,,unmatched; outside frozen 103 councils,False
+1243,35250,Mornington,Queensland,,unmatched; outside frozen 103 councils,False
+1046,35300,Mount Isa,Queensland,,unmatched; outside frozen 103 councils,False
+1174,35300,Mount Isa,Queensland,,unmatched; outside frozen 103 councils,False
+1202,35300,Mount Isa,Queensland,,unmatched; outside frozen 103 councils,False
+1243,35300,Mount Isa,Queensland,,unmatched; outside frozen 103 councils,False
+986,35600,Murweh,Queensland,,unmatched; outside frozen 103 councils,False
+1094,35600,Murweh,Queensland,,unmatched; outside frozen 103 councils,False
+1202,35600,Murweh,Queensland,,unmatched; outside frozen 103 councils,False
+1243,35600,Murweh,Queensland,,unmatched; outside frozen 103 councils,False
+1046,35670,Napranum,Queensland,,unmatched; outside frozen 103 councils,False
+1088,35670,Napranum,Queensland,,unmatched; outside frozen 103 councils,False
+1174,35670,Napranum,Queensland,,unmatched; outside frozen 103 councils,False
+1243,35670,Napranum,Queensland,,unmatched; outside frozen 103 councils,False
+986,35740,Noosa,Queensland,,unmatched; outside frozen 103 councils,False
+1011,35740,Noosa,Queensland,,unmatched; outside frozen 103 councils,False
+1195,35740,Noosa,Queensland,,unmatched; outside frozen 103 councils,False
+1202,35740,Noosa,Queensland,,unmatched; outside frozen 103 councils,False
+986,35760,North Burnett,Queensland,,unmatched; outside frozen 103 councils,False
+994,35760,North Burnett,Queensland,,unmatched; outside frozen 103 councils,False
+1011,35760,North Burnett,Queensland,,unmatched; outside frozen 103 councils,False
+1020,35760,North Burnett,Queensland,,unmatched; outside frozen 103 councils,False
+1078,35760,North Burnett,Queensland,,unmatched; outside frozen 103 councils,False
+1202,35760,North Burnett,Queensland,,unmatched; outside frozen 103 councils,False
+1243,35760,North Burnett,Queensland,,unmatched; outside frozen 103 councils,False
+1046,35780,Northern Peninsula Area,Queensland,,unmatched; outside frozen 103 councils,False
+1088,35780,Northern Peninsula Area,Queensland,,unmatched; outside frozen 103 councils,False
+1174,35780,Northern Peninsula Area,Queensland,,unmatched; outside frozen 103 councils,False
+1243,35780,Northern Peninsula Area,Queensland,,unmatched; outside frozen 103 councils,False
+1046,35790,Palm Island,Queensland,,unmatched; outside frozen 103 councils,False
+1174,35790,Palm Island,Queensland,,unmatched; outside frozen 103 councils,False
+1243,35790,Palm Island,Queensland,,unmatched; outside frozen 103 councils,False
+1202,35800,Paroo,Queensland,,unmatched; outside frozen 103 councils,False
+1243,35800,Paroo,Queensland,,unmatched; outside frozen 103 councils,False
+1046,36070,Pormpuraaw,Queensland,,unmatched; outside frozen 103 councils,False
+1174,36070,Pormpuraaw,Queensland,,unmatched; outside frozen 103 councils,False
+1243,36070,Pormpuraaw,Queensland,,unmatched; outside frozen 103 councils,False
+1202,36150,Quilpie,Queensland,,unmatched; outside frozen 103 councils,False
+1243,36150,Quilpie,Queensland,,unmatched; outside frozen 103 councils,False
+1011,36250,Redland,Queensland,,unmatched; outside frozen 103 councils,False
+1094,36250,Redland,Queensland,,unmatched; outside frozen 103 councils,False
+1195,36250,Redland,Queensland,,unmatched; outside frozen 103 councils,False
+1046,36300,Richmond,Queensland,,unmatched; outside frozen 103 councils,False
+1174,36300,Richmond,Queensland,,unmatched; outside frozen 103 councils,False
+1202,36300,Richmond,Queensland,,unmatched; outside frozen 103 councils,False
+1243,36300,Richmond,Queensland,,unmatched; outside frozen 103 councils,False
+1020,36370,Rockhampton,Queensland,,unmatched; outside frozen 103 councils,False
+1202,36370,Rockhampton,Queensland,,unmatched; outside frozen 103 councils,False
+1243,36370,Rockhampton,Queensland,,unmatched; outside frozen 103 councils,False
+986,36510,Scenic Rim,Queensland,,unmatched; outside frozen 103 councils,False
+1011,36510,Scenic Rim,Queensland,,unmatched; outside frozen 103 councils,False
+1020,36510,Scenic Rim,Queensland,,unmatched; outside frozen 103 councils,False
+1078,36510,Scenic Rim,Queensland,,unmatched; outside frozen 103 councils,False
+1094,36510,Scenic Rim,Queensland,,unmatched; outside frozen 103 councils,False
+1195,36510,Scenic Rim,Queensland,,unmatched; outside frozen 103 councils,False
+986,36580,Somerset,Queensland,,unmatched; outside frozen 103 councils,False
+1011,36580,Somerset,Queensland,,unmatched; outside frozen 103 councils,False
+1020,36580,Somerset,Queensland,,unmatched; outside frozen 103 councils,False
+1078,36580,Somerset,Queensland,,unmatched; outside frozen 103 councils,False
+1195,36580,Somerset,Queensland,,unmatched; outside frozen 103 councils,False
+1243,36580,Somerset,Queensland,,unmatched; outside frozen 103 councils,False
+986,36630,South Burnett,Queensland,,unmatched; outside frozen 103 councils,False
+994,36630,South Burnett,Queensland,,unmatched; outside frozen 103 councils,False
+1011,36630,South Burnett,Queensland,,unmatched; outside frozen 103 councils,False
+1020,36630,South Burnett,Queensland,,unmatched; outside frozen 103 councils,False
+1078,36630,South Burnett,Queensland,,unmatched; outside frozen 103 councils,False
+1195,36630,South Burnett,Queensland,,unmatched; outside frozen 103 councils,False
+1243,36630,South Burnett,Queensland,,unmatched; outside frozen 103 councils,False
+986,36660,Southern Downs,Queensland,,unmatched; outside frozen 103 councils,False
+1011,36660,Southern Downs,Queensland,,unmatched; outside frozen 103 councils,False
+1020,36660,Southern Downs,Queensland,,unmatched; outside frozen 103 councils,False
+1078,36660,Southern Downs,Queensland,,unmatched; outside frozen 103 councils,False
+1195,36660,Southern Downs,Queensland,,unmatched; outside frozen 103 councils,False
+1202,36660,Southern Downs,Queensland,,unmatched; outside frozen 103 councils,False
+1011,36720,Sunshine Coast,Queensland,,unmatched; outside frozen 103 councils,False
+1078,36720,Sunshine Coast,Queensland,,unmatched; outside frozen 103 councils,False
+1195,36720,Sunshine Coast,Queensland,,unmatched; outside frozen 103 councils,False
+1202,36720,Sunshine Coast,Queensland,,unmatched; outside frozen 103 councils,False
+1046,36820,Tablelands,Queensland,,unmatched; outside frozen 103 councils,False
+1088,36820,Tablelands,Queensland,,unmatched; outside frozen 103 councils,False
+1174,36820,Tablelands,Queensland,,unmatched; outside frozen 103 councils,False
+1243,36820,Tablelands,Queensland,,unmatched; outside frozen 103 councils,False
+986,36910,Toowoomba,Queensland,,unmatched; outside frozen 103 councils,False
+1011,36910,Toowoomba,Queensland,,unmatched; outside frozen 103 councils,False
+1020,36910,Toowoomba,Queensland,,unmatched; outside frozen 103 councils,False
+1078,36910,Toowoomba,Queensland,,unmatched; outside frozen 103 councils,False
+1195,36910,Toowoomba,Queensland,,unmatched; outside frozen 103 councils,False
+1046,36950,Torres,Queensland,,unmatched; outside frozen 103 councils,False
+1088,36950,Torres,Queensland,,unmatched; outside frozen 103 councils,False
+1174,36950,Torres,Queensland,,unmatched; outside frozen 103 councils,False
+1243,36950,Torres,Queensland,,unmatched; outside frozen 103 councils,False
+1046,36960,Torres Strait Island,Queensland,,unmatched; outside frozen 103 councils,False
+1088,36960,Torres Strait Island,Queensland,,unmatched; outside frozen 103 councils,False
+1174,36960,Torres Strait Island,Queensland,,unmatched; outside frozen 103 councils,False
+1243,36960,Torres Strait Island,Queensland,,unmatched; outside frozen 103 councils,False
+1046,37010,Townsville,Queensland,,unmatched; outside frozen 103 councils,False
+1174,37010,Townsville,Queensland,,unmatched; outside frozen 103 councils,False
+1202,37010,Townsville,Queensland,,unmatched; outside frozen 103 councils,False
+1243,37010,Townsville,Queensland,,unmatched; outside frozen 103 councils,False
+1243,37300,Weipa,Queensland,,unmatched; outside frozen 103 councils,False
+986,37310,Western Downs,Queensland,,unmatched; outside frozen 103 councils,False
+1011,37310,Western Downs,Queensland,,unmatched; outside frozen 103 councils,False
+1020,37310,Western Downs,Queensland,,unmatched; outside frozen 103 councils,False
+1078,37310,Western Downs,Queensland,,unmatched; outside frozen 103 councils,False
+1202,37310,Western Downs,Queensland,,unmatched; outside frozen 103 councils,False
+1243,37310,Western Downs,Queensland,,unmatched; outside frozen 103 councils,False
+1046,37340,Whitsunday,Queensland,,unmatched; outside frozen 103 councils,False
+1174,37340,Whitsunday,Queensland,,unmatched; outside frozen 103 councils,False
+1243,37340,Whitsunday,Queensland,,unmatched; outside frozen 103 councils,False
+1046,37400,Winton,Queensland,,unmatched; outside frozen 103 councils,False
+1174,37400,Winton,Queensland,,unmatched; outside frozen 103 councils,False
+1202,37400,Winton,Queensland,,unmatched; outside frozen 103 councils,False
+1243,37400,Winton,Queensland,,unmatched; outside frozen 103 councils,False
+1243,37550,Woorabinda,Queensland,,unmatched; outside frozen 103 councils,False
+1046,37570,Wujal Wujal,Queensland,,unmatched; outside frozen 103 councils,False
+1088,37570,Wujal Wujal,Queensland,,unmatched; outside frozen 103 councils,False
+1174,37570,Wujal Wujal,Queensland,,unmatched; outside frozen 103 councils,False
+1243,37570,Wujal Wujal,Queensland,,unmatched; outside frozen 103 councils,False
+1046,37600,Yarrabah,Queensland,,unmatched; outside frozen 103 councils,False
+1088,37600,Yarrabah,Queensland,,unmatched; outside frozen 103 councils,False
+1174,37600,Yarrabah,Queensland,,unmatched; outside frozen 103 councils,False
+1243,37600,Yarrabah,Queensland,,unmatched; outside frozen 103 councils,False
+984,40120,Adelaide Hills,South Australia,,unmatched; outside frozen 103 councils,False
+984,40150,Adelaide Plains,South Australia,,unmatched; outside frozen 103 councils,False
+984,40310,Barossa,South Australia,,unmatched; outside frozen 103 councils,False
+984,40430,Barunga West,South Australia,,unmatched; outside frozen 103 councils,False
+984,40520,Berri Barmera,South Australia,,unmatched; outside frozen 103 councils,False
+984,41140,Clare and Gilbert Valleys,South Australia,,unmatched; outside frozen 103 councils,False
+984,41190,Cleve,South Australia,,unmatched; outside frozen 103 councils,False
+984,41750,Elliston,South Australia,,unmatched; outside frozen 103 councils,False
+984,42030,Gawler,South Australia,,unmatched; outside frozen 103 councils,False
+984,43080,Karoonda East Murray,South Australia,,unmatched; outside frozen 103 councils,False
+984,43650,Light,South Australia,,unmatched; outside frozen 103 councils,False
+984,43790,Loxton Waikerie,South Australia,,unmatched; outside frozen 103 councils,False
+984,44210,Mid Murray,South Australia,,unmatched; outside frozen 103 councils,False
+984,44550,Mount Barker,South Australia,,unmatched; outside frozen 103 councils,False
+984,45040,Murray Bridge,South Australia,,unmatched; outside frozen 103 councils,False
+984,45680,Playford,South Australia,,unmatched; outside frozen 103 councils,False
+984,46450,Port Pirie,South Australia,,unmatched; outside frozen 103 councils,False
+984,46670,Renmark Paringa,South Australia,,unmatched; outside frozen 103 councils,False
+984,47140,Salisbury,South Australia,,unmatched; outside frozen 103 councils,False
+984,47700,Tea Tree Gully,South Australia,,unmatched; outside frozen 103 councils,False
+984,47800,Coorong,South Australia,,unmatched; outside frozen 103 councils,False
+984,47910,Tumby Bay,South Australia,,unmatched; outside frozen 103 councils,False
+984,48130,Wakefield,South Australia,,unmatched; outside frozen 103 councils,False
+984,48830,Yorke Peninsula,South Australia,,unmatched; outside frozen 103 councils,False
+1209,49399,Unincorporated SA,South Australia,,unmatched; outside frozen 103 councils,False
+1044,50980,Broome,Western Australia,,unmatched; outside frozen 103 councils,False
+965,51470,Carnamah,Western Australia,,unmatched; outside frozen 103 councils,False
+965,51540,Carnarvon,Western Australia,,unmatched; outside frozen 103 councils,False
+965,51610,Chapman Valley,Western Australia,,unmatched; outside frozen 103 councils,False
+965,52030,Coorow,Western Australia,,unmatched; outside frozen 103 councils,False
+965,52520,Dalwallinu,Western Australia,,unmatched; outside frozen 103 councils,False
+965,52590,Dandaragan,Western Australia,,unmatched; outside frozen 103 councils,False
+1044,52800,Derby-West Kimberley,Western Australia,,unmatched; outside frozen 103 councils,False
+965,53800,Greater Geraldton,Western Australia,,unmatched; outside frozen 103 councils,False
+1044,53920,Halls Creek,Western Australia,,unmatched; outside frozen 103 councils,False
+965,54060,Irwin,Western Australia,,unmatched; outside frozen 103 councils,False
+965,54690,Koorda,Western Australia,,unmatched; outside frozen 103 councils,False
+965,55530,Mingenew,Western Australia,,unmatched; outside frozen 103 councils,False
+965,55670,Morawa,Western Australia,,unmatched; outside frozen 103 councils,False
+965,55880,Mount Marshall,Western Australia,,unmatched; outside frozen 103 councils,False
+950,56090,Mundaring,Western Australia,,unmatched; outside frozen 103 councils,False
+965,56790,Northampton,Western Australia,,unmatched; outside frozen 103 councils,False
+965,57000,Perenjori,Western Australia,,unmatched; outside frozen 103 councils,False
+965,57770,Shark Bay,Western Australia,,unmatched; outside frozen 103 councils,False
+950,58050,Swan,Western Australia,,unmatched; outside frozen 103 councils,False
+965,58260,Three Springs,Western Australia,,unmatched; outside frozen 103 councils,False
+1044,59340,Wyndham-East Kimberley,Western Australia,,unmatched; outside frozen 103 councils,False
+1038,60210,Break O'Day,Tasmania,,unmatched; outside frozen 103 councils,False
+1144,60210,Break O'Day,Tasmania,,unmatched; outside frozen 103 councils,False
+1144,60410,Brighton,Tasmania,,unmatched; outside frozen 103 councils,False
+1038,60610,Burnie,Tasmania,,unmatched; outside frozen 103 councils,False
+1144,60610,Burnie,Tasmania,,unmatched; outside frozen 103 councils,False
+1038,60810,Central Coast (Tas.),Tasmania,,unmatched; outside frozen 103 councils,False
+1144,60810,Central Coast (Tas.),Tasmania,,unmatched; outside frozen 103 councils,False
+1038,61010,Central Highlands (Tas.),Tasmania,,unmatched; outside frozen 103 councils,False
+1144,61010,Central Highlands (Tas.),Tasmania,,unmatched; outside frozen 103 councils,False
+1038,61210,Circular Head,Tasmania,,unmatched; outside frozen 103 councils,False
+1144,61210,Circular Head,Tasmania,,unmatched; outside frozen 103 councils,False
+1144,61410,Clarence,Tasmania,,unmatched; outside frozen 103 councils,False
+1144,61510,Derwent Valley,Tasmania,,unmatched; outside frozen 103 councils,False
+1227,61510,Derwent Valley,Tasmania,,unmatched; outside frozen 103 councils,False
+1038,61610,Devonport,Tasmania,,unmatched; outside frozen 103 councils,False
+1144,61610,Devonport,Tasmania,,unmatched; outside frozen 103 councils,False
+1038,61810,Dorset,Tasmania,,unmatched; outside frozen 103 councils,False
+1144,61810,Dorset,Tasmania,,unmatched; outside frozen 103 councils,False
+1038,62010,Flinders (Tas.),Tasmania,,unmatched; outside frozen 103 councils,False
+1144,62010,Flinders (Tas.),Tasmania,,unmatched; outside frozen 103 councils,False
+1038,62210,George Town,Tasmania,,unmatched; outside frozen 103 councils,False
+1144,62210,George Town,Tasmania,,unmatched; outside frozen 103 councils,False
+1038,62410,Glamorgan-Spring Bay,Tasmania,,unmatched; outside frozen 103 councils,False
+1144,62410,Glamorgan-Spring Bay,Tasmania,,unmatched; outside frozen 103 councils,False
+1227,62410,Glamorgan-Spring Bay,Tasmania,,unmatched; outside frozen 103 councils,False
+1144,62610,Glenorchy,Tasmania,,unmatched; outside frozen 103 councils,False
+1227,62610,Glenorchy,Tasmania,,unmatched; outside frozen 103 councils,False
+1144,62810,Hobart,Tasmania,,unmatched; outside frozen 103 councils,False
+1144,63010,Huon Valley,Tasmania,,unmatched; outside frozen 103 councils,False
+1227,63010,Huon Valley,Tasmania,,unmatched; outside frozen 103 councils,False
+1038,63210,Kentish,Tasmania,,unmatched; outside frozen 103 councils,False
+1144,63210,Kentish,Tasmania,,unmatched; outside frozen 103 councils,False
+1144,63410,King Island,Tasmania,,unmatched; outside frozen 103 councils,False
+1144,63610,Kingborough,Tasmania,,unmatched; outside frozen 103 councils,False
+1038,63810,Latrobe (Tas.),Tasmania,,unmatched; outside frozen 103 councils,False
+1144,63810,Latrobe (Tas.),Tasmania,,unmatched; outside frozen 103 councils,False
+1038,64010,Launceston,Tasmania,,unmatched; outside frozen 103 councils,False
+1144,64010,Launceston,Tasmania,,unmatched; outside frozen 103 councils,False
+1038,64210,Meander Valley,Tasmania,,unmatched; outside frozen 103 councils,False
+1144,64210,Meander Valley,Tasmania,,unmatched; outside frozen 103 councils,False
+1038,64610,Northern Midlands,Tasmania,,unmatched; outside frozen 103 councils,False
+1144,64610,Northern Midlands,Tasmania,,unmatched; outside frozen 103 councils,False
+1144,64810,Sorell,Tasmania,,unmatched; outside frozen 103 councils,False
+1144,65010,Southern Midlands,Tasmania,,unmatched; outside frozen 103 councils,False
+1227,65010,Southern Midlands,Tasmania,,unmatched; outside frozen 103 councils,False
+1144,65210,Tasman,Tasmania,,unmatched; outside frozen 103 councils,False
+1038,65410,Waratah-Wynyard,Tasmania,,unmatched; outside frozen 103 councils,False
+1144,65410,Waratah-Wynyard,Tasmania,,unmatched; outside frozen 103 councils,False
+1038,65610,West Coast,Tasmania,,unmatched; outside frozen 103 councils,False
+1144,65610,West Coast,Tasmania,,unmatched; outside frozen 103 councils,False
+1038,65810,West Tamar,Tasmania,,unmatched; outside frozen 103 councils,False
+1144,65810,West Tamar,Tasmania,,unmatched; outside frozen 103 councils,False
+1269,70540,Belyuen,Northern Territory,,unmatched; outside frozen 103 councils,False
+1269,70700,Coomalie ,Northern Territory,,unmatched; outside frozen 103 councils,False
+1269,71000,Darwin,Northern Territory,,unmatched; outside frozen 103 councils,False
+1269,71300,East Arnhem,Northern Territory,,unmatched; outside frozen 103 councils,False
+1269,72200,Katherine,Northern Territory,,unmatched; outside frozen 103 councils,False
+1269,72300,Litchfield,Northern Territory,,unmatched; outside frozen 103 councils,False
+1269,72800,Palmerston,Northern Territory,,unmatched; outside frozen 103 councils,False
+1269,73600,Roper Gulf,Northern Territory,,unmatched; outside frozen 103 councils,False
+1269,74550,Victoria Daly,Northern Territory,,unmatched; outside frozen 103 councils,False
+1269,74560,Wagait,Northern Territory,,unmatched; outside frozen 103 councils,False
+1269,74660,West Arnhem,Northern Territory,,unmatched; outside frozen 103 councils,False
+1269,74680,West Daly,Northern Territory,,unmatched; outside frozen 103 councils,False
+1269,79399,Unincorporated NT,Northern Territory,,unmatched; outside frozen 103 councils,False

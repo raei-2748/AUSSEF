@@ -1,0 +1,222 @@
+Annexure 1 – Lodging Betterment
+Queensland Betterment Funding Guidelines
+1. Betterment funding categories
+Queensland Betterment funding rounds may be funded under either:
+   • DRFA Category D – an exceptional funding initiative approved jointly by the Commonwealth and State
+      governments (50:50) following an extraordinary event OR
+   • DRFA Category E – mitigation funding sourced from the DRFA efficiencies framework.
+Details of the Betterment Funding round, available funding, Category of funding and eligible events will be
+included in Annexure 1.
+
+2. Betterment lodgement
+Betterment project scope must be lodged through QRA’s MARS Portal as part of a REPA submission that has
+been enabled for Betterment. Once Betterment has been enabled a Betterment Funding column is available for
+applicants to identify REPA and Betterment related line items by selecting a Funding category. The options are:
+    • Reconstruction of essential public assets - REPA line items outside the Betterment project scope
+        locations
+    • REPA with associated Betterment – REPA scope to restore event damage at the identified Betterment
+        site, that would be required if the Betterment project did not take place
+    • Betterment Project (Category D) or Betterment Project (Category E) – to identify the proposed
+        Betterment alternative treatments to increase resilience of the asset.
+Betterment may be lodged in MARS through one of the following:
+     a. Lodge via an already approved REPA submission for the eligible event
+     b. Lodge via a REPA submission that is already lodged in MARS but not yet approved or
+     c. Draft a new REPA submission under the relevant Betterment eligible Event.
+
+2a      Lodging Betterment via an already approved REPA submission
+ 1. Confirm the REPA submission scope includes the proposed Betterment project site/s and has been
+    approved under the relevant Betterment eligible event listed in Annexure 1.
+ 2. Email QRA Support and/or your RLO:
+    a. Provide the MARS submission number of the approved REPA submission to be updated to include
+       Betterment
+    b. Request an Estimate Update – Scope Change on the approved submission and
+    c. Request that Project Allowed be enabled on the Draft Estimate Update Submission.
+ 3. Once the above are completed, a Draft Estimate Update submission, with the Betterment Funding column
+    and Stats function will be available in MARS to enter the Betterment project.
+ 4. Open the Draft Estimate Update Submission in MARS
+ 5. On the Submission Details screen, go to the Submission description field and identify the Betterment
+    submission by entering ‘Betterment, and your proposed project name’ and save.
+ 6. Click on Line items, and within the Line item grid:
+    a. Identify the REPA line items to restore event damage at the proposed Betterment project site by
+        selecting REPA with associated Betterment in the Funding column
+    b. If the Betterment Project site only partially impacts a REPA line item(s), split the REPA line so that the
+        portion of the REPA line item that overlaps the Betterment Project site, is separated and identified as
+        REPA with associated Betterment in the Funding column
+
+
+
+
+DOC/22/13897 Version: June 2022
+
+                                                                                                                    1
+     c. Add new line items to detail the proposed Betterment project scope (inclusive of any REPA line items
+        still applicable to the Betterment project) that corresponds to the REPA with associated Betterment
+        lines identified above and
+     d. Identify the Betterment project scope line items by selecting the relevant Betterment Project (Category
+        D) or Betterment Project (Category E) in the Funding column
+
+
+
+
+     e. Funding column should be left having Reconstruction of essential public assets for any line items not
+        associated with the Betterment project scope
+     f. Pending assessment and approval, Betterment Project (Category D) or Betterment Project (Category
+        E) line items will supersede the REPA with associated Betterment line items.
+ 7. Once the above steps are complete and prior to lodging, click on the Stats panel to the right of line items
+    to populate the REPA and Betterment values for the project. The Submission number and related Project
+    funding values are to be entered into the supporting Betterment Project Application Form.
+          Betterment project Category D Stats               Betterment project Category D Stats
+
+
+
+
+ 8. Complete the Betterment Project Application Form, one per project and save ready to attach to the
+    Submission in MARS.
+ 9. Open the Submission details field in MARS, go to Supporting Documents field, click on Add documents to
+    attach the completed Betterment Project Application Form to the Estimate update submission in MARS as
+    well as all supporting Betterment project evidence
+ 10. IMPORTANT: Prior to lodging, contact your RLO to validate and quality check the final Draft Estimate
+     Update Submission, the Betterment scope, Funding categories, the Betterment Project Application
+     Form and supporting evidence.
+ 11. Refer to MARS Portal user guide – activation and submission preparation on the QRA website,
+     sections: 4.7 Validate data quality and 4.10 Lodgement and MARS Portal user guide Estimate updates
+     section 4 Scope change.
+
+DOC/22/13897 Version: June 2022
+
+                                                                                                                  2
+2b.       Lodging Betterment via a REPA submission already lodged in MARS, but not
+          yet approved.
+ 1. Confirm the proposed Betterment project site/s are eligible for REPA under the relevant Betterment
+    Funding Round list of eligible Events – Refer to Annexure 1.
+ 2. Email QRA Support and/or your RLO:
+    a. Provide the MARS submission number of the REPA submission, lodged but not yet approved, that
+       is to be updated to include Betterment
+    b. Request the submission be Withdrawn
+    c. Once the submission is withdrawn open it and click on RE-LODGE button which creates a Draft
+       submission
+    d. Request that Project Allowed be enabled on the Draft submission, this will add a Betterment Funding
+       column and a Stats function to the REPA submission.
+ 3. Open the Draft Submission in MARS
+ 4. On the Submission Details screen, go to the Submission description field and identify the Betterment
+    submission by entering ‘Betterment, and your proposed project name’ and save.
+ 5. Click on Line items, and within the Line item grid:
+    a. Identify the REPA line items to restore event damage at the proposed Betterment project site by
+        selecting REPA with associated Betterment in the Funding column
+
+
+
+
+      b. If the Betterment Project site only partially impacts a REPA line item(s), split the REPA line so that the
+         portion of the REPA line item that overlaps the Betterment Project site is separated and identified as
+         REPA with associated Betterment in the Funding column
+      c. Add new line items to detail the proposed Betterment project scope (inclusive of any REPA line items
+         still applicable to the Betterment project) that corresponds to the REPA with associated Betterment
+         lines identified above and
+      d. Identify the Betterment project scope line items by selecting the relevant Betterment Project (Category
+         D) or Betterment Project (Category E) in the Funding column
+
+
+
+
+      e. Funding column should be left having Reconstruction of essential public assets for any line items not
+         associated with the Betterment project scope
+      f. Pending assessment and approval, Betterment Project (Category D) or Betterment Project (Category
+         E) line items will supersede the REPA with associated Betterment line items.
+
+
+
+
+DOC/22/13897 Version: June 2022
+
+                                                                                                                      3
+ 6. Once the above steps are complete and prior to lodging, click on the Stats panel to the right of line items
+    to populate the REPA and Betterment values for the project. The Submission number and related Project
+    funding values are to be entered into the supporting Betterment Project Application Form. .
+       Betterment project Category D Stats                 Betterment project Category D Stats
+
+
+
+
+ 7. Complete the Betterment Project Application Form, one per project and save ready to attach to the
+    Submission in MARS.
+ 8. Open the Submission details field in MARS, go to Supporting Documents field, click on Add documents to
+    attach the completed Betterment Project Application Form to the Estimate update submission in MARS as
+    well as all supporting Betterment project evidence
+ 9. IMPORTANT: Prior to lodging, contact your RLO to validate and quality check the final Draft Submission,
+    the Betterment scope, Funding categories, the Betterment Project Application Form and supporting
+    evidence.
+ 10. Refer to MARS Portal user guide – activation and submission preparation on the QRA website,
+     sections: 4.7 Validate data quality and 4.10 Lodgement.
+
+
+
+
+DOC/22/13897 Version: June 2022
+
+                                                                                                                  4
+2c.        Lodging Betterment by drafting a new REPA submission in MARS
+ 1. Confirm your proposed Betterment project site/s are eligible for REPA under the relevant Betterment
+    Funding Round list of eligible Events – Refer to Annexure 1.
+ 2. Go to Applications in the MARS Portal, click on Submissions and Click on + NEW SUBMISSION.
+ 3. In the Submission Details field,
+    a. select the Betterment eligible Event relevant to the Betterment Funding Program and
+    b. select REPA submission and
+    c. go to Submission Description and enter Betterment and your project name in the description to identify
+         the Betterment project
+ 4. Email QRA Support and/or your RLO:
+    a. provide the MARS Draft submission number of the REPA submission that is to include Betterment
+    b. request that Project Allowed be enabled on the Draft submission - this will enable the Betterment
+       Funding column and a Stats function to the Draft REPA submission.
+ 5. Once Project Allowed is enabled, click on Line Items and:
+    a. develop REPA scope line items to meet REPA submission requirements, including photo evidence
+       supporting the exact location, nature and extent of damage to the asset caused by the eligible event
+    b. Identify the REPA line items related to the proposed Betterment project site by selecting REPA with
+       associated Betterment in the Funding column
+
+
+
+
+      c. If the Betterment Project site only partially impacts a REPA line item(s), split the REPA line so that the
+         portion of the REPA line item that overlaps the Betterment Project site is separated and identified as
+         REPA with associated Betterment in the Funding column
+      d. Identify the Betterment project scope line items by selecting the relevant Betterment Project (Category
+         D) or Betterment Project (Category E) in the Funding column
+
+
+
+
+      e. Funding column should be having Reconstruction of essential public assets for any line items not
+         associated with the Betterment project scope
+      f. Pending assessment and approval, Betterment Project (Category D) or Betterment Project (Category
+         E) line items will supersede the REPA with associated Betterment line items.
+ 6. Once the above steps are complete and prior to lodging, click on the Stats panel to the right of the line
+    items and populate the REPA and Betterment values for the Betterment project. These Project funding
+    values are to be entered in the supporting Betterment Project Application Form.
+
+
+
+
+DOC/22/13897 Version: June 2022
+
+                                                                                                                      5
+    Betterment project Category D Stats               Betterment project Category D Stats
+
+
+
+
+ 7. Complete the Betterment Project Application Form, one per project.
+ 8. Attach the completed Betterment Project Application Form to the submission as well as all Betterment
+    project supporting evidence.
+ 9. Seek RLO assistance to validate and quality check the REPA submission, the Betterment scope, the
+    Betterment Project Application Form and supporting evidence prior to lodgement
+ 10. Refer to MARS Portal user guide – activation and submission preparation on the QRA website
+     sections: 4.7 Validate data quality and 4.10 Lodgement.
+
+
+
+
+DOC/22/13897 Version: June 2022
+
+                                                                                                           6
+

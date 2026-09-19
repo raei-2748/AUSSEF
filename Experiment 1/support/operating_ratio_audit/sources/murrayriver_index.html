@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en-AU">
+<!--<![endif]-->
+<head>
+	<!-- Published by OpenCities, 1.37.6.0 -->
+
+    
+        
+    
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="theme-color" content="#FFFFFF"/>
+    <title>Annual Financial Statements Murray River Council</title>
+	<meta name="generator" content="OpenCities - https://granicus.com/product/opencities" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Using mobile-web-app-capable for now to enable full-screen experience on supported platforms -->
+    <!-- Note: This tag works mainly on Android Chrome. It does NOT enable full-screen mode on iOS Safari. -->
+    <!-- For iOS, the correct tag is: <meta name="apple-mobile-web-app-capable" content="yes"> -->
+    <!-- TODO: Monitor for updated meta tag standards from Apple or other browser vendors -->
+    <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="description" content="The Annual Financial Statements set out the financial performance, financial position and cash flows of Council for the financial year." />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://www.murrayriver.nsw.gov.au/Council/Fees-forms-documents/Annual-Reporting/Annual-Financial-Statements" />
+    <meta property="og:title" content="Annual Financial Statements" />
+    <meta property="og:description" content="The Annual Financial Statements set out the financial performance, financial position and cash flows of Council for the financial year." />
+    <meta property="og:image" content="https://www.murrayriver.nsw.gov.au/files/assets/public/v/1/icons/dollars.jpg?w=1200" />
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:title" content="Annual Financial Statements" />
+    <meta property="twitter:description" content="The Annual Financial Statements set out the financial performance, financial position and cash flows of Council for the financial year." />
+    <meta property="twitter:image" content="https://www.murrayriver.nsw.gov.au/files/assets/public/v/1/icons/dollars.jpg?w=1080" />
+    <link rel="canonical" href="https://www.murrayriver.nsw.gov.au/Council/Fees-forms-documents/Annual-Reporting/Annual-Financial-Statements" />
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/files/ocfavicon/Public/apple-touch-icon.png?V=637725834429985517">
+<link rel="icon" type="image/png" sizes="32x32" href="/files/ocfavicon/Public/favicon-32x32.png?V=637725834429985517">
+<link rel="icon" type="image/png" sizes="16x16" href="/files/ocfavicon/Public/favicon-16x16.png?V=637725834429985517">
+<link rel="manifest" href="/files/ocfavicon/Public/site.webmanifest?V=637725834429985517">
+<link rel="shortcut icon" href="/files/ocfavicon/Public/favicon.ico?V=637725834429985517">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-config" content="/files/ocfavicon/Public/browserconfig.xml?V=637725834429985517">
+    <script>
+        (function () {
+            if (window.__UNLOAD_LAZY_PATCH__) return;
+            window.__UNLOAD_LAZY_PATCH__ = true;
+
+            var supportsPageHide = ("onpagehide" in window);
+            var mappedType = supportsPageHide ? "pagehide" : "beforeunload";
+            var nativeAdd = window.addEventListener;
+            var nativeRemove = window.removeEventListener;
+            var unloadMap = null;
+            var patched = false;
+
+            function ensurePatched() {
+                if (patched) return;
+                unloadMap = new WeakMap();
+
+                window.addEventListener = function (type, listener, options) {
+                    if (type === "unload") {
+                        var wrapped = function (evt) {
+                            if (supportsPageHide && evt.persisted) return;
+                            listener.call(this, evt);
+                        };
+                        unloadMap.set(listener, wrapped);
+                        return nativeAdd.call(this, mappedType, wrapped, options);
+                    }
+                    return nativeAdd.call(this, type, listener, options);
+                };
+
+                window.removeEventListener = function (type, listener, options) {
+                    if (type === "unload") {
+                        var wrapped = unloadMap.get(listener);
+                        if (wrapped) {
+                            nativeRemove.call(this, mappedType, wrapped, options);
+                            unloadMap.delete(listener);
+                        }
+                        return;
+                    }
+                    return nativeRemove.call(this, type, listener, options);
+                };
+
+                var orig = null;
+                Object.defineProperty(window, "onunload", {
+                    configurable: true, enumerable: true,
+                    get: function () { return orig; },
+                    set: function (h) {
+                        orig = h;
+                        if (typeof h === "function") window.addEventListener("unload", h);
+                    }
+                });
+                patched = true;
+            }
+
+            window.addEventListener = function (type, listener, options) {
+                if (type === "unload") {
+                    ensurePatched();
+                    return window.addEventListener(type, listener, options);
+                }
+                return nativeAdd.call(this, type, listener, options);
+            };
+
+            window.removeEventListener = function (type, listener, options) {
+                if (type === "unload" && !patched) {
+                    return;
+                }
+                return nativeRemove.call(this, type, listener, options);
+            };
+
+            function patchTelerik() {
+                ensurePatched();
+                var ns = window.RadAjaxNamespace;
+                if (!ns || !ns.EventManager || !ns.EventManager.Add || ns.EventManager.__UnloadPatched) return;
+                var origAdd = ns.EventManager.Add;
+                ns.EventManager.Add = function (el, evtName, handler, clientId) {
+                    if (el === window && evtName === "unload") {
+                        return window.addEventListener("unload", handler);
+                    }
+                    return origAdd.call(this, el, evtName, handler, clientId);
+                };
+                ns.EventManager.__UnloadPatched = true;
+            }
+
+            if (window.RadAjaxNamespace)
+                patchTelerik();
+            else (window.requestIdleCallback || function (cb)
+            {
+                setTimeout(cb, 120);
+            })(patchTelerik);
+        })();
+    </script>
+    <!-- Preconnecting to Google Fonts servers -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Defer Roboto font loading to avoid render-blocking -->
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            const robotoLink = document.createElement('link');
+            robotoLink.rel = 'stylesheet';
+            robotoLink.href = 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap';
+            document.head.appendChild(robotoLink);
+        });
+    </script>
+
+    <style>
+        .gm-style, .gm-style * {
+            font-family: 'Roboto', system-ui, -apple-system, "Segoe UI", Arial, sans-serif !important;
+        }
+    </style>
+
+    <script>
+        document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, "js");
+    </script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+        
+            <script type="text/javascript">
+                window.__oc_flags_ImprovedBreakpointEventHandling = true;
+            </script>
+            
+        
+    
+    
+    
+        <script type="text/javascript">
+            var __metaQueryBreakpoints = {
+                'sc-size-4': '(max-width: 480px)',
+                'sc-size-3': '(min-width: 480px) and (max-width: 768px)',
+                'sc-size-2': '(min-width: 768px) and (max-width: 992px)',
+                'sc-size-1': '(min-width: 992px)'
+            }
+
+            var __ocSizePoints = [
+                { min: 0, name: 'sc-size-4' },
+                { min: 480, name: 'sc-size-3' },
+                { min: 768, name: 'sc-size-2' },
+                { min: 992, name: 'sc-size-1' }
+            ];
+
+        </script>
+    
+
+    <!-- Framework Section -->
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/files/templates/00000000-0000-0000-0000-000000000000/f7186fa2-8fc2-4b45-b099-8fa75fce8769/v/209/jquery-1.12.4.min.js?seamlessts=639227855973540743" ><\/script>')</script>
+
+    <!--Google Maps API Loader – Improved Version to avoid Warning
+    This script loads the Google Maps JavaScript API using a dynamic and async method.
+    It replaces the old static <script> tag to avoid performance warnings from Google.
+
+    Dynamically creates the <script> tag with loading = async for better performance
+    Builds the API URL with required libraries(places, geometry, marker, geocoding)
+    Uses a Promise and callback(google.maps.__ib__) to confirm when the script is ready
+
+    It Avoids Google’s warning about direct script loading
+    Improves page load speed by loading the API asynchronously-->
+
+    
+        <script>
+            (function (root) {
+                root.OpenCities = root.OpenCities || {};
+                if (!root.OpenCities.GoogleMapsLoader) {
+                    root.OpenCities.GoogleMapsLoader = {
+                        _cbs: [],
+                        _ready: false,
+                        onReady: function (cb) {
+                            if (this._ready) { try { cb(); } catch (e) { console.error(e); } }
+                            else if (typeof cb === 'function') this._cbs.push(cb);
+                        },
+                        _fire: function () {
+                            if (this._ready) return;
+                            this._ready = true;
+                            var q = this._cbs.splice(0);
+                            for (var i = 0; i < q.length; i++) {
+                                try { q[i](); } catch (e) { console.error(e); }
+                            }
+                        }
+                    };
+                }
+            })(window);
+
+            (g => {
+                var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__",
+                    m = document, b = window;
+                b = b[c] || (b[c] = {});
+                var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams,
+                    u = () => h || (h = new Promise(async (resolve, reject) => {
+                        a = m.createElement("script");
+                        e.set("libraries", [...r] + "");
+                        for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]);
+                        e.set("callback", c + ".maps." + q);
+                        a.src = "https://maps." + c + "apis.com/maps/api/js?" + e.toString();
+                        a.loading = "async";
+                        a.async = true;
+                        a.defer = true;
+                        d[q] = resolve;
+                        a.onerror = () => reject(Error(p + " could not load."));
+                        a.nonce = m.querySelector("script[nonce]")?.nonce || "";
+                        m.head.append(a);
+                    }));
+                if (d[l]) {
+                    console.warn(p + " only loads once. Ignoring duplicate load.");
+                } else {
+                    d[l] = (f, ...n) => (r.add(f), u().then(() => d[l](f, ...n)));
+                }
+            })({
+                key: "AIzaSyDM8iwn1rce8kCQLJab1cnvmzLKI0tu4u0",
+                v: "3.65"
+            });
+
+            (async () => {
+                try {
+                    if (!google?.maps?.importLibrary) return;
+
+                    if (!window.OpenCities.__mapsLibsPromise) {
+                        window.OpenCities.__mapsLibsPromise = Promise.all([
+                            google.maps.importLibrary('maps'),
+                            google.maps.importLibrary('places'),
+                            google.maps.importLibrary('geocoding'),
+                            google.maps.importLibrary('marker'),
+                            google.maps.importLibrary('geometry')
+                        ]);
+                    }
+                    await window.OpenCities.__mapsLibsPromise;
+
+                    if (window.OpenCities?.GoogleMapsLoader) {
+                        window.OpenCities.GoogleMapsLoader._fire();
+                    }
+                } catch (err) {
+                    console.error('Google Maps failed to initialise', err);
+                }
+            })();
+        </script>
+    
+    <script src="/files/templates/00000000-0000-0000-0000-000000000000/f7186fa2-8fc2-4b45-b099-8fa75fce8769/v/209/modernizr.custom.710f3bf.js?seamlessts=639227855973540743" defer></script>
+    
+    <!--// End Framework Section -->
+    <!-- OpenCities Section -->
+    <script>
+        var OpenCities = OpenCities || {};
+        OpenCities.Paths = {
+            SiteTemplate: '/files/templates/00000000-0000-0000-0000-000000000000/f7186fa2-8fc2-4b45-b099-8fa75fce8769/v/209/',
+            ThemePath: '/files/templates/00000000-0000-0000-0000-000000000000/f7186fa2-8fc2-4b45-b099-8fa75fce8769/v/209/'
+        };
+    </script>
+    <script src='/ocapi/bcb71f06-c610-4673-bde2-8ecbf9e46b27/en-AU/websitesettings.js'></script>
+    <script src="/files/templates/00000000-0000-0000-0000-000000000000/f7186fa2-8fc2-4b45-b099-8fa75fce8769/v/209/oc_head.js?applied=20241201102948"></script>
+    <!-- Script Combine. To enter debug mode for this browser session, enter OcScriptCombineDebug=true as a querystring -->
+<link href="/files/oc-templates/00000000-0000-0000-0000-000000000000/f7186fa2-8fc2-4b45-b099-8fa75fce8769/v/209/oc_grid.css~oc_style.css~oc_wizard_style.css~oc_main.css~oc_forms.css~oc_wizard.css~oc_wizard_menu.css~oc_main_s1.css~oc_wizard_s1.css~oc_wizard_menu_s1.css~oc_grid_s1.css~OcScriptCombine_Minify0?uniqueid=20241201102948" rel="stylesheet" type="text/css">
+    <!-- Script Combine. To enter debug mode for this browser session, enter OcScriptCombineDebug=true as a querystring -->
+<link href="/files/oc-templates/00000000-0000-0000-0000-000000000000/f7186fa2-8fc2-4b45-b099-8fa75fce8769/v/209/client_style.css~client.css~client_menu.css~client_s1.css~client_menu_s1.css~client_forms.css~OcScriptCombine_Minify0?uniqueid=20241201102948" rel="stylesheet" type="text/css">
+    <script>
+(function (BackgroundSettings, $, undefined) {
+    BackgroundSettings.initialise = function () {
+        this.Application = {"CSSSelector":".content-outer-container","EnableFade":false};
+    };
+} (OpenCities.BackgroundSettings = OpenCities.BackgroundSettings || {}, jQuery));
+OpenCities.BackgroundSettings.initialise();
+</script>
+    
+    <!-- Script Combine. To enter debug mode for this browser session, enter OcScriptCombineDebug=true as a querystring -->
+<link href="/files/oc-templates/00000000-0000-0000-0000-000000000000/f7186fa2-8fc2-4b45-b099-8fa75fce8769/v/209/oc_print.css~client_print.css~OcScriptCombine_Minify0?uniqueid=20241201102948" rel="stylesheet" type="text/css" media="print">
+    <!-- Script Combine. To enter debug mode for this browser session, enter OcScriptCombineDebug=true as a querystring -->
+<script src="/files/oc-templates/00000000-0000-0000-0000-000000000000/f7186fa2-8fc2-4b45-b099-8fa75fce8769/v/209/external_plugins.js~oc_form_helper.js~oc_main.js~plugins.js~oc_main_init.js~OcScriptCombine_Minify0?uniqueid=20241201102948" defer="true"></script>
+    
+    
+
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="UYNRY-2YMH8-7PYXA-RUTF9-QCXU8",function(){function e(){if(!r){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.appendChild(e),r=!0}}function t(e){r=!0;var n,t,a,i,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",i=(a.frameElement||a).style,i.width=0,i.height=0,i.border=0,i.display="none",o.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void 0;",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=14,window.BOOMR.url=n+"UYNRY-2YMH8-7PYXA-RUTF9-QCXU8";var i=document.currentScript||document.getElementsByTagName("script")[0],o=i.parentNode,r=!1,d=document.createElement("link");if(d.relList&&"function"==typeof d.relList.supports&&d.relList.supports("preload")&&"as"in d)window.BOOMR.snippetMethod="p",d.href=window.BOOMR.url,d.rel="preload",d.as="script",d.addEventListener("load",e),d.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!r)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.appendChild(d);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="eaayaa6eiuuaajqacqksqaaaabvk2ntx-f-f463e01c1-clienttons-s.akamaihd.net",i="false"=="true"?2:1,o={"ak.v":"41","ak.cp":"1822656","ak.ai":parseInt("1075936",10),"ak.ol":"0","ak.cr":4,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"cb532d0","ak.r":40856,"ak.a2":n,"ak.m":"dscb","ak.n":"essl","ak.cport":63707,"ak.gh":"23.54.30.79","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1789736567","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==mK3teV2ZWFgDogVx3XNeRdQP2iFWXDiAFTRoaEvfg8alZcYNAvkJaGhpEImVJF8z31UVOo3uv7PPadNZcOT+S1Qg9Wyphim+kY4saNwdJKQIG/OX/8anUSXkkvHS2sPt3Z6hqDH00zbDI3yt37uJ4RByDBhwp04R2Df1tX3K8i++ZckUGJl4HuUWaJ7IQBJHjQEZohQ5n8Epz5tfKAEteJ+L9aCUtmcDh8YUUz3tKXGVGrbp1K28D4XLfeh58D84/XpMED1pix7Nse/PlriT/JUEuWPrgazqHmapOcsQzdgB/ce9L9d898SMxbuQR2CdveEiDeiDbnWqm51iCeRgkYb0rFE+JUPijpG3+is2SysDWDQSEwT+RRPeeOd1WRMK1SvJEyi46+dq6Bl+/JVamRsMElleqM/C/P+LGiOJVbU=","ak.pv":"145","ak.dpoabenc":"","ak.tf":i};if(""!==t)o["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))o["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(o)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:o,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body class="body layout-modern oc-two-level-menu site-search-always-visble  content-type-oc-service content-template-oc-default group-template-oc-full-width-with-default-header page-name-annual-financial-statements page-sequence-4 page-depth-4 page-section-2 website-type-primary device-desktop " id="body-top">
+    <div id="skip-to-content-container">
+        <a href="#main-content" class="visuallyhidden focusable" id="skip-to-content-link">Skip to main content</a>
+    </div>
+    <script>
+        // OCNOW-11988 (Cursor): Proactively focus skip link when returning from browser chrome.
+        // Must run inline (not deferred oc_main.js) so focus is intercepted before NVDA speaks footer.
+        (function () {
+            var awaitingReentry = false;
+            var inertSupported = 'inert' in HTMLElement.prototype;
+
+            function isExplicitlyOutsideDocument(node) {
+                return node != null && !document.documentElement.contains(node);
+            }
+
+            function getSkipContainer() {
+                return document.getElementById('skip-to-content-container');
+            }
+
+            function getSkipLink() {
+                return document.getElementById('skip-to-content-link');
+            }
+
+            function applyGuard() {
+                awaitingReentry = true;
+                if (!inertSupported) {
+                    return;
+                }
+                var skipContainer = getSkipContainer();
+                var children = document.body.children;
+                for (var i = 0; i < children.length; i++) {
+                    if (children[i] !== skipContainer) {
+                        children[i].setAttribute('inert', '');
+                    }
+                }
+            }
+
+            function clearGuard() {
+                awaitingReentry = false;
+                if (!inertSupported) {
+                    return;
+                }
+                var children = document.body.children;
+                for (var i = 0; i < children.length; i++) {
+                    children[i].removeAttribute('inert');
+                }
+            }
+
+            function isSkipLinkElement(target) {
+                if (!target) {
+                    return false;
+                }
+                var skipContainer = getSkipContainer();
+                return target.id === 'skip-to-content-link' ||
+                    (skipContainer && skipContainer.contains(target));
+            }
+
+            function focusSkipLink() {
+                var skipLink = getSkipLink();
+                if (!skipLink) {
+                    return;
+                }
+                if (window.scrollY > 0) {
+                    window.scrollTo(0, 0);
+                }
+                skipLink.focus({ preventScroll: true });
+            }
+
+            function scheduleGuardIfDocumentLostFocus() {
+                window.setTimeout(function () {
+                    if (!document.hasFocus()) {
+                        applyGuard();
+                    }
+                }, 0);
+            }
+
+            document.addEventListener('focusout', function (e) {
+                if (isExplicitlyOutsideDocument(e.relatedTarget)) {
+                    applyGuard();
+                }
+            }, true);
+
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Tab') {
+                    scheduleGuardIfDocumentLostFocus();
+                } else if (e.key === 'F6' || (e.key === 'l' && e.ctrlKey)) {
+                    scheduleGuardIfDocumentLostFocus();
+                }
+            }, true);
+
+            window.addEventListener('focus', function () {
+                if (!awaitingReentry) {
+                    return;
+                }
+                applyGuard();
+                focusSkipLink();
+            }, true);
+
+            document.addEventListener('focusin', function (e) {
+                var reentryFromChrome = awaitingReentry || isExplicitlyOutsideDocument(e.relatedTarget);
+                if (!reentryFromChrome) {
+                    return;
+                }
+                if (isSkipLinkElement(e.target)) {
+                    clearGuard();
+                    return;
+                }
+                applyGuard();
+                focusSkipLink();
+                clearGuard();
+            }, true);
+        })();
+    </script>
+    <form name="mainForm" method="post" action="/Council/Fees-forms-documents/Annual-Reporting/Annual-Financial-Statements" id="mainForm">
+<input type="hidden" name="ctl04_seamless_script_manager_TSM" id="ctl04_seamless_script_manager_TSM" value="" />
+<input type="hidden" name="__SEAMLESSVIEWSTATE" id="__SEAMLESSVIEWSTATE" value="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" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+
+
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ctl04_seamless_script_manager_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-US%3add3ac3d5-1e29-4112-8fed-529caffa8f24%3aea597d4b%3bOpenCities.CustomControls%3aen-US%3a484f8dd2-9bd4-4208-af6e-03f67d9c874d%3a8e1d32bf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=yLfp0lNK_IqsZNwoEeFK0DNmFbbqfw7lftKHUvLR_gIW14r1_7jcBOZnAWmfvxOi9dPHXunj4IIDy3moyxl7Zpxws4kF4o89HYQsYcSRUBKB4EkdhmMlKWUBVo8fSdeinvGFuspKPYqY801Ddn_6TEZYT1lnTW4vMHktVnMhdErYKcL2ZN0467rmv3gvm2tRjfB6gAR07FgY9WxcpQl6exqzS5as74Qa3jctnuShyYV-TrofVyn5xEiZg1jueobakO5oqUXLhvpozNgi701sfHfthK83hf9Va8_7EKKJ7gwNOt688tOBjdarkEQ5O1q8bnQHRaAwHWbwWUxDJWtwa-xw3wlhIvr8zofEv8hz8Qp7qzeZqS7YnKL8TPe0fuZA_aFCjvJt-gSwvx2VydMfSNQLTOTKHSd05fbBpNwdsD4Lm6oabQ0U2LWPOXIDCwBK0" type="text/javascript"></script>
+    
+<script type="text/javascript">
+    try{
+        function SeamlessEndRequestHandler(sender, args) {
+            try {
+                var dataItems = args.get_dataItems();
+                if(dataItems.ctl04_seamless_script_manager)
+                    document.getElementById('__SEAMLESSVIEWSTATE').value = dataItems.ctl04_seamless_script_manager;
+            }
+            catch (e) { }
+        }
+
+        Sys.WebForms.PageRequestManager.getInstance().add_endRequest(SeamlessEndRequestHandler);
+    }
+    catch (e) { }
+</script>
+
+    <div class="unsupported-browser-warning js-element"></div>
+    
+    <div hidden>
+        <span id="new-window-0">opens in new tab or window </span>
+    </div>
+    <div class="overlay-container"></div>
+    
+    <div class="background-container">
+        <div class="page-container">
+            <!-- OC Layout Element GROUP TEMPLATE -->
+            <!--groupTemplateStart--><header><div class="print-header-outer-container print-element">
+<img src="/files/assets/public/templateimages/print-header.png" alt="Murray River Council - Logo" />
+</div>
+            <div class="toolbar-outer-container">
+  <div class="toolbar-inner-container clearfix">
+    <div class="toolbar-item toolbar-quicklinks toolbar-display-dropdown">
+	<button type="button" aria-controls="toolbar-quicklinks-drop-down" aria-expanded="false" class="toolbar-button toolbar-button-quicklinks js-element"><span>Quick Links</span><i aria-hidden="true"></i></button>	
+	<div id="toolbar-quicklinks-drop-down" class="toolbar-drop-down toolbar-quicklinks-drop-down clearfix">
+		<ul>
+		  <li><a href="https://www.murrayriver.nsw.gov.au/Council/About-Council/Offices-and-Service-Centres" class="oc-icon-b oc-i-phone link-type-internal" target="_blank"><span>Contact Us</span></a></li><li><a href="https://subscribepage.io/murrayrivercouncil" class="oc-icon-b oc-i-email link-type-external" target="_blank"><span>Sign-up for email updates</span></a></li><li><a href="https://www.murrayriver.nsw.gov.au/Home/Accessibility" class="oc-icon-b oc-i-information link-type-internal" target="_blank"><span>Accessibility</span></a></li>
+		</ul>
+	</div>
+</div><div class="toolbar-item toolbar-language notranslate toolbar-display-dropdown"><div class="no-js-element">
+		  <ul>
+		    <li id="toolbar-language-option-en-au-noscript"><a href="https://www.murrayriver.nsw.gov.au/Council/Fees-forms-documents/Annual-Reporting/Annual-Financial-Statements?oc_lang=en-AU" class="lang-item lang-en-au" data-translate-to="en-au" lang="en-AU">English (Australia)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-es-noscript"><a href="https://www.murrayriver.nsw.gov.au/Council/Fees-forms-documents/Annual-Reporting/Annual-Financial-Statements?oc_lang=es" class="lang-item lang-es" data-translate-to="es" lang="en">Spanish<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-ja-noscript"><a href="https://www.murrayriver.nsw.gov.au/Council/Fees-forms-documents/Annual-Reporting/Annual-Financial-Statements?oc_lang=ja" class="lang-item lang-ja" data-translate-to="ja" lang="en">Japanese<span class="visuallyhidden"> Select this as your preferred language</span></a></li>
+          </ul>
+		</div>
+	<button type="button" role="combobox" aria-controls="toolbar-language-drop-down" aria-expanded="false" aria-haspopup="listbox" aria-autocomplete="none" aria-labelledby="toolbar-language-label" class="toolbar-button toolbar-button-language js-element">  
+        <span class="toolbar-language-globe-icon" aria-hidden="true"></span>
+        <span id="toolbar-language-label" class="current-language">
+            Select a language to translate to
+		</span>
+		<i aria-hidden="true"></i>
+	</button>
+	<div id="toolbar-language-drop-down" role="listbox" aria-label="Available languages" class="toolbar-drop-down toolbar-language-drop-down js-element clearfix">
+		<ul role="group">
+		    <li role="presentation"><a id="toolbar-language-option-en-au" role="option" aria-selected="true" href="https://www.murrayriver.nsw.gov.au/Council/Fees-forms-documents/Annual-Reporting/Annual-Financial-Statements?oc_lang=en-AU" class="lang-item lang-en-au" data-translate-to="en-au" lang="en-AU">English (Australia)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-es" role="option" aria-selected="false" href="https://www.murrayriver.nsw.gov.au/Council/Fees-forms-documents/Annual-Reporting/Annual-Financial-Statements?oc_lang=es" class="lang-item lang-es" data-translate-to="es" lang="en">Spanish<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-ja" role="option" aria-selected="false" href="https://www.murrayriver.nsw.gov.au/Council/Fees-forms-documents/Annual-Reporting/Annual-Financial-Statements?oc_lang=ja" class="lang-item lang-ja" data-translate-to="ja" lang="en">Japanese<span class="visuallyhidden"> Select this as your preferred language</span></a></li>
+        </ul>
+	</div></div>
+  </div>
+</div>
+            <div class="header-outer-container">
+    <div class="header-container header-layout-2  clearfix">
+			<div class="header-site-logo">
+				<a href="https://www.murrayriver.nsw.gov.au/Home" lang="en-AU" aria-label="Murray River Council - Home - Logo">
+				</a>
+			</div>
+		    <div class="header-website-settings">
+                <button id="btn-mob-nav" type="button" aria-expanded="false" aria-controls="nav">
+                    <i aria-hidden="true"></i><span class="side-menu-btn-text">Menu</span>
+                </button>
+        	</div>
+			
+			<div class="header-search-control-container" id="header-search">
+				<div class="search-inner-container">
+					<div class="sc-search-panel">
+	<label for="ctl07_txtSearch" id="ctl07_lblSearch" class="sc-search-label">Search</label><input name="ctl07$txtSearch" type="text" id="ctl07_txtSearch" class="sc-search-text" placeholder="Find almost anything on our website" /><input type="submit" name="ctl07$btnSearch" value="Search" id="ctl07_btnSearch" class="sc-search-button" />
+</div>
+					<div role="status" id="predictiveResults"></div>
+				</div>
+			</div>
+    </div>
+</div>
+<div class="navigation-outer-container">
+	<div id="nav" role="navigation" class="navigation-container navigation-container-option-1" data-menu-type="horizontal" aria-label="primary">
+        <div class="grid">
+            <div class="col-xs-12">                
+                <ul class="sf-menu" id="sc-main-menu" ><li  class="nav-section-quarters-1   first-item nav-item-seq-1">
+<a href="https://www.murrayriver.nsw.gov.au/Home" class="nav-level-1"  target="">
+	<i class="item-icon" aria-hidden="true"></i><span class="item-text">Home</span>
+</a>
+</li>
+          
+          <li class="nav-section-quarters-1 nav-active-path  nav-item-seq-2">
+<a href="https://www.murrayriver.nsw.gov.au/Council" class="nav-level-1 nav-has-children"  target="">Council</a>
+<button aria-label="Expand" aria-controls="sc-menu-second-level-nav-item-seq-2" aria-haspopup="true" class="mobnav-subarrow"><i aria-hidden="true"></i>
+            </button>
+<ul id="sc-menu-second-level-nav-item-seq-2" >
+
+          
+          <li class=" "><a href="https://www.murrayriver.nsw.gov.au/Council/About-Council" class=""  target="">About Council</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Council/Our-Councillors" class=""  target="">Our Councillors</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Council/Council-meetings" class=""  target="">Council meetings</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Council/News" class=""  target="">News and notices</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Council/Careers" class=""  target="">Careers</a></li><li class="nav-active-path "><a href="https://www.murrayriver.nsw.gov.au/Council/Fees-forms-documents" class=""  target="">Fees, forms & documents</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Council/Property-rates" class=""  target="">Property rates & valuations</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Council/Governance" class=""  target="">Governance</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Council/Pay-Apply-Report" class=""  target="">Pay / Apply / Report</a></li></ul></li>
+          
+          <li class="nav-section-quarters-2   nav-item-seq-3">
+<a href="https://www.murrayriver.nsw.gov.au/Our-Services" class="nav-level-1 nav-has-children"  target="">Our Services</a>
+<button aria-label="Expand" aria-controls="sc-menu-second-level-nav-item-seq-3" aria-haspopup="true" class="mobnav-subarrow"><i aria-hidden="true"></i>
+            </button>
+<ul id="sc-menu-second-level-nav-item-seq-3" >
+
+          
+          <li class=" "><a href="https://www.murrayriver.nsw.gov.au/Our-Services/Waste-and-recycling" class=""  target="">Waste and recycling</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Our-Services/Animals" class=""  target="">Animals</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Our-Services/Weeds-management" class=""  target="">Weeds management</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Our-Services/Flood-and-emergency-management" class=""  target="">Flood and emergency management</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Our-Services/Tree-maintenance" class=""  target="">Tree maintenance</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Our-Services/Public-Health" class=""  target="">Public Health</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Our-Services/Water-and-sewer" class=""  target="">Water and sewer</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Our-Services/Cemetery-management" class=""  target="">Cemetery management</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Our-Services/Compliance" class=""  target="">Compliance</a></li></ul></li>
+          
+          <li class="nav-section-quarters-2   nav-item-seq-4">
+<a href="https://www.murrayriver.nsw.gov.au/Community" class="nav-level-1 nav-has-children"  target="">Community</a>
+<button aria-label="Expand" aria-controls="sc-menu-second-level-nav-item-seq-4" aria-haspopup="true" class="mobnav-subarrow"><i aria-hidden="true"></i>
+            </button>
+<ul id="sc-menu-second-level-nav-item-seq-4" >
+
+          
+          <li class=" "><a href="https://www.murrayriver.nsw.gov.au/Community/Grants-and-funding" class=""  target="">Grants and funding</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Community/Community-support" class=""  target="">Community support</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Community/Youth-Engagement" class=""  target="">Youth Engagement</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Community/Libraries" class=""  target="">Libraries</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Community/Visiting-the-area" class=""  target="">Visiting the area</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Community/Awards" class=""  target="">Awards</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Community/Park-and-spaces" class=""  target="">Parks and public spaces</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Community/Justice-of-the-Peace" class=""  target="">Justice of the Peace</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Community/New-Residents" class=""  target="">New Residents</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Community/Live-Work-Invest" class=""  target="">Live, Work, Invest</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Community/Events-Casual-Hires" class=""  target="">Events & Casual Hires</a></li></ul></li>
+          
+          <li class="nav-section-quarters-3   nav-item-seq-5">
+<a href="https://www.murrayriver.nsw.gov.au/Business" class="nav-level-1 nav-has-children"  target="">Business</a>
+<button aria-label="Expand" aria-controls="sc-menu-second-level-nav-item-seq-5" aria-haspopup="true" class="mobnav-subarrow"><i aria-hidden="true"></i>
+            </button>
+<ul id="sc-menu-second-level-nav-item-seq-5" >
+
+          
+          <li class=" "><a href="https://www.murrayriver.nsw.gov.au/Business/Tenders-and-quotes" class=""  target="">Tenders and quotes</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Business/Economic-and-community-profiles" class=""  target="">Economic, community, and forecast profiles</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Business/Business-grants-and-funding" class=""  target="">Business grants and funding</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Business/Business-support" class=""  target="">Business support</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Business/Starting-a-business" class=""  target="">Starting a business</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Business/Business-permits-applications" class=""  target="">Business permits & applications</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Business/Investment-and-Relocation" class=""  target="">Investment and Relocation</a></li></ul></li>
+          
+          <li class="nav-section-quarters-3   nav-item-seq-6">
+<a href="https://www.murrayriver.nsw.gov.au/Plan-Build" class="nav-level-1 nav-has-children"  target="">Planning & Building</a>
+<button aria-label="Expand" aria-controls="sc-menu-second-level-nav-item-seq-6" aria-haspopup="true" class="mobnav-subarrow"><i aria-hidden="true"></i>
+            </button>
+<ul id="sc-menu-second-level-nav-item-seq-6" >
+
+          
+          <li class=" "><a href="https://www.murrayriver.nsw.gov.au/Plan-Build/Do-I-need-council-approval" class=""  target="">Do I need council approval?</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Plan-Build/Apply-certificates-permits-applications" class=""  target="">Apply: certificates, permits & applications</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Plan-Build/Swimming-Pools" class=""  target="">Swimming Pools</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Plan-Build/How-to-prepare-your-applications" class=""  target="">How to prepare your applications</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Plan-Build/Planning" class=""  target="">Planning controls and strategies</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Plan-Build/Development-Applications" class=""  target="">Development Applications</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Plan-Build/Construction-information" class=""  target="">Construction information</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Plan-Build/Bushfire-provisions" class=""  target="">Bushfire provisions</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Plan-Build/Flooding-controls" class=""  target="">Flooding controls</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Plan-Build/Plumbing-and-drainage" class=""  target="">Plumbing and drainage</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Plan-Build/Applications-ApprovedRefused" class=""  target="">Applications Approved/Refused</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Plan-Build/Heritage-Advisory-Service" class=""  target="">Heritage Advisory Service</a></li><li class=" "><a href="https://www.murrayriver.nsw.gov.au/Plan-Build/NSW-Planning-Portal" class=""  target="">NSW Planning Portal</a></li></ul></li>
+          
+          </ul>
+            </div>
+        </div>
+    </div>
+</div>
+            </header>
+            <div class="content-outer-container">
+                <div id="main" role="main" class="main-outer-container clearfix">
+                        
+                        <div class="content-main-container">
+                            <div class="grid">
+					            <div class="col-xs-12">
+						            <nav id="breadcrumbs-container" aria-label="You Are Here :">
+							            <span role="list">
+<span role="listitem">
+	<a href="https://www.murrayriver.nsw.gov.au/Home"  lang="en-AU">Home</a>
+	<span class="nav-separator" aria-hidden="true" role="presentation">/</span>
+</span>
+          <span role="listitem"><a href="https://www.murrayriver.nsw.gov.au/Council" >Council</a><span class='nav-separator' aria-hidden="true" role="presentation">/</span></span><span role="listitem">
+	<a href="https://www.murrayriver.nsw.gov.au/Council/Fees-forms-documents" >
+		Fees, forms & documents
+	</a>
+	<span class='nav-separator' aria-hidden="true" role="presentation">/</span>
+</span>
+<span role="listitem">
+	<a href="https://www.murrayriver.nsw.gov.au/Council/Fees-forms-documents/Annual-Reporting" >
+		Annual Reporting
+	</a>
+	<span class='nav-separator' aria-hidden="true" role="presentation">/</span>
+</span>
+<span class="current-page" role="listitem" aria-current="page" >Annual Financial Statements</span>
+          
+          </span>
+						            </nav>
+					            </div>
+                      
+					            <div class="col-xs-12">
+						            <div class="main-inner-container">
+							            <div id="main-content" class="main-container clearfix">
+							              
+                            <!-- OC Layout Element Conent Template -->
+							              <!--normalTemplateStart--><div class="digital-service">
+    <div class="grid">
+        <div class="col-xs-12 col-m-8">
+            <h1 class='oc-page-title '>Annual Financial Statements</h1>
+            
+            <div class="wysiwyg-content body-content" ><p>Each year, individual Local Governments across NSW are required to present a set of audited financial statements to their council and community.</p>
+<p>The financial statements set out the financial performance, financial position and cash flows of Council for the financial year.</p>
+<p>You can view the statements relevant to previous financial years below.&nbsp;</p>
+<p><a title="MRC-2017-18-Annual-Financial-Statements.pdf" href="/files/assets/public/v/1/documents/financial-statements/mrc-2017-18-annual-financial-statements.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>MRC-2017-18-Annual-Financial-Statements.pdf<span class="file-info">(PDF,&nbsp;5MB)</span></a></p>
+<p><a title="MRC-2018-19-Annual-Financial-Statements.pdf" href="/files/assets/public/v/1/documents/financial-statements/mrc-2018-19-annual-financial-statements.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>MRC-2018-19-Annual-Financial-Statements.pdf<span class="file-info">(PDF,&nbsp;5MB)</span></a></p>
+<p><a title="MRC-2019-20-Annual-Financial-Statements.pdf" href="/files/assets/public/v/1/documents/financial-statements/mrc-2019-20-annual-financial-statements.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>MRC-2019-20-Annual-Financial-Statements.pdf<span class="file-info">(PDF,&nbsp;4MB)</span></a></p>
+<p><a title="MRC-2020-21-Annual-Financial-Statements" href="/files/assets/public/v/1/documents/financial-statements/mrc-2020-21-annual-financial-statements.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>MRC-2020-21-Annual-Financial-Statements.pdf<span class="file-info">(PDF,&nbsp;4MB)</span></a></p>
+<p><a title="MRC-2021-2022-Annual-Financial-Statements" href="/files/assets/public/v/1/documents/financial-statements/mrc-2021-2022-annual-financial-statements.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>MRC-2021-2022-Annual-Financial-Statements.pdf<span class="file-info">(PDF,&nbsp;9MB)</span></a></p>
+<p><a title="2022-2023-Murray-River-Council-Annual-Financial-Statements.pdf" href="/files/assets/public/v/1/documents/financial-statements/2022-2023-murray-river-council-annual-financial-statements.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2022-2023-Murray-River-Council-Annual-Financial-Statements.pdf<span class="file-info">(PDF,&nbsp;5MB)</span></a></p>
+<p><a title="MRC-Annual_Financial_Statements-2023-2024.pdf" href="/files/assets/public/v/1/documents/ipampr-docs-and-budgets/mrc-annual_financial_statements-2023-2024.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>MRC-Annual_Financial_Statements-2023-2024.pdf<span class="file-info">(PDF,&nbsp;3MB)</span></a></p>
+<p><a title="MRC-Annual Financial Statements-2024-2025.pdf" href="/files/assets/public/v/1/documents/ipampr-docs-and-budgets/2025-2026/mrc-annual-financial-statements-2024-2025.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>MRC-Annual-Financial-Statements-2024-2025.pdf<span class="file-info">(PDF,&nbsp;2MB)</span></a></p>
+
+</div>
+            <div class="clearfix"></div>
+            
+            
+            <div class="accordion-list-container">
+                
+            </div>
+        </div>
+        <div class="col-xs-12 col-m-4">
+            
+            
+            
+        </div>
+        <div class="col-xs-12 col-m-8">
+            
+        </div>
+        </div>
+    </div><!--normalTemplateEnd-->
+                            
+                            
+                            
+							            </div>
+						            </div>
+					            </div>
+                        
+                            </div>
+                        </div>
+                        <div class="back-to-top-container text-center">
+                            <a href="#body-top" id="back-to-top"><i aria-hidden="true"></i><span class="js-visuallyhidden">Back to top</span></a>
+                        </div>
+                </div>
+            </div><!--groupTemplateEnd-->
+            <footer>
+                
+                    <div class="footer-outer-container footer-first-row">
+                        <div class="footer-container clearfix">
+                            <div class="grid grid-pad">
+                                <div class="col-xs-12 col-s-6 col-m-6 col-lg-3" >
+	
+			<h2 class="visuallyhidden">Site Footer</h2>
+			<h3 class="footer-title">Contact Us</h3>
+			
+	<p>Murray River Council<br />
+PO Box 906,<br />
+Moama NSW 2731</p>
+<p>T <a href="tel:1300087004">1300 087 004</a><br />
+E <a href="mailto:admin@murrayriver.nsw.gov.au?subject=Murray%20River%20Enquiry">admin@murrayriver.nsw.gov.au<br /></a><a href="https://www.murrayriver.nsw.gov.au/Council/About-Council/Offices-and-Service-Centres">Visit us</a></p>
+<p><a href="https://www.murrayriver.nsw.gov.au/Home/Accessibility" target="_blank">Accessibility</a>&nbsp;</p>
+
+
+	
+	
+</div><div class="col-xs-12 col-s-6 col-m-6 col-lg-3" >
+	
+			<h2 class="visuallyhidden">Site Footer</h2>
+			<h3 class="footer-title">Share &amp; Connect</h3>
+			
+	
+	<ul class="footer-links with-icons social-media-links">  <li class="footer-link-facebook">
+	<a href="https://www.facebook.com/MurrayRiverCouncil" target="_blank"  >
+<i aria-hidden="true"></i>Like us on Facebook
+</a>
+</li>
+          <li class="footer-link-youtube">
+	<a href="https://www.youtube.com/channel/UC1BNQ8WDm4LpGBD1f5ziyCQ" target="_blank"  >
+<i aria-hidden="true"></i>Watch our YouTube Channel
+</a>
+</li>
+          <li class="footer-link-instagram">
+	<a href="https://instagram.com/visitrivercountry?utm_medium=copy_link" target="_blank"  >
+<i aria-hidden="true"></i>Visit River Country
+</a>
+</li>
+           </ul>
+	
+</div><div class="col-xs-12 col-s-12 col-m-12 col-lg-6" >
+	
+	<p><strong><span style="color: rgb(88, 113, 137);">Murray River Council acknowledges Aboriginal people as the traditional custodians of the land on which our offices and services are located.</span></strong></p>
+<p><strong><span style="color: rgb(88, 113, 137);">We pay our respects to Elders past, present and future. We acknowledge the stories, traditions and living cultures of Aboriginal and Torres Strait Islander peoples on this land and commit to building a brighter future together.</span></strong></p>
+
+
+	
+	
+</div>
+                            </div>
+                        </div>
+                    </div>
+                
+                <div class="footer-outer-container footer-second-row">
+                    <div class="footer-container clearfix">
+                        <div class="grid grid-pad footer-secondary-links">
+                            <div class="col-xs-12 col-m-7">
+                                
+                                    <div><a href="https://www.murrayriver.nsw.gov.au/Site-Footer/Sub-Footer-Links/Disclaimer/Disclaimer-and-copyright-page" target="_blank"  >Disclaimer & Copyright</a>&nbsp;| <a href="https://www.murrayriver.nsw.gov.au/Council/About-Council/Privacy-statement" target="_self"  >Privacy Statement</a>&nbsp;| <a href="https://www.murrayriver.nsw.gov.au/Site-Footer/Sub-Footer-Links/Sitemap/Sitemap" target="_blank"  >Sitemap</a></div>
+                                
+                            </div>
+                            <div class="col-xs-12 col-m-5 powered-by">
+                                <div class="right">
+                                    &copy; 2026 Murray River Council&nbsp;|&nbsp;<span class="powered-by">Powered by <a href="https://granicus.com/solution/govaccess/opencities/" target="_blank">Granicus</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="/files/oc-resources/b9015858-988c-48a4-9473-7c193df083e4/JsTextSnippets.js?ocsvclang=en-AU" type="text/javascript"></script><script></script>
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=GA4-CODE-GOES-HERE"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-F9D331T7Y5');
+</script>
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+window.__TsmHiddenField = $get('ctl04_seamless_script_manager_TSM');//]]>
+</script>
+</form>
+</body>
+</html>

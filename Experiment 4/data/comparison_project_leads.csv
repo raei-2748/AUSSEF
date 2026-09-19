@@ -1,0 +1,5 @@
+lead_id,council_key,year_start,project_label,reported_status,reported_delay_reason,source_id,source_page,limitation
+griffith2019_thorne,griffith,2019,Southern Industrial Link Road - Thorne Road West,Delayed,Landowner dispute,griffith_aug2020,66,Lead only; no stable project ID or linked budget/actual; no exact completion date or verified unaffected status
+griffith2019_lake,griffith,2019,Lake Wyangan North Lake sedimentation ponds and wetland,Underway,Unearthed Aboriginal artefacts; permit required,griffith_aug2020,67,Lead only; no stable project ID or linked budget/actual; no exact completion date or verified unaffected status
+griffith2019_theatre,griffith,2019,Regional Theatre Redevelopment,Complete;June quarter2020,,griffith_aug2020,67,Lead only; no stable project ID or linked budget/actual; no exact completion date or verified unaffected status
+griffith2019_boorga,griffith,2019,Seal Boorga Road - From New Farms Rd to Dickie Rd,Reported carryover from 2019/20 in 2022/23 planned works,,griffith_assetplan2022,69;73,"Carryover label is explicit; decision date, cause, completion, actual and stable job ID unresolved. Delivery link6.2.2 is not a unique project ID."

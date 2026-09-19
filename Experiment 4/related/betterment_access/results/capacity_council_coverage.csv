@@ -1,0 +1,39 @@
+council_key,applicant,published_rows,distinct_asset_labels,streams,period_end,publication_date,grant_share_5yr_pct,operating_surplus_pct,net_financial_liabilities_pct
+QLD_aurukun,Aurukun Shire Council,1,1,E,2021-06-30,2022-05-11,65,-23.0,-80.0
+QLD_balonne,Balonne Shire Council,4,3,D,2021-06-30,2022-05-11,51,-8.1,-43.83
+QLD_banana,Banana Shire Council,2,2,D,2021-06-30,2022-05-11,32,-9.24,-16.22
+QLD_barcoo,Barcoo Shire Council,1,1,E,2021-06-30,2022-05-11,52,-27.33,-22.88
+QLD_blackall_tambo,Blackall-Tambo Regional Council,3,3,E,2021-06-30,2022-05-11,43,0.0,-45.0
+QLD_brisbane,Brisbane City Council,2,2,D,2021-06-30,2022-05-11,12,1.0,202.0
+QLD_carpentaria,Carpentaria Shire Council,1,1,D,2021-06-30,2022-05-11,70,-3.8,-22.19
+QLD_central_highlands,Central Highlands Regional Council,4,4,D,2021-06-30,2022-05-11,23,-2.53,-9.22
+QLD_cloncurry,Cloncurry Shire Council,1,1,E,2021-06-30,2022-05-11,54,-20.0,-10.0
+QLD_croydon,Croydon Shire Council,1,1,E,2021-06-30,2022-05-11,78,4.2,-147.2
+QLD_flinders,Flinders Shire Council,1,1,E,2021-06-30,2022-05-11,45,21.99,-53.75
+QLD_fraser_coast,Fraser Coast Regional Council,3,3,D,2021-06-30,2022-05-11,22,0.21,-23.95
+QLD_gladstone,Gladstone Regional Council,11,11,D,2021-06-30,2022-05-11,15,-11.96,31.18
+QLD_gold_coast,City of Gold Coast,2,2,D,2021-06-30,2022-05-11,22,-2.1,-14.5
+QLD_goondiwindi,Goondiwindi Regional Council,3,3,D,2021-06-30,2022-05-11,33,1.85,-73.77
+QLD_gympie,Gympie Regional Council,11,11,D,2021-06-30,2022-05-11,23,0.61,0.94
+QLD_ipswich,Ipswich City Council,2,2,D,2021-06-30,2022-05-11,29,1.28,73.43
+QLD_kowanyama,Kowanyama Aboriginal Shire Council,1,1,D,2021-06-30,2022-05-11,71,-41.0,3.0
+QLD_lockyer_valley,Lockyer Valley Regional Council,13,13,D,2021-06-30,2022-05-11,23,12.3,38.23
+QLD_logan,Logan City Council,4,4,D,2021-06-30,2022-05-11,28,0.35,-19.87
+QLD_maranoa,Maranoa Regional Council,2,2,D,2021-06-30,2022-05-11,44,6.13,-43.58
+QLD_mareeba,Mareeba Shire Council,19,19,E,2021-06-30,2022-05-11,40,14.0,-89.0
+QLD_moreton_bay,Moreton Bay Regional Council,5,5,D,2021-06-30,2022-05-11,24,15.1,15.0
+QLD_murweh,Murweh Shire Council,1,1,D,2021-06-30,2022-05-11,59,-10.07,-1.07
+QLD_noosa,Noosa Shire Council,2,2,D,2021-06-30,2022-05-11,14,7.48,-19.89
+QLD_north_burnett,North Burnett Regional Council,1,1,D,2021-06-30,2022-05-11,52,-31.8,-26.17
+QLD_northern_peninsula_area,Northern Peninsula Area Regional Council,1,1,E,2021-06-30,2022-05-11,54,-28.0,-10.0
+QLD_palm_island,Palm Island Aboriginal Shire Council,5,5,E,2020-06-30,2022-05-11,54,-23.8,-2.93
+QLD_paroo,Paroo Shire Council,2,2,E,2021-06-30,2022-05-11,67,-2.05,-14.98
+QLD_quilpie,Quilpie Shire Council,1,1,E,2021-06-30,2022-05-11,63,-6.0,-67.0
+QLD_richmond,Richmond Shire Council,1,1,E,2020-06-30,2022-05-11,60,-12.67,4.25
+QLD_scenic_rim,Scenic Rim Regional Council,11,11,D,2021-06-30,2022-05-11,32,-3.0,6.0
+QLD_somerset,Somerset Regional Council,2,2,D,2021-06-30,2022-05-11,26,2.0,-83.0
+QLD_south_burnett,South Burnett Regional Council,32,31,D,2021-06-30,2022-05-11,25,-1.6,9.1
+QLD_southern_downs,Southern Downs Regional Council,21,21,D,2021-06-30,2022-05-11,28,0.61,-18.8
+QLD_toowoomba,Toowoomba Regional Council,11,11,D,2021-06-30,2022-05-11,21,4.25,53.14
+QLD_torres_strait_island,Torres Strait Island Regional Council,1,1,E,2021-06-30,2022-05-11,57,-112.0,-39.0
+QLD_western_downs,Western Downs Regional Council,5,5,D,2021-06-30,2022-05-11,28,8.1,-117.5

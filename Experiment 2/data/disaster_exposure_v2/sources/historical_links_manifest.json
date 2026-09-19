@@ -1,0 +1,49 @@
+[
+  {
+    "file": "sources/nsw_fy_2012.html",
+    "url": "https://www.nsw.gov.au/departments-and-agencies/nsw-reconstruction-authority/about-us/recovery/natural-disaster-declarations/fy-2012-13",
+    "status": 404,
+    "sha256": "b351e9b29e39c573a7dbc8132c8c2280efe9c37eb3eecdfc19074b098a12cc9d"
+  },
+  {
+    "file": "sources/nsw_fy_2013.html",
+    "url": "https://www.nsw.gov.au/departments-and-agencies/nsw-reconstruction-authority/about-us/recovery/natural-disaster-declarations/fy-2013-14",
+    "status": 404,
+    "sha256": "9a207ffb8901a1fc88000a6ed3594186e6e5efc50cc092191ac9e3c16556767e"
+  },
+  {
+    "file": "sources/nsw_fy_2014.html",
+    "url": "https://www.nsw.gov.au/departments-and-agencies/nsw-reconstruction-authority/about-us/recovery/natural-disaster-declarations/fy-2014-15",
+    "status": 404,
+    "sha256": "c177c858e52bb3249adf3533e380bb330bb7f4892599b5660c401eaf0454f007"
+  },
+  {
+    "file": "sources/nsw_fy_2015.html",
+    "url": "https://www.nsw.gov.au/departments-and-agencies/nsw-reconstruction-authority/about-us/recovery/natural-disaster-declarations/fy-2015-16",
+    "status": 404,
+    "sha256": "9c4e275c438a2754177b9356ffca2a259adac132d619593e107f3a9d63144369"
+  },
+  {
+    "file": "sources/nsw_fy_2016.html",
+    "url": "https://www.nsw.gov.au/departments-and-agencies/nsw-reconstruction-authority/about-us/recovery/natural-disaster-declarations/fy-2016-17",
+    "status": 404,
+    "sha256": "c419412bd7ed6268d27dc57ee2b921459d0e91cc3e5e297aa0767b9dfc8c416e"
+  },
+  {
+    "file": "sources/nsw_fy_2017.html",
+    "url": "https://www.nsw.gov.au/departments-and-agencies/nsw-reconstruction-authority/about-us/recovery/natural-disaster-declarations/fy-2017-18",
+    "status": 404,
+    "sha256": "5e6e8ec4c5b35dc3f45e38952e9919afba58d822858307c9889f6543c95ab183"
+  },
+  {
+    "file": "sources/emergency_old_2014.html",
+    "url": "https://www.emergency.nsw.gov.au/publications/natural-disaster-declarations/2014-2015.html",
+    "status": 200,
+    "sha256": "d2ab6fbe3c92755fe24cd9d7551a678771e8f5c962ca8aede529e0fbf633937a"
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=data.gov.au/data/dataset/10ba7303-e3af-41b4-98b5-e04db77caea8/resource/462acfff-f2e0-4446-a0fb-f20f8a19f487/download/*&output=json&filter=statuscode:200&collapse=digest",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=40)"
+  }
+]

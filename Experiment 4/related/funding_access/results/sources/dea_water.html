@@ -1,0 +1,1402 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../../../" data-theme="light">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4B9D450HR4"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-4B9D450HR4');
+</script>
+<title>DEA Water Observations (Landsat) - DEA Knowledge Hub</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "light";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../_static/styles/theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="../../../_static/styles/bootstrap.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="../../../_static/styles/pydata-sphinx-theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+
+  
+  <link href="../../../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=5b4479735964841361fd" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/styles/styles.css?v=2788bf4b" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../_static/scripts/bootstrap.js?digest=5b4479735964841361fd" />
+<link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd" />
+  <script src="../../../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=5b4479735964841361fd"></script>
+
+    <script src="../../../_static/documentation_options.js?v=187304be"></script>
+    <script src="../../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../../_static/design-tabs.js?v=36754332"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@jupyter-widgets/html-manager@^1.0.1/dist/embed-amd.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'data/product/dea-water-observations-landsat/index';</script>
+    <link rel="canonical" href="https://knowledge.dea.ga.gov.au/data/product/dea-water-observations-landsat/index.html" />
+    <link rel="icon" href="../../../_static/dea-favicon.ico"/>
+    <link rel="index" title="Index" href="../../../genindex/" />
+    <link rel="search" title="Search" href="../../../search/" />
+    <link rel="next" title="DEA Water Observations Statistics (Landsat)" href="../dea-water-observations-statistics-landsat/" />
+    <link rel="prev" title="DEA Water Observations" href="../../category/dea-water-observations/" />
+<meta name="keywords" content="DEA, Digital Earth Australia, GA, Geoscience Australia, Knowledge, Documentation, Content, Learn, Learning, Data Products, Metadata, User Guides, DEA Notebooks, Notebooks, Open Data Cube, CMI, Content Management Interface, Developer, Python, Jupyter">
+
+<link rel="stylesheet" href="/_static/vendor/glightbox-3.3.1/glightbox.min.css" />
+
+<script type="text/javascript" src="/_static/vendor/glightbox-3.3.1/glightbox.min.js"></script>
+<script type="text/javascript" src="/_static/scripts/lightbox.js"></script>
+<script type="text/javascript" src="/_static/scripts/content-root.js"></script>
+<script type="text/javascript" src="/_static/scripts/custom-behaviour.js"></script>
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+    <meta name="docbuild:last-update" content="3 September 2026"/>
+
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="light">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../../search/"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search ..."
+         aria-label="Search ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+<div class="bd-header__inner bd-page-width">
+  <label class="sidebar-toggle primary-toggle" for="__primary">
+    <span class="fa-solid fa-bars"></span>
+  </label>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+   
+
+<a class="navbar-brand logo" href="/">
+  
+  
+  
+  
+  
+    
+    
+    
+    <img src="../../../_static/ga-dea-combined-logo.svg" class="logo__image only-light" alt="DEA Knowledge Hub - Home"/>
+    <script>document.write(`<img src="../../../_static/ga-dea-combined-logo.svg" class="logo__image only-dark" alt="DEA Knowledge Hub - Home"/>`);</script>
+  
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+
+   
+
+<a class="navbar-brand logo" href="/">
+  
+  
+  
+  
+  
+    
+    
+    
+    <img src="../../../_static/ga-dea-combined-logo.svg" class="logo__image only-light" alt="DEA Knowledge Hub - Home"/>
+    <script>document.write(`<img src="../../../_static/ga-dea-combined-logo.svg" class="logo__image only-dark" alt="DEA Knowledge Hub - Home"/>`);</script>
+  
+  
+</a></div>
+      
+        <div class="navbar-item">
+<nav class="navbar-nav">
+  <p class="sidebar-header-items__title"
+     role="heading"
+     aria-level="1"
+     aria-label="Site Navigation">
+    Site Navigation
+  </p>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item current active">
+                      <a class="nav-link nav-internal" href="../../">
+                        Data Products
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../../../guides/">
+                        User Guides
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../../../dea-notebooks/">
+                        DEA Notebooks
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../../../validation/">
+                        Validation reports
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../../../tech-alerts/">
+                        Tech Alerts
+                      </a>
+                    </li>
+                
+            <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle nav-item" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-controls="pst-nav-more-links">
+                    More
+                </button>
+                <ul id="pst-nav-more-links" class="dropdown-menu">
+                    
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="../../../operational-reports/">
+                        Operational reports
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="../../version-history/">
+                        Version history
+                      </a>
+                    </li>
+                
+                </ul>
+            </li>
+            
+  </ul>
+</nav></div>
+      
+        <div class="navbar-item">
+<form class="bd-search d-flex align-items-center"
+      action="../../../search/"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search ..."
+         aria-label="Search ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+      
+    </div>
+    
+    
+  </div>
+  
+  
+
+  
+</div>
+
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          <div class="navbar-item">
+
+   
+
+<a class="navbar-brand logo" href="/">
+  
+  
+  
+  
+  
+    
+    
+    
+    <img src="../../../_static/ga-dea-combined-logo.svg" class="logo__image only-light" alt="DEA Knowledge Hub - Home"/>
+    <script>document.write(`<img src="../../../_static/ga-dea-combined-logo.svg" class="logo__image only-dark" alt="DEA Knowledge Hub - Home"/>`);</script>
+  
+  
+</a></div>
+        
+          <div class="navbar-item">
+<nav class="navbar-nav">
+  <p class="sidebar-header-items__title"
+     role="heading"
+     aria-level="1"
+     aria-label="Site Navigation">
+    Site Navigation
+  </p>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item current active">
+                      <a class="nav-link nav-internal" href="../../">
+                        Data Products
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../../../guides/">
+                        User Guides
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../../../dea-notebooks/">
+                        DEA Notebooks
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../../../validation/">
+                        Validation reports
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../../../tech-alerts/">
+                        Tech Alerts
+                      </a>
+                    </li>
+                
+            <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle nav-item" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-controls="pst-nav-more-links-2">
+                    More
+                </button>
+                <ul id="pst-nav-more-links-2" class="dropdown-menu">
+                    
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="../../../operational-reports/">
+                        Operational reports
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="../../version-history/">
+                        Version history
+                      </a>
+                    </li>
+                
+                </ul>
+            </li>
+            
+  </ul>
+</nav></div>
+        
+          <div class="navbar-item">
+<form class="bd-search d-flex align-items-center"
+      action="../../../search/"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search ..."
+         aria-label="Search ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+        
+      </div>
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<nav class="bd-docs-nav bd-links"
+     aria-label="Section Navigation">
+  <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
+  <div class="bd-toc-item navbar-nav"><p aria-level="2" class="caption" role="heading"><span class="caption-text">Baseline satellite data</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../theme/baseline-satellite-data/">All</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../category/dea-surface-reflectance/">DEA Surface Reflectance</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../category/landsat-5-analysis-ready-data/">Landsat 5 Analysis Ready Data</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../dea-surface-reflectance-landsat-5-tm/">Landsat 5 Surface Reflectance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../dea-surface-reflectance-nbar-landsat-5-tm/">Landsat 5 Surface Reflectance NBAR</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../dea-surface-reflectance-nbart-landsat-5-tm/">Landsat 5 Surface Reflectance NBART</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../dea-surface-reflectance-oa-landsat-5-tm/">Landsat 5 Observational Attributes</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../category/landsat-7-analysis-ready-data/">Landsat 7 Analysis Ready Data</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../dea-surface-reflectance-landsat-7-etm/">Landsat 7 Surface Reflectance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../dea-surface-reflectance-nbar-landsat-7-etm/">Landsat 7 Surface Reflectance NBAR</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../dea-surface-reflectance-nbart-landsat-7-etm/">Landsat 7 Surface Reflectance NBART</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../dea-surface-reflectance-oa-landsat-7-etm/">Landsat 7 Observational Attributes</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../category/landsat-8-analysis-ready-data/">Landsat 8 Analysis Ready Data</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../dea-surface-reflectance-landsat-8-oli-tirs/">Landsat 8 Surface Reflectance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../dea-surface-reflectance-nbar-landsat-8-oli-tirs/">Landsat 8 Surface Reflectance NBAR</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../dea-surface-reflectance-nbart-landsat-8-oli-tirs/">Landsat 8 Surface Reflectance NBART</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../dea-surface-reflectance-oa-landsat-8-oli-tirs/">Landsat 8 Observational Attributes</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../category/landsat-9-analysis-ready-data/">Landsat 9 Analysis Ready Data</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../dea-surface-reflectance-landsat-9-oli-tirs/">Landsat 9 Surface Reflectance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../dea-surface-reflectance-nbar-landsat-9-oli-tirs/">Landsat 9 Surface Reflectance NBAR</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../dea-surface-reflectance-nbart-landsat-9-oli-tirs/">Landsat 9 Surface Reflectance NBART</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../dea-surface-reflectance-oa-landsat-9-oli-tirs/">Landsat 9 Observational Attributes</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../category/sentinel-2a-analysis-ready-data/">Sentinel-2A Analysis Ready Data</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../dea-surface-reflectance-sentinel-2a-msi/">Sentinel-2A Surface Reflectance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../dea-surface-reflectance-nbart-sentinel-2a-msi/">Sentinel-2A Surface Reflectance NBART</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../dea-surface-reflectance-oa-sentinel-2a-msi/">Sentinel-2A Observational Attributes</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../category/sentinel-2b-analysis-ready-data/">Sentinel-2B Analysis Ready Data</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../dea-surface-reflectance-sentinel-2b-msi/">Sentinel-2B Surface Reflectance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../dea-surface-reflectance-nbart-sentinel-2b-msi/">Sentinel-2B Surface Reflectance NBART</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../dea-surface-reflectance-oa-sentinel-2b-msi/">Sentinel-2B Observational Attributes</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../category/sentinel-2c-analysis-ready-data/">Sentinel-2C Analysis Ready Data</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-8"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../dea-surface-reflectance-sentinel-2c-msi/">Sentinel-2C Surface Reflectance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../dea-surface-reflectance-nbart-sentinel-2c-msi/">Sentinel-2C Surface Reflectance NBART</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../dea-surface-reflectance-oa-sentinel-2c-msi/">Sentinel-2C Observational Attributes</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../dea-geometric-median-and-median-absolute-deviation-landsat/">DEA Geometric Median and Median Absolute Deviation (GeoMAD)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../australian-national-spectral-database/">Australian National Spectral Database</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../australian-geographic-reference-image/">Australian Geographic Reference Image</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../daily-satpaths-beta/">Daily SatPaths</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Land and Vegetation</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../theme/land-and-vegetation/">All</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../category/dea-land-cover/">DEA Land Cover</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-9"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../dea-land-cover-landsat/">DEA Land Cover</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ga-land-cover-terra-modis/">GA Land Cover (Terra MODIS)</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../category/dea-fractional-cover/">DEA Fractional Cover</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-10"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../dea-fractional-cover-landsat/">DEA Fractional Cover</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dea-fractional-cover-percentiles-landsat/">DEA Fractional Cover Percentiles</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../dea-mangroves/">DEA Mangroves</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dea-tasseled-cap-percentiles-landsat/">DEA Tasseled Cap Percentiles</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Inland water</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../theme/inland-water/">All</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../category/dea-wetlands-insight-tool/">DEA Wetlands Insight Tool</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-11"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../dea-wetlands-insight-tool-ramsar-wetlands/">DEA Wetlands Insight Tool (Ramsar Wetlands)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dea-wetlands-insight-tool-qld/">DEA Wetlands Insight Tool (QLD)</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../../category/dea-water-observations/">DEA Water Observations</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-12"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">DEA Water Observations (Landsat)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dea-water-observations-statistics-landsat/">DEA Water Observations Statistics (Landsat)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dea-water-observations-sentinel-2-nrt/">DEA Water Observations (Sentinel-2 NRT)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../dea-waterbodies-landsat/">DEA Waterbodies</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Sea, Ocean, and Coast</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../theme/sea-ocean-and-coast/">All</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dea-coastal-ecosystems/">DEA Coastal Ecosystems</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dea-coastlines/">DEA Coastlines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dea-intertidal/">DEA Intertidal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dea-tidal-composites/">DEA Tidal Composites</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Hazards</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../theme/hazards/">All</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dea-hotspots/">DEA Hotspots</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dea-burnt-area-characteristic-layers-sentinel-2-near-real-time/">DEA Burnt Area Characteristic Layers (Provisional)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dea-fuel-moisture-content/">DEA Fuel Moisture Content</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">External data</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../theme/external-data/">All</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../category/elevation-and-bathymetry/">Elevation and bathymetry</a><input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-13"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../external-data/ga-ausbathytopo-250m/">GA AusBathyTopo 250m</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../external-data/ga-srtm-1-second-dem/">GA SRTM 1 second DEM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../external-data/ga-multi-scale-topographic-position/">GA Multi-scale Topographic Position</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../category/land-use/">Land use</a><input class="toctree-checkbox" id="toctree-checkbox-14" name="toctree-checkbox-14" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-14"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../external-data/abares-clum-2020/">ABARES CLUM 2020</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../external-data/abares-clum-2023/">ABARES CLUM 2023</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+
+
+<nav aria-label="Breadcrumb">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../../../" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item"><a href="../../" class="nav-link">Data Products</a></li>
+    
+    
+    <li class="breadcrumb-item"><a href="../../category/dea-water-observations/" class="nav-link">DEA Water Observations</a></li>
+    
+    <li class="breadcrumb-item active" aria-current="page">DEA Water...</li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="product-page" id="dea-water-observations-landsat">
+<h1>DEA Water Observations (Landsat)</h1>
+<div class="showcase-panel product-header bg-gradient-primary docutils container">
+<div class="docutils container">
+<p class="rubric">DEA Water Observations (Landsat)</p>
+<p><a class="reference external" href="./?tab=specifications">ga_ls_wo_3</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Version<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference external" href="./?tab=history">2.0.0</a></p>
+</dd>
+<dt class="field-even">Type<span class="colon">:</span></dt>
+<dd class="field-even"><p>Derivative, Raster</p>
+</dd>
+<dt class="field-odd">Resolution<span class="colon">:</span></dt>
+<dd class="field-odd"><p>30 m</p>
+</dd>
+<dt class="field-even">Coverage<span class="colon">:</span></dt>
+<dd class="field-even"><p>16 Aug 1986 to Present</p>
+</dd>
+<dt class="field-odd">Data updates<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Daily frequency, Ongoing</p>
+</dd>
+</dl>
+</div>
+<div class="docutils container">
+<img alt="../../../_images/WOfS-Burketown-Normanton-QLD.png" class="no-lightbox" src="../../../_images/WOfS-Burketown-Normanton-QLD.png" />
+</div>
+</div>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-0" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-0" id="overview">
+Overview</label><div class="sd-tab-content docutils">
+<div class="product-tab-table-of-contents"></div><section id="about">
+<h2>About</h2>
+<p>Digital Earth Australia (DEA) Water Observations uses an algorithm to classify each pixel from Landsat satellite imagery as ‘wet’, ‘dry’ or ‘invalid’. Combining the classified pixels into summaries, covering a year, season, or all of time (since 1986) gives the information on where water is usually, and where it is rarely.</p>
+</section>
+<p class="h2 rubric" id="access-the-data">Access the data</p>
+<p>For help accessing the data, see the <a class="reference external" href="./?tab=access">Access tab</a>.</p>
+<div class="card-list icons docutils container" id="access-the-data-cards">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-3 sd-row-cols-lg-5 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover access-link-map docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+<span class="fas fa-map-location-dot"></span></div>
+<p class="sd-card-text">See it on a map</p>
+</div>
+<a class="sd-stretched-link reference external" href="https://maps.dea.ga.gov.au/#share=s-fVc2VkHndVr0xOVakjP0lzXdJsT"></a></div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover access-link-explorer docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+<span class="fas fa-magnifying-glass"></span></div>
+<p class="sd-card-text">Explore data availability</p>
+</div>
+<a class="sd-stretched-link reference external" href="https://explorer.dea.ga.gov.au/products/ga_ls_wo_3"></a></div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover access-link-data docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+<span class="fas fa-database"></span></div>
+<p class="sd-card-text">Access the data on AWS</p>
+</div>
+<a class="sd-stretched-link reference external" href="https://data.dea.ga.gov.au/?prefix=derivative/ga_ls_wo_3/2-0-0"></a></div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover access-link-data docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+<span class="fas fa-database"></span></div>
+<p class="sd-card-text">Access the data on NCI</p>
+</div>
+<a class="sd-stretched-link reference external" href="https://thredds.nci.org.au/thredds/catalog/jw04/ga_ls_wo_3/catalog.html"></a></div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover access-link-code-sample docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+<span class="fas fa-laptop-code"></span></div>
+<p class="sd-card-text">View code examples</p>
+</div>
+<a class="sd-stretched-link reference external" href="/notebooks/DEA_products/DEA_Water_Observations/"></a></div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover access-link-web-service docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+<span class="fas fa-globe"></span></div>
+<p class="sd-card-text">Get via web service</p>
+</div>
+<a class="sd-stretched-link reference external" href="https://ows.dea.ga.gov.au"></a></div>
+</div>
+</div>
+</div>
+</div>
+<p class="h2 rubric" id="key-specifications">Key specifications</p>
+<p>For more specifications, see the <a class="reference external" href="./?tab=specifications">Specifications tab</a>.</p>
+<table class="table" id="key-specifications-table">
+<tbody>
+<tr class="row-odd"><td><p><strong>Technical name</strong></p></td>
+<td><p>Geoscience Australia Landsat Water Observations Collection 3</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Bands</strong></p></td>
+<td><p><a class="reference external" href="./?tab=specifications">water</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>DOI</strong></p></td>
+<td><p><a class="reference external" href="https://doi.org/10.26186/146257">10.26186/146257</a></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Currency</strong></p></td>
+<td><p><a class="reference external" href="https://mgmt.sandbox.dea.ga.gov.au/public-dashboards/d22241dbfca54b1fa9f73938ef26e645?orgId=1#:~:text=DEA%20Water%20Observations%20%28Landsat%29">See currency and the latest update date</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Parent product</strong></p></td>
+<td><p><a class="reference external" href="/data/category/dea-surface-reflectance/">Landsat 5, 7, 8 and 9 NBART and Observational Attributes</a></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Collection</strong></p></td>
+<td><p><a class="reference external" href="/search/?q=Geoscience+Australia+Landsat+Collection+3">Geoscience Australia Landsat Collection 3</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Licence</strong></p></td>
+<td><p><a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International Licence</a></p></td>
+</tr>
+</tbody>
+</table>
+<p class="h2 rubric" id="citations">Cite this product</p>
+<table class="table" id="citation-table">
+<tbody>
+<tr class="row-odd"><td><p><strong>Data citation</strong></p></td>
+<td><div class="citation-table-citation citation-access-date highlight-text notranslate"><div class="highlight"><pre><span></span>Geoscience Australia, 2022. DEA Water Observations. Geoscience Australia, Canberra. https://dx.doi.org/10.26186/146257
+</pre></div>
+</div>
+</td>
+</tr>
+<tr class="row-even"><td><p><strong>Paper citation</strong></p></td>
+<td><div class="citation-table-citation citation-access-date highlight-text notranslate"><div class="highlight"><pre><span></span>Mueller, N., Lewis, A., Roberts, D., Ring, S., Melrose, R., Sixsmith, J., Lymburner, L., McIntyre, A., Tan, P., Curnow, S., &amp; Ip, A., 2016. Water observations from space: Mapping surface water from 25 years of Landsat imagery across Australia. Remote Sensing of Environment, 174, 341–352. https://doi.org/10.1016/j.rse.2015.11.003
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<section id="publications">
+<h2>Publications</h2>
+<p>Mueller, N., Lewis, A., Roberts, D., Ring, S., Melrose, R., Sixsmith, J., Lymburner, L., McIntyre, A., Tan, P., Curnow, S., &amp; Ip, A. (2016). Water observations from space: Mapping surface water from 25 years of Landsat imagery across Australia. <em>Remote Sensing of Environment</em>, <em>174</em>, 341–352. <a class="reference external" href="https://doi.org/10.1016/j.rse.2015.11.003">https://doi.org/10.1016/j.rse.2015.11.003</a></p>
+</section>
+</div>
+<input id="sd-tab-item-1" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-1" id="description">
+Description</label><div class="sd-tab-content docutils">
+<div class="product-tab-table-of-contents"></div><section id="background">
+<h2>Background</h2>
+<p>It is important to know where water is normally present in a landscape, where water is rarely observed, and where inundation has occasionally occurred.</p>
+<p>These observations tell us where flooding has occurred in the past, and allows us to understand wetlands, water connectivity and surface-groundwater relationships. This can lead to more effective emergency management and risk assessment.</p>
+<p>This is the principal Digital Earth Australia (DEA) Water product (previously known as Water Observations from Space (WOfS)), providing the individual water observations per satellite image that are subsequently used in the following DEA Water suite and related water bodies products: DEA Waterbodies (Landsat), DEA Water Observations Statistics (Landsat), DEA Water Observations Filtered Statistics (Landsat).</p>
+<p>This product shows where surface water was observed by the Landsat satellites on any particular day since mid 1986. These daily data layers are termed Water Observations (WOs).</p>
+</section>
+<section id="what-this-product-offers">
+<h2>What this product offers</h2>
+<p>DEA Water Observations provides surface water observations derived from Landsat satellite imagery for all of Australia from 1986 to present.</p>
+<p>The Water Observations show the extent of water in a corresponding Landsat scene, along with the degree to which the scene was obscured by clouds, shadows or where sensor problems cause parts of a scene to not be observable.</p>
+</section>
+<section id="applications">
+<h2>Applications</h2>
+<p>The DEA Water Observations (WOs) are used to determine the area of surface water present in the corresponding satellite scene, and can be used for several water monitoring applications. Uses of the individual WOs include:</p>
+<ul class="simple">
+<li><p>flood extent</p></li>
+<li><p>amount of water in water bodies, major rivers and the coastal zone.</p></li>
+</ul>
+<p>As the WOs are separated from the derived statistics of the associated DEA Water statistical products, the WOs are most useful for performing analyses requiring the investigation of surface water extent for particular times rather than over long term time series.</p>
+</section>
+<section id="technical-information">
+<h2>Technical information</h2>
+<p>Digital Earth Australia (DEA) Water Observations (WOs) is a gridded dataset indicating areas where surface water has been observed using the Geoscience Australia (GA) Earth observation satellite data holdings. The current product (version 2.0.0) includes observations taken between 1986 and the present (inclusive) from the Landsat 5, 7, 8 and 9 satellites. WOs cover all of mainland Australia and Tasmania but exclude off-shore Territories. The dataset is updated automatically as each new Landsat scene is acquired and processed to Analysis Ready Data (ARD) state.</p>
+<p>Data is provided as Water Observation Feature Layers (WOFLs), in a 1 to 1 relationship with the input satellite data. Hence there is one WOFL for each satellite dataset processed for the occurrence of water. The meaning of each bit in the WOFLs is given in the table below. Prior to version 1.6.0, only one bit could be set per pixel, therefore the value of a pixel in an observation could be X OR Y OR Z. Hence in previous versions the WOs values could only be 0 or 1 or 2 or 4 or … or 128. From version 1.6.0 onward the data type has been changed to a bit field, where multiple bits can be set simultaneously. Hence the value of a pixel in an observation can be X AND Y AND Z, etc, hence values can range from 0 to 255.</p>
+<p>Version 1.6.0 was updated with changes to the way different factors impeding water detection are dealt with. These changes result in improved detection rates and allow discrimination of different factors impeding water observations. Masking of the ocean with a pre-defined mask has been removed, and the extent of the ocean is now defined by the algorithm. Masking for terrain and solar incident angle have been de-coupled in order to provide better visibility about the reason for masking. The solar incident angle threshold used to remove poor quality observations collected when the sun is at a very low angle has been reduced from 30 degrees to 10 degrees. This change increases the number of observations included in the dataset during winter months while still removing those that are most badly impacted by shadowing caused by low solar incident angle.</p>
+<p>Version 2.0.0 introduces the integration of Landsat 9, providing an increase in available observations from November 2021 onwards.</p>
+<p>The table below describes the meaning of each bit set per pixel in each WOFL.</p>
+<table class="table" id="id11">
+<caption><span class="caption-text">Classification bit sets</span></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Classification</p></th>
+<th class="head"><p>Bit</p></th>
+<th class="head"><p>Decimal</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>No Data</strong></p></td>
+<td><p>0</p></td>
+<td><p>1</p></td>
+<td><p>Missing or invalid data. Pixel masked out due to NO_DATA in NBART source, 0 = valid data in NBART.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Contiguity</strong></p></td>
+<td><p>1</p></td>
+<td><p>2</p></td>
+<td><p>Some data is missing in the original image (usually missing bands). Pixel masked out due to lack of data contiguity.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Low Solar Angle</strong></p></td>
+<td><p>2</p></td>
+<td><p>4</p></td>
+<td><p>Also known as Solar Incidence. The angle of the sun can cast a large shadow which can be misclassified as water. Pixel masked out due to solar incidence of less than 10 degrees.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Terrain Shadow</strong></p></td>
+<td><p>3</p></td>
+<td><p>8</p></td>
+<td><p>Topographic features can cast shadows which can be misclassified as water. Pixel masked out due to terrain shadow.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>High Slope</strong></p></td>
+<td><p>4</p></td>
+<td><p>16</p></td>
+<td><p>A highly sloped terrain is less likely to contain water, so therefore, a detection of water on this surface is often incorrect. Pixel masked out due to high slope.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Cloud Shadow</strong></p></td>
+<td><p>5</p></td>
+<td><p>32</p></td>
+<td><p>Shadows are likely to be misclassified as water. Pixel masked out due to cloud shadow.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Cloud</strong></p></td>
+<td><p>6</p></td>
+<td><p>64</p></td>
+<td><p>Cloud is affecting the output data. Pixel masked out due to cloud.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Water</strong></p></td>
+<td><p>7</p></td>
+<td><p>128</p></td>
+<td><p>This pixel is classified as water.</p></td>
+</tr>
+</tbody>
+</table>
+<p>Where multiple factors impeding a clear observation are detected, a combination of the decimal values will be set by adding the relevant decimal values together. These combinations include ‘High Slope + Cloud’ (64 + 16 = 80), ‘Cloud Shadow + Water’ (128 + 32 = 160), and ‘Cloud + Water’ (128 + 64 = 192). Any number of these values can be combined, for example ‘High Slope + Cloud’ + ‘Cloud Shadow + Water’ (which is 240).</p>
+<p>The following table shows these combinations of decimal values. Some values cannot occur, for any of several reasons, and these values are greyed-out in the table.</p>
+<div class="scroll-horizontally">
+    <table class="colour-coded-table water-observations-combination-decimals-theme">
+        <caption>Combination decimal values</caption>
+        <thead>
+            <tr>
+                <th></th>
+                <th></th>
+                <th class="classification">No Data</th>
+                <th class="classification">Contiguity</th>
+                <th class="classification">Low Solar Angle</th>
+                <th class="classification">Terrain Shadow</th>
+                <th class="classification">High Slope</th>
+                <th class="classification">Cloud Shadow</th>
+                <th class="classification">Cloud</th>
+                <th class="classification">High Slope + Cloud</th>
+                <th class="classification">Water</th>
+                <th class="classification">Cloud Shadow + Water</th>
+                <th class="classification">Cloud + Water</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td class="classification">1</td>
+                <td class="classification">2</td>
+                <td class="classification">4</td>
+                <td class="classification">8</td>
+                <td class="classification">16</td>
+                <td class="classification">32</td>
+                <td class="classification">64</td>
+                <td class="classification">80</td>
+                <td class="classification">128</td>
+                <td class="classification">160</td>
+                <td class="classification">192</td>
+            </tr>
+            <tr>
+                <td class="classification"><strong>No Data</strong></td>
+                <td class="classification">1</td>
+                <td class="impossible">2</td>
+                <td class="impossible">3</td>
+                <td class="impossible">5</td>
+                <td class="impossible">9</td>
+                <td class="impossible">17</td>
+                <td class="impossible">33</td>
+                <td class="impossible">65</td>
+                <td class="impossible">81</td>
+                <td class="impossible">129</td>
+                <td class="impossible">161</td>
+                <td class="impossible">193</td>
+            </tr>
+            <tr>
+                <td class="classification"><strong>Contiguity</strong></td>
+                <td class="classification">2</td>
+                <td class="impossible">3</td>
+                <td class="impossible">4</td>
+                <td class="impossible">6</td>
+                <td class="impossible">10</td>
+                <td class="impossible">18</td>
+                <td class="impossible">34</td>
+                <td class="impossible">66</td>
+                <td class="impossible">82</td>
+                <td class="impossible">130</td>
+                <td class="impossible">162</td>
+                <td class="impossible">194</td>
+            </tr>
+            <tr>
+                <td class="classification"><strong>Low Solar Angle</strong></td>
+                <td class="classification">4</td>
+                <td class="impossible">5</td>
+                <td class="impossible">6</td>
+                <td class="impossible">8</td>
+                <td>12</td>
+                <td>20</td>
+                <td>36</td>
+                <td>68</td>
+                <td>84</td>
+                <td>132</td>
+                <td>164</td>
+                <td>196</td>
+            </tr>
+            <tr>
+                <td class="classification"><strong>Terrain Shadow</strong></td>
+                <td class="classification">8</td>
+                <td class="impossible">9</td>
+                <td class="impossible">10</td>
+                <td>12</td>
+                <td class="impossible">16</td>
+                <td>24</td>
+                <td>40</td>
+                <td>72</td>
+                <td>88</td>
+                <td>136</td>
+                <td>168</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td class="classification"><strong>High Slope</strong></td>
+                <td class="classification">16</td>
+                <td class="impossible">17</td>
+                <td class="impossible">18</td>
+                <td>20</td>
+                <td>24</td>
+                <td class="impossible">32</td>
+                <td>48</td>
+                <td>80</td>
+                <td class="impossible">96</td>
+                <td>144</td>
+                <td>176</td>
+                <td>208</td>
+            </tr>
+            <tr>
+                <td class="classification"><strong>Cloud Shadow</strong></td>
+                <td class="classification">32</td>
+                <td class="impossible">33</td>
+                <td class="impossible">34</td>
+                <td>36</td>
+                <td>40</td>
+                <td>48</td>
+                <td class="impossible">64</td>
+                <td>96</td>
+                <td>112</td>
+                <td>160</td>
+                <td class="impossible">192</td>
+                <td>224</td>
+            </tr>
+            <tr>
+                <td class="classification"><strong>Cloud</strong></td>
+                <td class="classification">64</td>
+                <td class="impossible">65</td>
+                <td class="impossible">66</td>
+                <td>68</td>
+                <td>72</td>
+                <td>80</td>
+                <td>96</td>
+                <td class="impossible">128</td>
+                <td class="impossible">144</td>
+                <td>192</td>
+                <td>224</td>
+                <td class="impossible">256</td>
+            </tr>
+            <tr>
+                <td class="classification"><strong>High Slope + Cloud</strong></td>
+                <td class="classification">80</td>
+                <td class="impossible">81</td>
+                <td class="impossible">82</td>
+                <td>84</td>
+                <td>88</td>
+                <td class="impossible">96</td>
+                <td>112</td>
+                <td class="impossible">144</td>
+                <td class="impossible">160</td>
+                <td>208</td>
+                <td>240</td>
+                <td class="impossible">272</td>
+            </tr>
+            <tr>
+                <td class="classification"><strong>Water</strong></td>
+                <td class="classification">128</td>
+                <td class="impossible">129</td>
+                <td class="impossible">130</td>
+                <td>132</td>
+                <td>136</td>
+                <td>144</td>
+                <td>160</td>
+                <td>192</td>
+                <td>208</td>
+                <td class="impossible">256</td>
+                <td class="impossible">288</td>
+                <td class="impossible">320</td>
+            </tr>
+            <tr>
+                <td class="classification"><strong>Cloud Shadow + Water</strong></td>
+                <td class="classification">160</td>
+                <td class="impossible">161</td>
+                <td class="impossible">162</td>
+                <td>164</td>
+                <td>168</td>
+                <td>176</td>
+                <td class="impossible">192</td>
+                <td>224</td>
+                <td>240</td>
+                <td class="impossible">288</td>
+                <td class="impossible">320</td>
+                <td class="impossible">352</td>
+            </tr>
+            <tr>
+                <td class="classification"><strong>Cloud + Water</strong></td>
+                <td class="classification">192</td>
+                <td class="impossible">193</td>
+                <td class="impossible">194</td>
+                <td>196</td>
+                <td>200</td>
+                <td>208</td>
+                <td>224</td>
+                <td class="impossible">256</td>
+                <td class="impossible">272</td>
+                <td class="impossible">320</td>
+                <td class="impossible">352</td>
+                <td class="impossible">384</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<br />
+<p>Full details of the original algorithms and features of DEA Water Observations can be found in the Water Observations from Space paper by Mueller et al. (2015).</p>
+</section>
+<section id="lineage">
+<h2>Lineage</h2>
+<p>Digital Earth Australia (DEA) Water Observations is derived from Landsat 5, 7, 8 and 9 imagery. All input imagery is first processed to Analysis Ready Data (ARD) standard. Only images with a mean XY Geometric Quality Assessment (GQA, a measure of average horizontal positional accuracy) score of 1.0 or lower are retained; images with values greater than 1.0 are discarded. The retained images are then masked for cloud, cloud-shadow, data contiguity, steep slope, solar incidence angle, and terrain shadow. Water classification is performed using a decision tree based on the individual spectral bands of the Landsat satellites and derived normalised difference indicies associated with water and vegetation. The final output is stored as an 8‑bit bit‑field (values 0–255), encoding the presence or absence of water and the presence or absence of each mask type.</p>
+</section>
+<section id="processing-steps">
+<h2>Processing steps</h2>
+<p>The water detection algorithm used to detect water from each observed pixel is based on a statistical regression tree analysis of a set of normalised difference indices and corrected band values. The regression is based on a set of water and non-water samples created by visual interpretation of 20 Landsat scenes from across Australia. The sample locations ensure that the logistic regression is based on the full geographic range of conditions experienced in Australia.</p>
+<p>The regression analysis determined a set of best indices and bands for the analysis and the associated thresholds in each component to derive a final classification tree, producing a water/non-water classification for each pixel in the Data Cube. The final water classification for each pixel is modified by Pixel Quality (see associated PQ product information) and terrain.
+Once the water algorithm has completed its process, the water detection for a pixel through time is combined to produce a total number of water observations for each pixel. This is compared to a total number of clear observations for the same pixel, derived from the PQ analysis. The ratio is expressed as a percentage water recurrence.</p>
+</section>
+<section id="references">
+<h2>References</h2>
+<p>Mueller, N., Lewis, A., Roberts, D., Ring, S., Melrose, R., Sixsmith, J., Lymburner, L., McIntyre, A., Tan, P., Curnow, S., &amp; Ip, A. (2016). Water observations from space: Mapping surface water from 25 years of Landsat imagery across Australia. <em>Remote Sensing of Environment</em>, <em>174</em>, 341–352. <a class="reference external" href="https://doi.org/10.1016/j.rse.2015.11.003">https://doi.org/10.1016/j.rse.2015.11.003</a></p>
+</section>
+</div>
+<input id="sd-tab-item-2" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-2" id="quality">
+Quality</label><div class="sd-tab-content docutils">
+<div class="product-tab-table-of-contents"></div><section id="accuracy">
+<h2>Accuracy</h2>
+<p>The accuracy of the original Water Observations from Space (WOfS) algorithms was assessed using an independent set of 3.4 million validation points. The points were identified based on visual interpretation of Landsat imagery within 20 test areas across Australia. The points were identified in the same locations as the training data, but were selected from different years (i.e. imagery from one set of years was used to generate points to train the algorithm, and imagery from a separate set of years was used to generate the points that were used evaluate the accuracy of the algorithm).</p>
+<p>The classification has an overall accuracy of 97%. Areas identified as water within the accuracy assessment data are being correctly identified 93% of the time and are being misclassified as not water 7% of the time. These errors of omission typically occur along rivers, small waterbodies and swamps where the presence of both water and vegetation within the pixel leads a failure to identify water. This means that the DEA Water Observations product is likely to underestimate the extent of water in locations that contain mixed water and vegetation pixels. As a consequence of this the product may not be fit for applications that require information about the inundation characteristics of vegetated wetlands, small farm dams, and rivers less than 50 metres wide.</p>
+<p>Water can be incorrectly detected by the classification algorithm in areas where steep terrain or tall buildings cause frequently shaded pixels. These errors of commission are occurring in 8% of samples used to evaluate the accuracy of the classification. This means that the product may overestimate the amount of water in locations that are adjacent to steep terrain or in dense urban areas. Terrain masks and urban masks were used in the confidence layer to reduce this overestimation, however some residual errors remain. As a consequence of this the product may not be fit for applications that require information about the inundation characteristics of urban areas or locations adjacent to steep terrain.</p>
+<p>In addition to the limitations of the classification algorithm, the satellite observation frequency also introduces limitations to the product. The product is likely to be underestimating the extent of inundation for infrequent flood events because the 8 day revisit frequency (best case scenario notwithstanding the possibility of cloud obscuring the floodwaters) will potentially fail to observe the flood peak. This is an intrinsic limitation of the observation strategy. As a consequence of this limitation, the product is not suited to applications that require a. the identification of a ‘maximum extent of inundation’ line, or b. detailed information about the extent of infrequent flood events.</p>
+</section>
+<section id="limitations">
+<h2>Limitations</h2>
+<p>Observation of Earth by the satellites used for this service depends on clear skies. Furthermore, the satellites do not observe all places every day. The Landsat satellites, which are the basis for this service, view a given 185 kilometre wide strip of Australia only once every 16 days. The observations show only what was visible on the day of the satellite pass. As a result, not all historical floods will have been observed by satellite.</p>
+<p>The automated surface water detection algorithm, which has been developed by Geoscience Australia, can sometimes mistakenly label large buildings; cloud shadow; large uniform black tarpaulins; or snow as “water”. The algorithm is designed to locate large areas of water and as a result may miss small water bodies.</p>
+<p>The satellite archive used for this service is of limited duration (1986 to present), and subject to the cloud and repeat coverage restrictions noted above. In addition, Australia is subject to wide variations in weather and climate. Therefore the absence of water observations prior to 1986 in a particular location does not provide certainty that surface water <strong>will never</strong> be observed there in future.</p>
+<p>The probability that surface water may appear at a given location may vary over time due to changes in drainage and other infrastructure (such as dams). Where such changes have occurred, the historical water observations for that location may no longer give a true picture of the future probability of surface water being observed.</p>
+</section>
+</div>
+<input id="sd-tab-item-3" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-3" id="specifications">
+Specifications</label><div class="sd-tab-content docutils">
+<div class="product-tab-table-of-contents"></div><p class="h2 rubric" id="product-id">Product ID</p>
+<p>The Product ID is <code class="docutils literal notranslate"><span class="pre">ga_ls_wo_3</span></code>. This ID is used to <a class="reference external" href="/notebooks/Beginners_guide/04_Loading_data/">load data from the Open Data Cube (ODC)</a>, for example <code class="docutils literal notranslate"><span class="pre">dc.load(product=&quot;ga_ls_wo_3&quot;,</span> <span class="pre">...)</span></code></p>
+<p class="h2 rubric" id="bands">Bands</p>
+<p>Bands are distinct layers of data within a product that can be loaded using the Open Data Cube (on the <a class="reference external" href="https://knowledge.dea.ga.gov.au/guides/setup/Sandbox/sandbox/">DEA Sandbox</a> or <a class="reference external" href="https://knowledge.dea.ga.gov.au/guides/setup/NCI/basics/">NCI</a>) or DEA’s <a class="reference external" href="https://knowledge.dea.ga.gov.au/guides/setup/gis/stac/">STAC API</a>. Note that the Coordinate Reference System (CRS) of these bands is Multiple UTM zone CRSs.</p>
+<table class="margin-bottom-2em table" id="bands-table">
+<thead>
+<tr class="row-odd"><th class="head"></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Units</p></th>
+<th class="head"><p>Resolution</p></th>
+<th class="head"><p>No-data</p></th>
+<th class="head"><p>Aliases</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>water</strong></p></td>
+<td><p>uint8</p></td>
+<td><p>-</p></td>
+<td><p>30 m</p></td>
+<td><p>1</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+</tr>
+</tbody>
+</table>
+<p>For more information on these bands, see the <a class="reference external" href="./?tab=description">Description tab</a>.</p>
+<p class="h2 rubric" id="product-information">Product information</p>
+<p>This metadata provides general information about the product.</p>
+<table class="table" id="product-information-table">
+<tbody>
+<tr class="row-odd"><td><p><strong>Product ID</strong></p></td>
+<td><div class="line-block">
+<div class="line">ga_ls_wo_3</div>
+</div>
+</td>
+<td><p>Used to <a class="reference external" href="/notebooks/Beginners_guide/04_Loading_data/">load data from the Open Data Cube</a>.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Short name</strong></p></td>
+<td><p>DEA Water Observations (Landsat)</p></td>
+<td><p>The name that is commonly used to refer to the product.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Technical name</strong></p></td>
+<td><p>Geoscience Australia Landsat Water Observations Collection 3</p></td>
+<td><p>The full technical name that refers to the product and its specific provider, sensors, and collection.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Version</strong></p></td>
+<td><p>2.0.0</p></td>
+<td><p>The version number of the product. See the <a class="reference external" href="./?tab=history">History tab</a>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Lineage type</strong></p></td>
+<td><p>Derivative</p></td>
+<td><p>Derivative products are derived from other products.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Spatial type</strong></p></td>
+<td><p>Raster</p></td>
+<td><p>Raster data consists of a grid of pixels.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Spatial resolution</strong></p></td>
+<td><p>30 m</p></td>
+<td><p>The size of the pixels in the raster.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Temporal coverage</strong></p></td>
+<td><p>16 Aug 1986 to Present</p></td>
+<td><p>The time span for which data is available.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Coordinate Reference System (CRS)</strong></p></td>
+<td><p>Multiple UTM zone CRSs</p></td>
+<td><p>The method of mapping spatial data to the Earth’s surface.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Update frequency</strong></p></td>
+<td><p>Daily</p></td>
+<td><p>The expected frequency of data updates. Also called ‘Temporal resolution’.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Update activity</strong></p></td>
+<td><p>Ongoing</p></td>
+<td><p>The activity status of data updates.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Currency</strong></p></td>
+<td><p><a class="reference external" href="https://mgmt.sandbox.dea.ga.gov.au/public-dashboards/d22241dbfca54b1fa9f73938ef26e645?orgId=1#:~:text=DEA%20Water%20Observations%20%28Landsat%29">See the Currency Report</a></p></td>
+<td><p>Currency is a measure based on data publishing and update frequency.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Latest update date</strong></p></td>
+<td><p><a class="reference external" href="https://mgmt.sandbox.dea.ga.gov.au/public-dashboards/d22241dbfca54b1fa9f73938ef26e645?orgId=1#:~:text=DEA%20Water%20Observations%20%28Landsat%29">Currency Report</a></p></td>
+<td><p>See Table A of the report.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>DOI</strong></p></td>
+<td><p><a class="reference external" href="https://doi.org/10.26186/146257">10.26186/146257</a></p></td>
+<td><p>The Digital Object Identifier.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Catalogue ID</strong></p></td>
+<td><p><a class="reference external" href="https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/146257">146257</a></p></td>
+<td><p>The Data and Publications catalogue (eCat) ID.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Licence</strong></p></td>
+<td><p><a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International Licence</a></p></td>
+<td><p>See the <a class="reference external" href="./?tab=credits">Credits tab</a>.</p></td>
+</tr>
+</tbody>
+</table>
+<p class="h2 rubric" id="product-categorisation">Product categorisation</p>
+<p>This metadata describes how the product relates to other products.</p>
+<table class="table" id="product-categorisation-table">
+<tbody>
+<tr class="row-odd"><td><p><strong>Parent product</strong></p></td>
+<td><p><a class="reference external" href="/data/category/dea-surface-reflectance/">Landsat 5, 7, 8 and 9 NBART and Observational Attributes</a></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Collection</strong></p></td>
+<td><p><a class="reference external" href="/search/?q=Geoscience+Australia+Landsat+Collection+3">Geoscience Australia Landsat Collection 3</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Tags</strong></p></td>
+<td><p><a class="reference external" href="/search/?q=Tag+geoscience_australia_landsat_collection_3">geoscience_australia_landsat_collection_3</a>, <a class="reference external" href="/search/?q=Tag+water">water</a>, <a class="reference external" href="/search/?q=Tag+water_detection">water_detection</a>, <a class="reference external" href="/search/?q=Tag+surface_water">surface_water</a></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<input id="sd-tab-item-4" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-4" id="access">
+Access</label><div class="sd-tab-content docutils">
+<div class="product-tab-table-of-contents"></div><p class="h2 rubric" id="access-the-data-2">Access the data</p>
+<table class="table" id="access-table">
+<tbody>
+<tr class="row-odd"><td><p><strong>DEA Maps</strong></p></td>
+<td><ul class="simple">
+<li><p><a class="reference external" href="https://maps.dea.ga.gov.au/#share=s-fVc2VkHndVr0xOVakjP0lzXdJsT">See it on a map</a></p></li>
+</ul>
+</td>
+<td><p>Learn how to <a class="reference external" href="/guides/setup/dea_maps/">use DEA Maps</a>.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>DEA Explorer</strong></p></td>
+<td><ul class="simple">
+<li><p><a class="reference external" href="https://explorer.dea.ga.gov.au/products/ga_ls_wo_3">Explore data availability</a></p></li>
+</ul>
+</td>
+<td><p>Learn how to <a class="reference external" href="/setup/explorer_guide/">use the DEA Explorer</a>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Data sources</strong></p></td>
+<td><ul class="simple">
+<li><p><a class="reference external" href="https://data.dea.ga.gov.au/?prefix=derivative/ga_ls_wo_3/2-0-0">Access the data on AWS</a></p></li>
+<li><p><a class="reference external" href="https://thredds.nci.org.au/thredds/catalog/jw04/ga_ls_wo_3/catalog.html">Access the data on NCI</a></p></li>
+</ul>
+</td>
+<td><p>Learn how to <a class="reference external" href="/guides/about/faq/#download-dea-data">access the data via AWS</a>.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Code examples</strong></p></td>
+<td><ul class="simple">
+<li><p><a class="reference external" href="/notebooks/DEA_products/DEA_Water_Observations/">View code examples</a></p></li>
+</ul>
+</td>
+<td><p>Learn how to <a class="reference external" href="/guides/setup/Sandbox/sandbox/">use the DEA Sandbox</a>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Web services</strong></p></td>
+<td><ul class="simple">
+<li><p><a class="reference external" href="https://ows.dea.ga.gov.au">Get via web service</a></p></li>
+</ul>
+</td>
+<td><p>Learn how to <a class="reference external" href="/guides/setup/gis/README/">use DEA’s web services</a>.</p></td>
+</tr>
+</tbody>
+</table>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+How to view the data in a web map<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">To view and access the data interactively:</p>
+<ol class="arabic simple">
+<li><p class="sd-card-text">Visit <a class="reference external" href="https://maps.dea.ga.gov.au">DEA Maps</a>.</p></li>
+<li><p class="sd-card-text">Click <code class="docutils literal notranslate"><span class="pre">Explore</span> <span class="pre">map</span> <span class="pre">data</span></code>.</p></li>
+<li><p class="sd-card-text">Select <code class="docutils literal notranslate"><span class="pre">Inland</span> <span class="pre">water</span></code> &gt; <code class="docutils literal notranslate"><span class="pre">DEA</span> <span class="pre">Water</span> <span class="pre">Observations</span></code> &gt; <code class="docutils literal notranslate"><span class="pre">DEA</span> <span class="pre">Water</span> <span class="pre">Observations</span> <span class="pre">(Landsat)</span></code>.</p></li>
+<li><p class="sd-card-text">Click <code class="docutils literal notranslate"><span class="pre">Add</span> <span class="pre">to</span> <span class="pre">the</span> <span class="pre">map</span></code>, or the <code class="docutils literal notranslate"><span class="pre">+</span></code> symbol to add the data to the map.</p></li>
+</ol>
+</div>
+</details></div>
+<input id="sd-tab-item-5" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-5" id="history">
+History</label><div class="sd-tab-content docutils">
+<div class="product-tab-table-of-contents"></div><p class="h2 rubric" id="version-history">Version history</p>
+<p>Versions are numbered using the <a class="reference external" href="https://semver.org/">Semantic Versioning</a> scheme (Major.Minor.Patch). Note that this list may include name changes and predecessor products.</p>
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p>v2.0.0</p></td>
+<td><p>-</p></td>
+<td><p>Current version</p></td>
+</tr>
+<tr class="row-even"><td><p>v1.6.0</p></td>
+<td><p>of</p></td>
+<td><p><a class="reference external" href="/data/version-history/dea-water-observations-landsat-1.6.0/">DEA Water Observations (Landsat)</a></p></td>
+</tr>
+</tbody>
+</table>
+<section id="changelog">
+<h2>Changelog</h2>
+<section id="sep-2026-long-term-solution-for-atmospheric-water-vapour-ard">
+<h3>3 Sep 2026: Long-term solution for atmospheric water vapour ARD</h3>
+<p>DEA has utilised the European Centre for Medium-Range Weather Forecasts (ECMWF) datasets as a long-term solution for an atmospheric correction dependency in our final‑quality surface reflectance products.</p>
+<p>Atmospheric water vapour is a key input to radiative transfer models used to produce DEA analysis ready data (ARD). With the successful integration of ECMWF datasets, DEA is confident this solution will suit end-user needs and will be maintained long-term.</p>
+<p>This issue was first flagged in a <a class="reference external" href="https://communication.ga.gov.au/link/id/zzzz69cdf18461773486Pzzzz6567c8b713b5b826/page.html">DEA Tech Alert on 2 April</a>, with an interim solution presented in a <a class="reference external" href="https://communication.ga.gov.au/link/id/zzzz6a0685cb39a76258Pzzzz6567c8b713b5b826/page.html">DEA Tech Alert on 15 May</a>.</p>
+</section>
+<section id="may-2026-interim-ard-processing-issue-resolved-dea-has-integrated-ecmwf-data-into-atmospheric-correction-workflows">
+<h3>15 May 2026: Interim ARD processing issue resolved; DEA has integrated ECMWF data into atmospheric correction workflows</h3>
+<p>Digital Earth Australia (DEA) has successfully integrated <a class="reference external" href="https://www.ecmwf.int/">European Centre for Medium-Range Weather Forecasts (ECMWF)</a> datasets into our products to fix a critical atmospheric correction dependency in our final‑quality surface reflectance products.</p>
+<p>DEA historically relied on NOAA NCEP/NCAR Reanalysis 1 water vapour data as a third-party input for data corrections.</p>
+<p>While that dataset has been discontinued, we have now incorporated the ECMWF datasets into DEA analysis ready data (ARD) as we continue to investigate a long-term replacement.</p>
+<p>This issue was first flagged in a <a class="reference external" href="https://communication.ga.gov.au/pub/pubType/EO/pubID/zzzz69cdbd8d27eed619/interface.html">DEA Tech Alert issued 2 April</a>, indicating interim data processing would be begin 9 April.</p>
+<p>Atmospheric water vapour is a key input to radiative transfer models used to produce DEA ARD.</p>
+<p>Affected products will continue to be backfilled to the beginning of the outage period.</p>
+<p>When a suitable long-term replacement water vapour dataset has been selected, we will advise DEA users of how we intend to incorporate it into our data collection.</p>
+<p><a class="reference external" href="https://communication.ga.gov.au/link/id/zzzz6a0685cb39a76258Pzzzz6567c8b713b5b826/page.html">View the Tech Alert</a></p>
+</section>
+<section id="sep-2025-dea-data-in-the-digital-atlas-of-australia">
+<h3>10 Sep 2025: DEA data in the Digital Atlas of Australia</h3>
+<p>The <a class="reference external" href="/data/product/dea-coastlines/">DEA Coastlines</a>, <a class="reference external" href="/data/product/dea-mangroves/">DEA Mangroves</a>, and <a class="reference external" href="/data/product/dea-water-observations-statistics-landsat/">DEA Water Observations Multi-Year Summary</a> datasets have now been added to the Digital Atlas, joining <a class="reference external" href="/data/product/dea-land-cover-landsat/">DEA Land Cover</a>. This integration marks a significant milestone in how DEA data can be accessed, visualised, and applied. By embedding DEA products into the Digital Atlas, users can now interact with trusted Earth observation datasets alongside other authoritative national data — unlocking powerful new opportunities for cross-sector analysis and decision-making.</p>
+<p><a class="reference external" href="https://digital.atlas.gov.au/search?source=Digital%2520Earth%2520Australia">Explore the DEA datasets and tools in the Digital Atlas</a></p>
+<p><a class="reference external" href="https://communication.ga.gov.au/link/id/zzzz68c0df3fa6de5146Pzzzz6567c8b713b5b826/page.html">View the Tech Alert</a></p>
+</section>
+<section id="apr-2025-the-2024-annual-data-is-now-available">
+<h3>30 Apr 2025: The 2024 annual data is now available</h3>
+<p>You are now able to <a class="reference external" href="./?tab=access">access the latest data</a> via DEA Maps and other methods. <a class="reference external" href="https://communication.ga.gov.au/link/id/zzzz6811775c5a24b812Pzzzz6567c8b713b5b826/page.html">View the Tech Alert</a>.</p>
+</section>
+<section id="version-2-0-0">
+<h3>Version: 2.0.0</h3>
+<p>Landsat 9 was incorporated into this product starting in October 2021.</p>
+</section>
+</section>
+</div>
+<input id="sd-tab-item-6" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-6" id="credits">
+Credits</label><div class="sd-tab-content docutils">
+<div class="product-tab-table-of-contents"></div><section id="license-and-copyright">
+<h2>License and copyright</h2>
+<p>© Commonwealth of Australia (Geoscience Australia).</p>
+<p>Released under <a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International Licence</a>.</p>
+</section>
+</div>
+</div>
+<script type="text/javascript" src="/_static/scripts/access-cards-tooltips.js" /></script>
+<script type="text/javascript" src="/_static/scripts/citation-access-date.js" /></script></section>
+
+
+                </article>
+              
+              
+              
+              
+              
+            </div>
+            
+            
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../../_static/scripts/bootstrap.js?digest=5b4479735964841361fd"></script>
+<script src="../../../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item"><div class="container">
+    <div class="row">
+        <div class="col-12 col-sm-6 col-md-3 footer--related-websites">
+            <p class="footer--heading">Related websites</p>
+            <ul>
+                <li><a href="https://www.ga.gov.au/">Geoscience Australia</a></li>
+                <li><a href="https://www.ga.gov.au/scientific-topics/dea">Digital Earth Australia</a></li>
+                <li><a href="https://www.digitalearthafrica.org/">Digital Earth Africa</a></li>
+                <li><a href="https://www.opendatacube.org/">Open Data Cube</a></li>
+            </ul>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 footer--support">
+            <p class="footer--heading">Get support</p>
+            <ul>
+                <li><a href="https://www.ga.gov.au/scientific-topics/dea/contact-us">Contact us</a></li>
+                <li><a href="https://gis.stackexchange.com/questions/tagged/open-data-cube">ODC Stack Exchange</a></li>
+                <li><a href="https://discord.com/invite/4hhBQVas5U">ODC Discord chat</a></li>
+            </ul>
+        </div>
+        <div class="col-12 col-md-6 footer--acknowledgement-of-country">
+            <div>
+                <p class="footer--heading">Acknowledgement of Country</p>
+                <p>Geoscience Australia values the lands, water and sky as we work to deepen a shared understanding of Country and Earth. We respect First Nations Peoples and their enduring connection, contribution and obligations to Country. Reflecting on our shared history, we are committed to listen and learn.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 footer--policy-links">
+            <div>
+                <hr>
+                <ul>
+                    <li><a href="https://www.ga.gov.au/copyright">Copyright</a></li>
+                    <li><a href="https://www.ga.gov.au/privacy">Privacy</a></li>
+                    <li><a href="https://www.ga.gov.au/accessibility">Accessibility</a></li>
+                    <li><a href="https://www.ga.gov.au/ips">Information Publication Scheme</a></li>
+                    <li><a href="https://www.ga.gov.au/ips/foi">Freedom of Information Act</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 footer--badges">
+            <div>
+                <a title="GitHub repository" href="https://github.com/GeoscienceAustralia/dea-knowledge-hub"><img alt="GitHub License badge for GeoscienceAustralia/dea-knowledge-hub repository" src="https://img.shields.io/github/license/GeoscienceAustralia/dea-knowledge-hub?style=flat&logo=github&label=GeoscienceAustralia%2Fdea-knowledge-hub&labelColor=%23082e41&color=%230b5e4b"></a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-12 footer--copyright">
+            <p>
+                
+                © Copyright 2026, Geoscience Australia.
+                
+            </p>
+        </div>
+    </div>
+    
+</div></div>
+      
+    </div>
+  
+  
+  
+</div>
+
+  </footer>
+  </body>
+</html>

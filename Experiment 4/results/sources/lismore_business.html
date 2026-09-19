@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en-AU">
+<!--<![endif]-->
+<head>
+	<!-- Published by OpenCities, 1.37.6.0 -->
+
+    
+        
+    
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="theme-color" content="#FFFFFF"/>
+    <title>Page Not Found Lismore City Council</title>
+	<meta name="generator" content="OpenCities - https://granicus.com/product/opencities" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Using mobile-web-app-capable for now to enable full-screen experience on supported platforms -->
+    <!-- Note: This tag works mainly on Android Chrome. It does NOT enable full-screen mode on iOS Safari. -->
+    <!-- For iOS, the correct tag is: <meta name="apple-mobile-web-app-capable" content="yes"> -->
+    <!-- TODO: Monitor for updated meta tag standards from Apple or other browser vendors -->
+    <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="description" content="Page not found error" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://www.lismore.nsw.gov.au/Page-Not-Found" />
+    <meta property="og:title" content="Page Not Found" />
+    <meta property="og:description" content="Page not found error" />
+    <meta property="og:image" content="https://www.lismore.nsw.gov.au/files/ocwebsite/Public/HeroImage/LCC%20Website%20Main%20Image%20WEB.jpg?w=1200" />
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:title" content="Page Not Found" />
+    <meta property="twitter:description" content="Page not found error" />
+    <meta property="twitter:image" content="https://www.lismore.nsw.gov.au/files/ocwebsite/Public/HeroImage/LCC%20Website%20Main%20Image%20WEB.jpg?w=1080" />
+    <meta name="Lismore City Council" content="Page Not Found" />
+    <link rel="canonical" href="https://www.lismore.nsw.gov.au/Page-Not-Found" />
+<meta name="robots" content="noindex" />
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/files/ocfavicon/Public/apple-touch-icon.png?V=638349565035364600">
+<link rel="icon" type="image/png" sizes="32x32" href="/files/ocfavicon/Public/favicon-32x32.png?V=638349565035364600">
+<link rel="icon" type="image/png" sizes="16x16" href="/files/ocfavicon/Public/favicon-16x16.png?V=638349565035364600">
+<link rel="manifest" href="/files/ocfavicon/Public/site.webmanifest?V=638349565035364600">
+<link rel="shortcut icon" href="/files/ocfavicon/Public/favicon.ico?V=638349565035364600">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-config" content="/files/ocfavicon/Public/browserconfig.xml?V=638349565035364600">
+    <script>
+        (function () {
+            if (window.__UNLOAD_LAZY_PATCH__) return;
+            window.__UNLOAD_LAZY_PATCH__ = true;
+
+            var supportsPageHide = ("onpagehide" in window);
+            var mappedType = supportsPageHide ? "pagehide" : "beforeunload";
+            var nativeAdd = window.addEventListener;
+            var nativeRemove = window.removeEventListener;
+            var unloadMap = null;
+            var patched = false;
+
+            function ensurePatched() {
+                if (patched) return;
+                unloadMap = new WeakMap();
+
+                window.addEventListener = function (type, listener, options) {
+                    if (type === "unload") {
+                        var wrapped = function (evt) {
+                            if (supportsPageHide && evt.persisted) return;
+                            listener.call(this, evt);
+                        };
+                        unloadMap.set(listener, wrapped);
+                        return nativeAdd.call(this, mappedType, wrapped, options);
+                    }
+                    return nativeAdd.call(this, type, listener, options);
+                };
+
+                window.removeEventListener = function (type, listener, options) {
+                    if (type === "unload") {
+                        var wrapped = unloadMap.get(listener);
+                        if (wrapped) {
+                            nativeRemove.call(this, mappedType, wrapped, options);
+                            unloadMap.delete(listener);
+                        }
+                        return;
+                    }
+                    return nativeRemove.call(this, type, listener, options);
+                };
+
+                var orig = null;
+                Object.defineProperty(window, "onunload", {
+                    configurable: true, enumerable: true,
+                    get: function () { return orig; },
+                    set: function (h) {
+                        orig = h;
+                        if (typeof h === "function") window.addEventListener("unload", h);
+                    }
+                });
+                patched = true;
+            }
+
+            window.addEventListener = function (type, listener, options) {
+                if (type === "unload") {
+                    ensurePatched();
+                    return window.addEventListener(type, listener, options);
+                }
+                return nativeAdd.call(this, type, listener, options);
+            };
+
+            window.removeEventListener = function (type, listener, options) {
+                if (type === "unload" && !patched) {
+                    return;
+                }
+                return nativeRemove.call(this, type, listener, options);
+            };
+
+            function patchTelerik() {
+                ensurePatched();
+                var ns = window.RadAjaxNamespace;
+                if (!ns || !ns.EventManager || !ns.EventManager.Add || ns.EventManager.__UnloadPatched) return;
+                var origAdd = ns.EventManager.Add;
+                ns.EventManager.Add = function (el, evtName, handler, clientId) {
+                    if (el === window && evtName === "unload") {
+                        return window.addEventListener("unload", handler);
+                    }
+                    return origAdd.call(this, el, evtName, handler, clientId);
+                };
+                ns.EventManager.__UnloadPatched = true;
+            }
+
+            if (window.RadAjaxNamespace)
+                patchTelerik();
+            else (window.requestIdleCallback || function (cb)
+            {
+                setTimeout(cb, 120);
+            })(patchTelerik);
+        })();
+    </script>
+    <!-- Preconnecting to Google Fonts servers -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Defer Roboto font loading to avoid render-blocking -->
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            const robotoLink = document.createElement('link');
+            robotoLink.rel = 'stylesheet';
+            robotoLink.href = 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap';
+            document.head.appendChild(robotoLink);
+        });
+    </script>
+
+    <style>
+        .gm-style, .gm-style * {
+            font-family: 'Roboto', system-ui, -apple-system, "Segoe UI", Arial, sans-serif !important;
+        }
+    </style>
+
+    <script>
+        document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, "js");
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    
+        
+            <script type="text/javascript">
+                window.__oc_flags_ImprovedBreakpointEventHandling = true;
+            </script>
+            
+        
+    
+    
+    
+        <script type="text/javascript">
+            var __metaQueryBreakpoints = {
+                'sc-size-4': '(max-width: 480px)',
+                'sc-size-3': '(min-width: 480px) and (max-width: 768px)',
+                'sc-size-2': '(min-width: 768px) and (max-width: 992px)',
+                'sc-size-1': '(min-width: 992px)'
+            }
+
+            var __ocSizePoints = [
+                { min: 0, name: 'sc-size-4' },
+                { min: 480, name: 'sc-size-3' },
+                { min: 768, name: 'sc-size-2' },
+                { min: 992, name: 'sc-size-1' }
+            ];
+
+        </script>
+    
+
+    <!-- Framework Section -->
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/files/templates/00000000-0000-0000-0000-000000000000/d1f1f5cc-4364-4882-89bd-6cdd82a81a3e/v/348/jquery-3.7.1.min.js?seamlessts=639232668857722129" ><\/script>')</script>
+
+    <!--Google Maps API Loader – Improved Version to avoid Warning
+    This script loads the Google Maps JavaScript API using a dynamic and async method.
+    It replaces the old static <script> tag to avoid performance warnings from Google.
+
+    Dynamically creates the <script> tag with loading = async for better performance
+    Builds the API URL with required libraries(places, geometry, marker, geocoding)
+    Uses a Promise and callback(google.maps.__ib__) to confirm when the script is ready
+
+    It Avoids Google’s warning about direct script loading
+    Improves page load speed by loading the API asynchronously-->
+
+    
+        <script>
+            (function (root) {
+                root.OpenCities = root.OpenCities || {};
+                if (!root.OpenCities.GoogleMapsLoader) {
+                    root.OpenCities.GoogleMapsLoader = {
+                        _cbs: [],
+                        _ready: false,
+                        onReady: function (cb) {
+                            if (this._ready) { try { cb(); } catch (e) { console.error(e); } }
+                            else if (typeof cb === 'function') this._cbs.push(cb);
+                        },
+                        _fire: function () {
+                            if (this._ready) return;
+                            this._ready = true;
+                            var q = this._cbs.splice(0);
+                            for (var i = 0; i < q.length; i++) {
+                                try { q[i](); } catch (e) { console.error(e); }
+                            }
+                        }
+                    };
+                }
+            })(window);
+
+            (g => {
+                var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__",
+                    m = document, b = window;
+                b = b[c] || (b[c] = {});
+                var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams,
+                    u = () => h || (h = new Promise(async (resolve, reject) => {
+                        a = m.createElement("script");
+                        e.set("libraries", [...r] + "");
+                        for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]);
+                        e.set("callback", c + ".maps." + q);
+                        a.src = "https://maps." + c + "apis.com/maps/api/js?" + e.toString();
+                        a.loading = "async";
+                        a.async = true;
+                        a.defer = true;
+                        d[q] = resolve;
+                        a.onerror = () => reject(Error(p + " could not load."));
+                        a.nonce = m.querySelector("script[nonce]")?.nonce || "";
+                        m.head.append(a);
+                    }));
+                if (d[l]) {
+                    console.warn(p + " only loads once. Ignoring duplicate load.");
+                } else {
+                    d[l] = (f, ...n) => (r.add(f), u().then(() => d[l](f, ...n)));
+                }
+            })({
+                key: "AIzaSyD_PWwEKQArM1jQY4mzHGZln1y7NWGvqt0",
+                v: "3.65"
+            });
+
+            (async () => {
+                try {
+                    if (!google?.maps?.importLibrary) return;
+
+                    if (!window.OpenCities.__mapsLibsPromise) {
+                        window.OpenCities.__mapsLibsPromise = Promise.all([
+                            google.maps.importLibrary('maps'),
+                            google.maps.importLibrary('places'),
+                            google.maps.importLibrary('geocoding'),
+                            google.maps.importLibrary('marker'),
+                            google.maps.importLibrary('geometry')
+                        ]);
+                    }
+                    await window.OpenCities.__mapsLibsPromise;
+
+                    if (window.OpenCities?.GoogleMapsLoader) {
+                        window.OpenCities.GoogleMapsLoader._fire();
+                    }
+                } catch (err) {
+                    console.error('Google Maps failed to initialise', err);
+                }
+            })();
+        </script>
+    
+    <script src="/files/templates/00000000-0000-0000-0000-000000000000/d1f1f5cc-4364-4882-89bd-6cdd82a81a3e/v/348/modernizr.custom.710f3bf.js?seamlessts=639232668857722129" defer></script>
+    
+    <!--// End Framework Section -->
+    <!-- OpenCities Section -->
+    <script>
+        var OpenCities = OpenCities || {};
+        OpenCities.Paths = {
+            SiteTemplate: '/files/templates/00000000-0000-0000-0000-000000000000/d1f1f5cc-4364-4882-89bd-6cdd82a81a3e/v/348/',
+            ThemePath: '/files/templates/00000000-0000-0000-0000-000000000000/d1f1f5cc-4364-4882-89bd-6cdd82a81a3e/v/348/'
+        };
+    </script>
+    <script src='/ocapi/92149f3d-244d-4e66-bef0-d700229bc30b/en-AU/websitesettings.js'></script>
+    <script src="/files/templates/00000000-0000-0000-0000-000000000000/d1f1f5cc-4364-4882-89bd-6cdd82a81a3e/v/348/oc_head.js?applied=20260825050041"></script>
+    <!-- Script Combine. To enter debug mode for this browser session, enter OcScriptCombineDebug=true as a querystring -->
+<link href="/files/oc-templates/00000000-0000-0000-0000-000000000000/d1f1f5cc-4364-4882-89bd-6cdd82a81a3e/v/348/oc_grid.css~oc_style.css~oc_wizard_style.css~oc_main.css~oc_forms.css~oc_wizard.css~oc_wizard_menu.css~oc_main_s1.css~oc_wizard_s1.css~oc_wizard_menu_s1.css~oc_grid_s1.css~OcScriptCombine_Minify0?uniqueid=20260825050041" rel="stylesheet" type="text/css">
+    <!-- Script Combine. To enter debug mode for this browser session, enter OcScriptCombineDebug=true as a querystring -->
+<link href="/files/oc-templates/00000000-0000-0000-0000-000000000000/d1f1f5cc-4364-4882-89bd-6cdd82a81a3e/v/348/client_style.css~client.css~client_menu.css~client_s1.css~client_menu_s1.css~client_forms.css~OcScriptCombine_Minify0?uniqueid=20260825050041" rel="stylesheet" type="text/css">
+    <script>
+(function (BackgroundSettings, $, undefined) {
+    BackgroundSettings.initialise = function () {
+        this.Application = {"CSSSelector":".background-container","EnableFade":true};
+    };
+} (OpenCities.BackgroundSettings = OpenCities.BackgroundSettings || {}, jQuery));
+OpenCities.BackgroundSettings.initialise();
+</script>
+    
+    <!-- Script Combine. To enter debug mode for this browser session, enter OcScriptCombineDebug=true as a querystring -->
+<link href="/files/oc-templates/00000000-0000-0000-0000-000000000000/d1f1f5cc-4364-4882-89bd-6cdd82a81a3e/v/348/oc_print.css~client_print.css~OcScriptCombine_Minify0?uniqueid=20260825050041" rel="stylesheet" type="text/css" media="print">
+    <!-- Script Combine. To enter debug mode for this browser session, enter OcScriptCombineDebug=true as a querystring -->
+<script src="/files/oc-templates/00000000-0000-0000-0000-000000000000/d1f1f5cc-4364-4882-89bd-6cdd82a81a3e/v/348/external_plugins.js~oc_form_helper.js~oc_main.js~plugins.js~oc_main_init.js~OcScriptCombine_Minify0?uniqueid=20260825050041" defer="true"></script>
+    <meta name="facebook-domain-verification" content="f8unbt8v2ok4gwi0x80dlhjnp6dbww" />
+    
+</head>
+<body class="body layout-modern  site-search-always-visble header-full-width content-type-oc-general content-template-oc-full-width group-template-oc-full-width-with-default-header page-name-page-not-found page-sequence-11 page-depth-1 page-section-11 website-type-primary device-desktop " id="body-top">
+    <div id="skip-to-content-container">
+        <a href="#main-content" class="visuallyhidden focusable" id="skip-to-content-link">Skip to main content</a>
+    </div>
+    <script>
+        // OCNOW-11988 (Cursor): Proactively focus skip link when returning from browser chrome.
+        // Must run inline (not deferred oc_main.js) so focus is intercepted before NVDA speaks footer.
+        (function () {
+            var awaitingReentry = false;
+            var inertSupported = 'inert' in HTMLElement.prototype;
+
+            function isExplicitlyOutsideDocument(node) {
+                return node != null && !document.documentElement.contains(node);
+            }
+
+            function getSkipContainer() {
+                return document.getElementById('skip-to-content-container');
+            }
+
+            function getSkipLink() {
+                return document.getElementById('skip-to-content-link');
+            }
+
+            function applyGuard() {
+                awaitingReentry = true;
+                if (!inertSupported) {
+                    return;
+                }
+                var skipContainer = getSkipContainer();
+                var children = document.body.children;
+                for (var i = 0; i < children.length; i++) {
+                    if (children[i] !== skipContainer) {
+                        children[i].setAttribute('inert', '');
+                    }
+                }
+            }
+
+            function clearGuard() {
+                awaitingReentry = false;
+                if (!inertSupported) {
+                    return;
+                }
+                var children = document.body.children;
+                for (var i = 0; i < children.length; i++) {
+                    children[i].removeAttribute('inert');
+                }
+            }
+
+            function isSkipLinkElement(target) {
+                if (!target) {
+                    return false;
+                }
+                var skipContainer = getSkipContainer();
+                return target.id === 'skip-to-content-link' ||
+                    (skipContainer && skipContainer.contains(target));
+            }
+
+            function focusSkipLink() {
+                var skipLink = getSkipLink();
+                if (!skipLink) {
+                    return;
+                }
+                if (window.scrollY > 0) {
+                    window.scrollTo(0, 0);
+                }
+                skipLink.focus({ preventScroll: true });
+            }
+
+            function scheduleGuardIfDocumentLostFocus() {
+                window.setTimeout(function () {
+                    if (!document.hasFocus()) {
+                        applyGuard();
+                    }
+                }, 0);
+            }
+
+            document.addEventListener('focusout', function (e) {
+                if (isExplicitlyOutsideDocument(e.relatedTarget)) {
+                    applyGuard();
+                }
+            }, true);
+
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Tab') {
+                    scheduleGuardIfDocumentLostFocus();
+                } else if (e.key === 'F6' || (e.key === 'l' && e.ctrlKey)) {
+                    scheduleGuardIfDocumentLostFocus();
+                }
+            }, true);
+
+            window.addEventListener('focus', function () {
+                if (!awaitingReentry) {
+                    return;
+                }
+                applyGuard();
+                focusSkipLink();
+            }, true);
+
+            document.addEventListener('focusin', function (e) {
+                var reentryFromChrome = awaitingReentry || isExplicitlyOutsideDocument(e.relatedTarget);
+                if (!reentryFromChrome) {
+                    return;
+                }
+                if (isSkipLinkElement(e.target)) {
+                    clearGuard();
+                    return;
+                }
+                applyGuard();
+                focusSkipLink();
+                clearGuard();
+            }, true);
+        })();
+    </script>
+    <form name="mainForm" method="post" action="/Council/Council-meetings/Business-papers-and-minutes" id="mainForm">
+<input type="hidden" name="ctl04_seamless_script_manager_TSM" id="ctl04_seamless_script_manager_TSM" value="" />
+<input type="hidden" name="__SEAMLESSVIEWSTATE" id="__SEAMLESSVIEWSTATE" value="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" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+
+
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ctl04_seamless_script_manager_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-GB%3add3ac3d5-1e29-4112-8fed-529caffa8f24%3aea597d4b%3bOpenCities.CustomControls%3aen-GB%3a484f8dd2-9bd4-4208-af6e-03f67d9c874d%3a8e1d32bf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=yLfp0lNK_IqsZNwoEeFK0DNmFbbqfw7lftKHUvLR_gIW14r1_7jcBOZnAWmfvxOi9dPHXunj4IIDy3moyxl7Zpxws4kF4o89HYQsYcSRUBKB4EkdhmMlKWUBVo8fSdeinvGFuspKPYqY801Ddn_6TEZYT1lnTW4vMHktVnMhdErYKcL2ZN0467rmv3gvm2tRjfB6gAR07FgY9WxcpQl6exqzS5as74Qa3jctnuShyYV-TrofVyn5xEiZg1jueobakO5oqUXLhvpozNgi701sfHfthK83hf9Va8_7EKKJ7gwNOt688tOBjdarkEQ5O1q8bnQHRaAwHWbwWUxDJWtwa-xw3wlhIvr8zofEv8hz8Qp7qzeZqS7YnKL8TPe0fuZA_aFCjvJt-gSwvx2VydMfSNQLTOTKHSd05fbBpNwdsD4Lm6oabQ0U2LWPOXIDCwBK0" type="text/javascript"></script>
+    
+<script type="text/javascript">
+    try{
+        function SeamlessEndRequestHandler(sender, args) {
+            try {
+                var dataItems = args.get_dataItems();
+                if(dataItems.ctl04_seamless_script_manager)
+                    document.getElementById('__SEAMLESSVIEWSTATE').value = dataItems.ctl04_seamless_script_manager;
+            }
+            catch (e) { }
+        }
+
+        Sys.WebForms.PageRequestManager.getInstance().add_endRequest(SeamlessEndRequestHandler);
+    }
+    catch (e) { }
+</script>
+
+    <div class="unsupported-browser-warning js-element"></div>
+    
+    <div hidden>
+        <span id="new-window-0">opens in new tab or window </span>
+    </div>
+    <div class="overlay-container"></div>
+    
+    <div class="background-container">
+        <div class="page-container">
+            <!-- OC Layout Element GROUP TEMPLATE -->
+            <!--groupTemplateStart--><header><div class="print-header-outer-container print-element">
+<img src="/files/templates/00000000-0000-0000-0000-000000000000/d1f1f5cc-4364-4882-89bd-6cdd82a81a3e/v/347/print-header.png" alt="Lismore City Council - Logo" />
+</div>
+            <div class="toolbar-outer-container">
+  <div class="toolbar-inner-container clearfix">
+    <div class="toolbar-item toolbar-quicklinks toolbar-display-dropdown">
+	<button type="button" aria-controls="toolbar-quicklinks-drop-down" aria-expanded="false" class="toolbar-button toolbar-button-quicklinks js-element"><span>Quick Links</span><i aria-hidden="true"></i></button>	
+	<div id="toolbar-quicklinks-drop-down" class="toolbar-drop-down toolbar-quicklinks-drop-down clearfix">
+		<ul>
+		  <li><a href="https://www.facebook.com/LismoreCityCouncil" class="oc-icon-b oc-i-facebook link-type-external" target="_blank"><span>Facebook</span></a></li><li><a href="https://au.linkedin.com/company/lismore-city-council" class="oc-icon-b oc-i-linkedin link-type-external" target="_blank"><span>LinkedIn</span></a></li><li><a href="https://www.youtube.com/channel/UCwMz3CQw6zYjYDuaaVUA7Lw" class="oc-icon-b oc-i-youtube link-type-external" target="_blank"><span>YouTube</span></a></li><li><a href="https://www.instagram.com/lismorecitycouncil/" class="oc-icon-b oc-i-instagram link-type-external" target="_blank"><span>Instagram</span></a></li>
+		</ul>
+	</div>
+</div><div class="toolbar-item toolbar-language notranslate toolbar-display-dropdown"><div class="no-js-element">
+		  <ul>
+		    <li id="toolbar-language-option-en-au-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=en-AU" class="lang-item lang-en-au" data-translate-to="en-au" lang="en-AU">English<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-de-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=de" class="lang-item lang-de" data-translate-to="de" lang="en">German<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-it-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=it" class="lang-item lang-it" data-translate-to="it" lang="en">Italian<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-pa-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=pa" class="lang-item lang-pa" data-translate-to="pa" lang="en">Punjabi<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-es-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=es" class="lang-item lang-es" data-translate-to="es" lang="en">Spanish<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-fr-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=fr" class="lang-item lang-fr" data-translate-to="fr" lang="en">French<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-tl-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=tl" class="lang-item lang-tl" data-translate-to="tl" lang="en">Tagalog (Filipino)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-zh-cn-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=zh-CN" class="lang-item lang-zh-cn" data-translate-to="zh-cn" lang="en">Chinese (Simplified)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-zh-tw-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=zh-TW" class="lang-item lang-zh-tw" data-translate-to="zh-tw" lang="en">Chinese (Traditional)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-th-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=th" class="lang-item lang-th" data-translate-to="th" lang="en">Thai<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-ja-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=ja" class="lang-item lang-ja" data-translate-to="ja" lang="en">Japanese<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-vi-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=vi" class="lang-item lang-vi" data-translate-to="vi" lang="en">Vietnamese<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-nl-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=nl" class="lang-item lang-nl" data-translate-to="nl" lang="en">Dutch<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-ar-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=ar" class="lang-item lang-ar" data-translate-to="ar" lang="en">Arabic<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-ne-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=ne" class="lang-item lang-ne" data-translate-to="ne" lang="en">Nepali<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-pt-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=pt" class="lang-item lang-pt" data-translate-to="pt" lang="en">Portuguese<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-ko-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=ko" class="lang-item lang-ko" data-translate-to="ko" lang="en">Korean<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-ur-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=ur" class="lang-item lang-ur" data-translate-to="ur" lang="en">Urdu<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-af-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=af" class="lang-item lang-af" data-translate-to="af" lang="en">Afrikaans<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-el-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=el" class="lang-item lang-el" data-translate-to="el" lang="en">Greek<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-ml-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=ml" class="lang-item lang-ml" data-translate-to="ml" lang="en">Malayalam<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-id-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=id" class="lang-item lang-id" data-translate-to="id" lang="en">Indonesian<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-hi-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=hi" class="lang-item lang-hi" data-translate-to="hi" lang="en">Hindi<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-si-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=si" class="lang-item lang-si" data-translate-to="si" lang="en">Sinhala (Sinhalese)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-ru-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=ru" class="lang-item lang-ru" data-translate-to="ru" lang="en">Russian<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-da-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=da" class="lang-item lang-da" data-translate-to="da" lang="en">Danish<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-pl-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=pl" class="lang-item lang-pl" data-translate-to="pl" lang="en">Polish<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-fa-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=fa" class="lang-item lang-fa" data-translate-to="fa" lang="en">Persian<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-bn-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=bn" class="lang-item lang-bn" data-translate-to="bn" lang="en">Bengali<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-sv-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=sv" class="lang-item lang-sv" data-translate-to="sv" lang="en">Swedish<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-iw-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=iw" class="lang-item lang-iw" data-translate-to="iw" lang="en">Hebrew<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-hu-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=hu" class="lang-item lang-hu" data-translate-to="hu" lang="en">Hungarian<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-gu-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=gu" class="lang-item lang-gu" data-translate-to="gu" lang="en">Gujarati<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-fi-noscript"><a href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=fi" class="lang-item lang-fi" data-translate-to="fi" lang="en">Finnish<span class="visuallyhidden"> Select this as your preferred language</span></a></li>
+          </ul>
+		</div>
+	<button type="button" role="combobox" aria-controls="toolbar-language-drop-down" aria-expanded="false" aria-haspopup="listbox" aria-autocomplete="none" aria-labelledby="toolbar-language-label" class="toolbar-button toolbar-button-language js-element">  
+        <span class="toolbar-language-globe-icon" aria-hidden="true"></span>
+        <span id="toolbar-language-label" class="current-language">
+            Select a language to translate to
+		</span>
+		<i aria-hidden="true"></i>
+	</button>
+	<div id="toolbar-language-drop-down" role="listbox" aria-label="Available languages" class="toolbar-drop-down toolbar-language-drop-down js-element clearfix">
+		<ul role="group">
+		    <li role="presentation"><a id="toolbar-language-option-en-au" role="option" aria-selected="true" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=en-AU" class="lang-item lang-en-au" data-translate-to="en-au" lang="en-AU">English<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-de" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=de" class="lang-item lang-de" data-translate-to="de" lang="en">German<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-it" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=it" class="lang-item lang-it" data-translate-to="it" lang="en">Italian<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-pa" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=pa" class="lang-item lang-pa" data-translate-to="pa" lang="en">Punjabi<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-es" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=es" class="lang-item lang-es" data-translate-to="es" lang="en">Spanish<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-fr" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=fr" class="lang-item lang-fr" data-translate-to="fr" lang="en">French<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-tl" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=tl" class="lang-item lang-tl" data-translate-to="tl" lang="en">Tagalog (Filipino)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-zh-cn" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=zh-CN" class="lang-item lang-zh-cn" data-translate-to="zh-cn" lang="en">Chinese (Simplified)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-zh-tw" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=zh-TW" class="lang-item lang-zh-tw" data-translate-to="zh-tw" lang="en">Chinese (Traditional)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-th" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=th" class="lang-item lang-th" data-translate-to="th" lang="en">Thai<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-ja" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=ja" class="lang-item lang-ja" data-translate-to="ja" lang="en">Japanese<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-vi" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=vi" class="lang-item lang-vi" data-translate-to="vi" lang="en">Vietnamese<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-nl" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=nl" class="lang-item lang-nl" data-translate-to="nl" lang="en">Dutch<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-ar" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=ar" class="lang-item lang-ar" data-translate-to="ar" lang="en">Arabic<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-ne" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=ne" class="lang-item lang-ne" data-translate-to="ne" lang="en">Nepali<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-pt" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=pt" class="lang-item lang-pt" data-translate-to="pt" lang="en">Portuguese<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-ko" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=ko" class="lang-item lang-ko" data-translate-to="ko" lang="en">Korean<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-ur" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=ur" class="lang-item lang-ur" data-translate-to="ur" lang="en">Urdu<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-af" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=af" class="lang-item lang-af" data-translate-to="af" lang="en">Afrikaans<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-el" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=el" class="lang-item lang-el" data-translate-to="el" lang="en">Greek<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-ml" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=ml" class="lang-item lang-ml" data-translate-to="ml" lang="en">Malayalam<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-id" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=id" class="lang-item lang-id" data-translate-to="id" lang="en">Indonesian<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-hi" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=hi" class="lang-item lang-hi" data-translate-to="hi" lang="en">Hindi<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-si" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=si" class="lang-item lang-si" data-translate-to="si" lang="en">Sinhala (Sinhalese)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-ru" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=ru" class="lang-item lang-ru" data-translate-to="ru" lang="en">Russian<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-da" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=da" class="lang-item lang-da" data-translate-to="da" lang="en">Danish<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-pl" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=pl" class="lang-item lang-pl" data-translate-to="pl" lang="en">Polish<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-fa" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=fa" class="lang-item lang-fa" data-translate-to="fa" lang="en">Persian<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-bn" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=bn" class="lang-item lang-bn" data-translate-to="bn" lang="en">Bengali<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-sv" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=sv" class="lang-item lang-sv" data-translate-to="sv" lang="en">Swedish<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-iw" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=iw" class="lang-item lang-iw" data-translate-to="iw" lang="en">Hebrew<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-hu" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=hu" class="lang-item lang-hu" data-translate-to="hu" lang="en">Hungarian<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-gu" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=gu" class="lang-item lang-gu" data-translate-to="gu" lang="en">Gujarati<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-fi" role="option" aria-selected="false" href="https://www.lismore.nsw.gov.au/Page-Not-Found?oc_lang=fi" class="lang-item lang-fi" data-translate-to="fi" lang="en">Finnish<span class="visuallyhidden"> Select this as your preferred language</span></a></li>
+        </ul>
+	</div></div>
+  </div>
+</div>
+            <div class="header-outer-container">
+    <div class="header-container header-layout-4  clearfix">
+			<div class="header-site-logo">
+				<a href="https://www.lismore.nsw.gov.au/Home" lang="en-AU" aria-label="Lismore City Council - Home - Logo">
+				</a>
+			</div>
+      
+		    <div class="mobile-search-btn js-element">
+		        <button><i aria-hidden="true"></i><span class="mobile-search-btn-text"><span class="visuallyhidden">Open </span>Search</span></button>
+		    </div>
+		    <div class="header-website-settings">
+                <button id="btn-mob-nav" type="button" aria-expanded="false" aria-controls="nav">
+                    <i aria-hidden="true"></i><span class="side-menu-btn-text">Menu</span>
+                </button>
+        	</div>
+          <div class="navigation-outer-container">
+	<div id="nav" role="navigation" class="navigation-container  navigation-container-option-8" data-menu-type="horizontal" aria-label="primary">
+        <div class="grid">
+            <div class="col-xs-12">              
+                <ul class="sf-menu" id="sc-main-menu"><li class="nav-section-quarters-1   first-item nav-item-seq-1">
+<a href="https://www.lismore.nsw.gov.au/Households" class="nav-level-1 nav-has-children"  target="">
+	<i class="item-icon" aria-hidden="true"></i><span class="item-text">Households</span>
+</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-1">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-1">
+
+          
+            <li class=" "><a  href="https://www.lismore.nsw.gov.au/Households/Moving-to-Lismore-new-residents-guide" class="nav-has-children"  target="">Moving to Lismore: new resident's guide</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-1-nav-item-seq-1"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-1-nav-item-seq-1">
+          
+            <li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Moving-to-Lismore-new-residents-guide/Welcome-from-the-Mayor"  target="">Welcome from the Mayor</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Moving-to-Lismore-new-residents-guide/Contact-and-engage-with-Council"  target="">Contact and engage with Council</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Moving-to-Lismore-new-residents-guide/Discover-Lismore-local-attractions-and-events"  target="">Discover Lismore: local attractions and events</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Moving-to-Lismore-new-residents-guide/Stay-updated-Council-news-and-newsletters"  target="">Stay updated: Council news and newsletters</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Moving-to-Lismore-new-residents-guide/Emergency-alerts-and-disaster-information"  target="_blank">Emergency alerts and disaster information</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Moving-to-Lismore-new-residents-guide/Parks-and-playgrounds"  target="_self">Parks and playgrounds</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Moving-to-Lismore-new-residents-guide/Pensioner-rate-rebates-and-concessions"  target="_blank">Pensioner rate rebates and concessions</a></li></ul></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Households/Rates-and-water-information" class="nav-has-children"  target="">Rates and water information</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-1-nav-item-seq-2"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-1-nav-item-seq-2">
+          
+            <li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Rates-and-water-information/How-to-pay-your-rates-and-water-bills"  target="">How to pay your rates and water bills</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Rates-and-water-information/Payment-assistance-and-support"  target="">Payment assistance and support</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Rates-and-water-information/Rates-and-water-due-dates"  target="">Rates and water due dates</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Rates-and-water-information/What-Happens-If-I-Cant-Pay-My-Rates"  target="">What Happens If I Can't Pay My Rates?</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Rates-and-water-information/Pensioner-rate-rebate-and-concessions"  target="">Pensioner rate rebate and concessions</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Rates-and-water-information/Update-your-rates-and-water-account-details"  target="">Update your rates and water account details</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Rates-and-water-information/Why-do-I-pay-rates"  target="">Why do I pay rates?</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Rates-and-water-information/Fees-and-charges"  target="">Fees and charges</a></li></ul></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Households/Waste-and-recycling" class="nav-has-children"  target="">Waste and recycling</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-1-nav-item-seq-3"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-1-nav-item-seq-3">
+          
+            <li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Waste-and-recycling/Whats-My-Bin-Day1"  target="">What's My Bin Day</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Waste-and-recycling/Waste-collection-services-and-options"  target="">Waste collection services and options for residents</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Waste-and-recycling/Bin-guide-what-goes-in-which-bin"  target="">Bin guide: what goes in which bin?</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Waste-and-recycling/Waste-and-recycling-centres-in-Lismore"  target="">Waste and recycling centres in Lismore</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Waste-and-recycling/Apply-for-waste-vouchers"  target="">Apply for waste vouchers</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Waste-and-recycling/Hazardous-waste-and-illegal-dumping"  target="">Hazardous waste and illegal dumping</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Waste-and-recycling/Waste-education-and-sustainability-initiatives"  target="">Waste education and sustainability initiatives</a></li></ul></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Households/Pets-and-animal-management-in-Lismore" class="nav-has-children"  target="">Pets and animal management in Lismore</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-1-nav-item-seq-4"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-1-nav-item-seq-4">
+          
+            <li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Pets-and-animal-management-in-Lismore/Pet-registration-and-microchipping"  target="">Pet registration and microchipping</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Pets-and-animal-management-in-Lismore/Dog-friendly-parks-and-areas"  target="">Dog-friendly parks and areas</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Pets-and-animal-management-in-Lismore/Lost-or-found-pets-in-Lismore"  target="">Lost or found pets in Lismore</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Pets-and-animal-management-in-Lismore/Cat-care-tips-and-guidelines"  target="">Cat care tips and guidelines</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Pets-and-animal-management-in-Lismore/Managing-barking-dogs"  target="">Managing barking dogs</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Pets-and-animal-management-in-Lismore/Managing-wandering-livestock"  target="">Managing wandering livestock</a></li></ul></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Households/Home-and-property-maintenance" class="nav-has-children"  target="">Home and property maintenance</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-1-nav-item-seq-5"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-1-nav-item-seq-5">
+          
+            <li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Home-and-property-maintenance/Apply-for-a-fire-permit"  target="">Apply for a fire permit</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Home-and-property-maintenance/Swimming-pool-safety-and-regulations"  target="">Swimming pool safety and regulations</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Home-and-property-maintenance/Managing-dangerous-or-hazardous-trees"  target="">Managing dangerous or hazardous trees</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Home-and-property-maintenance/Noise-complaints-and-solutions"  target="">Noise complaints and solutions</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Home-and-property-maintenance/Fencing-rules-and-boundary-disputes"  target="">Fencing rules and boundary disputes</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Home-and-property-maintenance/Report-air-pollution-complaints"  target="">Report air pollution complaints</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Home-and-property-maintenance/Conveyancing-certificates"  target="">Conveyancing certificates</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Home-and-property-maintenance/Fire-safety-and-prevention-at-home"  target="">Fire safety and prevention at home</a></li></ul></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Households/Water-and-wastewater-services-in-Lismore" class="nav-has-children"  target="">Water and wastewater services in Lismore</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-1-nav-item-seq-6"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-1-nav-item-seq-6">
+          
+            <li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Water-and-wastewater-services-in-Lismore/Water-restrictions-and-usage-rules"  target="">Water restrictions and usage rules</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Water-and-wastewater-services-in-Lismore/What-you-can-flush"  target="">What you can flush</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Water-and-wastewater-services-in-Lismore/Water-supply-and-quality"  target="">Water supply and quality</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Water-and-wastewater-services-in-Lismore/Protecting-Lismores-water-supply"  target="">Protecting Lismore's water supply</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Water-and-wastewater-services-in-Lismore/On-site-sewage-and-septic-management"  target="">On-site sewage and septic management</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Water-and-wastewater-services-in-Lismore/Stormwater-drainage-management"  target="">Stormwater drainage management</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Households/Water-and-wastewater-services-in-Lismore/Metered-standpipe-water-hire"  target="">Metered standpipe water hire</a></li></ul></li></ul></li>
+          
+            <li class="nav-section-quarters-1   nav-item-seq-2">
+<a href="https://www.lismore.nsw.gov.au/Community" class="nav-level-1 nav-has-children"  target="">Community</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-2">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-2">
+
+          
+            <li class=" "><a  href="https://www.lismore.nsw.gov.au/Community/Sport-and-recreation-facilities-and-programs-in-Lismore" class="nav-has-children"  target="">Sport and recreation facilities and programs in Lismore</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-2-nav-item-seq-1"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-2-nav-item-seq-1">
+          
+            <li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Sport-and-recreation-facilities-and-programs-in-Lismore/Goonellabah-Sports-Aquatic-Centre-main"  target="">Goonellabah Sports & Aquatic Centre</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Sport-and-recreation-facilities-and-programs-in-Lismore/Parks-and-playgrounds"  target="">Parks and playgrounds</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Sport-and-recreation-facilities-and-programs-in-Lismore/Sports-fields-and-booking-information"  target="">Sports fields and booking information</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Sport-and-recreation-facilities-and-programs-in-Lismore/Aquatic-facilities"  target="">Aquatic facilities</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Sport-and-recreation-facilities-and-programs-in-Lismore/Skate-parks-and-bike-tracks"  target="">Skate parks and bike tracks</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Sport-and-recreation-facilities-and-programs-in-Lismore/Dog-parks-and-off-leash-areas"  target="">Dog parks and off-leash areas</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Sport-and-recreation-facilities-and-programs-in-Lismore/Sport-and-recreation-strategies-and-plans"  target="">Sport and recreation strategies and plans</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Sport-and-recreation-facilities-and-programs-in-Lismore/Lismore-Rainforest-Botanic-Gardens"  target="">Lismore Rainforest Botanic Gardens</a></li></ul></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Community/Community-events-and-venue-hire" class="nav-has-children"  target="">Community events and venue hire</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-2-nav-item-seq-2"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-2-nav-item-seq-2">
+          
+            <li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Community-events-and-venue-hire/Whats-on"  target="">What's on</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Community-events-and-venue-hire/Youth-Week-2026"  target="">Youth Week 2026</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Community-events-and-venue-hire/Venue-hire-options"  target="">Venue hire options</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Community-events-and-venue-hire/Event-planning-guide-and-resources"  target="">Event planning guide and resources</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Community-events-and-venue-hire/Busking-permits-and-guidelines"  target="">Busking permits and guidelines</a></li></ul></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Community/Environmental-strategies" class="nav-has-children"  target="">Environmental strategies</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-2-nav-item-seq-3"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-2-nav-item-seq-3">
+          
+            <li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Environmental-strategies/Rural-Landholders-Initiative"  target="">Rural Landholders Initiative</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Environmental-strategies/Environmental-strategies-and-plans"  target="">Environmental strategies and plans</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Environmental-strategies/Lismore-environmental-snapshot"  target="">Lismore environmental snapshot</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Environmental-strategies/Environmental-initiatives"  target="">Environmental initiatives</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Environmental-strategies/Lismore-pollution-monitoring"  target="">Lismore pollution monitoring</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Environmental-strategies/Wildlife-protection-and-weed-management"  target="">Wildlife protection and weed management</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Environmental-strategies/Lismore-biodiversity-newsletter"  target="">Lismore biodiversity newsletter</a></li></ul></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Community/Supporting-our-community" class="nav-has-children"  target="">Supporting our community</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-2-nav-item-seq-4"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-2-nav-item-seq-4">
+          
+            <li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Supporting-our-community/Celebrating-cultural-diversity-in-Lismore"  target="">Celebrating cultural diversity in Lismore</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Supporting-our-community/Accessibility-and-inclusion-services-in-Lismore"  target="">Accessibility and inclusion services in Lismore</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Supporting-our-community/Grants-and-sponsorship-opportunities-in-Lismore"  target="">Grants and sponsorship opportunities in Lismore</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Supporting-our-community/Volunteering-with-Council"  target="">Volunteering with Council</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Supporting-our-community/Lismore-courtesy-bus-service"  target="">Lismore courtesy bus service</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Supporting-our-community/Lismore-City-Safe-program"  target="">Lismore City Safe program</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Supporting-our-community/Alcohol-Free-Zones"  target="">Alcohol Free Zones</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Supporting-our-community/Lismore-public-health-services"  target="">Lismore public health services</a></li></ul></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Community/Lismore-cemeteries" class="nav-has-children"  target="">Lismore cemeteries</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-2-nav-item-seq-5"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-2-nav-item-seq-5">
+          
+            <li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Lismore-cemeteries/Visiting-Lismore-cemeteries"  target="">Visiting Lismore cemeteries</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Lismore-cemeteries/Services-and-Memorial-Gardens-register"  target="">Services and Memorial Gardens register</a></li></ul></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Community/Lismores-climate-action" class="nav-has-children"  target="">Lismore's climate action</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-2-nav-item-seq-6"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-2-nav-item-seq-6">
+          
+            <li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Lismores-climate-action/Lismores-climate-information"  target="">Lismore's climate information</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Lismores-climate-action/Councils-climate-commitments"  target="">Council’s climate commitments</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Lismores-climate-action/Take-climate-action-in-Lismore"  target="">Take climate action in Lismore</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Lismores-climate-action/Resilience-and-Adaptation-News"  target="">Resilience and Adaptation News</a></li></ul></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Community/Natural-hazards-and-emergency-information" class="nav-has-children"  target="">Natural hazards and emergency information</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-2-nav-item-seq-7"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-2-nav-item-seq-7">
+          
+            <li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Natural-hazards-and-emergency-information/Know-your-risk"  target="">Know your risk</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Natural-hazards-and-emergency-information/Know-the-warnings"  target="">Know the warnings</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Natural-hazards-and-emergency-information/Have-a-plan"  target="">Have a plan</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Natural-hazards-and-emergency-information/Know-your-neighbours"  target="">Know your neighbours</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Natural-hazards-and-emergency-information/Recovery-information"  target="">Recovery information</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Natural-hazards-and-emergency-information/Flood-information-for-Lismore1"  target="">Flood information for Lismore</a></li></ul></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Community/Discover-Lismores-history" class="nav-has-children"  target="">Discover Lismore's history</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-2-nav-item-seq-8"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-2-nav-item-seq-8">
+          
+            <li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Discover-Lismores-history/Lismores-Coat-of-Arms"  target="">Lismore's Coat of Arms</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Discover-Lismores-history/Primordial-Lismore"  target="">Primordial Lismore</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Discover-Lismores-history/Lismores-First-Peoples"  target="">Lismore's First Peoples</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Discover-Lismores-history/Lismores-early-settlers"  target="">Lismore's early settlers</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Discover-Lismores-history/Lismore-to-Federation-and-beyond"  target="">Lismore to Federation and beyond</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Discover-Lismores-history/Lismore-during-WWI-and-WWII"  target="">Lismore during WWI and WWII</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Discover-Lismores-history/HMAS-Lismore"  target="">HMAS Lismore</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Discover-Lismores-history/Lismore-1950s-and-1960s"  target="">Lismore 1950s and 1960s</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Community/Discover-Lismores-history/Alternative-lifestyles-in-Lismore"  target="">Alternative lifestyles in Lismore</a></li></ul></li></ul></li>
+          
+            <li class="nav-section-quarters-2   nav-item-seq-3">
+<a href="https://www.lismore.nsw.gov.au/Business" class="nav-level-1 nav-has-children"  target="">Business</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-3">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-3">
+
+          
+            <li class=" "><a  href="https://www.lismore.nsw.gov.au/Business/Economic-development-in-Lismore" class="nav-has-children"  target="">Economic development in Lismore</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-3-nav-item-seq-1"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-3-nav-item-seq-1">
+          
+            <li  class=" "><a href="https://www.lismore.nsw.gov.au/Business/Economic-development-in-Lismore/Innovate-Lismore-2024-Economic-Development-Strategy"  target="">Innovate Lismore 2024: Economic Development Strategy</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Business/Economic-development-in-Lismore/Investing-in-Lismore"  target="">Investing in Lismore</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Business/Economic-development-in-Lismore/Lismore-economic-and-community-profile"  target="">Lismore economic and community profile</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Business/Economic-development-in-Lismore/Lismore-Business-Insights"  target="">Lismore Business Insights</a></li></ul></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Business/Business-support-in-Lismore" class="nav-has-children"  target="">Business support in Lismore</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-3-nav-item-seq-2"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-3-nav-item-seq-2">
+          
+            <li  class=" "><a href="https://www.lismore.nsw.gov.au/Business/Business-support-in-Lismore/Lismore-business-newsletters"  target="">Lismore business newsletters</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Business/Business-support-in-Lismore/Grow-your-business-in-Lismore"  target="">Grow your business in Lismore</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Business/Business-support-in-Lismore/Business-grants-in-Lismore"  target="">Business grants in Lismore</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Business/Business-support-in-Lismore/Loving-Local-Gift-Cards"  target="">Loving Local Gift Cards</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Business/Business-support-in-Lismore/Lismore-Business-Activation-Plan"  target="">Lismore Business Activation Plan</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Business/Business-support-in-Lismore/Lismore-business-education"  target="">Lismore business education</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Business/Business-support-in-Lismore/Tourism-support-in-Lismore"  target="">Tourism support in Lismore</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Business/Business-support-in-Lismore/Creative-industries-in-Lismore"  target="">Creative industries in Lismore</a></li></ul></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Business/Lismore-Business-Activation-Plan" class=""  target="_self">Lismore Business Activation Plan</a></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Business/Food-businesses-in-Lismore" class=""  target="">Food businesses in Lismore</a></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Business/Hairdressers-barbers-and-beauty-businesses" class=""  target="">Hairdressers, barbers and beauty businesses</a></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Business/Creative-industries-in-Lismore" class=""  target="_self">Creative industries in Lismore</a></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Business/Tenders-and-contracts" class="nav-has-children"  target="">Tenders and contracts</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-3-nav-item-seq-7"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-3-nav-item-seq-7">
+          
+            <li  class=" "><a href="https://www.lismore.nsw.gov.au/Business/Tenders-and-contracts/Doing-business-with-Lismore-City-Council"  target="">Doing business with Lismore City Council</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Business/Tenders-and-contracts/Open-tenders"  target="_blank">Open tenders</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Business/Tenders-and-contracts/Closed-public-tenders"  target="_blank">Closed public tenders</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Business/Tenders-and-contracts/Public-tenders-submitted"  target="">Public tenders submitted</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Business/Tenders-and-contracts/Awarded-contracts"  target="">Awarded contracts</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Business/Tenders-and-contracts/Panel-contracts"  target="">Panel contracts</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Business/Tenders-and-contracts/Policies-and-Purchase-Order-terms"  target="">Policies and Purchase Order terms</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Business/Tenders-and-contracts/Supplier-onboarding-and-verification"  target="">Supplier onboarding and verification</a></li></ul></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Business/Lismore-Regional-Airport" class=""  target="">Lismore Regional Airport</a></li></ul></li>
+          
+            <li class="nav-section-quarters-2   nav-item-seq-4">
+<a href="https://www.lismore.nsw.gov.au/Building-and-planning" class="nav-level-1 nav-has-children"  target="">Building and planning</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-4">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-4">
+
+          
+            <li class=" "><a  href="https://www.lismore.nsw.gov.au/Building-and-planning/Flood-Restoration-Portfolio" class="nav-has-children"  target="">Flood Restoration Portfolio</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-4-nav-item-seq-1"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-4-nav-item-seq-1">
+          
+            <li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Flood-Restoration-Portfolio/Buildings-parks-and-facilities"  target="">Buildings, Parks and Facilities</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Flood-Restoration-Portfolio/Roads-and-bridges"  target="">Roads and Bridges</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Flood-Restoration-Portfolio/FR-Landslip-Restoration-Package"  target="">Landslip Restoration Package</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Flood-Restoration-Portfolio/Flood-resilience"  target="">Flood Resilience</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Flood-Restoration-Portfolio/Waste"  target="">Waste</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Flood-Restoration-Portfolio/Water"  target="">Water</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Flood-Restoration-Portfolio/FRP-Project-Updates"  target="">Project Updates & Notifications</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Flood-Restoration-Portfolio/Flood-Restoration-Portfolio-Procurement"  target="">Flood Restoration Portfolio Procurement</a></li></ul></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Building-and-planning/Development-Applications-in-Lismore" class="nav-has-children"  target="">Development Applications in Lismore</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-4-nav-item-seq-2"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-4-nav-item-seq-2">
+          
+            <li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Development-Applications-in-Lismore/Your-guide-to-the-DA-process"  target="">Your guide to the DA process</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Development-Applications-in-Lismore/What-you-need-to-know-about-DAs"  target="">What you need to know about DAs</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Development-Applications-in-Lismore/DA-Tracker"  target="">DA Tracker</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Development-Applications-in-Lismore/Development-guidelines"  target="">Development guidelines</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Development-Applications-in-Lismore/Development-and-design"  target="">Development and design</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Development-Applications-in-Lismore/Subdivision-developments"  target="">Subdivision developments</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Development-Applications-in-Lismore/Making-a-submission-on-a-DA"  target="">Making a submission on a DA</a></li></ul></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Building-and-planning/Strategic-planning" class="nav-has-children"  target="">Strategic planning</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-4-nav-item-seq-3"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-4-nav-item-seq-3">
+          
+            <li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Strategic-planning/Future-use-of-vacant-buyback-land"  target="_blank">Future use of vacant buyback land</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Strategic-planning/Local-Environmental-Plans-and-DCPs"  target="">Local Environmental Plans and DCPs</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Strategic-planning/Planning-proposals"  target="">Planning proposals</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Strategic-planning/Planning-strategies"  target="">Planning strategies</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Strategic-planning/Developer-contributions"  target="">Developer contributions</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Strategic-planning/Planning-for-Lismores-housing-future"  target="">Planning for Lismore's housing future</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Strategic-planning/Flood-planning"  target="_self">Flood planning</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Strategic-planning/Agritourism-planning"  target="">Agritourism planning</a></li></ul></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Building-and-planning/How-to-use-our-online-maps" class=""  target="">How to use our online maps</a></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Building-and-planning/Building-and-construction" class="nav-has-children"  target="">Building and construction</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-4-nav-item-seq-5"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-4-nav-item-seq-5">
+          
+            <li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Building-and-construction/Plumbing-works"  target="">Plumbing works</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Building-and-construction/Principal-Certifying-Authority"  target="">Principal Certifying Authority</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Building-and-construction/Construction-approvals"  target="">Construction approvals</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Building-and-construction/Section-138-approvals"  target="">Section 138 approvals</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Building-and-construction/Building-Information-Certificate"  target="">Building Information Certificate</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Building-and-construction/Heritage-and-conservation"  target="">Heritage and conservation</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Building-and-construction/On-site-sewage-systems"  target="">On-site sewage systems</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Building-and-construction/Fire-safety-for-businesses"  target="">Fire safety for businesses</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Building-and-planning/Building-and-construction/Fire-safety-for-developments"  target="">Fire safety for developments</a></li></ul></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Building-and-planning/Underground-Petroleum-Storage-Systems" class=""  target="">Underground Petroleum Storage Systems</a></li></ul></li>
+          
+            <li class="nav-section-quarters-3   nav-item-seq-5">
+<a href="https://www.lismore.nsw.gov.au/Council" class="nav-level-1 nav-has-children"  target="">Council</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-5">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-5">
+
+          
+            <li class=" "><a  href="https://www.lismore.nsw.gov.au/Council/About-Lismore-City-Council" class="nav-has-children"  target="">About Lismore City Council</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-5-nav-item-seq-1"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-5-nav-item-seq-1">
+          
+            <li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/About-Lismore-City-Council/Your-representatives"  target="">Your representatives</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/About-Lismore-City-Council/Mayors-of-Lismore"  target="">Mayors of Lismore</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/About-Lismore-City-Council/Strategic-plans-and-frameworks"  target="">Strategic plans and frameworks</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/About-Lismore-City-Council/Lismore-City-Council-policies-A-Z"  target="">Lismore City Council policies A-Z</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/About-Lismore-City-Council/About-Lismore-City-Council-child"  target="">About Lismore City Council</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/About-Lismore-City-Council/Compliance-and-enforcement"  target="">Compliance and enforcement</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/About-Lismore-City-Council/Open-access-information"  target="">Open access information</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/About-Lismore-City-Council/Internet-Privacy-Policy"  target="">Internet Privacy Policy</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/About-Lismore-City-Council/Your-Behaviour-Matters"  target="">Your Behaviour Matters</a></li></ul></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Council/Careers-at-Lismore-City-Council" class="nav-has-children"  target="">Careers at Lismore City Council</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-5-nav-item-seq-2"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-5-nav-item-seq-2">
+          
+            <li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/Careers-at-Lismore-City-Council/Current-job-vacancies-at-Lismore-City-Council"  target="">Current job vacancies at Lismore City Council</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/Careers-at-Lismore-City-Council/Sign-up-for-job-vacancy-alerts"  target="">Sign up for job vacancy alerts</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/Careers-at-Lismore-City-Council/Working-at-Lismore-City-Council"  target="">Working at Lismore City Council</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/Careers-at-Lismore-City-Council/Training-and-development-programs"  target="">Training and development programs</a></li></ul></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Council/Customer-service-at-Lismore-City-Council" class="nav-has-children"  target="">Customer service at Lismore City Council</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-5-nav-item-seq-3"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-5-nav-item-seq-3">
+          
+            <li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/Customer-service-at-Lismore-City-Council/Contact-Lismore-City-Council-Customer-Service"  target="">Contact Lismore City Council Customer Service</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/Customer-service-at-Lismore-City-Council/Report-a-problem-to-Lismore-City-Council"  target="_blank">Report a problem to Lismore City Council</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/Customer-service-at-Lismore-City-Council/Forms-A-Z"  target="">Forms A-Z</a></li></ul></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Council/Latest-news-and-updates" class="nav-has-children"  target="">Latest news and updates</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-5-nav-item-seq-4"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-5-nav-item-seq-4">
+          
+            <li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/Latest-news-and-updates/Latest-news"  target="">Latest news</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/Latest-news-and-updates/Local-Matters"  target="">Local Matters</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/Latest-news-and-updates/Subscribe-for-news-and-updates"  target="">Subscribe for news and updates</a></li></ul></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Council/Council-projects-and-initiatives" class="nav-has-children"  target="">Council projects and initiatives</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-5-nav-item-seq-5"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-5-nav-item-seq-5">
+          
+            <li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/Council-projects-and-initiatives/Cyclone-Alfred-Recovery"  target="">Cyclone Alfred Recovery</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/Council-projects-and-initiatives/Flood-Restoration-Portfolio"  target="_blank">Flood Restoration Portfolio</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/Council-projects-and-initiatives/Current-projects"  target="">Current projects</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/Council-projects-and-initiatives/Recently-completed-projects"  target="">Recently completed projects</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/Council-projects-and-initiatives/Public-notices-and-consultations"  target="">Public notices and consultations</a></li></ul></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Council/Council-and-committee-meetings-schedule" class="nav-has-children"  target="">Council and committee meetings schedule</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-5-nav-item-seq-6"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-5-nav-item-seq-6">
+          
+            <li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/Council-and-committee-meetings-schedule/Upcoming-Council-meetings"  target="">Upcoming Council meetings</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/Council-and-committee-meetings-schedule/Council-meeting-minutes-and-agendas"  target="">Council meeting minutes and agendas</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/Council-and-committee-meetings-schedule/Archived-Council-business-papers"  target="">Archived Council business papers</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/Council-and-committee-meetings-schedule/Our-Council-and-committee-meetings"  target="">Our Council and committee meetings</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/Council-and-committee-meetings-schedule/Council-committees-and-panels"  target="">Council committees and panels</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/Council-and-committee-meetings-schedule/Get-involved-with-Council-policy-development"  target="">Get involved with Council policy development</a></li></ul></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Council/Corporate-information" class="nav-has-children"  target="">Corporate information</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-5-nav-item-seq-7"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-5-nav-item-seq-7">
+          
+            <li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/Corporate-information/Reimagine-Lismore-Community-Strategic-Plan-2025–2035"  target="">Reimagine Lismore Community Strategic Plan 2025–2035</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/Corporate-information/Annual-and-financial-reports"  target="">Annual and financial reports</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/Corporate-information/Progress-reports"  target="">Progress reports</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/Corporate-information/Integrated-Planning-Reporting-Framework"  target="">Integrated Planning & Reporting Framework</a></li></ul></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Council/Roads-and-parking" class="nav-has-children"  target="">Roads and parking</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-5-nav-item-seq-8"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-5-nav-item-seq-8">
+          
+            <li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/Roads-and-parking/Roadworks-and-closures"  target="">Roadworks and closures</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/Roads-and-parking/Road-maintenance"  target="">Road maintenance</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/Roads-and-parking/Parking-in-Lismore-CBD"  target="">Parking in Lismore CBD</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/Roads-and-parking/Parking-permits-and-fines"  target="">Parking permits and fines</a></li><li  class=" "><a href="https://www.lismore.nsw.gov.au/Council/Roads-and-parking/Road-rules-and-safe-travel-choices"  target="">Road rules and safe travel choices</a></li></ul></li><li class=" "><a  href="https://www.lismore.nsw.gov.au/Council/Northern-Rivers-Quarry" class=""  target="">Northern Rivers Quarry</a></li></ul></li>
+          
+            </ul>
+            </div>
+        </div>
+    </div>
+</div>
+			
+			<div class="header-search-control-container" id="header-search">
+				<div class="search-inner-container">
+					<div class="sc-search-panel">
+	<label for="ctl08_txtSearch" id="ctl08_lblSearch" class="sc-search-label">Search</label><input name="ctl08$txtSearch" type="text" id="ctl08_txtSearch" class="sc-search-text" placeholder="Find almost anything on our website" /><input type="submit" name="ctl08$btnSearch" value="Search" id="ctl08_btnSearch" class="sc-search-button" />
+</div>
+					<div role="status" id="predictiveResults"></div>
+				</div>
+			</div>
+    </div>
+</div>
+
+            
+            </header>
+            <div class="content-outer-container">
+                <div id="main" role="main" class="main-outer-container clearfix">
+                        
+                        <div class="content-main-container">
+                            <div class="grid">
+					            <div class="col-xs-12">
+						            <nav id="breadcrumbs-container" aria-label="You Are Here :">
+							            <span role="list">
+<span role="listitem">
+	<a href="https://www.lismore.nsw.gov.au/Home"  lang="en-AU">Home</a>
+	<span class="nav-separator" aria-hidden="true" role="presentation">/</span>
+</span>
+          <span class="current-page" role="listitem" aria-current="page" >Page Not Found</span></span>
+						            </nav>
+					            </div>
+                      
+					            <div class="col-xs-12">
+						            <div class="main-inner-container">
+							            <div id="main-content" class="main-container clearfix">
+							              
+                            <!-- OC Layout Element Conent Template -->
+							              <!--normalTemplateStart--><div class="grid">
+    <div class="col-xs-12">
+        <h1 class='oc-page-title '>Page Not Found</h1>
+        
+        
+        <p style="margin-top: 40px;"><img alt="Page not found error." src="/files/assets/public/v/2/shutterstock_594536906.jpg?w=900&amp;h=501" /></p>
+<p style="margin-top: 40px;"><a href="https://www.lismore.nsw.gov.au/Home" target="_self">Go back to the home page</a></p>
+
+
+      
+        
+            
+        
+    </div>
+    
+    
+</div><!--normalTemplateEnd-->
+                            
+                            
+                            
+							            </div>
+						            </div>
+					            </div>
+                        <div class="col-xs-12">
+					            	<div class="share-page-container share-page-link-right share-page-link-small share-page-link-rounded share-page-link-no-labels" data-item-id="92149f3d-244d-4e66-bef0-d700229bc30b" id="share-page-container clearfix">
+                                        <section aria-labelledby="share-page-info-label">
+                                            <span id="share-page-info-label" class="share-page-info">Share</span><ul class="share-page-links no-translate"><li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.lismore.nsw.gov.au%2fPage-Not-Found" target="{ShareTarget}" class="share-page-link share-page-link-facebook" data-channel="facebook" data-channel-id="1"><i aria-hidden="true"></i><span class="share-page-link-name share-page-link-name-facebook">Facebook</span></a></li><li><a href="mailto:?Body=https%3a%2f%2fwww.lismore.nsw.gov.au%2fPage-Not-Found" target="_self" class="share-page-link share-page-link-email" data-channel="email" data-channel-id="3"><i aria-hidden="true"></i><span class="share-page-link-name share-page-link-name-email">Email</span></a></li><li><a href="#" target="_self" class="share-page-link share-page-link-print" data-channel="print" data-channel-id="5"><i aria-hidden="true"></i><span class="share-page-link-name share-page-link-name-print">Print</span></a></li></ul>
+                                        </section>
+                                    </div></div>
+                            </div>
+                        </div>
+                        <div class="back-to-top-container text-center">
+                            <a href="#body-top" id="back-to-top"><i aria-hidden="true"></i><span class="js-visuallyhidden">Back to top</span></a>
+                        </div>
+                </div>
+            </div><!--groupTemplateEnd-->
+            <footer>
+                
+                    <div class="footer-outer-container footer-first-row">
+                        <div class="footer-container clearfix">
+                            <div class="grid grid-pad">
+                                <div class="col-xs-12 col-s-12 col-m-12 col-lg-12" >
+	
+			<h2 class="visuallyhidden">Site Footer</h2>
+			<h3 class="footer-title">Acknowledgement of Country</h3>
+			
+	<p>Lismore City Council acknowledges the Widjabul/Wia-bal people of the Bundjalung nation, traditional owners of the land on which we work, live and play. We acknowledge their continuing connection to the land, sea and community. We pay our respects to the Widjabul/Wia-bal people, their culture, their elders and community leaders past, present and emerging.</p>
+
+
+	<ul class="footer-links with-icons ">   </ul>
+	
+</div><div class="col-xs-12 col-s-6 col-m-4 col-lg-4 contact-widget" >
+	
+			<h2 class="visuallyhidden">Site Footer</h2>
+			<h3 class="footer-title">Visit Council</h3>
+			
+	<p>Lismore City Council<br />
+43 Oliver Avenue,<br />
+Goonellabah NSW 2480<br />
+<a href="https://www.google.com.au/maps/place/Lismore+City+Council/@-28.8238894,153.327734,19z/data=!4m15!1m8!3m7!1s0x6b909d8990911039:0x7b9134b4a906346a!2s43+Oliver+Ave,+Goonellabah+NSW+2480!3b1!8m2!3d-28.8241761!4d153.3279459!16s%2Fg%2F11bw4nyzns!3m5!1s0x6b909e1d969a2c49:0x1f8fbaf961393005!8m2!3d-28.8242041!4d153.3279151!16s%2Fg%2F1tctrvf1" target="_blank">View on Map</a>&nbsp;</p>
+<p style="text-align: left;"><span style="font-size: 100%;">Open 8:30am to 4:30pm;<br />
+(Cashier closes 4pm)<br />
+Monday to Friday,<br />
+Excluding Public Holidays.</span></p>
+
+
+	
+	
+</div><div class="col-xs-12 col-s-6 col-m-4 col-lg-4 quick-links-widget" >
+	
+			<h2 class="visuallyhidden">Site Footer</h2>
+			<h3 class="footer-title">Quick Links</h3>
+			
+	
+	<ul class="footer-links without-icons ">  <li>
+<a href="https://yoursay.lismore.nsw.gov.au/" target="_blank"  >Your Say</a>
+</li>
+          <li>
+<a href="https://www.rtrl.nsw.gov.au" target="_blank"  >Richmond Tweed Regional Library</a>
+</li>
+          <li>
+<a href="https://lismoregallery.org/" target="_blank"  >Lismore Regional Gallery</a>
+</li>
+          <li>
+<a href="https://www.visitlismore.com.au/" target="_blank"  >Visit Lismore</a>
+</li>
+          <li>
+<a href="https://www.lismore.nsw.gov.au/Community/Sport-and-recreation-facilities-and-programs-in-Lismore/Goonellabah-Sports-Aquatic-Centre-main" target="_self"  >Goonellabah Sports & Aquatic Centre (GSAC)</a>
+</li>
+           </ul>
+	
+</div><div class="col-xs-12 col-s-6 col-m-4 col-lg-4" >
+	
+			<h2 class="visuallyhidden">Site Footer</h2>
+			<h3 class="footer-title">Share &amp; Connect</h3>
+			
+	
+	<ul class="footer-links with-icons social-media-links">  <li class="footer-link-telephone">
+	<a href="tel:+61266250500" target="_blank"  >
+<i aria-hidden="true"></i>Call us on (02) 6625 0500
+</a>
+</li>
+          <li class="footer-link-email">
+	<a href="mailto:council@lismore.nsw.gov.au" target="_blank"  >
+<i aria-hidden="true"></i>Email us
+</a>
+</li>
+          <li class="footer-link-envelope">
+	<a href="https://lismorecitynsw.prelive.opencities.com/Council/Customer-service/Contact-us" target="_self"  >
+<i aria-hidden="true"></i>PO Box 23A, Lismore NSW 2480
+</a>
+</li>
+          <li class="footer-link-facebook">
+	<a href="https://www.facebook.com/LismoreCityCouncil/" target="_blank"  >
+<i aria-hidden="true"></i>Like us on Facebook
+</a>
+</li>
+          <li class="footer-link-youtube">
+	<a href="https://www.youtube.com/channel/UCwMz3CQw6zYjYDuaaVUA7Lw" target="_blank"  >
+<i aria-hidden="true"></i>Subscribe to us on YouTube
+</a>
+</li>
+          <li class="footer-link-instagram">
+	<a href="https://www.instagram.com/lismorecitycouncil/" target="_blank"  >
+<i aria-hidden="true"></i>Follow us on Instagram
+</a>
+</li>
+           </ul>
+	
+</div>
+                            </div>
+                        </div>
+                    </div>
+                
+                <div class="footer-outer-container footer-second-row">
+                    <div class="footer-container clearfix">
+                        <div class="grid grid-pad footer-secondary-links">
+                            <div class="col-xs-12 col-m-7">
+                                
+                                    <div><a href="https://www.lismore.nsw.gov.au/Council/About-Lismore-City-Council/Internet-Privacy-Policy" target="_self"  >Disclaimer & Privacy Policy</a>&nbsp;| <a href="https://www.lismore.nsw.gov.au/Site-Footer/Sitemap" target="_blank"  >Sitemap</a>&nbsp;| <a href="http://eepurl.com/juvywA" target="_blank"  >Subscribe</a></div>
+                                
+                            </div>
+                            <div class="col-xs-12 col-m-5 powered-by">
+                                <div class="right">
+                                    &copy; 2026 Lismore City Council&nbsp;|&nbsp;<span class="powered-by">Powered by <a href="https://granicus.com/solution/govaccess/opencities/" target="_blank">Granicus</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="/files/oc-resources/b9015858-988c-48a4-9473-7c193df083e4/JsTextSnippets.js?ocsvclang=en-AU" type="text/javascript"></script><script></script>
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-CODE-GOES-HERE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0LYX1TL9SZ');
+  gtag('config', 'UA-20148102-20');
+</script>
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+window.__TsmHiddenField = $get('ctl04_seamless_script_manager_TSM');//]]>
+</script>
+</form>
+</body>
+</html>

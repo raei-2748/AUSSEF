@@ -1,0 +1,104 @@
+council_key,council_name,fesm_burned_ha_historical_observed_years,fesm_burned_ha_historical_positive_years,bushfire_declared_historical_observed_years,bushfire_declared_historical_positive_years,flood_declared_historical_observed_years,flood_declared_historical_positive_years
+albury,Albury,5,0,1,1,2,1
+ballina,Ballina,5,1,1,0,4,4
+balranald,Balranald,5,2,1,0,2,1
+bathurst,Bathurst Regional,5,2,3,3,2,1
+begavalley,Bega Valley,5,2,1,1,3,2
+bellingen,Bellingen,5,1,1,0,3,3
+berrigan,Berrigan,5,0,1,1,2,1
+blacktown,Blacktown,5,1,2,1,3,2
+bland,Bland,5,1,2,2,3,2
+blayney,Blayney,5,0,1,1,2,1
+bluemountains,Blue Mountains,5,4,3,2,1,1
+bogan,Bogan,5,0,1,1,2,1
+bourke,Bourke,5,1,1,1,1,0
+brewarrina,Brewarrina,5,0,1,1,2,1
+brokenhill,Broken Hill,5,0,1,0,1,0
+burwood,Burwood,5,0,1,0,1,0
+byron,Byron,5,1,1,0,4,4
+cabonne,Cabonne,5,1,1,1,2,1
+camden,Camden,5,0,1,0,2,2
+campbelltown,Campbelltown,5,0,1,0,2,1
+canadabay,Canada Bay,5,0,1,0,1,0
+carrathool,Carrathool,5,2,1,1,2,1
+centraldarling,Central Darling,5,2,1,1,1,0
+cessnock,Cessnock,5,3,3,3,2,2
+clarencevalley,Clarence Valley,5,5,3,3,3,3
+coffsharbour,Coffs Harbour,5,2,3,2,2,2
+coolamon,Coolamon,5,0,2,2,3,2
+coonamble,Coonamble,5,5,1,1,3,2
+cowra,Cowra,5,0,1,1,2,1
+dungog,Dungog,5,4,3,2,3,3
+eurobodalla,Eurobodalla,5,3,2,2,3,2
+fairfield,Fairfield,5,0,1,0,2,1
+forbes,Forbes,5,1,1,1,2,1
+gilgandra,Gilgandra,5,2,1,1,2,1
+gleninnessevern,Glen Innes Severn,5,5,1,0,1,1
+goulburnmulwaree,Goulburn Mulwaree,5,2,2,2,1,1
+greaterhume,Greater Hume,5,3,2,2,2,1
+griffith,Griffith,5,1,1,1,2,1
+gunnedah,Gunnedah,5,2,1,1,1,1
+gwydir,Gwydir,5,1,2,2,1,0
+hawkesbury,Hawkesbury,5,4,3,2,3,3
+hay,Hay,5,1,1,1,2,1
+huntershill,Hunters Hill,5,0,1,0,1,0
+junee,Junee,5,0,2,2,2,1
+kempsey,Kempsey,5,5,3,3,3,3
+kiama,Kiama,5,0,1,1,2,2
+kuringgai,Ku-ring-gai,5,0,1,0,3,2
+kyogle,Kyogle,5,2,1,1,3,3
+lakemacquarie,Lake Macquarie,5,2,2,1,2,1
+lanecove,Lane Cove,5,0,1,0,2,1
+leeton,Leeton,5,0,1,1,2,1
+lismore,Lismore,5,0,1,0,4,4
+lithgow,Lithgow,5,3,2,2,2,2
+liverpool,Liverpool,5,0,1,0,2,1
+liverpoolplains,Liverpool Plains,5,1,1,1,1,1
+lockhart,Lockhart,5,0,2,2,2,1
+maitland,Maitland,5,0,2,1,3,2
+midwestern,Mid-Western Regional,5,2,2,2,2,1
+moreeplains,Moree Plains,5,0,2,2,1,1
+mosman,Mosman,5,0,1,0,2,1
+muswellbrook,Muswellbrook,5,2,2,2,2,1
+nambuccavalley,Nambucca,5,4,1,1,4,4
+narrabri,Narrabri,5,5,4,4,2,2
+narrandera,Narrandera,5,1,1,1,3,2
+narromine,Narromine,5,0,1,1,3,2
+newcastle,Newcastle,5,1,2,1,3,2
+northsydney,North Sydney,5,0,1,0,1,0
+oberon,Oberon,5,1,2,2,2,1
+orange,Orange,5,0,1,1,2,1
+parkes,Parkes,5,1,1,1,2,1
+penrith,Penrith,5,2,3,2,2,1
+portmacquariehastings,Port Macquarie-Hastings,5,3,3,3,2,2
+portstephens,Port Stephens,5,5,3,2,3,3
+randwick,Randwick,5,0,1,0,3,3
+richmondvalley,Richmond Valley,5,4,1,1,3,3
+ryde,Ryde,5,0,1,0,2,1
+shellharbour,Shellharbour,5,0,1,0,3,2
+shoalhaven,Shoalhaven,5,3,3,3,2,2
+singleton,Singleton,5,4,3,3,2,1
+strathfield,Strathfield,5,0,1,0,1,0
+sutherland,Sutherland,5,0,1,0,2,1
+sydney,Sydney,5,0,1,0,3,2
+tamworth,Tamworth Regional,5,3,1,0,1,0
+temora,Temora,5,1,1,1,2,1
+tenterfield,Tenterfield,5,4,2,2,3,3
+tweed,Tweed,5,1,1,0,3,3
+upperhunter,Upper Hunter,5,4,2,2,1,1
+upperlachlan,Upper Lachlan,5,1,1,1,2,1
+uralla,Uralla,5,0,1,0,1,0
+waggawagga,Wagga Wagga,5,1,2,2,2,1
+walcha,Walcha,5,5,2,2,1,1
+walgett,Walgett,5,2,1,1,2,1
+warren,Warren,5,3,1,1,2,1
+warrumbungle,Warrumbungle,5,4,3,3,2,1
+waverley,Waverley,5,0,1,0,3,2
+weddin,Weddin,5,1,1,1,2,1
+wentworth,Wentworth,5,1,1,0,2,1
+willoughby,Willoughby,5,0,1,0,2,1
+wingecarribee,Wingecarribee,5,0,2,1,3,2
+wollondilly,Wollondilly,5,1,2,1,3,2
+wollongong,Wollongong,5,2,2,1,3,2
+woollahra,Woollahra,5,0,1,0,2,1
+yassvalley,Yass Valley,5,2,2,2,2,1

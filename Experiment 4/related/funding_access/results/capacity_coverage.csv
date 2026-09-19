@@ -1,0 +1,17 @@
+feature,candidate_rows,observed_retrospective,strict_certified
+cash_cover_months,739,155,0
+current_ratio,739,155,0
+debt_service_cover,739,153,0
+debt_service_ratio_pct,739,155,0
+grants_pct,739,156,0
+operating_ratio_pct,739,155,0
+own_source_pct,739,155,0
+population,739,157,0
+prior_funding_receipt_experience,739,0,0
+prior_recorded_C_events,739,0,0
+prior_recorded_D_events,739,0,0
+prior_recorded_activation_events,739,0,0
+prior_recorded_disaster_events,739,0,0
+remoteness,739,0,0
+road_km,739,157,0
+staffing_FTE,739,0,0

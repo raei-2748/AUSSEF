@@ -1,0 +1,9 @@
+# Conditional statistical design — not executed
+
+Measurement, comparison and inference gates failed. No estimated coefficient, standard error or p-value is reported.
+
+If new data pass those gates, use comparable routine outcomes and verified event dates. A council/year fixed-effects design could compare changes around events, with event-time indicators and separate interactions with fixed pre-event cash cover below three months and prior operating ratio below zero. Do not use a composite fiscal index. A future protocol must specify the outcome (real routine dollars versus budget deviation), price deflator, work scope, event windows and meaningful pretrend-equivalence margins before seeing effect estimates.
+
+For staggered or repeated shocks, define non-overlapping event episodes and eligible untreated/not-yet-treated comparison periods; do not assume a naive two-way fixed-effects coefficient is valid under heterogeneous effects. Do not leave a comparison council untreated after its own disaster. Shared events connect councils, and repeated annual rows are not independent treatments. Inference must allow within-council dependence and shared event shocks; with only two selected event groups no conventional event-cluster inference is credible. More independent episodes are required, and any later small-cluster method must be justified by its assumptions.
+
+Keep contemporaneous grants, post-disaster liquidity and reconstruction spending out of ordinary adjustment controls when they may mediate disaster effects. Advance funding is a separate secondary design: require exact cash receipt/effective dates, project/event linkage, prior advances and an account of selection into early funding. Announcement timing is not treatment timing. Observational receipt timing may still be endogenous even after better measurement.

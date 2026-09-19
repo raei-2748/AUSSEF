@@ -1,0 +1,7 @@
+test_year,model,alpha,selection_mode
+2021,ridge_level,100.0,training_only_grouped_council_fallback
+2021,ridge_change,10.0,training_only_grouped_council_fallback
+2022,ridge_level,10.0,training_only_grouped_council_fallback
+2022,ridge_change,10.0,training_only_grouped_council_fallback
+2023,ridge_level,100.0,inner_forward_with_embargo
+2023,ridge_change,100.0,inner_forward_with_embargo

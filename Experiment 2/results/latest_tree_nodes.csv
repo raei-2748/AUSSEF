@@ -1,0 +1,44 @@
+target,spec,test_year,node,depth,is_leaf,split_variable,threshold,training_n,prediction,path
+operating_ratio_pct,fiscal_plus_disaster,2023,0,0,False,operating_ratio_pct__prior,0.14999999850988388,819,2.5070573870573925,all training rows
+operating_ratio_pct,fiscal_plus_disaster,2023,1,1,False,bushfire_declared__event__unknown,0.5,361,-0.6613573407202218,all training rows; operating_ratio_pct__prior <= 0.15
+operating_ratio_pct,fiscal_plus_disaster,2023,2,2,False,operating_ratio_pct__prior,-12.565000057220459,160,-4.014375000000003,all training rows; operating_ratio_pct__prior <= 0.15; bushfire_declared__event__unknown <= 0.5
+operating_ratio_pct,fiscal_plus_disaster,2023,3,3,True,,,23,-13.980869565217393,all training rows; operating_ratio_pct__prior <= 0.15; bushfire_declared__event__unknown <= 0.5; operating_ratio_pct__prior <= -12.565
+operating_ratio_pct,fiscal_plus_disaster,2023,4,3,True,,,137,-2.3411678832116785,all training rows; operating_ratio_pct__prior <= 0.15; bushfire_declared__event__unknown <= 0.5; operating_ratio_pct__prior > -12.565
+operating_ratio_pct,fiscal_plus_disaster,2023,5,2,False,maintenance_ratio_pct__prior,68.51297760009766,201,2.0077114427860687,all training rows; operating_ratio_pct__prior <= 0.15; bushfire_declared__event__unknown > 0.5
+operating_ratio_pct,fiscal_plus_disaster,2023,6,3,True,,,32,-4.311562499999999,all training rows; operating_ratio_pct__prior <= 0.15; bushfire_declared__event__unknown > 0.5; maintenance_ratio_pct__prior <= 68.513
+operating_ratio_pct,fiscal_plus_disaster,2023,7,3,True,,,169,3.204260355029587,all training rows; operating_ratio_pct__prior <= 0.15; bushfire_declared__event__unknown > 0.5; maintenance_ratio_pct__prior > 68.513
+operating_ratio_pct,fiscal_plus_disaster,2023,8,1,False,bushfire_declared__event__unknown,0.5,458,5.0044323144104865,all training rows; operating_ratio_pct__prior > 0.15
+operating_ratio_pct,fiscal_plus_disaster,2023,9,2,False,operating_ratio_pct__prior,8.384999752044678,304,3.0828618421052654,all training rows; operating_ratio_pct__prior > 0.15; bushfire_declared__event__unknown <= 0.5
+operating_ratio_pct,fiscal_plus_disaster,2023,10,3,True,,,189,0.9530158730158728,all training rows; operating_ratio_pct__prior > 0.15; bushfire_declared__event__unknown <= 0.5; operating_ratio_pct__prior <= 8.385
+operating_ratio_pct,fiscal_plus_disaster,2023,11,3,True,,,115,6.583217391304349,all training rows; operating_ratio_pct__prior > 0.15; bushfire_declared__event__unknown <= 0.5; operating_ratio_pct__prior > 8.385
+operating_ratio_pct,fiscal_plus_disaster,2023,12,2,False,population__prior,13818.0,154,8.79766233766234,all training rows; operating_ratio_pct__prior > 0.15; bushfire_declared__event__unknown > 0.5
+operating_ratio_pct,fiscal_plus_disaster,2023,13,3,True,,,64,11.92546875,all training rows; operating_ratio_pct__prior > 0.15; bushfire_declared__event__unknown > 0.5; population__prior <= 13818
+operating_ratio_pct,fiscal_plus_disaster,2023,14,3,True,,,90,6.573444444444447,all training rows; operating_ratio_pct__prior > 0.15; bushfire_declared__event__unknown > 0.5; population__prior > 13818
+cash_cover_months,fiscal_plus_disaster,2023,0,0,False,cash_cover_months__prior,12.464999675750732,717,12.857662064156198,all training rows
+cash_cover_months,fiscal_plus_disaster,2023,1,1,False,cash_cover_months__prior,7.79925012588501,427,9.466977751756438,all training rows; cash_cover_months__prior <= 12.465
+cash_cover_months,fiscal_plus_disaster,2023,2,2,False,cash_cover_months__prior,5.234999895095825,171,6.825464327485377,all training rows; cash_cover_months__prior <= 12.465; cash_cover_months__prior <= 7.79925
+cash_cover_months,fiscal_plus_disaster,2023,3,3,True,,,82,5.465295121951217,all training rows; cash_cover_months__prior <= 12.465; cash_cover_months__prior <= 7.79925; cash_cover_months__prior <= 5.235
+cash_cover_months,fiscal_plus_disaster,2023,4,3,True,,,89,8.078653932584269,all training rows; cash_cover_months__prior <= 12.465; cash_cover_months__prior <= 7.79925; cash_cover_months__prior > 5.235
+cash_cover_months,fiscal_plus_disaster,2023,5,2,False,own_source_pct__prior,48.7549991607666,256,11.231426171875,all training rows; cash_cover_months__prior <= 12.465; cash_cover_months__prior > 7.79925
+cash_cover_months,fiscal_plus_disaster,2023,6,3,True,,,33,13.379890909090905,all training rows; cash_cover_months__prior <= 12.465; cash_cover_months__prior > 7.79925; own_source_pct__prior <= 48.755
+cash_cover_months,fiscal_plus_disaster,2023,7,3,True,,,223,10.91349192825112,all training rows; cash_cover_months__prior <= 12.465; cash_cover_months__prior > 7.79925; own_source_pct__prior > 48.755
+cash_cover_months,fiscal_plus_disaster,2023,8,1,False,cash_cover_months__prior,19.936400413513184,290,17.85015241379309,all training rows; cash_cover_months__prior > 12.465
+cash_cover_months,fiscal_plus_disaster,2023,9,2,False,cash_cover_months__prior,16.204999923706055,227,16.19720572687224,all training rows; cash_cover_months__prior > 12.465; cash_cover_months__prior <= 19.9364
+cash_cover_months,fiscal_plus_disaster,2023,10,3,True,,,133,15.073984962406016,all training rows; cash_cover_months__prior > 12.465; cash_cover_months__prior <= 19.9364; cash_cover_months__prior <= 16.205
+cash_cover_months,fiscal_plus_disaster,2023,11,3,True,,,94,17.786443617021273,all training rows; cash_cover_months__prior > 12.465; cash_cover_months__prior <= 19.9364; cash_cover_months__prior > 16.205
+cash_cover_months,fiscal_plus_disaster,2023,12,2,False,cash_cover_months__prior,24.571499824523926,63,23.806007936507935,all training rows; cash_cover_months__prior > 12.465; cash_cover_months__prior > 19.9364
+cash_cover_months,fiscal_plus_disaster,2023,13,3,True,,,43,22.253055813953484,all training rows; cash_cover_months__prior > 12.465; cash_cover_months__prior > 19.9364; cash_cover_months__prior <= 24.5715
+cash_cover_months,fiscal_plus_disaster,2023,14,3,True,,,20,27.144855,all training rows; cash_cover_months__prior > 12.465; cash_cover_months__prior > 19.9364; cash_cover_months__prior > 24.5715
+maintenance_ratio_pct,fiscal_plus_disaster,2024,0,0,False,maintenance_ratio_pct__prior,126.83056259155273,909,105.32013195949303,all training rows
+maintenance_ratio_pct,fiscal_plus_disaster,2024,1,1,False,population__prior,6466.0,827,102.58157219983593,all training rows; maintenance_ratio_pct__prior <= 126.831
+maintenance_ratio_pct,fiscal_plus_disaster,2024,2,2,False,current_ratio__prior,6.009999990463257,162,113.30575295545594,all training rows; maintenance_ratio_pct__prior <= 126.831; population__prior <= 6466
+maintenance_ratio_pct,fiscal_plus_disaster,2024,3,3,True,,,119,106.03343355202325,all training rows; maintenance_ratio_pct__prior <= 126.831; population__prior <= 6466; current_ratio__prior <= 6.01
+maintenance_ratio_pct,fiscal_plus_disaster,2024,4,3,True,,,43,133.43147409518832,all training rows; maintenance_ratio_pct__prior <= 126.831; population__prior <= 6466; current_ratio__prior > 6.01
+maintenance_ratio_pct,fiscal_plus_disaster,2024,5,2,False,maintenance_ratio_pct__prior,89.87376403808594,665,99.96906500824117,all training rows; maintenance_ratio_pct__prior <= 126.831; population__prior > 6466
+maintenance_ratio_pct,fiscal_plus_disaster,2024,6,3,True,,,189,92.50465713627317,all training rows; maintenance_ratio_pct__prior <= 126.831; population__prior > 6466; maintenance_ratio_pct__prior <= 89.8738
+maintenance_ratio_pct,fiscal_plus_disaster,2024,7,3,True,,,476,102.93287401622864,all training rows; maintenance_ratio_pct__prior <= 126.831; population__prior > 6466; maintenance_ratio_pct__prior > 89.8738
+maintenance_ratio_pct,fiscal_plus_disaster,2024,8,1,False,cash_cover_months__prior,8.003700256347656,82,132.93950904774115,all training rows; maintenance_ratio_pct__prior > 126.831
+maintenance_ratio_pct,fiscal_plus_disaster,2024,9,2,True,,,24,162.05171802626808,all training rows; maintenance_ratio_pct__prior > 126.831; cash_cover_months__prior <= 8.0037
+maintenance_ratio_pct,fiscal_plus_disaster,2024,10,2,False,cash_cover_months__prior,14.441949844360352,58,120.8930777462818,all training rows; maintenance_ratio_pct__prior > 126.831; cash_cover_months__prior > 8.0037
+maintenance_ratio_pct,fiscal_plus_disaster,2024,11,3,True,,,28,105.89995563977277,all training rows; maintenance_ratio_pct__prior > 126.831; cash_cover_months__prior > 8.0037; cash_cover_months__prior <= 14.4419
+maintenance_ratio_pct,fiscal_plus_disaster,2024,12,3,True,,,30,134.88665837902346,all training rows; maintenance_ratio_pct__prior > 126.831; cash_cover_months__prior > 8.0037; cash_cover_months__prior > 14.4419

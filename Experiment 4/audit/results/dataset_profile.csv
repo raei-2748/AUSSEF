@@ -1,0 +1,7 @@
+dataset,path,rows,columns,councils,year_min,year_max,duplicate_council_year_rows
+fiscal,Experiment 2/data/fiscal_panel_v2/NSW_Fiscal_Panel_V2_candidate.csv,1339,86,103.0,2012.0,2024.0,0.0
+e3_panel,outputs/experiment3_crowdout/experiment3_panel.csv,36,64,6.0,2016.0,2023.0,0.0
+evidence,outputs/experiment3_crowdout/documentary_evidence.csv,37,22,6.0,2019.0,2023.0,28.0
+events_historical,Experiment 2/data/disaster_exposure_v2/declaration_event_ledger.csv,111,23,,2012.0,2016.0,
+exposure,Experiment 2/data/disaster_exposure_v2/NSW_Disaster_Exposure_V2_candidate.csv,1339,46,103.0,2012.0,2024.0,0.0
+activation,outputs/experiment4_funding_access_feasibility/inputs/drfa_activation_history_by_location_2026_august_11.csv,2475,15,,,,

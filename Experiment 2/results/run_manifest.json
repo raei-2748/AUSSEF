@@ -1,0 +1,58 @@
+{
+  "inputs": {
+    "outputs/fiscal_panel_v2/NSW_Fiscal_Panel_V2_candidate.csv": "6233bbdecc7b450006934946e523b9c52ba40772866b259603c7930c0a0d7bba",
+    "outputs/disaster_exposure_v2/NSW_Disaster_Exposure_V2_candidate.csv": "3d36bcd60785b27e440f2e2fc0dbd0e3e7daac2e681c5ff147c41335aa587eca",
+    "NSW Data Panel.csv": "d96fd82b53295460f5b7baacd7a10124d1b061826ad70f6148a6728d71d77bab"
+  },
+  "specification": {
+    "targets": {
+      "operating_ratio_pct": "percentage points",
+      "cash_cover_months": "months",
+      "maintenance_ratio_pct": "percentage points"
+    },
+    "fiscal_predictors": [
+      "operating_ratio_pct",
+      "cash_cover_months",
+      "current_ratio",
+      "own_source_pct",
+      "debt_service_cover",
+      "maintenance_ratio_pct",
+      "population",
+      "road_km"
+    ],
+    "disaster_predictors": [
+      "fesm_burned_ha__event",
+      "bushfire_declared__event",
+      "flood_declared__event"
+    ],
+    "specs": [
+      "fiscal_only",
+      "fiscal_plus_fire",
+      "fiscal_plus_disaster"
+    ],
+    "min_train": 100,
+    "min_test": 2,
+    "max_depth": 3,
+    "min_samples_leaf": 20,
+    "seed": 42,
+    "ridge_alphas": [
+      0.1,
+      1.0,
+      10.0,
+      100.0
+    ],
+    "earliest_fold_alpha": 10.0,
+    "temporal_rule": "prior=t-1; exposure=t; target=t+1; train target < test target-1",
+    "tuning": "inner expanding target-year folds with same embargo; fixed alpha10 if none",
+    "short_history_rule": "prior financial year >=2017; same V2 councils, targets and quality rules",
+    "consistency_rule": "MAE and RMSE both beat persistence in >=75% of held-out years and both pooled errors improve",
+    "primary_metric": "MAE; RMSE and R2 retained; no outcome trimming or test-year selection",
+    "interpretation": "retrospective current-vintage data; no ex-ante or causal claim"
+  },
+  "python": "3.13.9",
+  "pandas": "2.3.3",
+  "numpy": "2.3.5",
+  "sklearn": "1.7.2",
+  "verdict": "NO-GO for escalating model complexity on this evidence",
+  "primary_consistent_specifications": []
+}

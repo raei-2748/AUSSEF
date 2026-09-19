@@ -1,0 +1,23 @@
+[
+  {
+    "source_id": "albury_fs_2012",
+    "url": "https://eservice.alburycity.nsw.gov.au/ACCPublicDocs/DocumentViewer.aspx?DocID=795722",
+    "retrieved_date": "2026-09-18",
+    "status": "Not PDF"
+  },
+  {
+    "source_id": "albury_fs_2013",
+    "url": "https://eservice.alburycity.nsw.gov.au/ACCPublicDocs/DocumentViewer.aspx?DocID=1072745",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/albury_fs_2013.pdf",
+    "status": "retrieved",
+    "sha256": "e3399f4e2c206787fea6054aadbb68bcc21309315f52be982bf8ec3ba568a580",
+    "pages": 94
+  },
+  {
+    "source_id": "albury_fs_2016",
+    "url": "https://eservice.alburycity.nsw.gov.au/ACCPublicDocs/DocumentViewer.aspx?DocID=1892954",
+    "retrieved_date": "2026-09-18",
+    "status": "Not PDF"
+  }
+]

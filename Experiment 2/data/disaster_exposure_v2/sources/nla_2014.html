@@ -1,0 +1,692 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" >
+    <meta name="author" content="">
+
+    <meta property="og:title"  />
+    <meta property="og:description"  />
+    <meta property="og:url"  />
+    <meta property="og:site_name" content="Trove" />
+    <meta name="og:image" content="https://assets.nla.gov.au/favicons/trove/og-image-200x200.png" />
+    <meta name="twitter:title"  />
+    <meta name="twitter:description"  />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@TroveAustralia"/>
+    <meta name="twitter:image" content="https://assets.nla.gov.au/favicons/trove/apple-touch-icon-180x180.png" />
+
+    <!-- Fav and touch icons -->
+    <link rel="icon" href="https://assets.nla.gov.au/favicons/trove/favicon-16.png" sizes="16x16">
+    <link rel="icon" href="https://assets.nla.gov.au/favicons/trove/favicon-32.png" sizes="32x32">
+    <link rel="icon" href="https://assets.nla.gov.au/favicons/trove/favicon-64.png" sizes="64x64">
+    <link rel="apple-touch-icon" href="https://assets.nla.gov.au/favicons/trove/apple-touch-icon-120x120.png" sizes="120x120">
+    <link rel="apple-touch-icon" href="https://assets.nla.gov.au/favicons/trove/apple-touch-icon-152x152.png" sizes="152x152">
+    <link rel="apple-touch-icon" href="https://assets.nla.gov.au/favicons/trove/apple-touch-icon-167x167.png" sizes="167x167">
+    <link rel="apple-touch-icon" href="https://assets.nla.gov.au/favicons/trove/apple-touch-icon-180x180.png" sizes="180x180">
+    <meta name="apple-mobile-web-app-title" content="Trove">
+    <link rel="icon" href="https://assets.nla.gov.au/favicons/trove/android-icon-192x192.png" sizes="192x192">
+    <meta name="msapplication-square70x70logo" content="https://assets.nla.gov.au/favicons/trove/msapplication-square-70x70.png">
+    <meta name="msapplication-square150x150logo" content="https://assets.nla.gov.au/favicons/trove/msapplication-square-150x150.png">
+    <meta name="msapplication-square310x310logo" content="https://assets.nla.gov.au/favicons/trove/msapplication-square-310x310.png">
+    <meta name="msapplication-wide310x150logo" content="https://assets.nla.gov.au/favicons/trove/msapplication-wide-310x150.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="application-name" content="Trove">
+    <title>Trove - Archived webpage</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://assets.nla.gov.au/fonts/font-awesome-pro/5.9.0/css/all.min.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://assets.nla.gov.au/fonts/source-sans-pro/source-sans-pro.css">
+    <link rel="stylesheet" href="https://assets.nla.gov.au/fonts/source-sans-pro/source-sans-variable.css">
+    <link rel="stylesheet" href="https://assets.nla.gov.au/fonts/source-serif-pro/source-serif-pro.css">
+    <link rel="stylesheet" href="https://assets.nla.gov.au/fonts/source-serif-pro/source-serif-variable.css">
+
+    <link rel='stylesheet' href='/webjars/bootstrap/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='/css/nla-trove.css'>
+
+    <script>var webjars = {
+    versions: {"systemjs":"0.19.36","jquery.scrollTo":"2.1.1","jquery-ui":"1.11.2","requirejs":"2.2.0","underscorejs":"1.8.3","bootstrap":"3.3.7","pdf-js":"2.3.200","font-awesome":"4.6.3","when":"3.7.8","momentjs":"2.15.0","jquery":"3.1.0","mustachejs":"2.2.1"},
+    path: function(webJarId, path) {
+        console.error('The webjars.path() method of getting a WebJar path has been deprecated.  The RequireJS config in the ' + webJarId + ' WebJar may need to be updated.  Please file an issue: http://github.com/webjars/' + webJarId + '/issues/new');
+        return ['/webjars/' + webJarId + '/' + webjars.versions[webJarId] + '/' + path];
+    }
+};
+
+var require = {
+    callback: function() {
+        // Deprecated WebJars RequireJS plugin loader
+        define('webjars', function() {
+            return {
+                load: function(name, req, onload, config) {
+                    if (name.indexOf('.js') >= 0) {
+                        console.warn('Detected a legacy file name (' + name + ') as the thing to load.  Loading via file name is no longer supported so the .js will be dropped in an effort to resolve the module name instead.');
+                        name = name.replace('.js', '');
+                    }
+                    console.error('The webjars plugin loader (e.g. webjars!' + name + ') has been deprecated.  The RequireJS config in the ' + name + ' WebJar may need to be updated.  Please file an issue: http://github.com/webjars/webjars/issues/new');
+                    req([name], function() {
+                        onload();
+                    });
+                }
+            }
+        });
+
+        // All of the WebJar configs
+
+
+requirejs.config({"paths":{"systemjs":["/webjars/systemjs/0.19.36/index"]}});
+requirejs.config({"paths":{"jquery-scrollTo":["/webjars/jquery.scrollTo/2.1.1/jquery.scrollTo","jquery.scrollTo"]},"shim":{"jquery-scrollTo":["jquery"]},"packages":[]});
+requirejs.config({"paths":{"jquery-ui":["/webjars/jquery-ui/1.11.2/jquery-ui","jquery-ui"],"jquery-ui-min":["/webjars/jquery-ui/1.11.2/jquery-ui.min","jquery-ui.min"]},"shim":{"jquery-ui":["jquery"],"jquery-ui-min":["jquery"]},"packages":[]});
+requirejs.config({"paths":{},"packages":[]});
+requirejs.config({"paths":{"underscore":["/webjars/underscorejs/1.8.3/underscore","underscore"],"underscorejs":["/webjars/underscorejs/1.8.3/underscore","underscore"]},"shim":{"underscore":{"exports":"_"},"underscorejs":{"exports":"_"}},"packages":[]});
+requirejs.config({"paths":{"bootstrap":["/webjars/bootstrap/3.3.7/js/bootstrap","js/bootstrap"],"bootstrap-css":["/webjars/bootstrap/3.3.7/css/bootstrap","css/bootstrap"]},"shim":{"bootstrap":["jquery"]},"packages":[]});
+requirejs.config({"paths":{"pdf-js":["/webjars/pdf-js/2.3.200/build/pdf","build/pdf"]},"packages":[]});
+requirejs.config({"paths":{"font-awesome-jsf":["/webjars/font-awesome/4.6.3/css/font-awesome-jsf","css/font-awesome-jsf"],"font-awesome-jsf-min":["/webjars/font-awesome/4.6.3/css/font-awesome.min-jsf","css/font-awesome.min-jsf"],"font-awesome":["/webjars/font-awesome/4.6.3/css/font-awesome","css/font-awesome"],"font-awesome-min":["/webjars/font-awesome/4.6.3/css/font-awesome.min","css/font-awesome.min"],"FontAwesome-otf":["/webjars/font-awesome/4.6.3/fonts/FontAwesome","fonts/FontAwesome"],"fontawesome-webfont-eot":["/webjars/font-awesome/4.6.3/fonts/fontawesome-webfont","fonts/fontawesome-webfont"],"fontawesome-webfont-svg":["/webjars/font-awesome/4.6.3/fonts/fontawesome-webfont","fonts/fontawesome-webfont"],"fontawesome-webfont-ttf":["/webjars/font-awesome/4.6.3/fonts/fontawesome-webfont","fonts/fontawesome-webfont"],"fontawesome-webfont-woff":["/webjars/font-awesome/4.6.3/fonts/fontawesome-webfont","fonts/fontawesome-webfont"],"fontawesome-webfont-woff2":["/webjars/font-awesome/4.6.3/fonts/fontawesome-webfont","fonts/fontawesome-webfont"]},"packages":[]});
+requirejs.config({"paths":{"when":["/webjars/when/3.7.8/when"]}});
+requirejs.config({"paths":{"momentjs":["/webjars/momentjs/2.15.0/moment","moment"],"moment":["/webjars/momentjs/2.15.0/moment","moment"],"moment-with-locales":["/webjars/momentjs/2.15.0/min/moment-with-locales","min/moment-with-locales"]},"packages":[]});
+requirejs.config({"paths":{"jquery":["/webjars/jquery/3.1.0/jquery","jquery"]},"shim":{"jquery":{"exports":"$"}},"packages":[]});
+requirejs.config({"paths":{"mustache":["/webjars/mustachejs/2.2.1/mustache","mustache"]},"packages":[]});    }
+};</script>
+    <script>var version = '10.16.0'</script>
+    <script data-main="/js/main.js" src="/webjars/requirejs/require.min.js"></script>
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-KPDQRTM');
+    </script>
+    <!-- End Google Tag Manager -->
+  </head>
+
+
+    <body class="is-aw-delivery">
+    <div id="ui-layout-header" data-component="Header">
+     <div class="header">
+        <nav class="navbar navbar-default" id="header-c">
+          <div id="skip">
+            <a href="#replayFrame">Skip to content</a>
+            <a href="#SearchTermTrove" onclick="$('#SearchTermTrove').focus();">Skip to search</a>
+          </div>
+
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" class="navbar-toggle" type="button" aria-expanded="true">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div> <!--.navbar-header-->
+        
+        <div class="mobile-logo">
+          <a class="navbar-brand" href="https://trove.nla.gov.au"><img src="https://assets.nla.gov.au/logos/trove/trove-colour.svg" alt="Trove logo" width="154"></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <form method="GET" action="https://trove.nla.gov.au/search/category/websites" role="search" class="navbar-form navbar-left">
+
+          <div class="input-group">
+            <label for="SearchTermTrove" class="sr-only">Search</label>
+            <input type="text" value="" name="keyword" id="SearchTermTrove" class="form-control primary-search" placeholder="Search Websites" onkeyup="isValidSearch()">
+
+            <div class="input-group-btn">
+              <div class="btn-group btn-group-search-limits">
+              <button title="Search limits" aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" class="btn btn-default dropdown-toggle filter" type="button" id="linkClearLimits" aria-label="Search limits">
+                <span>Filter</span><span class="fas fa-caret-down"></span>
+              </button>
+
+              <ul class="dropdown-menu dropdown-menu-limit">
+                <li>
+                  <div class="checkbox" data-template-source="metadata">
+                    <label for="l-site">
+                      <input class="form-inputs" type="checkbox" value="{{searchDomainEnc}}" id="l-site" name="l-site"> Limit to <span class="limit-url">{{searchDomain}}</span>
+                    </label>
+                  </div>
+                </li>
+              </ul>
+            </div>
+              <button type="submit" class="btn btn-default primary-search" id="search-button">
+                <span class="fas fa-search" aria-hidden="true"></span> <span class="sr-only">Search</span>
+              </button>
+              <script type="text/javascript">
+                document.addEventListener('DOMContentLoaded', isValidSearch);
+                function isValidSearch() {
+                    let searchTerm = document.getElementById("SearchTermTrove").value;
+                    let regex = /[A-Za-z0-9]+/;
+                    if (regex.test(searchTerm)) {
+                        document.getElementById("search-button").disabled = false;
+                    } else {
+                        document.getElementById("search-button").disabled = true;
+                    }
+                }
+              </script>
+              <a class="btn btn-default dropdown-toggle adv-search" href="https://trove.nla.gov.au/search/advanced/category/websites" aria-label="Advanced search">Advanced Search</a>
+            </div>
+          </div>
+          <div class="search-accent"></div>
+        </form>
+        <div class="default-logo">
+          <a class="navbar-brand" href="https://trove.nla.gov.au"><img src="https://assets.nla.gov.au/logos/trove/trove-colour.svg" alt="Trove logo" width="154"></a>
+        </div>
+
+          <ul id="navglobal" class="nav navbar-nav navbar-right">
+              <li id="troveDiscoveryMenuFallback" class="hide"><a href="https://trove.nla.gov.au/">Return to Trove</a></li>
+          </ul>
+        </div> <!-- #bs-example-navbar-collapse-1 -->
+       </div>  <!-- .container-fluid -->
+       </nav>
+
+      </div> <!-- .header -->
+
+      <div class="trove-alerts hide">
+      </div>
+
+      <!-- serviceNotice -->
+      <!-- serviceNotice -->
+
+     </div>
+
+    <div id="content-main" data-component="viewer/TroveWeb" data-childcomponents='["ui-layout-header", "dateFloatingModal", "modal-more-snapshots", "bottomPanel", "l-trove-viewer"]' data-params='["20170101000000", "http://www.emergency.nsw.gov.au/publications/natural-disaster-declarations/2014-2015.html", "", "false"]' class="container-fluid">
+    <div id="browseBar" class="l-breadcrumb">
+        <ol class="breadcrumb">
+            <li>
+                <a href="https://trove.nla.gov.au"><span class="home-icon fas fa-home-alt" aria-hidden="true"></span>Home</a><span>/</span><a href="https://trove.nla.gov.au/website">Websites</a>
+            </li>
+        </ol>
+    </div>
+
+        <button class="btn btn-defuault btn-snapshot-resize" aria-label="Full screen" title="Full screen"><span class="glyphicon glyphicon-resize-full"></span></button>
+
+    <div id="modal-more-snapshots" data-component="viewer/MoreSnapshotsModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close close-btn" data-dismiss="modal" aria-label="Close">Close<span aria-hidden="true" class="fal fa-times"></span></button>
+            <h4 class="modal-title" id="myModalLabel">More snapshots for this webpage...</h4>
+          </div>
+
+          <div class="modal-body" data-template-source="moreSnapshots">
+            {{#internetArchiveUrl}}
+            <p>Internet Archive : Wayback machine</p>
+            <ul>
+                <li><a class="ga-internet-archive" href="{{internetArchiveUrl}}">{{internetArchiveUrl}}</a></li>
+            </ul>
+            {{/internetArchiveUrl}}
+            
+            <p>Other URLs that this webpage has moved to over time</p>
+            <ul>
+                {{#uniqueUrls}}
+                <li><a class="ga-trove-web" href="{{troveweburl}}">{{displayUrl}}</a></li>
+                {{/uniqueUrls}}
+            </ul>
+
+            {{#captureMetadata}}
+            <p>Archived webpage titles</p>
+            <ul>
+                {{#titles}}
+                <li><a class="ga-tep" href="{{tepurl}}">{{name}}</a></li>
+                {{/titles}}
+            </ul>
+            {{/captureMetadata}}
+
+            {{#redirects}}
+            <h4>Redirects</h4>
+            <table class="table table-condensed table-bordered">
+               <thead>
+                  <tr>
+                    <th colspan="2"><strong>{{url}}</strong></th>
+                  </tr>
+                  <tr>
+                    <th>Receives <em>redirects from</em></th>
+                    <th>Sometimes <em>redirects to</em></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                        {{#from}}
+                        <p><a href="{{troveweburl}}">{{redirecturl}}</a></p>
+                        {{/from}}
+                    </td>
+                    <td>
+                        {{#to}}
+                        <p><a href="{{troveweburl}}">{{redirecturl}}</a></p>
+                        {{/to}}
+                    </td>
+                  </tr>
+                </tbody>
+            </table>
+            {{/redirects}}
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="dateFloatingModal" data-component="viewer/FloatingModal" class="l-modal-float modal-date" data-snapshot="0" style="right:auto; bottom:auto;">
+        <!-- .is-faded-->
+        <button class="btn-ui-min" title="Minimise snapshot remote" aria-label="Minimise snapshot remote">
+        	<svg viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg" style="-webkit-transform: translate3d(0,0,0)">
+			    <g>
+			        <circle cx="22" cy="22" r="21" stroke="#000000" stroke-width="2" fill="#FFFFFF"></circle>
+			        <path class="minus" d="M22,36 C23.8925477,36 25.7042172,35.6320046 27.4350087,34.8960139 C29.1658001,34.1600231 30.6580012,33.1652224 31.9116118,31.9116118 C33.1652224,30.6580012 34.1600231,29.1658001 34.8960139,27.4350087 C35.6320046,25.7042172 36,23.8925477 36,22 C36,20.1074523 35.6320046,18.2957828 34.8960139,16.5649913 C34.1600231,14.8341999 33.1652224,13.3419988 31.9116118,12.0883882 C30.6580012,10.8347776 29.1658001,9.83997689 27.4350087,9.10398614 C25.7042172,8.36799538 23.8925477,8 22,8 C20.1074523,8 18.2957828,8.36799538 16.5649913,9.10398614 C14.8341999,9.83997689 13.3419988,10.8347776 12.0883882,12.0883882 C10.8347776,13.3419988 9.83997689,14.8341999 9.10398614,16.5649913 C8.36799538,18.2957828 8,20.1074523 8,22 C8,23.8925477 8.36799538,25.7042172 9.10398614,27.4350087 C9.83997689,29.1658001 10.8347776,30.6580012 12.0883882,31.9116118 C13.3419988,33.1652224 14.8341999,34.1600231 16.5649913,34.8960139 C18.2957828,35.6320046 20.1074523,36 22,36 Z M28.0658579,24.4263432 L15.9341421,24.4263432 C15.5944541,24.4263432 15.3073368,24.3090699 15.0727903,24.0745234 C14.8382438,23.8399769 14.7209705,23.5528596 14.7209705,23.2131716 L14.7209705,20.7868284 C14.7209705,20.4471404 14.8382438,20.1600231 15.0727903,19.9254766 C15.3073368,19.6909301 15.5944541,19.5736568 15.9341421,19.5736568 L28.0658579,19.5736568 C28.4055459,19.5736568 28.6926632,19.6909301 28.9272097,19.9254766 C29.1617562,20.1600231 29.2790295,20.4471404 29.2790295,20.7868284 L29.2790295,23.2131716 C29.2790295,23.5528596 29.1617562,23.8399769 28.9272097,24.0745234 C28.6926632,24.3090699 28.4055459,24.4263432 28.0658579,24.4263432 Z" fill="#000000" transform="translate(22.000000, 22.000000) scale(1, -1) translate(-22.000000, -22.000000) "></path>
+					<path class="plus" d="M22,35.4761905 C23.8571429,35.4761905 25.6349206,35.1150794 27.3333333,34.3928571 C29.031746,33.6706349 30.4960317,32.6944444 31.7261905,31.4642857 C32.9563492,30.234127 33.9325397,28.7698413 34.6547619,27.0714286 C35.3769841,25.3730159 35.7380952,23.5952381 35.7380952,21.7380952 C35.7380952,19.8809524 35.3769841,18.1031746 34.6547619,16.4047619 C33.9325397,14.7063492 32.9563492,13.2420635 31.7261905,12.0119048 C30.4960317,10.781746 29.031746,9.80555556 27.3333333,9.08333333 C25.6349206,8.36111111 23.8571429,8 22,8 C20.1428571,8 18.3650794,8.36111111 16.6666667,9.08333333 C14.968254,9.80555556 13.5039683,10.781746 12.2738095,12.0119048 C11.0436508,13.2420635 10.0674603,14.7063492 9.3452381,16.4047619 C8.62301587,18.1031746 8.26190476,19.8809524 8.26190476,21.7380952 C8.26190476,23.5952381 8.62301587,25.3730159 9.3452381,27.0714286 C10.0674603,28.7698413 11.0436508,30.234127 12.2738095,31.4642857 C13.5039683,32.6944444 14.968254,33.6706349 16.6666667,34.3928571 C18.3650794,35.1150794 20.1428571,35.4761905 22,35.4761905 Z M23.1904762,28.8809524 L20.8095238,28.8809524 C20.4761905,28.8809524 20.1944444,28.765873 19.9642857,28.5357143 C19.734127,28.3055556 19.6190476,28.0238095 19.6190476,27.6904762 L19.6190476,24.1190476 L16.047619,24.1190476 C15.7142857,24.1190476 15.4325397,24.0039683 15.202381,23.7738095 C14.9722222,23.5436508 14.8571429,23.2619048 14.8571429,22.9285714 L14.8571429,20.547619 C14.8571429,20.2142857 14.9722222,19.9325397 15.202381,19.702381 C15.4325397,19.4722222 15.7142857,19.3571429 16.047619,19.3571429 L19.6190476,19.3571429 L19.6190476,15.7857143 C19.6190476,15.452381 19.734127,15.1706349 19.9642857,14.9404762 C20.1944444,14.7103175 20.4761905,14.5952381 20.8095238,14.5952381 L23.1904762,14.5952381 C23.5238095,14.5952381 23.8055556,14.7103175 24.0357143,14.9404762 C24.265873,15.1706349 24.3809524,15.452381 24.3809524,15.7857143 L24.3809524,19.3571429 L27.952381,19.3571429 C28.2857143,19.3571429 28.5674603,19.4722222 28.797619,19.702381 C29.0277778,19.9325397 29.1428571,20.2142857 29.1428571,20.547619 L29.1428571,22.9285714 C29.1428571,23.2619048 29.0277778,23.5436508 28.797619,23.7738095 C28.5674603,24.0039683 28.2857143,24.1190476 27.952381,24.1190476 L24.3809524,24.1190476 L24.3809524,27.6904762 C24.3809524,28.0238095 24.265873,28.3055556 24.0357143,28.5357143 C23.8055556,28.765873 23.5238095,28.8809524 23.1904762,28.8809524 Z" id="Shape" fill="#000000" transform="translate(22.000000, 21.738095) scale(1, -1) translate(-22.000000, -21.738095) "></path>
+			    </g>
+			</svg>
+        </button>
+        <div class="l-modal-date-content">
+            <p>
+                This is a <a href="https://trove.nla.gov.au/help/navigating/web-archive" class="help-snapshot">webpage snapshot</a> as it appeared on
+            </p>
+
+            <div class="label-date" data-template-source="date">
+                <span class="day">{{day}}</span> <span class="month">{{month}}</span><span class="year">{{year}}</span> <span class="time">{{time}}</span>
+            </div>
+
+            <div class="l-btn-group">
+                <button class="btn-round btn-calendar" data-show-content="l-calendar" title="Show all snapshot dates for this webpage" aria-label="Show all snapshot dates for this webpage">
+					<svg viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+					    <g>
+					        <circle cx="22" cy="22" r="21" stroke="#000000" stroke-width="2" fill="#FFFFFF"></circle>
+					        <path d="M10.1538462,33 L15,33 L15,28.5 L10.1538462,28.5 L10.1538462,33 Z M16.0769231,33 L21.4615385,33 L21.4615385,28.5 L16.0769231,28.5 L16.0769231,33 Z M10.1538462,27.5 L15,27.5 L15,22.5 L10.1538462,22.5 L10.1538462,27.5 Z M16.0769231,27.5 L21.4615385,27.5 L21.4615385,22.5 L16.0769231,22.5 L16.0769231,27.5 Z M10.1538462,21.5 L15,21.5 L15,17 L10.1538462,17 L10.1538462,21.5 Z M22.5384615,33 L27.9230769,33 L27.9230769,28.5 L22.5384615,28.5 L22.5384615,33 Z M16.0769231,21.5 L21.4615385,21.5 L21.4615385,17 L16.0769231,17 L16.0769231,21.5 Z M29,33 L33.8461538,33 L33.8461538,28.5 L29,28.5 L29,33 Z M22.5384615,27.5 L27.9230769,27.5 L27.9230769,22.5 L22.5384615,22.5 L22.5384615,27.5 Z M16.6153846,14 L16.6153846,9.5 C16.6153846,9.36458333 16.5620994,9.24739583 16.4555288,9.1484375 C16.3489583,9.04947917 16.2227564,9 16.0769231,9 L15,9 C14.8541667,9 14.7279647,9.04947917 14.6213942,9.1484375 C14.5148237,9.24739583 14.4615385,9.36458333 14.4615385,9.5 L14.4615385,14 C14.4615385,14.1354167 14.5148237,14.2526042 14.6213942,14.3515625 C14.7279647,14.4505208 14.8541667,14.5 15,14.5 L16.0769231,14.5 C16.2227564,14.5 16.3489583,14.4505208 16.4555288,14.3515625 C16.5620994,14.2526042 16.6153846,14.1354167 16.6153846,14 Z M29,27.5 L33.8461538,27.5 L33.8461538,22.5 L29,22.5 L29,27.5 Z M22.5384615,21.5 L27.9230769,21.5 L27.9230769,17 L22.5384615,17 L22.5384615,21.5 Z M29,21.5 L33.8461538,21.5 L33.8461538,17 L29,17 L29,21.5 Z M29.5384615,14 L29.5384615,9.5 C29.5384615,9.36458333 29.4851763,9.24739583 29.3786058,9.1484375 C29.2720353,9.04947917 29.1458333,9 29,9 L27.9230769,9 C27.7772436,9 27.6510417,9.04947917 27.5444712,9.1484375 C27.4379006,9.24739583 27.3846154,9.36458333 27.3846154,9.5 L27.3846154,14 C27.3846154,14.1354167 27.4379006,14.2526042 27.5444712,14.3515625 C27.6510417,14.4505208 27.7772436,14.5 27.9230769,14.5 L29,14.5 C29.1458333,14.5 29.2720353,14.4505208 29.3786058,14.3515625 C29.4851763,14.2526042 29.5384615,14.1354167 29.5384615,14 Z M36,13 L36,33 C36,33.5416667 35.786859,34.0104167 35.3605769,34.40625 C34.9342949,34.8020833 34.4294872,35 33.8461538,35 L10.1538462,35 C9.57051282,35 9.06570513,34.8020833 8.63942308,34.40625 C8.21314103,34.0104167 8,33.5416667 8,33 L8,13 C8,12.4583333 8.21314103,11.9895833 8.63942308,11.59375 C9.06570513,11.1979167 9.57051282,11 10.1538462,11 L12.3076923,11 L12.3076923,9.5 C12.3076923,8.8125 12.5713141,8.22395833 13.0985577,7.734375 C13.6258013,7.24479167 14.2596154,7 15,7 L16.0769231,7 C16.8173077,7 17.4511218,7.24479167 17.9783654,7.734375 C18.505609,8.22395833 18.7692308,8.8125 18.7692308,9.5 L18.7692308,11 L25.2307692,11 L25.2307692,9.5 C25.2307692,8.8125 25.494391,8.22395833 26.0216346,7.734375 C26.5488782,7.24479167 27.1826923,7 27.9230769,7 L29,7 C29.7403846,7 30.3741987,7.24479167 30.9014423,7.734375 C31.4286859,8.22395833 31.6923077,8.8125 31.6923077,9.5 L31.6923077,11 L33.8461538,11 C34.4294872,11 34.9342949,11.1979167 35.3605769,11.59375 C35.786859,11.9895833 36,12.4583333 36,13 Z" fill="#000000"></path>
+					    </g>
+					</svg>
+				</button>
+				<button class="btn-round btn-timeline" data-show-content="timeline" title="Show timeline of snapshot dates" aria-label="Show timeline of snapshot dates">
+					<svg viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+					    <g>
+					        <circle cx="22" cy="22" r="21" stroke="#000000" stroke-width="2" fill="#FFFFFF"></circle>
+					        <path d="M22,36 C23.8925477,36 25.7042172,35.6320046 27.4350087,34.8960139 C29.1658001,34.1600231 30.6580012,33.1652224 31.9116118,31.9116118 C33.1652224,30.6580012 34.1600231,29.1658001 34.8960139,27.4350087 C35.6320046,25.7042172 36,23.8925477 36,22 C36,20.1074523 35.6320046,18.2957828 34.8960139,16.5649913 C34.1600231,14.8341999 33.1652224,13.3419988 31.9116118,12.0883882 C30.6580012,10.8347776 29.1658001,9.83997689 27.4350087,9.10398614 C25.7042172,8.36799538 23.8925477,8 22,8 C20.1074523,8 18.2957828,8.36799538 16.5649913,9.10398614 C14.8341999,9.83997689 13.3419988,10.8347776 12.0883882,12.0883882 C10.8347776,13.3419988 9.83997689,14.8341999 9.10398614,16.5649913 C8.36799538,18.2957828 8,20.1074523 8,22 C8,23.8925477 8.36799538,25.7042172 9.10398614,27.4350087 C9.83997689,29.1658001 10.8347776,30.6580012 12.0883882,31.9116118 C13.3419988,33.1652224 14.8341999,34.1600231 16.5649913,34.8960139 C18.2957828,35.6320046 20.1074523,36 22,36 Z M22,32.3604853 C20.123628,32.3604853 18.3887926,31.8994801 16.7954939,30.9774697 C15.2021953,30.0554593 13.9445407,28.7978047 13.0225303,27.2045061 C12.1005199,25.6112074 11.6395147,23.876372 11.6395147,22 C11.6395147,20.123628 12.1005199,18.3887926 13.0225303,16.7954939 C13.9445407,15.2021953 15.2021953,13.9445407 16.7954939,13.0225303 C18.3887926,12.1005199 20.123628,11.6395147 22,11.6395147 C23.876372,11.6395147 25.6112074,12.1005199 27.2045061,13.0225303 C28.7978047,13.9445407 30.0554593,15.2021953 30.9774697,16.7954939 C31.8994801,18.3887926 32.3604853,20.123628 32.3604853,22 C32.3604853,23.876372 31.8994801,25.6112074 30.9774697,27.2045061 C30.0554593,28.7978047 28.7978047,30.0554593 27.2045061,30.9774697 C25.6112074,31.8994801 23.876372,32.3604853 22,32.3604853 Z M20.1802426,29.2790295 L21.3934142,29.2790295 C21.5551704,29.2790295 21.6967071,29.2183709 21.8180243,29.0970537 C21.9393414,28.9757366 22,28.8341999 22,28.6724437 L22,22 L26.2461005,22 C26.4078567,22 26.5493934,21.9393414 26.6707106,21.8180243 C26.7920277,21.6967071 26.8526863,21.5551704 26.8526863,21.3934142 L26.8526863,20.1802426 C26.8526863,20.0184864 26.7920277,19.8769497 26.6707106,19.7556326 C26.5493934,19.6343154 26.4078567,19.5736568 26.2461005,19.5736568 L20.1802426,19.5736568 C20.0184864,19.5736568 19.8769497,19.6343154 19.7556326,19.7556326 C19.6343154,19.8769497 19.5736568,20.0184864 19.5736568,20.1802426 L19.5736568,28.6724437 C19.5736568,28.8341999 19.6343154,28.9757366 19.7556326,29.0970537 C19.8769497,29.2183709 20.0184864,29.2790295 20.1802426,29.2790295 Z" fill="#000000" transform="translate(22.000000, 22.000000) scale(1, -1) translate(-22.000000, -22.000000) "></path>
+					    </g>
+					</svg>
+				</button>
+                <button class="btn-round btn-previous" title="Previous snapshot of this webpage" aria-label="Previous snapshot of this webpage">
+					<svg viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+					    <g>
+					        <circle cx="22" cy="22" r="21" stroke="#000000" stroke-width="2" fill="#FFFFFF"></circle>
+					        <path d="M25.0843373,36 L29.5823293,36 C29.8821954,36 30.0789826,35.896921 30.1726908,35.6907631 C30.2663989,35.4846051 30.2008032,35.2690763 29.9759036,35.0441767 L16.9317269,22 L29.9759036,8.95582329 C30.2008032,8.73092369 30.2663989,8.51539491 30.1726908,8.30923695 C30.0789826,8.10307898 29.8821954,8 29.5823293,8 L25.0843373,8 C24.8406961,8 24.6251673,8.08433735 24.437751,8.25301205 L11.1967871,21.4939759 C11.0655957,21.643909 11,21.8125837 11,22 C11,22.1874163 11.0655957,22.356091 11.1967871,22.5060241 L24.437751,35.746988 C24.6251673,35.9156627 24.8406961,36 25.0843373,36 Z" fill="#000000" transform="translate(20.607016, 22.000000) scale(1, -1) translate(-20.607016, -22.000000) "></path>
+					    </g>
+					</svg>
+                </button>
+                <button class="btn-round btn-next" title="Next snapshot of this webpage" aria-label="Next snapshot of this webpage">
+					<svg viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+					    <g>
+					        <circle cx="22" cy="22" r="21" stroke="#000000" stroke-width="2" fill="#FFFFFF"></circle>
+					        <path d="M27.0843373,36 L31.5823293,36 C31.8821954,36 32.0789826,35.896921 32.1726908,35.6907631 C32.2663989,35.4846051 32.2008032,35.2690763 31.9759036,35.0441767 L18.9317269,22 L31.9759036,8.95582329 C32.2008032,8.73092369 32.2663989,8.51539491 32.1726908,8.30923695 C32.0789826,8.10307898 31.8821954,8 31.5823293,8 L27.0843373,8 C26.8406961,8 26.6251673,8.08433735 26.437751,8.25301205 L13.1967871,21.4939759 C13.0655957,21.643909 13,21.8125837 13,22 C13,22.1874163 13.0655957,22.356091 13.1967871,22.5060241 L26.437751,35.746988 C26.6251673,35.9156627 26.8406961,36 27.0843373,36 Z" fill="#000000" transform="translate(22.607016, 22.000000) scale(1, -1) rotate(-180.000000) translate(-22.607016, -22.000000) "></path>
+					    </g>
+					</svg>
+                </button>
+                <button class="btn-round btn-custom btn-earliest" title="Earliest snapshot of this webpage" aria-label="Earliest snapshot of this webpage">
+					<svg viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+					    <g>
+					        <circle cx="22" cy="22" r="21" stroke="#000000" stroke-width="2" fill="#FFFFFF"></circle>
+					        <path d="M14,24.3092369 L25.437751,35.746988 C25.6251673,35.9156627 25.8406961,36 26.0843373,36 L30.5823293,36 C30.8821954,36 31.0789826,35.896921 31.1726908,35.6907631 C31.2663989,35.4846051 31.2008032,35.2690763 30.9759036,35.0441767 L17.9317269,22 L30.9759036,8.95582329 C31.2008032,8.73092369 31.2663989,8.51539491 31.1726908,8.30923695 C31.0789826,8.10307898 30.8821954,8 30.5823293,8 L26.0843373,8 C25.8406961,8 25.6251673,8.08433735 25.437751,8.25301205 L14,19.6907631 L14,11.0006946 C14,10.4474692 13.5527519,10 13.0010434,10 L11.9989566,10 C11.4426603,10 11,10.4480262 11,11.0006946 L11,32.9993054 C11,33.5525308 11.4472481,34 11.9989566,34 L13.0010434,34 C13.5573397,34 14,33.5519738 14,32.9993054 L14,24.3092369 Z" fill="#000000"></path>
+					    </g>
+					</svg>
+                </button>
+                <button class="btn-round btn-custom btn-latest" title="Latest snapshot of this webpage" aria-label="Latest snapshot of this webpage">
+					<svg viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+					    <g>
+					        <circle cx="22" cy="22" r="21" stroke="#000000" stroke-width="2" fill="#FFFFFF"></circle>
+					        <path d="M29,19.4767305 L17.7762816,8.25301205 C17.5888653,8.08433735 17.3733365,8 17.1296953,8 L12.6317033,8 C12.3318372,8 12.13505,8.10307898 12.0413418,8.30923695 C11.9476337,8.51539491 12.0132294,8.73092369 12.238129,8.95582329 L25.2823057,22 L12.238129,35.0441767 C12.0132294,35.2690763 11.9476337,35.4846051 12.0413418,35.6907631 C12.13505,35.896921 12.3318372,36 12.6317033,36 L17.1296953,36 C17.3733365,36 17.5888653,35.9156627 17.7762816,35.746988 L29,24.5232695 L29,32.9993054 C29,33.5525308 29.4472481,34 29.9989566,34 L31.0010434,34 C31.5573397,34 32,33.5519738 32,32.9993054 L32,11.0006946 C32,10.4474692 31.5527519,10 31.0010434,10 L29.9989566,10 C29.4426603,10 29,10.4480262 29,11.0006946 L29,19.4767305 Z" fill="#000000"></path>
+					    </g>
+					</svg>
+                </button>
+            </div>
+            <div class="pull-left l-modal-date-footer">
+			  	<button class="link-live-page btn btn-default btn-xs btn-transparent pull-left">View the live webpage</button>
+			  	<button class="btn-more-snapshots btn btn-default btn-xs btn-transparent pull-right">More snapshots...</button>
+			</div>
+        </div>
+        <!--//.l-modal-date-content-->
+    </div>
+
+    <div id="bottomPanel" data-component="viewer/BottomPanel" data-childcomponents='["wbChart", "snapshotTimeline", "snapshotCalendar"]' class="l-panel-bottom">
+        <div class="l-panel-header">
+            <div>
+                <div class="row">
+                    <div class="col-sm-6 hidden-xs l-contributor">
+                        <button class="close btn-panel-bottom-close" aria-label="Close bottom panel"><span class="fas fa-chevron-up" aria-hidden="true"></span></button>
+
+                        <div class="ga-template" data-template-source="snapshotInfo">
+                        {{#agency}}
+                            <a href="{{url}}" class="contributor-logo" target="_blank"><img alt="{{name}}" src="{{logoUrl}}"></a>
+                            <p>This webpage was selected for preservation by the <a href="{{url}}" target="_blank">{{name}}<span class="far fa-external-link-alt"></span></a></p>
+                        {{/agency}} 
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 l-info-snapshot" data-template-source="snapshotInfo">
+                    	{{#date}}
+                    		<p>Webpage <strong>snapshot</strong> captured on <strong><span class="snapshot-date"><span class="day">{{date.day}}</span> <span class="month">{{date.month}}</span> <span class="year">{{date.year}}</span> <span class="time">{{date.time}}</span></span></strong>
+		                {{/date}}
+		                {{^date}}
+		                	<p>No matching snapshot found</p>
+		                {{/date}}
+		                <div class="form-inline">
+			                <div class="form-group">
+			                <label for="url">URL: </label>
+			                <input class="snapshot-url" value="{{url}}" id="url" name="url" readonly />
+			                </div>
+		                </div>
+                   	</div> <!-- .col -->
+                </div><!--.row-->
+            </div>
+        </div>
+    <div id="wbChart" data-component="viewer/Manhattan" onmouseout="">
+        <div id="wbChartThis">
+            <div class="wbCustomOverlay">
+            </div>
+            <a href="#" id="wm-graph-anchor" style="position:relative; white-space:nowrap; width:100%;height:50px;">
+            <div id="wm-ipp-sparkline" style="position:relative; white-space:nowrap; width:100%;height:50px;cursor:pointer;border: 1px solid #ccc;border-left:none;" title="Explore captures for this URL">
+                <img alt="sparklines" height="50" class="manhattanImage" id="sparklineImgId" src="/awa/graph?nomonth=1&graphdata=100_50_2000:-1:000000000000" style="position:absolute;z-index:9012;top:0;left:0;" width="100%">
+                <img alt="webpage snapshot coverage graph" height="75" id="wbMouseTrackYearImg" src="/images/wayback/C5C5C5-0.8.png" style="display: none; position: absolute; z-index: 9010; left: 539px;" width="49">
+            </div></a> <!-- custom container -->
+    
+            <div id="l-custom-chart" class="manhattan-link-container" style="float:left;width:100%;">
+            </div>
+            <!-- Custom container -->
+        </div>
+    </div>
+    <!-- //Wayback Manhattan graph -->
+    <div id="snapshotTimeline" data-component="viewer/Timeline" class="l-panel timeline">
+        <ol class="list-unstyled" data-template-source="normalisedSnapshots">
+            {{#snapshots}}
+            <li class="{{listClass}}">
+                <div class="label-date {{cssClass}}" id="snapshot{{index}}">
+                    <a href="{{url}}" data-snapshot-index="{{index}}">
+                        <span class="day">{{day}}</span>
+                        <span class="month">{{month}}</span>
+                        <span class="year">{{year}}</span>
+                        <span class="time">{{time}}</span>
+                    </a>
+                </div>
+            </li>
+            {{/snapshots}}
+        </ol>
+    </div>
+    <div id="snapshotCalendar" data-component="viewer/Calendar" data-params='["1999"]' class="l-panel l-calendar hide">
+        <h1 class="label-calendar-year"></h1>
+        <div id="wbCalendar">
+            <ul class="cal-legend">
+	            <li><span class="snapshot-ok"></span> Snapshot</li>
+	            <li><span class="snapshot-redirect"></span> Snapshot (redirect)</li>
+	            <li><span class="snapshot-error"></span> Snapshot (error)</li>
+	            <li><span class="snapshot-restricted"></span> Snapshot (restricted)</li>
+            </ul>
+            <div class="calPosition cal-under" id="calUnder"></div>
+            <div class="calPosition cal-over" id="calOver"></div>
+        </div>
+    </div>
+    </div>
+    <div id="l-trove-viewer" data-component="viewer/SnapshotViewer" data-childcomponents='["tabPanel"]'>
+    <div id="tabPanel" data-component="viewer/TabPanel" data-childcomponents='["tabRibbon", "tabContent"]' class="l-panel-side is-tab-content-hidden">
+    <div id="tabRibbon" data-component="viewer/TabRibbon" class="ribbon" role="tablist">
+        <ul class="list-unstyled" id="action-group-1">
+            <li role="presentation">
+                <button class="tb-action-link enabled" data-button-name="details" id="grp1Details" role="tab"><span class="fas fa-info-circle tb-action-icon" aria-hidden="true"></span> <span class="tb-action-label">Details</span></button>
+            </li>
+            <li role="presentation">
+                <button class="tb-action-link enabled" data-button-name="collections" id="grp1Collections" role="tab"><span class="fas fa-layer-group tb-action-icon" aria-hidden="true"></span> <span class="tb-action-label">Collections</span></button>
+            </li>
+        </ul>
+
+        <ul class="list-unstyled" id="action-group-2" role="tablist">
+            <li role="presentation">
+                <button class="tb-action-link enabled" data-button-name="cite" id="grp2Cite" role="tab"><span class="fas fa-bookmark tb-action-icon" aria-hidden="true"></span> <span class="tb-action-label">Cite</span></button>
+            </li>
+            <li role="presentation">
+                <button class="tb-action-link enabled hidden" data-button-name="metadata" id="grp2Metadata" role="tab"><span class="fas fa-code tb-action-icon" aria-hidden="true"></span> <span class="tb-action-label">Metadata</span></button>
+            </li>
+        </ul>
+    </div>
+    <!--.ribbon-->
+    <div id="tabContent" data-component="viewer/TabContent" class="tab-content">
+        <div class="l-panel-content l-panel-details" id="tab-details" data-template-source="details" role="tabpanel" aria-labelledby="grp1Details">
+            <h1>Details</h1>
+
+            <!--Details placeholder example structure and content- Dev reference-->
+		      <dl class="dl">
+		          <dt>Title</dt>
+		          <dd>{{title}}</dd>
+		      </dl>
+
+              {{#description}}
+		      <dl class="dl">
+		          <dt>Description</dt>
+		          <dd>{{description}}</dd>
+		      </dl>
+		      {{/description}}
+
+		      <dl class="dl">
+		          <dt>Date archived</dt>
+		          <dd>{{archiveDate}}</dd>
+		      </dl>
+
+              <dl class="dl">
+                  <dt>URL</dt>
+                  <dd class="panel-url">{{originalUrl}}</dd>
+              </dl>
+
+		      <dl class="dl">
+		          <dt>Related information</dt>
+
+		          {{#titles}}
+                  <dd>
+                  {{#bibUrl}}
+                  <a class="ga-bib" href="{{bibUrl}}">
+                  {{^moreThanOneTitle}}View catalogue record in Trove{{/moreThanOneTitle}}
+                  {{#moreThanOneTitle}}View catalogue record in Trove for <em>{{name}}</em>{{/moreThanOneTitle}}
+                  </a>
+                  {{/bibUrl}}
+                  </dd>
+                  {{/titles}}
+
+		          <!-- Link to open Other snapshot modal -->
+		          <dd>
+		          <a id="link-more-snapshots" href="#"  
+		           onClick='$("button.btn-more-snapshots")[0].click();'>
+		             More snapshots...</a>
+		          </dd>
+		      </dl>
+			  <!-- END Details placeholder example structure and content- Dev reference-->
+        </div>
+        <!--#tab-details-->
+
+		<div class="l-panel-content l-panel-collections" id="tab-collections" data-template-source="collections" role="tabpanel" aria-labelledby="grp1Collections">
+			<h1>Collections</h1>
+			
+			{{#no_collection}}
+        	<p>This snapshot is not part of a collection</p>
+			{{/no_collection}}
+			{{^no_collection}}
+			<p>This snapshot belongs to the following collections:<p>
+			{{/no_collection}}
+			
+			<!-- placeholder for developer to replace -->
+			{{#.}}
+			<ol class="list-unstyled list-inline breadcrumb-context" aria-label="breadcrumb">
+	            {{#breadcrumbs}}
+	            <li class="breadcrumb-panel"><a href="{{url}}">{{name}}</a></li>
+	            {{/breadcrumbs}}
+        	</ol>
+	        {{/.}}
+
+		</div>
+		<!--#tab-collections-->
+
+        <div class="l-panel-content l-panel-cite" id="tab-cite" role="tabpanel" aria-labelledby="grp2Cite">
+            <h1>
+                Cite
+            </h1>
+
+            <div data-template-source="citationMetadata">
+                <h4>APA citation</h4>
+                {{#creator}}
+                <p>{{creator}}.  ({{publicationDate}}).  <i>{{title}}</i>.  Retrieved {{archiveDate}}, from {{archiveUrl}}</p>
+                {{/creator}}
+                {{^creator}}
+                <p><i>{{title}}</i>.  ({{publicationDate}}).  Retrieved {{archiveDate}}, from {{archiveUrl}}</p>
+                {{/creator}}
+
+                <h4>MLA citation</h4>
+                <p>{{#creator}}{{creator}}.{{/creator}} {{#publisher}}{{publisher}}.{{/publisher}} {{#publicationDate}}{{publicationDate}}{{/publicationDate}} <i>{{title}}</i> {{archiveUrl}}</p>
+
+                <h4>Harvard citation</h4>
+                <p>{{#creator}}{{creator}}{{/creator}} {{#publicationYear}}{{publicationYear}},{{/publicationYear}} <i>{{title}}</i>, {{#publisher}}{{publisher}},{{/publisher}} accessed {{accessDateHarvard}}, <{{archiveUrl}}></p>
+
+                <h4>Wikipedia citation</h4>
+
+                {{=[[ ]]=}}
+
+                <p>{{cite web
+                | url=<span class="cite-item-level">[[originalUrl]]</span><br/>
+                | title=[[title]] <br />
+                | author=[[creator]] <br />
+                | website=[[title]] <br />
+                | publisher=[[publisher]] <br />
+                | publication-date=[[publicationDate]] <br />
+                | via=National Library of Australia
+                [[#isbn]]| isbn=[[isbn]][[/isbn]]
+                | archiveurl=<span class="cite-item-level">[[archiveUrl]]</span><br/>
+                | archive-date=[[archiveDate]] <br />
+                | access-date=[[accessDate]]}}
+                </p>
+
+                [[={{ }}=]]
+
+                <h4>EndNote XML</h4>
+                <p>
+                    <pre>
+&lt;?xml version=1.0" encoding="UTF-8"/&gt;
+&lt;xml&gt;
+  &lt;records&gt;
+    &lt;record&gt;
+      &lt;ref-type/&gt;webpage&lt;/ref-type/&gt;
+      &lt;titles&gt;
+        &lt;title&gt;{{title}}&lt;/title&gt;
+      &lt;/titles&gt;
+      {{#creator}}
+      &lt;contributors&gt;
+        &lt;authors&gt;
+          &lt;author&gt;{{creator}}&lt;/author&gt;
+       &lt;/authors&gt;
+      &lt;/contributors&gt;
+      {{/creator}}
+      {{#publisher}}
+      &lt;publisher&gt;{{publisher}}&lt;/publisher&gt;
+      {{/publisher}}
+      &lt;urls&gt;
+        &lt;archived-urls&gt;
+          &lt;url&gt;{{archiveUrl}}&lt;/url&gt;
+        &lt;/archived-urls&gt;
+      &lt;/urls&gt;
+      &lt;dates&gt;
+        &lt;year&gt;{{publicationYear}}&lt;/year&gt;
+        &lt;accessed-date&gt;
+          &lt;day&gt;{{accessDay}}&lt;/day&gt;
+          &lt;month&gt;{{accessMonth}}&lt;/month&gt;
+          &lt;year&gt;{{accessYear}}&lt;/year&gt;
+        &lt;/accessed-date&gt;
+      &lt;/dates&gt;
+    &lt;/record&gt;
+  &lt;/records&gt;
+&lt;/xml&gt;
+                    </pre>
+                </p>
+
+                <h4>BibTeX</h4>
+                <p>
+                <pre>
+@COMMENT { BibTex package created by Trove, National Library of Australia https://trove.nla.gov.au }
+@Misc{ {{archiveUrl}},
+title = { {{title}} },{{#creator}}
+author = { {{creator}} },{{/creator}}{{#publisher}}
+publisher = { {{publisher}} },{{/publisher}}
+year = { {{publicationYear}} },
+howpublished = { Web Page },
+url = { {{archiveUrl}} },
+urldate = { {{accessYear}}-{{accessMonthShort}}-{{accessDay}} }
+archiveddate = { {{publicationYear}}-{{publicationMonthShort}}-{{publicationDay}} }
+}
+                    </pre>
+                </p>
+            </div>
+
+            <p>Citations are automatically generated and may require some modification to conform to exact standards.</p>
+        </div>
+
+        <div class="l-panel-content l-panel-metadata" id="tab-metadata" role="tabpanel" aria-labelledby="grp2Metadata">
+            <h1>
+                Metadata
+            </h1>
+
+            <div data-template-source="details">
+            {{#contentMetaTags}}
+                <dl class="dl">
+                    <dt>{{originalName}}{{#scheme}} - {{originalScheme}}{{/scheme}}</dt>
+                    <dd>{{contentParsed}}</dd>
+                </dl>
+            {{/contentMetaTags}}
+            </div>
+        </div>
+        <!--#tab-metadata-->
+
+    </div>
+    <!--.tab-content-->
+    </div>
+
+        <div class="snapshot-viewer-panel is-faded">
+            <iframe id="replayFrame" title="Archived webpage snapshot" name="replayFrame" src=""></iframe>
+        </div>
+
+        <div class="download-panel" data-template-source="downloadInfo">
+            <h1><i class="fa fa-download" aria-hidden="true"></i> Downloading file</h1>
+            <p>No browser based viewer for this file type is available (<strong>{{snapshot.mimetype}}</strong>).</p>
+			<p>Downloading file.</p>
+        </div>
+
+        <div class="error-panel" data-template-source="error">
+            <h1><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> {{ header }}</h1>
+            <h3>{{ title }}</h3>
+            <p>{{ message }}</p>
+        </div>
+
+        <div class="not-found-panel" style="display: none;">
+            <h1><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Webpage snapshot not found</h1>
+            <p>It looks like we don’t have this webpage snapshot. The following links may be of assistance:</p>
+            <ul style="margin-bottom:0px" data-template-source="notFound">
+            	{{#fileNameSearch}}<li><a href="{{fileNameSearch}}">Search for this filename {{fileName}}</a></li>{{/fileNameSearch}}
+            	{{#fileTypeSearch}}<li><a href="{{fileTypeSearch}}">See all archived {{displayName}} files</a> from the {{domain}} site</li>{{/fileTypeSearch}}
+            	{{#previousUrl}}<li><a id=previousSnapshotLink href="{{previousUrl}}">Check other snapshot dates</a> for the last webpage you were on</li>{{/previousUrl}}
+            	{{#liveUrl}}<li><a href="{{liveUrl}}">View the live site</a>, if it still exists</li>{{/liveUrl}}
+            </ul>
+            <ul data-template-source="iaNotFound">
+                {{#internetArchiveUrl}}<li>View this webpage snapshot at the <a href="{{internetArchiveUrl}}">Internet Archive Wayback Machine</a></li>{{/internetArchiveUrl}}
+            </ul>
+        </div>
+
+        <div class="restricted-panel" data-template-source="restriction">
+        	<h1><span class="fa fa-lock" aria-hidden="true"></span> Access restricted</h1>
+        	<p>
+        	{{#restrictionDate}}
+        	Freely available from {{restrictionDate}}
+        	{{/restrictionDate}}
+        	{{^restrictionDate}}
+        	We're sorry, we are required to restict access to this page indefinitely
+        	{{/restrictionDate}}
+        	</p>
+
+        	<p>{{restrictionMessage}}</p>
+
+        	<a href="https://trove.nla.gov.au/help/categories/websites-category#restricted-content">Why will some webpages become available in the future?</a>
+        </div>
+    </div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,243 @@
+council_key,year_start,source_council,panel_council,raw_operating_ratio,normalized_operating_ratio,panel_operating_ratio,difference_pp,source_url,sheet,excel_cell
+balranald,2019,Balranald ,Balranald,-2.65,-2.65,-2.65,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2019-2020.xlsx,Councils,AA7
+balranald,2020,Balranald ,Balranald,6.35,6.35,6.35,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA7
+balranald,2021,Balranald ,Balranald,11.99,11.99,11.99,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA7
+balranald,2022,Balranald ,Balranald,20.61,20.61,20.61,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA7
+balranald,2023,Balranald ,Balranald,0.0106,1.06,1.06,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA7
+bathurst,2021,Bathurst Regional,Bathurst Regional,-20.8,-20.8,-20.8,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA8
+bathurst,2022,Bathurst Regional,Bathurst Regional,-19.94,-19.94,-19.94,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA8
+bathurst,2023,Bathurst Regional,Bathurst Regional,-0.085,-8.5,-8.5,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA8
+bellingen,2019,Bellingen ,Bellingen,-2.8,-2.8,-2.8,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2019-2020.xlsx,Councils,AA11
+bellingen,2020,Bellingen ,Bellingen,-1.99,-1.99,-1.99,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA11
+bellingen,2021,Bellingen ,Bellingen,8.77,8.77,8.77,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA11
+bellingen,2022,Bellingen ,Bellingen,10.7,10.7,10.7,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA11
+bland,2021,Bland ,Bland,17.02,17.02,17.02,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA14
+bland,2022,Bland ,Bland,2.27,2.27,2.27,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA14
+bland,2023,Bland ,Bland,0.3071,30.709999999999997,30.71,-3.552713678800501e-15,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA14
+bluemountains,2021,Blue Mountains ,Blue Mountains,5.15,5.15,5.15,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA16
+bluemountains,2022,Blue Mountains ,Blue Mountains,-5.7,-5.7,-5.7,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA16
+bluemountains,2023,Blue Mountains ,Blue Mountains,-0.0719,-7.19,-7.19,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA16
+bogan,2019,Bogan ,Bogan,-3.81,-3.81,-3.81,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2019-2020.xlsx,Councils,AA17
+bogan,2020,Bogan ,Bogan,2.71,2.71,2.71,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA17
+bogan,2021,Bogan ,Bogan,7.79,7.79,7.79,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA17
+bogan,2022,Bogan ,Bogan,15.37,15.37,15.37,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA17
+bourke,2020,Bourke ,Bourke,4.71,4.71,4.71,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA18
+bourke,2021,Bourke ,Bourke,0.14,0.14,0.14,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA18
+bourke,2022,Bourke ,Bourke,16.82,16.82,16.82,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA18
+brewarrina,2019,Brewarrina ,Brewarrina,28.4,28.4,28.4,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2019-2020.xlsx,Councils,AA19
+brewarrina,2020,Brewarrina ,Brewarrina,3.74,3.74,3.74,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA19
+brewarrina,2021,Brewarrina ,Brewarrina,6.74,6.74,6.74,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA19
+brewarrina,2022,Brewarrina ,Brewarrina,17.93,17.93,17.93,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA19
+brokenhill,2019,Broken Hill ,Broken Hill,-20.38,-20.38,-20.38,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2019-2020.xlsx,Councils,AA20
+brokenhill,2020,Broken Hill ,Broken Hill,-3.62,-3.62,-3.62,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA20
+brokenhill,2021,Broken Hill ,Broken Hill,1.77,1.77,1.77,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA20
+brokenhill,2022,Broken Hill ,Broken Hill,10.72,10.72,10.72,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA20
+burwood,2021,Burwood,Burwood,-7.22,-7.22,-7.22,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA21
+burwood,2022,Burwood,Burwood,-4.26,-4.26,-4.26,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA21
+burwood,2023,Burwood,Burwood,0.0291,2.91,2.91,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA21
+byron,2020,Byron ,Byron,-7.15,-7.15,-7.15,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA22
+byron,2021,Byron ,Byron,-5.41,-5.41,-5.41,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA22
+byron,2022,Byron ,Byron,4.37,4.37,4.37,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA22
+cabonne,2020,Cabonne,Cabonne,-18.0,-18.0,-18.0,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA23
+cabonne,2021,Cabonne,Cabonne,-10.44,-10.44,-10.44,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA23
+cabonne,2022,Cabonne,Cabonne,-4.54,-4.54,-4.54,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA23
+cabonne,2023,Cabonne,Cabonne,-0.23550000000000001,-23.55,-23.55,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA23
+camden,2020,Camden,Camden,-25.33,-25.33,-25.33,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA24
+camden,2021,Camden,Camden,-9.66,-9.66,-9.66,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA24
+camden,2022,Camden,Camden,-7.63,-7.63,-7.63,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA24
+carrathool,2019,Carrathool ,Carrathool,13.52,13.52,13.52,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2019-2020.xlsx,Councils,AA28
+carrathool,2020,Carrathool ,Carrathool,-5.84,-5.84,-5.84,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA28
+carrathool,2021,Carrathool ,Carrathool,23.98,23.98,23.98,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA28
+carrathool,2022,Carrathool ,Carrathool,26.35,26.35,26.35,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA28
+centralcoast,2019,Central Coast,Central Coast,-15.9,-15.9,-15.9,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2019-2020.xlsx,Councils,AA29
+centralcoast,2020,Central Coast,Central Coast,-10.26,-10.26,-10.26,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA29
+centralcoast,2021,Central Coast,Central Coast,7.73,7.73,7.73,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA29
+centralcoast,2022,Central Coast,Central Coast,6.19,6.19,6.19,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA29
+centraldarling,2020,Central Darling ,Central Darling,-0.4,-0.4,-0.4,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA30
+centraldarling,2021,Central Darling ,Central Darling,7.01,7.01,7.01,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA30
+centraldarling,2022,Central Darling ,Central Darling,15.4,15.4,15.4,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA30
+cessnock,2020,Cessnock ,Cessnock,-5.19,-5.19,-5.19,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA31
+cessnock,2021,Cessnock ,Cessnock,3.42,3.42,3.42,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA31
+cessnock,2022,Cessnock ,Cessnock,-18.55,-18.55,-18.55,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA31
+clarencevalley,2021,Clarence Valley,Clarence Valley,0.15,0.15,0.15,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA32
+clarencevalley,2022,Clarence Valley,Clarence Valley,-5.64,-5.64,-5.64,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA32
+clarencevalley,2023,Clarence Valley,Clarence Valley,-0.1213,-12.13,-12.13,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA32
+coonamble,2019,Coonamble ,Coonamble,-12.2,-12.2,-12.2,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2019-2020.xlsx,Councils,AA36
+coonamble,2020,Coonamble ,Coonamble,7.5,7.5,7.5,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA36
+coonamble,2021,Coonamble ,Coonamble,13.33,13.33,13.33,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA36
+cootamundragundagai,2019,Cootamundra-Gundagai Regional,Cootamundra-Gundagai Regional,-19.5,-19.5,-19.5,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2019-2020.xlsx,Councils,AA37
+cootamundragundagai,2020,Cootamundra-Gundagai Regional,Cootamundra-Gundagai Regional,-15.31,-15.31,-15.31,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA37
+cootamundragundagai,2021,Cootamundra-Gundagai Regional,Cootamundra-Gundagai Regional,-4.98,-4.98,-4.98,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA37
+dungog,2019,Dungog ,Dungog,-13.55,-13.55,-13.55,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2019-2020.xlsx,Councils,AA41
+dungog,2020,Dungog ,Dungog,-13.91,-13.91,-13.91,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA41
+dungog,2021,Dungog ,Dungog,-23.44,-23.44,-23.44,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA41
+dungog,2022,Dungog ,Dungog,-25.16,-25.16,-25.16,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA41
+edwardriver,2021,Edward River,Edward River,10.97,10.97,10.97,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA42
+edwardriver,2022,Edward River,Edward River,2.76,2.76,2.76,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA42
+edwardriver,2023,Edward River,Edward River,0.2768,27.68,27.68,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA42
+federation,2019,Federation,Federation,-10.35,-10.35,-10.35,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2019-2020.xlsx,Councils,AA45
+federation,2020,Federation,Federation,-6.35,-6.35,-6.35,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA45
+federation,2021,Federation,Federation,-0.03,-0.03,-0.03,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA45
+federation,2022,Federation,Federation,-3.98,-3.98,-3.98,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA45
+federation,2023,Federation,Federation,0.16449999999999998,16.45,16.45,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA45
+forbes,2020,Forbes ,Forbes,-13.87,-13.87,-13.87,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA46
+forbes,2021,Forbes ,Forbes,-9.85,-9.85,-9.85,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA46
+forbes,2022,Forbes ,Forbes,-1.73,-1.73,-1.73,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA46
+georgesriver,2020,Georges River,Georges River,-3.75,-3.75,-3.75,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA47
+georgesriver,2021,Georges River,Georges River,-1.8,-1.8,-1.8,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA47
+georgesriver,2022,Georges River,Georges River,7.6,7.6,7.6,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA47
+gleninnessevern,2021,Glen Innes Severn,Glen Innes Severn,1.23,1.23,1.23,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA49
+gleninnessevern,2022,Glen Innes Severn,Glen Innes Severn,,,,,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA49
+gleninnessevern,2023,Glen Innes Severn,Glen Innes Severn,-0.1116,-11.16,-11.16,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA49
+goulburnmulwaree,2021,Goulburn Mulwaree,Goulburn Mulwaree,6.16,6.16,6.16,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA50
+goulburnmulwaree,2022,Goulburn Mulwaree,Goulburn Mulwaree,1.17,1.17,1.17,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA50
+goulburnmulwaree,2023,Goulburn Mulwaree,Goulburn Mulwaree,-0.0449,-4.49,-4.49,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA50
+greaterhume,2019,Greater Hume ,Greater Hume,-10.51,-10.51,-10.51,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2019-2020.xlsx,Councils,AA51
+greaterhume,2020,Greater Hume ,Greater Hume,0.04,0.04,0.04,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA51
+greaterhume,2021,Greater Hume ,Greater Hume,-0.41,-0.41,-0.41,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA51
+gwydir,2019,Gwydir ,Gwydir,-4.11,-4.11,-4.11,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2019-2020.xlsx,Councils,AA54
+gwydir,2020,Gwydir ,Gwydir,-3.67,-3.67,-3.67,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA54
+gwydir,2021,Gwydir ,Gwydir,-15.15,-15.15,-15.15,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA54
+gwydir,2022,Gwydir ,Gwydir,-7.48,-7.48,-7.48,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA54
+gwydir,2023,Gwydir ,Gwydir,-0.0091,-0.91,-0.91,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA54
+hawkesbury,2020,Hawkesbury ,Hawkesbury,-5.13,-5.13,-5.13,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA55
+hawkesbury,2021,Hawkesbury ,Hawkesbury,10.52,10.52,10.52,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA55
+hawkesbury,2022,Hawkesbury ,Hawkesbury,14.06,14.06,14.06,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA55
+hay,2019,Hay ,Hay,-7.92,-7.92,-7.92,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2019-2020.xlsx,Councils,AA56
+hay,2020,Hay ,Hay,-0.16,-0.16,-0.16,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA56
+hay,2021,Hay ,Hay,12.89,12.89,12.89,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA56
+hilltops,2019,Hilltops,Hilltops,-21.4,-21.4,-21.4,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2019-2020.xlsx,Councils,AA58
+hilltops,2020,Hilltops,Hilltops,-9.12,-9.12,-9.12,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA58
+hilltops,2021,Hilltops,Hilltops,5.24,5.24,5.24,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA58
+hilltops,2022,Hilltops,Hilltops,-7.28,-7.28,-7.28,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA57
+hilltops,2023,Hilltops,Hilltops,-0.0942,-9.42,-9.42,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA57
+huntershill,2019,Hunters Hill ,Hunters Hill,3.42,3.42,3.42,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2019-2020.xlsx,Councils,AA60
+huntershill,2020,Hunters Hill ,Hunters Hill,-12.43,-12.43,-12.43,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA60
+huntershill,2021,Hunters Hill ,Hunters Hill,-12.99,-12.99,-12.99,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA60
+junee,2020,Junee ,Junee,-3.33,-3.33,-3.33,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA63
+junee,2021,Junee ,Junee,9.3,9.3,9.3,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA63
+junee,2022,Junee ,Junee,11.0,11.0,11.0,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA62
+kyogle,2019,Kyogle,Kyogle,11.88,11.88,11.88,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2019-2020.xlsx,Councils,AA67
+kyogle,2020,Kyogle,Kyogle,7.05,7.05,7.05,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA67
+kyogle,2021,Kyogle,Kyogle,28.9,28.9,28.9,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA67
+kyogle,2022,Kyogle,Kyogle,14.26,14.26,14.26,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA66
+kyogle,2023,Kyogle,Kyogle,0.1499,14.99,14.99,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA66
+leeton,2020,Leeton ,Leeton,-13.88,-13.88,-13.88,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA71
+leeton,2021,Leeton ,Leeton,0.12,0.12,0.12,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA71
+leeton,2022,Leeton ,Leeton,3.82,3.82,3.82,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA70
+lithgow,2020,Lithgow ,Lithgow,-2.19,-2.19,-2.19,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA73
+lithgow,2021,Lithgow ,Lithgow,4.91,4.91,4.91,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA73
+lithgow,2022,Lithgow ,Lithgow,20.89,20.89,20.89,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA72
+liverpoolplains,2019,Liverpool Plains ,Liverpool Plains,-35.28,-35.28,-35.28,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2019-2020.xlsx,Councils,AA75
+liverpoolplains,2020,Liverpool Plains ,Liverpool Plains,-33.87,-33.87,-33.87,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA75
+liverpoolplains,2021,Liverpool Plains ,Liverpool Plains,-19.42,-19.42,-19.42,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA75
+liverpoolplains,2022,Liverpool Plains ,Liverpool Plains,-4.24,-4.24,-4.24,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA74
+liverpoolplains,2023,Liverpool Plains ,Liverpool Plains,-0.0801,-8.01,-8.01,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA74
+lockhart,2021,Lockhart ,Lockhart,2.64,2.64,2.64,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA76
+lockhart,2022,Lockhart ,Lockhart,11.7,11.7,11.7,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA75
+lockhart,2023,Lockhart ,Lockhart,-0.1697,-16.97,-16.97,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA75
+maitland,2021,Maitland ,Maitland,3.2,3.2,3.2,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA77
+maitland,2022,Maitland ,Maitland,-2.37,-2.37,-2.37,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA76
+maitland,2023,Maitland ,Maitland,-0.1492,-14.92,-14.92,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA76
+moreeplains,2021,Moree Plains ,Moree Plains,-6.37,-6.37,-6.37,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA80
+moreeplains,2022,Moree Plains ,Moree Plains,2.32,2.32,2.32,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA79
+moreeplains,2023,Moree Plains ,Moree Plains,0.059500000000000004,5.95,5.95,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA79
+murrayriver,2019,Murray River,Murray River,-14.23,-14.23,-14.23,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2019-2020.xlsx,Councils,AA82
+murrayriver,2020,Murray River,Murray River,-11.51,-11.51,-11.51,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA82
+murrayriver,2021,Murray River,Murray River,-31.18,-31.18,-31.18,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA82
+murrayriver,2022,Murray River,Murray River,-25.9,-25.9,-25.9,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA81
+murrayriver,2023,Murray River,Murray River,-0.0707,-7.07,-7.07,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA81
+murrumbidgee,2019,Murrumbidgee,Murrumbidgee,-9.13,-9.13,-9.13,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2019-2020.xlsx,Councils,AA83
+murrumbidgee,2020,Murrumbidgee,Murrumbidgee,-10.86,-10.86,-10.86,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA83
+murrumbidgee,2021,Murrumbidgee,Murrumbidgee,1.63,1.63,1.63,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA83
+murrumbidgee,2022,Murrumbidgee,Murrumbidgee,4.65,4.65,4.65,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA82
+murrumbidgee,2023,Murrumbidgee,Murrumbidgee,-0.13390000000000002,-13.390000000000002,-13.390000000000002,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA82
+muswellbrook,2021,Muswellbrook ,Muswellbrook,8.34,8.34,8.34,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA84
+muswellbrook,2022,Muswellbrook ,Muswellbrook,9.48,9.48,9.48,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA83
+muswellbrook,2023,Muswellbrook ,Muswellbrook,0.2018,20.18,20.18,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA83
+nambuccavalley,2020,Nambucca Valley,Nambucca Valley,-5.47,-5.47,-5.47,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA85
+nambuccavalley,2021,Nambucca Valley,Nambucca Valley,0.74,0.74,0.74,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA85
+nambuccavalley,2022,Nambucca Valley,Nambucca Valley,5.88,5.88,5.88,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA84
+narrandera,2021,Narrandera ,Narrandera,0.28,0.28,0.28,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA87
+narrandera,2022,Narrandera ,Narrandera,15.77,15.77,15.77,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA86
+narrandera,2023,Narrandera ,Narrandera,0.16140000000000002,16.14,16.14,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA86
+narromine,2021,Narromine ,Narromine,-6.42,-6.42,-6.42,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA88
+narromine,2022,Narromine ,Narromine,1.79,1.79,1.79,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA87
+narromine,2023,Narromine ,Narromine,-0.22649999999999998,-22.65,-22.65,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA87
+newcastle,2020,Newcastle ,Newcastle,-8.11,-8.11,-8.11,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA89
+newcastle,2021,Newcastle ,Newcastle,-0.64,-0.64,-0.64,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA89
+newcastle,2022,Newcastle ,Newcastle,3.69,3.69,3.69,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA88
+northernbeaches,2020,Northern Beaches,Northern Beaches,-7.32,-7.32,-7.32,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA91
+northernbeaches,2021,Northern Beaches,Northern Beaches,4.53,4.53,4.53,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA91
+northernbeaches,2022,Northern Beaches,Northern Beaches,4.46,4.46,4.46,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA90
+northsydney,2019,North Sydney,North Sydney,-6.76,-6.76,-6.76,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2019-2020.xlsx,Councils,AA90
+northsydney,2020,North Sydney,North Sydney,1.38,1.38,1.38,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA90
+northsydney,2021,North Sydney,North Sydney,4.15,4.15,4.15,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA90
+parramatta,2021,Parramatta,Parramatta,1.78,1.78,1.78,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA95
+parramatta,2022,Parramatta,Parramatta,-0.09,-0.09,-0.09,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA94
+parramatta,2023,Parramatta,Parramatta,0.12359999999999999,12.36,12.36,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA94
+portmacquariehastings,2019,Port Macquarie-Hastings,Port Macquarie-Hastings,3.45,3.45,3.45,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2019-2020.xlsx,Councils,AA97
+portmacquariehastings,2020,Port Macquarie-Hastings,Port Macquarie-Hastings,3.99,3.99,3.99,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA97
+portmacquariehastings,2021,Port Macquarie-Hastings,Port Macquarie-Hastings,14.47,14.47,14.47,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA97
+portmacquariehastings,2022,Port Macquarie-Hastings,Port Macquarie-Hastings,4.04,4.04,4.04,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA96
+portmacquariehastings,2023,Port Macquarie-Hastings,Port Macquarie-Hastings,0.0409,4.09,4.09,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA96
+randwick,2020,Randwick ,Randwick,3.07,3.07,3.07,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA100
+randwick,2021,Randwick ,Randwick,5.57,5.57,5.57,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA100
+randwick,2022,Randwick ,Randwick,7.48,7.48,7.48,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA99
+richmondvalley,2021,Richmond Valley,Richmond Valley,-2.8,-2.8,-2.8,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA101
+richmondvalley,2022,Richmond Valley,Richmond Valley,4.94,4.94,4.94,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA100
+richmondvalley,2023,Richmond Valley,Richmond Valley,-0.1663,-16.63,-16.63,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA100
+shellharbour,2020,Shellharbour ,Shellharbour,14.3,14.3,14.3,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA103
+shellharbour,2021,Shellharbour ,Shellharbour,16.64,16.64,16.64,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA103
+shellharbour,2022,Shellharbour ,Shellharbour,2.25,2.25,2.25,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA102
+shellharbour,2023,Shellharbour ,Shellharbour,-0.033,-3.3000000000000003,-3.3000000000000003,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA102
+snowymonaro,2020,Snowy Monaro Regional,Snowy Monaro Regional,-30.27,-30.27,-30.27,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA106
+snowymonaro,2021,Snowy Monaro Regional,Snowy Monaro Regional,-0.34,-0.34,-0.34,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA106
+snowymonaro,2022,Snowy Monaro Regional,Snowy Monaro Regional,-2.15,-2.15,-2.15,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA105
+snowyvalleys,2021,Snowy Valleys,Snowy Valleys,-3.88,-3.88,-3.88,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA107
+snowyvalleys,2022,Snowy Valleys,Snowy Valleys,-0.47,-0.47,-0.47,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA106
+snowyvalleys,2023,Snowy Valleys,Snowy Valleys,0.0672,6.72,6.72,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA106
+tenterfield,2019,Tenterfield ,Tenterfield,1.14,1.14,1.14,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2019-2020.xlsx,Councils,AA113
+tenterfield,2020,Tenterfield ,Tenterfield,1.12,1.12,1.12,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA113
+tenterfield,2021,Tenterfield ,Tenterfield,12.76,12.76,12.76,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA113
+tenterfield,2022,Tenterfield ,Tenterfield,16.55,16.55,16.55,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA112
+tenterfield,2023,Tenterfield ,Tenterfield,0.30269999999999997,30.269999999999996,30.27,-3.552713678800501e-15,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA112
+upperhunter,2019,Upper Hunter ,Upper Hunter,-9.5,-9.5,-9.5,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2019-2020.xlsx,Councils,AA115
+upperhunter,2020,Upper Hunter ,Upper Hunter,-11.54,-11.54,-11.54,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA115
+upperhunter,2021,Upper Hunter ,Upper Hunter,-20.21,-20.21,-20.21,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA115
+upperlachlan,2020,Upper Lachlan ,Upper Lachlan,-8.64,-8.64,-8.64,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA116
+upperlachlan,2021,Upper Lachlan ,Upper Lachlan,-4.58,-4.58,-4.58,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA116
+upperlachlan,2022,Upper Lachlan ,Upper Lachlan,3.82,3.82,3.82,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA116
+uralla,2021,Uralla ,Uralla,-3.0,-3.0,-3.0,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA117
+uralla,2022,Uralla ,Uralla,-1.04,-1.04,-1.04,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA117
+uralla,2023,Uralla ,Uralla,0.08960000000000001,8.96,8.96,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA117
+walcha,2020,Walcha,Walcha,-3.17,-3.17,-3.17,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA119
+walcha,2021,Walcha,Walcha,1.69,1.69,1.69,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA119
+walcha,2022,Walcha,Walcha,7.65,7.65,7.65,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA119
+walcha,2023,Walcha,Walcha,0.17629999999999998,17.63,17.63,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA119
+walgett,2020,Walgett ,Walgett,-1.82,-1.82,-1.82,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA120
+walgett,2021,Walgett ,Walgett,0.0,0.0,0.0,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA120
+walgett,2022,Walgett ,Walgett,17.0,17.0,17.0,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA120
+warren,2019,Warren ,Warren,22.46,22.46,22.46,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2019-2020.xlsx,Councils,AA121
+warren,2020,Warren ,Warren,32.79,32.79,32.79,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA121
+warren,2021,Warren ,Warren,27.11,27.11,27.11,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA121
+warrumbungle,2019,Warrumbungle ,Warrumbungle,-5.59,-5.59,-5.59,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2019-2020.xlsx,Councils,AA122
+warrumbungle,2020,Warrumbungle ,Warrumbungle,0.43,0.43,0.43,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA122
+warrumbungle,2021,Warrumbungle ,Warrumbungle,6.11,6.11,6.11,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA122
+warrumbungle,2022,Warrumbungle ,Warrumbungle,18.48,18.48,18.48,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA122
+weddin,2020,Weddin ,Weddin,-0.25,-0.25,-0.25,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA124
+weddin,2021,Weddin ,Weddin,-7.05,-7.05,-7.05,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA124
+weddin,2022,Weddin ,Weddin,14.03,14.03,14.03,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA124
+wentworth,2019,Wentworth ,Wentworth,-2.25,-2.25,-2.25,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2019-2020.xlsx,Councils,AA125
+wentworth,2020,Wentworth ,Wentworth,3.15,3.15,3.15,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA125
+wentworth,2021,Wentworth ,Wentworth,8.66,8.66,8.66,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA125
+wollongong,2021,Wollongong ,Wollongong,4.89,4.89,4.89,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA129
+wollongong,2022,Wollongong ,Wollongong,-1.11,-1.11,-1.11,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA129
+wollongong,2023,Wollongong ,Wollongong,-0.1539,-15.39,-15.39,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA129
+woollahra,2020,Woollahra ,Woollahra,-15.12,-15.12,-15.12,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx,Councils,AA130
+woollahra,2021,Woollahra ,Woollahra,-4.58,-4.58,-4.58,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA130
+woollahra,2022,Woollahra ,Woollahra,3.64,3.64,3.64,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA130
+woollahra,2023,Woollahra ,Woollahra,0.054400000000000004,5.44,5.44,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA130
+yassvalley,2021,Yass Valley,Yass Valley,3.76,3.76,3.76,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx,Councils,AA131
+yassvalley,2022,Yass Valley,Yass Valley,-2.72,-2.72,-2.72,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx,Councils,AA131
+yassvalley,2023,Yass Valley,Yass Valley,-0.0712,-7.12,-7.12,0.0,https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx,Councils ,AA131

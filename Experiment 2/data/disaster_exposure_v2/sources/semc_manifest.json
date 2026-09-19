@@ -1,0 +1,23 @@
+[
+  {
+    "year": 2013,
+    "url": "https://wayback.archive-it.org/22771/20240423201346/https://www.opengov.nsw.gov.au/download/14943",
+    "status": 200,
+    "file": "sources/semc_2013.pdf",
+    "sha256": "4e308909cb0832c962168334bd068f605f3ff98b8aa8aa2d10e5c93aaa134739"
+  },
+  {
+    "year": 2014,
+    "url": "https://wayback.archive-it.org/22771/20240423201346/https://www.opengov.nsw.gov.au/download/19364",
+    "status": 200,
+    "file": "sources/semc_2014.pdf",
+    "sha256": "de1c000600bbd1c51536f38bc60d3b556452b50bdbc48299d4bfe1a73a40dae3"
+  },
+  {
+    "year": 2016,
+    "url": "https://wayback.archive-it.org/22771/20240423201346/https://www.opengov.nsw.gov.au/download/19365",
+    "status": 429,
+    "file": "sources/semc_2016.pdf",
+    "sha256": "40a0457e763902ed12097cffc3536f1e9a2306a95a701ab2df18f7d47e2b9c39"
+  }
+]

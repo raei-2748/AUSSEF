@@ -1,0 +1,10 @@
+quantity,value,unit,caveat,source_url
+Reported submissions,123,Submission; may contain multiple projects,QRA program status; not project denominator,https://www.qra.qld.gov.au/betterment/2022
+Reported council applicants,39,Councils,TMR also submitted; identities of all submitters not published,https://www.qra.qld.gov.au/betterment/2022
+Published approved asset/works rows,221,Public-list rows,Keep repeats; does not equal unique projects,https://www.qra.qld.gov.au/betterment/2022
+Published local-government approved rows,194,Public-list rows,Excludes state agency,https://www.qra.qld.gov.au/betterment/2022
+Distinct approved council names,38,Councils,Not the number of independent applications,https://www.qra.qld.gov.au/betterment/2022
+Distinct stream/applicant/asset labels,217,Labels,Not certified deduplicated project count,https://www.qra.qld.gov.au/betterment/2022
+Verified eligible unsuccessful local-government applications,0,Cases recovered by this audit,Unknown population count; not evidence all applications succeeded,https://www.qra.qld.gov.au/betterment/2022
+Application IDs recovered,0,Official IDs,Public row IDs are audit references only,https://www.qra.qld.gov.au/betterment/2022
+Model-ready application observations,0,Certified observations,No valid two-class risk set or need block,https://www.qra.qld.gov.au/betterment/2022

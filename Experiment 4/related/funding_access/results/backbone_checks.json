@@ -1,0 +1,16 @@
+{
+  "exact_duplicate_rows": 0,
+  "duplicate_LGA_event_keys": 0,
+  "missing_hazard_rows": 1,
+  "earliest_onset": "2017-09-08",
+  "latest_onset": "2026-06-29",
+  "LGA_rows_without_any_DRFA_flag": 2,
+  "SAL_C_or_D_flags": 0,
+  "group_values": {
+    "A/B": 1218,
+    "C/D": 1085,
+    "unknown": 172
+  },
+  "events_with_conflicting_onset": 0,
+  "events_with_multiple_states": 0
+}

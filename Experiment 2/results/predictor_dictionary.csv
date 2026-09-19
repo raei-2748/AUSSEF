@@ -1,0 +1,12 @@
+variable,timing,reason
+operating_ratio_pct,t-1,Prior recurring operating balance relative to revenue
+cash_cover_months,t-1,Prior liquidity buffer; common-definition column only
+current_ratio,t-1,Prior unrestricted short-term financial capacity
+own_source_pct,t-1,Prior revenue autonomy
+debt_service_cover,t-1,Prior debt-service capacity; flagged denominator cases withheld
+maintenance_ratio_pct,t-1,Prior spending adequacy; quality-filtered ratio only
+population,t-1,Prior council scale
+road_km,t-1,Prior comparable local/regional road burden; early broader scope withheld
+fesm_burned_ha,t,Event-year mapped vegetation burn; physical scope and sensor changes remain
+bushfire_declared,t,"Event-year bushfire declaration presence, absence within inventory, or unknown"
+flood_declared,t,"Event-year explicitly flood-labelled declaration presence, scoped absence, or unknown"

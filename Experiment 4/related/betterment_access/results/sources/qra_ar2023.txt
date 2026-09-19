@@ -1,0 +1,2731 @@
+Queensland Reconstruction Authority   Q·-
+                                        ~~
+                                            •-·-,,I_ -~   Goodjobs
+                                                          Better services
+                                                          Great lifestyle
+
+
+
+
+ANNUAL REPORT
+
+2022-23
+
+
+
+
+                                             v.   Queensland
+                                                  Government
+ANNUAL REPORT 2022–2023
+Queensland Reconstruction Authority
+www.qra.qld.gov.au
+Accessibility
+This Annual Report provides information about the Queensland         Licence
+Reconstruction Authority’s (QRA) financial and non-financial         This Annual Report is licensed by State of Queensland,
+performance for 2022–23. It has been prepared in accordance          Queensland Reconstruction Authority under a Creative Commons
+with the Financial Accountability Act 2009.                          Attribution (CC BY) 4.0 International licence.
+This report has been prepared for the Deputy Premier and
+Minister for State Development, Infrastructure, Local Government
+and Planning and Minister Assisting the Premier on Olympic
+and Paralympic Games Infrastructure to submit to Parliament.
+It has also been prepared to meet the needs of stakeholders
+including the Commonwealth and local governments, industry           CC BY Licence Summary Statement
+and business.
+                                                                     In essence, you are free to copy, communicate and adapt this
+                                                                     annual report, as long as you attribute the work to the State of
+                                                                     Queensland, Queensland Reconstruction Authority.
+
+
+tIE
+Interpreter Services
+                                                                     To view a copy of the licence visit creativecommons.org/
+                                                                     licenses/by/4.0/
+
+                                                                     Attribution
+The Queensland Government is committed to providing                  Content from this annual report should be attributed as:
+accessible services to Queenslanders from all culturally and         The State of Queensland, Queensland Reconstruction Authority
+linguistically diverse backgrounds. If you have difficulty in        Annual Report 2022–2023
+understanding the annual report, you can contact us on 1800 110
+                                                                     © Queensland Reconstruction Authority 2023
+841 and we will arrange an interpreter to effectively communicate
+the report to you.                                                   Document details
+QRA did engage the services of an interpreter during 2022–23
+                                                                      Security classification           Public
+with information available online at data.qld.gov.au
+                                                                      Date of review of security        July 2023
+Accessing the report                                                  classification
+Readers are invited to view the Queensland Reconstruction             Authority                         QRA
+Authority Annual Report 2022–23 at QRA’s website at: www.qra.
+                                                                      Author                            Chief Executive Officer
+qld.gov.au/about-us/annual-reports
+                                                                      Document status                   Final
+Hard copies of this report are available from QRA at the following
+address:                                                              CM ref: QRATF/23/3704 DOC/23/51937 GD: 0795
+Level 11, 400 George Street Brisbane PO Box 15428 City East
+Queensland 4002 Australia                                            Version 1.0
+Telephone: +61 7 3008 7200
+                                                                     ISSN 978-0-9873118-4-9
+Email: info.qra@qra.qld.gov.au
+                                                                     Open Data
+                                                                     Additional information is available online at data.qld.gov.au
+
+
+
+
+                                 3 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Contents
+
+
+Accessibility                                                       3
+Contents                                                            4
+Message from the Chairperson                                       6
+Message from the CEO                                                7
+Overview                                                           8
+Strategic opportunities and risks                                  9
+Strategic objectives and achievements                              10
+Our performance                                                    12
+Governance – structure                                             16
+Governance – risk management                                       19
+Governance – human resources                                      20
+Financial Performance                                              21
+Queensland Reconstruction Authority Financial Statements          22
+Ministerial Directions                                            47
+Performance indicators and service standards                      48
+Government Bodies                                                 49
+Annual Report Requirements                                        50
+Glossary51
+
+
+
+
+                                    4 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+                                                                                                        Queensland
+                                                                                                        Government
+
+
+
+
+4 September 2023
+
+
+
+The Honourable Steven Miles MP
+Deputy Premier
+Minister for State Development, Infrastructure, Local Government and Planning and
+Minister Assisting the Premier on Olympic and Paralympic Games Infrastructure
+PO BOX 15009
+CITY EAST QLD 4002
+
+
+
+Dear Deputy Premier
+
+
+I am pleased to submit for presentation to the Parliament the Annual Report 2022–2023 and financial statements for the
+Queensland Reconstruction Authority.
+
+
+I certify that this Annual Report complies with:
+
+
+•   the prescribed requirements of the Financial Accountability Act 2009 and the Financial and Performance Management
+    Standard 2019; and
+•   the detailed requirements set out in the Annual report requirements for Queensland Government agencies.
+
+
+A checklist outlining the annual reporting requirements is provided at page 50 of this annual report.
+
+
+Yours sincerely
+
+
+
+
+Deputy Commissioner Shane Chelepy
+Acting Chairperson
+Queensland Reconstruction Board
+Queensland Reconstruction Authority
+Message from the Chairperson
+On behalf of the Queensland Reconstruction Board,                    In the face of evolving recovery challenges over the 2022–23
+I present the Queensland Reconstruction Authority (QRA)              period, QRA has stayed steadfast in its commitment to embed
+Annual Report 2022–23.                                               greater disaster resilience across Queensland, delivering nation
+                                                                     leading programs such as the:
+While continuing to grapple with the impacts of, and recovery
+from one of the most destructive disaster seasons in                 • Voluntary Home Buy-Back program, part of the Resilient
+Queensland’s history, QRA has worked continuously in support           Homes Fund helping Queenslanders impacted by the 2022
+of communities right across this vast state, making a positive         South-East Queensland Floods.
+impact in every region, from our remote and rural areas to our       • Queensland Resilience and Risk Reduction Fund that assists
+major cities and towns.                                                communities mitigate and manage the risks associated with
+Central to this work has been supporting north and north-west          natural disasters.
+communities impacted by devastating monsoon flooding that            • Betterment Fund, which invests in the reconstruction of
+extended from late December 2022 into April 2023, with record          disaster-impacted infrastructure to a stronger and more
+floodwaters inundating areas like Burke, Boulia, Camooweal and         resilient standard.
+Doomadgee.                                                           • Get Ready Queensland program, a year-round, all hazards
+In total, our state battled seven disaster events in 2022–23, with     resilience building initiative to help communities and
+57 of Queensland’s 77 local government areas (LGA) activated           families prepare for natural disasters.
+for assistance through joint state and federal Disaster Recovery     It’s also exciting to have rugby league great Johnathan Thurston
+Funding Arrangements (DRFA).                                         in the role of Get Ready Queensland Ambassador for another
+Communities from Cape York and the Gulf of Carpentaria in the        year, and his unmatched cut-through for QRA’s flagship disaster
+north, Mount Isa and Diamantina in the west, Mackay on the           preparedness and education program.
+coast, and Western Downs and the Gold Coast in the south-east        Suncorp continues to be a proud sponsor of Get Ready
+continue to count the costs of another busy disaster season in       Queensland, significantly enhancing the initiative’s reach and
+Queensland.                                                          impact. It is also a point of pride that the program built a fruitful
+The 2022–23 reconstruction bill is currently estimated to exceed     in-kind partnership with IGA supermarkets to grow brand
+$800 million and adds to the extensive recovery program already      recognition and outreach across Queensland.
+in delivery from prior year disasters. With a total active program   Concluding 2022–23, QRA continues to evolve with the needs of
+of $7.2 billion for recovery and disaster resilience across 32       Queenslanders and the disasters we face.
+disaster events stretching 2019–20 to 2022–23, QRA’s pipeline of
+work is robust and will make a difference to every Queenslander.     And like it has for more than a decade, the authority stands ready
+                                                                     for anything while remaining focused on the recovery work still
+In 2022–23 alone, QRA paid almost $1.5 billion in disaster           required to rebuild communities and lives.
+recovery support and grants to councils, state agencies and
+non-government organisations in response to the active disaster
+programs and secured $670.6 million of Commonwealth funding
+with acquittal of Queensland’s annual DRFA claim. This followed
+a successful audit by the Queensland Audit Office (QAO), with
+lodgement of the claim a hard-earned milestone that’s testament
+to the people and processes of QRA.
+                                                                     Deputy Commissioner Shane Chelepy
+                                                                     Acting Chairperson
+                                                                     Queensland Reconstruction Board
+
+
+
+
+                                 6 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Message from the CEO
+Serving as State Recovery Coordinator for the 2022 South East      This investment acknowledges the unique and significant
+Queensland flooding disaster enabled me to see firsthand the       challenges facing some of our state’s most isolated communities,
+amazing work QRA does.                                             but it also acts as reminder to these Queenslanders that we’re
+                                                                   here for them and will remain so through their recovery.
+Since commencing in the role of QRA Chief Executive Officer
+(CEO) in March 2023, I can now say the authority’s work and the    Based on emerging community needs, QRA will continue to
+dedication of its people is even more impressive to observe from   work with councils, state agencies and the Commonwealth to
+within the ranks.                                                  ensure further exceptional circumstances funding packages are
+                                                                   developed to support communities impacted by the monsoonal
+This is important, because Queensland’s reputation as
+                                                                   floods.
+Australia’s most disaster-impacted state was again on display
+in 2022–23, with monsoonal flooding, damaging bushfires and        It has also now been 12 months since the Resilient Homes Fund
+severe storms.                                                     was established, a program changing lives while at the same time
+                                                                   improving south-east Queensland’s overall resilience to flooding.
+Battering rain and slow-moving floodwaters engulfed our
+north and north-west regions for the majority of the summer        More than 6,300 homeowners have registered through the fund
+and autumn months. By the time the Northern and Central            to have their home raised, resiliently retrofitted, or voluntarily
+Queensland Monsoon and Flooding event had concluded at the         bought back the latter of which QRA is leading. By the end of the
+end of April, 45 local government areas had been activated for     2023 financial year, more than 400 offers had been accepted
+disaster assistance.                                               through the Voluntary Home Buy-Back program, with over 250
+                                                                   contracts settled, and demolition work beginning across several
+That’s more than the half the state impacted by just one natural
+                                                                   councils including Brisbane, Ipswich and Logan.
+disaster, and Queensland came up against seven of them in
+2022–23.                                                           The Resilient Homes Fund is a fine example of the Queensland
+                                                                   Government’s commitment to ensuring wherever and whenever
+In response to these events, a wide range of support measures
+                                                                   disaster strikes, our communities receive the assistance they
+were announced to help get Queenslanders back on their feet,
+                                                                   need to get back on their feet and look forward to a brighter
+while also getting their businesses operational, and community
+                                                                   tomorrow.
+assets rebuilt.
+                                                                   With current estimates of Queensland’s 2022–23 reconstruction
+This included Personal Hardship Assistance for flooded
+                                                                   bill exceeding $800 million, and roughly three-quarters of all
+communities in Boulia, Burke, Doomadgee and the Mount Isa
+                                                                   local government areas activated for DRFA support following the
+community of Camooweal, and bushfire affected communities
+                                                                   2022–23 disaster season, recovery from this year’s events will be
+in the Western Downs that experienced destructive blazes from
+                                                                   an ongoing process, but that’s why we are here.
+January to March 2023. Through this support measure, more
+than $360,000 has been provided to flood-impacted residents        Our job at QRA is perpetual, and our vision is unwavering to
+in north-west Queensland and bushfire-affected residents in the    create a stronger, safer and more resilient Queensland.
+Western Downs.
+Small businesses and not-for-profits in the council areas of
+Boulia, Burke, Carpentaria, Cloncurry, Doomadgee, Mornington
+and Mount Isa can access grants up to $50,000, and primary
+producers up to $75,000, while loans up to $250,000 are also
+available in these same LGAs.
+As well as the impact on property, business and infrastructure,
+this year’s record-breaking monsoonal flooding season has left a   Major General Jake Ellwood (Retd)
+heavy toll on community mental health and wellbeing.               Chief Executive Officer
+To assist in this space, targeted exceptional circumstances        Queensland Reconstruction Authority
+funding packages have been developed for the hardest hit areas
+of north-west Queensland, including $1 million for mental health
+services and $6 million for livestock welfare activities.
+
+
+
+
+                                 7 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Overview
+About QRA                                                           Operating environment
+Following catastrophic natural disasters that struck Queensland     QRA’s operating environment continues to be influenced by the
+over the summer months of 2010 and 2011, QRA was established        strength and severity of natural disasters, complex recovery
+to manage the State’s recovery and reconstruction under the         issues and changes in governance arrangements.
+Queensland Reconstruction Authority Act 2011 (QRA Act).
+                                                                    QRA’s operational capacity was also challenged by the size and
+A legislative amendment that came into effect on 11 June 2015       scale of the 2022–23 reconstruction program, with 57 of the
+converted QRA to a permanent fixture of the Queensland              77 local government areas activated for DRFA assistance for
+Government. In 2019, the QRA Act was amended to reflect             seven disaster events in 2022–23, and continued delivery of
+QRA’s roles and responsibilities across all hazards, and as the     reconstruction works from 25 events that occurred during the
+Queensland lead for resilience and recovery policy.                 2019–20, 2020–21 and 2021–22 years. In total, QRA managed a
+                                                                    reconstruction and resilience program worth $7.2 billion across
+                                                                    the 2022–23 year.
+What we do
+                                                                    Significant changes to governance of the state’s disaster
+QRA is responsible for managing and coordinating the                management commenced in 2022–23, with reforms to
+Government’s program of recovery and reconstruction works           Queensland’s Disaster Management Arrangements (QDMA)
+within disaster-affected communities, with a focus on working       announced on 26 October 2022. On 14 December 2022, the
+with our state and local government partners to deliver best        Inspector-General of Emergency Management (IGEM) was
+practice administration of public reconstruction and resilience     tasked to review the QDMA, with IGEMs report delivered on
+funds.                                                              28 April 2023.
+QRA is also the State’s lead agency responsible for disaster        On 30 June 2023, the Queensland Government progressed the
+recovery and resilience policy, working collaboratively with        whole-of-government action plan to implement the IGEM review
+agencies and stakeholders to reduce risk, increase resilience and   recommendations, several of which see QRA take on additional
+improve preparedness for disasters.                                 responsibilities in the areas of resilience, risk reduction and
+                                                                    disaster preparedness from 1 July 2024.
+Our vision
+Stronger, safer, resilient Queensland communities.
+
+
+Our purpose
+Coordinate action to improve the resilience of Queensland
+communities and facilitate locally-led disaster recovery.
+
+
+
+
+                                 8 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Strategic opportunities and risks
+QRA has a strong risk focus to manage challenges and act on
+opportunities.
+                                                                 Our key strategic challenges
+                                                                 • Ensuring QRA delivers responsive services that can scale
+Our opportunities                                                  up to meet demands should Queensland experience a
+                                                                   catastrophic disaster event, or simultaneous events.
+• Developing and delivering statewide programs that reduce       • Guaranteeing Queensland meets requirements and
+  the impact of future disaster events and build resilience in     timeframes under grant funding guidelines so that it does
+  communities.                                                     not jeopardise Commonwealth Government funding to the
+• Becoming a national leader in risk mitigation and disaster       State.
+  preparedness for our communities through programs              • Maintaining a structure and capacity to deliver responsive
+  including Betterment and Get Ready.                              services should there be a catastrophic disaster event across
+• Influencing the national disaster mitigation, recovery and       a geographically diverse area.
+  resilience policy agenda to achieve greater alignment with     • Being prepared for unforeseen events so as not to impede
+  locally-led efforts to improve resilience and risk reduction     QRA’s ability to lead recovery or incumber local resourcing on
+  outcomes for Queensland.                                         the ground following a disaster.
+• Using evidence-based practices, data and analytics to          • Influencing and responding to changes in disaster
+  support resource allocation, resilience and risk mitigation      management arrangements at a national level at an early
+  programs and disaster management operations.                     stage, to ensure they do not disrupt locally-led recovery, or
+• Improving whole-of-business processes to achieve                 impact Queensland’s longstanding disaster management
+  efficiencies and process improvements.                           arrangements.
+
+
+
+
+                                9 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Strategic objectives and achievements
+Government’s objectives for the                                                         Rebuilding, recovering and reconnecting
+community                                                                               disaster affected communities
+In 2022–23 QRA continued to work toward achieving the
+                                                                                        Our objectives
+Queensland Government’s objectives for the community – Unite
+and Recover, through:                                                                   • Coordinate delivery of responsive recovery activities
+• Keeping Queenslanders safe by getting ready, reducing risk                              that incorporate risk reduction, resilience building and
+  and building resilience.                                                                betterment as business-as-usual.
+• Building Queensland by building capacity in recovery and                              • Partnering to build the capacity and capability of local
+  resilience through expert leadership and partnerships.                                  government to respond to disaster and facilitate timely
+                                                                                          recovery.
+• Supporting jobs by rebuilding, recovery and reconnecting
+  disaster impacted communities.                                                        • Streamline grant funding systems and regulatory frameworks
+                                                                                          to ensure support is responsive, relevant and accountable.
+                                                                                        • Deliver value for money and strong governance in
+                                                                                          administering state and Commonwealth funding programs.
+
+                                                                                        Our achievements
+                                                                                        • Developed and facilitated release of the Queensland Strategy
+ Ideas in action   Customers first   Be courageous   Empower people Unleash potential
+                                                                                          for Disaster Resilience (QSDR) 2022–2027 to demonstrate
+                                                                                          the Queensland Government’s commitment to strengthening
+Human rights                                                                              disaster resilience so our communities are better equipped
+                                                                                          to deal with the increasing prevalence of natural disasters.
+QRA respects, protects and promotes human rights in our
+decision making and actions, vision and purpose.                                        • Delivered Queensland’s voluntary commitment under the
+                                                                                          United Nations Office for Disaster Risk Reduction Sendai
+Consideration has been given to Human Rights in development or                            Framework to establish Regional Resilience Strategies to
+update of related policies within the 2022–23 year.                                       ensure every region in Queensland is now part of a locally-
+No complaints relating to the Human Rights Act 2019 were                                  led, regionally coordinated and state facilitated blueprint to
+received by QRA during the reporting period, and no reviews were                          strengthen disaster resilience.
+undertaken.                                                                             • Providing recovery guidance, assistance, and support to 57
+                                                                                          local government areas activated under DRFA for the seven
+                                                                                          events that impacted the State in the 2022–23 disaster
+                                                                                          season including 45 of these activated under the Northern
+                                                                                          and Central Queensland Monsoon and Flooding,
+                                                                                          20 December 2022 – 30 April 2023.
+                                                                                        • Coordinated delivery of a disaster recovery and resilience
+                                                                                          program valued at $7.2 billion, comprising works from
+                                                                                          32 events across 2019–20 to 2022–23.
+                                                                                        • Successful acquittal of $1,087 million of disaster recovery
+                                                                                          expenditure incurred by the State through the 2021–22
+                                                                                          DRFA claim process, thereby securing Commonwealth
+                                                                                          contributions of $670.6 million DRFA funding to Queensland.
+                                                                                        • Continued enhancements to QRA’s grants management
+                                                                                          system to facilitate administration of DRFA for staff and
+                                                                                          funding recipients.
+                                                                                        • Secured Queensland’s largest allocations of resilience
+                                                                                          funding to date through programs such as the Emergency
+                                                                                          Response Fund (ERF) and Disaster Ready Fund (DRF).
+
+
+
+
+                                           10 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Building capacity in recovery and                                Getting ready, reducing risk and
+resilience through expert leadership and                         building resilience
+partnerships                                                     Our objectives
+Our objectives                                                   • Design and deliver best practice strategies to help
+                                                                   communities be ready, resilient and ultimately recover
+• Forge trusted, reciprocal and robust relationships with
+                                                                   from future disasters.
+  community leaders, thought leaders, and local, state,
+  Commonwealth and international partners in relief, recovery    • Prioritise and coordinate disaster resilience funding
+  and resilience.                                                  programs to maximise risk reduction and build resilience.
+• Assist local governments and communities to build              • Coordinate the development and implementation of
+  knowledge and capability that drives best practice in            whole‑of-government policies to manage disaster risk.
+  recovery and building resilience.                              • Provide advice to support the development of whole of
+• Influence and enhance the development of national relief,        government policies towards more resilient buildings,
+  recovery and resilience arrangements.                            infrastructure and communities.
+• Produce evidence-based data, analytics and evaluative          • Prepare Queenslanders for disaster through targeted
+  materials that are useful to, and used by, communities and       marketing, communication and community outreach
+  decision makers.                                                 activities under Get Ready Queensland.
+• Develop QRA people’s capability and support their wellbeing
+                                                                 Our achievements
+  to meet our strategic objectives.
+                                                                 • Finalised the delivery and implementation of Regional
+Our achievements                                                   Resilience Strategies and Local Resilience Action Plans
+                                                                   as part of the Resilient Queensland program—using a
+• Delivered QRA’s first $10 million North Queensland Natural
+                                                                   co‑design and place-based approach to address local risks
+  Disaster Mitigation Program aimed to reduce disaster risk
+                                                                   and strengthen disaster resilience.
+  and lower insurance costs for residents, businesses and
+  communities in North Queensland.                               • Developed the QSDR 2022–27 to guide and outline new
+                                                                   state-led strategic commitments and actions over the next
+• Administered $190 million for Betterment in Queensland,
+                                                                   five years to promote a systems approach to resilience that
+  jointly funded by the Australian and Queensland
+                                                                   connects with a range of agencies and sectors to deliver
+  Governments, to build essential public infrastructure
+                                                                   improved outcomes for Queensland.
+  damaged in the 2020–21 and 2021–22 disaster seasons
+  to a more resilient standard.                                  • Increased Queensland community awareness of disaster
+                                                                   preparedness through the Get Ready Queensland campaign
+• Launched the new flood information website to provide
+                                                                   and other programs, with 91 per cent of people surveyed
+  councils and flood practitioners with clear direction for
+                                                                   stating the campaign gave them the information they needed
+  flood risk management across the state, including links to
+                                                                   to be prepared.
+  flood maps and data, policy documents, case studies and a
+  community’s toolkit.                                           • Established and worked with an advisory group to
+                                                                   co‑design a new suite of preparedness resources to
+• Assisted the Commonwealth and the United Nations
+                                                                   support households to get ready for extreme weather.
+  Office for Disaster Risk Reduction in the coordination of
+                                                                   The group consisted of representatives from culturally
+  the Asia‑Pacific Ministerial Conference on Disaster Risk
+                                                                   and linguistically diverse communities, First Nations
+  Reduction (APMCDRR) held in Brisbane from
+                                                                   communities, people with disability, low literacy advocacy
+  19–22 September 2022.
+                                                                   and subject matter expertise from state and local
+• Supported and promoted a sustainable work environment            government.
+  for QRA staff by implementing policies which support health
+                                                                 • Continued delivery of significant suite of programs within
+  and wellbeing, with initiatives including promoting access
+                                                                   the $2.1 billion DRFA extraordinary assistance package
+  to flexible working arrangements, fatigue and workload
+                                                                   following the 2021–22 flooding. This included the Resilient
+  management, rehabilitation and return to work support.
+                                                                   Homes Fund, a number of flood risk management packages
+                                                                   and $150 million Betterment program to enable damaged
+                                                                   public infrastructure to be ‘built back better’ to withstand the
+                                                                   impacts of future disasters.
+
+
+
+
+                                11 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Our performance
+This section highlights QRA’s achievements and performance in 2022–23.
+
+
+Disaster Recovery and Resilience Funding
+During 2022–23, QRA managed delivery of an active program related to recovery from 32 disaster events that have impacted the state since
+2020 and the building of disaster resilience with an estimated value of $7.2 billion.
+The following figure shows the status of QRA’s active delivery program as at 30 June 2023.
+Status of QRA’s active delivery program as at 30 June 2023
+
+           32 events                             76 councils with an active program                                           $7.2 billion
+
+                2019-20                              2020-21                                 2021-22                            2022-23
+                    5 events                            11 events                                9 events                          7 events
+                    53 councils                         50 councils                              66 councils                       57 councils
+                    $924 million                        $809 million                             $4.5 billion                      $889 million
+                    30/6/2022                           30/6/2023                                30/6/2024                         30/6/2025
+                    3 projects remaining                85% complete                             23% complete                      8% complete
+                    to complete delivery                (remainder in delivery
+                    under EOT                           under EOTs)
+
+
+
+
+More than $900 million of the recovery and resilience program                    In addition to managing the delivery of disaster recovery works
+was initiated during the year from seven events that impacted                    on the ground, QRA also successfully managed the acquittal of
+the state, resulting in 57 of the State’s 77 LGAs being activated                $1.087 billion of DRFA works during 2022–23.
+for assistance under DRFA in 2022–23.
+                                                                                 The claim comprised the estimated reconstruction cost for
+These significant events compounded an already enormous                          2020–21 events of $693 million and $394 million for actual
+program in delivery following three earlier years of intense                     costs incurred for other DRFA measures on eligible disaster
+disasters, including the massively destructive 2022 disaster                     recovery works completed in 2022–23. The claim was supported
+season and its associated multi-billion dollar reconstruction and                by unmodified audit opinions issued by the Queensland Auditor-
+extraordinary circumstances funding packages.                                    General. The Commonwealth completed its own assurance
+                                                                                 activities over the claim in May and formally accepted and
+Combined with construction industry constraints, the
+                                                                                 acquitted the State’s claim on 30 June 2023, resulting in the
+compounding effect of these disasters created challenges for
+                                                                                 State securing $670.6 million of Commonwealth funding.
+some councils and state agencies in delivering some of their
+largest ever recovery programs. Despite this, QRA paid out close                 Since its establishment in 2011, QRA has now managed a
+to $1.5 billion in 2022–23 to support and progress recovery and                  disaster recovery program worth in excess of $22 billion,
+made considerable headway with the implementation of key                         acquitted $16.8 billion of DRFA expenditure and secured
+milestone recovery programs, including the (now) $761 million                    more than $11.7 billion of Australian Government funding for
+Resilient Homes Fund, that has seen more than 250 flood-prone                    Queensland. The State is current with its disaster funding claims
+homes bought back to 30 June 2023.                                               with no outstanding claims overdue or awaiting Australian
+                                                                                 Government acquittal.
+During 2022–23, the state also finalised its first full DRFA
+program with $192 million of efficiencies realised on final
+delivery of the 2019 event reconstruction program. These
+efficiencies have progressively been allocated to various
+programs to build the state’s resilience to natural disasters,
+including the final $152 million allocated in late 2022–23.
+
+
+
+
+                                      12 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Building resilience in Queensland                                   In June 2023, $75 million of projects were announced as the
+                                                                    state’s allocation from the Commonwealth ERF to assist recovery
+As the lead agency for resilience policy in Queensland,             and post-disaster initiatives in the 23 council areas significantly
+QRA continued to engage with stakeholders and lead a                impacted by the South-East Queensland floods in early 2022.
+comprehensive suite of activities across the State throughout
+2022–23 to make resilience-building a key priority.                 Finally, through the 2023–24 State budget, the state allocated
+                                                                    $152 million realised from efficiencies realised through the 2019
+Queensland strategy for disaster resilience                         DRFA reconstruction program to fund a suite of programs and
+                                                                    projects to enhance Queensland’s disaster resilience, mitigate
+QRA continued to work with Queensland communities to                risk and create stronger and safer communities.
+deliver and finalise the regional resilience strategies and the
+development of local resilience action plans to ensure that         Strategic flood risk management
+every region in Queensland is part of a coordinated blueprint to
+strengthen disaster resilience.                                     QRA has maintained its focus on improving Queensland’s
+                                                                    resilience to flood and supporting communities to better prepare
+Building on this important work, on 20 September 2022, the          and respond to flood events through leading multiple strategic
+Premier of Queensland released the updated QSDR 2022–               flood risk management projects.
+2027, a five-year strategy to strengthen disaster resilience in
+Queensland.                                                         In 2022 $7 million was allocated through the $75 million ERF for
+                                                                    the Flood Warning Infrastructure Network (FWIN) for 23 local
+The QSDR was developed following extensive consultation with        governments that were activated in response to the SEQ flood
+delivery agencies. It identifies new strategic commitments and      events of 2021. The funding will see enhanced flood warning
+52 actions to embed disaster risk reduction and resilience into     capability across the impacted Councils.
+decision making. The QSDR focuses on addressing systemic
+disaster risk by coordinating actions across stakeholders and       The Property Level Flood Information Portal is an ongoing project
+sectors to ensure our communities are disaster resilient into the   with procurement currently progressing. The portal’s principal
+future.                                                             aim is to assist residents in understanding, being more informed,
+                                                                    and better prepared for future flooding events by providing
+Sendai framework voluntary commitments                              access to flood risk information specific to their property.
+                                                                    The project is funded by the Resilient Homes Fund to support
+In late 2022, QRA completed its first Sendai Framework Voluntary    resilience measures in Queensland homes impacted by various
+Commitment, delivering 14 Regional Resilience Strategies            events across 39 activated Councils.
+statewide to strengthen disaster resilience.
+                                                                    QRA is also overseeing the delivery of the $31 million DRFA Flood
+To continue to showcase Queensland as a global leader               Risk Management Program (FRMP), comprising of three work
+in disaster resilience, QRA made a further three Voluntary          packages. This includes $18.25 million in grant funding to eligible
+Commitments that deliver on the Sendai Framework targets,           Queensland councils to deliver 127 projects, focusing on flood
+including:                                                          studies, risk management plans, and flood warning systems.
+• Queensland Resilient Homes Fund                                   The Department of Resources is managing the delivery of the
+• delivery of Get Ready Queensland 2022–23                          $6 million Work Package 2 for LiDAR (Light detection and ranging)
+                                                                    and data capture. An area larger than Tasmania—over 73,000
+• Queensland Betterment Fund, investing to create stronger,
+                                                                    square kilometres—will be mapped using LiDAR, surpassing the
+  more resilient Queensland communities.
+                                                                    state’s past decade LiDAR investment. This effort forms part of an
+The Sendai Framework Voluntary Commitments incentivise              ongoing national strategy for enhanced flood risk management.
+stakeholders to share commitments and initiatives towards
+                                                                    QRA has also delivered the Statewide Assessment of Flood Risk
+the implementation of the Sendai Framework, and in turn the
+                                                                    Factors, marking the first comprehensive statewide assessment
+United Nations Disaster Risk Reduction can monitor progress and
+                                                                    of flood risk management needs across all Queensland Councils.
+impact.
+                                                                    This was collaboratively developed with councils, industry and
+                                                                    state agencies and will serve as a critical tool to guide future
+Resilience funding                                                  investments, ensuring communities are aware, prepared, and
+During 2022–23, QRA administered $150 million of funding            resilient to flooding.
+programs outside of the DRFA that are designed to build
+Queensland’s resilience and reduce risk.                            QRA supported the development and launch of a dedicated
+                                                                    Flood Website that serves as a single point of reference
+This funding is being delivered across a suite of programs          for Queenslanders seeking flood-related information. This
+including the National Flood Mitigation Infrastructure Program,     comprehensive website caters to both the general public, with
+North Queensland Natural Disasters Mitigation Program,              easy-to-understand flood awareness and preparation materials,
+Queensland Resilience and Risk Reduction Fund and Get Ready         and councils or flood practitioners, with more technical data and
+Queensland.                                                         resources.
+These programs are supplemented by three substantial new
+resilience funding initiatives worth a further $311 million
+announced late in the financial year that will commence
+implementation in 2023–24.
+On 7 June 2023, the Commonwealth awarded $84 million in
+Commonwealth funding for 50 projects under the first round of
+the DRF. The DRF is the Commonwealth’s flagship disaster risk
+reduction initiative. Queensland was awarded the largest portion
+of DRF funding across Australia, recognising that we are the most
+disaster impacted state. QRA is excited to work with delivery
+agencies on these projects.
+
+
+
+
+                                 13 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Queensland Betterment Program                                          Get Ready Queensland Week was held between 10 and 16
+Queensland leads the nation in delivering betterment programs          October 2022, with a media event at Nundah State School,
+that demonstrate how upfront investments in stronger, more             Brisbane, in collaboration with Get Ready Queensland
+resilient assets saves money for all levels of government in future    Ambassador Johnathan Thurston, the Bureau of Meteorology,
+disasters.                                                             Suncorp and campaign partner IGA Supermarkets. A regional
+                                                                       launch was carried out simultaneously at Depot Hill State School
+Since the first Betterment Fund was established in 2013, more          in Rockhampton. The launch attracted 151 media mentions and
+than 531 projects across 70 LGAs in Queensland have been               reached over 5.69 million people with an equivalent value of
+approved.                                                              $2.93 million worth of coverage.
+In total, $434 million has been allocated to the Queensland            The 2022–23 Get Ready Queensland campaign was launched
+Betterment Fund since 2013, with $190 million currently in             during Get Ready Queensland week and ran for six weeks. The
+delivery, the largest Betterment delivery program in our state’s       campaign left a positive impression on Queenslanders, with
+history.                                                               research respondents saying it:
+Many completed Betterment projects have been impacted                  • was easy to understand (94%)
+by subsequent disaster events, and from an investment of               • gave a good idea of how to prepare (91%)
+$174 million for these projects re-impacted, we have already           • was a good reminder to get prepared (90%)
+avoided around $397.5 million in reconstruction costs. This does
+not include the direct benefits to the community for having more       • was a good way to encourage action (89%)
+resilient infrastructure, such as access to food, supplies and         • made them feel like they could prepare (87%).
+emergency services and being able to travel to work and school—
+                                                                       When it came to influencing action, the following percentage of
+all essential to a community’s resilience and ability to recover and
+                                                                       respondents said that they either had or intended to take the
+adapt following a disaster event.
+                                                                       following actions because of their exposure to the campaign:
+Enhancing QRA’s role in resilience                                     • 78% – prepare a kit
+On 30 June 2023, the Queensland Government progressed                  • 76% – buy new items for an existing kit
+the whole-of-government action plan to implement the                   • 68% – sign up for weather notifications
+recommendations of the IGEM review of QDMA.                            • 72% – make a plan.
+Implementation of several recommendations of the review                The campaign was awarded the 2023 Emergency Management
+will see QRA take on additional responsibilities in the areas          Public Affair’s Australian Award for Readiness and Resilience
+of resilience, risk reduction and disaster preparedness from           communications.
+1 July 2024.
+                                                                       Get Ready Queensland’s popular school competition ran
+                                                                       for a third year in 2022, with 70 entries and 2,000 students
+Get Ready Queensland                                                   participating across the State. The winning school—St Francis
+Get Ready Queensland is a year-round, all-hazards, locally             Xavier Catholic Primary School from Mackay—won a visit from
+led, resilience building initiative to help households and             Johnathan Thurston with his school visit a hit with the students as
+communities better prepare for disasters.                              well as attracting television and print media coverage.
+
+As part of the 2022–23 program, Get Ready Queensland provided          2022 also saw Get Ready Queensland sponsor, Suncorp, sign an
+$2 million in funding to support the State’s 77 councils and Weipa     additional two-year agreement with the program to support Get
+Town Authority to improve community resilience through regional        Ready Queensland’s campaign and flagship events. Suncorp’s
+Get Ready Queensland activities. Local initiatives delivered over      sponsorship started in 2020 and has allowed Get Ready to
+the 12 months include emergency services expos, business               engage with a significantly larger audience across the State.
+continuity workshops, development of local government disaster         Get Ready Queensland hosted the Queensland Chapter of the
+dashboards, creation of culturally and linguistically diverse          Resilient Australia Awards at Suncorp Stadium in September
+resources and school visits among many others.                         2022. There were 37 entries across seven categories. Winners
+QRA undertook market research during April 2022 to understand          and Highly Commended projects were awards at the ceremony
+community attitudes and behaviours to disaster risk and                attended by 80 guests including, Queensland Fire and Emergency
+preparedness throughout Queensland. The results revealed past          Services (QFES) Commissioner Greg Leach, then State Recovery
+disasters and habit remained key drivers for adopting behaviours       Coordinator Major General Jake Ellwood and Head of Suncorp,
+such as making a plan or packing a kit, while apathy, low risk         GIO and Vero Bernadette Norrie.
+perception and lack of knowledge were barriers.
+The number of Queenslanders with a household emergency plan
+and a kit remained consistent with previous years’ results at
+62% and 50%, respectively. The plateau demonstrated a need
+to underpin the annual campaign with a behaviour change
+framework.
+
+
+
+
+                                 14 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Supporting Queensland’s recovery from
+disasters
+Since 2011, QRA has led a reconstruction and recovery program
+of more than $22 billion. The 2022–23 season has observed
+recovery assistance required across all parts of the state.
+Even as the recovery from the previous summers flooding
+continues, Queensland was impacted by seven significant
+weather events, with 57 of Queensland’s 77 local government
+areas activated for disaster recovery funding.
+An active monsoon season and several slow-moving
+low‑pressure systems produced exceptionally heavy rainfall
+across the north of the state from late December 2022 into
+March 2023. Severe thunderstorms and intense, persistent
+rainfall led to significant impacts across many northern and
+central Queensland communities. As a result of this event,
+45 of Queensland’s 77 LGAs have been activated for a range of
+disaster assistance through the joint State and Commonwealth
+DRFA to address the immediate and long-term impacts.
+A suite of exceptional circumstances funding packages has
+been developed including a $6 million coordinated livestock
+support and disposal package and a $5 million local recovery
+and resilience grants and mental health support package. Grants
+of up to $75,000 for primary producers and up to $50,000 for
+affected small businesses and not-for-profits have also been
+made available through the DRFA to assist flood-affected
+communities get back on their feet.
+In addition to this monsoon event, Queensland was also
+impacted by bushfires in the Western Downs region of the state.
+Personal hardship assistance has been paid to bushfire affected
+residents of $179,981.73 (as at 30 June 2023) and QRA is working
+closely with Council to provide further recovery support.
+
+Reconstruction monitoring
+In 2022–23, QRA completed Damage Assessment and
+Reconstruction Monitoring (DARM) assessments in October 2022
+and March 2023. These DARM operations monitored the progress
+of reconstruction and recovery following the 2021–22 flooding
+events, and helped identify communities that may require
+additional support.
+While results from the DARM operations found that more than
+6700 properties (or nearly 80 per cent) are now showing no signs
+of damage, because of the severity of the flooding event in early
+2022, the March DARM operation still recorded 1,954 properties
+with some form of damage. Due to this high number of properties
+still recording as damaged, QRA will be conducting additional
+reconstruction monitoring audits in July 2023.
+
+State Recovery and Resilience Plan 2022–24
+Prior to his appointment as QRA CEO, Major General Jake
+Ellwood served as State Recovery Coordinator to lead recovery
+efforts following the severe flooding that devastated Southern
+Queensland in early 2022.
+Major General Ellwood led the development of the Southern
+Queensland Floods State Recovery and Resilience Plan
+2022–2024 which was released on 1 August 2022, and has
+guided recovery operations since, with progress made on all
+actions.
+
+
+
+
+                                15 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Governance – structure
+QRA is headed by Major General Jake Ellwood (Retd), CEO and               Resilience and Recovery – Ms Vina Varsani, General Manager,
+governed by the Queensland Reconstruction Board.                          provides leadership, coordination, direction and advice for
+                                                                          the development and management of disaster resilience and
+The Minister responsible for QRA is the Honourable Steven
+                                                                          recovery planning, policy, and funding, while supporting disaster
+Miles MP, Deputy Premier, Minister for State Development,
+                                                                          recovery operations prior and post disaster events.
+Infrastructure, Local Government and Planning and Minister
+Assisting the Premier on Olympic and Paralympic Games                     Integration and Coordination – Mr Jimmy Scott, General Manager,
+Infrastructure.                                                           of the newly formed Integration and Coordination Division,
+                                                                          ensures the best possible recovery and resilience outcomes for
+Through 2022–23, QRA expanded to include five specialist
+                                                                          Queensland communities by creating a cohesive and unified
+divisions with the addition of Integration and Coordination.
+                                                                          approach to QRA’s service delivery across all divisions.
+Each division is headed by a General Manager responsible for
+                                                                          Strategy and Engagement – Ms Janet England, General
+delivery of QRA functions as follows:
+                                                                          Manager, leads QRA’s engagement with all levels of government,
+Corporate Services – Mr Andrew Nehill, Chief Financial Officer            community and industry, along with managing media,
+(CFO), is responsible for providing finance, assurance, human             communications, design, ministerial and executive relations,
+resources, information and communications technology, program             records management, executive services, administration and the
+management and procurement functions, and support across                  Get Ready Queensland Program.
+QRA.
+Operations – Mr Andrew Abbott, General Manager, provides
+expert leadership, coordination, direction and advice for the
+delivery and management of disaster resilience and recovery
+activities, programs, payments and funding, while supporting
+disaster recovery operations prior to and post disaster events.
+
+
+
+                                          Minister responsible to the
+                                      Queensland Reconstruction Authority
+
+
+                                                                                        Queensland Reconstruction Board
+
+
+
+
+                                                               CJ   CEO
+
+
+
+
+     Corporate Services            Operations              Resilience & Recovery        Integration & Coordination   Strategy & Engagement
+
+                                                                      I
+             I                          I                             I                             I                           I
+
+             L---------------L---------------:---------------~---------------~
+                                                                      I
+
+External Stakeholders                                                                                                     External Stakeholders
+
+                                                              State Agencies
+                                                           Australian Government
+                                                            Government Entities
+
+
+
+
+                                16 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+The Queensland Reconstruction Board                                  State Disaster Coordinator, Shane Chelepy
+                                                                     Deputy Commissioner Shane Chelepy of the Queensland Police
+The Queensland Reconstruction Board is established under the
+                                                                     Service (QPS) has over 36 years’ experience in policing. He is the
+QRA Act to set the strategic priorities of QRA and ensure the
+                                                                     current State Disaster Coordinator and has significant experience
+authority performs its functions and exercises its powers in an
+                                                                     in both the disaster management and command environments
+appropriate, effective and efficient way.
+                                                                     where he has demonstrated his ability to lead across multiple
+The Board is appointed by the Governor in Council and comprises      agencies to deliver community safety outcomes. Shane has
+members nominated by the responsible Minister with expertise         performed senior official roles in both the disaster management
+and experience in disaster response, resilience, engineering and     and counter terrorism environments as well as leading
+planning and nominations by the Local Government Association         comprehensive disaster management reviews. The Deputy has
+of Queensland (LGAQ) and the Commonwealth Government.                recently led the QPS operational response to COVID19 as the
+                                                                     QPS Operational Commander as well as undertaking the role as
+Board member Ms Anne Swinbourne, sadly passed away in
+                                                                     the Queensland Vaccine Operations Commander responsible for
+October 2022. QRA management and the Board acknowledge
+                                                                     the operational delivery of the state-wide vaccine rollout with
+Anne’s exceptional contribution and years of service to the Board,
+                                                                     Queensland Health. Shane is currently the Deputy Commissioner
+QRA and Queensland communities.
+                                                                     of the newly formed office of the Deputy Commissioner Disaster
+Margaret De Wit and Belinda Murphy also ceased to be Board           and Emergency Management portfolio.
+members during the year on expiry of their terms on 31 December
+                                                                     Shane has served as a member of the Queensland Reconstruction
+2022. Ms De Wit was replaced by Greg Hallam as the LGAQ’s
+                                                                     Board since 9 January 2023 in an ex-officio position as State
+nominee to the Board from 1 January 2023.
+                                                                     Disaster Coordinator. Following Michael Walsh’s resignation in
+In addition, Stephen Gollschewski was replaced by Shane              July 2022, Shane was appointed as Acting Chairperson of the
+Chelepy as the ex-officio position on the Board held by the          Board on 10 August 2023.
+Queensland State Disaster Coordinator on 9 January 2023.
+                                                                     Louise Abell
+Subsequent to year end, Mr Michael Walsh resigned from the
+Board in July 2023, with Deputy Commissioner Shane Chelepy           Louise Abell served for over 23 years in the Australian Regular
+appointed as Acting Chairperson from 10 August 2023.                 Army in technical and program management roles before leaving
+                                                                     to work in the infrastructure sector. She served on Peacekeeping
+During 2022–23, the Queensland Reconstruction Board                  Operations in East Timor in 2002 and then went on work with
+membership comprised of:                                             the British Military teaching project management at their
+• Michael Walsh – Chairperson                                        university after managing major projects with the Australian
+• Margaret de Wit – Board Member (to 31 December 2023)               Army. Louise has extensive leadership, governance, strategic
+                                                                     planning and project/program management experience. Louise
+• Louise Abell – Board Member                                        has led Business Operations functions for organisations of 500+
+• Dr Robert Glasser – Board Member                                   people as well as delivered multiple high-value infrastructure/
+• Stephen Gollschewski – Board Member (to 9 January 2023)            technical projects at state, national and international levels.
+                                                                     She is experienced in financial and commercial requirements,
+• Kirsty Kelly – Board Member
+                                                                     negotiation and contract management, along with developing
+• Belinda Murphy – Board Member (to 31 December 2022)                positive workplace cultures that are focused on delivering
+• Dr Anne Swinbourne – Board Member (to 5 October 2022)              outcomes. Louise is also experienced at implementing and
+• Greg Hallam – Board Member (from 1 January 2023)                   managing governance frameworks within both government and
+                                                                     private entities. Louise is a Fellow of The Institution of Engineers
+• Shane Chelepy – Board Member (from 9 January 2023).                Australia, a graduate of the Institute of Company Directors and
+There were eight Board meetings during the 2022–23 financial         has a Masters of Business Administration, Masters of Science
+year. Profiles of the members of the Queensland Reconstruction       and an Engineering degree. She has worked for Kellogg Brown
+Board as at 30 June 2023 are as follows:                             and Root Pty Ltd in infrastructure program management roles as
+                                                                     well as more recently in the senior leadership group managing
+Michael Walsh                                                        the business assurance and governance. She has worked with
+                                                                     the Gold Coast City Council as a senior Project Director for a major
+Michael Walsh provides strategic advisory services to large
+                                                                     infrastructure project and is now working for the Department of
+organisations with a focus on leadership, governance, strategy,
+                                                                     Defence.
+digital health, planning and transformation. Michael was Director-
+General of Queensland Health from July 2015 to September             Louise has been a Board member since 1 January 2020.
+2019. Michael also holds the position of Chairperson Health
+Support Services, WA Health. In 2020, Michael was awarded the
+Public Service Medal in the Queen’s birthday honours list for
+outstanding public service to the health sector in Queensland.
+Michael was Chairperson of the Australian Health Ministers’
+Advisory Council (AHMAC) from 2016 to 2018 and was on the
+Board of the Australian Digital Health Agency from July 2018 to
+September 2019. Michael has also previously been on the Board
+of Brisbane Diamantina Health Partners, an NHMRC accredited
+Advanced Health Research and Translation Centre. Michael holds
+a Master of Business Administration, Bachelor of Arts (Hons)
+in Psychology, Bachelor of Science in human movement and
+Bachelor of Education. Michael has a passion for organisational
+excellence and leading value-based teams achieving outcomes
+that improve the lives of all Australians.
+Michael’s role with the Queensland Reconstruction Board ceased
+with his resignation as Chairperson effective 21 July 2023.
+
+                                17 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Dr Robert Glasser                                                    Kirsty Kelly
+Dr Robert Glasser is the Head of the Climate and Security            Kirsty Kelly is an experienced leader in the built environment.
+Policy Centre at the Australian Strategic Policy Institute. He       She is the CEO of the Australian Institute of Traffic Planning and
+was previously the United Nations Secretary General’s Special        Management and previously served as the CEO of the Planning
+Representative for Disaster Risk Reduction, the Head of the UN       Institute of Australia. Prior to her industry leadership roles she
+Office for Disaster Risk Reduction, a member of the Secretary        worked as an urban and regional planner in local, state and
+General’s Senior Management Group and the Deputy Secretary           territory government, the private sector and academia. Kirsty
+General’s Climate Principals Group. Robert has over 30 years of      is also an experienced Director, with previous directorships
+experience as a practitioner, advocate, and policymaker in the       including the Australasian Society of Association Executives and
+areas of climate change, sustainable development and disaster        the Planning Institute of Australia. During her career, Kirsty has
+response. Before joining the UN he was the Secretary General of      collaborated nationally with leaders, governments, industry and
+CARE International, one of the world’s largest non-governmental      professionals on issues including climate change, resilience,
+humanitarian organisations, with over 10,000 staff active in some    healthy planning and urban design. Kirsty is a graduate of
+80 countries. Prior positions additionally include Chief Executive   the Australian Institute of Company Directors, has a Graduate
+of CARE Australia and Assistant Director General at the Australian   Diploma of Urban and Regional Planning and a Master’s in
+aid program (AusAID). Robert is also on the board of WaterAid        Business Administration.
+Australia, which is actively supporting communities in less
+                                                                     Kirsty has been a Board member since 1 January 2020.
+developed countries in our region.
+Robert has been a Board member since 1 January 2020.
+                                                                     Chief Executive Officer
+Greg Hallam
+                                                                     Jake Ellwood
+Greg Hallam is a Company Director, writer and the retired CEO
+of the LGAQ, a position he held for 29 years, during which he        As Chief Executive Officer since March 2023, Major General Jake
+led the organisation through significant changes spanning            Ellwood (Retd) is responsible for ensuring QRA delivers as lead
+almost three decades. Greg has a long history of service in the      state agency for disaster recovery and resilience. QRA has helped
+local government sector and across several boards, including         impacted communities recover from more than 100 disaster
+his current positions on the merged LGIA, Energy Super and           events since its establishment in 2011.
+Suncorp Super Board and most recently on the Queensland              Major General Jake Ellwood’s distinguished Australian Defence
+Reconstruction Authority Board. In 2018 Greg was awarded the         Force career included serving as: State Recovery Coordinator,
+Member (AM) of the General Division of the Order of Australia        2021–22 Southern Queensland Floods; Commander of 1st
+for his contribution to Local Government, Sport and Disaster         Division (Brisbane); Deputy Chief of Army; and Australian
+Management. Greg has also been awarded the Public Service            Defence Force National Coordinator Black Summer Bushfires
+Medal and the Centenary Medal both in 2001. Greg is an avid          2019–20.
+volunteer and has been an elite level accredited athletic coach
+for 23 years.                                                        Major General Jake Ellwood has served in Kosovo, Iraq,
+                                                                     Afghanistan, and East Timor.
+Greg Hallam was appointed to the Queensland Reconstruction
+Board on 1 January 2023.
+
+
+
+
+                                18 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Governance – risk management
+QRA’s risk management framework incorporates governance
+arrangements and risk reporting and analysis, to ensure QRA
+                                                                         External scrutiny
+meets its strategic objectives and fulfils its legislative mandate       The State’s annual claim to the Commonwealth Government for
+within the QRA Act. Importantly, and with regards to the                 reimbursement of DRFA expenditure is prepared by QRA and
+changing environment in which it operates, QRA has systems in            is subject to both external audit by the QAO and an assurance
+place to ensure regular monitoring and reporting of current and          review by the National Emergency Management Agency (NEMA)
+emerging risks and issues occurs across its functions.                   prior to acquittal and payment of the claim. The 2021–22 claim
+                                                                         was submitted in accordance with requisite timeframes in March
+Risk management and accountability                                       2023 and supported by unmodified audit opinions issued by the
+                                                                         Queensland Auditor-General in relation to both the estimated
+Risk management is part of QRA’s day-to-day operations                   reconstruction costs (ASAE 3150) and actual costs (ASA 800)
+and is undertaken at divisional levels as well as at the senior          included in the claim. The claim was subsequently reviewed by
+management and Board level. The implementation of an effective           NEMA before the Australian Government acquitted the claim with
+risk management framework is an executive responsibility of the          minor adjustment and paid the eligible payment to the state on
+QRA CEO with endorsement of the Board and support of general             30 June 2023.
+managers and directors.
+QRA’s Risk Management Policy and Procedures set the                      Information systems and record keeping
+organisation’s underlying risk governance framework with
+                                                                         QRA’s information management approach ensures compliance
+an overall aim to ensure that organisational capabilities and
+                                                                         with the Public Records Act 2002, through the implementation
+resources are employed in an efficient and effective manner.
+                                                                         of the Records Governance Policy, ongoing review of procedures
+This ensures the management of both opportunities and threats
+                                                                         and guidelines, and the use and maintenance of QRA’s electronic
+towards the achievement of QRA’s strategic objectives. QRA
+                                                                         document and records management system (eDRMS). Record
+has undertaken risk assessments during 2022–23 that include
+                                                                         keeping and the use of QRA’s eDRMS is included in QRA
+identification of the consequences and likelihood of the risk
+                                                                         business processes. As such, it is integrated with grants funding
+occurring, effectiveness of controls in place and actions and
+                                                                         administration systems, Monitoring and Reporting System
+treatments required to achieve a tolerable level of risk in relation
+                                                                         (MARS) and Microsoft Office suite. All staff are trained in the
+to achieving the organisation’s strategic objectives. The key
+                                                                         use of QRA’s eDRMS and made aware of their record keeping
+strategic and operational risks are reviewed regularly by the QRA
+                                                                         obligations on commencement, with access to continual
+management team, and status updates are provided to the Board
+                                                                         awareness and training programs throughout their employment.
+at each meeting.
+                                                                         QRA’s information management is a controlled and stable
+Internal assurance                                                       environment and the staff employed in this area have high-level
+                                                                         skills and knowledge in managing all formats of record keeping,
+QRA’s internal assurance function assesses operational and               security of the system, security classification, retention and
+financial risks in relation to the provision and acquittal of disaster   disposal, and system maintenance.
+recovery funding and other funding programs.
+                                                                         2022–23 key achievements and activities for ongoing compliance
+QRA applies a risk-based approach to its assurance activities            include:
+to ensure they are an effective tool to assist QRA’s management          • continued record keeping training and awareness provided
+of its responsibilities under relevant funding guidelines. A core          throughout QRA for all staff
+element of DRFA arrangements is for the state to establish the
+                                                                         • continued use of digitisation and disposal policy and the
+amount it claims for estimated reconstruction costs through a
+                                                                           State Archivists approved General Retention and Disposal
+‘management system’ that addresses 16 control objectives set by
+                                                                           Scheme to digitise and dispose of low risk and/or low value
+the Commonwealth.
+                                                                           physical records
+In 2022–23, the Queensland Audit Office (QAO) provided an                • implementation of a new finance and reporting system,
+unmodified assurance opinion in accordance with ASAE 3150                  which automates and integrates finance, procurement and
+stating that QRA’s DRFA Management System for estimated                    grant payment processes, with less reliance on manual
+reconstruction costs to reconstruct eligible essential public              interventions and controls.
+assets was suitably designed, implemented and followed to
+achieve the DRFA control objectives.
+                                                                         Information Security
+                                                                         During the mandatory annual information security reporting
+                                                                         process, QRA attested to the appropriateness of its information
+                                                                         security risk management to the Queensland Government Chief
+                                                                         Information Security Officer, noting that appropriate assurance
+                                                                         activities have been undertaken to inform this opinion and QRA’s
+                                                                         information security risk position.
+
+
+
+
+                                  19 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Governance – human resources
+Workforce Profile                                                   Learning and Development
+The number of employees (including full-time and part-time)         QRA is committed to investing in developing the skills and
+measured on a full-time equivalent (FTE) basis was 124 as at        capabilities of our workforce and recognises that our people are
+30 June 2023. No redundancy, early retirement or retrenchment       our greatest asset.
+packages were paid during the period.
+                                                                    The Human Resources team published a 12-month Learning
+QRA recognises that our people play a key role in Queensland’s      & Development plan to ensure that QRA has the right skills,
+Disaster Management arrangements, with peak weather season          competencies, and capabilities to deliver organisational
+causing direct impacts to workload, fatigue, and wellbeing. There   outcomes into the future.
+is a leadership focus on supporting individual working patterns
+                                                                    The 2022–23 plan focused on developing business critical skills,
+and arrangements, and a strategy to safeguard the health and
+                                                                    leadership and management capabilities, cultural capability
+wellbeing of our people.
+                                                                    and inclusivity through formal training and development
+The Human Resources team published a 12-month Health and            opportunities, on the job experience, self-directed learning and
+Wellbeing plan, outlining planned interventions, initiatives        internal projects and opportunities.
+and activities mapped to the five wellbeing pillars – physical,
+psychological, social/community, financial and occupational.
+QRA leadership is also committed to supporting a wide range of      Culture and Values
+agile and flexible working arrangements in alignment with the       QRA’s culture and values continue to underpin how we deliver
+Public Service Commissions Flex-connect framework.                  on our strategic objectives, and guide how we continue to learn,
+                                                                    grow and innovate as a leading organisation in disaster recovery
+Workforce Planning and Performance                                  and resilience. QRAs culture and value statements are:
+
+QRA is guided by the Public Service Commission’s strategic          Purpose
+human capital outlook and various initiatives to inform strategic
+                                                                    • Everything we do is focused on helping communities recover
+workforce management, leadership and capability development
+                                                                      from disasters and making Queensland the most disaster
+activities. QRA is committed to the continued review and
+                                                                      resilient state in Australia.
+assessment of the organisations workforce profile in alignment
+with the sector to ensure QRA is an inclusive workforce composed    • We act responsibly, ethically and with authenticity.
+of the right people, skills and capabilities to deliver on the
+strategic objectives. Performance development agreements            Results
+(PDA) for employees are produced annually and reviewed six-         • We achieve results not only through action, but also through
+monthly. Through the PDA process, employees develop a clear           coordination and collaboration.
+understanding of their role and broader contribution to the
+                                                                    • We ‘step up’ when we need to strive for excellence.
+direction of QRA’s strategic objectives.
+                                                                    • We are accountable for our actions and deliver on our
+                                                                      promises.
+Conduct and Ethics
+QRA adheres to the Code of Conduct for the Queensland Public        Learning
+Service (the Code) which is aligned to the principles and values    • We always seek to deliver smarter and more efficiently.
+outlined in the Public Sector Ethics Act 1994. The Code describes   • We challenge the ‘norms’ of how we do things, embrace new
+how government employees should conduct themselves                    ideas and encourage innovation.
+while delivering services to the Queensland community. This
+includes when performing official work duties, representing the     • We recognise that developing our staff’s skills benefits all
+government at events or on business trips, and attending work-        of us.
+related social events.                                              • We continuously seek and provide constructive feedback.
+The Public Sector Ethics Act 1994 outlines the ethics principles
+                                                                    Caring
+fundamental to good public administration.
+                                                                    • We foster a healthy, sustainable workplace.
+Information on these legislative obligations is provided to all
+new employees during their induction training modules with          • We collaborate with and respect our colleagues.
+intranet resources available for ongoing reference. All QRA staff   • We are always approachable.
+are required to complete annual mandatory refresher training        • We are one team.
+modules.
+                                                                    Enjoyment
+                                                                    • We have fun at work and celebrate our achievements and
+                                                                      personal milestones.
+                                                                    • We recognise each other’s successes.
+
+
+
+
+                                 20 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Financial Performance
+The financial statements included in this annual report provide
+specific information about QRA’s financial performance and
+                                                                      Financial position
+position for 2022–23.                                                 The following table summarises the net assets of QRA for the last
+                                                                      two financial years:
+Operating Result                                                      Summary of Financial Position for QRA
+The following table summarises the financial results of QRA for
+the last two financial years:                                                                                       2023             2022
+                                                                      Financial Position
+                                                                                                                   $,000            $,000
+Summary of Financial Results for QRA
+                                                                      Assets                                       37,035          86,855
+                                            2023              2022
+Comprehensive Income                                                  Liabilities                                   2,951           1,807
+                                           $,000             $,000
+
+Income                                 1,289,541         854,409      Net assets                                  34,084          85,048
+
+Expenses                               1,340,505         810,276      The net asset position reported in the financial statements for
+                                                                      QRA at 30 June 2023 is $34.084 million.
+Profit (loss) for the year              (50,964)             44,133
+                                                                      At 30 June 2023, QRA held assets of $37.035 million, comprising
+                                                                      cash holdings of $21.087 million, receivables of $14.860 million,
+QRA recorded comprehensive income of -$50.964 million for the
+                                                                      intangible assets of $0.549 million associated with QRA’s MARS
+2022–23 financial year. This result was driven by the revenue QRA
+                                                                      grants management system and other assets of $0.539 million.
+received from the State to fund grant payments during the year
+being lower than final actual disaster recovery grant expenditure     QRA’s assets were offset by $2.951 million of current liabilities,
+paid out. This represents a timing difference, with the excess        comprising payables and accrued employee benefits.
+grant revenue to fund the additional grant expenditure having
+                                                                      The decrease in QRA’s net assets is due to the utilisation of
+been received in the previous 2021–22 financial year.
+                                                                      excess cash holdings received from the state during the previous
+QRA’s income of $1,289.541 million consists of $1,210.325             2021–22 financial year to fund grant payments in 2022–23.
+million grants received from the state to fund DRFA disaster
+recovery grant payments, other state and commonwealth grant
+funding of $31.509 million for various recovery and resilience
+grant programs, operational funding of $47.307 million received
+as grant funding from Queensland Treasury and other income
+of $0.400 million that is sponsorship received for Get Ready
+Queensland.
+QRA’s expenses of $1,340.505 million consists primarily of grants
+expenses. Grant expenses totalling $1,293.992 million were
+paid in 2022–23 for disaster recovery grants and other grants to
+councils, state agencies and non-government organisations in
+relation to DRFA and recovery and resilience grant programs.
+QRA’s expenditure for operations was $46.513 million and
+principally comprised costs for employee expenses of
+$17.277 million, supplies and services of $27.068 million,
+depreciation and amortisation of $1.515 million and other
+expenses of $0.653 million.
+
+
+
+
+                                21 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Queensland Reconstruction Authority
+                           ABN 13 640 918 183
+
+
+                     Financial Statements
+
+
+
+
+                  For the year ended 30 June 2023
+
+
+
+
+    22 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Queensland Reconstruction Authority
+Financial Statements
+For the year ended 30 June 2023
+
+
+
+Statement of Comprehensive Income                                24
+Statement of Financial Position                                  25
+Statement of Changes in Equity                                   26
+Statement of Cash Flows                                          27
+Notes to and forming part of the Financial Statements            28
+Management Certificate                                           42
+Independent Auditor’s Report                                     43
+
+
+
+
+                                  23 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Queensland Reconstruction Authority
+Statement of Comprehensive Income
+For the year ended 30 June 2023
+
+
+
+
+                                                                     2023       2022
+                                                     Note
+                                                                    $'000       $'000
+
+ Income
+
+ Grant revenue                                         2       1,289,141     854,008
+
+ Other income                                          3              400         401
+
+ Total income                                                  1,289,541     854,409
+
+
+ Expenses
+
+ Grant expenses                                        4      1,293,992       772,862
+
+ Employee expenses                                     5            17,277     13,313
+
+ Supplies and services                                 7           27,068      22,313
+
+ Depreciation and amortisation                         8             1,515      1,258
+
+ Other expenses                                        9              543         530
+
+ Write-off of lease fittings                                          110           –
+
+
+ Total expenses                                                1,340,505      810,276
+
+ Operating result for the year                                    (50,964)     44,133
+
+ Total comprehensive (loss)/income for the year                   (50,964)     44,133
+
+
+
+
+The accompanying notes form part of these financial statements.
+
+
+
+
+                                  24 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Queensland Reconstruction Authority
+Statement of Financial Position
+As at 30 June 2023
+
+
+
+
+                                                                    2023       2022
+                                                    Note
+                                                                   $'000       $'000
+
+ Current assets
+
+ Cash and cash equivalents                           10           21,087      71,888
+
+ Receivables                                         11           14,860      12,331
+
+ Other current assets                                12             528          450
+
+
+ Total current assets                                             36,475     84,669
+
+ Non-current assets
+
+ Property, plant and equipment                       13               11         134
+
+ Intangibles                                         14             549        2,052
+
+ Total non-current assets                                           560        2,186
+
+ Total assets                                                     37,035     86,855
+
+ Current liabilities
+
+ Payables                                            15            2,436       1,438
+
+ Accrued employee benefits                           16              515         369
+
+ Total current liabilities                                         2,951       1,807
+
+ Total liabilities                                                 2,951       1,807
+
+                                                           I
+ Net assets                                                       34,084     85,048
+
+
+ Equity
+
+ Accumulated surplus                                              32,345      83,309
+
+ Contributed equity                                  17            1,739       1,739
+
+ Total equity                                                     34,084     85,048
+
+
+
+
+The accompanying notes form part of these financial statements.
+
+
+
+
+                                 25 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Queensland Reconstruction Authority
+Statement of Changes in Equity
+For the year ended 30 June 2023
+
+
+
+
+                                                      Contributed Accumulated
+                                                           equity     surplus          Total
+                                                            $'000      $'000          $'000
+
+ Balance at 1 July 2021                                     1,739       39,176        40,915
+
+
+ Total comprehensive income for the year                          –     44,133        44,133
+
+
+ Balance at 30 June 2022                                    1,739       83,309       85,048
+
+
+ Total comprehensive loss for the year                            –   (50,964)      (50,964)
+
+
+ Balance at 30 June 2023                                    1,739       32,345       34,084
+
+
+
+
+The accompanying notes form part of these financial statements.
+
+
+
+
+                                  26 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Queensland Reconstruction Authority
+Statement of Cash Flows
+For the year ended 30 June 2023
+
+
+
+
+                                                                               2023       2022
+                                                              Note            $'000       $'000
+
+ Cash flows from operating activities
+
+ Inflows:
+
+ Grants                                                                   1,289,141     854,008
+
+ GST refunded from ATO                                                      129,724       74,935
+
+ GST collected from customers                                                   102         274
+
+ Other                                                                          420         427
+
+                                                                          1,419,387     929,644
+
+ Outflows:
+
+ Employee costs                                                             (17,247)    (13,268)
+
+ Supplies and services                                                     (26,148)     (22,186)
+
+ Grants                                                                  (1,293,992)   (772,862)
+
+ GST paid to suppliers                                                    (132,258)     (79,773)
+
+ Other                                                                         (543)       (530)
+
+                                                                         (1,470,188)   (888,619)
+
+                                                                     I
+ Net cash (used)/provided in operating activities             18           (50,801)      41,025
+
+
+ Cash flows from investing activities
+
+ Outflows:
+
+ Payments for property, plant and equipment                                       –         (22)
+
+ Net cash used in investing activities                                            –         (22)
+
+
+ Cash flows from financing activities
+
+ Inflows:
+
+ Equity contribution                                                              –           –
+
+ Net cash provided by financing activities                                        –           –
+
+
+ Net (decrease)/increase in cash and cash equivalents                      (50,801)      41,003
+
+ Cash and cash equivalents at beginning of reporting period                  71,888      30,885
+                                                                     I
+ Cash and cash equivalents at end of reporting period          10            21,087      71,888
+
+
+
+
+The accompanying notes form part of these financial statements.
+
+
+
+
+                                  27 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Queensland Reconstruction Authority
+Notes to and forming part of the Financial Statements
+For the year ended 30 June 2023
+
+
+
+Note 1:           Basis of Financial Statement preparation
+Note 2:           Grant revenue
+Note 3:           Other income
+Note 4:           Grant expenses
+Note 5:           Employee expenses
+Note 6:           Key management personnel and remuneration
+Note 7:           Supplies and services
+Note 8:           Depreciation and amortisation
+Note 9:           Other expenses
+Note 10:          Cash and cash equivalents
+Note 11:          Receivables
+Note 12:          Other current assets
+Note 13:          Property, plant and equipment
+Note 14:          Intangibles
+Note 15:          Payables
+Note 16:          Accrued employee benefits
+Note 17:          Contributed Equity
+Note 18:          Reconciliation of operating result to net cash flow from operating activities
+Note 19:          Commitments
+Note 20:          Related Parties
+Note 21:          Events after the end of the reporting period
+Note 22:          Other information
+Note 23:          Budget vs actual comparison
+
+
+
+
+                                  28 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Queensland Reconstruction Authority
+Notes to and forming part of the Financial Statements
+For the year ended 30 June 2023
+
+
+
+1. Basis of Financial Statement preparation
+(a) General information
+The Queensland Reconstruction Authority (QRA) was established under the Queensland Reconstruction Authority Act 2011 on 21
+February 2011 and was made a permanent statutory body under the Local Government and Other Legislation Amendment Act 2015
+on 11 June 2015.
+QRA is a Statutory Body under the Financial Accountability Act 2009.
+QRA’s principal place of business is situated at Level 11, 400 George Street, BRISBANE QLD 4000.
+(b) Principal activities
+QRA is charged with managing and coordinating the Queensland Government’s program of recovery and reconstruction works
+within disaster‑affected communities, with a focus on working with state and local government partners to deliver best practice
+administration of public reconstruction and resilience funds.
+QRA is also the State’s lead agency responsible for disaster recovery and resilience policy, working collaboratively with stakeholders to
+improve risk reduction and disaster preparedness.
+(c) Compliance with prescribed requirements and basis of accounting
+The financial statements have been prepared in compliance with section 39 of the Financial and Performance Management Standard
+2019. The financial statements comply with Queensland Treasury’s Minimum Reporting Requirements for reporting periods beginning
+on or after 1 July 2022.
+QRA is a not-for-profit entity and these general purpose financial statements are prepared on an accrual basis (except for the Statement
+of Cash Flows which is prepared on a cash basis) in accordance with Australian Accounting Standards and Interpretations applicable to
+not-for-profit entities.
+The historical cost convention is used unless otherwise stated.
+New accounting standards early adopted and/or applied for the first time in these financial statements are outlined in 1 (f).
+(d) Presentation
+Currency and rounding
+Amounts included in the financial statements are in Australian dollars and have been rounded to the nearest $1,000 or, where that
+amount is $500 or less, to zero, unless disclosure of the full amount is specifically required.
+Comparatives
+Comparative information reflects the audited 2021–22 financial statements. Where necessary, comparative amounts have been
+adjusted for valid comparison to current year.
+Current/Non-Current classification
+Assets and liabilities are classified as either ‘current’ or ‘non-current’ in the Statement of Financial Position and associated notes.
+Assets are classified as ‘current’ where their carrying amount is expected to be realised within 12 months after the reporting date.
+Liabilities are classified as ‘current’ when they are due to be settled within 12 months after the reporting date, or QRA does not have an
+unconditional right to defer settlement to beyond 12 months after the reporting date.
+All other assets and liabilities are classified as non-current.
+(e) Authorisation of Financial Statements for issue
+The financial statements are authorised for issue by the Chairperson and Chief Executive Officer at the date of signing the Management
+Certificate.
+(f) First year application of new accounting standards or change in accounting policy
+Accounting standards applied for the first time
+No new accounting standards or interpretations that apply to QRA for the first time in 2022–23 have been identified as having any
+material impact on the financial statements.
+Accounting standards early adopted
+QRA is not permitted to early adopt new or amended accounting standards ahead of their specified commencement date unless
+approval is obtained from Queensland Treasury. Consequently, QRA has not applied any Australian Accounting Standards and
+interpretations that have been issued but are not yet effective. All Australian accounting standards and interpretations with future
+effective dates are either not applicable to QRA or expected to have no material impact to QRA.
+
+
+
+
+                                  29 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Queensland Reconstruction Authority
+Notes to and forming part of the Financial Statements
+For the year ended 30 June 2023
+
+
+
+                                                                                Queensland Government Grants
+                                                          2023         2022     Grants received by QRA from the State Government are non-reciprocal
+                                                                                in nature. QRA treats these grants as revenue upon receipt as it obtains
+                                                         $'000         $'000    control at this point. Disaster recovery funding comprises of the Disaster
+                                                                                Recovery Funding Arrangements (DRFA), and its predecessor Natural
+                                                                                Disaster Relief and Recovery Arrangements (NDRRA).
+2. Grant revenue                                                                Other funding includes State and Commonwealth funding for programs
+                                                                                such as Get Ready Queensland (GRQ), Recovery and Resilience Grants
+                                                                                Program (RRG), National Flood Mitigation Infrastructure Program
+Queensland Government Grants:                                                   (NFMIP), North Queensland Natural Disasters Mitigation Program
+                                                                                (NQNDMP), Queensland Disaster Recovery Funding (QDRF) and the
+                                                                                Queensland Resilience and Risk Reduction Fund (QRRRF).
+Disaster recovery funding                             1,210,325      792,722
+                                                                                QRA receives its grant funding from the Department of State
+                                                                                Development, Infrastructure, Local Government and Planning (DSDILGP),
+Operational funding                                      47,307       38,145    which is in principal appropriations, made by Queensland Treasury
+                                                                                through DSDILGP. The amount of grant revenue QRA receives is based
+                                                                                on budgeted financial year expenditure (both for grant and operational
+Other funding                                            31,509        23,141   expenditure) through the state budget process. Underspends in grant
+                                                                                revenue are rolled into accumulated surplus, as no liability exists to
+                                                                                return unspent grant revenue. Historically QRA has drawn down on
+Total                                                 1,289,141      854,008    accumulated surplus instead of grant revenue when it is required.
+                                                                                At 30 June 2023, QRA’s accumulated surplus was $32.345 million.
+
+                                                                                Other Income
+3. Other income                                                                 Sponsorships relate to support received for the Get Ready
+                                                                                Queensland (GRQ) 2022–23 and 2021–22 programs under a
+Sponsorships                                               400           400    sponsorship agreement with the Suncorp Group.		
+
+
+Other                                                        –              1
+
+Total                                                      400           401
+
+                                                                                Grants expenses
+4. Grant expenses                                                               Grants made by QRA are done in accordance with an agreement
+                                                                                between QRA and the recipient and are non-reciprocal in nature.
+Disaster recovery grants                              1,259,235      746,670    Grants are treated as an expense when payable as the recipient
+                                                                                obtains the right to receive at that point. The agreement allows for
+                                                                                an advance of grant monies prior to the approval of projects. All
+Other grants                                             34,757       26,192    grants are required to be spent in accordance with the agreement
+                                                                                and relevant grant program requirements. Disaster recovery grants
+                                                                                disclosed in this note comprise of DRFA, and its predecessor NDRRA
+Total                                                 1,293,992      772,862    arrangements.
+
+                                                                                Other grants comprise of State and Commonwealth grant funding
+                                                                                programs for recovery and resilience initiatives linked to natural
+ Disaster Recovery Grants – State Departments and Agencies (SDAs)               disasters, including GRQ, RRG, NFMIP, NQNDMP, QDRF, QRRRF and
+                                                                                other state funded recovery and resilience projects.
+ and Non-Government Organisations (NGOs)
+                                                                                Grant expenses include grant advances and grants for expenditure
+ Department of Transport & Main Roads                   132,059       99,706    incurred on approved projects.
+                                                                                For the purposes of these financial statements grants made to State
+Queensland Rural & Industry Development Authority        88,192       98,300    Departments and Agencies before the Machinery of Government
+                                                                                change effective 18 May 2023 are reported under their new names.
+Department of Treaty, Aboriginal and Torres Strait
+                                                         53,731        31,885
+Islander Partnerships, Communities and the Arts
+
+ Department of Energy and Public Works                  30,964            33
+
+ Department of Tourism, Innovation and Sport             27,257        1,807
+
+ Queensland Fire and Emergency Services                  11,452        2,589
+
+ Department of Environment and Science                   10,879        21,411
+
+ Department of Health                                     4,975         3,313
+
+ Department of Agriculture and Fisheries                  1,502         (753)
+ Department of Youth Justice, Employment, Small
+                                                          1,409        2,691
+ Business and Training
+
+ Queensland Police Service                                1,055           24
+
+ Department of Resources                                    211            –
+
+ Queensland Ambulance Service                               157           17
+
+ Other                                                       53           37
+
+ Total                                                 363,896       261,060
+
+                                  30 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Queensland Reconstruction Authority
+Notes to and forming part of the Financial Statements
+For the year ended 30 June 2023
+
+
+
+
+4. Grant expenses (cont'd)
+Disaster Recovery Grants –                        2023        2022                                                     2023      2022
+Local Governments                                $'000        $'000                                                   $'000      $'000
+
+Aurukun Shire Council                              1,878       1,785     Lockyer Valley Regional Council               22,615     1,972
+Balonne Shire Council                             29,176      26,666     Logan City Council                           18,360      2,208
+Banana Shire Council                              18,356       5,329     Longreach Regional Council                    12,263     9,506
+Barcaldine Regional Council                        5,977       5,570     Mackay Regional Council                          63        613
+Barcoo Shire Council                               4,127       6,171     Mapoon Aboriginal Shire Council                 903        291
+Blackall-Tambo Regional Council                    9,789       7,394     Maranoa Regional Council                     30,400      4,914
+Boulia Shire Council                               4,581       7,241     Mareeba Shire Council                         11,095     7,405
+Brisbane City Council                             101,111     10,300     McKinlay Shire Council                        9,387      6,989
+Bulloo Shire Council                               5,194       4,027     Moreton Bay Regional Council                 24,825      1,328
+Bundaberg Regional Council                         1,097          –      Mornington Shire Council                       3,043     4,361
+Burdekin Shire Council                               338         331     Mount Isa City Council                        8,300      5,704
+Burke Shire Council                               12,234       6,716     Murweh Shire Council                          4,292      3,074
+Cairns Regional Council                              122       1,053     Napranum Aboriginal Shire Council              1,582     1,986
+Carpentaria Shire Council                         36,387      33,009     Noosa Shire Council                           25,775     1,300
+Cassowary Coast Regional Council                   3,654       6,276     North Burnett Regional Council                2,995      1,300
+Central Highlands Regional Council                 2,443        584      Northern Peninsula Area Regional Council      3,640      1,182
+Charters Towers Regional Council                  19,751      36,859     Palm Island Aboriginal Shire Council           3,279     3,545
+Cherbourg Aboriginal Shire Council                   374          –      Paroo Shire Council                           8,845     13,428
+Cloncurry Shire Council                            8,325       4,946     Pormpuraaw Aboriginal Shire Council              16      3,060
+Cook Shire Council                                55,129      45,171    Quilpie Shire Council                          15,139     9,655
+Croydon Shire Council                             10,747      14,804     Redland City Council                             155      306
+Diamantina Shire Council                           4,948       3,569     Richmond Shire Council                         6,747     1,938
+Doomadgee Aboriginal Shire Council                 5,891       2,129     Rockhampton Regional Council                    188         –
+Douglas Shire Council                              3,260       5,660    Scenic Rim Regional Council                    17,953     6,793
+Etheridge Shire Council                           26,133      12,348    Somerset Regional Council                      14,624     1,428
+Flinders Shire Council                             1,870       2,172    South Burnett Regional Council                 12,782     4,944
+Fraser Coast Regional Council                     6,869        2,926    Southern Downs Regional Council                19,481     3,835
+Gladstone Regional Council                        2,890         397     Sunshine Coast Regional Council                17,855     1,707
+Gold Coast City Council                            3,624       3,449    Tablelands Regional Council                        –      3,001
+Goondiwindi Regional Council                       8,769      24,566    Toowoomba Regional Council                    45,862     13,336
+Gympie Regional Council                           17,482       1,300    Torres Shire Council                             408      2,542
+Hinchinbrook Shire Council                         4,356      10,038    Torres Strait Island Regional Council           2,811     1,364
+Hope Vale Aboriginal Shire Council                 3,114       1,173    Townsville City Council                        2,962        757
+Ipswich City Council                             46,966        1,595    Western Downs Regional Council                 37,322    12,458
+Isaac Regional Council                             1,314       1,959    Whitsunday Regional Council                    23,178    25,390
+Kowanyama Aboriginal Shire Council                 4,883       8,227    Winton Shire Council                           6,895      7,324
+Livingstone Shire Council                           926           –     Wujal Wujal Aboriginal Shire Council             126         27
+Lockhart River Aboriginal Shire Council            5,021       7,726    Yarrabah Aboriginal Shire Council                 67      1,173
+                                                                        Total                                        895,339    485,610
+                                                                        Total Disaster recovery grants              1,259,235   746,670
+
+
+
+
+                                      31 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Queensland Reconstruction Authority
+Notes to and forming part of the Financial Statements
+For the year ended 30 June 2023
+
+
+
+                                                   2023           2022
+                                                  $'000           $'000
+                                                                           Wages and Salaries
+ 5. Employee expenses                                                      Wages and salaries due but unpaid at reporting date are recognised in the
+                                                                           Statement of Financial Position at the current salary rates. As QRA expects
+ Employee benefits                                                         such liabilities to be wholly settled within 12 months of reporting date, the
+                                                                           liabilities are recognised at undiscounted amounts.
+
+ Wages and salaries                               12,659           9,732   Sick leave entitlements are non-vesting and are only paid upon valid claims
+                                                                           for sick leave by employees. Sick leave expense is expensed in the reporting
+                                                                           period in which the leave is taken by the employee.
+ Annual leave levy                                 1,294           1,052
+                                                                           Annual and Long Service Leave
+ Long service leave levy                            342             247    Under the Queensland Government’s Annual and Long Service Leave
+                                                                           Schemes, a levy is made on QRA to cover the cost of employees’ annual
+                                                                           (including leave loading and on-costs) and long service leave. The levies
+ Employer superannuation contributions             1,693           1,285   are expensed in the period in which they are payable. Amounts paid to
+                                                                           employees for annual and long service leave are claimed from the scheme
+ Board fees                                          139            154    quarterly in arrears.
+
+
+ Other employee benefits                             173            126    Employer Superannuation Contributions
+                                                                           Contributions to superannuation funds are recorded as they become payable
+                                                                           and QRA’s legal or constructive obligation is limited to these contributions.
+                                                 16,300           12,596
+                                                                           Employee related expenses
+                                                                           Payroll tax, workers’ compensation insurance and fringe benefit tax (FBT)
+                                                                           are consequences of employing employees, but are not counted in an
+ Employee related expenses                                                 employee’s total remuneration package. They are not employee benefits and
+                                                                           are recognised separately as employee related expenses. QRA pays workers
+ Payroll tax                                        840             606    compensation insurance premiums to WorkCover in Queensland in respect
+                                                                           of its obligations for employee compensation.
+
+ Other employee related expenses                     137             111
+
+                                                    977              717
+
+                                           I
+ Total                                            17,277          13,313
+
+
+
+
+The number of employees including both full-time employees and
+part-time employees measured on a full-time equivalent basis at
+30 June 2023 is:		
+
+
+                                                    No.            No.
+
+ QRA employees                                      124             90
+
+ Total                                              124             90
+
+
+
+
+                                  32 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Queensland Reconstruction Authority
+Notes to and forming part of the Financial Statements
+For the year ended 30 June 2023
+
+
+
+6. Key management personnel and remuneration
+(a) Key management personnel
+QRA’s responsible Minister is identified as part of QRA’s key management personnel (KMP). QRA’s responsible Minister has been the
+Deputy Premier and Minister for State Development, Infrastructure, Local Government and Planning since 12 November 2020.
+The following details for non-Ministerial KMP reflect those agency positions that had authority and responsibility for planning,
+directing and controlling the activities of the agency during 2022–23.
+               Responsibilities under the           Contract classification
+                                                                                                        Date appointed to/
+Position       Queensland Reconstruction            and appointment            Name
+                                                                                                        or ceased from position
+               Authority Act 2011                   authority
+Chief          Undertake or commission              Appointed by
+Executive      investigations to ensure             Governor in Council,       Brendan Moon             Ceased 30/09/2022
+Officer        the correct processes are            s14 Queensland
+(CEO)          adhered to in the rebuilding         Reconstruction Authority
+               and recovery of affected             Act 2011                                            Appointed as Acting
+                                                                               Jimmy Scott
+               Queensland communities;                                                                  CEO 01/10/2022 to 19/03/2023
+               make recommendations to
+               the Minister; and ensure QRA
+               performs its functions effectively                              Jake Ellwood             Appointed 20/03/2023
+               and efficiently.
+Chairperson    Leading and directing the            Appointed by
+               activities of the board to ensure    Governor in Council,
+               the board performs its functions     s30 Queensland             Michael Walsh            Reappointed 01/01/2023
+               appropriately.                       Reconstruction Authority
+                                                    Act 2011
+Board          Set the strategic priorities for     Appointed by               Margaret de Wit          Ceased 31/12/2022
+Members        QRA; make recommendations            Governor in Council,       Anne Swinbourne          Ceased 05/10/2022
+               to the Minister; and ensure          s30 Queensland             Belinda Murphy           Ceased 31/12/2022
+               QRA performs its functions           Reconstruction Authority
+                                                                               Stephan Gollschewski     Ceased 09/01/2023
+               and exercises its powers in          Act 2011
+               an appropriate, effective and                                   Kirsty Kelly             Reappointed 01/01/2023
+               efficient way.                                                  Louise Abell             Reappointed 01/01/2023
+                                                                               Robert Glasser           Reappointed 01/01/2023
+                                                                               Greg Hallam              Appointed 01/01/2023
+                                                                               Shane Chelepy            Appointed 09/01/2023
+
+(b) Remuneration
+Ministerial remuneration entitlements are outlined in the Legislative Assembly of Queensland’s Members’ Remuneration Handbook.
+QRA does not bear any cost of remuneration of Ministers. The majority of Ministerial entitlements are paid by the Legislative Assembly,
+with the remaining entitlements being provided by Ministerial Services Branch within the Department of the Premier and Cabinet. As
+all Ministers are reported as KMP of the Queensland Government, aggregate remuneration expenses for all Ministers is disclosed in
+the Queensland General Government and Whole of Government Consolidated Financial Statements which are published as part of
+Queensland Treasury’s Report on State Finances.
+Remuneration for QRA's non-Ministerial KMP is set by the Governor in Council.
+Remuneration packages for KMP comprise the following components:
+• Short term employee expenses which include:
+   – Monetary Expenses: consisting of base salary, allowances and leave entitlements earned and expensed (including levies
+     payable) for the entire year or for that part of the year during which the employee occupied the specified position. Amounts
+     disclosed equal the amount expensed in the Statement of Comprehensive Income.
+   – Non-Monetary Expenses: consisting of provision of vehicle together with fringe benefits tax applicable to the benefit.
+• Long term employee expenses include amounts expensed in respect of long service leave entitlements earned;
+• Post-employment expenses include superannuation contributions;
+• Termination benefits are not provided for within individual contracts of employment. Contracts of employment provide only for
+  notice periods or payment in lieu of notice on termination, regardless of the reason for termination;
+• No performance bonuses are paid.
+
+
+
+                                  33 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Queensland Reconstruction Authority
+Notes to and forming part of the Financial Statements
+For the year ended 30 June 2023
+
+
+
+ 6. Key management personnel and remuneration (cont'd)
+ (b) Remuneration (cont'd)
+ The following disclosures focus on the expenses incurred by QRA that is attributable to key management positions during the respective
+ reporting periods. Therefore, the amounts disclosed reflect expenses recognised in the Statement of Comprehensive Income.
+ 2022–23
+                                                                                          Long Term      Post
+                                                                  Short Term                                       Termination     Total
+                                                                                          Employee    Employment
+                                                               Employee Expenses                                     Benefits    Expenses
+                                                                                          Expenses     Expenses
+          Position                      Name                                     Non-
+                                                            Monetary           Monetary
+                                                            Expenses           Expenses
+                                                              $'000              $'000     $'000        $'000        $'000        $'000
+ Chief Executive Officer1       Brendan Moon                    120               –          3            13           –           136
+ Chief Executive Officer2       Jimmy Scott                     177               –          4            16           –           197
+ Chief Executive Officer3       Jake Ellwood                    123               –          3            13           –           139
+ Chairperson    4
+                                Michael Walsh                   82                –          –            9            –           91
+ Board Member       5
+                                Margaret de Wit                  6                –          –            1            –            7
+ Board Member                   Louise Abell                    12                –          –            1            –            13
+ Board Member                   Robert Glasser                  12                –          –            1            –            13
+ Board Member                   Kirsty Kelly                    12                –          –            1            –            13
+ Board Member       5
+                                Belinda Murphy                   6                –          –            1            –            7
+ Board Member6                  Anne Swinbourne                  3                –          –            1            –            4
+ Board Member7                  Greg Hallam                      6                –          –            1            –            7
+ Total                                                         559                –          10          58            –           627
+ 1. Ceased 30/09/2022										
+ 2. Appointed as Acting CEO on 01/10/2022 to 19/03/2023
+ 3. Appointed 20/03/2023										
+ 4. Ceased 21/07/2023. New Acting Chairperson, Shane Chelepy, appointed 10/08/2023
+ 5. Ceased 31/12/2022										
+ 6. Ceased 05/10/2022										
+ 7. Appointed 01/01/2023										
+ Stephan Gollschewski and Shane Chelepy were not remunerated as they are Public Sector employees.
+ 2021–22
+                                                                                          Long Term      Post
+                                                                  Short Term                                       Termination     Total
+                                                                                          Employee    Employment
+                                                               Employee Expenses                                     Benefits    Expenses
+                                                                                          Expenses     Expenses
+          Position                      Name                                     Non-
+                                                            Monetary           Monetary
+                                                            Expenses           Expenses
+                                                              $'000              $'000     $'000        $'000        $'000        $'000
+ Chief Executive Officer        Brendan Moon                    416               –          10          50            –           476
+ Chairperson                    Michael Walsh                   82                –          –            8            –           90
+ Board Member                   Margaret de Wit                 12                –          –            1            –            13
+ Board Member                   Louise Abell                    12                –          –            1            –            13
+ Board Member                   Robert Glasser                  12                –          –            1            –            13
+ Board Member                   Kirsty Kelly                    12                –          –            1            –            13
+ Board Member                   Belinda Murphy                  12                –          –            1            –            13
+ Board Member                   Anne Swinbourne                 12                –          –            1            –            13
+ Total                                                          570               –          10          64            –           644
+ Stephan Gollschewski was not remunerated as he is a Public Sector employee.
+
+                                        34 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Queensland Reconstruction Authority
+Notes to and forming part of the Financial Statements
+For the year ended 30 June 2023
+
+
+
+
+                                                   2023         2022
+                                                  $'000         $'000
+
+ 7. Supplies and services
+                                                                        Contractors		
+ Contractors                                     18,297        15,650   Contractors employed through labour hire agencies are not classified as
+                                                                        employees. There is no contractual relationship between the entity and the
+ ICT managed services                             4,078         1,835   individual in the arrangement and are classified as supplies and services.		
+
+                                                                        Occupancy costs		
+ Occupancy costs                                   1,702        1,037   Occupancy costs include QRA’s operating lease rental. The payments for this
+                                                                        operating lease are representative of the pattern of benefits derived from the
+ Travel                                             800          608    leased asset and are expensed in the periods in which they are incurred.		
+
+
+ Supplies and consumables                         1,644         1,521
+
+ Other supplies and services                        547         1,662
+
+ Total                                           27,068        22,313
+
+
+                                                                        Depreciation and Amortisation		
+ 8. Depreciation and amortisation                                       Depreciation is principally related to office equipment and hardware.
+                                                                        Amortisation is related to internally developed software for QRA’s grant
+ Depreciation                                        12            57   management system. The software has a useful life of 5 years. Amortisation is
+                                                                        calculated on a straight line basis over the estimated useful life of the asset.
+                                                                        Straight line amortisation is used reflecting the expected consumption of
+ Amortisation                                      1,503        1,201   economic benefit on a progressive basis over the intangible’s useful life. The
+                                                                        residual value of the intangible asset is zero. 		
+
+ Total                                             1,515        1,258
+
+                                                                        Audit and other assurance services fees		
+ 9. Other expenses                                                      Total audit fees quoted by the Queensland Audit Office (QAO) relating to
+                                                                        the audit of the 2022–23 financial statements of QRA is $42,000 (2021–22:
+ Audit and other assurance fees - external          543           530   $41,000) and for the audit of the 2021–22 Commonwealth NDRRA / DRFA
+                                                                        Certificate which occurred in 2022–23 was $183,475 (2021–22: $179,000).
+                                                                        Other assurance services fees relating to the assurance engagement on
+ Total                                              543           530   controls of the DRFA Management system was $317,750 (2021–22: $310,000).
+
+
+
+                                                                        Cash and cash equivalents		
+ 10. Cash and cash equivalents                                          For the purposes of the Statement of Financial Position and the Statement
+                                                                        of Cash Flows, cash assets include all cash and cheques receipted but not
+ Cash at bank - Grant account                        17        54,348   banked at 30 June 2023.
+                                                                        Grant funds are held in a separate bank account to operating funds. As advised
+                                                                        by Queensland Treasury, this account is within the whole of Government
+ Cash at bank - Operating accounts               21,070        17,540   offset facility with the Queensland Treasury Corporation and interest earned is
+                                                                        credited to State Consolidated Funds rather than QRA. QRA is not exposed to
+                                                                        interest rate risk as all interest earned is credited to State Consolidated Funds.
+ Total                                           21,087        71,888
+
+                                                                        Receivables		
+ 11. Receivables                                                        Receivables are recognised at the amounts due at the time of service delivery.
+                                                                        Settlement of these amounts is generally required within 30 days from invoice
+ GST receivable                                  14,496        12,063   date.
+                                                                        Credit risk exposure of receivables
+ Trade receivables                                     1           21   The maximum exposure to credit risk at balance date for receivables is
+                                                                        the gross carrying amount of those assets inclusive of any provision for
+                                                                        impairment. No receivables impairment loss has been recognised in the
+ Annual leave reimbursements                        323           223   2022‑23 financial year. No receivables are past due or impaired.
+
+
+ Long service leave reimbursements                   40            24
+
+ Total                                           14,860        12,331
+
+
+                                                                        Other Current Assets		
+ 12. Other Current Assets                                               Payments for goods and services which are to be provided in future periods are
+                                                                        recognised as prepayments.
+ Prepayments                                        528           450
+
+ Total                                              528           450
+
+
+
+
+                                  35 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Queensland Reconstruction Authority
+Notes to and forming part of the Financial Statements
+For the year ended 30 June 2023
+
+
+
+
+                                                   2023         2022
+                                                  $'000         $'000
+
+                                                                         Property, plant and equipment		
+13. Property, plant and equipment
+                                                                         Property, plant and equipment are measured at historical cost. Items of
+                                                                         property, plant and equipment with a cost equal to or in excess of $5,000 are
+Plant and equipment                                                      recognised for financial reporting purposes in the year of acquisition. Items
+                                                                         with a lesser value are expensed.
+At cost                                              29            29
+
+Less: Accumulated depreciation                      (22)          (20)
+
+
+                                                                         Furniture and fittings		
+Furniture and fittings                                                   QRA undertook a partial office refurbishment during the 2019–20 Financial
+                                                                         Year to increase floor capacity in its tenancy at 400 George Street on level 13 for
+At cost                                                5          282    a capitalised cost of $276,465 depreciated within the remaining lease period.
+                                                                         In August 2022, QRA ceased its tenancy of level 13 early resulting in the write-
+                                                                         off of the $110,009 residual carrying value of the capitalised refurbishment
+Less: Accumulated depreciation                       (1)         (157)   costs.
+
+Total                                                 11          134
+
+
+                                                                         Intangibles
+14. Intangibles                                                          Intangible assets with a historical cost or other value equal to or greater than
+                                                                         $100,000 are recognised in the financial statements, whereas items with a
+Software: internally generated                                           lesser value are expensed.
+                                                                         Intangible assets comprise of internally developed software for QRA’s grant
+                                                                         management system. There is no active market for this intangible asset
+At cost                                            5,640        5,640    so the asset is recognised and carried at historical cost less accumulated
+                                                                         amortisation and accumulated impairment losses.
+Less: Accumulated amortisation                   (5,091)       (3,588)   Expenditure on research or training activities relating to internally-generated
+                                                                         intangible assets is recognised as an expense in the period in which it is
+                                                                         incurred.
+Total                                               549         2,052    The useful lives of intangible assets are assessed to be finite. Intangible assets
+                                                                         are tested for impairment where an indicator of impairment exists. Principally,
+                                                                         the intangible asset is assessed for impairment by reference to the actual and
+                                                                         expected continuing use of the asset by QRA, including discontinuing the use
+                                                                         of the software.
+15. Payables
+                                                                         Payables
+Trade creditors                                   2,260           834    Trade creditors are recognised for amounts payable in the future for goods
+                                                                         and services received, whether or not billed to QRA and are measured at the
+Other payables                                       176          604    agreed purchase/contract price, gross of applicable trade and other discounts.
+                                                                         Amounts owing are generally unsecured, not subject to interest charges and
+                                                                         are normally settled within 20 to 30 days of invoice receipt.
+Total
+                                           I      2,436         1,438
+
+
+                                                                         Accrued employee benefits
+16. Accrued employee benefits                                            No provision for annual leave or long service leave is recognised in QRA’s
+                                                                         financial statements as the liability is held on a whole-of-government basis
+Current accrued employee benefits                                        and reported in those financial statements pursuant to AASB 1049 Whole of
+                                                                         Government and General Government Sector Financial Reporting.
+
+Annual leave levy payable                           410           292
+
+Long service leave levy payable                      105           77
+
+Total                                                515          369
+
+
+
+
+                                  36 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Queensland Reconstruction Authority
+Notes to and forming part of the Financial Statements
+For the year ended 30 June 2023
+
+
+
+
+                                                   2023         2022
+                                                  $'000         $'000
+
+                                                                         Contributed equity
+17. Contributed Equity
+                                                                         The contribution of equity relates to $1.739 million transferred to QRA in
+                                                                         2018 in relation to QRA assuming responsibility for administering the Natural
+Net transfer in from other Queensland                                    Disaster Resilience Program (NDRP). The contribution related to savings
+                                                                         realised in prior year programs.
+Government entity                                  1,739         1,739
+
+Total                                              1,739        1,739
+
+
+18. Reconciliation of operating result to
+net cash flow from operating activities
+
+(Loss)/Profit for the year                      (50,964)       44,133
+
+
+Non-cash items included in
+operating result:
+
+Depreciation and amortisation expense              1,515        1,258
+
+Impairment loss                                      110            –
+
+Changes in assets and liabilities:
+
+Decrease/(Increase) in receivables               (2,529)       (4,555)
+
+Decrease/(Increase) in other current
+                                                    (78)          (44)
+assets
+
+(Decrease)/Increase in payables                     998           218
+
+(Decrease)/Increase in accrued
+                                                     147           15
+employee benefits
+
+                                                                         QRA received grant advance funding from Queensland Treasury in 2010–11,
+Net cash (Used)/Provided in operating                                    2011–12, 2013–14, 2016–17, 2019–20 and 2021–22 resulting in surpluses
+                                                (50,801)       41,025
+activities                                                               reported in the financial statements for those years. The losses for 2017–18,
+                                                                         2018–19, 2020–21 and 2022–23 were funded from the prior year surpluses.
+
+
+
+19. Commitments
+
+Non-cancellable operating lease
+
+Commitments under operating leases at reporting date are
+inclusive of non-recoverable GST and are payable as follows:
+                                                                         Operating leases are entered into as a means of acquiring access to office
+Not later than one year                            2,041         1,198   accommodation. In August 2022, QRA varied its office lease at 400 George
+                                                                         Street by ceasing part tenancy of Level 13 and taking on a second full floor
+                                                                         tenancy resulting in an increase in commitments commensurate with the
+Later than one year and not later than                                   additional floor space. The Operating lease terms expire in December 2026.
+                                                   5,504        4,645
+five years                                                               Lease payments are fixed with annual escalation of 3.5% in January of each
+                                                                         year.
+Total                                              7,545        5,843
+
+
+
+
+                                  37 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Queensland Reconstruction Authority
+Notes to and forming part of the Financial Statements
+For the year ended 30 June 2023
+
+
+
+20. Related Parties
+Transactions with other Queensland Government-controlled entities
+QRA’s predominate source of funding is grant funding from Queensland Treasury made through DSDILGP (refer Note 2).
+Disaster recovery grants are made to various Queensland Government controlled entities (refer Note 4).
+QRA makes payments to Queensland Government controlled entities for general operating expenditure. Examples of this expenditure
+include officer interchange costs, payroll tax, workers compensation premiums, payments for payroll services provided, and occupancy
+costs. These payments are made based on agreed terms and are consistent with the terms provided to other government entities.
+21. Events after the end of the reporting period
+No matters or circumstances have arisen since the end of the financial year which significantly affected or could significantly affect the
+operations of QRA, the results of those operations, or the state of affairs of QRA in future financial years.
+22. Other information
+Taxation
+QRA is exempt from income tax under the Income Tax Assessment Act 1936 and is exempted from other forms of Commonwealth
+taxation with the exception of FBT and GST. GST credits receivable from, and GST payable to, the Australian Taxation Office (ATO) are
+recognised (refer to Note 11).
+Revenues, expenses and assets are recognised net of the amount of GST, except where the amount of GST incurred is not recoverable
+from the ATO. In these circumstances the GST is recognised as part of the cost of acquisition of the asset or as part of an item of
+expense. Receivables and payables in the Statement of Financial Position are shown inclusive of GST.
+Insurance
+QRA’s non-current physical assets and other risks are insured through the Queensland Government Insurance Fund, premiums being
+paid on a risk assessment basis.
+Financial Instruments
+QRA’s activities expose it to limited financial risk. QRA has implemented a financial risk management framework that seeks to minimise
+potential adverse effects on the financial performance of QRA.
+QRA’s financial instruments comprise of Receivables and Payables. QRA does not enter into transactions for speculative purposes, nor
+for hedging.
+Financial assets and liabilities are recognised in the Statement of Financial Position when QRA becomes party to the contractual
+provisions of the financial instrument, and are held at amortised cost.
+QRA does not recognise any financial assets and liabilities at fair value. The fair value of Receivables and Payables is assumed to
+approximate the value of the original transaction.
+Climate Risk
+QRA has not identified any material climate related risks relevant to the financial report at the reporting date, however QRA continues
+to monitor the emergence of such risks under the Queensland Government’s Climate Transition Strategy and Climate Action Plan 2030.
+
+
+
+
+                                  38 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Queensland Reconstruction Authority
+Notes to and forming part of the Financial Statements
+For the year ended 30 June 2023
+
+
+
+
+23. Budget vs actual comparison
+
+Statement of Comprehensive Income
+
+                                                              Budget          Actual       Variance
+                                            Variance                                                      Variance
+                                                                2023           2023          $'000
+                                              Note                                                     % of Budget
+                                                               $'000          $'000
+
+Income
+
+Grant revenue                                   v1         1,499,235       1,289,141      (210,094)            -14%
+
+Other revenue                                                    400             400               –            0%
+
+Total income                                               1,499,635       1,289,541      (210,094)            -14%
+
+
+
+Expenses
+
+Grant expenses                                  v2         1,456,827      1,293,992         162,835             11%
+
+Employee expenses                               v3            20,633          17,277           3,356           16%
+
+Supplies and services                           v4            20,459          27,068         (6,609)           -32%
+
+Depreciation and amortisation                                   1,104           1,515          (411)           -37%
+
+Other expenses                                                   612             543              69            11%
+
+Impairment Loss                                                     –            110           (110)          100%
+
+Total expenses                                             1,499,635       1,340,505        159,130             11%
+
+Operating result for the year                                       –       (50,964)       (50,964)           100%
+
+Total comprehensive loss for the year                               –       (50,964)       (50,964)           100%
+
+
+
+ Explanations of major variances
+
+  v1     The decrease in grant revenue is due to a reduction in grants income required to fund the lower level of
+         grants and subsidies expenditure.
+  v2     The decrease in grant expenses is mainly due to delivery of some of the 2021–22 flooding events’ DRFA
+         recovery programs shifting from 2022–23 into 2023–24 as programs have been established and rolled
+         out.
+  v3     The decrease in employee expenses is due to lower levels of full-time equivalents compared to budget as
+         QRA’s budgeted staff assumed a stepped uplift of 30 employees for the full financial year to support the
+         surge in operating requirements following the 2022 South-East Queensland Rainfall and Flooding Event.
+         Rather than being in place for the entire financial year, the increase in employees occurred gradually
+         across the year resulting in lower than budgeted employee expenses.
+  v4     The increase in supplies and service costs is due to higher levels of contractors required during the year
+         as a result of a surge in operating activities following the South-East Queensland Rainfall and Flooding
+         Event. This increase included expenditure to deliver and administer the Resilient Homes Fund – Voluntary
+         Home Buy-Back Program and Flood Risk Management projects, the costs of which have been recovered
+         through Disaster Recovery Funding Arrangements. Neither the cost or related recoveries of these program
+         costs were included in budget.
+
+
+
+
+                                  39 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Queensland Reconstruction Authority
+Notes to and forming part of the Financial Statements
+For the year ended 30 June 2023
+
+
+
+
+23. Budget vs actual comparison (cont'd)
+
+Statement of Financial Position
+
+                                                             Budget          Actual      Variance
+                                            Variance                                                    Variance
+                                                               2023           2023         $'000
+                                              Note                                                   % of Budget
+                                                              $'000          $'000
+
+Current assets
+Cash and cash equivalents                      v5            33,093          21,087       (12,006)          -36%
+Receivables                                    v6              7,781         14,860          7,079           91%
+Other current assets                                            406             528           122            30%
+
+
+Total current assets                                         41,280          36,475        (4,805)          -12%
+
+
+Non-current assets
+Property, plant and equipment                                    169              11         (158)          -93%
+Intangibles                                                    1,046            549          (497)          -48%
+
+
+Total non-current assets                                       1,215            560          (655)          -54%
+Total assets                                                 42,495          37,035        (5,460)          -13%
+
+
+Current liabilities
+Payables                                                       1,227          2,436        (1,209)           99%
+Accrued employee benefits                                        354             515         (161)           46%
+
+
+Total current liabilities                                      1,581          2,951        (1,370)           87%
+Total liabilities                                              1,581          2,951        (1,370)           87%
+Net assets                                                   40,914          34,084       (6,830)           -17%
+
+
+Equity
+Accumulated surplus                                           39,175         32,345        (6,830)          -17%
+Contributed equity                                             1,739          1,739              –            0%
+
+
+Total equity                                                 40,914          34,084       (6,830)           -17%
+
+
+
+ Explanations of major variances
+
+  v5     Cash and Cash Equivalents are less than budget principally due to grant expenditure exceeding grant
+         income for the year. The excess grant expenditure is mainly due to the timing of the grant payments made
+         and partially offsets the underspend of grant payments made in the prior financial year.
+  v6     Receivables is more than expected as a result of timing for GST refundable.
+
+
+
+
+                                  40 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Queensland Reconstruction Authority
+Notes to and forming part of the Financial Statements
+For the year ended 30 June 2023
+
+
+
+
+23. Budget vs actual comparison (cont'd)
+
+Statement of Cash Flows
+
+                                                                             Budget          Actual       Variance
+                                                           Variance                                                      Variance
+                                                                               2023           2023          $'000
+                                                             Note                                                     % of Budget
+                                                                              $'000          $'000
+
+Cash flows from operating activities
+
+Inflows:
+
+Grants                                                         v7         1,499,235       1,289,141      (210,094)               -14%
+
+Other (including GST refunded from ATO and collected
+                                                               v8              2,577       130,246         127,669          4954%
+from customers)
+
+
+Outflows:
+
+Employee costs                                                 v9          (20,633)         (17,247)         3,386               -16%
+
+Supplies and services (including GST paid to suppliers)       v10           (22,543)      (158,406)       (135,863)          603%
+
+Grants                                                        v11        (1,456,827)    (1,293,992)        162,835               -11%
+
+Other                                                                          (705)          (543)            162            -23%
+
+Net cash provided/(used in) operating activities                               1,104       (50,801)        (51,905)        -4702%
+
+
+Cash flows from financing activities
+
+Inflows:
+
+Equity contribution                                                                –              –               –               0%
+
+Net cash provided by investing activities                                          –              –               –               0%
+
+Net increase/(decrease) in cash and cash equivalents                           1,104       (50,801)        (51,905)        -4702%
+
+Cash and cash equivalents at beginning of reporting
+                                                                             31,989         71,888          39,899           125%
+period
+
+Cash and cash equivalents at end of reporting period                         33,093          21,087        (12,006)          -36%
+
+
+
+ Explanations of major variances
+
+  v7       The decrease in grant revenue is due to a reduction in grants income required to fund the lower level of grants and
+           subsidies expenditure.
+  v8       The increase in other inflows is because the budget did not account for gross GST receipts from the ATO. This increase
+           is offset by GST paid to suppliers, recorded within Supplies and Services.
+  v9       The decrease in employee costs is due to lower levels of full-time equivalents compared to budget as QRA’s
+           budgeted staff assumed a stepped uplift of 30 employees for the full financial year to support the surge in operating
+           requirements following the 2022 South-East Queensland Rainfall and Flooding Event. Rather than being in place for
+           the entire financial year, the increase in employees occurred gradually across the year resulting in lower than budgeted
+           employee costs.
+  v10      The increase in supplies and services is due to the budget not including allowance for gross GST payments to
+           suppliers. This increase is offset by GST refunded from the ATO, recorded within Other Inflows.
+  v11      The decrease in grant expenses is mainly due to delivery of some of the 2021–22 flooding events’ DRFA recovery
+           programs shifting from 2022–23 into 2023–24 as programs have been established and rolled out.
+
+
+
+
+                                  41 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+CERTIFICATE OF THE QUEENSLAND RECONSTRUCTION AUTHORITY
+
+
+
+These general purpose financial statements have been prepared ·pursuant to the provisions of section 62(1) of the Financial
+Accountabil/tY Act 2009 (the Act), section 39 of the Financial and Performance Management Standard 2019 and other prescribed
+requirements. In accordance with section 62(1)(b) of the Act we certify that in our opinion:
+
+
+
+(i)    the prescribed requirements for establishing and keeping the accounts have been complied with in all material respects; and
+
+
+
+(ii)   the statements have been drawn up to present a true and fair view, in accordance with prescribed accounting standards, of
+       the transactions of QRA for the financial year ended 30 June 2023 and of the financial position of QRA at the end of that year;
+       and
+
+
+
+We acknowledge responsibility under sections 7 and 11 of the Financial and Performance Management Standard 2019 for the
+establishment and mainten nee, in all material respects, of an appropriate and effective system of internal controls and risk
+management processes     h respect to financial reporting throughout the reporting period.
+
+
+
+
+Major General Jake Ellwood (Retd)                                          Deputy Commissioner Shane Chelepy
+Chief Executive Officer                                                    Acting Chairperson
+
+
+Queensland Reconstruction Authority                                        Queensland Reconstruction Authority
+
+
+Date: 15 August 2023                                                       Date: 15 August 2023
+
+
+
+
+                             42 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Independent
+Auditor’s Report
+
+
+
+
+ 43 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+•   Queensland
+• • Audit Office
+          Better public services
+
+
+                                   INDEPENDENT AUDITOR'S REPORT
+
+
+To the Board of Queensland Reconstruction Authority
+
+Report on the audit of the financial report
+Opinion
+I have audited the accompanying financial report of Queensland Reconstruction Authority.
+In my opinion, the financial report:
+a)    gives a true and fair view of the entity's financial position as at 30 June 2023, and its
+      financial performance and cash flows for the year then ended
+b)    complies with the Financial Accountability Act 2009, the Financial and Performance
+      Management Standard 2019 and Australian Accounting Standards.
+The financial report comprises the statement of financial position as at 30 June 2023, the
+statement of comprehensive income, statement of changes in equity and statement of cash
+flows for the year then ended, notes to the financial statements including material accounting
+policy information, and the management certificate.
+Basis for opinion
+I conducted my audit in accordance with the Auditor-General Auditing Standards, which
+incorporate the Australian Auditing Standards. My responsibilities under those standards are
+further described in the Auditor's Responsibilities for the Audit of the Financial Report section
+of my report.
+I am independent of the entity in accordance with the ethical requirements of the Accounting
+Professional and Ethical Standards Board's APES 11 0 Code of Ethics for Professional
+Accountants (the Code) that are relevant to my audit of the financial report in Australia. I
+have also fulfilled my other ethical responsibilities in accordance with the Code and the
+Auditor-General Auditing Standards.
+I believe that the audit evidence I have obtained is sufficient and appropriate to provide a
+basis for my opinion.
+Responsibilities of the entity for the financial report
+The Board is responsible for the preparation of the financial report that gives a true and fair
+view in accordance with the Financial Accountability Act 2009, the Financial and
+Performance Management Standard 2019 and Australian Accounting Standards, and for
+such internal control as the Board determines is necessary to enable the preparation of the
+financial report that is free from material misstatement, whether due to fraud or error.
+The Board .is also responsible for assessing the entity's ·ability to continue as a going
+concern, disclosing, as applicable, matters relating to going concern and using the going
+concern basis of accounting unless it is intended to abolish the entity or to otherwise cease
+operations.
+
+
+
+
+                         44 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+•   Queensland
+• • Audit Office
+        Better public services
+
+Auditor's responsibilities for the audit of the financial report
+My objectives are to obtain reasonable assurance about whether the financial report as a
+whole is free from material misstatement, whether due to fraud or error, and to issue an
+auditor's report that includes my opinion. Reasonable assurance is a high level of assurance,
+but is not a guarantee that an audit conducted in accordance with the Australian Auditing
+Standards will always detect a material misstatement when it exists. Misstatements can arise
+from fraud or error and are considered material if, individually or in aggregate, they could
+reasonably be expected to influence the economic decisions of users taken on the basis of
+this financial report.
+As part of an audit in accordance with the Australian Auditing Standards, I exercise
+professional judgement and maintain professional scepticism throughout the audit. I also:
+•    Identify and assess the risks of material misstatement of the financial report, whether
+     due to fraud or error, design and perform audit procedures responsive to those risks,
+     and obtain audit evidence that is sufficient and appropriate to provide a basis for my
+     opinion. The risk of not detecting a material misstatement resulting from fraud is higher
+     than for one resulting from error, as fraud may involve collusion, forgery, intentional
+     omissions, misrepresentations, or the override of internal control.
+•    Obtain an understanding of internal control relevant to the audit in order to design audit
+     procedures that are appropriate in the circumstances. This is not done for the purpose
+     of forming an opinion on the effectiveness of the entity's internal controls, but allows
+     me to form an opinion on compliance with prescribed requirements.
+•    Evaluate the appropriateness of material accounting policy information used and the
+     reasonableness of accounting estimates and related disclosures made by the entity.
+•    Conclude on the appropriateness of the entity's use of the going concern basis of
+     accounting and, based on the audit evidence obtained, whether a material uncertainty
+     exists related to events or conditions that may cast significant doubt on the entity's
+     ability to continue as a going concern. If I conclude that a material uncertainty exists, I
+     am required to draw attention in my auditor's report to the related disclosures in the
+     financial report or, if such disclosures are inadequate, to modify my opinion. I base my
+     conclusions on the audit evidence obtained up to the date of my auditor's report.
+     However, future events or conditions may cause the entity to cease to continue as a
+     going concern.
+•    Evaluate the overall presentation, structure and content of the financial report, including
+     the disclosures, and whether the financial report represents the underlying transactions
+     and events in a manner that achieves fair presentation.
+I communicate with the Board regarding, among other matters, the planned scope and timing
+of the audit and significant audit findings, including any significant deficiencies in internal
+control that I identify during my audit.
+
+
+
+
+                     45 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+•   Queensland
+• • Audit Office
+         Better public services
+
+
+Statement
+In accordance with s.40 of the Auditor-General Act 2009, for the year ended 30 June 2023:
+a)    I received all the information and explanations I required.
+b)    I consider that, the prescribed requirements in relation to the establishment and
+      keeping of accounts were complied with in all material respects.
+Prescribed requirements scope
+The prescribed requirements for the establishment and keeping of accounts are contained in
+the Financial Accountability Act 2009, any other Act and the Financial and Performance
+Management Standard 2019. The applicable requirements include those for keeping financial
+records that correctly record and explain the entity's transactions and account balances to
+enable the preparation of a true and fair financial report.
+
+
+
+
+                                                                                           17 August 2023
+
+Vaughan Stemmett                                                                Queensland Audit Office
+as delegate of the Auditor-General                                                           Brisbane
+
+
+
+
+                        46 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Appendix 1
+
+Ministerial Directions
+Under Section 12(3)(a) of the QRA Act, QRA must include in its
+Annual Report details of any direction or notice given by the
+Minister during the financial year to which the report relates.
+To streamline processes and reduce administrative burden,
+QRA sought a Ministerial Direction to administer DRFA funding
+for the 2022–23 fiscal year, approved by the Deputy Premier on
+3 November 2022.
+
+
+
+
+                                 47 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Appendix 2
+
+Performance indicators and service standards
+Coordination of natural disaster recovery
+and resilience activities
+Service area objective                                                                               2022–23     2022–23      2023–24
+To support Queensland communities by coordinating rapid              Service standards                Target/       Est.       Target/
+restoration and recovery following natural disasters and                                                Est        Actual        Est
+undertaking activities that assist communities to build their
+resilience to future events, while demonstrating accountability in   Effectiveness measure
+the use of natural disaster and resilience funding.
+                                                                     Percentage of
+Description                                                          reconstruction projects
+QRA actively manages Queensland’s program of recovery and            completed within Disaster
+reconstruction works within disaster impacted communities            Recovery Funding
+to ensure timely reconstruction, value for money is achieved         Arrangements (DRFA)
+and expenditure claimed is eligible for Australian Government        required timeframes and
+reimbursement under the DRFA through:                                eligible for reimbursement
+                                                                     from the Australian
+• as natural disasters occur, coordinating disaster recovery
+                                                                     Government
+  operations and supporting local governments in their                                                   100%        100%         100%
+  recovery and reconstruction processes
+• managing the assessment, progress, close-out and acquittal         Percentage of
+  of DRFA expenditure to ensure timely delivery of projects and      Queenslanders that intend
+  100 per cent reimbursement of the Australian Government’s          to take action to increase
+  contribution towards eligible costs.                               preparedness following
+                                                                     exposure to Get Ready
+QRA also leads the coordination of disaster resilience activities    Queensland Campaign1
+and policy in Queensland, including increasing public awareness                                           50%         89%          80%
+to ensure communities are prepared for future disaster events        Efficiency measures
+such as through Get Ready Queensland and coordinating the
+delivery of disaster resilience building programs.                   Operational administration
+                                                                     cost per $1,000 of disaster
+                                                                     event damage over active
+                                                                     reconstruction program
+                                                                     lifespan2
+                                                                                                       <$25.00        $4.75     <$25.00
+
+                                                                     Notes
+                                                                       1     The 2023–24 Target/Estimate has been adjusted to better
+                                                                             reflect the effectiveness of the campaign.
+                                                                       2     The variance between the 2022–23 Target/Estimate and
+                                                                             the 2022–23 Estimated Actual is due to the concentrated
+                                                                             nature and scale of disaster events that impacted the state
+                                                                             during the year meaning that QRA was able to effectively
+                                                                             meet recovery requirements through utilisation of existing
+                                                                             operational capacity rather than engagement of additional
+                                                                             surge resourcing.
+
+
+
+
+                                48 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Appendix 3
+
+Government Bodies
+Queensland Reconstruction Board
+Act or instrument              Queensland Reconstruction Act 2011
+Functions                      The functions of the board are to:
+                               • set the strategic priorities for the authority
+                               • make recommendations to the Minister about priorities for community infrastructure, other
+                                 property and community services needed for the protection, rebuilding and recovery of
+                               • affected communities, and the need for declaration of declared projects and reconstruction areas
+                               • ensure the authority performs its functions and exercises it powers in an appropriate, effective
+                                 and efficient way.
+Achievements                   The achievements of the board during 2022–23 include:
+                               • eight meetings held over the course of 12 months
+                               • review of strategic vision, purpose and objectives for QRA, for the period 2022–26
+                               • provision of quarterly reporting to the Deputy Premier on QRAs functions and activities for the
+                                 related quarter
+                               • engagement with key State and Federal stakeholders on matters relating to authority.
+Financial reporting            Not exempted from audit by the Auditor-General and Transactions of the entity are accounted for in the
+                               financial statements
+
+
+Remuneration
+Position        Name                                Number of       Number of        Approved         Approved sub- Actual fees
+                                                    meetings        meetings         annual,          committee     received
+                                                    board member attended            sessional or     fees if
+                                                    was eligible to                  daily fee        applicable
+                                                    attend
+Chairperson     Michael Walsh                       8                 7              $85,000 pa       N/A              N/A
+Member          State Disaster Coordinator          8                 6              N/A              N/A              N/A
+Member          Greg Hallam                         4                 3              $12,000 pa       N/A              N/A
+                (Commenced 1 January 2023)
+Member          Margaret de Wit                     4                 4              $12,000 pa       N/A              N/A
+                (until 31 December 2022)
+Member          Robert Glasser                      8                 7              $12,000 pa       N/A              N/A
+Member          Kirsty Kelly                        8                 8              $12,000 pa       N/A              N/A
+Member          Louise Abell                        8                 7              $12,000 pa       N/A              N/A
+Member          Belinda Murphy                      4                 3              $12,000 pa       N/A              N/A
+                (until 31 December 2022)
+Member          Dr Anne Swinbourne                   3                2              $12,000 pa       N/A              N/A
+                (until 5 October 2022)
+No. scheduled Eight meetings of the Board were held in 2022–23
+meetings/
+sessions
+Total out       $1,174.04 out of pocket expenses during 2022–23 that were reimbursed to board members and chairperson.
+of pocket
+expenses
+
+
+
+
+                                49 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Appendix 4
+
+Annual Report Requirements
+Summary of requirement                                                             Basis for requirement            Annual report
+                                                                                                                    reference
+Letter of compliance     A letter of compliance from the accountable officer or    ARRs – section 7                 5
+                         statutory body to the relevant Minister/s
+Accessibility            Table of contents                                         ARRs – section 9.1               4/51
+                         Glossary
+                         Public availability                                       ARRs – section 9.2               3
+                         Interpreter service statement                             Queensland Government            3
+                                                                                   Language Services Policy
+                                                                                   ARRs – section 9.3
+                         Copyright notice                                          Copyright Act 1968               3
+                                                                                   ARRs – section 9.4
+                         Information Licensing                                     QGEA – Information Licensing     3
+                                                                                   ARRs – section 9.5
+General information      Introductory Information                                  ARRs – section 10                8
+Non-financial            Government’s objectives for the community and             ARRs – section 11.1              10
+performance              whole-of-government plans/specific initiatives
+                         Agency objectives and performance indicators              ARRs – section 11.2              10
+                         Agency service areas and service standards                ARRs – section 11.3              48
+Financial performance    Summary of financial performance                          ARRs – section 12.1              12
+Governance –             Organisational structure                                  ARRs – section 13.1              16
+management and           Executive management                                      ARRs – section 13.2              16
+structure
+                         Government bodies (statutory bodies and other entities)   ARRs – section 13.3              17–18/49
+                         Public Sector Ethics                                      Public Sector Ethics Act 1994    20
+                                                                                   ARRs – section 13.4
+                         Human Rights                                              Human Rights Act 2019            10
+                                                                                   ARRs – section 13.5
+                         Queensland public service values                          ARRs – section 13.6              10
+Governance – risk        Risk management                                           ARRs – section 14.1              19
+management and           Audit committee                                           ARRs – section 14.2              19
+accountability
+                         Internal audit                                            ARRs – section 14.3              19
+                         External scrutiny                                         ARRs – section 14.4              19
+                         Information systems and record keeping                    ARRs – section 14.5              19
+                         Information Security attestation                          ARRs – section 14.6              19
+Governance –human        Strategic workforce planning and performance              ARRs – section 15.1              20
+resources                Early retirement, redundancy and retrenchment             Directive No.04/18 Early         20
+                                                                                   Retirement, Redundancy and
+                                                                                   Retrenchment
+                                                                                   ARRs – section 15.2
+Open Data                Statement advising publication of information             ARRs – section 16                3
+                         Consultancies                                             ARRs – section 33.1              data.qld.gov.au
+                         Overseas travel                                           ARRs – section 33.2              data.qld.gov.au
+                         Queensland Language Services Policy                       ARRs – section 33.3              data.qld.gov.au
+Financial statements     Certification of financial statements                     FAA – section 62                 42
+                                                                                   FPMS – sections 38, 39 and 46
+                                                                                   ARRs – section 17.1
+                         Independent Auditor’s Report                              FAA – section 62 FPMS –          43-46
+                                                                                   section 46 ARRs – section 17.2
+
+
+
+
+                               50 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+Glossary
+AHMAC     Australian Health Ministers Advisory Council       KMP          Key Management Personnel
+
+          Asia Pacific Ministerial Conference on Disaster
+APMCDRR                                                      IGEM         Inspector General Emergency Management
+          Risk Reduction
+          Annual report requirements for Queensland
+ARRs                                                         LGA          Local Government Area
+          Government Agencies
+
+ATO       Australian Tax Office                              LGAQ         Local Government Association of Queensland
+
+
+CEO       Chief Executive Officer                            LiDAR        Light Detection and Ranging
+
+
+CFO       Chief Finance Officer                              NEMA         National Emergency Management Agency
+
+          Damage Assessment and Reconstruction
+DARM                                                         MARS         Monitoring and Reporting System
+          Monitoring
+
+DRF       Disaster Ready Fund                                PDA          Performance Development Agreement
+
+
+DRFA      Disaster Recovery Funding Arrangements             QAO          Queensland Audit Office
+
+          electronic Document and Records Management
+eDRMS                                                        QFES         Queensland Fire and Emergency Services
+          System
+
+ERF       Emergency Response Fund                            QDMA         Queensland Disaster Management Arrangements
+
+
+FAA       Financial Accountability Act 2009                  QRA          Queensland Reconstruction Authority
+
+
+FBT       Fringe Benefits Tax                                QRA Act      Queensland Reconstruction Authority Act 2011
+
+          Financial and Performance Management
+FPMS                                                         QSDR         Queensland Strategy for Disaster Resilience
+          Standard 2009
+
+FRMP      Flood Risk Management Program                      QT           Queensland Treasury
+
+
+FTE       Full-Time Equivalent                               Retd         Retired
+
+                                                                          Code of Conduct for the Queensland Public
+FWIN      Flood Warning Infrastructure Network               The Code
+                                                                          Service
+
+GST       Goods and Services Tax
+
+
+
+
+                           51 | Queensland Reconstruction Authority ANNUAL REPORT 2022–2023
+ANNUAL REPORT 2022-23
+Queensland Reconstruction Authority
+www.qra.qld.gov.au
+

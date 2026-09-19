@@ -1,0 +1,515 @@
+[
+  {
+    "source_id": "richmond_q3",
+    "url": "https://richmondvalley.nsw.gov.au/wp-content/uploads/2022/11/Quarterly-Budget-Review-Statement-for-the-quarter-ended-31-March-2022.pdf",
+    "accessed_at": "2026-09-19T08:35:32.765525+00:00",
+    "http_status": 200,
+    "resolved_url": "https://richmondvalley.nsw.gov.au/wp-content/uploads/2022/11/Quarterly-Budget-Review-Statement-for-the-quarter-ended-31-March-2022.pdf",
+    "local_file": "sources/richmond_q3.pdf",
+    "sha256": "35223babec8135a8b56de33b364c2d28b20e9abfc09a7800b01029e666348e05"
+  },
+  {
+    "source_id": "richmond_may_agenda",
+    "url": "https://richmondvalley.nsw.gov.au/wp-content/uploads/2022/05/Agenda-Ordinary-Meeting-17-May-2022.pdf",
+    "accessed_at": "2026-09-19T08:35:32.766286+00:00",
+    "http_status": 200,
+    "resolved_url": "https://richmondvalley.nsw.gov.au/wp-content/uploads/2022/05/Agenda-Ordinary-Meeting-17-May-2022.pdf",
+    "local_file": "sources/richmond_may_agenda.pdf",
+    "sha256": "ae1aff0c8ee07cac1a08cca21dee7d31c38533ca1259e3fa4ca310801e859d5e"
+  },
+  {
+    "source_id": "richmond_index",
+    "url": "https://richmondvalley.nsw.gov.au/council/integrated-planning-and-reporting/",
+    "accessed_at": "2026-09-19T08:35:32.766378+00:00",
+    "http_status": 200,
+    "resolved_url": "https://richmondvalley.nsw.gov.au/council/integrated-planning-and-reporting/",
+    "local_file": "sources/richmond_index.html",
+    "sha256": "6c4cbad6c9df97b660fad927c41bac3c4986ed1fa6c8e3e74a81b6a4e625b71d"
+  },
+  {
+    "source_id": "griffith_q3",
+    "url": "https://businesspapers.griffith.nsw.gov.au/Open/2020/05/CO_26052020_ATT_1267_PLANS.PDF",
+    "accessed_at": "2026-09-19T08:35:32.766448+00:00",
+    "http_status": 200,
+    "resolved_url": "https://businesspapers.griffith.nsw.gov.au/Open/2020/05/CO_26052020_ATT_1267_PLANS.PDF",
+    "local_file": "sources/griffith_q3.pdf",
+    "sha256": "b96f80124cfe9a209622f7f60efc5600c71f82248e5959896203c1eab0874b14"
+  },
+  {
+    "source_id": "griffith_q3_minutes",
+    "url": "https://businesspapers.griffith.nsw.gov.au/Open/2020/05/CO_26052020_MIN_1267.PDF",
+    "accessed_at": "2026-09-19T08:35:32.766507+00:00",
+    "http_status": 200,
+    "resolved_url": "https://businesspapers.griffith.nsw.gov.au/Open/2020/05/CO_26052020_MIN_1267.PDF",
+    "local_file": "sources/griffith_q3_minutes.pdf",
+    "sha256": "302c17307cebcb8dba1f2f26cac36e27dd9fa6dba66e4e6540c5e62c8120437f"
+  },
+  {
+    "source_id": "euro_q3",
+    "url": "https://www.esc.nsw.gov.au/__data/assets/pdf_file/0012/161040/March-Quarterly-Budget-Review-2020.pdf",
+    "accessed_at": "2026-09-19T08:35:33.109405+00:00",
+    "http_status": 403,
+    "resolved_url": "https://www.esc.nsw.gov.au/__data/assets/pdf_file/0012/161040/March-Quarterly-Budget-Review-2020.pdf",
+    "local_file": "sources/euro_q3.html",
+    "sha256": "c755dc1fcc7aa0dd74db9b749c796525b9613ad7ce7fe1562976a6da733d11dd"
+  },
+  {
+    "source_id": "euro_2020_index",
+    "url": "https://www.esc.nsw.gov.au/council/meetings/agendas-and-minutes/2020",
+    "accessed_at": "2026-09-19T08:35:33.217184+00:00",
+    "http_status": 403,
+    "resolved_url": "https://www.esc.nsw.gov.au/council/meetings/agendas-and-minutes/2020",
+    "local_file": "sources/euro_2020_index.html",
+    "sha256": "1e9b82b3c14c8c42b308eff669353d99fbaeb6f198e5585f5c152af3c9300bf8"
+  },
+  {
+    "source_id": "wagga_q3",
+    "url": "https://meetings.wagga.nsw.gov.au/Open/2022/04/OC_11042022_AGN_4870_AT.HTM",
+    "accessed_at": "2026-09-19T08:35:33.299726+00:00",
+    "http_status": 200,
+    "resolved_url": "https://meetings.wagga.nsw.gov.au/Open/2022/04/OC_11042022_AGN_4870_AT.HTM",
+    "local_file": "sources/wagga_q3.html",
+    "sha256": "0c42f37c30ca1114b0eab6ba194e4484a097226842457e8fccc4c93e739012d9"
+  },
+  {
+    "source_id": "wagga_q3_minutes",
+    "url": "https://meetings.wagga.nsw.gov.au/Open/2022/04/OC_11042022_MIN_4870.htm",
+    "accessed_at": "2026-09-19T08:35:33.300494+00:00",
+    "http_status": 200,
+    "resolved_url": "https://meetings.wagga.nsw.gov.au/Open/2022/04/OC_11042022_MIN_4870.htm",
+    "local_file": "sources/wagga_q3_minutes.html",
+    "sha256": "d81c8764364321d39669b91c033a89db79fff3ecef1e0250615d67f5984e11f5"
+  },
+  {
+    "source_id": "lismore_business",
+    "url": "https://www.lismore.nsw.gov.au/Council/Council-meetings/Business-papers-and-minutes",
+    "accessed_at": "2026-09-19T08:35:33.315738+00:00",
+    "http_status": 404,
+    "resolved_url": "https://www.lismore.nsw.gov.au/Council/Council-meetings/Business-papers-and-minutes",
+    "local_file": "sources/lismore_business.html",
+    "sha256": "da89f5151d838cc8ac3ca2d4557428e8970225ae161be0f7b9e4c9d859c811fa"
+  },
+  {
+    "source_id": "lismore_meetings",
+    "url": "https://www.lismore.nsw.gov.au/Council/Council-and-committee-meetings-schedule/Council-meeting-minutes-and-agendas",
+    "accessed_at": "2026-09-19T08:36:11.799487+00:00",
+    "http_status": 200,
+    "resolved_url": "https://www.lismore.nsw.gov.au/Council/Council-and-committee-meetings-schedule/Council-meeting-minutes-and-agendas",
+    "local_file": "sources/lismore_meetings.html",
+    "sha256": "6853e913dcb812f30f5655e1c2fa1a47b176c588899749911aecb26c57a6aafb"
+  },
+  {
+    "source_id": "richmond_budgets_current",
+    "url": "https://richmondvalley.nsw.gov.au/council/governance/budgets-and-financial-reports/",
+    "accessed_at": "2026-09-19T08:36:11.800728+00:00",
+    "http_status": 200,
+    "resolved_url": "https://richmondvalley.nsw.gov.au/council/governance/budgets-and-financial-reports/",
+    "local_file": "sources/richmond_budgets_current.html",
+    "sha256": "ee3644a967109f8aefdb8e0adce8fbff32d9436a7bbbf841038004c353967ab7"
+  },
+  {
+    "source_id": "richmond_2022_index",
+    "url": "https://richmondvalley.nsw.gov.au/council/council-meetings/2022-agendas-and-minutes/",
+    "accessed_at": "2026-09-19T08:36:11.800908+00:00",
+    "http_status": 200,
+    "resolved_url": "https://richmondvalley.nsw.gov.au/council/council-meetings/2022-agendas-and-minutes/",
+    "local_file": "sources/richmond_2022_index.html",
+    "sha256": "9a7055495913b53e8411425ce465a5b390a6bcfb983ee8be27748f4590ee9025"
+  },
+  {
+    "source_id": "richmond_delivery2022",
+    "url": "https://richmondvalley.nsw.gov.au/wp-content/uploads/2022/08/FINAL-Delivery-Program-Progress-Report-Q4-30-June-2022.pdf",
+    "accessed_at": "2026-09-19T08:36:11.801063+00:00",
+    "http_status": 200,
+    "resolved_url": "https://richmondvalley.nsw.gov.au/wp-content/uploads/2022/08/FINAL-Delivery-Program-Progress-Report-Q4-30-June-2022.pdf",
+    "local_file": "sources/richmond_delivery2022.pdf",
+    "sha256": "153fdeea4e39192e2f5ea43bc7e3af26bec68f604234b63859957a8c1ccf1e0d"
+  },
+  {
+    "source_id": "wagga_q1",
+    "url": "https://meetings.wagga.nsw.gov.au/Open/2021/10/OC_25102021_AGN_4814_AT.htm",
+    "accessed_at": "2026-09-19T08:36:11.801192+00:00",
+    "http_status": 200,
+    "resolved_url": "https://meetings.wagga.nsw.gov.au/Open/2021/10/OC_25102021_AGN_4814_AT.htm",
+    "local_file": "sources/wagga_q1.html",
+    "sha256": "bf5f5c5951d804787cc8d25f12082ea18dae349540c1965afc7ea9c36d48a9b4"
+  },
+  {
+    "source_id": "griffith_q2",
+    "url": "https://businesspapers.griffith.nsw.gov.au/Open/2020/02/CO_25022020_AGN_1261_AT.PDF",
+    "accessed_at": "2026-09-19T08:36:12.246669+00:00",
+    "http_status": 200,
+    "resolved_url": "https://businesspapers.griffith.nsw.gov.au/Open/2020/02/CO_25022020_AGN_1261_AT.PDF",
+    "local_file": "sources/griffith_q2.pdf",
+    "sha256": "ab4f95faae30b68ac02e30232e8dc7221bb8ae5c39c506d3fb2105883317b761"
+  },
+  {
+    "source_id": "euro_q2_attachment",
+    "url": "https://www.esc.nsw.gov.au/__data/assets/pdf_file/0007/158956/Attachment-1-CCS20-006.pdf",
+    "accessed_at": "2026-09-19T08:36:12.503149+00:00",
+    "http_status": 403,
+    "resolved_url": "https://www.esc.nsw.gov.au/__data/assets/pdf_file/0007/158956/Attachment-1-CCS20-006.pdf",
+    "local_file": "sources/euro_q2_attachment.html",
+    "sha256": "69065e9425a963ad36e98d3c504bb9d23b56ddfa559a6693f6264f0f9fbd3b0a"
+  },
+  {
+    "source_id": "lismore_archive",
+    "url": "https://www.lismore.nsw.gov.au/Council/Council-and-committee-meetings-schedule/Archived-Council-business-papers",
+    "accessed_at": "2026-09-19T08:36:45.292875+00:00",
+    "http_status": 200,
+    "resolved_url": "https://www.lismore.nsw.gov.au/Council/Council-and-committee-meetings-schedule/Archived-Council-business-papers",
+    "local_file": "sources/lismore_archive.html",
+    "sha256": "abaecd17fe7dc06be8557f3c66073588d24c295f55fae12197fb42318fc53f05"
+  },
+  {
+    "source_id": "richmond_q1",
+    "url": "https://richmondvalley.nsw.gov.au/wp-content/uploads/2021/11/Quarterly-Budget-Review-Statement-for-the-quarter-ended-30-September-2021.pdf",
+    "accessed_at": "2026-09-19T08:36:45.293483+00:00",
+    "http_status": 200,
+    "resolved_url": "https://richmondvalley.nsw.gov.au/wp-content/uploads/2021/11/Quarterly-Budget-Review-Statement-for-the-quarter-ended-30-September-2021.pdf",
+    "local_file": "sources/richmond_q1.pdf",
+    "sha256": "ae12cec69a3a661cded2bdabaed6430eb5053a34f807e79ae1af41626af53bac"
+  },
+  {
+    "source_id": "richmond_q1_minutes",
+    "url": "https://richmondvalley.nsw.gov.au/wp-content/uploads/2021/11/CO_20211019_MIN_31671.pdf",
+    "accessed_at": "2026-09-19T08:36:45.294217+00:00",
+    "http_status": 200,
+    "resolved_url": "https://richmondvalley.nsw.gov.au/wp-content/uploads/2021/11/CO_20211019_MIN_31671.pdf",
+    "local_file": "sources/richmond_q1_minutes.pdf",
+    "sha256": "adc1f49210e1ec7d7cc6fe60806d15354ffd2bc295f29fe50e530f8158223e06"
+  },
+  {
+    "source_id": "richmond_q2_minutes",
+    "url": "https://richmondvalley.nsw.gov.au/wp-content/uploads/2022/02/Minutes-15-February-2022.pdf",
+    "accessed_at": "2026-09-19T08:36:45.294511+00:00",
+    "http_status": 200,
+    "resolved_url": "https://richmondvalley.nsw.gov.au/wp-content/uploads/2022/02/Minutes-15-February-2022.pdf",
+    "local_file": "sources/richmond_q2_minutes.pdf",
+    "sha256": "a7e5bb3cc18c01e19ef454cc4a857f31cc6bfd5c187624f993e6665392f7e9b2"
+  },
+  {
+    "source_id": "wagga_q2",
+    "url": "https://meetings.wagga.nsw.gov.au/Open/2022/01/OC_31012022_AGN_4855_AT.htm",
+    "accessed_at": "2026-09-19T08:36:45.295000+00:00",
+    "http_status": 200,
+    "resolved_url": "https://meetings.wagga.nsw.gov.au/Open/2022/01/OC_31012022_AGN_4855_AT.htm",
+    "local_file": "sources/wagga_q2.html",
+    "sha256": "69b0faafeb07bd211449267a35579498a70a9fb62ce5020e16062b3c9c100a9d"
+  },
+  {
+    "source_id": "wagga_q2_minutes",
+    "url": "https://meetings.wagga.nsw.gov.au/Open/2022/01/OC_31012022_MIN_4855.htm",
+    "accessed_at": "2026-09-19T08:36:45.705273+00:00",
+    "http_status": 200,
+    "resolved_url": "https://meetings.wagga.nsw.gov.au/Open/2022/01/OC_31012022_MIN_4855.htm",
+    "local_file": "sources/wagga_q2_minutes.html",
+    "sha256": "8bd3be9a3d472424cf9368ca0fcbbad28ad79b9a406c3a5f8b5f32ab4bbff890"
+  },
+  {
+    "source_id": "euro_q1",
+    "url": "https://www.esc.nsw.gov.au/__data/assets/pdf_file/0007/157804/September-quarterly-budget-review.pdf",
+    "accessed_at": "2026-09-19T08:36:45.706287+00:00",
+    "http_status": 403,
+    "resolved_url": "https://www.esc.nsw.gov.au/__data/assets/pdf_file/0007/157804/September-quarterly-budget-review.pdf",
+    "local_file": "sources/euro_q1.html",
+    "sha256": "c1c5e5b818200d52c5427e7d10fe9979a14f48162f73b157aab61e63f0e2f199"
+  },
+  {
+    "source_id": "lismore_portal",
+    "url": "https://lismore.infocouncil.biz/",
+    "accessed_at": "2026-09-19T08:39:52.203997+00:00",
+    "http_status": 200,
+    "resolved_url": "https://lismore.infocouncil.biz/",
+    "local_file": "sources/lismore_portal.html",
+    "sha256": "3dd96274e4431cc0c165f66f680b96dd5ee7dbb04fa57e55b9b3c4daae262e5b"
+  },
+  {
+    "source_id": "richmond_q2_attachments",
+    "url": "https://richmondvalley.nsw.gov.au/wp-content/uploads/2022/02/CO_20220215_ATT_3185_EXCLUDED.pdf",
+    "accessed_at": "2026-09-19T08:39:52.204322+00:00",
+    "http_status": 200,
+    "resolved_url": "https://richmondvalley.nsw.gov.au/wp-content/uploads/2022/02/CO_20220215_ATT_3185_EXCLUDED.pdf",
+    "local_file": "sources/richmond_q2_attachments.pdf",
+    "sha256": "a731735a38d7be1ca7d2b5a26d676e223562515fc594ab91bd6e108b81d277f4"
+  },
+  {
+    "source_id": "richmond_q3_minutes",
+    "url": "https://richmondvalley.nsw.gov.au/wp-content/uploads/2022/05/Unconfirmed-Minutes-Ordinary-Meeting-17-May-2022.pdf",
+    "accessed_at": "2026-09-19T08:39:52.204451+00:00",
+    "http_status": 200,
+    "resolved_url": "https://richmondvalley.nsw.gov.au/wp-content/uploads/2022/05/Unconfirmed-Minutes-Ordinary-Meeting-17-May-2022.pdf",
+    "local_file": "sources/richmond_q3_minutes.pdf",
+    "sha256": "ac7df879a8002ca831aa1fd738640b02488a08308666225a6cf449f347809bd6"
+  },
+  {
+    "source_id": "wagga_fs2022",
+    "url": "https://meetings.wagga.nsw.gov.au/Open/2022/11/OC_21112022_AGN_4884_AT_files/OC_21112022_AGN_4884_AT_Attachment_20049_1.PDF",
+    "accessed_at": "2026-09-19T08:39:52.204548+00:00",
+    "http_status": 200,
+    "resolved_url": "https://meetings.wagga.nsw.gov.au/Open/2022/11/OC_21112022_AGN_4884_AT_files/OC_21112022_AGN_4884_AT_Attachment_20049_1.PDF",
+    "local_file": "sources/wagga_fs2022.pdf",
+    "sha256": "9275d6a732e36e6b676b867ed6cbf71d32aff39f53029217f044af854e7acadf"
+  },
+  {
+    "source_id": "wagga_q1_minutes",
+    "url": "https://meetings.wagga.nsw.gov.au/Open/2021/10/OC_25102021_MIN_4814.HTM",
+    "accessed_at": "2026-09-19T08:39:52.204632+00:00",
+    "http_status": 200,
+    "resolved_url": "https://meetings.wagga.nsw.gov.au/Open/2021/10/OC_25102021_MIN_4814.HTM",
+    "local_file": "sources/wagga_q1_minutes.html",
+    "sha256": "cc91e4260284b5a2414e64f47b53382188e4495325d84f477adab2af332f9e2b"
+  },
+  {
+    "source_id": "lismore_oc_22062021_agn_at_extra",
+    "url": "https://lismore.infocouncil.biz/RedirectToDoc.aspx?URL=Open/2021/06/OC_22062021_AGN_AT_EXTRA.PDF",
+    "accessed_at": "2026-09-19T08:40:55.571342+00:00",
+    "http_status": 200,
+    "resolved_url": "https://lismore.infocouncil.biz/Open/2021/06/OC_22062021_AGN_AT_EXTRA.PDF",
+    "local_file": "sources/lismore_oc_22062021_agn_at_extra.pdf",
+    "sha256": "ddaacad6e1e1e4af1d0146e06f615f5b9b9d28e7fe7c095e71f5ca5292f2ea0a"
+  },
+  {
+    "source_id": "lismore_oc_22062021_min_extra",
+    "url": "https://lismore.infocouncil.biz/RedirectToDoc.aspx?URL=Open/2021/06/OC_22062021_MIN_EXTRA.PDF",
+    "accessed_at": "2026-09-19T08:40:55.571600+00:00",
+    "http_status": 200,
+    "resolved_url": "https://lismore.infocouncil.biz/Open/2021/06/OC_22062021_MIN_EXTRA.PDF",
+    "local_file": "sources/lismore_oc_22062021_min_extra.pdf",
+    "sha256": "b91da87d11d157f478473ea2a72c8196e2e6e084fac9e90241bb253922488e21"
+  },
+  {
+    "source_id": "lismore_oc_09082022_agn_at",
+    "url": "https://lismore.infocouncil.biz/RedirectToDoc.aspx?URL=Open/2022/08/OC_09082022_AGN_AT.PDF",
+    "accessed_at": "2026-09-19T08:40:55.571677+00:00",
+    "http_status": 200,
+    "resolved_url": "https://lismore.infocouncil.biz/ErrorPage.aspx",
+    "local_file": "sources/lismore_oc_09082022_agn_at.html",
+    "sha256": "64b0077276ad99f29bd7850b21ae57801083dc2ee76498f50616f1f27fad3670"
+  },
+  {
+    "source_id": "lismore_oc_09082022_att_excluded",
+    "url": "https://lismore.infocouncil.biz/RedirectToDoc.aspx?URL=Open/2022/08/OC_09082022_ATT_EXCLUDED.PDF",
+    "accessed_at": "2026-09-19T08:40:55.571757+00:00",
+    "http_status": 200,
+    "resolved_url": "https://lismore.infocouncil.biz/ErrorPage.aspx",
+    "local_file": "sources/lismore_oc_09082022_att_excluded.html",
+    "sha256": "64b0077276ad99f29bd7850b21ae57801083dc2ee76498f50616f1f27fad3670"
+  },
+  {
+    "source_id": "lismore_oc_09082022_min",
+    "url": "https://lismore.infocouncil.biz/RedirectToDoc.aspx?URL=Open/2022/08/OC_09082022_MIN.PDF",
+    "accessed_at": "2026-09-19T08:40:55.571864+00:00",
+    "http_status": 200,
+    "resolved_url": "https://lismore.infocouncil.biz/ErrorPage.aspx",
+    "local_file": "sources/lismore_oc_09082022_min.html",
+    "sha256": "64b0077276ad99f29bd7850b21ae57801083dc2ee76498f50616f1f27fad3670"
+  },
+  {
+    "source_id": "lismore_oc_10052022_agn_at",
+    "url": "https://lismore.infocouncil.biz/RedirectToDoc.aspx?URL=Open/2022/05/OC_10052022_AGN_AT.PDF",
+    "accessed_at": "2026-09-19T08:40:55.892030+00:00",
+    "http_status": 200,
+    "resolved_url": "https://lismore.infocouncil.biz/ErrorPage.aspx",
+    "local_file": "sources/lismore_oc_10052022_agn_at.html",
+    "sha256": "64b0077276ad99f29bd7850b21ae57801083dc2ee76498f50616f1f27fad3670"
+  },
+  {
+    "source_id": "lismore_oc_10052022_att_excluded",
+    "url": "https://lismore.infocouncil.biz/RedirectToDoc.aspx?URL=Open/2022/05/OC_10052022_ATT_EXCLUDED.PDF",
+    "accessed_at": "2026-09-19T08:40:55.893041+00:00",
+    "http_status": 200,
+    "resolved_url": "https://lismore.infocouncil.biz/Open/2022/05/OC_10052022_ATT_EXCLUDED.PDF",
+    "local_file": "sources/lismore_oc_10052022_att_excluded.pdf",
+    "sha256": "e2307fdec6453ede02616c56770d7d97b852f918d1bd7dc6e748f50df74bcc0d"
+  },
+  {
+    "source_id": "lismore_oc_10052022_min",
+    "url": "https://lismore.infocouncil.biz/RedirectToDoc.aspx?URL=Open/2022/05/OC_10052022_MIN.PDF",
+    "accessed_at": "2026-09-19T08:40:55.893904+00:00",
+    "http_status": 200,
+    "resolved_url": "https://lismore.infocouncil.biz/Open/2022/05/OC_10052022_MIN.PDF",
+    "local_file": "sources/lismore_oc_10052022_min.pdf",
+    "sha256": "59bf8c20d0594dc92b44b017076d39560b25f16a93c1b1b187599196791467d4"
+  },
+  {
+    "source_id": "lismore_oc_08022022_agn_at",
+    "url": "https://lismore.infocouncil.biz/RedirectToDoc.aspx?URL=Open/2022/02/OC_08022022_AGN_AT.PDF",
+    "accessed_at": "2026-09-19T08:40:55.955672+00:00",
+    "http_status": 200,
+    "resolved_url": "https://lismore.infocouncil.biz/Open/2022/02/OC_08022022_AGN_AT.PDF",
+    "local_file": "sources/lismore_oc_08022022_agn_at.pdf",
+    "sha256": "6d31e95c20616a63005501d8178f1ece6a9c8826d57ee79a5b840bae44555a3a"
+  },
+  {
+    "source_id": "lismore_oc_08022022_att_excluded",
+    "url": "https://lismore.infocouncil.biz/RedirectToDoc.aspx?URL=Open/2022/02/OC_08022022_ATT_EXCLUDED.PDF",
+    "accessed_at": "2026-09-19T08:40:55.961726+00:00",
+    "http_status": 200,
+    "resolved_url": "https://lismore.infocouncil.biz/Open/2022/02/OC_08022022_ATT_EXCLUDED.PDF",
+    "local_file": "sources/lismore_oc_08022022_att_excluded.pdf",
+    "sha256": "47e26151d130f243856e1205e0e81dcde6ee8bb4a0dd879712d20effd7424eda"
+  },
+  {
+    "source_id": "lismore_oc_08022022_min",
+    "url": "https://lismore.infocouncil.biz/RedirectToDoc.aspx?URL=Open/2022/02/OC_08022022_MIN.PDF",
+    "accessed_at": "2026-09-19T08:40:56.025795+00:00",
+    "http_status": 200,
+    "resolved_url": "https://lismore.infocouncil.biz/Open/2022/02/OC_08022022_MIN.PDF",
+    "local_file": "sources/lismore_oc_08022022_min.pdf",
+    "sha256": "aeffd0b19445606c9ed199c3ed207d8953c45f45a82d552c63bd9aba0116af7e"
+  },
+  {
+    "source_id": "lismore_oc_09082022_agn_at_direct",
+    "url": "https://lismore.infocouncil.biz/Open/2022/08/OC_09082022_AGN_AT.PDF",
+    "accessed_at": "2026-09-19T08:41:17.130178+00:00",
+    "http_status": 200,
+    "resolved_url": "https://lismore.infocouncil.biz/Open/2022/08/OC_09082022_AGN_AT.PDF",
+    "local_file": "sources/lismore_oc_09082022_agn_at_direct.pdf",
+    "sha256": "6f26f9b39e00b392ac10ebb2ab769ac1a34e4ae6edcf43cc3a2f62b875d4b23a"
+  },
+  {
+    "source_id": "lismore_oc_09082022_att_excluded_direct",
+    "url": "https://lismore.infocouncil.biz/Open/2022/08/OC_09082022_ATT_EXCLUDED.PDF",
+    "accessed_at": "2026-09-19T08:41:17.130454+00:00",
+    "http_status": 200,
+    "resolved_url": "https://lismore.infocouncil.biz/Open/2022/08/OC_09082022_ATT_EXCLUDED.PDF",
+    "local_file": "sources/lismore_oc_09082022_att_excluded_direct.pdf",
+    "sha256": "177b4c65d99609fed3992112b5653984015e755b3053876488333c1bc32dc227"
+  },
+  {
+    "source_id": "lismore_oc_10052022_agn_at_direct",
+    "url": "https://lismore.infocouncil.biz/Open/2022/05/OC_10052022_AGN_AT.PDF",
+    "accessed_at": "2026-09-19T08:41:17.130530+00:00",
+    "http_status": 200,
+    "resolved_url": "https://lismore.infocouncil.biz/Open/2022/05/OC_10052022_AGN_AT.PDF",
+    "local_file": "sources/lismore_oc_10052022_agn_at_direct.pdf",
+    "sha256": "c8e66e5034ca316c049ccf6be2775b4bf7d785864c2f0a0f103095b43b5de133"
+  },
+  {
+    "source_id": "lismore_oc_10052022_att_excluded_direct",
+    "url": "https://lismore.infocouncil.biz/Open/2022/05/OC_10052022_ATT_EXCLUDED.PDF",
+    "accessed_at": "2026-09-19T08:41:17.130615+00:00",
+    "http_status": 200,
+    "resolved_url": "https://lismore.infocouncil.biz/Open/2022/05/OC_10052022_ATT_EXCLUDED.PDF",
+    "local_file": "sources/lismore_oc_10052022_att_excluded_direct.pdf",
+    "sha256": "e2307fdec6453ede02616c56770d7d97b852f918d1bd7dc6e748f50df74bcc0d"
+  },
+  {
+    "source_id": "lismore_oc_08022022_agn_at_direct",
+    "url": "https://lismore.infocouncil.biz/Open/2022/02/OC_08022022_AGN_AT.PDF",
+    "accessed_at": "2026-09-19T08:41:17.130722+00:00",
+    "http_status": 200,
+    "resolved_url": "https://lismore.infocouncil.biz/Open/2022/02/OC_08022022_AGN_AT.PDF",
+    "local_file": "sources/lismore_oc_08022022_agn_at_direct.pdf",
+    "sha256": "6d31e95c20616a63005501d8178f1ece6a9c8826d57ee79a5b840bae44555a3a"
+  },
+  {
+    "source_id": "lismore_oc_08022022_att_excluded_direct",
+    "url": "https://lismore.infocouncil.biz/Open/2022/02/OC_08022022_ATT_EXCLUDED.PDF",
+    "accessed_at": "2026-09-19T08:41:18.266702+00:00",
+    "http_status": 200,
+    "resolved_url": "https://lismore.infocouncil.biz/Open/2022/02/OC_08022022_ATT_EXCLUDED.PDF",
+    "local_file": "sources/lismore_oc_08022022_att_excluded_direct.pdf",
+    "sha256": "47e26151d130f243856e1205e0e81dcde6ee8bb4a0dd879712d20effd7424eda"
+  },
+  {
+    "source_id": "lismore_all2021_oc_09112021_agn_at",
+    "url": "https://lismore.infocouncil.biz/Open/2021/11/OC_09112021_AGN_AT.PDF",
+    "accessed_at": "2026-09-19T08:43:14.918132+00:00",
+    "http_status": 200,
+    "resolved_url": "https://lismore.infocouncil.biz/Open/2021/11/OC_09112021_AGN_AT.PDF",
+    "local_file": "sources/lismore_all2021_oc_09112021_agn_at.pdf",
+    "sha256": "e87ed208ce46dd68413e49fce195bcbb9969875cdf04a756cd7e15fbd583bf24"
+  },
+  {
+    "source_id": "lismore_all2021_oc_09112021_att_excluded",
+    "url": "https://lismore.infocouncil.biz/Open/2021/11/OC_09112021_ATT_EXCLUDED.PDF",
+    "accessed_at": "2026-09-19T08:43:14.918541+00:00",
+    "http_status": 200,
+    "resolved_url": "https://lismore.infocouncil.biz/Open/2021/11/OC_09112021_ATT_EXCLUDED.PDF",
+    "local_file": "sources/lismore_all2021_oc_09112021_att_excluded.pdf",
+    "sha256": "8f30fdcfff45b746e92224b344e3e8c727f672605c4f3a90b0d22923a4e3c6b4"
+  },
+  {
+    "source_id": "lismore_all2021_oc_09112021_min",
+    "url": "https://lismore.infocouncil.biz/Open/2021/11/OC_09112021_MIN.PDF",
+    "accessed_at": "2026-09-19T08:43:14.918724+00:00",
+    "http_status": 200,
+    "resolved_url": "https://lismore.infocouncil.biz/Open/2021/11/OC_09112021_MIN.PDF",
+    "local_file": "sources/lismore_all2021_oc_09112021_min.pdf",
+    "sha256": "95c1a842ec4f2d8738f18cc1a3f0c40eb69fe0361a6c33060e715ed7a45db191"
+  },
+  {
+    "source_id": "griffith_2019_co_26112019_agn_1080_at",
+    "url": "https://businesspapers.griffith.nsw.gov.au/Open/2019/11/CO_26112019_AGN_1080_AT.PDF",
+    "accessed_at": "2026-09-19T08:43:14.919358+00:00",
+    "http_status": 200,
+    "resolved_url": "https://businesspapers.griffith.nsw.gov.au/Open/2019/11/CO_26112019_AGN_1080_AT.PDF",
+    "local_file": "sources/griffith_2019_co_26112019_agn_1080_at.pdf",
+    "sha256": "10bee3ba60232b0fe3c944492e4352568179df8c5b7a2ac3dffc852c9d420307"
+  },
+  {
+    "source_id": "griffith_2019_co_26112019_min_1080",
+    "url": "https://businesspapers.griffith.nsw.gov.au/Open/2019/11/CO_26112019_MIN_1080.PDF",
+    "accessed_at": "2026-09-19T08:43:14.919709+00:00",
+    "http_status": 200,
+    "resolved_url": "https://businesspapers.griffith.nsw.gov.au/Open/2019/11/CO_26112019_MIN_1080.PDF",
+    "local_file": "sources/griffith_2019_co_26112019_min_1080.pdf",
+    "sha256": "70c8e666b21ff142fd4d49186572a0c9dd8680d11e12d69bf2a5588ed5cf914c"
+  },
+  {
+    "source_id": "griffith_2019_co_26112019_att_1080_excluded",
+    "url": "https://businesspapers.griffith.nsw.gov.au/Open/2019/11/CO_26112019_ATT_1080_EXCLUDED.PDF",
+    "accessed_at": "2026-09-19T08:43:15.406913+00:00",
+    "http_status": 200,
+    "resolved_url": "https://businesspapers.griffith.nsw.gov.au/Open/2019/11/CO_26112019_ATT_1080_EXCLUDED.PDF",
+    "local_file": "sources/griffith_2019_co_26112019_att_1080_excluded.pdf",
+    "sha256": "4874b91fb3bcba19bae015799bcbeee6bc96cda43ac807dc57b80180b2b6f80a"
+  },
+  {
+    "source_id": "griffith_2019_co_26112019_att_1080_plans",
+    "url": "https://businesspapers.griffith.nsw.gov.au/Open/2019/11/CO_26112019_ATT_1080_PLANS.PDF",
+    "accessed_at": "2026-09-19T08:43:15.417449+00:00",
+    "http_status": 200,
+    "resolved_url": "https://businesspapers.griffith.nsw.gov.au/Open/2019/11/CO_26112019_ATT_1080_PLANS.PDF",
+    "local_file": "sources/griffith_2019_co_26112019_att_1080_plans.pdf",
+    "sha256": "4dcd0dc7b3b89de0286c79308d34bb2e01adf335b8d7c6234634886f5c51e6e9"
+  },
+  {
+    "source_id": "griffith_2020_co_25022020_agn_1261_at",
+    "url": "https://businesspapers.griffith.nsw.gov.au/Open/2020/02/CO_25022020_AGN_1261_AT.PDF",
+    "accessed_at": "2026-09-19T08:43:15.759722+00:00",
+    "http_status": 200,
+    "resolved_url": "https://businesspapers.griffith.nsw.gov.au/Open/2020/02/CO_25022020_AGN_1261_AT.PDF",
+    "local_file": "sources/griffith_2020_co_25022020_agn_1261_at.pdf",
+    "sha256": "ab4f95faae30b68ac02e30232e8dc7221bb8ae5c39c506d3fb2105883317b761"
+  },
+  {
+    "source_id": "griffith_2020_co_25022020_min_1261",
+    "url": "https://businesspapers.griffith.nsw.gov.au/Open/2020/02/CO_25022020_MIN_1261.PDF",
+    "accessed_at": "2026-09-19T08:43:16.583552+00:00",
+    "http_status": 200,
+    "resolved_url": "https://businesspapers.griffith.nsw.gov.au/Open/2020/02/CO_25022020_MIN_1261.PDF",
+    "local_file": "sources/griffith_2020_co_25022020_min_1261.pdf",
+    "sha256": "4b5d7058752f7eb5f10208fcefd4c8ceaba772be64b54248096071c8cd078ba1"
+  },
+  {
+    "source_id": "griffith_2020_co_25022020_att_1261_excluded",
+    "url": "https://businesspapers.griffith.nsw.gov.au/Open/2020/02/CO_25022020_ATT_1261_EXCLUDED.PDF",
+    "accessed_at": "2026-09-19T08:43:16.713585+00:00",
+    "http_status": 200,
+    "resolved_url": "https://businesspapers.griffith.nsw.gov.au/Open/2020/02/CO_25022020_ATT_1261_EXCLUDED.PDF",
+    "local_file": "sources/griffith_2020_co_25022020_att_1261_excluded.pdf",
+    "sha256": "2caea2b59fc55ef515f9fc2b64f1530307e311d6832c2ad72e9420f712ffb03e"
+  },
+  {
+    "source_id": "griffith_2020_co_25022020_att_1261_plans",
+    "url": "https://businesspapers.griffith.nsw.gov.au/Open/2020/02/CO_25022020_ATT_1261_PLANS.PDF",
+    "accessed_at": "2026-09-19T08:43:16.776038+00:00",
+    "http_status": 200,
+    "resolved_url": "https://businesspapers.griffith.nsw.gov.au/Open/2020/02/CO_25022020_ATT_1261_PLANS.PDF",
+    "local_file": "sources/griffith_2020_co_25022020_att_1261_plans.pdf",
+    "sha256": "9a01558a9e6294a87abc5d36093868f92c687dc424e736585b5bd095e0488c7b"
+  }
+]

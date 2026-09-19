@@ -1,0 +1,5 @@
+council_key,year_start,variable,v1_value,v2_value,difference,status
+kiama,2021,maintenance_ratio_pct,10.0,,,Availability change from explicit V2 eligibility rules; see maintenance_conflicts.csv
+narrabri,2018,maintenance_ratio_pct,65.92724046140195,,,Availability change from explicit V2 eligibility rules; see maintenance_conflicts.csv
+portstephens,2017,maintenance_ratio_pct,104.10196794818567,,,Availability change from explicit V2 eligibility rules; see maintenance_conflicts.csv
+wollondilly,2020,maintenance_ratio_pct,82.70782630972205,,,Availability change from explicit V2 eligibility rules; see maintenance_conflicts.csv

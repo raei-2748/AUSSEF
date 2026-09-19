@@ -1,0 +1,112 @@
+[
+  {
+    "case_id": "carrathool_2021",
+    "classification": "mixed causes",
+    "explanation": "FY2021\u201322 operating grants increased from $13.681m to $20.510m and depreciation fell $1.963m versus FY2020\u201321. Council explicitly links the ratio improvement to advance Financial Assistance Grants. This documents the target annual step, while the preceding step is not fully reconciled.",
+    "source_id": "carrathool_2022",
+    "pdf_pages": "47,69,111,114",
+    "predictor_tags": "operating_grants;payment_timing;expense_components;depreciation;revenue_components",
+    "disaster_evidence": "No documented disaster-finance attribution in inspected evidence.",
+    "attribution_strength": "Documented contributor; full two-year causal attribution not established"
+  },
+  {
+    "case_id": "carrathool_2022",
+    "classification": "mixed causes",
+    "explanation": "Operating grants rose from $13.681m in FY2020\u201321 to $20.510m in FY2021\u201322 and $21.267m in FY2022\u201323. Depreciation fell $1.963m in the first transition. Council explicitly links ratio improvement to advance Financial Assistance Grants. This combines real funding, timing and expense changes.",
+    "source_id": "carrathool_2022",
+    "pdf_pages": "47,69,111,114",
+    "predictor_tags": "operating_grants;payment_timing;expense_components;depreciation;revenue_components",
+    "disaster_evidence": "No documented disaster-finance attribution in inspected evidence.",
+    "attribution_strength": "Documented contributor; full two-year causal attribution not established"
+  },
+  {
+    "case_id": "carrathool_2022",
+    "classification": "operating grant change",
+    "explanation": "The FY2022\u201323 note separates $1.501m storm/flood operating funding ($7.256m comparative) from capital funding. Advance future-year general/roads FAG allocations total $7.874m. Funding receipt and expense recognition need not coincide.",
+    "source_id": "carrathool_2023",
+    "pdf_pages": "68,119,122",
+    "predictor_tags": "operating_grants;payment_timing;disaster_grants",
+    "disaster_evidence": "Storm/flood operating grants documented; no quantified matching reconstruction cost or damage valuation recovered. FAG advance is general funding, not automatically disaster funding.",
+    "attribution_strength": "Documented contributor; full two-year causal attribution not established"
+  },
+  {
+    "case_id": "snowymonaro_2022",
+    "classification": "mixed causes",
+    "explanation": "The low FY2020\u201321 starting ratio coincided with a $11.2m landfill rehabilitation expense and reduced operating grants. FY2021\u201322 auditor commentary attributes improvement to increased operating grants and reduced other expenses. FY2022\u201323 records $35.607m operating grants. Comparatives were restated: the original FY2021\u201322 ratio \u22120.34% becomes \u22121.37% in the 2023 report.",
+    "source_id": "snowymonaro_18",
+    "pdf_pages": "83,91",
+    "predictor_tags": "operating_grants;expense_components;accounting_adjustments;revenue_components",
+    "disaster_evidence": "No documented disaster-finance attribution in inspected evidence.",
+    "attribution_strength": "Documented contributor; full two-year causal attribution not established"
+  },
+  {
+    "case_id": "snowymonaro_2022",
+    "classification": "mixed causes",
+    "explanation": "FY2022 accounts show other expenses $13.950m to $1.625m and operating grants $23.236m to $30.353m. The 2023 performance note retains FY2021 \u221230.27% but revises the 2022 comparative.",
+    "source_id": "snowymonaro_17",
+    "pdf_pages": "7,73,87",
+    "predictor_tags": "operating_grants;expense_components;accounting_adjustments",
+    "disaster_evidence": "No documented disaster-finance attribution in inspected evidence.",
+    "attribution_strength": "Documented contributor; full two-year causal attribution not established"
+  },
+  {
+    "case_id": "liverpoolplains_2022",
+    "classification": "mixed causes",
+    "explanation": "FY2022\u201323 operating grants rose $6.325m against FY2021\u201322. Commentary identifies advance FAG and unspent road/resilience funding, with high depreciation continuing. The prose reports \u22124.64% while the performance table and panel give \u22124.24%; retain the discrepancy. These records partly explain improvement, not the entire two-year movement.",
+    "source_id": "liverpoolplains_5",
+    "pdf_pages": "5,63,66",
+    "predictor_tags": "operating_grants;payment_timing;depreciation;disaster_grants;revenue_components",
+    "disaster_evidence": "Council describes operational natural-disaster grants for road repair. Physical damage amount, matching reconstruction cost and payment schedule were not established.",
+    "attribution_strength": "Documented contributor; full two-year causal attribution not established"
+  },
+  {
+    "case_id": "hay_2021",
+    "classification": "mixed causes",
+    "explanation": "FY2021\u201322 commentary attributes improvement to advance Financial Assistance Grants, reclassification of maintenance to capital, and savings. The income statement separates $8.500m operating grants from $6.067m capital grants. The documentary explanation covers the target annual step; the earlier step remains only partly audited.",
+    "source_id": "hay_2022",
+    "pdf_pages": "6,73,76",
+    "predictor_tags": "operating_grants;payment_timing;maintenance_reconstruction;accounting_adjustments;expense_components",
+    "disaster_evidence": "No documented disaster-finance attribution in inspected evidence.",
+    "attribution_strength": "Documented contributor; full two-year causal attribution not established"
+  },
+  {
+    "case_id": "murrayriver_2021",
+    "classification": "mixed causes",
+    "explanation": "FY2021\u201322 commentary links the weak operating ratio to $2.357m additional depreciation and reduced revenue versus FY2020\u201321. This explains a contributor to the target annual step; the earlier comparison year has not been fully reconciled.",
+    "source_id": "murrayriver_3",
+    "pdf_pages": "95",
+    "predictor_tags": "depreciation;revenue_components",
+    "disaster_evidence": "No documentary disaster-finance attribution established within this case period. Later 2022 floods must not explain an outcome ending June 2022.",
+    "attribution_strength": "Documented contributor; full two-year causal attribution not established"
+  },
+  {
+    "case_id": "murrayriver_2022",
+    "classification": "mixed causes",
+    "explanation": "FY2022\u201323 accounts identify high depreciation, operating flood preparation/response/repair funding, $3.992m counter-disaster/reactive maintenance, and advance FAG recognition. These are verified contributors within the target year, not a full explanation of the two-year difference.",
+    "source_id": "murrayriver_4",
+    "pdf_pages": "35,36,92,101",
+    "predictor_tags": "revenue_components;operating_grants;payment_timing;disaster_grants;reconstruction_expenditure;depreciation;rate_revenue",
+    "disaster_evidence": "FY2022\u201323 notes document $3.992m counter-disaster/reactive maintenance expenditure; $2m flood assistance under capital grants; additional operating road funding and $3m extra FAG advance. Recovery applications were not yet accepted: do not label expected reimbursement as cash received.",
+    "attribution_strength": "Documented contributor; full two-year causal attribution not established"
+  },
+  {
+    "case_id": "murrayriver_2023",
+    "classification": "mixed causes",
+    "explanation": "FY2023\u201324 income statements show rates and user charges increasing and depreciation/material costs decreasing versus FY2022\u201323. The 2023 comparative ratio is \u221226.22%, compared with \u221225.90% in the panel. The intermediate-year flood transactions are documented separately in the 2023 report; their contribution to the full two-year ratio change is not quantified.",
+    "source_id": "murrayriver_5",
+    "pdf_pages": "4,80",
+    "predictor_tags": "revenue_components;depreciation;rate_revenue;expense_components;accounting_adjustments",
+    "disaster_evidence": "FY2022\u201323 notes document $3.992m counter-disaster/reactive maintenance expenditure; $2m flood assistance under capital grants; additional operating road funding and $3m extra FAG advance. Recovery applications were not yet accepted: do not label expected reimbursement as cash received.",
+    "attribution_strength": "Documented contributor; full two-year causal attribution not established"
+  },
+  {
+    "case_id": "wollongong_2023",
+    "classification": "mixed causes",
+    "explanation": "The 2024 overview identifies remediation provisions, revised asset lives and higher depreciation, alongside other year-end adjustments and early FAG receipt. The before-capital deficit is not the adjusted ratio numerator; excluded valuation/disposal effects cannot all be assigned to the \u221215.39% ratio.",
+    "source_id": "wollongong_2024",
+    "pdf_pages": "4,9",
+    "predictor_tags": "depreciation;accounting_adjustments;payment_timing;expense_components",
+    "disaster_evidence": "No documented disaster-finance attribution in inspected evidence.",
+    "attribution_strength": "Documented contributor; full two-year causal attribution not established"
+  }
+]

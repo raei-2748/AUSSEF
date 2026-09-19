@@ -1,0 +1,30 @@
+{
+  "question": "Do natural disasters cause abnormal downward revisions to pre-planned ordinary infrastructure spending, with larger deviations under weaker pre-disaster capacity?",
+  "main_grain": "council x financial year x dated budget snapshot, fixed pre-event project/work portfolio",
+  "support_grain": "project x budget snapshot",
+  "separate_scopes": [
+    "ordinary capital renewal/new works",
+    "routine operating maintenance",
+    "disaster response/reconstruction excluded from ordinary blocks"
+  ],
+  "cumulative_revision": "(revised_full_year_budget - original_adopted_budget) / original_adopted_budget",
+  "incremental_revision": "(current_revised_full_year_budget - previous_revised_full_year_budget) / original_adopted_budget",
+  "annual_deviation": "(same_scope_annual_actual - original_adopted_budget) / original_adopted_budget",
+  "execution_gap": "(same_scope_annual_actual - final_same_scope_budget) / original_adopted_budget",
+  "sign": "negative = downward; retain zero and positive changes",
+  "zero_or_negative_baseline": "ratio undefined; preserve dollar change",
+  "quarterly_clock": {
+    "Q1": "July-September",
+    "Q2": "October-December",
+    "Q3": "January-March",
+    "Q4": "April-June"
+  },
+  "not_equivalent": [
+    "quarter-end full-year budget forecast and quarterly expenditure",
+    "negative deviation and abnormal causal effect",
+    "project budget value and value deferred",
+    "declaration start and local damage onset",
+    "last completed fiscal year and publicly available vintage"
+  ],
+  "models_authorised": false
+}

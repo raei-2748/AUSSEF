@@ -1,0 +1,6 @@
+council_key,financial_year,category_label,B0_aud,Q1_aud,Q2_aud,Q3_aud,ACTUAL_aud,Q2_minus_Q1_aud,Q3_minus_Q2_aud,Q3_minus_B0_aud,quality_status,ordinary_causal_interpretation_permitted
+richmondvalley,2021-22,Total Capital Expenditure,46880556.0,49339614,45706468,38584669,,-3633146,-7121799,-8295887.0,usable_for_descriptive_budget_only,False
+eurobodalla,2019-20,Total Capital Expenditure,75418007.0,65694767,47122414,43393946,,-18572353,-3728468,-32024061.0,usable_for_descriptive_budget_only,False
+lismore,2021-22,Total Capital Expenditure,66170200.0,67799700,70436000,49932200,,2636300,-20503800,-16238000.0,quarantine_year_unit_and_classification_conflicts,False
+griffith,2019-20,IPPE purchases Consolidated,40932455.0,48535638,49468828,34700588,,933190,-14768240,-6231867.0,usable_for_descriptive_budget_only,False
+waggawagga,2021-22,Total Capital Works,,158777354,132452986,128413693,,-26324368,-4039293,,usable_totals_component_movement_conflict,False

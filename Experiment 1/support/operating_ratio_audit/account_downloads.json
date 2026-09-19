@@ -1,0 +1,148 @@
+[
+  {
+    "source_id": "carrathool_2023",
+    "url": "https://carrathool.nsw.gov.au/wp-content/uploads/IPR/Annual-Report/2022-2023-Final-Annual-Report.pdf",
+    "path": "sources/carrathool_2023.pdf",
+    "pages": 160,
+    "sha256": "768de4c726bdc03e88a9279a174cbebb22aadb619573d6e89275c621d18053b9",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "wollongong_2024",
+    "url": "https://www.wollongong.nsw.gov.au/__data/assets/pdf_file/0032/258836/Annual-Financial-Statements-for-the-year-ended-30-June-2024.pdf",
+    "status": "403 Client Error: Forbidden for url: https://www.wollongong.nsw.gov.au/__data/assets/pdf_file/0032/258836/Annual-Financial-Statements-for-the-year-ended-30-June-2024.pdf"
+  },
+  {
+    "source_id": "carrathool_2024",
+    "url": "https://www.carrathool.nsw.gov.au/wp-content/uploads/2023/11/Combined-Master-Annual-Report-2023-2024.pdf",
+    "status": "404 Client Error: Not Found for url: https://carrathool.nsw.gov.au/wp-content/uploads/2023/11/Combined-Master-Annual-Report-2023-2024.pdf"
+  },
+  {
+    "source_id": "liverpoolplains_3",
+    "url": "https://www.liverpoolplains.nsw.gov.au/files/assets/public/v/1/hptrim/20212022-annual-report/d22-30466-liverpool-plains-shire-council-annual-report-2021-2022-final-for-website-redacted.pdf",
+    "path": "sources/liverpoolplains_3.pdf",
+    "pages": 197,
+    "sha256": "dca2a546f5ed4b8af62c3cd393a7b6ce1eb47335e07c9f8e2efb808fe4805ad3",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "liverpoolplains_4",
+    "url": "https://www.liverpoolplains.nsw.gov.au/files/assets/public/v/1/lpsc-annual-report-with-financial-statements-2020-2021.pdf",
+    "path": "sources/liverpoolplains_4.pdf",
+    "pages": 168,
+    "sha256": "70382d0a18821fb66432b0ba5cfcf8d1d7a2745e56993e196b2dd29cd56c5ae3",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "liverpoolplains_5",
+    "url": "https://www.liverpoolplains.nsw.gov.au/files/sharedassets/public/v/1/media-and-public-notices/media-release-images-new/lpsc-annual-financial-statements-30-june-2023.pdf",
+    "path": "sources/liverpoolplains_5.pdf",
+    "pages": 97,
+    "sha256": "2acd5c54e50d57df601666a37e86bb2ae459a0bc9b0b473f8ef0719525924af8",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "liverpoolplains_6",
+    "url": "https://www.liverpoolplains.nsw.gov.au/files/assets/public/v/1/hptrim/20212022-annual-report/d22-30466-liverpool-plains-shire-council-annual-report-2021-2022-final-for-website-redacted.pdf",
+    "path": "sources/liverpoolplains_6.pdf",
+    "pages": 197,
+    "sha256": "dca2a546f5ed4b8af62c3cd393a7b6ce1eb47335e07c9f8e2efb808fe4805ad3",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "liverpoolplains_7",
+    "url": "https://www.liverpoolplains.nsw.gov.au/files/assets/public/v/1/lpsc-annual-report-with-financial-statements-2020-2021.pdf.pdf",
+    "path": "sources/liverpoolplains_7.pdf",
+    "pages": 168,
+    "sha256": "ce65658bbbbf2307860f4e023a99a6141ae5a1bd1465fd46d0cb77b00fec6e81",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "snowymonaro_8",
+    "url": "https://www.snowymonaro.nsw.gov.au/files/assets/public/v/2/council/ipr/2022_aec_report_snowy_monaro_financial_sustainability_review_final.pdf",
+    "path": "sources/snowymonaro_8.pdf",
+    "pages": 174,
+    "sha256": "f0c0144a1b61b1ee6ab2f551299cdc5ac342b941be6cb3a8066b67a75112cae8",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "snowymonaro_9",
+    "url": "https://www.snowymonaro.nsw.gov.au/files/assets/public/v/4/council/ipr/previous-versions/20232024/long-term-financial-plan-revised-2023-2033-v1.4-adopted-with-links.pdf",
+    "path": "sources/snowymonaro_9.pdf",
+    "pages": 58,
+    "sha256": "60ea9918efa2838a76f05a580af239792fbcea057ac350603d78bb9f034a6db8",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "snowymonaro_10",
+    "url": "https://www.snowymonaro.nsw.gov.au/files/assets/public/v/1/council/ipr/previous-versions/20232024/smrc-annual_financial_statements-gpfs-2024.pdf",
+    "path": "sources/snowymonaro_10.pdf",
+    "pages": 92,
+    "sha256": "05c5c58b9a037a09d48c5bfff4d7b36f2c29e88ba53ec8a740caf7cfc4bf5d03",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "snowymonaro_11",
+    "url": "https://www.snowymonaro.nsw.gov.au/files/assets/public/v/1/council/ipr/previous-versions/20232024/smrc-annual_financial_statements-spfs-2024.pdf",
+    "path": "sources/snowymonaro_11.pdf",
+    "pages": 22,
+    "sha256": "7e5726f3624a3d51dbe8ed2bdc150f200bfb9b8a9922b7b03a16409c1edb0f67",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "snowymonaro_12",
+    "url": "https://www.snowymonaro.nsw.gov.au/files/assets/public/v/1/council/ipr/previous-versions/20232024/smrc-annual_financial_statements-ss-2024.pdf",
+    "path": "sources/snowymonaro_12.pdf",
+    "pages": 11,
+    "sha256": "cf695a3038ca9c821b20b22956da1e154aa7163501d56cbde98983cc4d9f66ba",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "snowymonaro_13",
+    "url": "https://www.snowymonaro.nsw.gov.au/files/assets/public/v/3/council/ipr/30-january-2023-long-term-financial-plan-2022-2032.pdf",
+    "path": "sources/snowymonaro_13.pdf",
+    "pages": 71,
+    "sha256": "99ee74f40a2edd3bcbfe5449b7a2b6aa3155d2c7ce1d80d32ddc5eb9b97d68e1",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "snowymonaro_14",
+    "url": "https://www.snowymonaro.nsw.gov.au/files/assets/public/v/2/council/ipr/annual-reports/annual_financial_statements-gpfs-2023-19-12-23.pdf",
+    "path": "sources/snowymonaro_14.pdf",
+    "pages": 92,
+    "sha256": "5ce1afea32af0cc8bb2687b51443d8e80796340bfb9ed653ba0daf64de85a055",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "snowymonaro_15",
+    "url": "https://www.snowymonaro.nsw.gov.au/files/assets/public/v/2/council/ipr/annual-reports/annual_financial_statements-spfs-2023-19-12-23.pdf",
+    "path": "sources/snowymonaro_15.pdf",
+    "pages": 17,
+    "sha256": "a8bdd108cede7c1acc2eaa8965e4b8b5abc4004f9dd5fc556615a918c77fc1c1",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "snowymonaro_16",
+    "url": "https://www.snowymonaro.nsw.gov.au/files/assets/public/v/2/council/ipr/annual-reports/annual_financial_statements-ss-2023.pdf",
+    "path": "sources/snowymonaro_16.pdf",
+    "pages": 10,
+    "sha256": "dcf7e413b878a773d82c18ca2c7cc7853885b3b1d68c93a8c4c1db91cc653aa6",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "snowymonaro_17",
+    "url": "https://www.snowymonaro.nsw.gov.au/files/assets/public/v/2/council/ipr/annual-financial-statements-2022.pdf",
+    "path": "sources/snowymonaro_17.pdf",
+    "pages": 120,
+    "sha256": "39dd02cfa91cb203cb4aca720b0a1730d98ed8a18e64aebe3205ba837df42bbf",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "snowymonaro_18",
+    "url": "https://www.snowymonaro.nsw.gov.au/files/assets/public/v/1/council/annual-amp-financial-reports/combined-financial-statements-2020-2021.pdf",
+    "path": "sources/snowymonaro_18.pdf",
+    "pages": 124,
+    "sha256": "d7b5bd6e3f166b478a85c39fede3a4c8f844c4c237cc3bff9441d9fd2ab9d4e8",
+    "status": "retrieved"
+  }
+]

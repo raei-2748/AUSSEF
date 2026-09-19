@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://datasets.seed.nsw.gov.au/dataset/eeaf2006-db96-4218-a124-43b19cd15765/resource/43c71151-d790-423a-8436-457036c470cb/download/fireextentandseveritymapping_fesmv3_factsheet_december2020.docx.pdf",
+    "file": "fesm_v3_factsheet.pdf",
+    "status": 200,
+    "bytes": 99606,
+    "sha256": "c8d88f14d65c0845f4980bbaaaf3a4f4ea6f60890d8be69093e5a70db0668b08"
+  },
+  {
+    "url": "https://datasets.seed.nsw.gov.au/dataset/eeaf2006-db96-4218-a124-43b19cd15765/resource/90cb3547-196f-480b-a0c7-9d834f794129/download/fire_fesm_2016_17.zip",
+    "file": "fesm_2016_vector.zip",
+    "status": 200,
+    "bytes": 19455916,
+    "sha256": "72f93742cf1633832b778fc9d8189b3226fe9254998d740e3ac487b34e8dd991"
+  }
+]

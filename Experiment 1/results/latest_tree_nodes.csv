@@ -1,0 +1,36 @@
+target,test_fy,node,depth,is_leaf,split_variable,threshold,training_n,prediction,prediction_unit,path
+operating_ratio_pct,2023-24,0,0,False,operating_ratio_pct__prior,-12.565000057220459,367,-0.17460490463215275,percentage points,all training rows
+operating_ratio_pct,2023-24,1,1,True,,,22,-14.816363636363635,percentage points,all training rows AND operating_ratio_pct__prior <= -12.565
+operating_ratio_pct,2023-24,2,1,False,operating_ratio_pct__prior,8.384999752044678,345,0.7590724637681159,percentage points,all training rows AND operating_ratio_pct__prior > -12.565
+operating_ratio_pct,2023-24,3,2,False,operating_ratio_pct__prior,0.004999999888241291,287,-0.6426480836236935,percentage points,all training rows AND operating_ratio_pct__prior > -12.565 AND operating_ratio_pct__prior <= 8.385
+operating_ratio_pct,2023-24,4,3,True,,,119,-2.671092436974793,percentage points,all training rows AND operating_ratio_pct__prior > -12.565 AND operating_ratio_pct__prior <= 8.385 AND operating_ratio_pct__prior <= 0.005
+operating_ratio_pct,2023-24,5,3,True,,,168,0.7941666666666665,percentage points,all training rows AND operating_ratio_pct__prior > -12.565 AND operating_ratio_pct__prior <= 8.385 AND operating_ratio_pct__prior > 0.005
+operating_ratio_pct,2023-24,6,2,False,own_source_pct__prior,52.96500015258789,58,7.695172413793103,percentage points,all training rows AND operating_ratio_pct__prior > -12.565 AND operating_ratio_pct__prior > 8.385
+operating_ratio_pct,2023-24,7,3,True,,,20,12.813999999999998,percentage points,all training rows AND operating_ratio_pct__prior > -12.565 AND operating_ratio_pct__prior > 8.385 AND own_source_pct__prior <= 52.965
+operating_ratio_pct,2023-24,8,3,True,,,38,5.001052631578949,percentage points,all training rows AND operating_ratio_pct__prior > -12.565 AND operating_ratio_pct__prior > 8.385 AND own_source_pct__prior > 52.965
+cash_cover_months,2023-24,0,0,False,cash_cover_months__prior,16.204999923706055,368,13.875326358695657,months,all training rows
+cash_cover_months,2023-24,1,1,False,cash_cover_months__prior,8.440000057220459,263,10.880158935361218,months,all training rows AND cash_cover_months__prior <= 16.205
+cash_cover_months,2023-24,2,2,False,cash_cover_months__prior,5.545000076293945,79,7.0767113924050635,months,all training rows AND cash_cover_months__prior <= 16.205 AND cash_cover_months__prior <= 8.44
+cash_cover_months,2023-24,3,3,True,,,36,5.979255555555557,months,all training rows AND cash_cover_months__prior <= 16.205 AND cash_cover_months__prior <= 8.44 AND cash_cover_months__prior <= 5.545
+cash_cover_months,2023-24,4,3,True,,,43,7.9955116279069784,months,all training rows AND cash_cover_months__prior <= 16.205 AND cash_cover_months__prior <= 8.44 AND cash_cover_months__prior > 5.545
+cash_cover_months,2023-24,5,2,False,own_source_pct__prior,49.57500076293945,184,12.513160869565217,months,all training rows AND cash_cover_months__prior <= 16.205 AND cash_cover_months__prior > 8.44
+cash_cover_months,2023-24,6,3,True,,,32,16.035343750000003,months,all training rows AND cash_cover_months__prior <= 16.205 AND cash_cover_months__prior > 8.44 AND own_source_pct__prior <= 49.575
+cash_cover_months,2023-24,7,3,True,,,152,11.771648684210522,months,all training rows AND cash_cover_months__prior <= 16.205 AND cash_cover_months__prior > 8.44 AND own_source_pct__prior > 49.575
+cash_cover_months,2023-24,8,1,False,cash_cover_months__prior,25.295000076293945,105,21.37750761904762,months,all training rows AND cash_cover_months__prior > 16.205
+cash_cover_months,2023-24,9,2,False,debt_service_cover__prior,7.389999866485596,81,18.606206172839507,months,all training rows AND cash_cover_months__prior > 16.205 AND cash_cover_months__prior <= 25.295
+cash_cover_months,2023-24,10,3,True,,,32,21.051359375,months,all training rows AND cash_cover_months__prior > 16.205 AND cash_cover_months__prior <= 25.295 AND debt_service_cover__prior <= 7.39
+cash_cover_months,2023-24,11,3,True,,,49,17.00937142857143,months,all training rows AND cash_cover_months__prior > 16.205 AND cash_cover_months__prior <= 25.295 AND debt_service_cover__prior > 7.39
+cash_cover_months,2023-24,12,2,True,,,24,30.730649999999997,months,all training rows AND cash_cover_months__prior > 16.205 AND cash_cover_months__prior > 25.295
+maintenance_ratio_pct,2024-25,0,0,False,maintenance_ratio_pct__prior,117.49959564208984,481,106.17938961188446,percentage points,all training rows
+maintenance_ratio_pct,2024-25,1,1,False,population__prior,5998.5,407,101.29196462766834,percentage points,all training rows AND maintenance_ratio_pct__prior <= 117.5
+maintenance_ratio_pct,2024-25,2,2,False,road_km__prior,1553.594970703125,57,115.6024157164637,percentage points,all training rows AND maintenance_ratio_pct__prior <= 117.5 AND population__prior <= 5998.5
+maintenance_ratio_pct,2024-25,3,3,True,,,26,102.27086599297681,percentage points,all training rows AND maintenance_ratio_pct__prior <= 117.5 AND population__prior <= 5998.5 AND road_km__prior <= 1553.59
+maintenance_ratio_pct,2024-25,4,3,True,,,31,126.78371548454939,percentage points,all training rows AND maintenance_ratio_pct__prior <= 117.5 AND population__prior <= 5998.5 AND road_km__prior > 1553.59
+maintenance_ratio_pct,2024-25,5,2,False,maintenance_ratio_pct__prior,75.01477813720703,350,98.96140545035027,percentage points,all training rows AND maintenance_ratio_pct__prior <= 117.5 AND population__prior > 5998.5
+maintenance_ratio_pct,2024-25,6,3,True,,,22,82.60698088716634,percentage points,all training rows AND maintenance_ratio_pct__prior <= 117.5 AND population__prior > 5998.5 AND maintenance_ratio_pct__prior <= 75.0148
+maintenance_ratio_pct,2024-25,7,3,True,,,328,100.05834856129556,percentage points,all training rows AND maintenance_ratio_pct__prior <= 117.5 AND population__prior > 5998.5 AND maintenance_ratio_pct__prior > 75.0148
+maintenance_ratio_pct,2024-25,8,1,False,operating_ratio_pct__prior,-2.4200000762939453,74,133.0602270250732,percentage points,all training rows AND maintenance_ratio_pct__prior > 117.5
+maintenance_ratio_pct,2024-25,9,2,True,,,25,111.72792864157799,percentage points,all training rows AND maintenance_ratio_pct__prior > 117.5 AND operating_ratio_pct__prior <= -2.42
+maintenance_ratio_pct,2024-25,10,2,False,road_km__prior,1046.7950134277344,49,143.94405273093813,percentage points,all training rows AND maintenance_ratio_pct__prior > 117.5 AND operating_ratio_pct__prior > -2.42
+maintenance_ratio_pct,2024-25,11,3,True,,,27,160.94526890096697,percentage points,all training rows AND maintenance_ratio_pct__prior > 117.5 AND operating_ratio_pct__prior > -2.42 AND road_km__prior <= 1046.8
+maintenance_ratio_pct,2024-25,12,3,True,,,22,123.07892379499363,percentage points,all training rows AND maintenance_ratio_pct__prior > 117.5 AND operating_ratio_pct__prior > -2.42 AND road_km__prior > 1046.8

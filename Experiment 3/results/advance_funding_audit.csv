@@ -1,0 +1,4 @@
+council_key,disaster,announcement_date,agreement_effective_date,first_payment_date,receipt_date_lower,receipt_date_upper,receipt_amount_aud,receipt_precision,project,source_evidence_id,exact_timing_project_link_verified,analysis_eligible
+lismore,Northern Rivers floods February/March 2022,2024-03-29,,,2023-07-01,2024-06-30,86000000.0,financial year; not certified first payment,TfNSW road disaster works portfolio; individual project IDs not recovered,E029,False,False
+richmondvalley,Northern Rivers floods February/March 2022,,,,,,,unknown; no inferred zero,unknown,,False,False
+eurobodalla,Black Summer and subsequent floods,,,,,,,unknown; no inferred zero,unknown,,False,False

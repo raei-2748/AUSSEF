@@ -1,0 +1,114 @@
+[
+  {
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-05/time-series-data-2024-2025.xlsx",
+    "title": "Time-Series Data 2024/2025 (XLSX,\u00a0129\u00a0KB)",
+    "file": "sources/time-series-data-2024-2025.xlsx",
+    "status": "retrieved",
+    "sha256": "11d79f8642a7610579dbcfcab68f9acd2c84e17b60ab7544ba846e6ebbc0cdc3",
+    "bytes": 205895
+  },
+  {
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx",
+    "title": "Time-Series Data 2023/2024 (XLSX,\u00a0209\u00a0KB)",
+    "file": "sources/time-series-data-2023-24.xlsx",
+    "status": "retrieved",
+    "sha256": "e760f245dc28a7bb9d54e21aca614641d88df21a67a7ec91805dfe04ecb15e32",
+    "bytes": 213642
+  },
+  {
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx",
+    "title": "Time-Series Data 2022/2023 (XLSX,\u00a0200\u00a0KB)",
+    "file": "sources/time-series-data-2022-23.xlsx",
+    "status": "retrieved",
+    "sha256": "062de94424575d1eaec948c710460ccdd09f08d0ebd15ed799e7e95fdc8c7255",
+    "bytes": 204952
+  },
+  {
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx",
+    "title": "Time-Series Data 2021/2022 (XLSX,\u00a0203\u00a0KB)",
+    "file": "sources/time-series-data-2021-22.xlsx",
+    "status": "retrieved",
+    "sha256": "7353f7f7c99c628b2785b5ba57ae7bbc56126349b3a36afc01c036df5d49becc",
+    "bytes": 208210
+  },
+  {
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx",
+    "title": "Time Series Data 2020/2021 (XLSX,\u00a0200\u00a0KB)",
+    "file": "sources/time-series-data-2020-2021.xlsx",
+    "status": "retrieved",
+    "sha256": "626310275342198071e2c8df8c38e04d02a35f51ef13ecb2c408af2a57574bd3",
+    "bytes": 205010
+  },
+  {
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2019-2020.xlsx",
+    "title": "Time Series Data 2019/2020 (XLSX,\u00a0209\u00a0KB)",
+    "file": "sources/time-series-data-2019-2020.xlsx",
+    "status": "retrieved",
+    "sha256": "a29009e0ffdd97482ea8f3d60f58b71df4a580517ca9122eef21d6d736332c9a",
+    "bytes": 198007
+  },
+  {
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2018-2019.xlsx",
+    "title": "Time Series Data 2018/2019 (XLSX,\u00a0609\u00a0KB)",
+    "file": "sources/time-series-data-2018-2019.xlsx",
+    "status": "retrieved",
+    "sha256": "f9c99658b305be86b0b4b9a47586ada12af7bb78a01bf952ca4de80e763dfcd4",
+    "bytes": 623253
+  },
+  {
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2017-2018.xls",
+    "title": "Time Series Data 2017/2018 (XLS,\u00a0718\u00a0KB)",
+    "file": "sources/time-series-data-2017-2018.xls",
+    "status": "retrieved",
+    "sha256": "69fd629165a018a70a6a412acb3159e08190347bb0ab92aab26c4f9a56fdc3f6",
+    "bytes": 734720
+  },
+  {
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2016-17.xls",
+    "title": "Time Series Data 2016/2017 (XLS,\u00a0702\u00a0KB)",
+    "file": "sources/time-series-data-2016-17.xls",
+    "status": "retrieved",
+    "sha256": "42a1b4c0782f2a62c22c4ab030cedace8c0fe8420d587fc3b4fdc9e4cbb430f7",
+    "bytes": 743936
+  },
+  {
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2015-16.xls",
+    "title": "Time Series Data 2015/2016 (XLS,\u00a0703\u00a0KB)",
+    "file": "sources/time-series-data-2015-16.xls",
+    "status": "retrieved",
+    "sha256": "62bb1e2c38332f872564fb98c103d0053b842341720f62a1f9951b697dd279a2",
+    "bytes": 719360
+  },
+  {
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2014-15_1.xls",
+    "title": "Time Series Data 2014/2015 (XLS,\u00a0382\u00a0KB)",
+    "file": "sources/time-series-data-2014-15_1.xls",
+    "status": "retrieved",
+    "sha256": "baf59e3a00a8131a90710eabb12f9497218795510b180f0945c62527e26a600d",
+    "bytes": 391168
+  },
+  {
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-1994-2015.xls",
+    "title": "Time Series Data 1994-2015 (XLS,\u00a06.1 MB\u00a0)",
+    "file": "sources/time-series-data-1994-2015.xls",
+    "status": "retrieved",
+    "sha256": "402f2500192b0c6a614663072afe8404bb5b62cdf92d15fb1e73f8bd6199e608",
+    "bytes": 6386688
+  },
+  {
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-02/comparative-information-on-nsw-local-government-1994-2011-time-series-data.xls",
+    "title": "Comparative Information on NSW Local Government 1994-2011 (XLS,\u00a04.9\u00a0MB)",
+    "file": "sources/comparative-information-on-nsw-local-government-1994-2011-time-series-data.xls",
+    "status": "retrieved",
+    "sha256": "7ac147ce7b6ce75b30907a84a6513acd0796bbcbe3028671a9a68dda27d13797",
+    "bytes": 5099520
+  },
+  {
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2011-12-2013-14.xlsx",
+    "title": "Time Series Data 2011/12 \u2013 2013/14 (XLSX,\u00a0798\u00a0KB)",
+    "file": "sources/time-series-data-2011-12-2013-14.xlsx",
+    "status": "retrieved",
+    "sha256": "dd6f66e801caaec9dadd454488a46aed4b0f55ffab82bc592226b69a124879f5",
+    "bytes": 817059
+  }
+]

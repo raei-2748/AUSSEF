@@ -1,0 +1,52 @@
+[
+  {
+    "url": "https://data.gov.au/data/dataset/10ba7303-e3af-41b4-98b5-e04db77caea8/resource/caa3bf05-9411-4538-9cf7-23ab3cac3b87/download/drfa_activation_history_by_location_20240202.csv",
+    "id": "caa3bf05-9411-4538-9cf7-23ab3cac3b87",
+    "status": 404
+  },
+  {
+    "url": "https://data.gov.au/data/dataset/10ba7303-e3af-41b4-98b5-e04db77caea8/resource/8c7acead-f3ed-415e-a389-347c85cd1df0/download/drfa_activation_history_location_2024_feb_02.csv",
+    "id": "8c7acead-f3ed-415e-a389-347c85cd1df0",
+    "status": 404
+  },
+  {
+    "url": "https://data.gov.au/data/dataset/10ba7303-e3af-41b4-98b5-e04db77caea8/resource/1daadd2a-8281-4506-a4e3-8c299977df53/download/drfa_activation_history_location_2024_feb_02.csv",
+    "id": "1daadd2a-8281-4506-a4e3-8c299977df53",
+    "status": 404
+  },
+  {
+    "url": "https://data.gov.au/data/dataset/10ba7303-e3af-41b4-98b5-e04db77caea8/resource/0fbabf56-55aa-4b87-a2f8-a4a681ff5e33/download/drfa_activation_history_lga_2024_feb_02_friday.csv",
+    "id": "0fbabf56-55aa-4b87-a2f8-a4a681ff5e33",
+    "status": 404
+  },
+  {
+    "url": "https://data.gov.au/data/dataset/10ba7303-e3af-41b4-98b5-e04db77caea8/resource/cc22ef25-c661-4550-9363-a257b903ae70/download/drfa_activation_history_lga_2024_feb_02.csv",
+    "id": "cc22ef25-c661-4550-9363-a257b903ae70",
+    "status": 404
+  },
+  {
+    "url": "https://data.gov.au/data/dataset/10ba7303-e3af-41b4-98b5-e04db77caea8/resource/f2d55839-2204-4b45-9c94-8262ac4e983e/download/drfa_activation_history_lga_2024-01-15.xlsx",
+    "id": "f2d55839-2204-4b45-9c94-8262ac4e983e",
+    "status": 404
+  },
+  {
+    "url": "https://data.gov.au/data/dataset/10ba7303-e3af-41b4-98b5-e04db77caea8/resource/f4506099-421c-481a-b1f6-70fba512da8c/download/drfa_activation_history_lga_2023-06-30.xlsx",
+    "id": "f4506099-421c-481a-b1f6-70fba512da8c",
+    "status": 404
+  },
+  {
+    "url": "https://data.gov.au/data/dataset/10ba7303-e3af-41b4-98b5-e04db77caea8/resource/00dec3c9-eb3d-488c-acc6-52754935c6c5/download/drfa_activation_history_lga_2023-11-20.xlsx",
+    "id": "00dec3c9-eb3d-488c-acc6-52754935c6c5",
+    "status": 404
+  },
+  {
+    "url": "https://data.gov.au/data/dataset/10ba7303-e3af-41b4-98b5-e04db77caea8/resource/bb4b3ee8-a1f2-4baf-8ec0-0c133b9114ba/download/drfa_activation_history_lga_2024_feb_02.csv",
+    "id": "bb4b3ee8-a1f2-4baf-8ec0-0c133b9114ba",
+    "status": 404
+  },
+  {
+    "url": "https://data.gov.au/data/dataset/10ba7303-e3af-41b4-98b5-e04db77caea8/resource/6bb3a7c6-00b1-4347-95fe-5bdc36b76c67/download/drfa_activation_history_lga_2024_feb_02.csv",
+    "id": "6bb3a7c6-00b1-4347-95fe-5bdc36b76c67",
+    "status": 404
+  }
+]

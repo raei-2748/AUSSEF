@@ -1,0 +1,7 @@
+gate,question,verdict,evidence
+1,Eligible approved applications identifiable,PARTIAL,Official award labels for 194 council asset/works rows across 38 councils; no unique application IDs or separate eligibility files
+2,Eligible unsuccessful applications identifiable,NOT PASSED,"Zero verified eligible unsuccessful 2022 local-government applications; Boulia ineligible, TMR outside population, Somerset wrong round"
+3,Consistent outcome across applications,NOT PASSED,"Need unique projects, eligibility, decision cutoff and revision/reconsideration histories; published row is not application"
+4,Enough outcomes across distinct councils,NOT PASSED,No certified negative councils; 38 award councils cannot establish effective two-class sample size
+5,Independent need/project quality adequate,NOT PASSED,"Criteria known, application-level damage/CBA/quality evidence absent for both outcome classes"
+6,Comparable pre-decision capacity available,PARTIAL,"Three QAO measures recovered for 39 identified councils; additional components pilot-only, dates and scope unresolved"

@@ -1,0 +1,15 @@
+# AUSSEF exploratory fiscal decision tree
+
+Run `Experiment 1/run_experiment.py` from the AUSSEF directory with Python, pandas, NumPy, scikit-learn, matplotlib, IPython and a Jupyter kernel. The notebook uses only `NSW Data Panel.csv`, checks its SHA-256 before/after, and writes derived files here. Rerunning replaces these generated summaries/figures.
+
+For each council_key, t−1 fiscal/scale variables plus t mapped burned hectares and bushfire/flood declaration counts predict t+1 operating ratio (primary), cash cover and maintenance ratio (separate secondary targets). Exact-year joins prevent gaps being bridged. No composite index. The fixed depth-3 tree has a minimum 20 observations per leaf. Medians are fitted within training folds only.
+
+Expanding-window tests hold out whole financial years; training outcome years must be strictly before the test exposure year. Publication timestamps are unavailable, so this is retrospective feasibility evidence. Observed pre-event target values are required to compare persistence, training mean and tree on identical rows. Missing targets, boundary flags, and maintenance-specific quality failures are excluded with row-level reasons. Other missing predictors are median-imputed. No random split, tuning or advanced ensemble is used.
+
+MAE is average absolute error; RMSE penalises large errors more; both use percentage points for ratios and months for cash cover. Out-of-sample R² compares squared errors to variation in held-out outcomes; negative values are retained. Pooled and individual-year results are both reported.
+
+Start with `interpretation.md`, `year_by_year_validation.csv`, and `pooled_validation_metrics.csv`. `fold_sample_sizes_and_exclusions.csv` records evaluated/skipped folds. `row_eligibility.csv` and `alignment_exclusions_by_year.csv` document exclusions. `column_audit.csv`, `missingness_by_year.csv`, `quality_flag_counts.csv`, and `council_identifiers.csv` document the source. `predictor_rationale.csv` and `source_column_roles.csv` explain scope. `held_out_predictions.csv`, `fold_imputation_audit.csv`, and `split_variables_all_folds.csv` support audit. `latest_tree_nodes.csv` includes all splits and leaf paths; each target has PNG/SVG tree figures. `run_manifest.json` records configuration and source hash.
+
+Verdict: **NO-GO** under the notebook's predeclared primary-outcome rule. Secondary results do not override it. See interpretation for measured comparisons.
+
+Limitations: a handful of future years; repeated councils/shared shocks; no certification of historical data availability or accounting definitions; boundary uncertainty and four excluded councils; changing mapped-fire scope; declaration counts do not establish physical flooding or zero disaster exposure; missing outcomes and selection into the persistence-observed cohort; fiscal extremes; no causal or unseen-council inference. No-disaster split use does not prove no disaster effect, and split use does not establish incremental exposure value.

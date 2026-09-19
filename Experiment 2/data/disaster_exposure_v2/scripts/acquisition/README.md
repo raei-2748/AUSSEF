@@ -1,0 +1,1 @@
+These are acquisition-run records, not the offline reproduction entry points. They include failed/obsolete URLs and the original absolute working paths. Do not run them blindly. Accepted inputs and hashes are listed in ../../source_register.csv; run the three scripts one directory above to rebuild from cached sources.

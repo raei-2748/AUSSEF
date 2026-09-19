@@ -1,0 +1,13 @@
+[
+  {
+    "file": "raa_2014.pdf",
+    "url": "https://wayback.archive-it.org/22771/20240423201346/https://www.opengov.nsw.gov.au/download/15213",
+    "status": 200,
+    "sha256": "71d75f618360bb849fb2ba3b6a29941114a7f2ad2836fa5ecf6f2dd9bf3a8c52"
+  },
+  {
+    "file": "fesm_2016_report.pdf",
+    "url": "https://www.environment.nsw.gov.au/sites/default/files/2025-01/fire-extent-severity-mapping-2020-21-2016-17-220206.pdf",
+    "status": 200
+  }
+]

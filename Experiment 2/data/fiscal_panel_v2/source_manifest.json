@@ -1,0 +1,154 @@
+[
+  {
+    "source_id": "profile_2015",
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-02/your-council-june-2015-profile-and-performance-of-the-nsw-local-government-sector.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/profile_2015.pdf",
+    "sha256": "6ea77874ad6544e823dcc3d0728fe09b93a014916d97c75807077d774aedd23d",
+    "status": "retrieved",
+    "bytes": 3134291,
+    "pages": 39
+  },
+  {
+    "source_id": "comparative_2013",
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-02/comparative-information-on-nsw-local-government-measuring-local-government-performance-2012-2013.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/comparative_2013.pdf",
+    "sha256": "fa66046191d485bbd2b929357aa9a3d028953e10724d009b10a561eb48070789",
+    "status": "retrieved",
+    "bytes": 76370604,
+    "pages": 353
+  },
+  {
+    "source_id": "olg_annual_2014",
+    "url": "https://www.olg.nsw.gov.au/wp-content/uploads/OLG-Annual-Report-2013-14-24Feb2014-to-30June2014.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/olg_annual_2014.pdf",
+    "sha256": "d6fbbc63b421eae2647c637f3ba3b05966c1e253c35e78a87e6acaff1c0c579f",
+    "status": "Stream has ended unexpectedly",
+    "bytes": 88100
+  },
+  {
+    "source_id": "olg_annual_2015",
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-03/olg-annual-report-2014-2015.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/olg_annual_2015.pdf",
+    "sha256": "9b8ce574a71d3db35beee6e19016fe640210fd0ecd585e2030ca858675e62ff9",
+    "status": "retrieved",
+    "bytes": 5627566,
+    "pages": 73
+  },
+  {
+    "source_id": "boundary_2016",
+    "url": "https://legislation.nsw.gov.au/view/pdf/asmade/sl-2016-241",
+    "retrieved_date": "2026-09-18",
+    "status": "403 Client Error: Forbidden for url: https://legislation.nsw.gov.au/view/pdf/asmade/sl-2016-241"
+  },
+  {
+    "source_id": "amalgamations_2016",
+    "url": "https://www.audit.nsw.gov.au/sites/default/files/auditoffice/2018-Reports/Local%20Government%202017/Appendix%20four%20-%20Councils%20amalgamated%20in%202016.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/amalgamations_2016.pdf",
+    "sha256": "79f6054fd4da5ceca576209ec8105aa4dfac2765b73cd26bc1ed0637a3d0595a",
+    "status": "retrieved",
+    "bytes": 107908,
+    "pages": 2
+  },
+  {
+    "source_id": "gc145",
+    "url": "https://www.olg.nsw.gov.au/wp-content/uploads/2020/12/GC-145.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/gc145.pdf",
+    "sha256": "d6fbbc63b421eae2647c637f3ba3b05966c1e253c35e78a87e6acaff1c0c579f",
+    "status": "Stream has ended unexpectedly",
+    "bytes": 88100
+  },
+  {
+    "source_id": "gc147",
+    "url": "https://www.olg.nsw.gov.au/wp-content/uploads/GC-147-2018-19-Financial-Assistance-Grants-FAGs-%E2%80%93-advance-payment-and-transition-to-implement-improvements-to-the-existing-allocation-model.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/gc147.pdf",
+    "sha256": "d6fbbc63b421eae2647c637f3ba3b05966c1e253c35e78a87e6acaff1c0c579f",
+    "status": "Stream has ended unexpectedly",
+    "bytes": 88100
+  },
+  {
+    "source_id": "grants_annual_2015",
+    "url": "https://www.olg.nsw.gov.au/wp-content/uploads/NSW-Local-Government-Grants-Commission-Annual-Report-2014-2015.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/grants_annual_2015.pdf",
+    "sha256": "d6fbbc63b421eae2647c637f3ba3b05966c1e253c35e78a87e6acaff1c0c579f",
+    "status": "Stream has ended unexpectedly",
+    "bytes": 88100
+  },
+  {
+    "source_id": "council_circular_gc_150_2021_22_financial_assistance_grants_advance_payment_pdf",
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-01/council-circular-gc-150-2021-22-financial-assistance-grants\u2013advance-payment.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/council_circular_gc_150_2021_22_financial_assistance_grants_advance_payment_pdf.pdf",
+    "sha256": "302e0cbeeea1667366a38165b7c3e9da5678b9b7187c3fbae880ab2951a6f653",
+    "status": "retrieved",
+    "bytes": 85017,
+    "pages": 2
+  },
+  {
+    "source_id": "grants_commission_circular_gc_149_2020_21_financial_assistance_grants_advance_payment_pdf",
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-01/grants-commission-circular-GC-149-2020-21-financial-assistance-grants\u2013advance-payment.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/grants_commission_circular_gc_149_2020_21_financial_assistance_grants_advance_payment_pdf.pdf",
+    "sha256": "a32e7b89535b84820fdf7cace17f8efd7476b762fe070d4a08a4cd9adb16a116",
+    "status": "retrieved",
+    "bytes": 110195,
+    "pages": 2
+  },
+  {
+    "source_id": "olg_annual_report_2017_2018_pdf",
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-03/olg-annual-report-2017-2018.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/olg_annual_report_2017_2018_pdf.pdf",
+    "sha256": "07ec455ae54fb91342fc8243e7333a2ee005167a69a9468edb9ac278612d1ddf",
+    "status": "retrieved",
+    "bytes": 4820036,
+    "pages": 58
+  },
+  {
+    "source_id": "olg_annual_report_2016_2017_pdf",
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-03/olg-annual-report-2016-2017.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/olg_annual_report_2016_2017_pdf.pdf",
+    "sha256": "476381a04b148f47068c688044f01704117074ca9e7424bbbf257d313d40adf7",
+    "status": "retrieved",
+    "bytes": 6797420,
+    "pages": 55
+  },
+  {
+    "source_id": "olg_annual_report_2015_2016_pdf",
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-03/olg-annual-report-2015-2016.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/olg_annual_report_2015_2016_pdf.pdf",
+    "sha256": "e98ee0062a4f79e8427a6bcd4a3fcf677c00f2c2a8f13938f154176e4e914ff5",
+    "status": "retrieved",
+    "bytes": 8221224,
+    "pages": 61
+  },
+  {
+    "source_id": "grants_commission_circular_gc_153_2024_25_financial_assistance_grants_advance_payment_pdf",
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-01/grants-commission-circular-gc-153-2024-25-financial-assistance-grants\u2013advance-payment.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/grants_commission_circular_gc_153_2024_25_financial_assistance_grants_advance_payment_pdf.pdf",
+    "sha256": "700d41e61f6df13a205c9f37b0abb6c9abe23d41f92ccad72fc68742c4d3c75d",
+    "status": "retrieved",
+    "bytes": 678185,
+    "pages": 5
+  },
+  {
+    "source_id": "grants_commission_circular_gc_152_2023_24_financial_assistance_grants_advance_payment_pdf",
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-01/grants-commission-circular-gc-152-2023-24-financial-assistance-grants-advance-payment.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/grants_commission_circular_gc_152_2023_24_financial_assistance_grants_advance_payment_pdf.pdf",
+    "sha256": "bcd639b647e49c77465fd9d4e349e5de5e36310aba357910f8e44866f469d113",
+    "status": "retrieved",
+    "bytes": 189400,
+    "pages": 2
+  }
+]

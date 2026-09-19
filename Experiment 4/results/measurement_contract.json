@@ -1,0 +1,12 @@
+{
+  "research_question": "Do disasters cause abnormal downward revisions to pre-planned ordinary infrastructure, larger at weaker pre-disaster capacity?",
+  "unit": "fixed project-year-stage; inference clustered by council and event, not table row",
+  "ordinary_definition": "Pre-event funded infrastructure project excluding disaster restoration and direct damaged/inaccessible assets; candidate is not certification",
+  "revision": "Bq-Bprevious; negative means downward. Separately report carryovers, new projects, reclassification and rephasing.",
+  "annual_deviation": "Actual-B0 only for identical project set, basis and scope. No splicing cash IPPE into program totals.",
+  "missing": "Blank means unknown/not reconstructed, never zero. Source numeric dash interpreted zero only inside inspected numeric table.",
+  "timing": "Store quarter-end, decision, publication, event start and local impact independently; do not backdate May approval to March31.",
+  "causal_model_fitted": false,
+  "scaling_verdict": "NO-GO with current reconstructed public data",
+  "conditional_next_step": "Request administrative project ledger and damage/access/payment links; no outreach sent."
+}

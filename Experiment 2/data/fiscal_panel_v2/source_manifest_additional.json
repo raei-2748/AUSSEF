@@ -1,0 +1,23 @@
+[
+  {
+    "source_id": "walgett_2014",
+    "url": "https://www.walgett.nsw.gov.au/files/assets/public/v/1/council/documents/attachment-a-financial-statements.pdf",
+    "retrieved_date": "2026-09-18",
+    "status": "Not PDF"
+  },
+  {
+    "source_id": "gc151",
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-03/council-circular-gc-150-2022-23-financial-assistance-grants-advance-payment.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/gc151.pdf",
+    "status": "retrieved",
+    "sha256": "be39004143bfcaa9152c678e6674092ec08f673862bbecdb6f3e83a54f9e2732",
+    "pages": 2
+  },
+  {
+    "source_id": "walgett_oct2013",
+    "url": "https://www.walgett.nsw.gov.au/files/assets/public/council/documents/archived-council-agendas/agenda-_-october-2013_ordinary-council-meeting.pdf",
+    "retrieved_date": "2026-09-18",
+    "status": "Not PDF"
+  }
+]

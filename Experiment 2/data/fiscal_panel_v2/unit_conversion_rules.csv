@@ -1,0 +1,261 @@
+year_start,variable,header,excel_column,factor,source_unit,source_file
+2012,operating_ratio_pct,Operating Performance Ratio,CI,1.0,header/raw units,time-series-data-1994-2015.xls
+2012,cash_cover_reported_months,Cash Expense Cover Ratio,CM,1.0,header/raw units,time-series-data-1994-2015.xls
+2012,current_ratio,Unrestricted Current Ratio,CJ,1.0,header/raw units,time-series-data-1994-2015.xls
+2012,own_source_pct,% Own Source Revenue,CG,1.0,header/raw units,time-series-data-1994-2015.xls
+2012,grants_pct,% Grants Revenue,CH,1.0,header/raw units,time-series-data-1994-2015.xls
+2012,debt_service_cover,Debt Service Cover ratio,CL,1.0,header/raw units,time-series-data-1994-2015.xls
+2012,debt_service_ratio_pct,,,,not present,time-series-data-1994-2015.xls
+2012,actual_maintenance_aud,Actual Asset Maintenance Expenditure 2012/13 ($),BO,1.0,header/raw units,time-series-data-1994-2015.xls
+2012,required_maintenance_aud,Required Asset Maintenance Expenditure 2012/13 ($),BP,1.0,header/raw units,time-series-data-1994-2015.xls
+2012,maintenance_reported_pct,Asset Maintenance Ratio,DL,100.0,fraction,time-series-data-1994-2015.xls
+2012,total_revenue_including_capital_aud,"2012/13 Total Revenue from Continuing Operations ($,000)",V,1000.0,AUD thousands,time-series-data-1994-2015.xls
+2012,total_expenses_aud,2012/13 Total Expenses from Continuing Operations ($'000),W,1000.0,AUD thousands,time-series-data-1994-2015.xls
+2012,result_before_capital_aud,,,,not present,time-series-data-1994-2015.xls
+2012,residential_rates_aud,Total Residential Rates Revenue ($),BS,1.0,header/raw units,time-series-data-1994-2015.xls
+2012,farmland_rates_aud,Total Farmland Rates Revenue ($),BV,1.0,header/raw units,time-series-data-1994-2015.xls
+2012,business_rates_aud,Total Business Rates Revenue ($),BY,1.0,header/raw units,time-series-data-1994-2015.xls
+2012,mining_rates_aud,Total Mining Rates Revenue ($),CB,1.0,header/raw units,time-series-data-1994-2015.xls
+2012,population,Population,E,1.0,header/raw units,time-series-data-1994-2015.xls
+2012,area_km2,,,,not present,time-series-data-1994-2015.xls
+2012,road_reported_km,"Total Road Length (inlcuding local, regional & state) (km)",AD,1.0,header/raw units,time-series-data-1994-2015.xls
+2013,operating_ratio_pct,Operating Performance Ratio,BF,1.0,header/raw units,time-series-data-1994-2015.xls
+2013,cash_cover_reported_months,Cash Expense Cover Ratio,BK,1.0,header/raw units,time-series-data-1994-2015.xls
+2013,current_ratio,Unrestricted Current Ratio,BG,1.0,header/raw units,time-series-data-1994-2015.xls
+2013,own_source_pct,% Own Source Revenue,BD,1.0,header/raw units,time-series-data-1994-2015.xls
+2013,grants_pct,% Grants Revenue,BE,1.0,header/raw units,time-series-data-1994-2015.xls
+2013,debt_service_cover,Debt Service Cover ratio,BI,1.0,header/raw units,time-series-data-1994-2015.xls
+2013,debt_service_ratio_pct,Debt Service Ratio,BJ,1.0,header/raw units,time-series-data-1994-2015.xls
+2013,actual_maintenance_aud,Actual Asset Maintenance Expenditure 2013/14 ($),CE,1.0,header/raw units,time-series-data-1994-2015.xls
+2013,required_maintenance_aud,Required Asset Maintenance Expenditure 2013/14 ($),CF,1.0,header/raw units,time-series-data-1994-2015.xls
+2013,maintenance_reported_pct,Asset Maintenance Ratio,CL,1.0,header/raw units,time-series-data-1994-2015.xls
+2013,total_revenue_including_capital_aud,"2013/14 Total Revenue from Continuing Operations ($,000)",H,1000.0,AUD thousands,time-series-data-1994-2015.xls
+2013,total_expenses_aud,2013/14 Total Expenses from Continuing Operations ($'000),I,1000.0,AUD thousands,time-series-data-1994-2015.xls
+2013,result_before_capital_aud,,,,not present,time-series-data-1994-2015.xls
+2013,residential_rates_aud,,,,not present,time-series-data-1994-2015.xls
+2013,farmland_rates_aud,Total Farmland Rates Revenue ($) 2013/14,AS,1.0,header/raw units,time-series-data-1994-2015.xls
+2013,business_rates_aud,Total Business Rates Revenue ($) 2013/14,AV,1.0,header/raw units,time-series-data-1994-2015.xls
+2013,mining_rates_aud,Total Mining Rates Revenue ($) 2013/14,AY,1.0,header/raw units,time-series-data-1994-2015.xls
+2013,population,Population,D,1.0,header/raw units,time-series-data-1994-2015.xls
+2013,area_km2,,,,not present,time-series-data-1994-2015.xls
+2013,road_reported_km,"Total Road Length (inlcuding local, regional & state) (km)",P,1.0,header/raw units,time-series-data-1994-2015.xls
+2014,operating_ratio_pct,Operating Performance Ratio,AD,1.0,header/raw units,time-series-data-2014-15_1.xls
+2014,cash_cover_reported_months,Cash Expense Cover Ratio,AK,1.0,header/raw units,time-series-data-2014-15_1.xls
+2014,current_ratio,Unrestricted Current Ratio,AE,1.0,header/raw units,time-series-data-2014-15_1.xls
+2014,own_source_pct,% Own Source Revenue,AF,1.0,header/raw units,time-series-data-2014-15_1.xls
+2014,grants_pct,% Grants Revenue,AG,1.0,header/raw units,time-series-data-2014-15_1.xls
+2014,debt_service_cover,Debt Service Cover Ratio,AI,1.0,header/raw units,time-series-data-2014-15_1.xls
+2014,debt_service_ratio_pct,Debt Service Ratio,AJ,1.0,header/raw units,time-series-data-2014-15_1.xls
+2014,actual_maintenance_aud,Actual Asset Maintenance Expenditure 2014/15 ($),DD,1.0,header/raw units,time-series-data-2014-15_1.xls
+2014,required_maintenance_aud,Required Asset Maintenance Expenditure 2014/15 ($),DE,1.0,header/raw units,time-series-data-2014-15_1.xls
+2014,maintenance_reported_pct,Asset Maintenance Ratio,DF,1.0,header/raw units,time-series-data-2014-15_1.xls
+2014,total_revenue_including_capital_aud,"Total Revenue from Continuing Operations 2014/15 ($,000)",AO,1000.0,AUD thousands,time-series-data-2014-15_1.xls
+2014,total_expenses_aud,Total Expenses from Continuing Operations 2014/15 ($'000),AN,1000.0,AUD thousands,time-series-data-2014-15_1.xls
+2014,result_before_capital_aud,,,,not present,time-series-data-2014-15_1.xls
+2014,residential_rates_aud,Total Residential Rating Revenue 2014/15 ($),AV,1.0,header/raw units,time-series-data-2014-15_1.xls
+2014,farmland_rates_aud,Total Farmland Rates Revenue ($),BA,1.0,header/raw units,time-series-data-2014-15_1.xls
+2014,business_rates_aud,Total Business Rates Revenue ($),BD,1.0,header/raw units,time-series-data-2014-15_1.xls
+2014,mining_rates_aud,Total Mining Rates Revenue ($),BG,1.0,header/raw units,time-series-data-2014-15_1.xls
+2014,population,Population,E,1.0,header/raw units,time-series-data-2014-15_1.xls
+2014,area_km2,Council Area km2,D,1.0,header/raw units,time-series-data-2014-15_1.xls
+2014,road_reported_km,"Total Road Length (inlcuding local, regional & state) (km)",CS,1.0,header/raw units,time-series-data-2014-15_1.xls
+2015,operating_ratio_pct,Operating Performance Ratio,AD,1.0,header/raw units,time-series-data-2015-16.xls
+2015,cash_cover_reported_months,Cash Expense Cover Ratio,AK,1.0,header/raw units,time-series-data-2015-16.xls
+2015,current_ratio,Unrestricted Current Ratio,AE,1.0,header/raw units,time-series-data-2015-16.xls
+2015,own_source_pct,% Own Source Revenue,AF,1.0,header/raw units,time-series-data-2015-16.xls
+2015,grants_pct,% Grants Revenue,AG,1.0,header/raw units,time-series-data-2015-16.xls
+2015,debt_service_cover,Debt Service Cover Ratio,AI,1.0,header/raw units,time-series-data-2015-16.xls
+2015,debt_service_ratio_pct,Debt Service Ratio,AJ,1.0,header/raw units,time-series-data-2015-16.xls
+2015,actual_maintenance_aud,Actual Asset Maintenance Expenditure 2015/16 ($'000),DD,1000.0,AUD thousands,time-series-data-2015-16.xls
+2015,required_maintenance_aud,Required Asset Maintenance Expenditure 2015/16 ($'000),DE,1000.0,AUD thousands,time-series-data-2015-16.xls
+2015,maintenance_reported_pct,Asset Maintenance Ratio (%),DF,1.0,header/raw units,time-series-data-2015-16.xls
+2015,total_revenue_including_capital_aud,"Total Revenue from Continuing Operations 2015/16 ($,000)",AO,1000.0,AUD thousands,time-series-data-2015-16.xls
+2015,total_expenses_aud,Total Expenses from Continuing Operations 2015/16 ($'000),AN,1000.0,AUD thousands,time-series-data-2015-16.xls
+2015,result_before_capital_aud,,,,not present,time-series-data-2015-16.xls
+2015,residential_rates_aud,Total Residential Rating Revenue 2015/16 ($'000),AV,1000.0,AUD thousands,time-series-data-2015-16.xls
+2015,farmland_rates_aud,Total Farmland Rates Revenue ($'000),BA,1000.0,AUD thousands,time-series-data-2015-16.xls
+2015,business_rates_aud,Total Business Rates Revenue ($'000),BD,1000.0,AUD thousands,time-series-data-2015-16.xls
+2015,mining_rates_aud,Total Mining Rates Revenue ($'000),BG,1000.0,AUD thousands,time-series-data-2015-16.xls
+2015,population,Population,E,1.0,header/raw units,time-series-data-2015-16.xls
+2015,area_km2,Council Area (km2),D,1.0,header/raw units,time-series-data-2015-16.xls
+2015,road_reported_km,"Total Road Length (inlcuding local, regional & state) (km)",CS,1.0,header/raw units,time-series-data-2015-16.xls
+2016,operating_ratio_pct,Operating Performance Ratio,AE,1.0,header/raw units,time-series-data-2016-17.xls
+2016,cash_cover_reported_months,Cash Expense Cover Ratio,AL,1.0,header/raw units,time-series-data-2016-17.xls
+2016,current_ratio,Unrestricted Current Ratio,AF,1.0,header/raw units,time-series-data-2016-17.xls
+2016,own_source_pct,% Own Source Revenue,AG,1.0,header/raw units,time-series-data-2016-17.xls
+2016,grants_pct,% Grants & Contributions Revenue,AH,1.0,header/raw units,time-series-data-2016-17.xls
+2016,debt_service_cover,Debt Service Cover Ratio,AJ,1.0,header/raw units,time-series-data-2016-17.xls
+2016,debt_service_ratio_pct,Debt Service Ratio,AK,1.0,header/raw units,time-series-data-2016-17.xls
+2016,actual_maintenance_aud,Actual Asset Maintenance Expenditure 2016/17 ($'000),CR,1000.0,AUD thousands,time-series-data-2016-17.xls
+2016,required_maintenance_aud,Required Asset Maintenance Expenditure 2016/17 ($'000),CS,1000.0,AUD thousands,time-series-data-2016-17.xls
+2016,maintenance_reported_pct,Asset Maintenance Ratio (%),CT,1.0,header/raw units,time-series-data-2016-17.xls
+2016,total_revenue_including_capital_aud,"Total Revenue from Continuing Operations 2016/17 ($,000)",AN,1000.0,AUD thousands,time-series-data-2016-17.xls
+2016,total_expenses_aud,Total Expenses from Continuing Operations 2016/17 ($'000),AM,1000.0,AUD thousands,time-series-data-2016-17.xls
+2016,result_before_capital_aud,,,,not present,time-series-data-2016-17.xls
+2016,residential_rates_aud,Total Residential Rating Revenue 2016/17 ($'000),AO,1000.0,AUD thousands,time-series-data-2016-17.xls
+2016,farmland_rates_aud,Total Farmland Rates Revenue ($'000),AR,1000.0,AUD thousands,time-series-data-2016-17.xls
+2016,business_rates_aud,Total Business Rates Revenue ($'000),AU,1000.0,AUD thousands,time-series-data-2016-17.xls
+2016,mining_rates_aud,Total Mining Rates Revenue ($'000),AX,1000.0,AUD thousands,time-series-data-2016-17.xls
+2016,population,Population,F,1.0,header/raw units,time-series-data-2016-17.xls
+2016,area_km2,Council Area (km2),E,1.0,header/raw units,time-series-data-2016-17.xls
+2016,road_reported_km,Total Road Length (including local & regional roads) (km),CK,1.0,header/raw units,time-series-data-2016-17.xls
+2017,operating_ratio_pct,Operating Performance Ratio,AE,1.0,header/raw units,time-series-data-2017-2018.xls
+2017,cash_cover_reported_months,Cash Expense Cover Ratio,AL,1.0,header/raw units,time-series-data-2017-2018.xls
+2017,current_ratio,Unrestricted Current Ratio,AF,1.0,header/raw units,time-series-data-2017-2018.xls
+2017,own_source_pct,% Own Source Revenue,AG,1.0,header/raw units,time-series-data-2017-2018.xls
+2017,grants_pct,% Grants & Contributions Revenue,AH,1.0,header/raw units,time-series-data-2017-2018.xls
+2017,debt_service_cover,Debt Service Cover Ratio,AJ,1.0,header/raw units,time-series-data-2017-2018.xls
+2017,debt_service_ratio_pct,Debt Service Ratio,AK,1.0,header/raw units,time-series-data-2017-2018.xls
+2017,actual_maintenance_aud,Actual Asset Maintenance Expenditure 2017/18 ($'000),CR,1000.0,AUD thousands,time-series-data-2017-2018.xls
+2017,required_maintenance_aud,Required Asset Maintenance Expenditure 2017/18 ($'000),CS,1000.0,AUD thousands,time-series-data-2017-2018.xls
+2017,maintenance_reported_pct,Asset Maintenance Ratio (%),CT,1.0,header/raw units,time-series-data-2017-2018.xls
+2017,total_revenue_including_capital_aud,"Total Revenue from Continuing Operations 2017/18 ($,000)",AN,1000.0,AUD thousands,time-series-data-2017-2018.xls
+2017,total_expenses_aud,Total Expenses from Continuing Operations 2017/18 ($'000),AM,1000.0,AUD thousands,time-series-data-2017-2018.xls
+2017,result_before_capital_aud,,,,not present,time-series-data-2017-2018.xls
+2017,residential_rates_aud,Total Residential Rating Revenue 2017/18 ($'000),AO,1000.0,AUD thousands,time-series-data-2017-2018.xls
+2017,farmland_rates_aud,Total Farmland Rates Revenue 2017/18 ($'000),AR,1000.0,AUD thousands,time-series-data-2017-2018.xls
+2017,business_rates_aud,Total Business Rates Revenue 2017/18 ($'000),AU,1000.0,AUD thousands,time-series-data-2017-2018.xls
+2017,mining_rates_aud,Total Mining Rates Revenue 2017/18 ($'000),AX,1000.0,AUD thousands,time-series-data-2017-2018.xls
+2017,population,Population,F,1.0,header/raw units,time-series-data-2017-2018.xls
+2017,area_km2,Council Area (km2),E,1.0,header/raw units,time-series-data-2017-2018.xls
+2017,road_reported_km,Total Road Length (including local & regional roads) (km),CK,1.0,header/raw units,time-series-data-2017-2018.xls
+2018,operating_ratio_pct,Operating Performance Ratio (%),AA,1.0,header/raw units,time-series-data-2018-2019.xlsx
+2018,cash_cover_reported_months,Cash Expense Cover Ratio,AH,1.0,header/raw units,time-series-data-2018-2019.xlsx
+2018,current_ratio,Unrestricted Current Ratio,AB,1.0,header/raw units,time-series-data-2018-2019.xlsx
+2018,own_source_pct,Own Source Revenue (%),AC,1.0,header/raw units,time-series-data-2018-2019.xlsx
+2018,grants_pct,Grants & Contributions Revenue(%),AD,1.0,header/raw units,time-series-data-2018-2019.xlsx
+2018,debt_service_cover,Debt Service Cover Ratio,AF,1.0,header/raw units,time-series-data-2018-2019.xlsx
+2018,debt_service_ratio_pct,Debt Service Ratio,AG,1.0,header/raw units,time-series-data-2018-2019.xlsx
+2018,actual_maintenance_aud,Actual Asset Maintenance Expenditure ($'000),CT,1000.0,AUD thousands,time-series-data-2018-2019.xlsx
+2018,required_maintenance_aud,Required Asset Maintenance Expenditure ($'000),CU,1000.0,AUD thousands,time-series-data-2018-2019.xlsx
+2018,maintenance_reported_pct,Asset Maintenance Ratio (%),CV,1.0,header/raw units,time-series-data-2018-2019.xlsx
+2018,total_revenue_including_capital_aud,"Total Revenue from Continuing Operations ($,000)",AJ,1000.0,AUD thousands,time-series-data-2018-2019.xlsx
+2018,total_expenses_aud,Total Expenses from Continuing Operations ($'000),AI,1000.0,AUD thousands,time-series-data-2018-2019.xlsx
+2018,result_before_capital_aud,,,,not present,time-series-data-2018-2019.xlsx
+2018,residential_rates_aud,Total Residential Rating Revenue ($'000),AK,1000.0,AUD thousands,time-series-data-2018-2019.xlsx
+2018,farmland_rates_aud,Total Farmland Rates Revenue ($'000),AN,1000.0,AUD thousands,time-series-data-2018-2019.xlsx
+2018,business_rates_aud,Total Business Rates Revenue ($'000),AQ,1000.0,AUD thousands,time-series-data-2018-2019.xlsx
+2018,mining_rates_aud,Total Mining Rates Revenue ($'000),AT,1000.0,AUD thousands,time-series-data-2018-2019.xlsx
+2018,population,Population,E,1.0,header/raw units,time-series-data-2018-2019.xlsx
+2018,area_km2,Council Area (km2),D,1.0,header/raw units,time-series-data-2018-2019.xlsx
+2018,road_reported_km,Total Road Length (including local & regional roads) (km),CM,1.0,header/raw units,time-series-data-2018-2019.xlsx
+2019,operating_ratio_pct,Operating Performance Ratio (%),AA,1.0,header/raw units,time-series-data-2019-2020.xlsx
+2019,cash_cover_reported_months,Cash Expense Cover Ratio,AH,1.0,header/raw units,time-series-data-2019-2020.xlsx
+2019,current_ratio,Unrestricted Current Ratio,AB,1.0,header/raw units,time-series-data-2019-2020.xlsx
+2019,own_source_pct,Own Source Revenue (%),AC,1.0,header/raw units,time-series-data-2019-2020.xlsx
+2019,grants_pct,Grants & Contributions Revenue(%),AD,1.0,header/raw units,time-series-data-2019-2020.xlsx
+2019,debt_service_cover,Debt Service Cover Ratio,AF,1.0,header/raw units,time-series-data-2019-2020.xlsx
+2019,debt_service_ratio_pct,Debt Service Ratio,AG,1.0,header/raw units,time-series-data-2019-2020.xlsx
+2019,actual_maintenance_aud,Actual Asset Maintenance Expenditure ($'000),CU,1000.0,AUD thousands,time-series-data-2019-2020.xlsx
+2019,required_maintenance_aud,Required Asset Maintenance Expenditure ($'000),CV,1000.0,AUD thousands,time-series-data-2019-2020.xlsx
+2019,maintenance_reported_pct,Asset Maintenance Ratio (%),CW,1.0,header/raw units,time-series-data-2019-2020.xlsx
+2019,total_revenue_including_capital_aud,Total Revenue from Continuing Operations ($'000),AJ,1000.0,AUD thousands,time-series-data-2019-2020.xlsx
+2019,total_expenses_aud,Total Expenses from Continuing Operations ($'000),AI,1000.0,AUD thousands,time-series-data-2019-2020.xlsx
+2019,result_before_capital_aud,Net Operating result before Capital ($'000),AK,1000.0,AUD thousands,time-series-data-2019-2020.xlsx
+2019,residential_rates_aud,Total Residential Rating Revenue ($'000),AL,1000.0,AUD thousands,time-series-data-2019-2020.xlsx
+2019,farmland_rates_aud,Total Farmland Rates Revenue ($'000),AO,1000.0,AUD thousands,time-series-data-2019-2020.xlsx
+2019,business_rates_aud,Total Business Rates Revenue ($'000),AR,1000.0,AUD thousands,time-series-data-2019-2020.xlsx
+2019,mining_rates_aud,Total Mining Rates Revenue ($'000),AU,1000.0,AUD thousands,time-series-data-2019-2020.xlsx
+2019,population,Population,E,1.0,header/raw units,time-series-data-2019-2020.xlsx
+2019,area_km2,Council Area (km2),D,1.0,header/raw units,time-series-data-2019-2020.xlsx
+2019,road_reported_km,Total Road Length (including local & regional roads) (km),CN,1.0,header/raw units,time-series-data-2019-2020.xlsx
+2020,operating_ratio_pct,Operating Performance Ratio (%),AA,1.0,header/raw units,time-series-data-2020-2021.xlsx
+2020,cash_cover_reported_months,Cash Expense Cover Ratio,AH,1.0,header/raw units,time-series-data-2020-2021.xlsx
+2020,current_ratio,Unrestricted Current Ratio,AB,1.0,header/raw units,time-series-data-2020-2021.xlsx
+2020,own_source_pct,Own Source Revenue (%),AC,1.0,header/raw units,time-series-data-2020-2021.xlsx
+2020,grants_pct,Grants & Contributions Revenue (%),AD,1.0,header/raw units,time-series-data-2020-2021.xlsx
+2020,debt_service_cover,Debt Service Cover Ratio,AF,1.0,header/raw units,time-series-data-2020-2021.xlsx
+2020,debt_service_ratio_pct,Debt Service Ratio,AG,1.0,header/raw units,time-series-data-2020-2021.xlsx
+2020,actual_maintenance_aud,Actual Asset Maintenance Expenditure ($),CU,1.0,header/raw units,time-series-data-2020-2021.xlsx
+2020,required_maintenance_aud,Required Asset Maintenance Expenditure ($),CV,1.0,header/raw units,time-series-data-2020-2021.xlsx
+2020,maintenance_reported_pct,Asset Maintenance Ratio (%),CW,1.0,header/raw units,time-series-data-2020-2021.xlsx
+2020,total_revenue_including_capital_aud,Total Revenue from Continuing Operations ($),AJ,1.0,header/raw units,time-series-data-2020-2021.xlsx
+2020,total_expenses_aud,Total Expenses from Continuing Operations ($),AI,1.0,header/raw units,time-series-data-2020-2021.xlsx
+2020,result_before_capital_aud,Net Operating result before Capital ($),AK,1.0,header/raw units,time-series-data-2020-2021.xlsx
+2020,residential_rates_aud,Total Residential Rating Revenue ($),AL,1.0,header/raw units,time-series-data-2020-2021.xlsx
+2020,farmland_rates_aud,Total Farmland Rates Revenue ($),AO,1.0,header/raw units,time-series-data-2020-2021.xlsx
+2020,business_rates_aud,Total Business Rates Revenue ($),AR,1.0,header/raw units,time-series-data-2020-2021.xlsx
+2020,mining_rates_aud,Total Mining Rates Revenue ($),AU,1.0,header/raw units,time-series-data-2020-2021.xlsx
+2020,population,Population,E,1.0,header/raw units,time-series-data-2020-2021.xlsx
+2020,area_km2,Council Area (km2),D,1.0,header/raw units,time-series-data-2020-2021.xlsx
+2020,road_reported_km,Total Road Length (including local & regional roads) (km),CN,1.0,header/raw units,time-series-data-2020-2021.xlsx
+2021,operating_ratio_pct,Operating Performance Ratio (%),AA,1.0,header/raw units,time-series-data-2021-22.xlsx
+2021,cash_cover_reported_months,Cash Expense Cover Ratio,AH,1.0,header/raw units,time-series-data-2021-22.xlsx
+2021,current_ratio,Unrestricted Current Ratio,AB,1.0,header/raw units,time-series-data-2021-22.xlsx
+2021,own_source_pct,Own Source Revenue (%),AC,1.0,header/raw units,time-series-data-2021-22.xlsx
+2021,grants_pct,Grants & Contributions Revenue (%),AD,1.0,header/raw units,time-series-data-2021-22.xlsx
+2021,debt_service_cover,Debt Service Cover Ratio,AF,1.0,header/raw units,time-series-data-2021-22.xlsx
+2021,debt_service_ratio_pct,Debt Service Ratio,AG,1.0,header/raw units,time-series-data-2021-22.xlsx
+2021,actual_maintenance_aud,Actual Asset Maintenance Expenditure ($),CU,1.0,header/raw units,time-series-data-2021-22.xlsx
+2021,required_maintenance_aud,Required Asset Maintenance Expenditure ($),CV,1.0,header/raw units,time-series-data-2021-22.xlsx
+2021,maintenance_reported_pct,Asset Maintenance Ratio (%),CW,1.0,header/raw units,time-series-data-2021-22.xlsx
+2021,total_revenue_including_capital_aud,Total Revenue from Continuing Operations ($),AJ,1.0,header/raw units,time-series-data-2021-22.xlsx
+2021,total_expenses_aud,Total Expenses from Continuing Operations ($),AI,1.0,header/raw units,time-series-data-2021-22.xlsx
+2021,result_before_capital_aud,Net Operating result before Capital ($),AK,1.0,header/raw units,time-series-data-2021-22.xlsx
+2021,residential_rates_aud,Total Residential Rating Revenue ($),AL,1.0,header/raw units,time-series-data-2021-22.xlsx
+2021,farmland_rates_aud,Total Farmland Rates Revenue ($),AO,1.0,header/raw units,time-series-data-2021-22.xlsx
+2021,business_rates_aud,Total Business Rates Revenue ($),AR,1.0,header/raw units,time-series-data-2021-22.xlsx
+2021,mining_rates_aud,Total Mining Rates Revenue ($),AU,1.0,header/raw units,time-series-data-2021-22.xlsx
+2021,population,Population,E,1.0,header/raw units,time-series-data-2021-22.xlsx
+2021,area_km2,Council Area (km2),D,1.0,header/raw units,time-series-data-2021-22.xlsx
+2021,road_reported_km,Total Road Length (including local & regional roads) (km),CN,1.0,header/raw units,time-series-data-2021-22.xlsx
+2022,operating_ratio_pct,Operating Performance Ratio (%),AA,1.0,header/raw units,time-series-data-2022-23.xlsx
+2022,cash_cover_reported_months,Cash Expense Cover Ratio,AH,1.0,header/raw units,time-series-data-2022-23.xlsx
+2022,current_ratio,Unrestricted Current Ratio,AB,1.0,header/raw units,time-series-data-2022-23.xlsx
+2022,own_source_pct,Own Source Revenue (%),AC,1.0,header/raw units,time-series-data-2022-23.xlsx
+2022,grants_pct,Grants & Contributions Revenue(%),AD,1.0,header/raw units,time-series-data-2022-23.xlsx
+2022,debt_service_cover,Debt Service Cover Ratio,AF,1.0,header/raw units,time-series-data-2022-23.xlsx
+2022,debt_service_ratio_pct,Debt Service Ratio,AG,1.0,header/raw units,time-series-data-2022-23.xlsx
+2022,actual_maintenance_aud,Actual Asset Maintenance Expenditure ($),CU,1.0,header/raw units,time-series-data-2022-23.xlsx
+2022,required_maintenance_aud,Required Asset Maintenance Expenditure ($),CV,1.0,header/raw units,time-series-data-2022-23.xlsx
+2022,maintenance_reported_pct,Asset Maintenance Ratio (%),CW,1.0,header/raw units,time-series-data-2022-23.xlsx
+2022,total_revenue_including_capital_aud,Total Revenue from Continuing Operations ($'000),AJ,1000.0,AUD thousands,time-series-data-2022-23.xlsx
+2022,total_expenses_aud,Total Expenses from Continuing Operations ($'000),AI,1000.0,AUD thousands,time-series-data-2022-23.xlsx
+2022,result_before_capital_aud,Net Operating result before Capital ($'000),AK,1000.0,AUD thousands,time-series-data-2022-23.xlsx
+2022,residential_rates_aud,Total Residential Rating Revenue ($),AL,1.0,header/raw units,time-series-data-2022-23.xlsx
+2022,farmland_rates_aud,Total Farmland Rates Revenue ($),AO,1.0,header/raw units,time-series-data-2022-23.xlsx
+2022,business_rates_aud,Total Business Rates Revenue ($),AR,1.0,header/raw units,time-series-data-2022-23.xlsx
+2022,mining_rates_aud,Total Mining Rates Revenue ($),AU,1.0,header/raw units,time-series-data-2022-23.xlsx
+2022,population,Population,E,1.0,header/raw units,time-series-data-2022-23.xlsx
+2022,area_km2,Council Area (km2),D,1.0,header/raw units,time-series-data-2022-23.xlsx
+2022,road_reported_km,Total Road Length (including local & regional roads) (km),CN,1.0,header/raw units,time-series-data-2022-23.xlsx
+2023,operating_ratio_pct,Operating Performance Ratio (%),AA,100.0,fraction,time-series-data-2023-24.xlsx
+2023,cash_cover_reported_months,Cash Expense Cover Ratio,AH,1.0,header/raw units,time-series-data-2023-24.xlsx
+2023,current_ratio,Unrestricted Current Ratio,AB,1.0,header/raw units,time-series-data-2023-24.xlsx
+2023,own_source_pct,Own Source Revenue (%),AC,100.0,fraction,time-series-data-2023-24.xlsx
+2023,grants_pct,Grants & Contributions Revenue (%),AD,100.0,fraction,time-series-data-2023-24.xlsx
+2023,debt_service_cover,Debt Service Cover Ratio,AF,1.0,header/raw units,time-series-data-2023-24.xlsx
+2023,debt_service_ratio_pct,Debt Service Ratio,AG,1.0,header/raw units,time-series-data-2023-24.xlsx
+2023,actual_maintenance_aud,Actual Asset Maintenance Expenditure ($),CU,1.0,header/raw units,time-series-data-2023-24.xlsx
+2023,required_maintenance_aud,Required Asset Maintenance Expenditure ($),CV,1.0,header/raw units,time-series-data-2023-24.xlsx
+2023,maintenance_reported_pct,Asset Maintenance Ratio (%),CW,100.0,fraction,time-series-data-2023-24.xlsx
+2023,total_revenue_including_capital_aud,Total Revenue from Continuing Operations ($),AJ,1.0,header/raw units,time-series-data-2023-24.xlsx
+2023,total_expenses_aud,Total Expenses from Continuing Operations ($),AI,1.0,header/raw units,time-series-data-2023-24.xlsx
+2023,result_before_capital_aud,Net Operating Result Before Capital ($),AK,1.0,header/raw units,time-series-data-2023-24.xlsx
+2023,residential_rates_aud,Total Residential Rating Revenue ($),AL,1.0,header/raw units,time-series-data-2023-24.xlsx
+2023,farmland_rates_aud,Total Farmland Rates Revenue ($),AO,1.0,header/raw units,time-series-data-2023-24.xlsx
+2023,business_rates_aud,Total Business Rates Revenue ($),AR,1.0,header/raw units,time-series-data-2023-24.xlsx
+2023,mining_rates_aud,Total Mining Rates Revenue ($),AU,1.0,header/raw units,time-series-data-2023-24.xlsx
+2023,population,Population,E,1.0,header/raw units,time-series-data-2023-24.xlsx
+2023,area_km2,Council Area (km2),D,1.0,header/raw units,time-series-data-2023-24.xlsx
+2023,road_reported_km,Total Road Length (including local & regional roads) (km),CN,1.0,header/raw units,time-series-data-2023-24.xlsx
+2024,operating_ratio_pct,Operating Performance Ratio (%) (2025) Not Collected 2025,AA,1.0,header/raw units,time-series-data-2024-2025.xlsx
+2024,cash_cover_reported_months,Cash Expense Cover Ratio (2025) Not Collected 2025,AH,1.0,header/raw units,time-series-data-2024-2025.xlsx
+2024,current_ratio,Unrestricted Current Ratio (2025) Not Collected 2025,AB,1.0,header/raw units,time-series-data-2024-2025.xlsx
+2024,own_source_pct,Own Source Revenue (%) (2025) Not Collected 2025,AC,1.0,header/raw units,time-series-data-2024-2025.xlsx
+2024,grants_pct,Grants & Contributions Revenue (%) (2025),AD,100.0,fraction,time-series-data-2024-2025.xlsx
+2024,debt_service_cover,Debt Service Cover Ratio (2025) Not Collected 2025,AF,1.0,header/raw units,time-series-data-2024-2025.xlsx
+2024,debt_service_ratio_pct,Debt Service Ratio (2025) Not Collected 2025,AG,1.0,header/raw units,time-series-data-2024-2025.xlsx
+2024,actual_maintenance_aud,Actual Asset Maintenance Expenditure ($),CU,1.0,header/raw units,time-series-data-2024-2025.xlsx
+2024,required_maintenance_aud,Required Asset Maintenance Expenditure ($),CV,1.0,header/raw units,time-series-data-2024-2025.xlsx
+2024,maintenance_reported_pct,Asset Maintenance Ratio (%),CW,1.0,header/raw units,time-series-data-2024-2025.xlsx
+2024,total_revenue_including_capital_aud,Total Revenue from Continuing Operations ($),AJ,1.0,header/raw units,time-series-data-2024-2025.xlsx
+2024,total_expenses_aud,Total Expenses from Continuing Operations ($),AI,1.0,header/raw units,time-series-data-2024-2025.xlsx
+2024,result_before_capital_aud,Net Operating Result Before Capital ($),AK,1.0,header/raw units,time-series-data-2024-2025.xlsx
+2024,residential_rates_aud,Total Residential Rating Revenue ($),AL,1.0,header/raw units,time-series-data-2024-2025.xlsx
+2024,farmland_rates_aud,Total Farmland Rates Revenue ($),AO,1.0,header/raw units,time-series-data-2024-2025.xlsx
+2024,business_rates_aud,Total Business Rates Revenue ($),AR,1.0,header/raw units,time-series-data-2024-2025.xlsx
+2024,mining_rates_aud,Total Mining Rates Revenue ($),AU,1.0,header/raw units,time-series-data-2024-2025.xlsx
+2024,population,Population 2024,E,1.0,header/raw units,time-series-data-2024-2025.xlsx
+2024,area_km2,Council Area (km2),D,1.0,header/raw units,time-series-data-2024-2025.xlsx
+2024,road_reported_km,Total Road Length (including local & regional roads) (km),CN,1.0,header/raw units,time-series-data-2024-2025.xlsx

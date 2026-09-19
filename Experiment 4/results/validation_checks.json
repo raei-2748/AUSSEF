@@ -1,0 +1,15 @@
+{
+  "councils": 5,
+  "category_chains": 79,
+  "stage_records": 395,
+  "observed_stage_values": 312,
+  "missing_stage_values": 83,
+  "project_revision_records": 32,
+  "certified_ordinary_model_rows": 0,
+  "models_fitted": 0,
+  "frozen_files_checked": 1102,
+  "frozen_files_changed": [],
+  "source_files_hashed": 209,
+  "known_source_errors_retained": 2,
+  "verdict": "NO-GO for causal modelling/scaling on current reconstructed data"
+}

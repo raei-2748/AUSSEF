@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en-AU">
+<!--<![endif]-->
+<head>
+	<!-- Published by OpenCities, 1.37.6.0 -->
+
+    
+        
+    
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="theme-color" content="#FFFFFF"/>
+    <title>Integrated Planning and Reporting | Snowy Monaro Regional Council</title>
+	<meta name="generator" content="OpenCities - https://granicus.com/product/opencities" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Using mobile-web-app-capable for now to enable full-screen experience on supported platforms -->
+    <!-- Note: This tag works mainly on Android Chrome. It does NOT enable full-screen mode on iOS Safari. -->
+    <!-- For iOS, the correct tag is: <meta name="apple-mobile-web-app-capable" content="yes"> -->
+    <!-- TODO: Monitor for updated meta tag standards from Apple or other browser vendors -->
+    <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="description" content="A planning and reporting framework was introduced in 2009 across all NSW local government areas, to improve local Council&#39;s long-term community planning and asset management as well as streamline the reporting process to the community. The Integrated Planning and..." />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://www.snowymonaro.nsw.gov.au/Council/Integrated-Planning-and-Reporting" />
+    <meta property="og:title" content="Integrated Planning and Reporting" />
+    <meta property="og:description" content="A planning and reporting framework was introduced in 2009 across all NSW local government areas, to improve local Council&#39;s long-term community planning and asset management as well as streamline the reporting process to the community. The Integrated Planning and..." />
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:title" content="Integrated Planning and Reporting" />
+    <meta property="twitter:description" content="A planning and reporting framework was introduced in 2009 across all NSW local government areas, to improve local Council&#39;s long-term community planning and asset management as well as streamline the reporting process to the community. The Integrated Planning and..." />
+    <link rel="canonical" href="https://www.snowymonaro.nsw.gov.au/Council/Integrated-Planning-and-Reporting" />
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/files/ocfavicon/Public/apple-touch-icon.png?V=637804427366542167">
+<link rel="icon" type="image/png" sizes="32x32" href="/files/ocfavicon/Public/favicon-32x32.png?V=637804427366542167">
+<link rel="icon" type="image/png" sizes="16x16" href="/files/ocfavicon/Public/favicon-16x16.png?V=637804427366542167">
+<link rel="manifest" href="/files/ocfavicon/Public/site.webmanifest?V=637804427366542167">
+<link rel="shortcut icon" href="/files/ocfavicon/Public/favicon.ico?V=637804427366542167">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-config" content="/files/ocfavicon/Public/browserconfig.xml?V=637804427366542167">
+    <script>
+        (function () {
+            if (window.__UNLOAD_LAZY_PATCH__) return;
+            window.__UNLOAD_LAZY_PATCH__ = true;
+
+            var supportsPageHide = ("onpagehide" in window);
+            var mappedType = supportsPageHide ? "pagehide" : "beforeunload";
+            var nativeAdd = window.addEventListener;
+            var nativeRemove = window.removeEventListener;
+            var unloadMap = null;
+            var patched = false;
+
+            function ensurePatched() {
+                if (patched) return;
+                unloadMap = new WeakMap();
+
+                window.addEventListener = function (type, listener, options) {
+                    if (type === "unload") {
+                        var wrapped = function (evt) {
+                            if (supportsPageHide && evt.persisted) return;
+                            listener.call(this, evt);
+                        };
+                        unloadMap.set(listener, wrapped);
+                        return nativeAdd.call(this, mappedType, wrapped, options);
+                    }
+                    return nativeAdd.call(this, type, listener, options);
+                };
+
+                window.removeEventListener = function (type, listener, options) {
+                    if (type === "unload") {
+                        var wrapped = unloadMap.get(listener);
+                        if (wrapped) {
+                            nativeRemove.call(this, mappedType, wrapped, options);
+                            unloadMap.delete(listener);
+                        }
+                        return;
+                    }
+                    return nativeRemove.call(this, type, listener, options);
+                };
+
+                var orig = null;
+                Object.defineProperty(window, "onunload", {
+                    configurable: true, enumerable: true,
+                    get: function () { return orig; },
+                    set: function (h) {
+                        orig = h;
+                        if (typeof h === "function") window.addEventListener("unload", h);
+                    }
+                });
+                patched = true;
+            }
+
+            window.addEventListener = function (type, listener, options) {
+                if (type === "unload") {
+                    ensurePatched();
+                    return window.addEventListener(type, listener, options);
+                }
+                return nativeAdd.call(this, type, listener, options);
+            };
+
+            window.removeEventListener = function (type, listener, options) {
+                if (type === "unload" && !patched) {
+                    return;
+                }
+                return nativeRemove.call(this, type, listener, options);
+            };
+
+            function patchTelerik() {
+                ensurePatched();
+                var ns = window.RadAjaxNamespace;
+                if (!ns || !ns.EventManager || !ns.EventManager.Add || ns.EventManager.__UnloadPatched) return;
+                var origAdd = ns.EventManager.Add;
+                ns.EventManager.Add = function (el, evtName, handler, clientId) {
+                    if (el === window && evtName === "unload") {
+                        return window.addEventListener("unload", handler);
+                    }
+                    return origAdd.call(this, el, evtName, handler, clientId);
+                };
+                ns.EventManager.__UnloadPatched = true;
+            }
+
+            if (window.RadAjaxNamespace)
+                patchTelerik();
+            else (window.requestIdleCallback || function (cb)
+            {
+                setTimeout(cb, 120);
+            })(patchTelerik);
+        })();
+    </script>
+    <!-- Preconnecting to Google Fonts servers -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Defer Roboto font loading to avoid render-blocking -->
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            const robotoLink = document.createElement('link');
+            robotoLink.rel = 'stylesheet';
+            robotoLink.href = 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap';
+            document.head.appendChild(robotoLink);
+        });
+    </script>
+
+    <style>
+        .gm-style, .gm-style * {
+            font-family: 'Roboto', system-ui, -apple-system, "Segoe UI", Arial, sans-serif !important;
+        }
+    </style>
+
+    <script>
+        document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, "js");
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    
+        
+            <script type="text/javascript">
+                window.__oc_flags_ImprovedBreakpointEventHandling = true;
+            </script>
+            
+        
+    
+    
+    
+        <script type="text/javascript">
+            var __metaQueryBreakpoints = {
+                'sc-size-4': '(max-width: 480px)',
+                'sc-size-3': '(min-width: 480px) and (max-width: 768px)',
+                'sc-size-2': '(min-width: 768px) and (max-width: 992px)',
+                'sc-size-1': '(min-width: 992px)'
+            }
+
+            var __ocSizePoints = [
+                { min: 0, name: 'sc-size-4' },
+                { min: 480, name: 'sc-size-3' },
+                { min: 768, name: 'sc-size-2' },
+                { min: 992, name: 'sc-size-1' }
+            ];
+
+        </script>
+    
+
+    <!-- Framework Section -->
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/files/templates/00000000-0000-0000-0000-000000000000/63025236-c62a-4018-a67b-7af410895127/v/189/jquery-1.12.4.min.js?seamlessts=639227839847818930" ><\/script>')</script>
+
+    <!--Google Maps API Loader – Improved Version to avoid Warning
+    This script loads the Google Maps JavaScript API using a dynamic and async method.
+    It replaces the old static <script> tag to avoid performance warnings from Google.
+
+    Dynamically creates the <script> tag with loading = async for better performance
+    Builds the API URL with required libraries(places, geometry, marker, geocoding)
+    Uses a Promise and callback(google.maps.__ib__) to confirm when the script is ready
+
+    It Avoids Google’s warning about direct script loading
+    Improves page load speed by loading the API asynchronously-->
+
+    
+        <script>
+            (function (root) {
+                root.OpenCities = root.OpenCities || {};
+                if (!root.OpenCities.GoogleMapsLoader) {
+                    root.OpenCities.GoogleMapsLoader = {
+                        _cbs: [],
+                        _ready: false,
+                        onReady: function (cb) {
+                            if (this._ready) { try { cb(); } catch (e) { console.error(e); } }
+                            else if (typeof cb === 'function') this._cbs.push(cb);
+                        },
+                        _fire: function () {
+                            if (this._ready) return;
+                            this._ready = true;
+                            var q = this._cbs.splice(0);
+                            for (var i = 0; i < q.length; i++) {
+                                try { q[i](); } catch (e) { console.error(e); }
+                            }
+                        }
+                    };
+                }
+            })(window);
+
+            (g => {
+                var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__",
+                    m = document, b = window;
+                b = b[c] || (b[c] = {});
+                var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams,
+                    u = () => h || (h = new Promise(async (resolve, reject) => {
+                        a = m.createElement("script");
+                        e.set("libraries", [...r] + "");
+                        for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]);
+                        e.set("callback", c + ".maps." + q);
+                        a.src = "https://maps." + c + "apis.com/maps/api/js?" + e.toString();
+                        a.loading = "async";
+                        a.async = true;
+                        a.defer = true;
+                        d[q] = resolve;
+                        a.onerror = () => reject(Error(p + " could not load."));
+                        a.nonce = m.querySelector("script[nonce]")?.nonce || "";
+                        m.head.append(a);
+                    }));
+                if (d[l]) {
+                    console.warn(p + " only loads once. Ignoring duplicate load.");
+                } else {
+                    d[l] = (f, ...n) => (r.add(f), u().then(() => d[l](f, ...n)));
+                }
+            })({
+                key: "AIzaSyBU7bmhtUDmkIL5MuWMqKvCvnW9ayf8ZJk",
+                v: "3.65"
+            });
+
+            (async () => {
+                try {
+                    if (!google?.maps?.importLibrary) return;
+
+                    if (!window.OpenCities.__mapsLibsPromise) {
+                        window.OpenCities.__mapsLibsPromise = Promise.all([
+                            google.maps.importLibrary('maps'),
+                            google.maps.importLibrary('places'),
+                            google.maps.importLibrary('geocoding'),
+                            google.maps.importLibrary('marker'),
+                            google.maps.importLibrary('geometry')
+                        ]);
+                    }
+                    await window.OpenCities.__mapsLibsPromise;
+
+                    if (window.OpenCities?.GoogleMapsLoader) {
+                        window.OpenCities.GoogleMapsLoader._fire();
+                    }
+                } catch (err) {
+                    console.error('Google Maps failed to initialise', err);
+                }
+            })();
+        </script>
+    
+    <script src="/files/templates/00000000-0000-0000-0000-000000000000/63025236-c62a-4018-a67b-7af410895127/v/189/modernizr.custom.710f3bf.js?seamlessts=639227839847818930" defer></script>
+    
+    <!--// End Framework Section -->
+    <!-- OpenCities Section -->
+    <script>
+        var OpenCities = OpenCities || {};
+        OpenCities.Paths = {
+            SiteTemplate: '/files/templates/00000000-0000-0000-0000-000000000000/63025236-c62a-4018-a67b-7af410895127/v/189/',
+            ThemePath: '/files/templates/00000000-0000-0000-0000-000000000000/63025236-c62a-4018-a67b-7af410895127/v/189/'
+        };
+    </script>
+    <script src='/ocapi/ebaec22a-e360-42fd-8295-b96d46e2e76d/en-AU/websitesettings.js'></script>
+    <script src="/files/templates/00000000-0000-0000-0000-000000000000/63025236-c62a-4018-a67b-7af410895127/v/189/oc_head.js?applied=20220207121715"></script>
+    <!-- Script Combine. To enter debug mode for this browser session, enter OcScriptCombineDebug=true as a querystring -->
+<link href="/files/oc-templates/00000000-0000-0000-0000-000000000000/63025236-c62a-4018-a67b-7af410895127/v/189/oc_grid.css~oc_style.css~oc_wizard_style.css~oc_main.css~oc_forms.css~oc_wizard.css~oc_wizard_menu.css~oc_main_s1.css~oc_wizard_s1.css~oc_wizard_menu_s1.css~oc_grid_s1.css~OcScriptCombine_Minify0?uniqueid=20220207121715" rel="stylesheet" type="text/css">
+    <!-- Script Combine. To enter debug mode for this browser session, enter OcScriptCombineDebug=true as a querystring -->
+<link href="/files/oc-templates/00000000-0000-0000-0000-000000000000/63025236-c62a-4018-a67b-7af410895127/v/189/client_style.css~client.css~client_menu.css~client_s1.css~client_menu_s1.css~client_forms.css~OcScriptCombine_Minify0?uniqueid=20220207121715" rel="stylesheet" type="text/css">
+    <script>
+(function (BackgroundSettings, $, undefined) {
+    BackgroundSettings.initialise = function () {
+        this.Application = {"CSSSelector":".content-outer-container","EnableFade":false};
+    };
+} (OpenCities.BackgroundSettings = OpenCities.BackgroundSettings || {}, jQuery));
+OpenCities.BackgroundSettings.initialise();
+</script>
+    
+    <!-- Script Combine. To enter debug mode for this browser session, enter OcScriptCombineDebug=true as a querystring -->
+<link href="/files/oc-templates/00000000-0000-0000-0000-000000000000/63025236-c62a-4018-a67b-7af410895127/v/189/oc_print.css~client_print.css~OcScriptCombine_Minify0?uniqueid=20220207121715" rel="stylesheet" type="text/css" media="print">
+    <!-- Script Combine. To enter debug mode for this browser session, enter OcScriptCombineDebug=true as a querystring -->
+<script src="/files/oc-templates/00000000-0000-0000-0000-000000000000/63025236-c62a-4018-a67b-7af410895127/v/189/external_plugins.js~oc_form_helper.js~oc_main.js~plugins.js~oc_main_init.js~OcScriptCombine_Minify0?uniqueid=20220207121715" defer="true"></script>
+    
+    
+
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="UYNRY-2YMH8-7PYXA-RUTF9-QCXU8",function(){function e(){if(!r){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.appendChild(e),r=!0}}function t(e){r=!0;var n,t,a,i,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",i=(a.frameElement||a).style,i.width=0,i.height=0,i.border=0,i.display="none",o.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void 0;",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=14,window.BOOMR.url=n+"UYNRY-2YMH8-7PYXA-RUTF9-QCXU8";var i=document.currentScript||document.getElementsByTagName("script")[0],o=i.parentNode,r=!1,d=document.createElement("link");if(d.relList&&"function"==typeof d.relList.supports&&d.relList.supports("preload")&&"as"in d)window.BOOMR.snippetMethod="p",d.href=window.BOOMR.url,d.rel="preload",d.as="script",d.addEventListener("load",e),d.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!r)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.appendChild(d);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="eaayaa6eiuuaajqacqksqaaaabvk2nrm-f-dfc8652d0-clienttons-s.akamaihd.net",i="false"=="true"?2:1,o={"ak.v":"41","ak.cp":"1822885","ak.ai":parseInt("1075936",10),"ak.ol":"0","ak.cr":5,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"cb418e9","ak.r":40856,"ak.a2":n,"ak.m":"dscb","ak.n":"essl","ak.cport":63636,"ak.gh":"23.54.30.79","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1789736492","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==tdw8kMb+FAWPE+VLoDPS5QzCog/M0EKYxNQ8geCGzqMSDcvbxUYWfsBK/emvfzvEfOSswOhprno+vl7b6PoM7DxaX7ZYfJNEwH2rMUEVuo7XJuxlA7sH0XisVbLwl12mSUCmgVtU6Q3gfu6QJNP0t6LdxEpfOVxMGr4rwRjq3oQCIioM/WUBEMR8TqoONgfmQcU7fumO7DAXGnNXj7/Ey8CKu+e2Qq5dTqhBa5f6QUoqNrxjOfFO4QXGmHRXnWQ63GfRZ8odTV/Rivnu/X0fCog0lSEjZxDIRITP76wP5VrSEhdr6fI9g1dh8HAyvt+LQCqAUNJiFNAo60HQkViURluyhOHtItgKUXSeoIzDqfYsmQirO/Ww2mAsrhWrT2HmTu/vmHtdLU3O5C1BiGSgNMcu4b7lENRRUqOZOkHNgH4=","ak.pv":"145","ak.dpoabenc":"","ak.tf":i};if(""!==t)o["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))o["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(o)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:o,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body class="body layout-modern side-menu side-menu-left site-search-always-visble  content-type-oc-general content-template-oc-2-column group-template-oc-2-column-with-default-header page-name-integrated-planning-and-reporting page-sequence-10 page-depth-2 page-section-5 website-type-primary device-desktop " id="body-top">
+    <div id="skip-to-content-container">
+        <a href="#main-content" class="visuallyhidden focusable" id="skip-to-content-link">Skip to main content</a>
+    </div>
+    <script>
+        // OCNOW-11988 (Cursor): Proactively focus skip link when returning from browser chrome.
+        // Must run inline (not deferred oc_main.js) so focus is intercepted before NVDA speaks footer.
+        (function () {
+            var awaitingReentry = false;
+            var inertSupported = 'inert' in HTMLElement.prototype;
+
+            function isExplicitlyOutsideDocument(node) {
+                return node != null && !document.documentElement.contains(node);
+            }
+
+            function getSkipContainer() {
+                return document.getElementById('skip-to-content-container');
+            }
+
+            function getSkipLink() {
+                return document.getElementById('skip-to-content-link');
+            }
+
+            function applyGuard() {
+                awaitingReentry = true;
+                if (!inertSupported) {
+                    return;
+                }
+                var skipContainer = getSkipContainer();
+                var children = document.body.children;
+                for (var i = 0; i < children.length; i++) {
+                    if (children[i] !== skipContainer) {
+                        children[i].setAttribute('inert', '');
+                    }
+                }
+            }
+
+            function clearGuard() {
+                awaitingReentry = false;
+                if (!inertSupported) {
+                    return;
+                }
+                var children = document.body.children;
+                for (var i = 0; i < children.length; i++) {
+                    children[i].removeAttribute('inert');
+                }
+            }
+
+            function isSkipLinkElement(target) {
+                if (!target) {
+                    return false;
+                }
+                var skipContainer = getSkipContainer();
+                return target.id === 'skip-to-content-link' ||
+                    (skipContainer && skipContainer.contains(target));
+            }
+
+            function focusSkipLink() {
+                var skipLink = getSkipLink();
+                if (!skipLink) {
+                    return;
+                }
+                if (window.scrollY > 0) {
+                    window.scrollTo(0, 0);
+                }
+                skipLink.focus({ preventScroll: true });
+            }
+
+            function scheduleGuardIfDocumentLostFocus() {
+                window.setTimeout(function () {
+                    if (!document.hasFocus()) {
+                        applyGuard();
+                    }
+                }, 0);
+            }
+
+            document.addEventListener('focusout', function (e) {
+                if (isExplicitlyOutsideDocument(e.relatedTarget)) {
+                    applyGuard();
+                }
+            }, true);
+
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Tab') {
+                    scheduleGuardIfDocumentLostFocus();
+                } else if (e.key === 'F6' || (e.key === 'l' && e.ctrlKey)) {
+                    scheduleGuardIfDocumentLostFocus();
+                }
+            }, true);
+
+            window.addEventListener('focus', function () {
+                if (!awaitingReentry) {
+                    return;
+                }
+                applyGuard();
+                focusSkipLink();
+            }, true);
+
+            document.addEventListener('focusin', function (e) {
+                var reentryFromChrome = awaitingReentry || isExplicitlyOutsideDocument(e.relatedTarget);
+                if (!reentryFromChrome) {
+                    return;
+                }
+                if (isSkipLinkElement(e.target)) {
+                    clearGuard();
+                    return;
+                }
+                applyGuard();
+                focusSkipLink();
+                clearGuard();
+            }, true);
+        })();
+    </script>
+    <form name="mainForm" method="post" action="/Council/Integrated-Planning-and-Reporting" id="mainForm">
+<input type="hidden" name="ctl04_seamless_script_manager_TSM" id="ctl04_seamless_script_manager_TSM" value="" />
+<input type="hidden" name="__SEAMLESSVIEWSTATE" id="__SEAMLESSVIEWSTATE" value="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" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+
+
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ctl04_seamless_script_manager_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-GB%3add3ac3d5-1e29-4112-8fed-529caffa8f24%3aea597d4b%3bOpenCities.CustomControls%3aen-GB%3a484f8dd2-9bd4-4208-af6e-03f67d9c874d%3a8e1d32bf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=yLfp0lNK_IqsZNwoEeFK0DNmFbbqfw7lftKHUvLR_gIW14r1_7jcBOZnAWmfvxOi9dPHXunj4IIDy3moyxl7Zpxws4kF4o89HYQsYcSRUBKB4EkdhmMlKWUBVo8fSdeinvGFuspKPYqY801Ddn_6TEZYT1lnTW4vMHktVnMhdErYKcL2ZN0467rmv3gvm2tRjfB6gAR07FgY9WxcpQl6exqzS5as74Qa3jctnuShyYV-TrofVyn5xEiZg1jueobakO5oqUXLhvpozNgi701sfHfthK83hf9Va8_7EKKJ7gwNOt688tOBjdarkEQ5O1q8bnQHRaAwHWbwWUxDJWtwa-xw3wlhIvr8zofEv8hz8Qp7qzeZqS7YnKL8TPe0fuZA_aFCjvJt-gSwvx2VydMfSNQLTOTKHSd05fbBpNwdsD4Lm6oabQ0U2LWPOXIDCwBK0" type="text/javascript"></script>
+    
+<script type="text/javascript">
+    try{
+        function SeamlessEndRequestHandler(sender, args) {
+            try {
+                var dataItems = args.get_dataItems();
+                if(dataItems.ctl04_seamless_script_manager)
+                    document.getElementById('__SEAMLESSVIEWSTATE').value = dataItems.ctl04_seamless_script_manager;
+            }
+            catch (e) { }
+        }
+
+        Sys.WebForms.PageRequestManager.getInstance().add_endRequest(SeamlessEndRequestHandler);
+    }
+    catch (e) { }
+</script>
+
+    <div class="unsupported-browser-warning js-element"></div>
+    
+    <div hidden>
+        <span id="new-window-0">opens in new tab or window </span>
+    </div>
+    <div class="overlay-container"></div>
+    
+    <div role="region" aria-label="Site announcements" class="emergency-container emergency-container-position-1"><div id="PublicEmergencyAnnouncementList" data-cookiekeydismisseditems="OC_EA_EmergencyAnnouncementList_Dismissed" data-querykeydismisseditem="OC_EA_EmergencyAnnouncementList_Dismiss">
+   <div class="oc-emergency-announcement-container">
+  <div class="oc-emergency-undismissed max-severity-20 results-1">
+    <div class="side-box message-box emergency-message-box oc-emergency-severity-20 " >
+   <h3 class="side-box-title">Sign up to our Newsletter</h3>
+   <div class="side-box-content">
+      <p >Our new fortnightly eNewsletter delivers the most up-to-date news on Council’s key decisions, projects, initiatives and events.</p>
+      <a href="https://confirmsubscription.com/h/t/854341E5874F567C"  target="_blank" >Click here to subscribe today!</a>
+      <input type="button"  class="announcement-dismiss-button" data-cvid="63bf5401-88fc-47f7-bde7-ae8c6fa824ac" value="Close this announcement by clicking here" />
+   </div>
+   
+</div>
+        
+  </div><div class="oc-emergency-dismissed results-0"></div></div></div></div>
+    <div class="background-container">
+        <div class="page-container">
+            <!-- OC Layout Element GROUP TEMPLATE -->
+            <!--groupTemplateStart--><header><div class="print-header-outer-container print-element">
+<img src="/files/templates/00000000-0000-0000-0000-000000000000/63025236-c62a-4018-a67b-7af410895127/v/188/print-header.png" alt="Snowy Monaro Regional Council - Logo" />
+</div>
+            <div class="toolbar-outer-container">
+  <div class="toolbar-inner-container clearfix">
+    <div class="toolbar-item toolbar-language notranslate toolbar-display-dropdown"><div class="no-js-element">
+		  <ul>
+		    <li id="toolbar-language-option-en-au-noscript"><a href="https://www.snowymonaro.nsw.gov.au/Council/Integrated-Planning-and-Reporting?oc_lang=en-AU" class="lang-item lang-en-au" data-translate-to="en-au" lang="en-AU">English<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-de-noscript"><a href="https://www.snowymonaro.nsw.gov.au/Council/Integrated-Planning-and-Reporting?oc_lang=de" class="lang-item lang-de" data-translate-to="de" lang="en">German<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-it-noscript"><a href="https://www.snowymonaro.nsw.gov.au/Council/Integrated-Planning-and-Reporting?oc_lang=it" class="lang-item lang-it" data-translate-to="it" lang="en">Italian<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-zh-tw-noscript"><a href="https://www.snowymonaro.nsw.gov.au/Council/Integrated-Planning-and-Reporting?oc_lang=zh-TW" class="lang-item lang-zh-tw" data-translate-to="zh-tw" lang="en">Chinese (Traditional)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-fr-noscript"><a href="https://www.snowymonaro.nsw.gov.au/Council/Integrated-Planning-and-Reporting?oc_lang=fr" class="lang-item lang-fr" data-translate-to="fr" lang="en">French<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-nl-noscript"><a href="https://www.snowymonaro.nsw.gov.au/Council/Integrated-Planning-and-Reporting?oc_lang=nl" class="lang-item lang-nl" data-translate-to="nl" lang="en">Dutch<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-th-noscript"><a href="https://www.snowymonaro.nsw.gov.au/Council/Integrated-Planning-and-Reporting?oc_lang=th" class="lang-item lang-th" data-translate-to="th" lang="en">Thai<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-es-noscript"><a href="https://www.snowymonaro.nsw.gov.au/Council/Integrated-Planning-and-Reporting?oc_lang=es" class="lang-item lang-es" data-translate-to="es" lang="en">Spanish<span class="visuallyhidden"> Select this as your preferred language</span></a></li>
+          </ul>
+		</div>
+	<button type="button" role="combobox" aria-controls="toolbar-language-drop-down" aria-expanded="false" aria-haspopup="listbox" aria-autocomplete="none" aria-labelledby="toolbar-language-label" class="toolbar-button toolbar-button-language js-element">  
+        <span class="toolbar-language-globe-icon" aria-hidden="true"></span>
+        <span id="toolbar-language-label" class="current-language">
+            Select a language to translate to
+		</span>
+		<i aria-hidden="true"></i>
+	</button>
+	<div id="toolbar-language-drop-down" role="listbox" aria-label="Available languages" class="toolbar-drop-down toolbar-language-drop-down js-element clearfix">
+		<ul role="group">
+		    <li role="presentation"><a id="toolbar-language-option-en-au" role="option" aria-selected="true" href="https://www.snowymonaro.nsw.gov.au/Council/Integrated-Planning-and-Reporting?oc_lang=en-AU" class="lang-item lang-en-au" data-translate-to="en-au" lang="en-AU">English<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-de" role="option" aria-selected="false" href="https://www.snowymonaro.nsw.gov.au/Council/Integrated-Planning-and-Reporting?oc_lang=de" class="lang-item lang-de" data-translate-to="de" lang="en">German<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-it" role="option" aria-selected="false" href="https://www.snowymonaro.nsw.gov.au/Council/Integrated-Planning-and-Reporting?oc_lang=it" class="lang-item lang-it" data-translate-to="it" lang="en">Italian<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-zh-tw" role="option" aria-selected="false" href="https://www.snowymonaro.nsw.gov.au/Council/Integrated-Planning-and-Reporting?oc_lang=zh-TW" class="lang-item lang-zh-tw" data-translate-to="zh-tw" lang="en">Chinese (Traditional)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-fr" role="option" aria-selected="false" href="https://www.snowymonaro.nsw.gov.au/Council/Integrated-Planning-and-Reporting?oc_lang=fr" class="lang-item lang-fr" data-translate-to="fr" lang="en">French<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-nl" role="option" aria-selected="false" href="https://www.snowymonaro.nsw.gov.au/Council/Integrated-Planning-and-Reporting?oc_lang=nl" class="lang-item lang-nl" data-translate-to="nl" lang="en">Dutch<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-th" role="option" aria-selected="false" href="https://www.snowymonaro.nsw.gov.au/Council/Integrated-Planning-and-Reporting?oc_lang=th" class="lang-item lang-th" data-translate-to="th" lang="en">Thai<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-es" role="option" aria-selected="false" href="https://www.snowymonaro.nsw.gov.au/Council/Integrated-Planning-and-Reporting?oc_lang=es" class="lang-item lang-es" data-translate-to="es" lang="en">Spanish<span class="visuallyhidden"> Select this as your preferred language</span></a></li>
+        </ul>
+	</div></div>
+  </div>
+</div>
+            <div class="header-outer-container clearfix">
+		    <div class="side-menu-btn js-element">
+		    <button type="button" aria-expanded="false" aria-controls="nav"><i aria-hidden="true"></i><span class="side-menu-btn-text">Menu</span></button>
+		    </div>
+ 	<div class="header-container header-layout-2  clearfix">
+			<div class="header-site-logo">
+				<a href="https://www.snowymonaro.nsw.gov.au/Home" lang="en-AU" aria-label="Snowy Monaro Regional Council - Home - Logo">
+				</a>
+			</div>
+		    <div class="mobile-search-btn js-element">
+		        <button><i aria-hidden="true"></i><span class="mobile-search-btn-text"><span class="visuallyhidden">Open </span>Search</span></button>
+		    </div>			
+			<div class="header-search-control-container" id="header-search">
+				<div class="search-inner-container">
+					<div class="sc-search-panel">
+	<label for="ctl07_txtSearch" id="ctl07_lblSearch" class="sc-search-label">Search</label><input name="ctl07$txtSearch" type="text" id="ctl07_txtSearch" class="sc-search-text" placeholder="Find almost anything on our website" /><input type="submit" name="ctl07$btnSearch" value="Search" id="ctl07_btnSearch" class="sc-search-button" />
+</div>
+					<div role="status" id="predictiveResults"></div>
+				</div>
+			</div>
+	</div>
+</div>
+<div class="navigation-outer-container">
+	<div id="nav" role="navigation" class="navigation-container" data-menu-type="offscreen" data-offscreen-position="left" aria-label="primary">
+		<div class="grid">
+			<div class="col-xs-12">              
+                <ul class="sf-menu" id="sc-main-menu"><li class="nav-section-quarters-1   first-item nav-item-seq-1">
+<a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning" class="nav-level-1 nav-has-children"  target="">
+	<i class="item-icon" aria-hidden="true"></i><span class="item-text">Building and Planning</span>
+</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-1">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-1">
+
+          
+            <li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Community-Participation-Plan" class=""  target="">Community Participation Plan</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Development" class="nav-has-children"  target="">Development</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-1-nav-item-seq-2"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-1-nav-item-seq-2">
+          
+            <li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Development/Do-I-need-approval"  target="">Do I need approval?</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Development/Development-Applications"  target="">Development Applications</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Development/Planning-Portal"  target="">Planning Portal</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Development/Planning-Controls"  target="">Planning Controls</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Development/Land-and-Property-Information"  target="">Land and Property Information</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Development/Swimming-Pools-and-Spas"  target="">Swimming Pools and Spas</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Development/Illegal-Development-Activity-or-Land-Use"  target="">Illegal Development Activity or Land Use</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Development/Developer-Contributions"  target="">Developer Contributions</a></li></ul></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Development-Engineering" class="nav-has-children"  target="">Development Engineering</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-1-nav-item-seq-3"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-1-nav-item-seq-3">
+          
+            <li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Development-Engineering/Works-Within-the-Road-Road-Management-Approvals-s138"  target="">Works Within the Road - Road Management Approvals (s138)</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Development-Engineering/Subdivision-Work-Certificates"  target="">Subdivision Work Certificates (SWC)</a></li></ul></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Building-and-Construction" class="nav-has-children"  target="">Building and Construction</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-1-nav-item-seq-4"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-1-nav-item-seq-4">
+          
+            <li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Building-and-Construction/Application-Tracking"  target="">Application Tracking</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Building-and-Construction/Construction-Certificates"  target="">Construction Certificates</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Building-and-Construction/Complying-Development"  target="">Complying Development</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Building-and-Construction/Occupation-Certificate"  target="">Occupation Certificate</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Building-and-Construction/Building-Information-Certificate"  target="">Building Information Certificate</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Building-and-Construction/Other-Applications"  target="">Other Applications</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Building-and-Construction/Exempt-Development"  target="">Exempt Development</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Building-and-Construction/Demolition"  target="">Demolition</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Building-and-Construction/Section-68-Application"  target="">Section 68 Application</a></li></ul></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Development-Considerations" class="nav-has-children"  target="">Development Considerations</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-1-nav-item-seq-5"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-1-nav-item-seq-5">
+          
+            <li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Development-Considerations/Bushfire"  target="">Bushfire</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Development-Considerations/Tree-Removal"  target="">Tree Removal</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Development-Considerations/Property-Addressing"  target="">Property Addressing</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Development-Considerations/Fire-Safety"  target="">Fire Safety</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Development-Considerations/Liquid-Trade-Waste"  target="">Liquid Trade Waste</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Development-Considerations/Backflow-Prevention"  target="">Backflow Prevention</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Development-Considerations/Building-and-Construction-Process"  target="">Building and Construction Process</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Development-Considerations/Unauthorised-Development"  target="">Unauthorised Development</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Development-Considerations/Floodplain-Management"  target="">Floodplain Management</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Development-Considerations/Heritage"  target="">Heritage</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Development-Considerations/Water-and-Wastewater-Connection"  target="">Water and Wastewater Connection</a></li></ul></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Heritage-Conservation" class="nav-has-children"  target="">Heritage Conservation</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-1-nav-item-seq-6"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-1-nav-item-seq-6">
+          
+            <li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Heritage-Conservation/Heritage-Item-Register"  target="">Heritage Item Register</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Heritage-Conservation/Development-on-Heritage-Item-or-Area"  target="">Development on Heritage Item or Area</a></li></ul></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Strategic-Planning" class="nav-has-children"  target="">Strategic Planning</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-1-nav-item-seq-7"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-1-nav-item-seq-7">
+          
+            <li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Strategic-Planning/Mapping-and-Planning-Information"  target="">Mapping and Planning Information</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Strategic-Planning/Development-Control-Plans-Engineering-Specifications-and-Drawings"  target="">Development Control Plans & Engineering Specifications and Drawings</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Strategic-Planning/Land-Use-Planning"  target="">Land Use Planning</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Strategic-Planning/Planning-Proposals"  target="">Planning Proposals</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Strategic-Planning/Local-Environment-Plans"  target="">Local Environment Plans</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Building-and-Planning/Strategic-Planning/Heritage-Buildings-and-Landscapes"  target="">Heritage Buildings and Landscapes</a></li></ul></li></ul></li>
+          
+            <li class="nav-section-quarters-1   nav-item-seq-2">
+<a href="https://www.snowymonaro.nsw.gov.au/Careers" class="nav-level-1 nav-has-children"  target="">Careers</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-2">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-2">
+
+          
+            <li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Careers/Why-work-with-us" class=""  target="">Why work with us?</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Careers/Current-Opportunities" class=""  target="">Current Opportunites</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Careers/Traineeship-Apprenticeship-and-Cadetship-TAC-Program" class=""  target="">Traineeship, Apprenticeship and Cadetship (TAC) Program</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Careers/How-to-join-our-team" class=""  target="">How to join our team</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Careers/Vision-and-Values" class=""  target="">Vision and Values</a></li></ul></li>
+          
+            <li class="nav-section-quarters-1   nav-item-seq-3">
+<a href="https://www.snowymonaro.nsw.gov.au/Community" class="nav-level-1 nav-has-children"  target="">Community</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-3">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-3">
+
+          
+            <li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Community/Welcome-to-the-Snowy-Monaro-Region" class="nav-has-children"  target="">Welcome to the Snowy Monaro region</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-3-nav-item-seq-1"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-3-nav-item-seq-1">
+          
+            <li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Welcome-to-the-Snowy-Monaro-Region/About-the-Snowy-Monaro"  target="">About the Snowy Monaro</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Welcome-to-the-Snowy-Monaro-Region/Community-and-Economic-Profile"  target="">Community and Economic Profile</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Welcome-to-the-Snowy-Monaro-Region/Local-History"  target="">Local History</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Welcome-to-the-Snowy-Monaro-Region/Canberra-Region-Joint-Organisation"  target="">Canberra Region Joint Organisation</a></li></ul></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Community/Aboriginal-Communities" class=""  target="">Aboriginal Communities</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Community/Awards-Donations-and-Grants" class="nav-has-children"  target="">Awards, Donations and Grants</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-3-nav-item-seq-3"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-3-nav-item-seq-3">
+          
+            <li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Awards-Donations-and-Grants/Australia-Day"  target="">Australia Day</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Awards-Donations-and-Grants/Boco-Rock-Community-Enhancement-Fund"  target="">Boco Rock Community Enhancement Fund</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Awards-Donations-and-Grants/Applying-for-a-grant"  target="">Applying for a grant?</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Awards-Donations-and-Grants/Grant-Guru"  target="">Grant Guru</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Awards-Donations-and-Grants/ClubGRANTS"  target="">ClubGRANTS</a></li></ul></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Community/Cemeteries" class="nav-has-children"  target="">Cemeteries</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-3-nav-item-seq-4"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-3-nav-item-seq-4">
+          
+            <li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Cemeteries/Ashes-Interments"  target="">Ashes Interments</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Cemeteries/Burials"  target="">Burials</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Cemeteries/Cemeteries-in-the-Snowy-Monaro-region"  target="">Cemeteries in the Snowy Monaro region</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Cemeteries/Cemetery-Search-Tool"  target="">Cemetery Search Tool</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Cemeteries/Cemetery-Memorials-and-Monuments"  target="">Cemetery Memorials and Monuments</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Cemeteries/Cemetery-Policies-and-Procedures"  target="">Cemetery Policies, Legislation and Procedures</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Cemeteries/Cemetery-Maintenance"  target="">Cemetery Maintenance</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Cemeteries/Genealogy-Enquiry"  target="">Genealogy Enquiry</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Cemeteries/What-to-do-when-someone-dies"  target="">What to do when someone dies</a></li></ul></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Community/Community-Services" class="nav-has-children"  target="">Community Services</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-3-nav-item-seq-5"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-3-nav-item-seq-5">
+          
+            <li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Community-Services/Community-Connections-Newsletter"  target="">Community Connections Newsletter</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Community-Services/Community-Transport-Program"  target="">Community Transport Program</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Community-Services/Meals-on-Wheels"  target="">Meals on Wheels</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Community-Services/My-Aged-Care"  target="">My Aged Care</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Community-Services/Home-Care-Packages"  target="">Home Care Packages</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Community-Services/Commonwealth-Home-Support-Programme"  target="">Commonwealth Home Support Programme</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Community-Services/The-Future-of-Snowy-River-Hostel"  target="">The Future of Snowy River Hostel</a></li></ul></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Community/Health-Services" class=""  target="">Health Services</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Community/Vibrant-Communities" class="nav-has-children"  target="">Vibrant Communities</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-3-nav-item-seq-7"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-3-nav-item-seq-7">
+          
+            <li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Vibrant-Communities/Arts-and-Culture"  target="">Arts and Culture</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Vibrant-Communities/Alcohol-Free-Zones"  target="">Alcohol Free Zones</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Vibrant-Communities/Community-Connect"  target="">Community Connect</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Vibrant-Communities/Chambers-of-Commerce"  target="">Chambers of Commerce</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Vibrant-Communities/Community-Directory"  target="">Community Directory</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Vibrant-Communities/Disability-Inclusion-Action-Plan-2025-2029"  target="">Disability Inclusion Action Plan 2025 - 2029</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Vibrant-Communities/Multiculturalism"  target="">Multiculturalism</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Vibrant-Communities/Volunteering"  target="">Volunteering</a></li></ul></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Community/Young-People" class="nav-has-children"  target="">Young People</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-3-nav-item-seq-8"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-3-nav-item-seq-8">
+          
+            <li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Children-and-Young-People/Local-Schools-Directory"  target="">Local Schools Directory</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Children-and-Young-People/Cooma-Youth-Space"  target="">Cooma Youth Space</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Community/Children-and-Young-People/Child-Safe-Organisation"  target="">Child Safe Organisation</a></li></ul></li></ul></li>
+          
+            <li class="nav-section-quarters-1 nav-active-path  nav-item-seq-4">
+<a href="https://www.snowymonaro.nsw.gov.au/Council" class="nav-level-1 nav-has-children"  target="">Council</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-4">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-4">
+
+          
+            <li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Council/About-Us" class="nav-has-children"  target="">About Us</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-4-nav-item-seq-1"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-4-nav-item-seq-1">
+          
+            <li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Council/About-Us/Our-Structure"  target="">Our Structure</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Council/About-Us/Council-Charter"  target="">Council Charter</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Council/About-Us/Code-of-Conduct"  target="">Code of Conduct</a></li></ul></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Council/Access-To-Information" class=""  target="">Access To Information</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Council/Audit-Risk-and-Improvement-Committee" class=""  target="">Audit, Risk and Improvement Committee</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Council/Meetings" class="nav-has-children"  target="">Meetings</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-4-nav-item-seq-4"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-4-nav-item-seq-4">
+          
+            <li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Council/Meetings/Webcast-and-Archive-Video"  target="_blank">Webcast and Archive Video</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Council/Meetings/Business-Papers-and-Minutes-2026"  target="">Business Papers and Minutes 2026</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Council/Meetings/Business-Papers-and-Minutes-2025"  target="">Business Papers and Minutes 2025</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Council/Meetings/Business-Papers-and-Minutes-2024"  target="">Business Papers and Minutes 2024</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Council/Meetings/Business-Papers-and-Minutes-2023"  target="">Business Papers and Minutes 2023</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Council/Meetings/Business-Papers-and-Minutes-2022"  target="">Business Papers and Minutes 2022</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Council/Meetings/Business-Papers-and-Minutes-2021"  target="">Business Papers and Minutes 2021</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Council/Meetings/Business-Papers-and-Minutes-2020"  target="">Business Papers and Minutes 2020</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Council/Meetings/Business-Papers-and-Minutes-2019"  target="">Business Papers and Minutes 2019</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Council/Meetings/Business-Papers-and-Minutes-2018"  target="">Business Papers and Minutes 2018</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Council/Meetings/Business-Papers-and-Minutes-2017"  target="">Business Papers and Minutes 2017</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Council/Meetings/Business-Papers-and-Minutes-2016"  target="">Business Papers and Minutes 2016</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Council/Meetings/Administrator-Delegations-Meetings"  target="">Administrator Delegation's Meetings</a></li></ul></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Council/Councillors" class="nav-has-children"  target="">Councillors</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-4-nav-item-seq-5"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-4-nav-item-seq-5">
+          
+            <li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Council/Councillors/Past-Mayors"  target="">Snowy Monaro Past Mayors</a></li></ul></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Council/Policies" class=""  target="">Council Policy</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Council/Fees-and-Charges" class=""  target="">Fees and Charges</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Council/Forms-A-Z" class=""  target="">Forms A-Z</a></li><li class="nav-active-path nav-active-page"><a  href="https://www.snowymonaro.nsw.gov.au/Council/Integrated-Planning-and-Reporting" class=""  target="">Integrated Planning and Reporting</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Council/Strategies" class=""  target="">Strategies</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Council/Section-355-Committees" class=""  target="">Section 355 Committees</a></li></ul></li>
+          
+            <li class="nav-section-quarters-1   nav-item-seq-5">
+<a href="https://www.snowymonaro.nsw.gov.au/Customer-Service" class="nav-level-1 nav-has-children"  target="">Customer Service</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-5">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-5">
+
+          
+            <li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Customer-Service/Contact-Us" class=""  target="">Contact Us</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Customer-Service/Customer-Service-Charter" class=""  target="">Customer Service Charter</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Customer-Service/Report-a-Concern" class=""  target="">Report a Concern</a></li></ul></li>
+          
+            <li class="nav-section-quarters-2   nav-item-seq-6">
+<a href="https://www.snowymonaro.nsw.gov.au/Emergencies-and-Disasters" class="nav-level-1 nav-has-children"  target="">Emergencies and Disasters</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-6">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-6">
+
+          
+            <li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Emergencies-and-Disasters/Bushfire-Recovery" class="nav-has-children"  target="">Bushfire Recovery</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-6-nav-item-seq-1"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-6-nav-item-seq-1">
+          
+            <li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Emergencies-and-Disasters/Bushfire-Recovery/Bushfire-Recovery-Updates"  target="">Bushfire Recovery Updates</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Emergencies-and-Disasters/Bushfire-Recovery/Health-and-Wellbeing"  target="">Health and Wellbeing</a></li></ul></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Emergencies-and-Disasters/Disaster-Dashboard" class=""  target="_blank">Disaster Dashboard</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Emergencies-and-Disasters/Emergency-Road-Updates" class=""  target="_blank">Emergency Road Updates</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Emergencies-and-Disasters/Emergency-Plus-App" class=""  target="">Emergency Plus App</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Emergencies-and-Disasters/Get-Ready-for-disasters" class=""  target="">Get Ready for disasters</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Emergencies-and-Disasters/Snowy-Monaro-Local-Emergency-Management-Committee" class=""  target="">Local Emergency Management Committee (LEMC)</a></li></ul></li>
+          
+            <li class="nav-section-quarters-2   nav-item-seq-7">
+<a href="https://www.snowymonaro.nsw.gov.au/Plan-Your-Event" class="nav-level-1 "  target="">Plan Your Event</a>
+</li>
+          
+            <li class="nav-section-quarters-2   nav-item-seq-8">
+<a href="https://www.snowymonaro.nsw.gov.au/Events-directory" class="nav-level-1 "  target="">Events</a>
+</li>
+          
+            <li class="nav-section-quarters-2   nav-item-seq-9">
+<a href="https://www.snowymonaro.nsw.gov.au/Environment-Waste-and-Weeds" class="nav-level-1 nav-has-children"  target="">Environment, Waste and Weeds</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-9">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-9">
+
+          
+            <li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Environment-Waste-and-Weeds/Biosecurity-and-Weeds" class="nav-has-children"  target="">Biosecurity and Weeds</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-9-nav-item-seq-1"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-9-nav-item-seq-1">
+          
+            <li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Environment-Waste-and-Weeds/Biosecurity-and-Weeds/Who-is-responsible-for-weeds"  target="">Who is responsible for weeds?</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Environment-Waste-and-Weeds/Biosecurity-and-Weeds/Know-your-weeds"  target="">Know your weeds</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Environment-Waste-and-Weeds/Biosecurity-and-Weeds/Information-for-landholders"  target="">Information for landholders</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Environment-Waste-and-Weeds/Biosecurity-and-Weeds/Weed-of-the-Week"  target="">Weed of the Week</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Environment-Waste-and-Weeds/Biosecurity-and-Weeds/State-and-national-level-biosecurity-matters"  target="">State and national-level biosecurity matters</a></li></ul></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Environment-Waste-and-Weeds/Environmental-and-Public-Health" class="nav-has-children"  target="">Environmental and Public Health</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-9-nav-item-seq-2"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-9-nav-item-seq-2">
+          
+            <li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Environment-Waste-and-Weeds/Environmental-and-Public-Health/Public-Health"  target="">Public Health</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Environment-Waste-and-Weeds/Environmental-and-Public-Health/Illegal-Dumping"  target="">Illegal Dumping</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Environment-Waste-and-Weeds/Environmental-and-Public-Health/Asbestos"  target="">Asbestos</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Environment-Waste-and-Weeds/Environmental-and-Public-Health/Onsite-Sewage"  target="">Onsite Sewage</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Environment-Waste-and-Weeds/Environmental-and-Public-Health/Food-Safety"  target="">Food Safety</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Environment-Waste-and-Weeds/Environmental-and-Public-Health/Legionella"  target="">Legionella</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Environment-Waste-and-Weeds/Environmental-and-Public-Health/Air-Pollution"  target="">Air Pollution</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Environment-Waste-and-Weeds/Environmental-and-Public-Health/Native-Wildlife"  target="">Native Wildlife</a></li></ul></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Environment-Waste-and-Weeds/Waste-and-Recycling" class="nav-has-children"  target="">Waste and Recycling</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-9-nav-item-seq-3"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-9-nav-item-seq-3">
+          
+            <li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Environment-Waste-and-Weeds/Waste-and-Recycling/Bin-Collection-Calendar"  target="">Bin Collection Calendar</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Environment-Waste-and-Weeds/Waste-and-Recycling/Collection-Services"  target="">Collection Services</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Environment-Waste-and-Weeds/Waste-and-Recycling/Waste-Facilities"  target="">Waste Facilities</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Environment-Waste-and-Weeds/Waste-and-Recycling/Recycling"  target="">Recycling</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Environment-Waste-and-Weeds/Waste-and-Recycling/Food-Organics-Garden-Organics-FOGO"  target="">Food Organics Garden Organics (FOGO)</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Environment-Waste-and-Weeds/Waste-and-Recycling/Community-Recycling-Centres"  target="">Community Recycling Centres</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Environment-Waste-and-Weeds/Waste-and-Recycling/Tricky-Waste-Items"  target="">Tricky Waste Items</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Environment-Waste-and-Weeds/Waste-and-Recycling/Fees-and-Charges"  target="">Fees and Charges</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Environment-Waste-and-Weeds/Waste-and-Recycling/Compost-Farm-Cooma-Landfill"  target="">Compost Farm Cooma Landfill</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Environment-Waste-and-Weeds/Waste-and-Recycling/Waste-Enforcement"  target="">Rubbish and Recycling Enforcement</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Environment-Waste-and-Weeds/Waste-and-Recycling/Environment-Operations-Act-and-Pollution-Monitoring"  target="">Environment Operations Act and Pollution Monitoring</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Environment-Waste-and-Weeds/Waste-and-Recycling/Education"  target="">Education</a></li></ul></li></ul></li>
+          
+            <li class="nav-section-quarters-2   nav-item-seq-10">
+<a href="https://www.snowymonaro.nsw.gov.au/Have-Your-Say" class="nav-level-1 nav-has-children"  target="">Have Your Say</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-10">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-10">
+
+          
+            <li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Have-Your-Say/Cooma-Parks-and-Play-Strategy" class=""  target="_blank">Cooma Parks and Play Strategy</a></li></ul></li>
+          
+            <li class="nav-section-quarters-3   nav-item-seq-11">
+<a href="https://www.snowymonaro.nsw.gov.au/Library" class="nav-level-1 nav-has-children"  target="">Library</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-11">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-11">
+
+          
+            <li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Library/Library-Locations" class=""  target="">Library Locations</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Library/My-Details-and-Catalogue" class=""  target="_blank">My Details and Catalogue</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Library/Join-online" class=""  target="_blank">Join online</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Library/Purchase-suggestion" class=""  target="_blank">Purchase suggestion</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Library/Library-Events" class="nav-has-children"  target="">Library Event</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-11-nav-item-seq-5"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-11-nav-item-seq-5">
+          
+            <li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Library/Library-Events/Adult-LEGO-challenge-at-Cooma-Library"  target="">Adult LEGO challenge at Cooma Library</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Library/Library-Events/Village-Library-Outreach-Service-2026"  target="">Village Library Outreach Service 2026</a></li></ul></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Library/FAQs" class=""  target="">Library FAQs</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Library/Online-Resources" class=""  target="">Online Resources</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Library/eBooks-eAudiobooks-in-our-Online-Library" class=""  target="">eBooks, eAudiobooks in our Online Library</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Library/Library-Initiatives" class=""  target="">Library Initiatives</a></li></ul></li>
+          
+            <li class="nav-section-quarters-3   nav-item-seq-12">
+<a href="https://www.snowymonaro.nsw.gov.au/Projects-and-works" class="nav-level-1 nav-has-children"  target="">Projects and works</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-12">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-12">
+
+          
+            <li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Projects-and-works/Berridale-Village-Master-Plan" class=""  target="">Berridale Village Master Plan</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Projects-and-works/Bobeyan-Road-Upgrade" class=""  target="">Bobeyan Road Upgrade</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Projects-and-works/Boosting-Biodiversity-at-North-Ridge-Reserve" class=""  target="">Boosting Biodiversity at North Ridge Reserve</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Projects-and-works/Bombala-War-Memorial-Swimming-Pool-Refurbishment" class=""  target="">Bombala War Memorial Swimming Pool Refurbishment</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Projects-and-works/Bridge-Renewal-Program" class=""  target="">Bridge Renewal Program</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Projects-and-works/Cooma-flood-levee-repairs-and-upgrades" class=""  target="">Cooma flood levee repairs and upgrades</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Projects-and-works/Cooma-Showground-Horse-Stable-Amenities-Upgrade" class=""  target="">Cooma Showground Horse Stable Amenities Upgrade</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Projects-and-works/Cooma-Festival-Swimming-Pool-Upgrades" class=""  target="">Cooma Festival Swimming Pool Upgrades</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Projects-and-works/Raising-Cooma-Levee-Concept-Design-and-Feasibility-Study" class=""  target="">Raising Cooma Levee - Concept Design and Feasibility Study</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Projects-and-works/Monaro-Fire-Control-Centre" class=""  target="">Monaro Fire Control Centre</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Projects-and-works/New-Cooma-Compost-Facility" class=""  target="">New Cooma Compost Facility</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Projects-and-works/Crankies-Plain-Bridge-over-the-Coolumbooka-River" class=""  target="_blank">Crankies Plain Bridge over the Coolumbooka River</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Projects-and-works/Jindabyne-Landfill-Transition-Project" class=""  target="">Jindabyne Landfill Transition Project</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Projects-and-works/Jindabyne-Town-Centre-Amenities-Upgrade" class=""  target="">Jindabyne Town Centre Amenities Upgrade</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Projects-and-works/Jindabyne-Shared-Trail" class=""  target="">Jindabyne Shared Trail</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Projects-and-works/Jindabyne-Resource-Recovery-Centre-RRC" class=""  target="">Jindabyne Resource Recovery Centre (RRC)</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Projects-and-works/Legacy-landfill-site-rehabilitation" class=""  target="">Legacy landfill site rehabilitation</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Projects-and-works/Monaro-Rail-Trail" class=""  target="">Monaro Rail Trail</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Projects-and-works/Completed-Projects" class="nav-has-children"  target="">Completed Projects</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-12-nav-item-seq-19"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-12-nav-item-seq-19">
+          
+            <li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Projects-and-works/Completed-Projects/Bombala-Sporting-Facilities-Upgrades"  target="">Bombala Sporting Facilities Upgrades</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Projects-and-works/Completed-Projects/Bombala-Water-Treatment-Plant-Upgrade"  target="">Bombala Water Treatment Plant Upgrade</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Projects-and-works/Completed-Projects/Claypits-Carpark-Jindabyne"  target="">Claypits Carpark, Jindabyne</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Projects-and-works/Completed-Projects/Delegate-Preschool-Upgrade"  target="">Delegate Preschool Upgrade</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Projects-and-works/Completed-Projects/Delegate-Water-Treatment-Plant-Upgrade"  target="">Delegate Water Treatment Plant Upgrade</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Projects-and-works/Completed-Projects/Lake-Jindabyne-foreshore-rehabilitation-and-restoration-works"  target="">Lake Jindabyne foreshore rehabilitation and restoration works</a></li></ul></li></ul></li>
+          
+            <li class="nav-section-quarters-3   nav-item-seq-13">
+<a href="https://www.snowymonaro.nsw.gov.au/Procurement-Contracts-and-Tenders" class="nav-level-1 nav-has-children"  target="">Procurement, Contracts and Tenders</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-13">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-13">
+
+          
+            <li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Procurement-Contracts-and-Tenders/Contracts-Register-GIPA" class=""  target="">Contracts Register (GIPA)</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Procurement-Contracts-and-Tenders/VendorPanel" class=""  target="">VendorPanel</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Procurement-Contracts-and-Tenders/Tenders" class=""  target="">Tenders</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Procurement-Contracts-and-Tenders/Invoicing-and-Payments" class=""  target="">Invoicing and Payments</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Procurement-Contracts-and-Tenders/EFTsure-software-solution" class=""  target="">EFTsure software solution</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Procurement-Contracts-and-Tenders/Expressions-of-Interest" class=""  target="">Expressions of Interest</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Procurement-Contracts-and-Tenders/Fraud-Prevention" class=""  target="">Fraud Prevention</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Procurement-Contracts-and-Tenders/Purchase-Orders" class=""  target="">Purchase Orders</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Procurement-Contracts-and-Tenders/Trading-Terms-and-Business-Ethics" class=""  target="">Trading Terms and Business Ethics</a></li></ul></li>
+          
+            <li class="nav-section-quarters-3   nav-item-seq-14">
+<a href="https://www.snowymonaro.nsw.gov.au/Ranger-Services" class="nav-level-1 nav-has-children"  target="">Ranger Services</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-14">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-14">
+
+          
+            <li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Ranger-Services/Dogs-and-Cats" class="nav-has-children"  target="">Dogs and Cats</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-14-nav-item-seq-1"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-14-nav-item-seq-1">
+          
+            <li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Ranger-Services/Dogs-and-Cats/Council-Pounds"  target="">Council Pounds</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Ranger-Services/Dogs-and-Cats/Animal-Adoption"  target="">Animal Adoption</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Ranger-Services/Dogs-and-Cats/Cats"  target="">Cats</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Ranger-Services/Dogs-and-Cats/Dog-Attacks"  target="">Dog Attacks</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Ranger-Services/Dogs-and-Cats/Dogs"  target="">Dogs</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Ranger-Services/Dogs-and-Cats/Animal-Complaints"  target="">Animal Complaints</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Ranger-Services/Dogs-and-Cats/Microchipping-Identification-and-Registration"  target="">Microchipping, Identification and Registration</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Ranger-Services/Dogs-and-Cats/Off-Leash-Areas"  target="">Off-Leash Areas</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Ranger-Services/Dogs-and-Cats/Dogs-and-Cats-FAQs"  target="">Dogs and Cats FAQs</a></li></ul></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Ranger-Services/Keeping-Chickens" class=""  target="">Keeping Chickens</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Ranger-Services/Parking-Information" class="nav-has-children"  target="">Parking Information</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-14-nav-item-seq-3"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-14-nav-item-seq-3">
+          
+            <li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Ranger-Services/Parking-Information/Fines"  target="">Fines</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Ranger-Services/Parking-Information/Parking-Enforcement"  target="">Parking Enforcement</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Ranger-Services/Parking-Information/Parking-Areas-Cooma-CBD"  target="">Parking Areas Cooma CBD</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Ranger-Services/Parking-Information/Motorhome-Dump-Point"  target="">Motorhome Dump Point</a></li></ul></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Ranger-Services/Report-a-Concern" class=""  target="">Report a Concern</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Ranger-Services/Unattended-Items" class="nav-has-children"  target="">Unattended Items</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-14-nav-item-seq-5"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-14-nav-item-seq-5">
+          
+            <li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Ranger-Services/Unattended-Items/Personal-Items"  target="">Personal Items</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Ranger-Services/Unattended-Items/Abandoned-Vehicles"  target="">Abandoned Vehicles</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Ranger-Services/Unattended-Items/Abandoned-Shopping-Trolleys"  target="">Abandoned Shopping Trolleys</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Ranger-Services/Unattended-Items/Stock-Animals"  target="">Stock Animals</a></li></ul></li></ul></li>
+          
+            <li class="nav-section-quarters-3   nav-item-seq-15">
+<a href="https://www.snowymonaro.nsw.gov.au/News-and-Media" class="nav-level-1 nav-has-children"  target="">News and Media</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-15">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-15">
+
+          
+            <li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/News-and-Media/News-articles" class=""  target="">News</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/News-and-Media/Media-contacts" class=""  target="">Media contacts</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/News-and-Media/Community-Engagement" class=""  target="">Community Engagement</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/News-and-Media/eNewsletters" class=""  target="">eNewsletters</a></li></ul></li>
+          
+            <li class="nav-section-quarters-4   nav-item-seq-16">
+<a href="https://www.snowymonaro.nsw.gov.au/Rates-and-Water-Billing" class="nav-level-1 nav-has-children"  target="">Rates and Water Billing</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-16">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-16">
+
+          
+            <li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Rates-and-Water-Billing/Land-Rates-and-Water-Billing-Information" class=""  target="">Land Rates and Water Billing Information</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Rates-and-Water-Billing/How-to-pay-your-rates-and-water-bills" class=""  target="">How to pay your rates and water bills</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Rates-and-Water-Billing/Pension-Rebate" class=""  target="">Pension Rebate</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Rates-and-Water-Billing/eNotices-save-paper-and-get-it-straight-to-your-inbox" class=""  target="">eNotices - save paper and get it straight to your inbox</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Rates-and-Water-Billing/Related-documents-and-fact-sheets" class=""  target="">Related documents and fact sheets</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Rates-and-Water-Billing/Frequently-Asked-Questions" class=""  target="">Frequently Asked Questions</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Rates-and-Water-Billing/Delegate-Water-Billing" class=""  target="">Delegate Water Billing</a></li></ul></li>
+          
+            <li class="nav-section-quarters-4   nav-item-seq-17">
+<a href="https://www.snowymonaro.nsw.gov.au/Recreation-and-Facilities" class="nav-level-1 nav-has-children"  target="">Recreation and Facilities</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-17">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-17">
+
+          
+            <li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Recreation-and-Facilities/Book-a-facility" class=""  target="">Book a facility</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Recreation-and-Facilities/Caravan-Parks" class="nav-has-children"  target="">Caravan Parks</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-17-nav-item-seq-2"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-17-nav-item-seq-2">
+          
+            <li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Recreation-and-Facilities/Caravan-Parks/Bombala-Caravan-Park"  target="">Bombala Caravan Park</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Recreation-and-Facilities/Caravan-Parks/Delegate-Caravan-Park"  target="">Delegate Caravan Park</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Recreation-and-Facilities/Caravan-Parks/Nimmitabel-Caravan-Park"  target="">Nimmitabel Caravan Park</a></li></ul></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Recreation-and-Facilities/Swimming-Pools" class=""  target="">Swimming Pools</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Recreation-and-Facilities/Cooma-Regional-Sports-Centre" class="nav-has-children"  target="">Cooma Regional Sports Centre</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-17-nav-item-seq-4"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-17-nav-item-seq-4">
+          
+            <li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Recreation-and-Facilities/Cooma-Regional-Sports-Centre/Sports-Centre-Image-Gallery"  target="">Sports Centre Image Gallery</a></li></ul></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Recreation-and-Facilities/Cooma-North-Ridge-Reserve" class=""  target="">Cooma North Ridge Reserve</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Recreation-and-Facilities/Parks-and-Garden-Maintenance" class=""  target="">Parks and Garden Maintenance</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Recreation-and-Facilities/Recreational-Trails" class=""  target="">Recreational Trails</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Recreation-and-Facilities/Bombala-Street-Stall-Listing" class=""  target="">Bombala Street Stall Listing</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Recreation-and-Facilities/Lake-Jindabyne-Foreshore" class=""  target="">Lake Jindabyne Foreshore</a></li></ul></li>
+          
+            <li class="nav-section-quarters-4   nav-item-seq-18">
+<a href="https://www.snowymonaro.nsw.gov.au/Roads-Traffic-Maintenance" class="nav-level-1 nav-has-children"  target="">Roads, Traffic & Maintenance</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-18">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-18">
+
+          
+            <li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Roads-Traffic-Maintenance/Emergency-Road-Updates" class=""  target="_blank">Emergency Road Updates</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Roads-Traffic-Maintenance/Road-Works-Program-2026-2027" class=""  target="">Road Works Program 2026-2027</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Roads-Traffic-Maintenance/Road-Defect-Incident-Reporting" class=""  target="">Road Defect Incident Reporting</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Roads-Traffic-Maintenance/Road-Maintenance" class=""  target="">Road Maintenance</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Roads-Traffic-Maintenance/Road-Name-Bank" class=""  target="">Road Name Bank</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Roads-Traffic-Maintenance/Road-Safety" class=""  target="">Road Safety</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Roads-Traffic-Maintenance/Local-Traffic-Committee" class=""  target="">Local Traffic Committee</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Roads-Traffic-Maintenance/Council-Operated-Quarries" class=""  target="">Council Operated Quarries</a></li></ul></li>
+          
+            <li class="nav-section-quarters-4   nav-item-seq-19">
+<a href="https://www.snowymonaro.nsw.gov.au/Tourism" class="nav-level-1 nav-has-children"  target="">Tourism</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-19">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-19">
+
+          
+            <li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Tourism/Bombala-Platypus-Information-Centre" class="nav-has-children"  target="">Bombala Platypus Information Centre</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-19-nav-item-seq-1"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-19-nav-item-seq-1">
+          
+            <li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Tourism/Bombala-Platypus-Information-Centre/Our-Platypus"  target="">Our Platypus</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Tourism/Bombala-Platypus-Information-Centre/The-Bundian-Way"  target="_self">The Bundian Way</a></li></ul></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Tourism/Cooma-Visitors-Centre" class=""  target="_self">Cooma Visitors Centre</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Tourism/Tourism-Snowy-Mountains" class=""  target="_self">Tourism Snowy Mountains</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Tourism/Snowy-Monaro-Visitor-Guide-Map" class=""  target="_self">Snowy Monaro Visitor Guide Map</a></li></ul></li>
+          
+            <li class="nav-section-quarters-4   nav-item-seq-20">
+<a href="https://www.snowymonaro.nsw.gov.au/Water-and-Wastewater" class="nav-level-1 nav-has-children"  target="">Water and Wastewater</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-20">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-20">
+
+          
+            <li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Water-and-Wastewater/Wastewater" class="nav-has-children"  target="">Wastewater</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-20-nav-item-seq-1"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-20-nav-item-seq-1">
+          
+            <li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Water-and-Wastewater/Wastewater/Environmental-Protection"  target="">Environmental Protection</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Water-and-Wastewater/Wastewater/Sewer-Connections"  target="">Sewer Connections</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Water-and-Wastewater/Wastewater/Sewer-Riser-Maintenance"  target="">Sewer Riser Maintenance</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Water-and-Wastewater/Wastewater/Liquid-Trade-Waste"  target="">Liquid Trade Waste</a></li></ul></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Water-and-Wastewater/Water-Supply" class="nav-has-children"  target="">Water Supply</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-20-nav-item-seq-2"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-20-nav-item-seq-2">
+          
+            <li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Water-and-Wastewater/Water-Supply/Water-Quality"  target="">Water Quality</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Water-and-Wastewater/Water-Supply/Water-Restrictions"  target="">Water Restrictions</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Water-and-Wastewater/Water-Supply/Snowy-Monaro-Villages-Water-Safety-Scoping-Study"  target="">Snowy Monaro Villages Water Safety Scoping Study</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Water-and-Wastewater/Water-Supply/Water-Theft-and-Compliance"  target="">Water Theft and Compliance</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Water-and-Wastewater/Water-Supply/Water-Mains"  target="">Water Mains</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Water-and-Wastewater/Water-Supply/Water-Meters"  target="">Water Meters</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Water-and-Wastewater/Water-Supply/Backflow-Prevention-Program"  target="">Backflow Prevention Program</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Water-and-Wastewater/Water-Supply/Where-Does-My-Water-Come-From"  target="">Where Does My Water Come From?</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Water-and-Wastewater/Water-Supply/Lake-Wallace"  target="">Lake Wallace</a></li></ul></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Water-and-Wastewater/Water-Fees-Charges-Rates" class=""  target="">Water Fees, Charges & Rates</a></li><li class=" "><a  href="https://www.snowymonaro.nsw.gov.au/Water-and-Wastewater/Smart-Water-Advice" class="nav-has-children"  target="">Smart Water Advice</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-20-nav-item-seq-4"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-20-nav-item-seq-4">
+          
+            <li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Water-and-Wastewater/Smart-Water-Advice/Saving-water-in-the-house"  target="">Saving water in the house</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Water-and-Wastewater/Smart-Water-Advice/Saving-Water-Outdoors"  target="">Saving Water Outdoors</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Water-and-Wastewater/Smart-Water-Advice/Saving-Water-in-Business"  target="">Saving Water in Business</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Water-and-Wastewater/Smart-Water-Advice/Home-Water-Calculator"  target="_blank">Home Water Calculator</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Water-and-Wastewater/Smart-Water-Advice/Plant-Finder"  target="_blank">Plant Finder</a></li><li  class=" "><a href="https://www.snowymonaro.nsw.gov.au/Water-and-Wastewater/Smart-Water-Advice/Blue-House"  target="_blank">Blue House</a></li></ul></li></ul></li>
+          
+            </ul>
+			</div>
+		</div>
+	</div>
+</div>
+            </header>
+            <div class="content-outer-container">
+                <div id="main" role="main" class="main-outer-container clearfix">
+                        
+                        <div class="content-main-container">
+                            <div class="grid">
+					            <div class="col-xs-12">
+						            <nav id="breadcrumbs-container" aria-label="You Are Here :">
+							            <span role="list">
+<span role="listitem">
+	<a href="https://www.snowymonaro.nsw.gov.au/Home"  lang="en-AU">Home</a>
+	<span class="nav-separator" aria-hidden="true" role="presentation">/</span>
+</span>
+          <span role="listitem"><a href="https://www.snowymonaro.nsw.gov.au/Council" >Council</a><span class='nav-separator' aria-hidden="true" role="presentation">/</span></span><span class="current-page" role="listitem" aria-current="page" >Integrated Planning and Reporting</span></span>
+						            </nav>
+					            </div>
+                      
+					            <div class="col-xs-12">
+						            <div class="main-inner-container">
+                                        <div class="grid">							
+								            <div class="col-lg-4">								
+									            <div id="sub-navigation-outter-container" role="navigation" aria-label="Section Navigation">
+									            &nbsp;
+									            <div id="sub-navigation-container">
+                                <p class="sub-nav-header" role="heading" aria-level="2" id="in-this-section" >
+	In This Section
+</p>
+<ul><li class='nav-level-1   nav-has-children'>
+	<a href="https://www.snowymonaro.nsw.gov.au/Council/About-Us"  target="">About Us</a>
+	
+</li><li class='nav-level-1   '>
+	<a href="https://www.snowymonaro.nsw.gov.au/Council/Access-To-Information"  target="">Access To Information</a>
+	
+</li><li class='nav-level-1   '>
+	<a href="https://www.snowymonaro.nsw.gov.au/Council/Audit-Risk-and-Improvement-Committee"  target="">Audit, Risk and Improvement Committee</a>
+	
+</li><li class='nav-level-1   nav-has-children'>
+	<a href="https://www.snowymonaro.nsw.gov.au/Council/Meetings"  target="">Meetings</a>
+	
+</li><li class='nav-level-1   nav-has-children'>
+	<a href="https://www.snowymonaro.nsw.gov.au/Council/Councillors"  target="">Councillors</a>
+	
+</li><li class='nav-level-1   '>
+	<a href="https://www.snowymonaro.nsw.gov.au/Council/Policies"  target="">Council Policy</a>
+	
+</li><li class='nav-level-1   '>
+	<a href="https://www.snowymonaro.nsw.gov.au/Council/Fees-and-Charges"  target="">Fees and Charges</a>
+	
+</li><li class='nav-level-1   '>
+	<a href="https://www.snowymonaro.nsw.gov.au/Council/Forms-A-Z"  target="">Forms A-Z</a>
+	
+</li><li class='nav-level-1 nav-active-path nav-active-page '>
+	<a href="https://www.snowymonaro.nsw.gov.au/Council/Integrated-Planning-and-Reporting"  target="">Integrated Planning and Reporting</a>
+	
+</li><li class='nav-level-1   '>
+	<a href="https://www.snowymonaro.nsw.gov.au/Council/Strategies"  target="">Strategies</a>
+	
+</li><li class='nav-level-1   '>
+	<a href="https://www.snowymonaro.nsw.gov.au/Council/Section-355-Committees"  target="">Section 355 Committees</a>
+	
+</li></ul>
+									            </div>
+									            </div>
+								            </div>
+								            <div class="col-xs-12 col-lg-8">
+							                <div id="main-content" class="main-container clearfix">
+							                  
+                                <!-- OC Layout Element Conent Template -->
+							                  <!--normalTemplateStart--><h1 class='oc-page-title '>Integrated Planning and Reporting</h1>
+
+
+A planning and reporting framework was introduced in 2009 across all NSW local government areas, to improve local Council's long-term community planning and asset management as well as streamline the reporting process to the community.<br>
+<br>
+The Integrated Planning and Reporting (IP&amp;R) framework aims to improve the sustainability of local communities by encouraging councils, residents and state agencies to work together to achieve the objectives set out within these long-term plans.<br>
+<br>
+Integration of the Community Strategic Plan (CSP), Delivery Program and Operational Plan, along with Council's Resourcing Strategies (Long-Term Financial Plan, Workforce Plan and Asset Management Plan) is key to meaningful planning. Sound planning helps us provide ratepayers with the best level of service we can.<br>
+<br>
+Our Council faces a number of challenges over the next 20 years as the implementation of the community strategic plan gathers pace. By strengthening collaboration between community, business and government, we can overcome these challenges as we work together to achieve the CSP vision and key directions.<br>
+<br>
+These are our plans&mdash;
+developed by the people of the Snowy Monaro&mdash;
+for the people of the Snowy Monaro. We are fortunate to call this place home. How we care for it and plan for its future, is our most important undertaking.
+<p>&nbsp;</p>
+<p>
+</p>
+<div data-type="0" data-title-level="2" class="oc-wysiwyg-container">
+<div class="oc-wysiwyg-container-panel">
+<h2>Snowy Monaro 2035 Community Strategic Plan</h2>
+<div class="oc-wysiwyg-container-panel-content">
+<div outer="" wide"="">
+<div col="" col24="" first="" last"="" data-widgetcontainerid="ca2cfece-2f10-4375-89d2-b9e373ca01be">
+<div nest="" first="" last="" wide"="">
+<div col="" col24="" first="" last="" id7d641a4d-7152-4339-8e88-a4a16965276a"="" data-widgetcontainerid="7d641a4d-7152-4339-8e88-a4a16965276a">
+<div editor="" pagestyles="" wide"="" id="divEditor9febf516-1903-4e51-bdc4-33047a10d203" data-elementqueryclasses="{&quot;wide-narrow&quot;:&quot;min-width:25em&quot;}">The Snowy Monaro 2035 provides an important&nbsp;strategic roadmap for our community during this&nbsp;exciting and challenging period of transition for&nbsp;the region.&nbsp; This Plan will help guide and direct&nbsp;our community&rsquo;s priorities and decision making,&nbsp;<br>
+working across all levels as well as service planning&nbsp;and delivery choices, to deliver the best outcomes&nbsp;for our communities.</div>
+<div editor="" pagestyles="" wide"="" id="divEditor9febf516-1903-4e51-bdc4-33047a10d203" data-elementqueryclasses="{&quot;wide-narrow&quot;:&quot;min-width:25em&quot;}">&nbsp;</div>
+<div editor="" pagestyles="" wide"="" id="divEditor9febf516-1903-4e51-bdc4-33047a10d203" data-elementqueryclasses="{&quot;wide-narrow&quot;:&quot;min-width:25em&quot;}"><em>The CSP has been reviewed and was adopted by Council in May 2025 with a renewed timeframe of 2035, to be reviewed by each incoming Council.</em></div>
+<div editor="" pagestyles="" wide"="" id="divEditor9febf516-1903-4e51-bdc4-33047a10d203" data-elementqueryclasses="{&quot;wide-narrow&quot;:&quot;min-width:25em&quot;}"><em>&nbsp;</em></div>
+<div editor="" pagestyles="" wide"="" id="divEditor9febf516-1903-4e51-bdc4-33047a10d203" data-elementqueryclasses="{&quot;wide-narrow&quot;:&quot;min-width:25em&quot;}">
+<p>&nbsp;</p>
+<em>
+<strong>The current Community Strategic Plan was adopted by Council 1 May 2025:</strong><br>
+</em></div>
+</div>
+</div>
+</div>
+</div>
+<div outer="" wide"="">
+<div col="" col24="" first="" last"="" data-widgetcontainerid="cec9c80f-7752-4da7-8496-dcabbd918cd5">
+<div nest="" first="" last="" wide"="">
+<div col="" col24="" first="" last="" id7bba3bb3-f4d8-474c-afe5-f7af487c3865"="" data-widgetcontainerid="7bba3bb3-f4d8-474c-afe5-f7af487c3865"><section widgetrelateddocuments="" skin43="" wide"="" id="widgetRelDoc606d1491-0af7-483c-a59f-29250783d618" data-documentids="2318,2317,7623" data-columncount="1" data-elementqueryclasses="{&quot;wide-narrow&quot;:&quot;min-width:25em&quot;}" data-elementquerymatch="matchMultiColumn" data-elementqueryunmatch="unmatchMultiColumn">
+<div id="divRelatedDocuments_606d1491-0af7-483c-a59f-29250783d618">
+<div cpgrid="" cpgrid1"="">
+<div col1="" first="" last"="">
+<ul>
+    <li data-documentid="7623"><a title="Snowy Monaro 2035 CSP" href="/files/assets/public/v/4/council/ipr/csp/smrc-csp-2035-endorsed-20250501.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Snowy Monaro 2035 Community Strategic Plan<span class="file-info">(PDF,&nbsp;24MB)</span></a>
+    </li>
+    <li data-documentid="7623">
+    <p><a title="CSP 2035 Plan on a page" href="/files/assets/public/v/4/council/ipr/csp/csp-2035-plan-on-a-page.pdf" target="_self" style="font-size: 1em;" class="document ext-pdf"><i aria-hidden="true"></i>Snowy Monaro 2035 Community Strategic Plan - Plan on a page<span class="file-info">(PDF,&nbsp;406KB)</span></a></p>
+    </li>
+</ul>
+</div>
+</div>
+</div>
+</section></div>
+</div>
+</div>
+</div>
+<p>&nbsp;</p>
+</div>
+</div>
+<div class="oc-wysiwyg-container-panel">
+<h2>Delivery Program and Operational Plan</h2>
+<div class="oc-wysiwyg-container-panel-content">
+<p>These documents set out the priorities, direction and expected levels of service that our community expressed during the development of our&nbsp;<em>Community Strategic Plans.</em>&nbsp;The&nbsp;<em>Delivery Program 2025&ndash;2029,&nbsp;</em>presents a single point of reference outlining&nbsp;<g gr_16="" gr-alert="" gr_gramm="" gr_inline_cards="" gr_run_anim="" grammar="" only-ins="" replacewithoutsep"="" id="16" data-gr-id="16">Council's</g>&nbsp;actions for the next three years.&nbsp;<br>
+<br>
+Before the beginning of each consecutive year of a Delivery Program, Council is required to develop an annual Operational Plan.&nbsp;&nbsp;&nbsp;<br>
+<br>
+Council will now deliver our&nbsp;<em>2025&ndash;2026 Operational Plan .&nbsp;</em>This&nbsp;should be read in conjunction with the&nbsp;<em>Snowy Monaro 2035 Community Strategic Plan</em>, and the&nbsp;<em>2025&ndash;2029 Delivery Program.</em><br>
+<br>
+The&nbsp;<em>2025&ndash;2026 Operational Plan</em>&nbsp;incorporates Council&rsquo;s&nbsp;<em>2025&ndash;2026 Capital Works Program</em>,&nbsp;<em>Annual Budge</em>t,&nbsp;<em>Statement of Revenue Policy</em>&nbsp;and&nbsp;<em>Schedule of Fees and Charges</em>.</p>
+<p>The&nbsp;<em>2026&ndash;2027 Operational Plan,</em> containing the <em>2026&ndash;2027 Statement of Revenue Policy</em>, and the<em>&nbsp;2026&ndash;2027 Schedule of Fees and Charges</em> were adopted by Council on Friday 26 June 2026.</p>
+<ul>
+    <li><a title="Operational-Plan-2026-2027-with-Revenue-Policy.pdf" href="/files/assets/public/v/3/council/ipr/20262027/adopted-2026-2027-operational-plan-v3-w-revenue-policy.pdf" target="_blank" class="document ext-pdf"><i aria-hidden="true"></i><strong>2026&ndash;2027 Operational Plan</strong>
+    <span class="file-info">(PDF,&nbsp;36MB)</span></a><br>
+    <br>
+    </li>
+    <li><a title="Revenue-Policy-2026-2027.pdf" href="/files/assets/public/v/2/council/ipr/20262027/adopted-revenue-policy-2026-2027-v3.1.pdf" target="_blank" class="document ext-pdf"><i aria-hidden="true"></i><strong>2026&ndash;2027 Revenue Policy</strong>
+    <span class="file-info">(PDF,&nbsp;11MB)</span></a><br>
+    <br>
+    </li>
+    <li><a href="/files/assets/public/v/4/council/fees-amp-charges/2026–2027-adopted-fees-and-charges-30-06-2026.pdf" target="_blank" class="document ext-pdf"><i aria-hidden="true"></i><strong>2026&ndash;2027 Schedule of Fees and Charges</strong>
+    <span class="file-info">(PDF,&nbsp;10MB)</span></a><br>
+    <br>
+    </li>
+    <li><a title="Long-Term-Financial-Plan-2026-2036.pdf" href="/files/assets/public/v/1/council/ipr/20262027/long-term-financial-plan-2026-2036.pdf" target="_blank" class="document ext-pdf"><i aria-hidden="true"></i><strong>2026&ndash;2036 Long-Term Financial Plan</strong><span class="file-info">(PDF,&nbsp;2MB)</span></a>
+    </li>
+</ul>
+<br>
+<p>The&nbsp;<em>Delivery Program</em> is revised every year<em>, the 2025&ndash;2029 Delivery Program, 2026 Revision,&nbsp;</em>was adopted by Council on Friday 26 June 2026.</p>
+<ul>
+    <li><a title="Delivery-Program-2025-2029-2026-Revision.pdf" href="/files/assets/public/v/4/council/ipr/20262027/adopted-delivery-program-2025-2029-2026-revision-v2.3.1-20260630.pdf" target="_blank" class="document ext-pdf"><i aria-hidden="true"></i><strong>2025&ndash;2029 Delivery Program, 2026 Revision</strong><span class="file-info">(PDF,&nbsp;36MB)</span></a>
+    </li>
+</ul>
+<p>&nbsp;</p>
+</div>
+</div>
+<div class="oc-wysiwyg-container-panel">
+<h2>Resourcing Strategies</h2>
+<div class="oc-wysiwyg-container-panel-content">
+<p>Snowy Monaro Regional Council's Resourcing Strategy has been prepared in accordance with the requirements of the State Government's Integrated Planning Framework and gives consideration to the capacity for Council to deliver on its responsibilities within our Community Strategic Plan.<br>
+<br>
+Both the Community Strategic Plan and the Resourcing Strategy inform and are informed by the four year Delivery Program, which has also been developed to meet the requirements of the Integrated Planning Framework.<br>
+<br>
+The&nbsp;<em>Resourcing Strategy</em>&nbsp;incorporates the&nbsp;<em>Workforce Management Strategy, Asset Management Strategy, Asset Management Plans and The Long Term Financial Plan.</em></p>
+<p style="margin-left: 40px;"><em>&nbsp;</em><em style="color: inherit; font-family: inherit; font-size: 1em;">- The Workforce Management Strategy is focused on retaining staff, developing leaders, skilling managers and positioning Council as an employer of choice.</em></p>
+<p style="margin-left: 40px;"><em>- The Asset Management Strategy is a reflection of&nbsp;<g gr_19="" gr-alert="" gr_gramm="" gr_inline_cards="" gr_run_anim="" grammar="" doublereplace="" replacewithoutsep"="" id="19" data-gr-id="19">Council's&nbsp;</g>intention that our community's infrastructure network is maintained in partnership with other levels of government and stakeholders to meet the need of the local residents.</em></p>
+<p style="margin-left: 40px;"><em>-&nbsp;The Long-Term Financial Plan 2025-2035focuses on&nbsp;<g gr_17="" gr-alert="" gr_gramm="" gr_inline_cards="" gr_run_anim="" grammar="" replacewithoutsep"="" id="17" data-gr-id="17">Council's&nbsp;</g><g gr_14="" gr-alert="" gr_spell="" gr_inline_cards="" gr_run_anim="" contextualspelling="" ins-del="" multireplace"="" id="14" data-gr-id="14">long term&nbsp;</g>goal of financial sustainability and delivering quality services to the community.</em></p>
+<ul>
+    <li><em><a title="Resourcing Strategy 2025-2029, 2026 revision" href="/files/assets/public/v/2/council/ipr/20262027/endorsed-resourcing-strategy-2025-2029-2026-revision-v1-20260717.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Resourcing Strategy 2025-2029, 2026 revision<span class="file-info">(PDF,&nbsp;46MB)</span></a>, inclusive of;</em><em style="color: inherit; font-family: inherit; font-size: 1em;"></em></li>
+    <li><a title="Workforce Management Strategy 2025-2029" href="/files/assets/public/v/3/council/ipr/20252026/endorsed-workforce-management-strategy-2025-2029-20251103.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Workforce Management Strategy 2025-2029<span class="file-info">(PDF,&nbsp;15MB)</span></a></li>
+    <li><a title="Long-Term-Financial-Plan-2026-2036" href="/files/assets/public/v/1/council/ipr/20262027/long-term-financial-plan-2026-2036.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Long-Term-Financial-Plan-2026-2036<span class="file-info">(PDF,&nbsp;2MB)</span></a>
+    </li>
+    <li><a title="Asset Management Strategy 2025-2029, inc policy" href="/files/assets/public/v/1/council/ipr/20252026/adopted-am-strategy-policy-20250619.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Asset Management Strategy 2025-2029, inc policy<span class="file-info">(PDF,&nbsp;12MB)</span></a></li>
+    <li><a title="Asset Management Plan - Open Space and Recreation - 2025-2029" href="/files/assets/public/v/1/council/ipr/20252026/adopted-amp-open-space-and-recreation-20250619.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Asset Management Plan - Open Space and Recreation - 2025-2029<span class="file-info">(PDF,&nbsp;8MB)</span></a>
+    </li>
+    <li><a title="Asset Management Plan - Property - 2025-2029" href="/files/assets/public/v/1/council/ipr/20252026/adopted-amp-property-20250619.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Asset Management Plan - Property - 2025-2029<span class="file-info">(PDF,&nbsp;7MB)</span></a></li>
+    <li><a title="Asset Management Plan - Transport - 2025-2029" href="/files/assets/public/v/1/council/ipr/20252026/adopted-amp-transport-20250619.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Asset Management Plan - Transport - 2025-2029<span class="file-info">(PDF,&nbsp;5MB)</span></a></li>
+    <li><a title="Asset Management Plan - Wastewater - 2025-2029" href="/files/assets/public/v/1/council/ipr/20252026/adopted-amp-wastewater-20250619.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Asset Management Plan - Wastewater - 2025-2029<span class="file-info">(PDF,&nbsp;8MB)</span></a></li>
+    <li><a title="Asset Management Plan - Water - 2025-2029" href="/files/assets/public/v/1/council/ipr/20252026/adopted-amp-water-20250619.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Asset Management Plan - Water - 2025-2029<span class="file-info">(PDF,&nbsp;11MB)</span></a>&nbsp;</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>
+</div>
+<div class="oc-wysiwyg-container-panel">
+<h2>Annual and Financial Council Reports</h2>
+<div class="oc-wysiwyg-container-panel-content">
+<p>In 2009, the NSW Government introduced a&nbsp;new framework guiding local government in a&nbsp;new approach to planning for and reporting on&nbsp;their activities.&nbsp;This new framework is known&nbsp;as&nbsp;<em><a href="https://snowymonaro.prelive.opencities.com/Council/Integrated-Planning-and-Reporting" re_target="" target="blank" re_onclick="">Integrated Planning &amp; Reporting (IPR</a></em><a href="https://snowymonaro.prelive.opencities.com/Council/Integrated-Planning-and-Reporting" re_target="" target="blank" re_onclick=""><em>)</em></a>&nbsp;and&nbsp;all councils were required to adopt the new&nbsp;framework by 30 June 2012. The IPR framework&nbsp;is a holistic approach to identify and link the&nbsp;aspirations of the community with long term&nbsp;planning to ensure the sustainability or our actions,&nbsp;both for current and future generations.</p>
+<div outer="">
+<div col="" col24="" first="" data-widgetcontainerid="ef6c1bfa-6f33-4845-896a-79482ec6460e">
+<div nest="" first="" last="">
+<div col="" col24="" first="" last="" data-widgetcontainerid="db58a094-9a31-46d2-87f8-4d8cdcf6e052">
+<div editor="" pagestyles="" id="divEditor8f6201d7-4a84-4fb8-9d78-962fa6edbca2" data-elementqueryclasses="{&quot;wide-narrow&quot;:&quot;min-width:25em&quot;}"><strong>Annual Reports</strong><br>
+<a title="2025-Annual-Report-Endorsed-20251114.pdf" href="/files/assets/public/v/2/council/ipr/annual-reports/2025-annual-report-v3.1-20251127-endorsed-with-statements-final.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2024/25 Annual Report<span class="file-info">(PDF,&nbsp;57MB)</span></a>
+<p>&nbsp;</p>
+<strong style="font-size: 1em;">2024/25 Snowy Monaro Financial Statements</strong></div>
+</div>
+</div>
+</div>
+</div>
+<div outer="">
+<div col="" col24="" first="" data-widgetcontainerid="ee53ce3b-804b-4339-9722-e9a5d208e83d">
+<div nest="" first="" last="">
+<p col="" col24="" first="" last="" data-widgetcontainerid="68d2ccf6-819f-47df-ab45-e7c678566dff"><span style="font-size: 1em; font-family: inherit; color: inherit;"><a title="2024/25 SMRC Audited General Purpose Financial Statements 2024/25" href="/files/assets/public/v/2/council/ipr/annual-reports/smrc-annual_financial_statements-gpfs-2025-final-audited.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2024/25 Audited Annual Financial Statements<span class="file-info">(PDF,&nbsp;3MB)</span></a></span></p>
+<p col="" col24="" first="" last="" data-widgetcontainerid="68d2ccf6-819f-47df-ab45-e7c678566dff"><span style="font-size: 1em; font-family: inherit; color: inherit;">2024/25 Audited Financial Statements - Special Purpose</span></p>
+<p><span style="color: inherit; font-size: 1em; font-family: inherit;"><a title="2024/25 Audited Annual Financial Statements - Special Schedule" href="/files/assets/public/v/1/council/ipr/annual-reports/smrc-annual_financial_statements-ss-2025-final-audited.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2024/25 Audited Annual Financial Statements - Special Schedule<span class="file-info">(PDF,&nbsp;1MB)</span></a></span></p>
+<p col="" col24="" first="" last="" data-widgetcontainerid="68d2ccf6-819f-47df-ab45-e7c678566dff">&nbsp;</p>
+</div>
+</div>
+</div>
+<p>&nbsp;</p>
+</div>
+</div>
+<div class="oc-wysiwyg-container-panel">
+<h2>Financial Sustainability Report 2022</h2>
+<div class="oc-wysiwyg-container-panel-content">
+<p>The independent Financial Sustainability independent review was undertaken by&nbsp;<font style="font-size: 1em;" face="inherit" color="inherit">AEC &nbsp;in 2022 &ndash; maps a&nbsp;</font><font style="font-size: 1em;" face="inherit" color="inherit">pathway for Council to reach financial sustainability, through&nbsp;</font><font style="font-size: 1em;" face="inherit" color="inherit">a series of recommendations.</font></p>
+<ul>
+    <li><a title="2022_AEC_Report_Snowy_Monaro_Financial_Sustainability_Review_FINAL.pdf" href="/files/assets/public/v/2/council/ipr/2022_aec_report_snowy_monaro_financial_sustainability_review_final.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2022 AEC Report Snowy Monaro Financial Sustainability Review<span class="file-info">(PDF,&nbsp;3MB)</span></a></li>
+</ul>
+</div>
+</div>
+<div class="oc-wysiwyg-container-panel">
+<h2>Our Previous Integrated Planning and Reporting Documents</h2>
+<div class="oc-wysiwyg-container-panel-content">
+<h4><em>2025/26</em></h4>
+<ul>
+    <li><a title="2025-26 Operational Plan" href="/files/assets/public/v/7/council/ipr/20252026/adopted-op-2025-2026-v1.5-20251111.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2025-2026 Operational Plan<span class="file-info">(PDF,&nbsp;21MB)</span></a></li>
+    <li><a title="2025-29 Delivery Program" href="/files/assets/public/v/8/council/ipr/20252026/adopted-dp-2025-2029-v1.6-20251111.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2025-2029 Delivery Program<span class="file-info">(PDF,&nbsp;27MB)</span></a></li>
+    <li><a title="Snowy Monaro Regional Council (SMRC) Revenue Policy for financial year 2025/2026, as adopted by Council" href="/files/assets/public/v/2/council/ipr/20252026/adopted-revenue-policy-2025-2026-05-06-2025-v6.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2025-2026 Revenue Policy<span class="file-info">(PDF,&nbsp;3MB)</span></a></li>
+    <li><a title="Adopted-Fees-and-Charges-2025-2026.pdf" href="/files/assets/public/v/2/adopted-fees-and-charges-2025-2026.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2025-2026 Schedule of Fees and Charges<span class="file-info">(PDF,&nbsp;6MB)</span></a></li>
+    <li><a title="Adopted-Long-Term-Financial-Plan-2025-2035.pdf" href="/files/assets/public/v/2/council/ipr/20252026/adopted-long-term-financial-plan-2025-2035.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2025-2035 Long Term Financial Plan<span class="file-info">(PDF,&nbsp;3MB)</span></a></li>
+    <li><a title="2024-2025 Annual Report" href="/files/assets/public/v/2/council/ipr/annual-reports/2025-annual-report-v3.1-20251127-endorsed-with-statements-final.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2024-2025 Annual Report<span class="file-info">(PDF,&nbsp;57MB)</span></a></li>
+    <li><a title="2025-2029 Resourcing Strategy " href="/files/assets/public/v/3/council/ipr/20252026/endorsed-resourcing-strategy-2025-2029-v1-20251110.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2025-2029 Resourcing-Strategy<span class="file-info">(PDF,&nbsp;67MB)</span></a></li>
+</ul>
+<h4><em>&nbsp;</em></h4>
+<h4><em>2024/25</em></h4>
+<ul>
+    <li><a title="Operational-Plan-2024-2025.pdf" href="/files/assets/public/v/2/council/ipr/20242025/operational-plan-2024-2025.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2024-2025 Operational Plan<span class="file-info">(PDF,&nbsp;31MB)</span></a></li>
+    <li><a title="Delivery-Program-2022-26.pdf" href="/files/assets/public/v/4/council/ipr/20242025/delivery-program-2022-26.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2022-2026 Delivery Program, revised 2024<span class="file-info">(PDF,&nbsp;38MB)</span></a></li>
+    <li><a title="Adopted-Revenue-Policy-2024-2025.pdf" href="/files/assets/public/v/2/council/ipr/20242025/adopted-revenue-policy-2024-2025.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2024-2025 Statement of Revenue Policy<span class="file-info">(PDF,&nbsp;5MB)</span></a></li>
+    <li><a title="Adopted-Schedule-of-Fees-and-Charges-2024-2025.pdf" href="/e2cd9ec9-b064-4952-a09e-3b7dfcfe641e" target="_self">2024-2025 Schedule of Fees and Charges</a></li>
+    <li><a title="Adopted-Long-Term-Financial-Plan-2024-2034.pdf" href="/files/assets/public/v/3/council/ipr/20242025/adopted-long-term-financial-plan-2024-2034.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2024-2034 Long-Term Financial Plan<span class="file-info">(PDF,&nbsp;4MB)</span></a></li>
+    <li><a title="Snowy Monaro Regional Council 2024 Annual Report and State of Region Report 2021-2024" href="/files/assets/public/v/3/council/ipr/annual-reports/2024-annual-report-and-state-of-region-report-2021-2024-endorsed-v1.2.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2023-2024 Annual Report<span class="file-info">(PDF,&nbsp;87MB)</span></a></li>
+</ul>
+<p>&nbsp;</p>
+<h4><em>2023/24</em></h4>
+<ul>
+    <li><a title="2023-2024 Operational Plan" href="/files/assets/public/v/6/council/ipr/previous-versions/20232024/operational-plan-23-24-v1.3-adopted-updated-20230429.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2023-2024 Operational Plan<span class="file-info">(PDF,&nbsp;28MB)</span></a></li>
+    <li><a title="Delivery-Program-2022-26-2023-V2.2-Adopted-Updated-20230720.pdf" href="/files/assets/public/v/6/council/ipr/previous-versions/20232024/delivery-program-2022-26-2023-v2.3-adopted-amendments-updated-20240429.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2022-2026 Delivery Program, revised 2023<span class="file-info">(PDF,&nbsp;35MB)</span></a></li>
+    <li><a title="2023-2024 Statement of Revenue Policy" href="/files/assets/public/v/4/council/ipr/previous-versions/20232024/revenue-policy-2024-v1.1-adopted-with-links.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2023-2024 Statement of Revenue Policy<span class="file-info">(PDF,&nbsp;4MB)</span></a></li>
+    <li><a title="Fees-and-Charges-2023-2024-Adopted.pdf" href="/files/assets/public/v/5/fees-and-charges-2023-2024-adopeted-v1.3-20240215.pdf" target="_self" class="document ext-"><i aria-hidden="true"></i>2023-2024 Schedule of Fees and Charges<span class="file-info">(,&nbsp;0B)</span></a></li>
+    <li><a title="Long-Term-Financial-Plan-Revised-2023-2033-V1.4-Adopted-with-links.pdf" href="/files/assets/public/v/4/council/ipr/previous-versions/20232024/long-term-financial-plan-revised-2023-2033-v1.4-adopted-with-links.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2023-2033 Long-Term Financial Plan<span class="file-info">(PDF,&nbsp;5MB)</span></a></li>
+    <li><a title="2023 Annual Report" href="/files/assets/public/v/3/council/ipr/annual-reports/snowy-monaro-annual-report-2022-2023-endorsed.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2022-2023 Annual Report<span class="file-info">(PDF,&nbsp;84MB)</span></a></li>
+    <li><a title="2023-2024 Annual Audited General Purpose Financial Statements" href="/files/assets/public/v/1/council/ipr/previous-versions/20232024/smrc-annual_financial_statements-gpfs-2024.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2023-2024 Annual Audited General Purpose Financial Statements<span class="file-info">(PDF,&nbsp;3MB)</span></a></li>
+    <li><a title="2023-2024 Annual Audited Special Purpose Financial Statements" href="/files/assets/public/v/1/council/ipr/previous-versions/20232024/smrc-annual_financial_statements-spfs-2024.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2023-2024 Annual Audited Special Purpose Financial Statements<span class="file-info">(PDF,&nbsp;650KB)</span></a></li>
+    <li><a title="2023-2024 Annual Audited Financial Statements Special Schedule" href="/files/assets/public/v/1/council/ipr/previous-versions/20232024/smrc-annual_financial_statements-ss-2024.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2023-2024 Annual Audited Financial Statements Special Schedule<span class="file-info">(PDF,&nbsp;1MB)</span></a></li>
+</ul>
+<p><em style="color: inherit; font-family: inherit; font-size: 1.5em; font-weight: bold;">&nbsp;</em></p>
+<p><em style="color: inherit; font-family: inherit; font-size: 1.5em; font-weight: bold;">2022/23</em></p>
+<ul>
+    <li><em><em><em><strong>&nbsp;</strong><a title="Delivery-Program-2022-26-Adopted-updated-20230423-V1.9.pdf" href="/files/assets/public/v/6/council/ipr/delivery-program-2022-26-adopted-updated-20230423-v1.9.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Delivery Program - 2022-2026<span class="file-info">(PDF,&nbsp;24MB)</span></a></em></em></em></li>
+    <li><em><em><em><a title="Delivery Program 2022-26 - Adopted " href="/files/assets/public/v/9/council/ipr/operational-plan-22-23-adopted-updated-20230428-v1.9.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Operational Plan 2022-2023<span class="file-info">(PDF,&nbsp;16MB)</span></a></em></em></em></li>
+    <li><em><em><em><a title="Revenue-Policy-2022-2032-Adopted.pdf" href="/files/assets/public/v/3/council/ipr/revenue-policy-2022-2032-adopted.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Revenue Policy 2022-2023<span class="file-info">(PDF,&nbsp;622KB)</span></a></em></em></em></li>
+    <li><em><em><em><a title="Fees and Charges 2022-2023" href="/dc98b006-4260-45e3-9fee-5f4883303509" target="_self">Fees and Charges 2022-2023</a></em></em></em></li>
+    <li><em><em><em><a title="Long Term Financial Plan 2022-2032" href="/files/assets/public/v/3/council/ipr/30-january-2023-long-term-financial-plan-2022-2032.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Long-Term Financial Plan 2022-2032<span class="file-info">(PDF,&nbsp;2MB)</span></a></em></em></em></li>
+    <li><em><em><em><a title="Annual Report 2021-2022 Adopted - Reduced.pdf" href="/files/assets/public/v/2/council/ipr/annual-reports/annual-report-2021-2022-adopted-reduced.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Snowy Monaro Regional Council Annual Report&nbsp;2021/22<span class="file-info">(PDF,&nbsp;11MB)</span></a></em></em></em></li>
+    <li><em><em><em><a title="Annual_Financial_Statements-GPFS-2023 19-12-23.pdf" href="/files/assets/public/v/2/council/ipr/annual-reports/annual_financial_statements-gpfs-2023-19-12-23.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Financial Statements - General Purpose 2022-2023<span class="file-info">(PDF,&nbsp;3MB)</span></a></em></em></em></li>
+    <li><em><em><em><a title="Annual_Financial_Statements-SPFS-2023 19-12-23.pdf" href="/files/assets/public/v/2/council/ipr/annual-reports/annual_financial_statements-spfs-2023-19-12-23.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Financial Statements - Special Purpose 2022-2023<span class="file-info">(PDF,&nbsp;415KB)</span></a></em></em></em></li>
+    <li><em><em><em><a title="Annual_Financial_Statements-SS-2023.pdf" href="/files/assets/public/v/2/council/ipr/annual-reports/annual_financial_statements-ss-2023.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Financial Statements - Special Schedule 2022-2023<span class="file-info">(PDF,&nbsp;1MB)</span></a></em></em></em></li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Community Strategic Plan</strong></p>
+<p><a title="Snowy-Monaro-Community-Strategic-Plan-2042_-Aopted-2023-revision.pdf" href="/files/assets/public/v/4/council/ipr/snowy-monaro-community-strategic-plan-2042_-aopted-2023-revision.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Snowy Monaro 2042 Community Strategic Plan<span class="file-info">(PDF,&nbsp;19MB)</span></a></p>
+<p><em><em><em><strong>Asset Management Plans</strong></em></em></em></p>
+<ul>
+    <li><a title="AMP-Open-Space-2022-2032-Adopted.pdf" href="/files/assets/public/v/2/council/ipr/amp-open-space-2022-2032-adopted.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Asset Management Plan Open Spaces 2022-23<span class="file-info">(PDF,&nbsp;5MB)</span></a></li>
+    <li><a title="AMP-Property-2022-2032-Adopted.pdf" href="/files/assets/public/v/2/council/ipr/amp-property-2022-2032-adopted.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Asset Management Plan Property 2022-23<span class="file-info">(PDF,&nbsp;4MB)</span></a></li>
+    <li><a title="AMP-Transport-2022-2032-Adopted.pdf" href="/files/assets/public/v/2/council/ipr/amp-transport-2022-2032-adopted.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Asset Management Plan Transport 2022-23<span class="file-info">(PDF,&nbsp;4MB)</span></a></li>
+    <li><a title="AMP-Wastewater-2022-2032-Adopted.pdf" href="/files/assets/public/v/2/council/ipr/amp-wastewater-2022-2032-adopted.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Asset Management Plan Wastewater 2022-23<span class="file-info">(PDF,&nbsp;4MB)</span></a></li>
+    <li><a title="AMP-Water-2022-2032-Adopted.pdf" href="/files/assets/public/v/2/council/ipr/amp-water-2022-2032-adopted.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Asset Management Plan Water 2022-23<span class="file-info">(PDF,&nbsp;5MB)</span></a></li>
+</ul>
+<h4><em>2021/22</em></h4>
+<ul>
+    <li>
+    <div outer="">
+    <div col="" col24="" first="" data-widgetcontainerid="ef6c1bfa-6f33-4845-896a-79482ec6460e">
+    <div nest="" first="" last="">
+    <div col="" col24="" first="" last="" data-widgetcontainerid="db58a094-9a31-46d2-87f8-4d8cdcf6e052"><em style="color: inherit; font-family: inherit; font-size: 1em;"><a title="ADOPTED VERSION SMRC 21-22 Operational Plan - Mel V7 7-6.pdf" href="/files/assets/public/v/2/council/ipr/previous-versions/202122/adopted-version-smrc-21-22-operational-plan-mel-v7-7-6.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2021 Operational-Plan<span class="file-info">(PDF,&nbsp;3MB)</span></a></em></div>
+    </div>
+    </div>
+    </div>
+    </li>
+    <li><em><a href="https://" title="2021 Fees-And-Charges">2021&nbsp;</a><a title="2021 Fees-And-Charges" href="https://">Fees-And-Charges</a></em></li>
+    <li><a title="2021-2022 Revenue Policy.pdf" href="/files/assets/public/v/2/council/ipr/previous-versions/202122/2021-2022-revenue-policy.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2021-Revenue-Policy<span class="file-info">(PDF,&nbsp;1MB)</span></a></li>
+    <li><em><a href="/SCControls/OcInsertContainer.aspx?dataDefinitionId=c1c19fea-3126-4253-913e-2497803f5974&amp;contentVersionId=5a89ab5c-ffb2-4fb1-95cc-812df5702916&amp;contentId=ebaec22a-e360-42fd-8295-b96d46e2e76d&amp;languageCode=en-AU&amp;editable=undefined&amp;uniqueId=cf3376c8-fd84-4311-b98f-24646edb79e5&amp;inworkflow=null" title="2017-2021 End-of-Term-Report">2017-2021&nbsp;</a><a title="2017-2021 End-of-Term-Report" href="/SCControls/OcInsertContainer.aspx?dataDefinitionId=c1c19fea-3126-4253-913e-2497803f5974&amp;contentVersionId=5a89ab5c-ffb2-4fb1-95cc-812df5702916&amp;contentId=ebaec22a-e360-42fd-8295-b96d46e2e76d&amp;languageCode=en-AU&amp;editable=undefined&amp;uniqueId=cf3376c8-fd84-4311-b98f-24646edb79e5&amp;inworkflow=null">End-of-Term-Report</a></em></li>
+    <li><em style="color: inherit; font-family: inherit; font-size: 1em;"><em><a title="Annual Financial Statements - 2022.pdf" href="/files/assets/public/v/2/council/ipr/annual-financial-statements-2022.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2021-22 General Purpose Financial Statement Special Purpose Financial Statement Special Schedules<span class="file-info">(PDF,&nbsp;4MB)</span></a></em></em></li>
+</ul>
+<p><em style="color: inherit; font-family: inherit; font-size: 1.5em; font-weight: bold;">&nbsp;</em></p>
+<p><em style="color: inherit; font-family: inherit; font-size: 1.5em; font-weight: bold;">2020/21</em></p>
+<ul>
+    <li><em style="font-size: 1em;"><a title="Final Adopted 2020 Operational Plan.pdf" href="/files/assets/public/v/2/council/ipr/previous-versions/202021/final-adopted-2020-operational-plan.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2020-Operational-Plan<span class="file-info">(PDF,&nbsp;19MB)</span></a></em></li>
+    <li><a title="Final Adopted 2020 Schedule of Fees and Charges 2019 07 16.pdf" href="/c3ec878d-8c15-4f23-baae-41672fb6a2b1" target="_self">2020-Schedule-of-Fees-and-Charges</a></li>
+    <li><a title="2021 Statement of Revenue Policy.pdf" href="/files/assets/public/v/2/council/ipr/previous-versions/202021/2021-statement-of-revenue-policy.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2020-21-Statement-of-Revenue-Policy.pdf<span class="file-info">(PDF,&nbsp;3MB)</span></a></li>
+    <li><a title="21 126556 ADOPTED Snowy Monaro Annual Report 2020-2021 PDF.pdf" href="/files/assets/public/v/2/council/ipr/previous-versions/202021/21-126556-adopted-snowy-monaro-annual-report-2020-2021-pdf.pdf" target="_self" style="font-size: 1em;" class="document ext-pdf"><i aria-hidden="true"></i>2020 Snowy-Monaro-Annual-Report<span class="file-info">(PDF,&nbsp;31MB)</span></a></li>
+    <li>
+    <p><a title="Combined Financial Statements 2020-2021.pdf" href="/files/assets/public/v/1/council/annual-amp-financial-reports/combined-financial-statements-2020-2021.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>General Purpose Financial Statements Special Purpose Financial Statements Special Schedules 2021<span class="file-info">(PDF,&nbsp;2MB)</span></a></p>
+    </li>
+</ul>
+<h4><em>2019/20</em></h4>
+<ul>
+    <li><em><em><a title="Adopted Snowy Monaro 2040 Community Strategic Plan" href="/files/assets/public/v/2/council/ipr/previous-versions/201920/adopted-snowy-monaro-2040-community-strategic-plan.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Snowy-Monaro-2040-Community-Strategic-Plan<span class="file-info">(PDF,&nbsp;11MB)</span></a></em></em></li>
+    <li><em><em><a title="Adopted Delivery Program 2018-21 incorporating Operational Plan 2019" href="/files/assets/public/v/2/council/ipr/previous-versions/201920/adopted-delivery-program-2018-21-incorporating-operational-plan-2019.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2018-21-Delivery Program incorporating-Operational-Plan<span class="file-info">(PDF,&nbsp;23MB)</span></a></em></em></li>
+    <li><em><em>2018-28&nbsp;<a title="Adopted Resourcing Strategy 2018-28" href="/files/assets/public/v/2/council/ipr/previous-versions/201920/adopted-resourcing-strategy-2018-28.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Resourcing-Strategy<span class="file-info">(PDF,&nbsp;10MB)</span></a></em></em></li>
+    <li><em><em>2019&nbsp;<a title="Adopted Schedule of Fees and Charges 2019" href="/cf8464b6-24f2-4de3-bcfc-bae831697017" target="_self">Schedule-of-Fees-and-Charges</a></em></em></li>
+    <li>2019<a title="SMRC Annual Report 2019-2020.PDF" href="/files/assets/public/v/2/council/ipr/annual-reports/smrc-annual-report-2019-2020.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>-Annual-Report-<span class="file-info">(PDF,&nbsp;34MB)</span></a></li>
+    <li><a title="Annual_Financial_Statements-2020" href="/files/assets/public/v/2/council/ipr/annual-reports/annual_financial_statements-2020.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>General Purpose Financial Statements Special Purpose Financial Statements Special Schedules 2020<span class="file-info">(PDF,&nbsp;7MB)</span></a></li>
+</ul>
+<p><em><em><strong>&nbsp;</strong></em></em></p>
+<p><em><em><strong>Community Strategic Plan</strong></em></em></p>
+<p><em><em><a title="Snowy-Monaro-Community-Strategic-Plan-2042_-Aopted-2023-revision.pdf" href="/files/assets/public/v/4/council/ipr/snowy-monaro-community-strategic-plan-2042_-aopted-2023-revision.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Snowy Monaro 2042 Community Strategic Plan - Adopted 2023<span class="file-info">(PDF,&nbsp;19MB)</span></a></em></em></p>
+<p><em><em><strong>Asset Management Plans</strong></em></em></p>
+<ul>
+    <li><em><em><a title="2017 - Asset Management Plan - Buildings" href="/files/assets/public/v/2/council/ipr/previous-versions/201920/2017-asset-management-plan-buildings.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2017-Asset-Management-Plan-Buildings.pdf<span class="file-info">(PDF,&nbsp;5MB)</span></a></em></em></li>
+    <li><em><em><a title="2017 - Asset Management Plan - Plant" href="/files/assets/public/v/2/council/ipr/previous-versions/201920/2017-asset-management-plan-plant.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2017-Asset-Management-Plan-Plant.pdf<span class="file-info">(PDF,&nbsp;3MB)</span></a></em></em></li>
+    <li><em><em><a title="2017 - Asset Management Plan - Recreation" href="/files/assets/public/v/2/council/ipr/previous-versions/201920/2017-asset-management-plan-recreation.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2017-Asset-Management-Plan-Recreation.pdf<span class="file-info">(PDF,&nbsp;3MB)</span></a></em></em></li>
+    <li><em><em><a title="2017 - Asset Management Plan - Sewer" href="/files/assets/public/v/2/council/ipr/previous-versions/201920/2017-asset-management-plan-sewer.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2017-Asset-Management-Plan-Sewer.pdf<span class="file-info">(PDF,&nbsp;7MB)</span></a></em></em></li>
+    <li><em><em><a title="2017 - Asset Management Plan - Transport" href="/files/assets/public/v/2/council/ipr/previous-versions/201920/2017-asset-management-plan-transport.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2017-Asset-Management-Plan-Transport.pdf<span class="file-info">(PDF,&nbsp;3MB)</span></a></em></em></li>
+    <li><em><em><a title="2017 - Asset Management Plan - Water" href="/files/assets/public/v/2/council/ipr/previous-versions/201920/2017-asset-management-plan-water.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2017-Asset-Management-Plan-Water.pdf<span class="file-info">(PDF,&nbsp;2MB)</span></a></em></em></li>
+</ul>
+<p>&nbsp;</p>
+<p><em style="color: inherit; font-family: inherit; font-size: 1.5em; font-weight: bold;">2018/19</em></p>
+<p><em><strong>Annual Reports 2018/19</strong></em></p>
+<ul>
+    <li><em><a title="FINAL-Snowy-Monaro-Annual-Report-2018-19_201912040855593366.pdf" href="/files/assets/public/v/1/council/annual-amp-financial-reports/archived-reports/final-snowy-monaro-annual-report-2018-19_201912040855593366.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Snowy Monaro Regional Council Annual Report 2018 - 2019<span class="file-info">(PDF,&nbsp;93MB)</span></a></em></li>
+</ul>
+<p><em><strong>&nbsp;</strong></em>&nbsp;<a title="Final-Annual_Financial_Statements-2019.pdf" href="/files/assets/public/v/1/council/annual-amp-financial-reports/archived-reports/final-annual_financial_statements-2019.pdf" target="_self" style="font-size: 1em;" class="document ext-pdf"><i aria-hidden="true"></i>General Purpose Financial Statement Special Purpose Financial Statement Special Schedules<span class="file-info">(PDF,&nbsp;5MB)</span></a></p>
+<h4><em>2017/18</em></h4>
+<ul>
+    <li><em><a title="2018 Annual Report Adopted for Print_201901150929464851.pdf" href="/files/assets/public/v/1/council/annual-amp-financial-reports/archived-reports/2018-annual-report-adopted-for-print_201901150929464851.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Snowy Monaro Regional Council Annual Report 2017-2018<span class="file-info">(PDF,&nbsp;37MB)</span></a></em></li>
+</ul>
+<p>&nbsp;&nbsp;<a title="Snowy-Monaro-Regional-Council-Financial-Statements-2017-18.pdf" href="/files/assets/public/v/1/council/annual-amp-financial-reports/archived-reports/snowy-monaro-regional-council-financial-statements-2017-18.pdf" target="_self" style="font-size: 1em;" class="document ext-pdf"><i aria-hidden="true"></i>General Purpose Financial Statement Special Purpose Financial Statement Special Schedules<span class="file-info">(PDF,&nbsp;5MB)</span></a></p>
+<h4><em>2016/17</em></h4>
+<ul>
+    <li><a title="ECM_3042654_v3_2016-17-Snowy-Monaro-Regional-Council-Annual-Repo.pdf" href="/files/assets/public/v/1/council/annual-amp-financial-reports/archived-reports/ecm_3042654_v3_2016-17-snowy-monaro-regional-council-annual-repo.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Snowy Monaro Regional Council Annual Report 2016-2017<span class="file-info">(PDF,&nbsp;17MB)</span></a><em><br>
+    </em></li>
+    <li><a title="Snowy-Monaro-Regional-Council-Financial-Statements-2016-17_201711281007165165.pdf" href="/files/assets/public/v/1/council/annual-amp-financial-reports/archived-reports/snowy-monaro-regional-council-financial-statements-2016-17_201711281007165165.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>General Purpose Financial Statement Special Purpose Financial Statement Special Schedules<span class="file-info">(PDF,&nbsp;4MB)</span></a></li>
+</ul>
+<h4><em>2015/16</em></h4>
+<p><em><strong>Former Bombala Financial Statements - 2015/16</strong></em></p>
+<ul>
+    <li><em><a title="The-former-Bombala-Council-Financial-Statements-2015-16.pdf" href="/files/assets/public/v/1/council/annual-amp-financial-reports/archived-reports/the-former-bombala-council-financial-statements-2015-16.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>General Purpose Financial Statement Special Purpose Financial Statement Special Schedules<span class="file-info">(PDF,&nbsp;4MB)</span></a></em></li>
+</ul>
+<p><em><strong>Former Cooma Monaro Financial Statements - 2015/16&nbsp;</strong></em></p>
+<ul>
+    <li><a title="The-former-Cooma-Monaro-Shire-Council-Audited-Financial-Statements-2015-16.pdf" href="/files/assets/public/v/1/council/annual-amp-financial-reports/archived-reports/the-former-cooma-monaro-shire-council-audited-financial-statements-2015-16.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>General Purpose Financial Statement Special Purpose Financial Statement Special Schedules<span class="file-info">(PDF,&nbsp;2MB)</span></a></li>
+</ul>
+<p><em><strong>Former Snowy River Financial Statements - 2015/16</strong></em></p>
+<ul>
+    <li><a title="Former-Snowy-River-Shire-Council-General-Purpose-Financial-Statement.pdf" href="/files/assets/public/v/1/council/annual-amp-financial-reports/archived-reports/former-snowy-river-shire-council-general-purpose-financial-statement.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>General Purpose Financial Statement<span class="file-info">(PDF,&nbsp;3MB)</span></a></li>
+    <li><a title="Former-Snowy-River-Shire-Council-Special-Purpose-Financial-Statement.pdf" href="/files/assets/public/v/1/council/annual-amp-financial-reports/archived-reports/former-snowy-river-shire-council-special-purpose-financial-statement.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Special Purpose Financial Statement<span class="file-info">(PDF,&nbsp;1MB)</span></a></li>
+    <li><a title="Former-Snowy-River-Shire-Council-Special-Schedule-Financial-Statement.pdf" href="/files/assets/public/v/1/council/annual-amp-financial-reports/archived-reports/former-snowy-river-shire-council-special-schedule-financial-statement.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Special Schedules<span class="file-info">(PDF,&nbsp;335KB)</span></a></li>
+</ul>
+<p><em><strong>Snowy River Hostel</strong></em></p>
+<ul>
+    <li><a title="Snowy-River-Hostel-2016-Financial-Statements.pdf" href="/files/assets/public/v/1/council/annual-amp-financial-reports/archived-reports/snowy-river-hostel-2016-financial-statements.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2016 General Purpose Financial Statements<span class="file-info">(PDF,&nbsp;3MB)</span></a></li>
+</ul>
+<p>&nbsp;</p>
+</div>
+</div>
+<div class="oc-wysiwyg-container-panel">
+<h2>Community Satisfaction Survey</h2>
+<div class="oc-wysiwyg-container-panel-content">
+<h3><strong>Community satisfaction survey 2025 results</strong></h3>
+<p>We commission the Taverner Research Group to undertake a community satisfaction survey every year to better understand how we are perceived by our community, understand key issues, community needs and priorities regarding the services and facilities provided by Council.</p>
+<p>&nbsp;</p>
+<p><strong>Overall satisfaction score</strong></p>
+<p>Average satisfaction has improved modestly in 2025 to 2.35 out of 5 compared to 2024&rsquo;s average of 2.33.</p>
+<p><strong>Demerger business case</strong></p>
+<p>Residents and ratepayers were this year asked whether they supported the development of a business case to investigate a Council demerger to return to the three separate councils in place prior to the 2016 amalgamation. 59% of respondents supported the development of a demerge business case.</p>
+<p>A report concerning the demerger business case will be tabled at the February Ordinary Council Meeting on Thursday 19 February 2026.</p>
+<p><strong>Important services and facilities</strong></p>
+<p>The survey asks community members to rate the importance of each Council service area and provide a satisfaction score out of five for Council services and facilities.</p>
+<p>Services scoring high satisfaction and importance ratings included Council&rsquo;s sporting facilities, water supplies, waste and recycling services, bridges and related infrastructure, and online services.</p>
+<p>Services rated as highly important, but with low satisfaction scores, included community services, pools, environmental monitoring and protection, footpaths and cycleways, councillor leadership, balancing development and community values, and development applications.</p>
+<p>Average satisfaction with sealed roads rose from 2.43 in 2024 to a score of 2.60 in 2025.</p>
+<p><strong>Customer service</strong></p>
+<div>
+<p>The average customer service satisfaction score has risen to its highest-ever level in 2025, reaching 3.03 out of 5 for the first time in the history of the survey. The number of responses rating enquiry handling as &lsquo;very poor&rsquo; has also dropped to its lowest level, down to 29% of respondents, in 2025.</p>
+</div>
+<p><strong style="color: inherit; font-family: inherit; font-size: 1.125em;">What we're doing on key issues</strong></p>
+<p>We use the annual survey results to improve our services, strategies and plans. Some initiatives include:</p>
+<ul style="margin-top: 0; margin-bottom: 1em; padding-left: 20px;">
+    <li>Our Delivery Program Development for 2025-2029</li>
+    <li>Asset Management Planning 2025-2035</li>
+    <li>Developing our Settlements Strategy<br>
+    <br>
+    </li>
+</ul>
+<h6><strong>2025 Results</strong></h6>
+<ul>
+    <li><a title="SMRC-Community-Satisfaction-Survey-2025-Report" href="/files/assets/public/v/2/council/ipr/css/2025-smrc-community-satisfaction-survey-report.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>Community Satisfaction Survey Results 2025<span class="file-info">(PDF,&nbsp;895KB)</span></a></li>
+</ul>
+<h6><strong>&nbsp;</strong></h6>
+<h6><strong>2024 Results</strong></h6>
+<ul style="margin-top: 0; margin-bottom: 1em; padding-left: 20px;">
+    <li><strong>&nbsp;</strong><span style="font-size: 1em; font-family: inherit; color: inherit;"><a href="/files/assets/public/v/3/council/ipr/20242025/community-satisfaction-survey-2024-report.pdf" class="document ext-pdf"><i aria-hidden="true"></i>Community Satisfaction Survey Results 2024<br>
+    <br>
+    <span class="file-info">(PDF,&nbsp;17MB)</span></a></span></li>
+</ul>
+<h6><strong>2023 Results</strong><span style="font-size: 1em;">&nbsp;</span></h6>
+<ul>
+    <li><strong>&nbsp;</strong><span style="font-size: 1em; font-family: inherit; color: inherit;"><a title="2023 SMRC - Community Satisfaction Survey 2023 - Final Redacted.pdf" href="/files/assets/public/v/2/council/ipr/css/2023-smrc-community-satisfaction-survey-2023-final-redacted.pdf" target="_self" style="font-size: 1em;" class="document ext-pdf"><i aria-hidden="true"></i>Community Satisfaction Survey results 2023<span class="file-info">(PDF,&nbsp;2MB)</span></a></span></li>
+</ul>
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+
+<p>&nbsp;</p>
+      
+
+
+<!--normalTemplateEnd-->
+                                
+                                
+                                
+							                </div>
+							                </div>
+							             </div>
+						            </div>
+						            </div>
+                        <div class="col-xs-12">
+					            	<div class="share-page-container share-page-link-right share-page-link-medium share-page-link-rounded share-page-link-no-labels" data-item-id="ebaec22a-e360-42fd-8295-b96d46e2e76d" id="share-page-container clearfix">
+                                        <section aria-labelledby="share-page-info-label">
+                                            <span id="share-page-info-label" class="share-page-info">Share</span><ul class="share-page-links no-translate"><li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.snowymonaro.nsw.gov.au%2fCouncil%2fIntegrated-Planning-and-Reporting" target="{ShareTarget}" class="share-page-link share-page-link-facebook" data-channel="facebook" data-channel-id="1"><i aria-hidden="true"></i><span class="share-page-link-name share-page-link-name-facebook">Facebook</span></a></li><li><a href="https://twitter.com/share?url=https%3a%2f%2fwww.snowymonaro.nsw.gov.au%2fCouncil%2fIntegrated-Planning-and-Reporting" target="_blank" class="share-page-link share-page-link-x" data-channel="x" data-channel-id="2"><i aria-hidden="true"></i><span class="share-page-link-name share-page-link-name-x">X</span></a></li><li><a href="mailto:?Body=https%3a%2f%2fwww.snowymonaro.nsw.gov.au%2fCouncil%2fIntegrated-Planning-and-Reporting" target="_self" class="share-page-link share-page-link-email" data-channel="email" data-channel-id="3"><i aria-hidden="true"></i><span class="share-page-link-name share-page-link-name-email">Email</span></a></li><li><a href="#" target="_self" class="share-page-link share-page-link-print" data-channel="print" data-channel-id="5"><i aria-hidden="true"></i><span class="share-page-link-name share-page-link-name-print">Print</span></a></li><li><a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.snowymonaro.nsw.gov.au%2fCouncil%2fIntegrated-Planning-and-Reporting" target="_blank" class="share-page-link share-page-link-linkedin" data-channel="linkedin" data-channel-id="7"><i aria-hidden="true"></i><span class="share-page-link-name share-page-link-name-linkedin">LinkedIn</span></a></li></ul>
+                                        </section>
+                                    </div></div>
+					                  </div>
+                        </div>
+                        <div class="back-to-top-container text-center">
+                            <a href="#body-top" id="back-to-top"><i aria-hidden="true"></i><span class="js-visuallyhidden">Back to top</span></a>
+                        </div>
+                </div>
+            </div><!--groupTemplateEnd-->
+            <footer>
+                
+                    <div class="footer-outer-container footer-first-row">
+                        <div class="footer-container clearfix">
+                            <div class="grid grid-pad">
+                                <div class="col-xs-12 col-s-12 col-m-6 col-lg-4 contact-us-footer-widget" >
+	
+			<h2 class="visuallyhidden">Site Footer</h2>
+			<h3 class="footer-title">Contact Us</h3>
+			
+	<p>Snowy Monaro Regional Council<br />
+81 Commissioner Street&nbsp;<br />
+Cooma, NSW 2630<br />
+<a href="https://goo.gl/maps/BMMtmm2hoeWU8E4u5" target="_blank">View on Map</a></p>
+<p><strong>T</strong>&nbsp;<a href="tel:1300345345">1300 345 345</a><br />
+<strong>E</strong> <a href="mailto:contact@opencities.com.au?subject=OpenCities%20Enquiry"></a><a href="mailto:council@snowymonaro.nsw.gov.au" target="_self">council@snowymonaro.nsw.gov.au</a></p>
+<p><strong>Berridale</strong><br />
+2 Myack Street &nbsp;<br />
+Berridale, NSW 2628&nbsp;</p>
+<p><strong style="color: inherit; font-family: inherit; font-size: 1em;">Bombala</strong><span style="font-size: 1em; font-family: inherit; color: inherit;"><br />
+71 Caveat Street&nbsp;<br />
+Bombala, NSW 2632</span></p>
+<p><strong style="color: inherit; font-family: inherit; font-size: 1em;">Jindabyne</strong> <span style="font-size: 1em; font-family: inherit; color: inherit;"><br />
+2/1 Gippsland Street&nbsp;<br />
+Jindabyne, NSW 2627&nbsp;</span></p>
+<p>&nbsp;</p>
+
+
+	
+	
+</div><div class="col-xs-12 col-s-12 col-m-6 col-lg-4" >
+	
+			<h2 class="visuallyhidden">Site Footer</h2>
+			<h3 class="footer-title">Share &amp; Connect</h3>
+			
+	
+	<ul class="footer-links with-icons social-media-links">  <li class="footer-link-facebook">
+	<a href="https://www.facebook.com/snowymonaroregionalcouncil" target="_blank"  >
+<i aria-hidden="true"></i>Like us on Facebook
+</a>
+</li>
+          <li class="footer-link-instagram">
+	<a href="https://www.instagram.com/snowymonaroregionalcouncil" target="_self"  >
+<i aria-hidden="true"></i>View our Instagram feed
+</a>
+</li>
+          <li class="footer-link-linkedin">
+	<a href="https://www.linkedin.com/company/snowy-monaro-regional-council" target="_blank"  >
+<i aria-hidden="true"></i>Follow us on LinkedIn
+</a>
+</li>
+          <li class="footer-link-twitter">
+	<a href="https://x.com/snowymonaro" target="_blank"  >
+<i aria-hidden="true"></i>Follow us on Twitter
+</a>
+</li>
+          <li class="footer-link-enewsletter-sign-up">
+	<a href="https://www.snowymonaro.nsw.gov.au/News-and-Media/eNewsletter" target="_blank"  >
+<i aria-hidden="true"></i>Sign up to our eNewsletter
+</a>
+</li>
+          <li class="footer-link-staff-outlook-portal">
+	<a href="https://outlook.office.com/mail/" target="_blank"  >
+<i aria-hidden="true"></i>Staff Outlook Portal
+</a>
+</li>
+           </ul>
+	
+</div><div class="col-xs-12 col-s-12 col-m-12 col-lg-12" >
+	
+	
+	
+	<p>Snowy Monaro Regional Council acknowledges the Traditional Custodians of the region&rsquo;s land and water: the Ngarigo, Walgalu, Southern Ngunnawal and Bidawal Peoples. We pay our respects to Elders past, present and emerging.</p>
+<p>&nbsp;</p>
+
+
+</div>
+                            </div>
+                        </div>
+                    </div>
+                
+                <div class="footer-outer-container footer-second-row">
+                    <div class="footer-container clearfix">
+                        <div class="grid grid-pad footer-secondary-links">
+                            <div class="col-xs-12 col-m-7">
+                                
+                                    
+                                
+                            </div>
+                            <div class="col-xs-12 col-m-5 powered-by">
+                                <div class="right">
+                                    &copy; 2026 Snowy Monaro Regional Council&nbsp;|&nbsp;<span class="powered-by">Powered by <a href="https://granicus.com/solution/govaccess/opencities/" target="_blank">Granicus</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="/files/oc-resources/b9015858-988c-48a4-9473-7c193df083e4/JsTextSnippets.js?ocsvclang=en-AU" type="text/javascript"></script><script></script>
+    
+    
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GK8G9XNBEM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GK8G9XNBEM');
+</script>
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+window.__TsmHiddenField = $get('ctl04_seamless_script_manager_TSM');//]]>
+</script>
+</form>
+</body>
+</html>

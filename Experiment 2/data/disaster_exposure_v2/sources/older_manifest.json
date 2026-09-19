@@ -1,0 +1,20 @@
+[
+  {
+    "file": "sources/nema_2024.csv",
+    "url": "https://data.gov.au/data/dataset/10ba7303-e3af-41b4-98b5-e04db77caea8/resource/462acfff-f2e0-4446-a0fb-f20f8a19f487/download/drfa_activation_history_by_location_2024_may_01.csv",
+    "status": 404,
+    "sha256": "e3f7e57a0da954ed3db4d3065c760ee7712c0eb92173acc3f91d53c69579e79d"
+  },
+  {
+    "file": "sources/nema_old_resource.json",
+    "url": "https://data.gov.au/data/api/3/action/resource_show?id=462acfff-f2e0-4446-a0fb-f20f8a19f487",
+    "status": 302,
+    "sha256": "ea5cc75cba802ea9655276d9f660d18030e8c7d40096ef188bbb00a0d894508f"
+  },
+  {
+    "file": "sources/nema_dataset.html",
+    "url": "https://data.gov.au/data/dataset/drfa-activation-history-by-lga",
+    "status": 200,
+    "sha256": "9300ee824b5e8e65866f154df5c0a9757529af183ab69b8d2a552d21a4a213f6"
+  }
+]

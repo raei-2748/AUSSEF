@@ -1,0 +1,25 @@
+[
+  {
+    "url": "https://data.gov.au/data/dataset/10ba7303-e3af-41b4-98b5-e04db77caea8/resource/462acfff-f2e0-4446-a0fb-f20f8a19f487/download/drfa_activation_history_by_location_2025_may_19.csv",
+    "status": 404,
+    "file": "sources/nema_old_attempt_0.csv",
+    "sha256": "0eb5b4cc73eb902ab8b4ce69a30d0f787eb848ebe3656b4670475237adf342f6"
+  },
+  {
+    "url": "https://data.gov.au/data/dataset/10ba7303-e3af-41b4-98b5-e04db77caea8/resource/462acfff-f2e0-4446-a0fb-f20f8a19f487/download/drfa_activation_history_by_location_2025_march_06.csv",
+    "status": 404,
+    "file": "sources/nema_old_attempt_1.csv",
+    "sha256": "d825c514e53fd7d3611fb9a8602a386e4691d80cf5d79d6696bcb1c3fa2103ad"
+  },
+  {
+    "url": "https://data.gov.au/data/dataset/10ba7303-e3af-41b4-98b5-e04db77caea8/resource/462acfff-f2e0-4446-a0fb-f20f8a19f487/download/drfa_activation_history_by_location_2025_february_14.csv",
+    "status": 404,
+    "file": "sources/nema_old_attempt_2.csv",
+    "sha256": "3bed71b93cb3ede0748e90cd9ca19e6241e3a3aabc60f3a6b4edb9c925b779c2"
+  },
+  {
+    "url": "https://data.gov.au/data/api/3/action/datastore_search?resource_id=462acfff-f2e0-4446-a0fb-f20f8a19f487&limit=1",
+    "status": 302,
+    "file": "sources/nema_old_datastore.json"
+  }
+]

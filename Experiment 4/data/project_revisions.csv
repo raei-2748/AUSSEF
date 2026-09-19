@@ -1,0 +1,46 @@
+revision_id,project_id,year_start,stage,revision_aud,before_revision_aud,after_revision_aud,reason,source_id,source_page
+P001,richmondvalley:candidate:P001,2021,Q3,-1600000.0,,,Flood and rain delay; 121 workdays lost; transfer to next year. Gross deferral differs from category net because filters +37822.,richmond_q3,11
+P002,richmondvalley:candidate:P002,2021,Q3,-40000.0,,,No longer required; not stated to be disaster-driven.,richmond_q3,11
+P003,richmondvalley:candidate:P003,2021,Q3,-41923.0,,,Flooding delayed works; damage/access not certified.,richmond_q3,12
+P004,richmondvalley:candidate:P004,2021,Q3,-63393.0,,,Flooding delayed works; damage/access not certified.,richmond_q3,12
+P005,richmondvalley:candidate:P005,2021,Q3,-550000.0,,,Wet weather and recovery-agency use of grounds; subset of larger program.,richmond_q3,12
+P006,richmondvalley:candidate:P006,2021,Q3,-150000.0,,,Transfer to next year; do not equate automatically to Country Lane Fixing Country Roads original $562500.,richmond_q3,13
+P007,richmondvalley:candidate:P007,2021,Q3,-70000.0,,,Project delayed; transfer next year.,richmond_q3,13
+P008,richmondvalley:candidate:P008,2021,Q3,-484008.0,,,Landslip damage and possible alternate solution; exclude from undamaged ordinary outcome.,richmond_q3,13
+P009,richmondvalley:candidate:P009,2021,Q3,-1245243.0,,,March2021 projects redamaged; close old event claims and reassess under AGRN1012. Not ordinary crowd-out.,richmond_q3,13
+P010,richmondvalley:candidate:P010,2021,Q3,-1000000.0,,,Wet weather disruption; budget transferred to next year. Original label and revision refer to same cell but phase-level mapping not certified.,richmond_q3,14
+P011,richmondvalley:candidate:P011,2021,Q3,-97336.0,,,Return to reserves for reassessment after persistent wet weather.,richmond_q3,14
+P012,richmondvalley:candidate:P012,2021,Q3,-217662.0,,,"Projects removed pending flood damage assessment; seven components, not seven independent councils.",richmond_q3,15
+P013,richmondvalley:candidate:P013,2021,Q3,-70418.0,,,Deferred due to insufficient resources; financial vs operational channel unknown.,richmond_q3,15
+P014,richmondvalley:candidate:P014,2021,Q3,6564.0,,,Completed; reserve transfer covers cost; total actual not provided.,richmond_q3,14
+P015,richmondvalley:candidate:P015,2021,Q3,17374.0,,,Completed; reserve transfer covers cost; total actual not provided.,richmond_q3,14
+P016,lismore:candidate:P016,2021,Q3,-9233700.0,,,Balance deferred to future period; source unit/year conflict applies.,lismore_oc_10052022_att_excluded_direct,165
+P017,lismore:candidate:P017,2021,Q3,-485400.0,,,"Accounting/scope transfer to operating works, not necessarily infrastructure reduction; source unit/year conflict applies.",lismore_oc_10052022_att_excluded_direct,165
+P018,lismore:candidate:P018,2021,Q3,-321000.0,,,Transferred to 2022-23 reserves due to flood; source unit/year conflict applies.,lismore_oc_10052022_att_excluded_direct,165
+P019,lismore:candidate:P019,2021,Q3,-87500.0,,,Balance deferred to future period; source unit/year conflict applies.,lismore_oc_10052022_att_excluded_direct,165
+P020,lismore:candidate:P020,2021,Q3,-2046300.0,,,Balance deferred to future period; source unit/year conflict applies.,lismore_oc_10052022_att_excluded_direct,165
+P021,lismore:candidate:P021,2021,Q3,-511000.0,,,Balance deferred to future period; source unit/year conflict applies.,lismore_oc_10052022_att_excluded_direct,165
+P022,lismore:candidate:P022,2021,Q3,-180900.0,,,Transferred to 2022-23 reserves due to flood; source unit/year conflict applies.,lismore_oc_10052022_att_excluded_direct,165
+P023,lismore:candidate:P023,2021,Q3,-473300.0,,,Transferred to 2022-23 reserves due to flood; source unit/year conflict applies.,lismore_oc_10052022_att_excluded_direct,165
+P024,lismore:candidate:P024,2021,Q3,-1464900.0,,,Transferred to 2022-23 reserves due to flood; source unit/year conflict applies.,lismore_oc_10052022_att_excluded_direct,166
+P025,lismore:candidate:P025,2021,Q3,-1047800.0,,,Transferred to 2022-23 reserves due to flood; source unit/year conflict applies.,lismore_oc_10052022_att_excluded_direct,166
+P026,lismore:candidate:P026,2021,Q3,-146600.0,,,Deferred due to floods; source unit/year conflict applies.,lismore_oc_10052022_att_excluded_direct,166
+P027,lismore:candidate:P027,2021,Q3,-4000000.0,,,Cannot complete by year end due to floods; grants not received; source unit/year conflict applies.,lismore_oc_10052022_att_excluded_direct,166
+P028,waggawagga:job:45049,2021,Q2,-358985.0,359030.0,45.0,Rescheduled; total project budget unchanged.,wagga_q2,Capital Works Timing Adjustments
+P029,waggawagga:job:45109,2021,Q2,-133766.0,133984.0,218.0,Rescheduled IT project; total project budget unchanged.,wagga_q2,Capital Works Timing Adjustments
+P030,eurobodalla:candidate:P030,2019,Q3,-800000.0,,,Revised timing; carry forward flagged,euro_cap_q3,5
+P031,eurobodalla:candidate:P031,2019,Q3,-2300000.0,,,Timing/funding change; COVID also affects airport revenue,euro_cap_q3,6
+P032,eurobodalla:candidate:P032,2019,Q3,-852520.0,,,"Revised timing/funding; category Strategic Development, no project ID",euro_cap_q3,6
+SV_Q3_snowview,snowyvalleys:candidate:snowview,2021,Q3,-950000.0,,,"Design delayed by resource constraints; dedicated project manager obtained. Source note52, no disaster causation asserted. Negative means reduced annual expenditure; minutes adoption clause conflict retained.",snowy_q3_2022,10
+SV_Q3_batlow_caravan,snowyvalleys:candidate:batlow_caravan,2021,Q3,-2700000.0,,,"Candidate name match to Itinerant Worker Accommodation; land claim, contaminated ground and industry delivery shortages; scope join unverified. Source note48/4. Negative means reduced annual expenditure; minutes adoption clause conflict retained.",snowy_q3_2022,10
+SV_Q2_fitzroy_toilets,snowyvalleys:candidate:fitzroy_toilets,2021,Q2,300000.0,,,Recognition of capital expenditure in Q2; source funding-effect sign reversed to positive spending addition; original-baseline conflict,snowy_q2_2021,PDF8;note13
+SV_Q2_khancoban_toilets,snowyvalleys:candidate:khancoban_toilets,2021,Q2,161818.0,,,Recognition of capital expenditure in Q2; source funding-effect sign reversed to positive spending addition; original-baseline conflict,snowy_q2_2021,PDF8;note16
+SV_Q1_tumut_aerodrome,snowyvalleys:candidate:tumut_aerodrome,2021,Q1,-3500000.0,,,Partial works deferred to next year due to CASA technical approval delays; candidate name match; not evidence of disaster-caused displacement,snowy_q1_2021,PDF9;note25
+BA2020_Q2_6532,ballina:reference:6532,2020,Q2,-200000.0,973000.0,773000.0,Deferral to 2021/22,ballina_minutes_jan2021,13
+BA2020_Q2_6531,ballina:reference:6531,2020,Q2,-400000.0,800000.0,400000.0,Deferral to 2021/22,ballina_minutes_jan2021,13
+BA2020_Q2_2372,ballina:reference:2372,2020,Q2,-750000.0,936000.0,186000.0,Deferral to 2021/22,ballina_minutes_jan2021,13
+BA2020_Q3_6532,ballina:reference:6532,2020,Q3,130000.0,773000.0,903000.0,Transfer from Amenities,ballina_minutes_apr2021,11
+BA2020_Q3_4586,ballina:reference:4586,2020,Q3,-100000.0,175000.0,75000.0,LRCI deferral to 2021/22,ballina_minutes_apr2021,11
+BA2020_Q3_6531,ballina:reference:6531,2020,Q3,-150000.0,400000.0,250000.0,Deferral to 2021/22,ballina_minutes_apr2021,11
+RV_P008_2022Q1,richmondvalley:candidate:P008,2022,Q1,-483772.0,,,Reported recommended capital expenditure transfer to2023/24; weather and contractor availability; adoption not verified,richmond_q1_202223,PDF13-14;printed11-12
+BA2017_Q3_2160,ballina:reference:2160,2017,Q3,-450000.0,500000.0,50000.0,Transfer to2018/19; planning consent pending per agendaPDF72,ballina_apr2018_minutes,PDF9;260418/18

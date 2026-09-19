@@ -1,0 +1,757 @@
+agrn,state,event_name,n_lga_rows,positive_rows,zero_rows,positive_proportion,pattern,category
+776,New South Wales,NSW - Tenterfield Bushfires (commencing 8 September 2017),1,0,1,0.0,no-C,C
+792,New South Wales,NSW - Singleton Bushfire (18 December 2017),1,0,1,0.0,no-C,C
+791,New South Wales,NSW - Tamworth Bushfire (25 December 2017 onwards),1,0,1,0.0,no-C,C
+789,New South Wales,"NSW - Tamworth, Uralla and Gwydir Bushfires (2 January 2018)",3,0,3,0.0,no-C,C
+795,New South Wales,NSW - Port Stephens bushfire (8 January 2018),1,0,1,0.0,no-C,C
+803,New South Wales,"NSW - Singleton, Cessnock and Muswellbrook Bushfires (13 January 2018 onwards)",3,0,3,0.0,no-C,C
+806,New South Wales,NSW - Upper Lachlan (Long Gully) Bushfire (19 January 2018 onwards),1,0,1,0.0,no-C,C
+805,New South Wales,NSW - Sutherland (Royal National Park) Bushfire (20 January 2018 onwards),1,0,1,0.0,no-C,C
+814,New South Wales,NSW - Upper Hunter Bushfires (23 January 2018 onwards),1,0,1,0.0,no-C,C
+793,Western Australia,WA - Tropical Cyclone Kelvin and Associated Flooding (17 - 19 February 2018),4,0,4,0.0,no-C,C
+818,New South Wales,NSW - Shoalhaven bushfires (11 August 2018 onwards),1,0,1,0.0,no-C,C
+823,New South Wales,"NSW - Richmond Valley, Lismore and Kyogle bushfires (12 August 2018 onwards)",3,0,3,0.0,no-C,C
+841,New South Wales,NSW - Tamworth (Rockview) Bushfire (30 October 2018 onwards),1,0,1,0.0,no-C,C
+842,New South Wales,NSW - Port Stephens and Cessnock Bushfires (22 November 2018),2,0,2,0.0,no-C,C
+855,New South Wales,NSW - Tamworth (Halls Creek Road) Bushfires(3 January 2019 onwards),1,0,1,0.0,no-C,C
+853,New South Wales,NSW - Parkes and Cabonne (Curembenya) Bushfires(5 January 2019 onwards),2,0,2,0.0,no-C,C
+856,New South Wales,NSW - Parkes and Greater Hume Storms(22-23 January 2019),2,0,2,0.0,no-C,C
+862,New South Wales,NSW - Tamworth Regional and Upper Hunter Bushfires (11 February 2019 onwards),2,0,2,0.0,no-C,C
+867,New South Wales,NSW - Singleton and Muswellbrook Bushfires (11 February 2019 onwards),2,0,2,0.0,no-C,C
+864,New South Wales,NSW - Tenterfield Bushfires (9 March 2019 onwards),1,0,1,0.0,no-C,C
+881,New South Wales,Sydney and Southern Highlands Storms (5 September 2019 onwards),6,0,6,0.0,no-C,C
+916,New South Wales,NSW - Western NSW Floods (26 February 2020 onwards),3,0,3,0.0,no-C,C
+917,New South Wales,NSW - Western NSW Storms and Floods (3-4 April 2020),5,0,5,0.0,no-C,C
+918,New South Wales,NSW - Western NSW Storms and Floods (10-12 April 2020),5,0,5,0.0,no-C,C
+935,Northern Territory,AGRN 935 - Northern Territory Bushfires (1 August - 19 September 2020),13,0,13,0.0,no-C,C
+923,New South Wales,AGRN 923 - NSW Storms and Floods (5 August 2020 onwards),16,0,16,0.0,no-C,C
+938,New South Wales,AGRN 938 - Central NSW Storms (18 August 2020 onwards),2,0,2,0.0,no-C,C
+939,Victoria,AGRN 939 - Victoria Floods and Storms (7 October 2020 onwards),5,0,5,0.0,no-C,C
+957,Queensland,AGRN 957 - Kooralbyn Bushfire (12-19 October 2020),1,0,1,0.0,no-C,C
+936,New South Wales,AGRN 936 - NSW Storms and Floods (20 October 2020 onwards),8,0,8,0.0,no-C,C
+940,South Australia,AGRN 940 - Flinders Ranges Council Storm Event (October 2020),1,0,1,0.0,no-C,C
+937,Queensland,AGRN 937 - South East Queensland Hailstorm (31 October 2020),2,0,2,0.0,no-C,C
+941,Queensland,AGRN 941 - K’gari (Fraser Island) Bushfires (15 Nov - 4 Dec 2020),1,0,1,0.0,no-C,C
+942,Victoria,AGRN 942 - Central-East Victoria Storms (commencing 15 November 2020),3,0,3,0.0,no-C,C
+958,Queensland,AGRN 958 - Gumlow Bushfire (21-26 November 2020),1,0,1,0.0,no-C,C
+945,New South Wales,AGRN 945 - NSW Storms (28 November 2020 onwards),4,0,4,0.0,no-C,C
+949,New South Wales,AGRN 949 - NSW Storms (2 December 2020 onwards),3,0,3,0.0,no-C,C
+943,New South Wales,AGRN 943 - NSW Storms and Floods (10 December 2020 onwards),19,0,19,0.0,no-C,C
+963,Western Australia,AGRN 963 - Tropical Low & Associated flooding in the Pilbara & Goldfields Regions (11-12 December 2020),3,0,3,0.0,no-C,C
+944,Queensland,AGRN 944 - South East Queensland Coastal Trough (12 - 15 December 2020),6,0,6,0.0,no-C,C
+947,Queensland,AGRN 947 - Western Queensland Thunderstorms (21-30 December 2020),5,0,5,0.0,no-C,C
+959,New South Wales,AGRN 959 - Eurobodalla Storms (26 December 2020 onwards),1,0,1,0.0,no-C,C
+946,Queensland,AGRN 946 - Tropical Cyclone Imogen and Associated Low Pressure System (2 - 12 January 2021),20,0,20,0.0,no-C,C
+948,New South Wales,AGRN 948 - NSW Storms and Floods (2 January 2021 onwards),4,0,4,0.0,no-C,C
+953,Tasmania,AGRN 953 - Flinders Island Storm (4 January 2021),1,0,1,0.0,no-C,C
+952,Queensland,ARGN 952 - Far North Queensland Tropical Low (24-30 January 2021),9,0,9,0.0,no-C,C
+951,Western Australia,AGRN 951 - Tropical Low and Low and Associated Flooding (28 January - 8 February 2021),8,0,8,0.0,no-C,C
+950,Western Australia,AGRN 950 - Wooroloo Bushfire (1 February 2021),2,2,0,1.0,all-C,C
+967,New South Wales,AGRN 967 - Snowy Valleys Storms (3 February 2021 onwards),1,0,1,0.0,no-C,C
+964,Western Australia,AGRN 964 - Thunderstorms and Associated Flooding in the Shire of Wiluna (16-18 February 2021),1,0,1,0.0,no-C,C
+954,New South Wales,AGRN 954 - North Coast Storms and Floods (19 February 2021 onwards),7,7,0,1.0,all-C,C
+955,Northern Territory,AGRN 955 - February-March 2021 Floods (February 2021),4,0,4,0.0,no-C,C
+956,Queensland,AGRN 956 - TC Niran and associated low pressure system (25 Feb - 3 March 2021),8,0,8,0.0,no-C,C
+962,Western Australia,"AGRN 962 - Storms, heavy rainfall and associated flooding in the Mid West & South West Land Division (1-5 March 2021)",9,0,9,0.0,no-C,C
+972,Tasmania,AGRN 972 - TAS - East Coast Storms (24-25 March 2021),2,0,2,0.0,no-C,C
+960,New South Wales,AGRN 960 - NSW Storms and Floods (10 March 2021 onwards),79,78,1,0.9873417721518988,mixed-C,C
+961,Queensland,AGRN 961 - Southern Queensland Severe Weather (20-31 March 2021),13,0,13,0.0,no-C,C
+966,Victoria,AGRN 966 - Wellington Storms and Floods (commencing 23 March 2021),1,0,1,0.0,no-C,C
+965,Western Australia,AGRN 965 - Severe Tropical Cyclone Seroja (11-12 April 2021),16,16,0,1.0,all-C,C
+968,Queensland,AGRN 968 - Far North Queensland Low Pressure System (15-26 April 2021),6,0,6,0.0,no-C,C
+970,New South Wales,AGRN 970 - Southern NSW Storms and Floods (5 May 2021 onwards),4,0,4,0.0,no-C,C
+974,Western Australia,AGRN 974 - WA - Flooding in the Gascoyne and Murchison Regions (29-31 May 2021),2,0,2,0.0,no-C,C
+969,Victoria,AGRN 969 - Victorian Storms and Floods (commencing 9 June 2021),41,0,41,0.0,no-C,C
+971,Western Australia,AGRN 971 - WA - Torrential Rain and Associated Flooding in the Shire of Exmouth (9-10 June 2021),1,0,1,0.0,no-C,C
+976,New South Wales,AGRN 976 - NSW Storms (10 June 2021 onwards),1,0,1,0.0,no-C,C
+973,Western Australia,AGRN 973 - WA - Severe Weather and Associated Flooding across the South Coastal District (20-21 June 2021),5,0,5,0.0,no-C,C
+975,New South Wales,AGRN 975 - NSW Storms and Floods ( from 16 July 2021 onwards),2,0,2,0.0,no-C,C
+978,Western Australia,AGRN 978 - WA - Severe Weather across the Lower South West Land Division (20-31 July 2021),13,0,13,0.0,no-C,C
+992,New South Wales,AGRN 992 - NSW Storms and Floods (30 July 2021 onwards),2,0,2,0.0,no-C,C
+981,New South Wales,AGRN 981 - NSW Storms and Floods from 22 August 2021,1,0,1,0.0,no-C,C
+977,Victoria,AGRN 977 - Eastern Victoria Floods (commencing 3 September 2021),3,0,3,0.0,no-C,C
+999,Victoria,AGRN 999 - VIC - Victorian Earthquake (22 September 2021),2,0,2,0.0,no-C,C
+985,Victoria,AGRN 985 - South East Victorian Storms (30 September 2021),3,0,3,0.0,no-C,C
+989,New South Wales,AGRN 989 - NSW - Narrabri Storm and Tornado (30 September 2021),1,0,1,0.0,no-C,C
+979,New South Wales,AGRN 979 - NSW - Armidale Storm (14 October 2021),1,0,1,0.0,no-C,C
+991,Victoria,AGRN 991 - VIC - South East Victorian Storms (commencing 15 October 2021),2,0,2,0.0,no-C,C
+980,New South Wales,AGRN 980 - North East NSW Severe Weather (20 October 2021 onwards),1,0,1,0.0,no-C,C
+982,New South Wales,AGRN 982 - Severe Weather Event Accross NSW (23 October 2021 onwards),1,0,1,0.0,no-C,C
+984,South Australia,AGRN 984 - SA State-wide Storms (28 October 2021 onwards),24,24,0,1.0,all-C,C
+1000,Tasmania,AGRN 1000 - TAS - Central Tasmania Flooding (October and November 2021),3,0,3,0.0,no-C,C
+983,Victoria,AGRN 983 - Victoria Storms (29 October 2021),39,0,39,0.0,no-C,C
+990,Northern Territory,AGRN 990 - NT - Central Australia Floods (November 2021),3,0,3,0.0,no-C,C
+987,New South Wales,AGRN 987 - NSW Severe Weather and Flooding from 9 November 2021 onwards,62,0,62,0.0,no-C,C
+986,Queensland,"AGRN 986 - QLD - Central, Southern and Western Queensland Rainfall and Flooding (10 Nov - 3 Dec 2021)",27,27,0,1.0,all-C,C
+988,Victoria,AGRN 988 - VIC - East Victorian Storms (commencing 12 November 2021,4,0,4,0.0,no-C,C
+1002,Tasmania,AGRN 1002 - TAS - Southern Tasmanian Storm (December 2021),1,0,1,0.0,no-C,C
+997,Victoria,AGRN 997 - VIC - Baw Baw Storms (2 December 2021),1,0,1,0.0,no-C,C
+993,New South Wales,AGRN 993 - NSW - Northern Beaches Severe Storm (19 December 2021),1,0,1,0.0,no-C,C
+1001,New South Wales,AGRN 1001 - NSW - Southern NSW Storm and Floods (5 January 2022 onwards),21,0,21,0.0,no-C,C
+995,Victoria,AGRN 995 - VIC - Central West Victorian Storms (5 January 2022),5,0,5,0.0,no-C,C
+994,Queensland,AGRN 994 - QLD - Ex Tropical Cyclone Seth (7-10 January 2022),9,9,0,1.0,all-C,C
+998,Queensland,AGRN 998 - QLD - Tropical Cyclone Tiffany (10-11 January 2022),4,0,4,0.0,no-C,C
+996,New South Wales,AGRN 996 - NSW - Lithgow Severe Storm (11 January 2022),1,0,1,0.0,no-C,C
+1003,Northern Territory,AGRN 1003 - NT - Tropical Cyclone Tiffany (January 2022),5,0,5,0.0,no-C,C
+1004,Victoria,AGRN 1004 - VIC - Towong Floods and Storms (commencing 14 January 2022),2,0,2,0.0,no-C,C
+1018,Northern Territory,AGRN 1018 - NT - Central Australia Floods (15 January - 4 February 2022),3,0,3,0.0,no-C,C
+1005,Queensland,AGRN 1005 - QLD - Western Queensland Low Pressure Trough (19-24 January 2022),14,0,14,0.0,no-C,C
+1006,South Australia,AGRN 1006 - SA Severe weather and flooding (21 January - 2 February 2022),15,0,15,0.0,no-C,C
+1007,Victoria,AGRN 1007 - VIC - Victorian Floods and Storms (commencing 26 January 2022),10,0,10,0.0,no-C,C
+1008,Queensland,AGRN 1008 - QLD - Far North Queensland Low Pressure Trough (1-7 February 2022),4,0,4,0.0,no-C,C
+1013,Western Australia,AGRN 1013 - Tropical Low and Associated Flooding in the Kimberley Region (1-4 February 2022),3,0,3,0.0,no-C,C
+1009,Western Australia,AGRN 1009 - Bridgetown Bushfire (5-12 February 2022),1,0,1,0.0,no-C,C
+1010,Western Australia,AGRN 1010 - Shackelton Complex Bushfire (6-15 February 2022),2,0,2,0.0,no-C,C
+1015,Western Australia,AGRN 1015 - Severe Thunderstorms and Flooding in the Pilbara Region (7-10 February 2022),1,0,1,0.0,no-C,C
+1011,Queensland,AGRN 1011 - South East Queensland Rainfall and Flooding (22 February - 5 April 2022),23,23,0,1.0,all-C,C
+1012,New South Wales,AGRN 1012 - NSW Severe Weather and Flooding (22 February 2022 onwards),62,62,0,1.0,all-C,C
+1017,Queensland,AGRN 1017 - Cape York Tropical Low and Rainfall (22-28 February 2022),4,0,4,0.0,no-C,C
+1024,Western Australia,AGRN 1024 - Tropical Cyclone Anika (26 February - 4 March 2022),1,0,1,0.0,no-C,C
+1014,New South Wales,AGRN 1014 - Broken Hill Severe Thunderstorm (15 March 2022),1,0,1,0.0,no-C,C
+1021,Western Australia,AGRN 1021 - WA Flooding in the Midwest and Gascoyne Regions (26 March - 3 April 2022),7,0,7,0.0,no-C,C
+1016,Victoria,AGRN 1016 - Victorian Floods and Storms (2 April 2022),1,0,1,0.0,no-C,C
+1023,Western Australia,AGRN 1023 - Storms and Flooding in the South Coastal District (11-14 April 2022),2,0,2,0.0,no-C,C
+1027,New South Wales,AGRN 1027 - Wingecarribee Severe Storm (19 April 2022),1,0,1,0.0,no-C,C
+1019,Queensland,AGRN 1019 - Northern and Central Queensland Rainfall and Flooding (21 - 28 April 2022),28,0,28,0.0,no-C,C
+1020,Queensland,AGRN 1020 - Southern Queensland Flooding (6-20 May 2022),21,21,0,1.0,all-C,C
+1035,Western Australia,AGRN 1035 - Heavy Rainfall and Flooding in the Shire of Wiluna in Western Australia (21-24 May 2022),1,0,1,0.0,no-C,C
+1031,Western Australia,AGRN 1031 - Heavy Rainfall and Flooding Pilbara Region (29 May - 1 June 2022),1,0,1,0.0,no-C,C
+1022,Victoria,AGRN 1022 - South East Victorian Storms (commencing 6 June 2022),2,0,2,0.0,no-C,C
+1026,Tasmania,AGRN 1026 - North-West Tasmania Storm (11-12 June 2022),2,0,2,0.0,no-C,C
+1025,New South Wales,AGRN 1025 - NSW Severe Weather and Flooding (27 June 2022 onwards),51,0,51,0.0,no-C,C
+1028,Queensland,AGRN 1028 - South Queensland East Coast Low (July 2022),2,0,2,0.0,no-C,C
+1041,Western Australia,AGRN 1041 - Storms in the South West of Western Australia (1-3 August 2022),2,0,2,0.0,no-C,C
+1030,New South Wales,AGRN 1030 - Southern and Central West Flooding (4 August 2022 onwards),28,0,28,0.0,no-C,C
+1029,Victoria,AGRN 1029 - South-East Victorian Storms (Commencing 13 August 2022),5,0,5,0.0,no-C,C
+1039,Tasmania,AGRN 1039 - Huon Valley and Derwent Valley Flash Flooding (13-14 August 2022),2,0,2,0.0,no-C,C
+1033,Victoria,AGRN 1033 - Wodonga Floods (commencing 29 August 2022),1,0,1,0.0,no-C,C
+1032,Queensland,AGRN 1032 - South West Queensland Low Pressure Trough (7-15 September 2022),4,0,4,0.0,no-C,C
+1034,New South Wales,AGRN 1034 - NSW Flooding (14 September 2022 onwards),76,0,76,0.0,no-C,C
+1036,Queensland,AGRN 1036 - South East Queensland Severe Storms (22-23 September 2022),2,0,2,0.0,no-C,C
+1037,Victoria,AGRN 1037 - Victorian Floods (commencing 6 October 2022),65,64,1,0.9846153846153847,mixed-C,C
+1038,Tasmania,AGRN 1038 - Severe Weather Event (commencing 13 October 2022),18,17,1,0.9444444444444444,mixed-C,C
+1040,Queensland,AGRN 1040 - Southern Queensland Severe Weather (October - November 2022),5,0,5,0.0,no-C,C
+1043,Northern Territory,AGRN 1043 - Alice Springs Severe Thunderstorm (November 2022),1,0,1,0.0,no-C,C
+1042,South Australia,AGRN 1042 - South Australian Floods (commencing 15 November 2022),9,0,9,0.0,no-C,C
+1050,Queensland,AGRN 1050 - Whitsunday Rainfall and Flooding (30 Nov - 1 Dec 2022),1,0,1,0.0,no-C,C
+1046,Queensland,AGRN 1046 - Northern and Central Queensland Monsoon and flooding (20 Dec 2022 - March 2023),45,5,40,0.1111111111111111,mixed-C,C
+1045,Northern Territory,AGRN 1045 - Ex-Tropical Cyclone Ellie and Flooding (December 2022),6,0,6,0.0,no-C,C
+1044,Western Australia,AGRN 1044 - Ex TC Ellie and associated flooding (28 December 2022 onwards),4,4,0,1.0,all-C,C
+1058,Victoria,AGRN 1058 - Benalla Tornado (commencing 14 January 2023),1,0,1,0.0,no-C,C
+1053,New South Wales,AGRN 1053 - Gwydir and Narrabri NSW Bushfires (18 January 2023),2,0,2,0.0,no-C,C
+1065,New South Wales,AGRN 1065 - Cootamundra-Gundagai Bushfires (25 January 2023 onwards),1,0,1,0.0,no-C,C
+1048,Queensland,AGRN 1048 - Western Downs Bushfire (30 January - March 2023),1,0,1,0.0,no-C,C
+1047,New South Wales,AGRN 1047 - Port Macquarie Hastings Severe Storm (3 February 2023),1,0,1,0.0,no-C,C
+1049,New South Wales,AGRN 1049 - NSW Severe Storms (9 February 2023),2,0,2,0.0,no-C,C
+1066,New South Wales,AGRN 1066 - Upper Lachlan and Yass Valley Bushfires (11 February 2023 onwards),2,0,2,0.0,no-C,C
+1055,New South Wales,AGRN 1055 - Western and North West NSW Bushfires (17 February 2023),5,0,5,0.0,no-C,C
+1051,Northern Territory,AGRN 1051 - Northern Region Flooding (26 February 2023 onwards),2,0,2,0.0,no-C,C
+1054,New South Wales,"AGRN 1054 - Gwydir, Moree Plains and Narrabri NSW Bushfires (1 March 2023)",3,0,3,0.0,no-C,C
+1052,New South Wales,AGRN 1052 - NSW Bushfires (6 March 2023),12,0,12,0.0,no-C,C
+1057,New South Wales,AGRN 1057 - Cootamundra-Gundagai and Hilltops Storm and Flooding (12 March 2023 onwards),2,0,2,0.0,no-C,C
+1056,New South Wales,AGRN 1056 - Upper Lachlan Bushfires (16 March 2023 onwards),2,0,2,0.0,no-C,C
+1060,Victoria,AGRN 1060 - North-East Victorian Storms (commencing 23 March 2023),2,0,2,0.0,no-C,C
+1061,Western Australia,AGRN 1061 - Wheatbelt region of WA - Storm and Associated Flooding (25-26 March 2023),2,0,2,0.0,no-C,C
+1062,Western Australia,AGRN 1062 - Storms and associated flooding in the Midwest-Gascoyne and Pilbara regions (29 March - 4 April 2023),7,0,7,0.0,no-C,C
+1059,Western Australia,AGRN 1059 - Tropical Cyclone Ilsa (13 April 2023 onwards),3,0,3,0.0,no-C,C
+1064,Northern Territory,AGRN 1064 - East Arnhem Region Flooding (16 April to 18 April 2023),1,0,1,0.0,no-C,C
+1067,Queensland,AGRN 1067 - South West Queensland Flooding (4 June - 7 July 2023),2,0,2,0.0,no-C,C
+1063,Victoria,AGRN 1063 - North Victorian Storms (commencing 07 June 2023),5,0,5,0.0,no-C,C
+1068,Northern Territory,AGRN 1068 - Southern Region Bushfire (August 2023 onwards),6,0,6,0.0,no-C,C
+1131,New South Wales,AGRN 1131 - Upper Hunter NSW Bushfire (10 - 17 August 2023),1,0,1,0.0,no-C,C
+1071,New South Wales,AGRN 1071 - North Eastern NSW Bushfires (21 August 2023 onwards),4,0,4,0.0,no-C,C
+1069,Victoria,AGRN 1069 - Victorian Storms (commencing 8 September 2023),3,0,3,0.0,no-C,C
+1078,Queensland,AGRN 1078 - Southern Queensland Bushfires (8 September - 7 November 2023),17,17,0,1.0,all-C,C
+1099,New South Wales,AGRN 1099 - Singleton NSW Bushfires (11 September - 18 October 2023),1,0,1,0.0,no-C,C
+1085,Queensland,AGRN 1085 - Nome and Julago Bushfire (16 - 24 September 2023),1,0,1,0.0,no-C,C
+1089,New South Wales,AGRN 1089 - Mid Coast NSW Bushfires (20 September - 6 October 2023),1,0,1,0.0,no-C,C
+1090,New South Wales,AGRN 1090 - Lower Hunter NSW Bushfires (20 September to 9 October 2023),4,0,4,0.0,no-C,C
+1132,New South Wales,AGRN 1132 - Snowy Monaro NSW Bushfire (20 September - 4 October 2023),1,0,1,0.0,no-C,C
+1073,Victoria,AGRN 1073 - East Victorian Fires (commencing 29 September 2023),3,0,3,0.0,no-C,C
+1133,New South Wales,AGRN 1133 - Lake Macquarie NSW Bushfire (1 - 18 October 2023),1,0,1,0.0,no-C,C
+1083,New South Wales,AGRN 1083 - Mid-Western NSW Bushfires (2-10 October 2023),1,0,1,0.0,no-C,C
+1084,New South Wales,AGRN 1084 - Snowy Monaro NSW Bushfires (2 October 2023),1,0,1,0.0,no-C,C
+1070,New South Wales,AGRN 1070 - Bega Valley NSW Bushfires (3 October 2023 onwards),1,0,1,0.0,no-C,C
+1072,Victoria,AGRN 1072 - East Victorian Floods (commencing 3 October 2023),11,0,11,0.0,no-C,C
+1075,New South Wales,AGRN 1075 - Far North NSW Bushfires (13 October 2023 onwards),4,0,4,0.0,no-C,C
+1135,New South Wales,AGRN 1135 - Byron NSW Bushfire (14 October - 5 November 2023),1,0,1,0.0,no-C,C
+1076,New South Wales,AGRN 1076 - Mid North NSW Bushfires (16 October 2023 onwards),3,0,3,0.0,no-C,C
+1077,New South Wales,AGRN 1077 - Mid-Western NSW Bushfires (17 October 2023 onwards),1,0,1,0.0,no-C,C
+1079,Queensland,AGRN 1079 - Northern Queensland bushfres (18 October - 8 December 2023),5,0,5,0.0,no-C,C
+1091,New South Wales,AGRN 1091 Hunter NSW Bushfires (22 October - 5 November 2023),2,0,2,0.0,no-C,C
+1115,Queensland,AGRN 1115 - Mount Isa bushfire (23 October - 1 November 2023),1,0,1,0.0,no-C,C
+1134,New South Wales,AGRN 1134 - Tamworth NSW Bushfires (26 October - 4 November 2023),1,0,1,0.0,no-C,C
+1136,New South Wales,AGRN 1136 - Lithgow NSW Bushfire (11 - 17 November 2023),1,0,1,0.0,no-C,C
+1081,New South Wales,AGRN 1081 - North Western NSW Bushfires (14 November 2023 onwards),1,0,1,0.0,no-C,C
+1080,Queensland,AGRN 1080 - The Pines and Condamine Farms bushfire (19 November - 1 December 2023),1,0,1,0.0,no-C,C
+1137,New South Wales,AGRN 1137 - Parkes NSW Bushfire (19 - 27 November 2023),1,0,1,0.0,no-C,C
+1097,Queensland,AGRN 1097 - Queensland low pressure trough (20 November - 1 December 2023),4,0,4,0.0,no-C,C
+1082,Western Australia,AGRN 1082 - Mariginiup Bushfire in Western Australia (22 November 2023 onwards),2,0,2,0.0,no-C,C
+1086,New South Wales,AGRN 1086 NSW Severe Weather and Flooding (28 November 2023 onwards),5,0,5,0.0,no-C,C
+1087,Victoria,AGRN 1087 - Victorian Floods and Storms (commencing 28 November 2023),5,0,5,0.0,no-C,C
+1138,New South Wales,AGRN 1138 - Richmond Valley NSW Bushfire (4 - 15 December 2023),1,0,1,0.0,no-C,C
+1139,New South Wales,AGRN 1139 - Mid-Western NSW Bushfire (6 - 16 December 2023),1,0,1,0.0,no-C,C
+1114,New South Wales,AGRN 1114 - Inverell and Tenterfield NSW Bushfires (7-24 December 2023),2,0,2,0.0,no-C,C
+1093,New South Wales,AGRN 1093 - Narrabri NSW Bushfires (8 December 2023 onwards),1,0,1,0.0,no-C,C
+1110,South Australia,AGRN 1110 - South Australia Severe Weather Event (8-12 December 2023),4,0,4,0.0,no-C,C
+1111,Australian Capital Territory,AGRN 1111 - ACT severe storms (8 - 13 December 2023),1,0,1,0.0,no-C,C
+1140,New South Wales,AGRN 1140 - Singleton NSW Bushfire (8 - 18 December 2023),1,0,1,0.0,no-C,C
+1112,New South Wales,AGRN 1112 - Armidale NSW Bushfires (9 December - 23 December 2023),1,0,1,0.0,no-C,C
+1088,Queensland,"AGRN 1088 - Tropical Cyclone Jasper, associated rainfall and flooding (13 - 28 December 2023)",18,18,0,1.0,all-C,C
+1095,Victoria,AGRN 1095 - North East Victorian Storms (commencing 13 December 2023),3,0,3,0.0,no-C,C
+1092,New South Wales,AGRN 1092 - Cessnock NSW Bushfires (14 December onwards),1,0,1,0.0,no-C,C
+1098,Queensland,AGRN 1098 - Brisbane and Ipswich severe storms (15-16 December 2023),2,0,2,0.0,no-C,C
+1117,Australian Capital Territory,AGRN 1117 - ACT Storm Event (19-21 December 2023),1,0,1,0.0,no-C,C
+1094,Queensland,AGRN 1094 - South East Queensland Severe Storms and Rainfall (24 December 2023 - 3 January 2024),8,8,0,1.0,all-C,C
+1096,Victoria,AGRN 1096 - Victorian Floods and Storms commencing 24 December 2023,29,0,29,0.0,no-C,C
+1100,New South Wales,AGRN 1100 - NSW Storms and Floods (25 December 2023 onwards),3,0,3,0.0,no-C,C
+1101,New South Wales,AGRN 1101 - NSW Storms and Floods (31 December 2023 onwards),2,0,2,0.0,no-C,C
+1105,New South Wales,AGRN 1105 - Western NSW Storms and Flooding (6 January 2024 onwards),2,0,2,0.0,no-C,C
+1109,Queensland,AGRN 1109 - South West Queensland flooding (6 January - 23 January 2024),5,0,5,0.0,no-C,C
+1104,Queensland,AGRN 1104 - North Queensland Monsoon Trough (12 - 22 January 2024),1,0,1,0.0,no-C,C
+1128,Australian Capital Territory,AGRN 1128 - ACT Storm Event (13 January 2024),1,0,1,0.0,no-C,C
+1103,Northern Territory,AGRN 1103 - Tropical Low 03U/ Tropical Low 07U - Ex-TC Lincoln (Jan - Feb 2024),8,0,8,0.0,no-C,C
+1113,Western Australia,AGRN 1113 - Tropical Low and Associated Flooding in Western Australia (21-27 January 2024,7,0,7,0.0,no-C,C
+1121,New South Wales,AGRN 1121 - Clarence Valley NSW Bushfire (21 January - 13 February 2024),1,0,1,0.0,no-C,C
+1102,Queensland,"AGRN 1102 - Tropical Cyclone Kirrily, associated rainfall and flooding (25 January - 26 February 2024))",41,0,41,0.0,no-C,C
+1141,New South Wales,AGRN 1141 - Central Darling NSW Storm (5-6 February 2024),1,0,1,0.0,no-C,C
+1108,Victoria,AGRN 1108 - Victorian Bushfires and Storms (commencing 13 February 2024),38,0,38,0.0,no-C,C
+1118,Western Australia,AGRN 1118 - Ex-Tropical Cyclone Lincoln and associated flooding in Western Australia (19-25 February 2024),2,0,2,0.0,no-C,C
+1125,Tasmania,AGRN 1125 - Tasmania East Coast Severe Weather Event (February 2024),1,0,1,0.0,no-C,C
+1123,Western Australia,AGRN 1123 - Tropical Low and Associated Flooding in the Shire of East Pilbara (4-11 March 2024),1,0,1,0.0,no-C,C
+1120,Western Australia,"AGRN 1120 - Storms and associated flooding across the Goldfields, Southern Interior and Eucla areas (7 March 2024 onwards)",10,0,10,0.0,no-C,C
+1116,Northern Territory,AGRN 1116 - Tropical Low 09U Cyclone Megan: (March 2024),8,0,8,0.0,no-C,C
+1126,Queensland,AGRN 1126 - QLD - Western Queensland Rainfall and Flooding (22 March - 20 April 2024),9,0,9,0.0,no-C,C
+1119,New South Wales,AGRN 1119 - NSW East Coast Flooding (from 1 April 2024 onwards),33,0,33,0.0,no-C,C
+1122,Victoria,AGRN 1122 - Yarra Ranges Floods (commencing 01 April 2024),1,0,1,0.0,no-C,C
+1127,New South Wales,AGRN 1127 - NSW Severe Weather (9 - 14 May 2024),2,0,2,0.0,no-C,C
+1124,Western Australia,AGRN 1124 - Storm and Tornado in the City of Bunbury in Western Australia (10 May 2024),1,0,1,0.0,no-C,C
+1130,Western Australia,AGRN 1130 - Storm in the South West Region of Western Australia (1-2 June 2024),2,0,2,0.0,no-C,C
+1129,New South Wales,AGRN 1129 - NSW Severe Weather (4 June 2024 onwards),6,0,6,0.0,no-C,C
+1143,Western Australia,AGRN 1143 - Heavy Rainfall and Associated Flooding in the Geraldton Region of Western Australia (6-9 June 2024),2,0,2,0.0,no-C,C
+1150,Western Australia,AGRN 1150 - WA - Heavy Rainfall and associated flooding in the Shire of Northampton (26-30 June 2024),1,0,1,0.0,no-C,C
+1145,Queensland,AGRN 1145 - Diamantina Rainfall and Flooding (1-7 July 2024),1,0,1,0.0,no-C,C
+1142,Victoria,AGRN 1142 - Eastern Victoria Storms and Floods (commencing 15 July 2024),3,0,3,0.0,no-C,C
+1146,Victoria,AGRN 1146 - North-East Victorian Earthquake (6 August 2024),1,0,1,0.0,no-C,C
+1151,New South Wales,AGRN 1151 - North Coast NSW Severe Weather (11 August 2024 onwards),1,0,1,0.0,no-C,C
+1148,Queensland,AGRN 1148 - Central and Southern Queensland Rainfall and Flooding (12-14 August 2024),7,0,7,0.0,no-C,C
+1159,New South Wales,AGRN 1159 - NSW Muswellbrook Earthquakes (23 August - 12 November 2024),1,0,1,0.0,no-C,C
+1147,Victoria,AGRN 1147 - Victorian Storms (commencing 25 August 2024),28,0,28,0.0,no-C,C
+1144,Tasmania,AGRN 1144 - Tasmania Severe Weather Event (commencing 26 August 2024),29,29,0,1.0,all-C,C
+1155,New South Wales,AGRN 1155 - Wingecarribee NSW Storm (28 August 2024 onwards),1,0,1,0.0,no-C,C
+1156,New South Wales,AGRN 1156 - Tenterfield NSW Bushfire (2 September -16 September 2024),1,0,1,0.0,no-C,C
+1154,Queensland,AGRN 1154 - North Queensland Bushfires (12 September - 15 November 2024),4,0,4,0.0,no-C,C
+1183,Queensland,AGRN 1183 - Cook and Hope Vale Bushfires (20 September to 9 October 2024),2,0,2,0.0,no-C,C
+1165,Queensland,AGRN 1165 - Mount Tabor Bushfire (22 September to 8 October 2024),2,0,2,0.0,no-C,C
+1162,New South Wales,AGRN 1162 - NSW North Coast Storms (24 September 2024 onwards),2,0,2,0.0,no-C,C
+1179,Queensland,AGRN 1179 - Cloncurry and Mount Isa Bushfires (6 to 29 October 2024),2,0,2,0.0,no-C,C
+1152,Victoria,AGRN 1152 - Victorian Floods and Storms (16-19 October 2024),3,0,3,0.0,no-C,C
+1149,New South Wales,AGRN 1149 - Far West Region Storm (17 October 2024 onwards),3,0,3,0.0,no-C,C
+1153,Queensland,AGRN 1153 - Dirranbandi Bushfires (5 - 10 November 2024),1,0,1,0.0,no-C,C
+1173,New South Wales,AGRN 1173 - NSW Kyogle Storm (From 7 November 2024),1,0,1,0.0,no-C,C
+1158,Queensland,AGRN 1158 - Scenic Rim and Ipswich Storms and Rainfall (10 -24 November 2024),2,0,2,0.0,no-C,C
+1181,Queensland,AGRN 1181 - Silver Valley and Walsh Bluff Bushfires (13 to 24 November 2024),2,0,2,0.0,no-C,C
+1157,New South Wales,AGRN 1157 - Walgett NSW Storm (17 November 2024 onwards),1,0,1,0.0,no-C,C
+1160,Victoria,AGRN 1160 - Greater Shepparton Storms (17 November 2024),1,0,1,0.0,no-C,C
+1164,Queensland,AGRN 1164 - Southwest Queensland Flooding and Rainfall (21 November to 10 December 2024),5,0,5,0.0,no-C,C
+1172,New South Wales,AGRN 1172 - NSW Byron Shire Storms (from 25 November 2024),1,0,1,0.0,no-C,C
+1177,New South Wales,AGRN 1177 - NSW Snowy Valleys Storms (from 25 November 2024),1,0,1,0.0,no-C,C
+1182,New South Wales,AGRN 1182 - NSW Gilgandra and Walgett Storms (from 25 November 2024),2,0,2,0.0,no-C,C
+1163,Victoria,AGRN 1163 - North-East Victoria Floods and Storms (commencing 27 November 2024),2,0,2,0.0,no-C,C
+1194,Tasmania,AGRN 1194 - Northern Rainfall Event (November/December 2024),3,0,3,0.0,no-C,C
+1178,New South Wales,AGRN 1178 - NSW Hilltops and Lockhart Shire storms (from 30 November 2024),2,0,2,0.0,no-C,C
+1205,New South Wales,AGRN 1205 - NSW Cabonne Shire Storms (from 4 December 2024),1,0,1,0.0,no-C,C
+1207,New South Wales,AGRN 1207 - NSW Griffith and Lockhart Storms (from 7 December 2024),2,0,2,0.0,no-C,C
+1167,Queensland,AGRN 1167 - Southern Summer Rainfall and Flooding (9 December 2024 to 14 January 2025),13,0,13,0.0,no-C,C
+1175,Western Australia,AGRN 1175 - Storms and Associated Flooding in the Pilbara and Midwest-Gascoyne Regions (10 December -17 December 2024),5,0,5,0.0,no-C,C
+1166,Victoria,AGRN 1166 - Western Victoria Bushfires (commencing 16 December 2024),8,8,0,1.0,all-C,C
+1191,New South Wales,AGRN 1191 - Singleton NSW Bushfires (16 -24 December 2024),1,0,1,0.0,no-C,C
+1168,Queensland,AGRN 1168 - North Queensland Rainfall and Flooding (19 to 24 December 2024),2,0,2,0.0,no-C,C
+1169,Victoria,AGRN 1169 - Bass Coast Bushfires (commencing 19 December 2024),1,0,1,0.0,no-C,C
+1193,New South Wales,AGRN 1193 - Bathurst and Lithgow NSW Bushfire (23 December 2024 - 11 January 2025),2,0,2,0.0,no-C,C
+1189,New South Wales,AGRN 1189 - Singleton and Muswellbrook NSW Bushfires (27 December 2024 - 18 January 2025),2,0,2,0.0,no-C,C
+1190,New South Wales,AGRN 1190 - Yass Valley NSW Bushfire (27 December 2024 - 7 January 2025),1,0,1,0.0,no-C,C
+1192,New South Wales,AGRN 1192 -Tamworth and Uralla NSW Bushfires (27 December 2024 - 9 January 2025),2,0,2,0.0,no-C,C
+1196,New South Wales,AGRN 1196 - Mid-Western NSW Bushfires (27 December 2024 - 8 January 2025),1,0,1,0.0,no-C,C
+1197,New South Wales,AGRN 1197 - Hawkesbury NSW Bushfires (5 - 16 January 2025),1,0,1,0.0,no-C,C
+1170,New South Wales,AGRN 1170 - NSW Severe Weather and Storms from 15 January 2025,21,0,21,0.0,no-C,C
+1186,Queensland,AGRN 1186 - Brisbane Microburst Event (16 January 2025),1,0,1,0.0,no-C,C
+1176,Western Australia,AGRN 1176 - Marble Bar Storm in Western Australia (23 January 2025),1,0,1,0.0,no-C,C
+1199,New South Wales,AGRN 1199 - NSW Narrabri and Gwydir Bushfire (27 January - 10 February 2025),2,0,2,0.0,no-C,C
+1206,New South Wales,AGRN 1206 - NSW Walgett and Coonamble Bushfire (28 January -12 February 2025),2,0,2,0.0,no-C,C
+1174,Queensland,AGRN 1174 - North and Far North Tropical Low (29 January - 28 February 2025),40,38,2,0.95,mixed-C,C
+1180,Victoria,AGRN 1180 - South-West Victoria Storms (2 February 2025),3,0,3,0.0,no-C,C
+1187,Tasmania,AGRN 1187 - Tasmanian West Coast Fires (February 2025),5,0,5,0.0,no-C,C
+1188,Victoria,AGRN 1188 - East Victoria Storms (commencing 7 February 2025),5,0,5,0.0,no-C,C
+1200,New South Wales,AGRN 1200 - NSW Bega Valley and Snowy Monaro Storms (From 8 February 2025),2,0,2,0.0,no-C,C
+1184,New South Wales,AGRN 1184 - NSW Hilltops Severe Weather (From 10 February 2025),1,0,1,0.0,no-C,C
+1185,Western Australia,AGRN 1185 - Severe Tropical Cyclone Zelia and Associated Flooding in Western Australia (12 -16 February 2025),3,0,3,0.0,no-C,C
+1201,Western Australia,AGRN 1201 - Storm in the Perth Hills Area in Western Australia (19 February 2025),3,0,3,0.0,no-C,C
+1203,New South Wales,AGRN 1203 - NSW Warrumbungle and Narrabri Bushfire (26 February -13 March 2025),2,0,2,0.0,no-C,C
+1195,Queensland,AGRN 1195 - QLD - Tropical Cyclone Alfred and Associated Severe Weather (1-16 March 2025),18,18,0,1.0,all-C,C
+1198,New South Wales,AGRN 1198 - Tropical Cyclone Alfred Severe Weather (from 3 March 2025),19,19,0,1.0,all-C,C
+1208,Western Australia,AGRN 1208 - Storms and Associated Flooding in the Great Southern Region of Western Australia (13-14 March 2025),2,0,2,0.0,no-C,C
+1202,Queensland,AGRN 1202 - Western Queensland Surface Trough Associated Rainfall and Flooding (21 March - 19 May 2025),41,40,1,0.975609756097561,mixed-C,C
+1211,New South Wales,AGRN 1211 - Far West NSW Flooding (from 22 March 2025),5,0,5,0.0,no-C,C
+1204,New South Wales,AGRN 1204 - NSW Severe Storms (from 28 March 2025),6,0,6,0.0,no-C,C
+1209,South Australia,AGRN 1209 - SA Inland River Flooding (commencing 8 April 2025),1,1,0,1.0,all-C,C
+1210,Queensland,AGRN 1210 - Lockhart River Rainfall and Flooding (9 April to 16 April 2025),1,0,1,0.0,no-C,C
+1213,Northern Territory,AGRN 1213 - Tropical Low 30U Flooding (April 2025),2,0,2,0.0,no-C,C
+1215,New South Wales,AGRN 1215 - NSW East Coast Storms (from 25 April 2025),2,0,2,0.0,no-C,C
+1212,New South Wales,AGRN 1212- NSW East Coast Severe Weather (from 18 May 2025),25,25,0,1.0,all-C,C
+1276,New South Wales,AGRN 1276 - Oberon Severe Weather Event (from 24 June 2025),1,0,1,0.0,no-C,C
+1217,New South Wales,AGRN 1217 - NSW South Coast Severe Weather (from 30 June 2025),2,0,2,0.0,no-C,C
+1214,Victoria,AGRN 1214 - East Gippsland Floods (commencing 1 July 2025),1,0,1,0.0,no-C,C
+1220,Western Australia,AGRN 1220 - Storm and Flooding in the Shire of Jerramungup in Western Australia (28-29 July 2025),1,0,1,0.0,no-C,C
+1216,New South Wales,AGRN 1216 - NSW Severe Weather Event (from 31 July onwards),13,0,13,0.0,no-C,C
+1238,New South Wales,AGRN 1238 - Wollondilly and Camden NSW Severe Weather Event (19 - 23 August 2025),2,0,2,0.0,no-C,C
+1218,Victoria,AGRN 1218 - Victorian Storms (commencing 29 August 2025),20,0,20,0.0,no-C,C
+1219,Victoria,AGRN 1219 - Central Victoria Storms (commencing 15 September 2025),4,0,4,0.0,no-C,C
+1267,Queensland,AGRN 1267 - Townsville Complex Bushfire (21 September to 15 October 2025),2,0,2,0.0,no-C,C
+1235,New South Wales,AGRN 1235 - Clarence Valley NSW Bushfire (from 25 September - 28 October 2025),1,0,1,0.0,no-C,C
+1251,Queensland,AGRN 1251 - Darling Downs and Maranoa Bushfires (26 September - 14 October),3,0,3,0.0,no-C,C
+1255,Queensland,AGRN 1255 - Central Queensland Bushfires (2-27 October 2025),8,0,8,0.0,no-C,C
+1266,Queensland,AGRN 1266 - Moreton Island Bushfire (4 to 13 October 2025),1,0,1,0.0,no-C,C
+1226,Western Australia,AGRN 1226 - Heavy Rainfall and associated flooding in the Goldfields-Esperance Region of Western Australia,2,0,2,0.0,no-C,C
+1237,New South Wales,AGRN 1237 - Kempsey NSW Bushfire ( 6 - 9 October 2025),1,0,1,0.0,no-C,C
+1268,Queensland,AGRN 1268 - North Queensland Savanna Bushfires (20 October to 13 November 2025),9,0,9,0.0,no-C,C
+1236,New South Wales,AGRN 1236 -Tenterfield NSW Bushfire (from 23 October - 3 November 2025),1,0,1,0.0,no-C,C
+1221,Queensland,AGRN 1221 - SEQ Severe Storms - 26 October 2025,3,0,3,0.0,no-C,C
+1253,Queensland,AGRN 1253 - Weir River Bushfires (26 October to 7 November 2025),2,0,2,0.0,no-C,C
+1244,New South Wales,AGRN 1244 - Mid-Western Regional NSW Bushfire (5 - 18 November 2025),1,0,1,0.0,no-C,C
+1250,Queensland,AGRN 1250 - Red Hill Bushfire (5-11 November 2025),1,0,1,0.0,no-C,C
+1245,New South Wales,AGRN 1245 - Dungog NSW Bushfire: from 9 November 2025,1,0,1,0.0,no-C,C
+1254,Queensland,AGRN 1254 - Inglewood Bushfires (10 to 17 November 2025),2,0,2,0.0,no-C,C
+1224,Queensland,AGRN 1224 - Central and Southern Queensland Storms and Flooding 15 - 18 November 2025,2,0,2,0.0,no-C,C
+1246,New South Wales,AGRN 1246 - Lithgow NSW Bushfire (from 16 November 2025),1,0,1,0.0,no-C,C
+1231,New South Wales,AGRN 1231 - NSW Mid Coast Bushfires (from 17 November 2025),1,0,1,0.0,no-C,C
+1223,Northern Territory,AGRN 1223 - Tropical Cyclone Fina 02U November 2025,11,0,11,0.0,no-C,C
+1274,New South Wales,AGRN 1274 - Lockhart Bushfire (23 - 30 November 2025),1,0,1,0.0,no-C,C
+1225,Queensland,AGRN 1225 - Queensland Southern Coast Severe Storms 24-25 November 2025,11,0,11,0.0,no-C,C
+1228,New South Wales,AGRN 1228 - Upper Hunter and Muswellbrook NSW Bushfires (from 26 November 2025),2,0,2,0.0,no-C,C
+1233,Victoria,AGRN 1233 - South-East Victorian Storms (commencing 26 November 2025),2,0,2,0.0,no-C,C
+1247,New South Wales,AGRN 1247 - NSW Severe Weather Event (from 26 November 2025),7,0,7,0.0,no-C,C
+1252,New South Wales,AGRN 1252 - Parkes NSW Bushfire (from 26 November 2025),1,0,1,0.0,no-C,C
+1230,New South Wales,AGRN 1230 - NSW Dubbo and Warrumbungle Bushfire (from 27 November 2025),2,0,2,0.0,no-C,C
+1227,Tasmania,AGRN 1227 - Southern Tasmania Bushfires (commencing 4 December 2025),5,5,0,1.0,all-C,C
+1229,New South Wales,AGRN 1229 - NSW Central Coast Bushfire (from 6 December 2025),1,0,1,0.0,no-C,C
+1232,New South Wales,AGRN 1232 - NSW Lake Macquarie Bushfire (from 6 December 2025),1,0,1,0.0,no-C,C
+1275,New South Wales,AGRN 1275 - Cessnock Bushfire (8 - 28 December 2025),1,0,1,0.0,no-C,C
+1234,Tasmania,AGRN 1234 - Break O'Day Bushfires (commencing 9 December 2025),1,0,1,0.0,no-C,C
+1239,New South Wales,AGRN 1239 - Lithgow and Mid-Western Regional NSW Bushfires (from 9 December 2025),2,0,2,0.0,no-C,C
+1240,New South Wales,AGRN 1240 - Bondi NSW Terrorist Attack 14 December 2025,1,1,0,1.0,all-C,C
+1261,New South Wales,AGRN 1261 - Tenterfield NSW Bushfire (from 16 December 2025),1,0,1,0.0,no-C,C
+1257,Victoria,AGRN 1257 - Goomalibee Fires (commencing 18 December 2025),1,0,1,0.0,no-C,C
+1259,Victoria,AGRN 1259 - Charlton - Jeffcott fires (commencing 18 December 2025),1,0,1,0.0,no-C,C
+1262,New South Wales,AGRN 1262 - Port Macquarie-Hastings NSW Bushfire (from 19 -25 December 2025),1,0,1,0.0,no-C,C
+1277,New South Wales,AGRN 1277 - Far West Unincorporated Area NSW Severe Weather Event (from 21 - 22 December 2025),1,0,1,0.0,no-C,C
+1243,Queensland,"AGRN 1243 - Queensland Monsoon Trough, Cyclone Koji, Cyclone Narelle and Severe Weather (24 December 2025 - 24 April 2026)",65,62,3,0.9538461538461539,mixed-C,C
+1241,Queensland,AGRN 1241 - SEQ Christmas Day Severe Storms (25 December 2025),1,0,1,0.0,no-C,C
+1264,New South Wales,AGRN 1264 - Muswellbrook NSW Bushfire (27 December 2025 - 6 January 2026),1,0,1,0.0,no-C,C
+1273,New South Wales,AGRN 1273 - MidCoast Bushfire (29 December 2025 - 5 January 2026),1,0,1,0.0,no-C,C
+1242,Victoria,AGRN 1242 - Victorian Bushfires (commencing 7 January 2026),29,29,0,1.0,all-C,C
+1256,Victoria,AGRN 1256 - Victorian Storms (commencing 7 January 2026),4,0,4,0.0,no-C,C
+1263,New South Wales,AGRN 1263 - Eurobodalla and Bega Valley NSW Bushfire (from 7 January 2026),2,0,2,0.0,no-C,C
+1260,New South Wales,AGRN 1260 - NSW Severe Weather Event (from 14 January 2026),4,0,4,0.0,no-C,C
+1248,Victoria,AGRN 1248 - Wye River - Lorne Flood Event (commencing 15 January 2026),2,0,2,0.0,no-C,C
+1286,Western Australia,AGRN 1286 - Tropical Cyclone Luana and associated heavy rainfall across the Kimberley and Pilbara regions in Western Australia (22-28 January 2026),3,0,3,0.0,no-C,C
+1272,New South Wales,AGRN 1272 - MidCoast Bushfire (27 January - 21 February 2026),1,0,1,0.0,no-C,C
+1279,New South Wales,AGRN 1279 - Port Stephens Bushfire (from 29 January - 5 February 2026),1,0,1,0.0,no-C,C
+1287,New South Wales,AGRN 1287 - Tenterfield Bushfire (30 January - 13 February 2026),1,0,1,0.0,no-C,C
+1249,Northern Territory,AGRN 1249 - Big Rivers Flood Event - 21U - February 2026,1,0,1,0.0,no-C,C
+1283,Western Australia,AGRN 1283 - Tropical Cyclone Mitchell and associated Heavy Rainfall across Western Australia (4-11 February 2026),12,0,12,0.0,no-C,C
+1282,New South Wales,AGRN 1282 - Carrathool Shire Bushfire (6 - 18 February 2026),1,0,1,0.0,no-C,C
+1284,Queensland,AGRN 1284 - Southern Downs Bushfires (6 - 10 February 2026),1,0,1,0.0,no-C,C
+1278,New South Wales,AGRN 1278 - Far West NSW Severe Weather Event (from 7 February - 13 March 2026),4,0,4,0.0,no-C,C
+1285,Australian Capital Territory,AGRN 1285 - ACT Storm Event (7 - 8 February 2026),1,0,1,0.0,no-C,C
+1258,Northern Territory,AGRN 1258 - Central Australia and Barkly Region Severe Weather and Floods (February 2026),4,0,4,0.0,no-C,C
+1288,Western Australia,AGRN 1288 - Tropical Lows 25 U and 30U and associated flooding in the Kimberly Region of Western Australia (13 February - 6 March 2026),4,0,4,0.0,no-C,C
+1265,South Australia,AGRN 1265 - Severe Weather and Flood (commencing 21 February 2026),11,0,11,0.0,no-C,C
+1271,Victoria,AGRN 1271 - North-East Victorian Storms (commencing 22 February 2026),4,0,4,0.0,no-C,C
+1270,Victoria,AGRN 1270 - North-West Victorian Storms (commencing 24 February 2026),10,0,10,0.0,no-C,C
+1289,New South Wales,AGRN 1289 - Goulburn Mulwaree Severe Weather Event (from 25 February 2026),1,0,1,0.0,no-C,C
+1281,Victoria,AGRN 1281 - Towong Flood Event (commencing 3 March 2026),1,0,1,0.0,no-C,C
+1269,Northern Territory,AGRN 1269 - 31U Tropical Low Flood Event and 34U Tropical Cyclone Narelle (March 2026),13,10,3,0.7692307692307693,mixed-C,C
+1280,Western Australia,AGRN 1280 - WA - Severe Tropical Cyclone Narelle and associated flooding (25 -28 March 2026),8,0,8,0.0,no-C,C
+1291,New South Wales,AGRN 1291 - Mid-Coast Bushfires (16 - 25 April 2026),1,0,1,0.0,no-C,C
+1290,Western Australia,AGRN 1290 - Severe Storm across the South West and Great Southern in Western Australia (30 May 2026 - 1 June 2026),7,0,7,0.0,no-C,C
+1293,Queensland,AGRN 1293 - Quilpie Shire Rainfall and Flooding - 9 June to 2 July 2026,1,0,1,0.0,no-C,C
+1292,Victoria,AGRN 1292 - Central-East Victorian Storms (commencing 29 June 2026),6,0,6,0.0,no-C,C
+776,New South Wales,NSW - Tenterfield Bushfires (commencing 8 September 2017),1,0,1,0.0,no-D,D
+792,New South Wales,NSW - Singleton Bushfire (18 December 2017),1,0,1,0.0,no-D,D
+791,New South Wales,NSW - Tamworth Bushfire (25 December 2017 onwards),1,0,1,0.0,no-D,D
+789,New South Wales,"NSW - Tamworth, Uralla and Gwydir Bushfires (2 January 2018)",3,0,3,0.0,no-D,D
+795,New South Wales,NSW - Port Stephens bushfire (8 January 2018),1,0,1,0.0,no-D,D
+803,New South Wales,"NSW - Singleton, Cessnock and Muswellbrook Bushfires (13 January 2018 onwards)",3,0,3,0.0,no-D,D
+806,New South Wales,NSW - Upper Lachlan (Long Gully) Bushfire (19 January 2018 onwards),1,0,1,0.0,no-D,D
+805,New South Wales,NSW - Sutherland (Royal National Park) Bushfire (20 January 2018 onwards),1,0,1,0.0,no-D,D
+814,New South Wales,NSW - Upper Hunter Bushfires (23 January 2018 onwards),1,0,1,0.0,no-D,D
+793,Western Australia,WA - Tropical Cyclone Kelvin and Associated Flooding (17 - 19 February 2018),4,0,4,0.0,no-D,D
+818,New South Wales,NSW - Shoalhaven bushfires (11 August 2018 onwards),1,0,1,0.0,no-D,D
+823,New South Wales,"NSW - Richmond Valley, Lismore and Kyogle bushfires (12 August 2018 onwards)",3,0,3,0.0,no-D,D
+841,New South Wales,NSW - Tamworth (Rockview) Bushfire (30 October 2018 onwards),1,0,1,0.0,no-D,D
+842,New South Wales,NSW - Port Stephens and Cessnock Bushfires (22 November 2018),2,0,2,0.0,no-D,D
+855,New South Wales,NSW - Tamworth (Halls Creek Road) Bushfires(3 January 2019 onwards),1,0,1,0.0,no-D,D
+853,New South Wales,NSW - Parkes and Cabonne (Curembenya) Bushfires(5 January 2019 onwards),2,0,2,0.0,no-D,D
+856,New South Wales,NSW - Parkes and Greater Hume Storms(22-23 January 2019),2,0,2,0.0,no-D,D
+862,New South Wales,NSW - Tamworth Regional and Upper Hunter Bushfires (11 February 2019 onwards),2,0,2,0.0,no-D,D
+867,New South Wales,NSW - Singleton and Muswellbrook Bushfires (11 February 2019 onwards),2,0,2,0.0,no-D,D
+864,New South Wales,NSW - Tenterfield Bushfires (9 March 2019 onwards),1,0,1,0.0,no-D,D
+881,New South Wales,Sydney and Southern Highlands Storms (5 September 2019 onwards),6,0,6,0.0,no-D,D
+916,New South Wales,NSW - Western NSW Floods (26 February 2020 onwards),3,0,3,0.0,no-D,D
+917,New South Wales,NSW - Western NSW Storms and Floods (3-4 April 2020),5,0,5,0.0,no-D,D
+918,New South Wales,NSW - Western NSW Storms and Floods (10-12 April 2020),5,0,5,0.0,no-D,D
+935,Northern Territory,AGRN 935 - Northern Territory Bushfires (1 August - 19 September 2020),13,0,13,0.0,no-D,D
+923,New South Wales,AGRN 923 - NSW Storms and Floods (5 August 2020 onwards),16,0,16,0.0,no-D,D
+938,New South Wales,AGRN 938 - Central NSW Storms (18 August 2020 onwards),2,0,2,0.0,no-D,D
+939,Victoria,AGRN 939 - Victoria Floods and Storms (7 October 2020 onwards),5,0,5,0.0,no-D,D
+957,Queensland,AGRN 957 - Kooralbyn Bushfire (12-19 October 2020),1,0,1,0.0,no-D,D
+936,New South Wales,AGRN 936 - NSW Storms and Floods (20 October 2020 onwards),8,0,8,0.0,no-D,D
+940,South Australia,AGRN 940 - Flinders Ranges Council Storm Event (October 2020),1,0,1,0.0,no-D,D
+937,Queensland,AGRN 937 - South East Queensland Hailstorm (31 October 2020),2,0,2,0.0,no-D,D
+941,Queensland,AGRN 941 - K’gari (Fraser Island) Bushfires (15 Nov - 4 Dec 2020),1,0,1,0.0,no-D,D
+942,Victoria,AGRN 942 - Central-East Victoria Storms (commencing 15 November 2020),3,0,3,0.0,no-D,D
+958,Queensland,AGRN 958 - Gumlow Bushfire (21-26 November 2020),1,0,1,0.0,no-D,D
+945,New South Wales,AGRN 945 - NSW Storms (28 November 2020 onwards),4,0,4,0.0,no-D,D
+949,New South Wales,AGRN 949 - NSW Storms (2 December 2020 onwards),3,0,3,0.0,no-D,D
+943,New South Wales,AGRN 943 - NSW Storms and Floods (10 December 2020 onwards),19,0,19,0.0,no-D,D
+963,Western Australia,AGRN 963 - Tropical Low & Associated flooding in the Pilbara & Goldfields Regions (11-12 December 2020),3,0,3,0.0,no-D,D
+944,Queensland,AGRN 944 - South East Queensland Coastal Trough (12 - 15 December 2020),6,0,6,0.0,no-D,D
+947,Queensland,AGRN 947 - Western Queensland Thunderstorms (21-30 December 2020),5,0,5,0.0,no-D,D
+959,New South Wales,AGRN 959 - Eurobodalla Storms (26 December 2020 onwards),1,0,1,0.0,no-D,D
+946,Queensland,AGRN 946 - Tropical Cyclone Imogen and Associated Low Pressure System (2 - 12 January 2021),20,0,20,0.0,no-D,D
+948,New South Wales,AGRN 948 - NSW Storms and Floods (2 January 2021 onwards),4,0,4,0.0,no-D,D
+953,Tasmania,AGRN 953 - Flinders Island Storm (4 January 2021),1,0,1,0.0,no-D,D
+952,Queensland,ARGN 952 - Far North Queensland Tropical Low (24-30 January 2021),9,0,9,0.0,no-D,D
+951,Western Australia,AGRN 951 - Tropical Low and Low and Associated Flooding (28 January - 8 February 2021),8,0,8,0.0,no-D,D
+950,Western Australia,AGRN 950 - Wooroloo Bushfire (1 February 2021),2,0,2,0.0,no-D,D
+967,New South Wales,AGRN 967 - Snowy Valleys Storms (3 February 2021 onwards),1,0,1,0.0,no-D,D
+964,Western Australia,AGRN 964 - Thunderstorms and Associated Flooding in the Shire of Wiluna (16-18 February 2021),1,0,1,0.0,no-D,D
+954,New South Wales,AGRN 954 - North Coast Storms and Floods (19 February 2021 onwards),7,7,0,1.0,all-D,D
+955,Northern Territory,AGRN 955 - February-March 2021 Floods (February 2021),4,0,4,0.0,no-D,D
+956,Queensland,AGRN 956 - TC Niran and associated low pressure system (25 Feb - 3 March 2021),8,5,3,0.625,mixed-D,D
+962,Western Australia,"AGRN 962 - Storms, heavy rainfall and associated flooding in the Mid West & South West Land Division (1-5 March 2021)",9,0,9,0.0,no-D,D
+972,Tasmania,AGRN 972 - TAS - East Coast Storms (24-25 March 2021),2,0,2,0.0,no-D,D
+960,New South Wales,AGRN 960 - NSW Storms and Floods (10 March 2021 onwards),79,78,1,0.9873417721518988,mixed-D,D
+961,Queensland,AGRN 961 - Southern Queensland Severe Weather (20-31 March 2021),13,2,11,0.15384615384615385,mixed-D,D
+966,Victoria,AGRN 966 - Wellington Storms and Floods (commencing 23 March 2021),1,0,1,0.0,no-D,D
+965,Western Australia,AGRN 965 - Severe Tropical Cyclone Seroja (11-12 April 2021),16,16,0,1.0,all-D,D
+968,Queensland,AGRN 968 - Far North Queensland Low Pressure System (15-26 April 2021),6,0,6,0.0,no-D,D
+970,New South Wales,AGRN 970 - Southern NSW Storms and Floods (5 May 2021 onwards),4,0,4,0.0,no-D,D
+974,Western Australia,AGRN 974 - WA - Flooding in the Gascoyne and Murchison Regions (29-31 May 2021),2,0,2,0.0,no-D,D
+969,Victoria,AGRN 969 - Victorian Storms and Floods (commencing 9 June 2021),41,41,0,1.0,all-D,D
+971,Western Australia,AGRN 971 - WA - Torrential Rain and Associated Flooding in the Shire of Exmouth (9-10 June 2021),1,0,1,0.0,no-D,D
+976,New South Wales,AGRN 976 - NSW Storms (10 June 2021 onwards),1,0,1,0.0,no-D,D
+973,Western Australia,AGRN 973 - WA - Severe Weather and Associated Flooding across the South Coastal District (20-21 June 2021),5,0,5,0.0,no-D,D
+975,New South Wales,AGRN 975 - NSW Storms and Floods ( from 16 July 2021 onwards),2,0,2,0.0,no-D,D
+978,Western Australia,AGRN 978 - WA - Severe Weather across the Lower South West Land Division (20-31 July 2021),13,0,13,0.0,no-D,D
+992,New South Wales,AGRN 992 - NSW Storms and Floods (30 July 2021 onwards),2,0,2,0.0,no-D,D
+981,New South Wales,AGRN 981 - NSW Storms and Floods from 22 August 2021,1,0,1,0.0,no-D,D
+977,Victoria,AGRN 977 - Eastern Victoria Floods (commencing 3 September 2021),3,0,3,0.0,no-D,D
+999,Victoria,AGRN 999 - VIC - Victorian Earthquake (22 September 2021),2,0,2,0.0,no-D,D
+985,Victoria,AGRN 985 - South East Victorian Storms (30 September 2021),3,0,3,0.0,no-D,D
+989,New South Wales,AGRN 989 - NSW - Narrabri Storm and Tornado (30 September 2021),1,0,1,0.0,no-D,D
+979,New South Wales,AGRN 979 - NSW - Armidale Storm (14 October 2021),1,0,1,0.0,no-D,D
+991,Victoria,AGRN 991 - VIC - South East Victorian Storms (commencing 15 October 2021),2,0,2,0.0,no-D,D
+980,New South Wales,AGRN 980 - North East NSW Severe Weather (20 October 2021 onwards),1,1,0,1.0,all-D,D
+982,New South Wales,AGRN 982 - Severe Weather Event Accross NSW (23 October 2021 onwards),1,0,1,0.0,no-D,D
+984,South Australia,AGRN 984 - SA State-wide Storms (28 October 2021 onwards),24,0,24,0.0,no-D,D
+1000,Tasmania,AGRN 1000 - TAS - Central Tasmania Flooding (October and November 2021),3,0,3,0.0,no-D,D
+983,Victoria,AGRN 983 - Victoria Storms (29 October 2021),39,17,22,0.4358974358974359,mixed-D,D
+990,Northern Territory,AGRN 990 - NT - Central Australia Floods (November 2021),3,0,3,0.0,no-D,D
+987,New South Wales,AGRN 987 - NSW Severe Weather and Flooding from 9 November 2021 onwards,62,62,0,1.0,all-D,D
+986,Queensland,"AGRN 986 - QLD - Central, Southern and Western Queensland Rainfall and Flooding (10 Nov - 3 Dec 2021)",27,27,0,1.0,all-D,D
+988,Victoria,AGRN 988 - VIC - East Victorian Storms (commencing 12 November 2021,4,0,4,0.0,no-D,D
+1002,Tasmania,AGRN 1002 - TAS - Southern Tasmanian Storm (December 2021),1,0,1,0.0,no-D,D
+997,Victoria,AGRN 997 - VIC - Baw Baw Storms (2 December 2021),1,0,1,0.0,no-D,D
+993,New South Wales,AGRN 993 - NSW - Northern Beaches Severe Storm (19 December 2021),1,1,0,1.0,all-D,D
+1001,New South Wales,AGRN 1001 - NSW - Southern NSW Storm and Floods (5 January 2022 onwards),21,21,0,1.0,all-D,D
+995,Victoria,AGRN 995 - VIC - Central West Victorian Storms (5 January 2022),5,0,5,0.0,no-D,D
+994,Queensland,AGRN 994 - QLD - Ex Tropical Cyclone Seth (7-10 January 2022),9,9,0,1.0,all-D,D
+998,Queensland,AGRN 998 - QLD - Tropical Cyclone Tiffany (10-11 January 2022),4,0,4,0.0,no-D,D
+996,New South Wales,AGRN 996 - NSW - Lithgow Severe Storm (11 January 2022),1,1,0,1.0,all-D,D
+1003,Northern Territory,AGRN 1003 - NT - Tropical Cyclone Tiffany (January 2022),5,0,5,0.0,no-D,D
+1004,Victoria,AGRN 1004 - VIC - Towong Floods and Storms (commencing 14 January 2022),2,0,2,0.0,no-D,D
+1018,Northern Territory,AGRN 1018 - NT - Central Australia Floods (15 January - 4 February 2022),3,0,3,0.0,no-D,D
+1005,Queensland,AGRN 1005 - QLD - Western Queensland Low Pressure Trough (19-24 January 2022),14,0,14,0.0,no-D,D
+1006,South Australia,AGRN 1006 - SA Severe weather and flooding (21 January - 2 February 2022),15,0,15,0.0,no-D,D
+1007,Victoria,AGRN 1007 - VIC - Victorian Floods and Storms (commencing 26 January 2022),10,0,10,0.0,no-D,D
+1008,Queensland,AGRN 1008 - QLD - Far North Queensland Low Pressure Trough (1-7 February 2022),4,0,4,0.0,no-D,D
+1013,Western Australia,AGRN 1013 - Tropical Low and Associated Flooding in the Kimberley Region (1-4 February 2022),3,0,3,0.0,no-D,D
+1009,Western Australia,AGRN 1009 - Bridgetown Bushfire (5-12 February 2022),1,0,1,0.0,no-D,D
+1010,Western Australia,AGRN 1010 - Shackelton Complex Bushfire (6-15 February 2022),2,0,2,0.0,no-D,D
+1015,Western Australia,AGRN 1015 - Severe Thunderstorms and Flooding in the Pilbara Region (7-10 February 2022),1,0,1,0.0,no-D,D
+1011,Queensland,AGRN 1011 - South East Queensland Rainfall and Flooding (22 February - 5 April 2022),23,23,0,1.0,all-D,D
+1012,New South Wales,AGRN 1012 - NSW Severe Weather and Flooding (22 February 2022 onwards),62,62,0,1.0,all-D,D
+1017,Queensland,AGRN 1017 - Cape York Tropical Low and Rainfall (22-28 February 2022),4,0,4,0.0,no-D,D
+1024,Western Australia,AGRN 1024 - Tropical Cyclone Anika (26 February - 4 March 2022),1,0,1,0.0,no-D,D
+1014,New South Wales,AGRN 1014 - Broken Hill Severe Thunderstorm (15 March 2022),1,0,1,0.0,no-D,D
+1021,Western Australia,AGRN 1021 - WA Flooding in the Midwest and Gascoyne Regions (26 March - 3 April 2022),7,0,7,0.0,no-D,D
+1016,Victoria,AGRN 1016 - Victorian Floods and Storms (2 April 2022),1,0,1,0.0,no-D,D
+1023,Western Australia,AGRN 1023 - Storms and Flooding in the South Coastal District (11-14 April 2022),2,0,2,0.0,no-D,D
+1027,New South Wales,AGRN 1027 - Wingecarribee Severe Storm (19 April 2022),1,0,1,0.0,no-D,D
+1019,Queensland,AGRN 1019 - Northern and Central Queensland Rainfall and Flooding (21 - 28 April 2022),28,0,28,0.0,no-D,D
+1020,Queensland,AGRN 1020 - Southern Queensland Flooding (6-20 May 2022),21,21,0,1.0,all-D,D
+1035,Western Australia,AGRN 1035 - Heavy Rainfall and Flooding in the Shire of Wiluna in Western Australia (21-24 May 2022),1,0,1,0.0,no-D,D
+1031,Western Australia,AGRN 1031 - Heavy Rainfall and Flooding Pilbara Region (29 May - 1 June 2022),1,0,1,0.0,no-D,D
+1022,Victoria,AGRN 1022 - South East Victorian Storms (commencing 6 June 2022),2,0,2,0.0,no-D,D
+1026,Tasmania,AGRN 1026 - North-West Tasmania Storm (11-12 June 2022),2,0,2,0.0,no-D,D
+1025,New South Wales,AGRN 1025 - NSW Severe Weather and Flooding (27 June 2022 onwards),51,51,0,1.0,all-D,D
+1028,Queensland,AGRN 1028 - South Queensland East Coast Low (July 2022),2,0,2,0.0,no-D,D
+1041,Western Australia,AGRN 1041 - Storms in the South West of Western Australia (1-3 August 2022),2,0,2,0.0,no-D,D
+1030,New South Wales,AGRN 1030 - Southern and Central West Flooding (4 August 2022 onwards),28,28,0,1.0,all-D,D
+1029,Victoria,AGRN 1029 - South-East Victorian Storms (Commencing 13 August 2022),5,0,5,0.0,no-D,D
+1039,Tasmania,AGRN 1039 - Huon Valley and Derwent Valley Flash Flooding (13-14 August 2022),2,0,2,0.0,no-D,D
+1033,Victoria,AGRN 1033 - Wodonga Floods (commencing 29 August 2022),1,0,1,0.0,no-D,D
+1032,Queensland,AGRN 1032 - South West Queensland Low Pressure Trough (7-15 September 2022),4,0,4,0.0,no-D,D
+1034,New South Wales,AGRN 1034 - NSW Flooding (14 September 2022 onwards),76,75,1,0.9868421052631579,mixed-D,D
+1036,Queensland,AGRN 1036 - South East Queensland Severe Storms (22-23 September 2022),2,0,2,0.0,no-D,D
+1037,Victoria,AGRN 1037 - Victorian Floods (commencing 6 October 2022),65,64,1,0.9846153846153847,mixed-D,D
+1038,Tasmania,AGRN 1038 - Severe Weather Event (commencing 13 October 2022),18,0,18,0.0,no-D,D
+1040,Queensland,AGRN 1040 - Southern Queensland Severe Weather (October - November 2022),5,0,5,0.0,no-D,D
+1043,Northern Territory,AGRN 1043 - Alice Springs Severe Thunderstorm (November 2022),1,0,1,0.0,no-D,D
+1042,South Australia,AGRN 1042 - South Australian Floods (commencing 15 November 2022),9,9,0,1.0,all-D,D
+1050,Queensland,AGRN 1050 - Whitsunday Rainfall and Flooding (30 Nov - 1 Dec 2022),1,0,1,0.0,no-D,D
+1046,Queensland,AGRN 1046 - Northern and Central Queensland Monsoon and flooding (20 Dec 2022 - March 2023),45,7,38,0.15555555555555556,mixed-D,D
+1045,Northern Territory,AGRN 1045 - Ex-Tropical Cyclone Ellie and Flooding (December 2022),6,0,6,0.0,no-D,D
+1044,Western Australia,AGRN 1044 - Ex TC Ellie and associated flooding (28 December 2022 onwards),4,4,0,1.0,all-D,D
+1058,Victoria,AGRN 1058 - Benalla Tornado (commencing 14 January 2023),1,0,1,0.0,no-D,D
+1053,New South Wales,AGRN 1053 - Gwydir and Narrabri NSW Bushfires (18 January 2023),2,0,2,0.0,no-D,D
+1065,New South Wales,AGRN 1065 - Cootamundra-Gundagai Bushfires (25 January 2023 onwards),1,0,1,0.0,no-D,D
+1048,Queensland,AGRN 1048 - Western Downs Bushfire (30 January - March 2023),1,0,1,0.0,no-D,D
+1047,New South Wales,AGRN 1047 - Port Macquarie Hastings Severe Storm (3 February 2023),1,0,1,0.0,no-D,D
+1049,New South Wales,AGRN 1049 - NSW Severe Storms (9 February 2023),2,0,2,0.0,no-D,D
+1066,New South Wales,AGRN 1066 - Upper Lachlan and Yass Valley Bushfires (11 February 2023 onwards),2,0,2,0.0,no-D,D
+1055,New South Wales,AGRN 1055 - Western and North West NSW Bushfires (17 February 2023),5,0,5,0.0,no-D,D
+1051,Northern Territory,AGRN 1051 - Northern Region Flooding (26 February 2023 onwards),2,0,2,0.0,no-D,D
+1054,New South Wales,"AGRN 1054 - Gwydir, Moree Plains and Narrabri NSW Bushfires (1 March 2023)",3,0,3,0.0,no-D,D
+1052,New South Wales,AGRN 1052 - NSW Bushfires (6 March 2023),12,0,12,0.0,no-D,D
+1057,New South Wales,AGRN 1057 - Cootamundra-Gundagai and Hilltops Storm and Flooding (12 March 2023 onwards),2,0,2,0.0,no-D,D
+1056,New South Wales,AGRN 1056 - Upper Lachlan Bushfires (16 March 2023 onwards),2,0,2,0.0,no-D,D
+1060,Victoria,AGRN 1060 - North-East Victorian Storms (commencing 23 March 2023),2,0,2,0.0,no-D,D
+1061,Western Australia,AGRN 1061 - Wheatbelt region of WA - Storm and Associated Flooding (25-26 March 2023),2,0,2,0.0,no-D,D
+1062,Western Australia,AGRN 1062 - Storms and associated flooding in the Midwest-Gascoyne and Pilbara regions (29 March - 4 April 2023),7,0,7,0.0,no-D,D
+1059,Western Australia,AGRN 1059 - Tropical Cyclone Ilsa (13 April 2023 onwards),3,3,0,1.0,all-D,D
+1064,Northern Territory,AGRN 1064 - East Arnhem Region Flooding (16 April to 18 April 2023),1,0,1,0.0,no-D,D
+1067,Queensland,AGRN 1067 - South West Queensland Flooding (4 June - 7 July 2023),2,0,2,0.0,no-D,D
+1063,Victoria,AGRN 1063 - North Victorian Storms (commencing 07 June 2023),5,0,5,0.0,no-D,D
+1068,Northern Territory,AGRN 1068 - Southern Region Bushfire (August 2023 onwards),6,0,6,0.0,no-D,D
+1131,New South Wales,AGRN 1131 - Upper Hunter NSW Bushfire (10 - 17 August 2023),1,0,1,0.0,no-D,D
+1071,New South Wales,AGRN 1071 - North Eastern NSW Bushfires (21 August 2023 onwards),4,0,4,0.0,no-D,D
+1069,Victoria,AGRN 1069 - Victorian Storms (commencing 8 September 2023),3,0,3,0.0,no-D,D
+1078,Queensland,AGRN 1078 - Southern Queensland Bushfires (8 September - 7 November 2023),17,17,0,1.0,all-D,D
+1099,New South Wales,AGRN 1099 - Singleton NSW Bushfires (11 September - 18 October 2023),1,0,1,0.0,no-D,D
+1085,Queensland,AGRN 1085 - Nome and Julago Bushfire (16 - 24 September 2023),1,0,1,0.0,no-D,D
+1089,New South Wales,AGRN 1089 - Mid Coast NSW Bushfires (20 September - 6 October 2023),1,0,1,0.0,no-D,D
+1090,New South Wales,AGRN 1090 - Lower Hunter NSW Bushfires (20 September to 9 October 2023),4,0,4,0.0,no-D,D
+1132,New South Wales,AGRN 1132 - Snowy Monaro NSW Bushfire (20 September - 4 October 2023),1,0,1,0.0,no-D,D
+1073,Victoria,AGRN 1073 - East Victorian Fires (commencing 29 September 2023),3,0,3,0.0,no-D,D
+1133,New South Wales,AGRN 1133 - Lake Macquarie NSW Bushfire (1 - 18 October 2023),1,0,1,0.0,no-D,D
+1083,New South Wales,AGRN 1083 - Mid-Western NSW Bushfires (2-10 October 2023),1,0,1,0.0,no-D,D
+1084,New South Wales,AGRN 1084 - Snowy Monaro NSW Bushfires (2 October 2023),1,0,1,0.0,no-D,D
+1070,New South Wales,AGRN 1070 - Bega Valley NSW Bushfires (3 October 2023 onwards),1,0,1,0.0,no-D,D
+1072,Victoria,AGRN 1072 - East Victorian Floods (commencing 3 October 2023),11,0,11,0.0,no-D,D
+1075,New South Wales,AGRN 1075 - Far North NSW Bushfires (13 October 2023 onwards),4,0,4,0.0,no-D,D
+1135,New South Wales,AGRN 1135 - Byron NSW Bushfire (14 October - 5 November 2023),1,0,1,0.0,no-D,D
+1076,New South Wales,AGRN 1076 - Mid North NSW Bushfires (16 October 2023 onwards),3,0,3,0.0,no-D,D
+1077,New South Wales,AGRN 1077 - Mid-Western NSW Bushfires (17 October 2023 onwards),1,0,1,0.0,no-D,D
+1079,Queensland,AGRN 1079 - Northern Queensland bushfres (18 October - 8 December 2023),5,0,5,0.0,no-D,D
+1091,New South Wales,AGRN 1091 Hunter NSW Bushfires (22 October - 5 November 2023),2,0,2,0.0,no-D,D
+1115,Queensland,AGRN 1115 - Mount Isa bushfire (23 October - 1 November 2023),1,0,1,0.0,no-D,D
+1134,New South Wales,AGRN 1134 - Tamworth NSW Bushfires (26 October - 4 November 2023),1,0,1,0.0,no-D,D
+1136,New South Wales,AGRN 1136 - Lithgow NSW Bushfire (11 - 17 November 2023),1,0,1,0.0,no-D,D
+1081,New South Wales,AGRN 1081 - North Western NSW Bushfires (14 November 2023 onwards),1,0,1,0.0,no-D,D
+1080,Queensland,AGRN 1080 - The Pines and Condamine Farms bushfire (19 November - 1 December 2023),1,0,1,0.0,no-D,D
+1137,New South Wales,AGRN 1137 - Parkes NSW Bushfire (19 - 27 November 2023),1,0,1,0.0,no-D,D
+1097,Queensland,AGRN 1097 - Queensland low pressure trough (20 November - 1 December 2023),4,0,4,0.0,no-D,D
+1082,Western Australia,AGRN 1082 - Mariginiup Bushfire in Western Australia (22 November 2023 onwards),2,0,2,0.0,no-D,D
+1086,New South Wales,AGRN 1086 NSW Severe Weather and Flooding (28 November 2023 onwards),5,0,5,0.0,no-D,D
+1087,Victoria,AGRN 1087 - Victorian Floods and Storms (commencing 28 November 2023),5,0,5,0.0,no-D,D
+1138,New South Wales,AGRN 1138 - Richmond Valley NSW Bushfire (4 - 15 December 2023),1,0,1,0.0,no-D,D
+1139,New South Wales,AGRN 1139 - Mid-Western NSW Bushfire (6 - 16 December 2023),1,0,1,0.0,no-D,D
+1114,New South Wales,AGRN 1114 - Inverell and Tenterfield NSW Bushfires (7-24 December 2023),2,0,2,0.0,no-D,D
+1093,New South Wales,AGRN 1093 - Narrabri NSW Bushfires (8 December 2023 onwards),1,0,1,0.0,no-D,D
+1110,South Australia,AGRN 1110 - South Australia Severe Weather Event (8-12 December 2023),4,0,4,0.0,no-D,D
+1111,Australian Capital Territory,AGRN 1111 - ACT severe storms (8 - 13 December 2023),1,0,1,0.0,no-D,D
+1140,New South Wales,AGRN 1140 - Singleton NSW Bushfire (8 - 18 December 2023),1,0,1,0.0,no-D,D
+1112,New South Wales,AGRN 1112 - Armidale NSW Bushfires (9 December - 23 December 2023),1,0,1,0.0,no-D,D
+1088,Queensland,"AGRN 1088 - Tropical Cyclone Jasper, associated rainfall and flooding (13 - 28 December 2023)",18,18,0,1.0,all-D,D
+1095,Victoria,AGRN 1095 - North East Victorian Storms (commencing 13 December 2023),3,0,3,0.0,no-D,D
+1092,New South Wales,AGRN 1092 - Cessnock NSW Bushfires (14 December onwards),1,0,1,0.0,no-D,D
+1098,Queensland,AGRN 1098 - Brisbane and Ipswich severe storms (15-16 December 2023),2,0,2,0.0,no-D,D
+1117,Australian Capital Territory,AGRN 1117 - ACT Storm Event (19-21 December 2023),1,0,1,0.0,no-D,D
+1094,Queensland,AGRN 1094 - South East Queensland Severe Storms and Rainfall (24 December 2023 - 3 January 2024),8,3,5,0.375,mixed-D,D
+1096,Victoria,AGRN 1096 - Victorian Floods and Storms commencing 24 December 2023,29,29,0,1.0,all-D,D
+1100,New South Wales,AGRN 1100 - NSW Storms and Floods (25 December 2023 onwards),3,0,3,0.0,no-D,D
+1101,New South Wales,AGRN 1101 - NSW Storms and Floods (31 December 2023 onwards),2,0,2,0.0,no-D,D
+1105,New South Wales,AGRN 1105 - Western NSW Storms and Flooding (6 January 2024 onwards),2,0,2,0.0,no-D,D
+1109,Queensland,AGRN 1109 - South West Queensland flooding (6 January - 23 January 2024),5,0,5,0.0,no-D,D
+1104,Queensland,AGRN 1104 - North Queensland Monsoon Trough (12 - 22 January 2024),1,0,1,0.0,no-D,D
+1128,Australian Capital Territory,AGRN 1128 - ACT Storm Event (13 January 2024),1,0,1,0.0,no-D,D
+1103,Northern Territory,AGRN 1103 - Tropical Low 03U/ Tropical Low 07U - Ex-TC Lincoln (Jan - Feb 2024),8,0,8,0.0,no-D,D
+1113,Western Australia,AGRN 1113 - Tropical Low and Associated Flooding in Western Australia (21-27 January 2024,7,0,7,0.0,no-D,D
+1121,New South Wales,AGRN 1121 - Clarence Valley NSW Bushfire (21 January - 13 February 2024),1,0,1,0.0,no-D,D
+1102,Queensland,"AGRN 1102 - Tropical Cyclone Kirrily, associated rainfall and flooding (25 January - 26 February 2024))",41,0,41,0.0,no-D,D
+1141,New South Wales,AGRN 1141 - Central Darling NSW Storm (5-6 February 2024),1,0,1,0.0,no-D,D
+1108,Victoria,AGRN 1108 - Victorian Bushfires and Storms (commencing 13 February 2024),38,38,0,1.0,all-D,D
+1118,Western Australia,AGRN 1118 - Ex-Tropical Cyclone Lincoln and associated flooding in Western Australia (19-25 February 2024),2,0,2,0.0,no-D,D
+1125,Tasmania,AGRN 1125 - Tasmania East Coast Severe Weather Event (February 2024),1,0,1,0.0,no-D,D
+1123,Western Australia,AGRN 1123 - Tropical Low and Associated Flooding in the Shire of East Pilbara (4-11 March 2024),1,0,1,0.0,no-D,D
+1120,Western Australia,"AGRN 1120 - Storms and associated flooding across the Goldfields, Southern Interior and Eucla areas (7 March 2024 onwards)",10,0,10,0.0,no-D,D
+1116,Northern Territory,AGRN 1116 - Tropical Low 09U Cyclone Megan: (March 2024),8,0,8,0.0,no-D,D
+1126,Queensland,AGRN 1126 - QLD - Western Queensland Rainfall and Flooding (22 March - 20 April 2024),9,0,9,0.0,no-D,D
+1119,New South Wales,AGRN 1119 - NSW East Coast Flooding (from 1 April 2024 onwards),33,0,33,0.0,no-D,D
+1122,Victoria,AGRN 1122 - Yarra Ranges Floods (commencing 01 April 2024),1,0,1,0.0,no-D,D
+1127,New South Wales,AGRN 1127 - NSW Severe Weather (9 - 14 May 2024),2,0,2,0.0,no-D,D
+1124,Western Australia,AGRN 1124 - Storm and Tornado in the City of Bunbury in Western Australia (10 May 2024),1,0,1,0.0,no-D,D
+1130,Western Australia,AGRN 1130 - Storm in the South West Region of Western Australia (1-2 June 2024),2,0,2,0.0,no-D,D
+1129,New South Wales,AGRN 1129 - NSW Severe Weather (4 June 2024 onwards),6,0,6,0.0,no-D,D
+1143,Western Australia,AGRN 1143 - Heavy Rainfall and Associated Flooding in the Geraldton Region of Western Australia (6-9 June 2024),2,0,2,0.0,no-D,D
+1150,Western Australia,AGRN 1150 - WA - Heavy Rainfall and associated flooding in the Shire of Northampton (26-30 June 2024),1,0,1,0.0,no-D,D
+1145,Queensland,AGRN 1145 - Diamantina Rainfall and Flooding (1-7 July 2024),1,0,1,0.0,no-D,D
+1142,Victoria,AGRN 1142 - Eastern Victoria Storms and Floods (commencing 15 July 2024),3,0,3,0.0,no-D,D
+1146,Victoria,AGRN 1146 - North-East Victorian Earthquake (6 August 2024),1,0,1,0.0,no-D,D
+1151,New South Wales,AGRN 1151 - North Coast NSW Severe Weather (11 August 2024 onwards),1,0,1,0.0,no-D,D
+1148,Queensland,AGRN 1148 - Central and Southern Queensland Rainfall and Flooding (12-14 August 2024),7,0,7,0.0,no-D,D
+1159,New South Wales,AGRN 1159 - NSW Muswellbrook Earthquakes (23 August - 12 November 2024),1,0,1,0.0,no-D,D
+1147,Victoria,AGRN 1147 - Victorian Storms (commencing 25 August 2024),28,0,28,0.0,no-D,D
+1144,Tasmania,AGRN 1144 - Tasmania Severe Weather Event (commencing 26 August 2024),29,0,29,0.0,no-D,D
+1155,New South Wales,AGRN 1155 - Wingecarribee NSW Storm (28 August 2024 onwards),1,0,1,0.0,no-D,D
+1156,New South Wales,AGRN 1156 - Tenterfield NSW Bushfire (2 September -16 September 2024),1,0,1,0.0,no-D,D
+1154,Queensland,AGRN 1154 - North Queensland Bushfires (12 September - 15 November 2024),4,0,4,0.0,no-D,D
+1183,Queensland,AGRN 1183 - Cook and Hope Vale Bushfires (20 September to 9 October 2024),2,0,2,0.0,no-D,D
+1165,Queensland,AGRN 1165 - Mount Tabor Bushfire (22 September to 8 October 2024),2,0,2,0.0,no-D,D
+1162,New South Wales,AGRN 1162 - NSW North Coast Storms (24 September 2024 onwards),2,0,2,0.0,no-D,D
+1179,Queensland,AGRN 1179 - Cloncurry and Mount Isa Bushfires (6 to 29 October 2024),2,0,2,0.0,no-D,D
+1152,Victoria,AGRN 1152 - Victorian Floods and Storms (16-19 October 2024),3,0,3,0.0,no-D,D
+1149,New South Wales,AGRN 1149 - Far West Region Storm (17 October 2024 onwards),3,0,3,0.0,no-D,D
+1153,Queensland,AGRN 1153 - Dirranbandi Bushfires (5 - 10 November 2024),1,0,1,0.0,no-D,D
+1173,New South Wales,AGRN 1173 - NSW Kyogle Storm (From 7 November 2024),1,0,1,0.0,no-D,D
+1158,Queensland,AGRN 1158 - Scenic Rim and Ipswich Storms and Rainfall (10 -24 November 2024),2,0,2,0.0,no-D,D
+1181,Queensland,AGRN 1181 - Silver Valley and Walsh Bluff Bushfires (13 to 24 November 2024),2,0,2,0.0,no-D,D
+1157,New South Wales,AGRN 1157 - Walgett NSW Storm (17 November 2024 onwards),1,0,1,0.0,no-D,D
+1160,Victoria,AGRN 1160 - Greater Shepparton Storms (17 November 2024),1,0,1,0.0,no-D,D
+1164,Queensland,AGRN 1164 - Southwest Queensland Flooding and Rainfall (21 November to 10 December 2024),5,0,5,0.0,no-D,D
+1172,New South Wales,AGRN 1172 - NSW Byron Shire Storms (from 25 November 2024),1,0,1,0.0,no-D,D
+1177,New South Wales,AGRN 1177 - NSW Snowy Valleys Storms (from 25 November 2024),1,0,1,0.0,no-D,D
+1182,New South Wales,AGRN 1182 - NSW Gilgandra and Walgett Storms (from 25 November 2024),2,0,2,0.0,no-D,D
+1163,Victoria,AGRN 1163 - North-East Victoria Floods and Storms (commencing 27 November 2024),2,0,2,0.0,no-D,D
+1194,Tasmania,AGRN 1194 - Northern Rainfall Event (November/December 2024),3,0,3,0.0,no-D,D
+1178,New South Wales,AGRN 1178 - NSW Hilltops and Lockhart Shire storms (from 30 November 2024),2,0,2,0.0,no-D,D
+1205,New South Wales,AGRN 1205 - NSW Cabonne Shire Storms (from 4 December 2024),1,0,1,0.0,no-D,D
+1207,New South Wales,AGRN 1207 - NSW Griffith and Lockhart Storms (from 7 December 2024),2,0,2,0.0,no-D,D
+1167,Queensland,AGRN 1167 - Southern Summer Rainfall and Flooding (9 December 2024 to 14 January 2025),13,0,13,0.0,no-D,D
+1175,Western Australia,AGRN 1175 - Storms and Associated Flooding in the Pilbara and Midwest-Gascoyne Regions (10 December -17 December 2024),5,0,5,0.0,no-D,D
+1166,Victoria,AGRN 1166 - Western Victoria Bushfires (commencing 16 December 2024),8,8,0,1.0,all-D,D
+1191,New South Wales,AGRN 1191 - Singleton NSW Bushfires (16 -24 December 2024),1,0,1,0.0,no-D,D
+1168,Queensland,AGRN 1168 - North Queensland Rainfall and Flooding (19 to 24 December 2024),2,0,2,0.0,no-D,D
+1169,Victoria,AGRN 1169 - Bass Coast Bushfires (commencing 19 December 2024),1,0,1,0.0,no-D,D
+1193,New South Wales,AGRN 1193 - Bathurst and Lithgow NSW Bushfire (23 December 2024 - 11 January 2025),2,0,2,0.0,no-D,D
+1189,New South Wales,AGRN 1189 - Singleton and Muswellbrook NSW Bushfires (27 December 2024 - 18 January 2025),2,0,2,0.0,no-D,D
+1190,New South Wales,AGRN 1190 - Yass Valley NSW Bushfire (27 December 2024 - 7 January 2025),1,0,1,0.0,no-D,D
+1192,New South Wales,AGRN 1192 -Tamworth and Uralla NSW Bushfires (27 December 2024 - 9 January 2025),2,0,2,0.0,no-D,D
+1196,New South Wales,AGRN 1196 - Mid-Western NSW Bushfires (27 December 2024 - 8 January 2025),1,0,1,0.0,no-D,D
+1197,New South Wales,AGRN 1197 - Hawkesbury NSW Bushfires (5 - 16 January 2025),1,0,1,0.0,no-D,D
+1170,New South Wales,AGRN 1170 - NSW Severe Weather and Storms from 15 January 2025,21,0,21,0.0,no-D,D
+1186,Queensland,AGRN 1186 - Brisbane Microburst Event (16 January 2025),1,0,1,0.0,no-D,D
+1176,Western Australia,AGRN 1176 - Marble Bar Storm in Western Australia (23 January 2025),1,0,1,0.0,no-D,D
+1199,New South Wales,AGRN 1199 - NSW Narrabri and Gwydir Bushfire (27 January - 10 February 2025),2,0,2,0.0,no-D,D
+1206,New South Wales,AGRN 1206 - NSW Walgett and Coonamble Bushfire (28 January -12 February 2025),2,0,2,0.0,no-D,D
+1174,Queensland,AGRN 1174 - North and Far North Tropical Low (29 January - 28 February 2025),40,40,0,1.0,all-D,D
+1180,Victoria,AGRN 1180 - South-West Victoria Storms (2 February 2025),3,0,3,0.0,no-D,D
+1187,Tasmania,AGRN 1187 - Tasmanian West Coast Fires (February 2025),5,5,0,1.0,all-D,D
+1188,Victoria,AGRN 1188 - East Victoria Storms (commencing 7 February 2025),5,0,5,0.0,no-D,D
+1200,New South Wales,AGRN 1200 - NSW Bega Valley and Snowy Monaro Storms (From 8 February 2025),2,0,2,0.0,no-D,D
+1184,New South Wales,AGRN 1184 - NSW Hilltops Severe Weather (From 10 February 2025),1,0,1,0.0,no-D,D
+1185,Western Australia,AGRN 1185 - Severe Tropical Cyclone Zelia and Associated Flooding in Western Australia (12 -16 February 2025),3,0,3,0.0,no-D,D
+1201,Western Australia,AGRN 1201 - Storm in the Perth Hills Area in Western Australia (19 February 2025),3,0,3,0.0,no-D,D
+1203,New South Wales,AGRN 1203 - NSW Warrumbungle and Narrabri Bushfire (26 February -13 March 2025),2,0,2,0.0,no-D,D
+1195,Queensland,AGRN 1195 - QLD - Tropical Cyclone Alfred and Associated Severe Weather (1-16 March 2025),18,18,0,1.0,all-D,D
+1198,New South Wales,AGRN 1198 - Tropical Cyclone Alfred Severe Weather (from 3 March 2025),19,19,0,1.0,all-D,D
+1208,Western Australia,AGRN 1208 - Storms and Associated Flooding in the Great Southern Region of Western Australia (13-14 March 2025),2,0,2,0.0,no-D,D
+1202,Queensland,AGRN 1202 - Western Queensland Surface Trough Associated Rainfall and Flooding (21 March - 19 May 2025),41,40,1,0.975609756097561,mixed-D,D
+1211,New South Wales,AGRN 1211 - Far West NSW Flooding (from 22 March 2025),5,0,5,0.0,no-D,D
+1204,New South Wales,AGRN 1204 - NSW Severe Storms (from 28 March 2025),6,0,6,0.0,no-D,D
+1209,South Australia,AGRN 1209 - SA Inland River Flooding (commencing 8 April 2025),1,1,0,1.0,all-D,D
+1210,Queensland,AGRN 1210 - Lockhart River Rainfall and Flooding (9 April to 16 April 2025),1,0,1,0.0,no-D,D
+1213,Northern Territory,AGRN 1213 - Tropical Low 30U Flooding (April 2025),2,0,2,0.0,no-D,D
+1215,New South Wales,AGRN 1215 - NSW East Coast Storms (from 25 April 2025),2,0,2,0.0,no-D,D
+1212,New South Wales,AGRN 1212- NSW East Coast Severe Weather (from 18 May 2025),25,25,0,1.0,all-D,D
+1276,New South Wales,AGRN 1276 - Oberon Severe Weather Event (from 24 June 2025),1,0,1,0.0,no-D,D
+1217,New South Wales,AGRN 1217 - NSW South Coast Severe Weather (from 30 June 2025),2,0,2,0.0,no-D,D
+1214,Victoria,AGRN 1214 - East Gippsland Floods (commencing 1 July 2025),1,0,1,0.0,no-D,D
+1220,Western Australia,AGRN 1220 - Storm and Flooding in the Shire of Jerramungup in Western Australia (28-29 July 2025),1,0,1,0.0,no-D,D
+1216,New South Wales,AGRN 1216 - NSW Severe Weather Event (from 31 July onwards),13,0,13,0.0,no-D,D
+1238,New South Wales,AGRN 1238 - Wollondilly and Camden NSW Severe Weather Event (19 - 23 August 2025),2,0,2,0.0,no-D,D
+1218,Victoria,AGRN 1218 - Victorian Storms (commencing 29 August 2025),20,0,20,0.0,no-D,D
+1219,Victoria,AGRN 1219 - Central Victoria Storms (commencing 15 September 2025),4,0,4,0.0,no-D,D
+1267,Queensland,AGRN 1267 - Townsville Complex Bushfire (21 September to 15 October 2025),2,0,2,0.0,no-D,D
+1235,New South Wales,AGRN 1235 - Clarence Valley NSW Bushfire (from 25 September - 28 October 2025),1,0,1,0.0,no-D,D
+1251,Queensland,AGRN 1251 - Darling Downs and Maranoa Bushfires (26 September - 14 October),3,0,3,0.0,no-D,D
+1255,Queensland,AGRN 1255 - Central Queensland Bushfires (2-27 October 2025),8,0,8,0.0,no-D,D
+1266,Queensland,AGRN 1266 - Moreton Island Bushfire (4 to 13 October 2025),1,0,1,0.0,no-D,D
+1226,Western Australia,AGRN 1226 - Heavy Rainfall and associated flooding in the Goldfields-Esperance Region of Western Australia,2,0,2,0.0,no-D,D
+1237,New South Wales,AGRN 1237 - Kempsey NSW Bushfire ( 6 - 9 October 2025),1,0,1,0.0,no-D,D
+1268,Queensland,AGRN 1268 - North Queensland Savanna Bushfires (20 October to 13 November 2025),9,0,9,0.0,no-D,D
+1236,New South Wales,AGRN 1236 -Tenterfield NSW Bushfire (from 23 October - 3 November 2025),1,0,1,0.0,no-D,D
+1221,Queensland,AGRN 1221 - SEQ Severe Storms - 26 October 2025,3,0,3,0.0,no-D,D
+1253,Queensland,AGRN 1253 - Weir River Bushfires (26 October to 7 November 2025),2,0,2,0.0,no-D,D
+1244,New South Wales,AGRN 1244 - Mid-Western Regional NSW Bushfire (5 - 18 November 2025),1,0,1,0.0,no-D,D
+1250,Queensland,AGRN 1250 - Red Hill Bushfire (5-11 November 2025),1,0,1,0.0,no-D,D
+1245,New South Wales,AGRN 1245 - Dungog NSW Bushfire: from 9 November 2025,1,0,1,0.0,no-D,D
+1254,Queensland,AGRN 1254 - Inglewood Bushfires (10 to 17 November 2025),2,0,2,0.0,no-D,D
+1224,Queensland,AGRN 1224 - Central and Southern Queensland Storms and Flooding 15 - 18 November 2025,2,0,2,0.0,no-D,D
+1246,New South Wales,AGRN 1246 - Lithgow NSW Bushfire (from 16 November 2025),1,0,1,0.0,no-D,D
+1231,New South Wales,AGRN 1231 - NSW Mid Coast Bushfires (from 17 November 2025),1,0,1,0.0,no-D,D
+1223,Northern Territory,AGRN 1223 - Tropical Cyclone Fina 02U November 2025,11,0,11,0.0,no-D,D
+1274,New South Wales,AGRN 1274 - Lockhart Bushfire (23 - 30 November 2025),1,0,1,0.0,no-D,D
+1225,Queensland,AGRN 1225 - Queensland Southern Coast Severe Storms 24-25 November 2025,11,0,11,0.0,no-D,D
+1228,New South Wales,AGRN 1228 - Upper Hunter and Muswellbrook NSW Bushfires (from 26 November 2025),2,0,2,0.0,no-D,D
+1233,Victoria,AGRN 1233 - South-East Victorian Storms (commencing 26 November 2025),2,0,2,0.0,no-D,D
+1247,New South Wales,AGRN 1247 - NSW Severe Weather Event (from 26 November 2025),7,0,7,0.0,no-D,D
+1252,New South Wales,AGRN 1252 - Parkes NSW Bushfire (from 26 November 2025),1,0,1,0.0,no-D,D
+1230,New South Wales,AGRN 1230 - NSW Dubbo and Warrumbungle Bushfire (from 27 November 2025),2,0,2,0.0,no-D,D
+1227,Tasmania,AGRN 1227 - Southern Tasmania Bushfires (commencing 4 December 2025),5,0,5,0.0,no-D,D
+1229,New South Wales,AGRN 1229 - NSW Central Coast Bushfire (from 6 December 2025),1,0,1,0.0,no-D,D
+1232,New South Wales,AGRN 1232 - NSW Lake Macquarie Bushfire (from 6 December 2025),1,0,1,0.0,no-D,D
+1275,New South Wales,AGRN 1275 - Cessnock Bushfire (8 - 28 December 2025),1,0,1,0.0,no-D,D
+1234,Tasmania,AGRN 1234 - Break O'Day Bushfires (commencing 9 December 2025),1,0,1,0.0,no-D,D
+1239,New South Wales,AGRN 1239 - Lithgow and Mid-Western Regional NSW Bushfires (from 9 December 2025),2,0,2,0.0,no-D,D
+1240,New South Wales,AGRN 1240 - Bondi NSW Terrorist Attack 14 December 2025,1,1,0,1.0,all-D,D
+1261,New South Wales,AGRN 1261 - Tenterfield NSW Bushfire (from 16 December 2025),1,0,1,0.0,no-D,D
+1257,Victoria,AGRN 1257 - Goomalibee Fires (commencing 18 December 2025),1,0,1,0.0,no-D,D
+1259,Victoria,AGRN 1259 - Charlton - Jeffcott fires (commencing 18 December 2025),1,0,1,0.0,no-D,D
+1262,New South Wales,AGRN 1262 - Port Macquarie-Hastings NSW Bushfire (from 19 -25 December 2025),1,0,1,0.0,no-D,D
+1277,New South Wales,AGRN 1277 - Far West Unincorporated Area NSW Severe Weather Event (from 21 - 22 December 2025),1,0,1,0.0,no-D,D
+1243,Queensland,"AGRN 1243 - Queensland Monsoon Trough, Cyclone Koji, Cyclone Narelle and Severe Weather (24 December 2025 - 24 April 2026)",65,62,3,0.9538461538461539,mixed-D,D
+1241,Queensland,AGRN 1241 - SEQ Christmas Day Severe Storms (25 December 2025),1,0,1,0.0,no-D,D
+1264,New South Wales,AGRN 1264 - Muswellbrook NSW Bushfire (27 December 2025 - 6 January 2026),1,0,1,0.0,no-D,D
+1273,New South Wales,AGRN 1273 - MidCoast Bushfire (29 December 2025 - 5 January 2026),1,0,1,0.0,no-D,D
+1242,Victoria,AGRN 1242 - Victorian Bushfires (commencing 7 January 2026),29,29,0,1.0,all-D,D
+1256,Victoria,AGRN 1256 - Victorian Storms (commencing 7 January 2026),4,0,4,0.0,no-D,D
+1263,New South Wales,AGRN 1263 - Eurobodalla and Bega Valley NSW Bushfire (from 7 January 2026),2,0,2,0.0,no-D,D
+1260,New South Wales,AGRN 1260 - NSW Severe Weather Event (from 14 January 2026),4,0,4,0.0,no-D,D
+1248,Victoria,AGRN 1248 - Wye River - Lorne Flood Event (commencing 15 January 2026),2,0,2,0.0,no-D,D
+1286,Western Australia,AGRN 1286 - Tropical Cyclone Luana and associated heavy rainfall across the Kimberley and Pilbara regions in Western Australia (22-28 January 2026),3,0,3,0.0,no-D,D
+1272,New South Wales,AGRN 1272 - MidCoast Bushfire (27 January - 21 February 2026),1,0,1,0.0,no-D,D
+1279,New South Wales,AGRN 1279 - Port Stephens Bushfire (from 29 January - 5 February 2026),1,0,1,0.0,no-D,D
+1287,New South Wales,AGRN 1287 - Tenterfield Bushfire (30 January - 13 February 2026),1,0,1,0.0,no-D,D
+1249,Northern Territory,AGRN 1249 - Big Rivers Flood Event - 21U - February 2026,1,0,1,0.0,no-D,D
+1283,Western Australia,AGRN 1283 - Tropical Cyclone Mitchell and associated Heavy Rainfall across Western Australia (4-11 February 2026),12,0,12,0.0,no-D,D
+1282,New South Wales,AGRN 1282 - Carrathool Shire Bushfire (6 - 18 February 2026),1,0,1,0.0,no-D,D
+1284,Queensland,AGRN 1284 - Southern Downs Bushfires (6 - 10 February 2026),1,0,1,0.0,no-D,D
+1278,New South Wales,AGRN 1278 - Far West NSW Severe Weather Event (from 7 February - 13 March 2026),4,0,4,0.0,no-D,D
+1285,Australian Capital Territory,AGRN 1285 - ACT Storm Event (7 - 8 February 2026),1,0,1,0.0,no-D,D
+1258,Northern Territory,AGRN 1258 - Central Australia and Barkly Region Severe Weather and Floods (February 2026),4,0,4,0.0,no-D,D
+1288,Western Australia,AGRN 1288 - Tropical Lows 25 U and 30U and associated flooding in the Kimberly Region of Western Australia (13 February - 6 March 2026),4,0,4,0.0,no-D,D
+1265,South Australia,AGRN 1265 - Severe Weather and Flood (commencing 21 February 2026),11,0,11,0.0,no-D,D
+1271,Victoria,AGRN 1271 - North-East Victorian Storms (commencing 22 February 2026),4,0,4,0.0,no-D,D
+1270,Victoria,AGRN 1270 - North-West Victorian Storms (commencing 24 February 2026),10,0,10,0.0,no-D,D
+1289,New South Wales,AGRN 1289 - Goulburn Mulwaree Severe Weather Event (from 25 February 2026),1,0,1,0.0,no-D,D
+1281,Victoria,AGRN 1281 - Towong Flood Event (commencing 3 March 2026),1,0,1,0.0,no-D,D
+1269,Northern Territory,AGRN 1269 - 31U Tropical Low Flood Event and 34U Tropical Cyclone Narelle (March 2026),13,0,13,0.0,no-D,D
+1280,Western Australia,AGRN 1280 - WA - Severe Tropical Cyclone Narelle and associated flooding (25 -28 March 2026),8,5,3,0.625,mixed-D,D
+1291,New South Wales,AGRN 1291 - Mid-Coast Bushfires (16 - 25 April 2026),1,0,1,0.0,no-D,D
+1290,Western Australia,AGRN 1290 - Severe Storm across the South West and Great Southern in Western Australia (30 May 2026 - 1 June 2026),7,0,7,0.0,no-D,D
+1293,Queensland,AGRN 1293 - Quilpie Shire Rainfall and Flooding - 9 June to 2 July 2026,1,0,1,0.0,no-D,D
+1292,Victoria,AGRN 1292 - Central-East Victorian Storms (commencing 29 June 2026),6,0,6,0.0,no-D,D

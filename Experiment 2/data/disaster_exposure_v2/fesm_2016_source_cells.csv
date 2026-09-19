@@ -1,0 +1,516 @@
+LGA,Severity Class,Definition,Area (Ha),Total Area,% of LGA,Total % of LGA,council_key,source_excel_row
+ALBURY,low,"burnt understory, unburnt canopy",0.0,,0.0,,albury,3
+ALBURY,moderate,partial canopy scorch,0.0,,0.0,,albury,4
+ALBURY,high,"full canopy scorch, partial consumption",0.0,,0.0,,albury,5
+ALBURY,extreme,full canopy consumption,0.0,,0.0,,albury,6
+ALBURY,,,,0.0,,0.0,albury,7
+BALLINA,low,"burnt understory, unburnt canopy",18.24,,0.33,,ballina,13
+BALLINA,moderate,partial canopy scorch,12.58,,0.23,,ballina,14
+BALLINA,high,"full canopy scorch, partial consumption",7.83,,0.14,,ballina,15
+BALLINA,extreme,full canopy consumption,11.46,,0.21,,ballina,16
+BALLINA,,,,50.11,,0.91,ballina,17
+BALRANALD,low,"burnt understory, unburnt canopy",13.55,,0.01,,balranald,18
+BALRANALD,moderate,partial canopy scorch,3.14,,0.0,,balranald,19
+BALRANALD,high,"full canopy scorch, partial consumption",13.22,,0.01,,balranald,20
+BALRANALD,extreme,full canopy consumption,0.0,,0.0,,balranald,21
+BALRANALD,,,,29.91,,0.02,balranald,22
+BATHURST REGIONAL,low,"burnt understory, unburnt canopy",12.44,,0.03,,bathurst,23
+BATHURST REGIONAL,moderate,partial canopy scorch,16.57,,0.04,,bathurst,24
+BATHURST REGIONAL,high,"full canopy scorch, partial consumption",7.42,,0.02,,bathurst,25
+BATHURST REGIONAL,extreme,full canopy consumption,1.84,,0.0,,bathurst,26
+BATHURST REGIONAL,,,,38.27,,0.09000000000000001,bathurst,27
+BEGA VALLEY,low,"burnt understory, unburnt canopy",0.0,,0.0,,begavalley,33
+BEGA VALLEY,moderate,partial canopy scorch,0.0,,0.0,,begavalley,34
+BEGA VALLEY,high,"full canopy scorch, partial consumption",0.0,,0.0,,begavalley,35
+BEGA VALLEY,extreme,full canopy consumption,0.0,,0.0,,begavalley,36
+BEGA VALLEY,,,,0.0,,0.0,begavalley,37
+BELLINGEN,low,"burnt understory, unburnt canopy",37.26,,0.21,,bellingen,38
+BELLINGEN,moderate,partial canopy scorch,3.35,,0.02,,bellingen,39
+BELLINGEN,high,"full canopy scorch, partial consumption",0.18,,0.0,,bellingen,40
+BELLINGEN,extreme,full canopy consumption,0.41,,0.0,,bellingen,41
+BELLINGEN,,,,41.2,,0.23,bellingen,42
+BERRIGAN,low,"burnt understory, unburnt canopy",0.0,,0.0,,berrigan,43
+BERRIGAN,moderate,partial canopy scorch,0.0,,0.0,,berrigan,44
+BERRIGAN,high,"full canopy scorch, partial consumption",0.0,,0.0,,berrigan,45
+BERRIGAN,extreme,full canopy consumption,0.0,,0.0,,berrigan,46
+BERRIGAN,,,,0.0,,0.0,berrigan,47
+BLACKTOWN,low,"burnt understory, unburnt canopy",0.0,,0.0,,blacktown,48
+BLACKTOWN,moderate,partial canopy scorch,0.0,,0.0,,blacktown,49
+BLACKTOWN,high,"full canopy scorch, partial consumption",0.0,,0.0,,blacktown,50
+BLACKTOWN,extreme,full canopy consumption,0.0,,0.0,,blacktown,51
+BLACKTOWN,,,,0.0,,0.0,blacktown,52
+BLAND,low,"burnt understory, unburnt canopy",61.99,,0.07,,bland,53
+BLAND,moderate,partial canopy scorch,53.88,,0.06,,bland,54
+BLAND,high,"full canopy scorch, partial consumption",273.11,,0.29,,bland,55
+BLAND,extreme,full canopy consumption,197.32,,0.21,,bland,56
+BLAND,,,,586.3,,0.63,bland,57
+BLAYNEY,low,"burnt understory, unburnt canopy",0.0,,0.0,,blayney,58
+BLAYNEY,moderate,partial canopy scorch,0.0,,0.0,,blayney,59
+BLAYNEY,high,"full canopy scorch, partial consumption",0.0,,0.0,,blayney,60
+BLAYNEY,extreme,full canopy consumption,0.0,,0.0,,blayney,61
+BLAYNEY,,,,0.0,,0.0,blayney,62
+BLUE MOUNTAINS,low,"burnt understory, unburnt canopy",0.0,,0.0,,bluemountains,63
+BLUE MOUNTAINS,moderate,partial canopy scorch,0.0,,0.0,,bluemountains,64
+BLUE MOUNTAINS,high,"full canopy scorch, partial consumption",0.0,,0.0,,bluemountains,65
+BLUE MOUNTAINS,extreme,full canopy consumption,0.0,,0.0,,bluemountains,66
+BLUE MOUNTAINS,,,,0.0,,0.0,bluemountains,67
+BOGAN,low,"burnt understory, unburnt canopy",0.0,,0.0,,bogan,68
+BOGAN,moderate,partial canopy scorch,0.0,,0.0,,bogan,69
+BOGAN,high,"full canopy scorch, partial consumption",0.0,,0.0,,bogan,70
+BOGAN,extreme,full canopy consumption,0.0,,0.0,,bogan,71
+BOGAN,,,,0.0,,0.0,bogan,72
+BOURKE,low,"burnt understory, unburnt canopy",0.48,,0.0,,bourke,73
+BOURKE,moderate,partial canopy scorch,15.61,,0.0,,bourke,74
+BOURKE,high,"full canopy scorch, partial consumption",78.39,,0.02,,bourke,75
+BOURKE,extreme,full canopy consumption,21.56,,0.0,,bourke,76
+BOURKE,,,,116.04,,0.02,bourke,77
+BREWARRINA,low,"burnt understory, unburnt canopy",0.0,,0.0,,brewarrina,78
+BREWARRINA,moderate,partial canopy scorch,0.0,,0.0,,brewarrina,79
+BREWARRINA,high,"full canopy scorch, partial consumption",0.0,,0.0,,brewarrina,80
+BREWARRINA,extreme,full canopy consumption,0.0,,0.0,,brewarrina,81
+BREWARRINA,,,,0.0,,0.0,brewarrina,82
+BROKEN HILL,low,"burnt understory, unburnt canopy",0.0,,0.0,,brokenhill,83
+BROKEN HILL,moderate,partial canopy scorch,0.0,,0.0,,brokenhill,84
+BROKEN HILL,high,"full canopy scorch, partial consumption",0.0,,0.0,,brokenhill,85
+BROKEN HILL,extreme,full canopy consumption,0.0,,0.0,,brokenhill,86
+BROKEN HILL,,,,0.0,,0.0,brokenhill,87
+BURWOOD,low,"burnt understory, unburnt canopy",0.0,,0.0,,burwood,88
+BURWOOD,moderate,partial canopy scorch,0.0,,0.0,,burwood,89
+BURWOOD,high,"full canopy scorch, partial consumption",0.0,,0.0,,burwood,90
+BURWOOD,extreme,full canopy consumption,0.0,,0.0,,burwood,91
+BURWOOD,,,,0.0,,0.0,burwood,92
+BYRON,low,"burnt understory, unburnt canopy",1.68,,0.03,,byron,93
+BYRON,moderate,partial canopy scorch,0.64,,0.01,,byron,94
+BYRON,high,"full canopy scorch, partial consumption",1.01,,0.02,,byron,95
+BYRON,extreme,full canopy consumption,0.45,,0.01,,byron,96
+BYRON,,,,3.78,,0.06999999999999999,byron,97
+CABONNE,low,"burnt understory, unburnt canopy",0.0,,0.0,,cabonne,98
+CABONNE,moderate,partial canopy scorch,0.0,,0.0,,cabonne,99
+CABONNE,high,"full canopy scorch, partial consumption",0.0,,0.0,,cabonne,100
+CABONNE,extreme,full canopy consumption,0.0,,0.0,,cabonne,101
+CABONNE,,,,0.0,,0.0,cabonne,102
+CAMDEN,low,"burnt understory, unburnt canopy",0.0,,0.0,,camden,103
+CAMDEN,moderate,partial canopy scorch,0.0,,0.0,,camden,104
+CAMDEN,high,"full canopy scorch, partial consumption",0.0,,0.0,,camden,105
+CAMDEN,extreme,full canopy consumption,0.0,,0.0,,camden,106
+CAMDEN,,,,0.0,,0.0,camden,107
+CAMPBELLTOWN,low,"burnt understory, unburnt canopy",0.0,,0.0,,campbelltown,108
+CAMPBELLTOWN,moderate,partial canopy scorch,0.0,,0.0,,campbelltown,109
+CAMPBELLTOWN,high,"full canopy scorch, partial consumption",0.0,,0.0,,campbelltown,110
+CAMPBELLTOWN,extreme,full canopy consumption,0.0,,0.0,,campbelltown,111
+CAMPBELLTOWN,,,,0.0,,0.0,campbelltown,112
+CANADA BAY,low,"burnt understory, unburnt canopy",0.0,,0.0,,canadabay,113
+CANADA BAY,moderate,partial canopy scorch,0.0,,0.0,,canadabay,114
+CANADA BAY,high,"full canopy scorch, partial consumption",0.0,,0.0,,canadabay,115
+CANADA BAY,extreme,full canopy consumption,0.0,,0.0,,canadabay,116
+CANADA BAY,,,,0.0,,0.0,canadabay,117
+CARRATHOOL,low,"burnt understory, unburnt canopy",3.33,,0.0,,carrathool,123
+CARRATHOOL,moderate,partial canopy scorch,3.4,,0.0,,carrathool,124
+CARRATHOOL,high,"full canopy scorch, partial consumption",9.22,,0.0,,carrathool,125
+CARRATHOOL,extreme,full canopy consumption,2.91,,0.0,,carrathool,126
+CARRATHOOL,,,,18.86,,0.0,carrathool,127
+CENTRAL DARLING,low,"burnt understory, unburnt canopy",21.46,,0.0,,centraldarling,133
+CENTRAL DARLING,moderate,partial canopy scorch,14.18,,0.0,,centraldarling,134
+CENTRAL DARLING,high,"full canopy scorch, partial consumption",19.81,,0.0,,centraldarling,135
+CENTRAL DARLING,extreme,full canopy consumption,2.07,,0.0,,centraldarling,136
+CENTRAL DARLING,,,,57.52,,0.0,centraldarling,137
+CESSNOCK,low,"burnt understory, unburnt canopy",120.77,,0.55,,cessnock,138
+CESSNOCK,moderate,partial canopy scorch,171.22,,0.79,,cessnock,139
+CESSNOCK,high,"full canopy scorch, partial consumption",77.6,,0.36,,cessnock,140
+CESSNOCK,extreme,full canopy consumption,33.25,,0.15,,cessnock,141
+CESSNOCK,,,,402.84,,1.85,cessnock,142
+CLARENCE VALLEY,low,"burnt understory, unburnt canopy",2800.4,,2.41,,clarencevalley,143
+CLARENCE VALLEY,moderate,partial canopy scorch,788.45,,0.68,,clarencevalley,144
+CLARENCE VALLEY,high,"full canopy scorch, partial consumption",476.89,,0.41,,clarencevalley,145
+CLARENCE VALLEY,extreme,full canopy consumption,141.01,,0.12,,clarencevalley,146
+CLARENCE VALLEY,,,,4206.75,,3.620000000000001,clarencevalley,147
+COFFS HARBOUR,low,"burnt understory, unburnt canopy",123.52,,0.94,,coffsharbour,153
+COFFS HARBOUR,moderate,partial canopy scorch,139.91,,1.07,,coffsharbour,154
+COFFS HARBOUR,high,"full canopy scorch, partial consumption",45.34,,0.35,,coffsharbour,155
+COFFS HARBOUR,extreme,full canopy consumption,4.99,,0.04,,coffsharbour,156
+COFFS HARBOUR,,,,313.76,,2.4,coffsharbour,157
+COOLAMON,low,"burnt understory, unburnt canopy",0.0,,0.0,,coolamon,158
+COOLAMON,moderate,partial canopy scorch,0.0,,0.0,,coolamon,159
+COOLAMON,high,"full canopy scorch, partial consumption",0.0,,0.0,,coolamon,160
+COOLAMON,extreme,full canopy consumption,0.0,,0.0,,coolamon,161
+COOLAMON,,,,0.0,,0.0,coolamon,162
+COONAMBLE,low,"burnt understory, unburnt canopy",2.35,,0.0,,coonamble,163
+COONAMBLE,moderate,partial canopy scorch,1.66,,0.0,,coonamble,164
+COONAMBLE,high,"full canopy scorch, partial consumption",0.89,,0.0,,coonamble,165
+COONAMBLE,extreme,full canopy consumption,0.07,,0.0,,coonamble,166
+COONAMBLE,,,,4.97,,0.0,coonamble,167
+COWRA,low,"burnt understory, unburnt canopy",0.0,,0.0,,cowra,173
+COWRA,moderate,partial canopy scorch,0.0,,0.0,,cowra,174
+COWRA,high,"full canopy scorch, partial consumption",0.0,,0.0,,cowra,175
+COWRA,extreme,full canopy consumption,0.0,,0.0,,cowra,176
+COWRA,,,,0.0,,0.0,cowra,177
+DUNGOG,low,"burnt understory, unburnt canopy",52.65,,0.21,,dungog,188
+DUNGOG,moderate,partial canopy scorch,37.7,,0.15,,dungog,189
+DUNGOG,high,"full canopy scorch, partial consumption",32.42,,0.13,,dungog,190
+DUNGOG,extreme,full canopy consumption,0.66,,0.0,,dungog,191
+DUNGOG,,,,123.43,,0.49,dungog,192
+EUROBODALLA,low,"burnt understory, unburnt canopy",56.21,,0.15,,eurobodalla,198
+EUROBODALLA,moderate,partial canopy scorch,10.45,,0.03,,eurobodalla,199
+EUROBODALLA,high,"full canopy scorch, partial consumption",1.85,,0.0,,eurobodalla,200
+EUROBODALLA,extreme,full canopy consumption,0.0,,0.0,,eurobodalla,201
+EUROBODALLA,,,,68.50999999999999,,0.18,eurobodalla,202
+FAIRFIELD,low,"burnt understory, unburnt canopy",0.0,,0.0,,fairfield,203
+FAIRFIELD,moderate,partial canopy scorch,0.0,,0.0,,fairfield,204
+FAIRFIELD,high,"full canopy scorch, partial consumption",0.0,,0.0,,fairfield,205
+FAIRFIELD,extreme,full canopy consumption,0.0,,0.0,,fairfield,206
+FAIRFIELD,,,,0.0,,0.0,fairfield,207
+FORBES,low,"burnt understory, unburnt canopy",0.53,,0.0,,forbes,213
+FORBES,moderate,partial canopy scorch,0.32,,0.0,,forbes,214
+FORBES,high,"full canopy scorch, partial consumption",0.45,,0.0,,forbes,215
+FORBES,extreme,full canopy consumption,0.4,,0.0,,forbes,216
+FORBES,,,,1.7,,0.0,forbes,217
+GILGANDRA,low,"burnt understory, unburnt canopy",11.24,,0.02,,gilgandra,223
+GILGANDRA,moderate,partial canopy scorch,3.08,,0.01,,gilgandra,224
+GILGANDRA,high,"full canopy scorch, partial consumption",13.76,,0.03,,gilgandra,225
+GILGANDRA,extreme,full canopy consumption,12.7,,0.02,,gilgandra,226
+GILGANDRA,,,,40.78,,0.08,gilgandra,227
+GLEN INNES SEVERN SHIRE,low,"burnt understory, unburnt canopy",28.3,,0.05,,gleninnessevern,228
+GLEN INNES SEVERN SHIRE,moderate,partial canopy scorch,4.08,,0.01,,gleninnessevern,229
+GLEN INNES SEVERN SHIRE,high,"full canopy scorch, partial consumption",0.35,,0.0,,gleninnessevern,230
+GLEN INNES SEVERN SHIRE,extreme,full canopy consumption,0.02,,0.0,,gleninnessevern,231
+GLEN INNES SEVERN SHIRE,,,,32.75000000000001,,0.06000000000000001,gleninnessevern,232
+GOULBURN MULWAREE,low,"burnt understory, unburnt canopy",0.19,,0.0,,goulburnmulwaree,233
+GOULBURN MULWAREE,moderate,partial canopy scorch,1.41,,0.0,,goulburnmulwaree,234
+GOULBURN MULWAREE,high,"full canopy scorch, partial consumption",6.01,,0.02,,goulburnmulwaree,235
+GOULBURN MULWAREE,extreme,full canopy consumption,1.3,,0.0,,goulburnmulwaree,236
+GOULBURN MULWAREE,,,,8.91,,0.02,goulburnmulwaree,237
+GREATER HUME,low,"burnt understory, unburnt canopy",1.55,,0.0,,greaterhume,238
+GREATER HUME,moderate,partial canopy scorch,3.29,,0.01,,greaterhume,239
+GREATER HUME,high,"full canopy scorch, partial consumption",6.99,,0.01,,greaterhume,240
+GREATER HUME,extreme,full canopy consumption,1.33,,0.0,,greaterhume,241
+GREATER HUME,,,,13.16,,0.02,greaterhume,242
+GRIFFITH,low,"burnt understory, unburnt canopy",5.6,,0.03,,griffith,243
+GRIFFITH,moderate,partial canopy scorch,3.54,,0.02,,griffith,244
+GRIFFITH,high,"full canopy scorch, partial consumption",11.36,,0.06,,griffith,245
+GRIFFITH,extreme,full canopy consumption,2.01,,0.01,,griffith,246
+GRIFFITH,,,,22.51,,0.12,griffith,247
+GUNNEDAH,low,"burnt understory, unburnt canopy",16.26,,0.03,,gunnedah,248
+GUNNEDAH,moderate,partial canopy scorch,3.54,,0.01,,gunnedah,249
+GUNNEDAH,high,"full canopy scorch, partial consumption",5.46,,0.01,,gunnedah,250
+GUNNEDAH,extreme,full canopy consumption,7.39,,0.01,,gunnedah,251
+GUNNEDAH,,,,32.65,,0.06000000000000001,gunnedah,252
+GWYDIR,low,"burnt understory, unburnt canopy",0.0,,0.0,,gwydir,253
+GWYDIR,moderate,partial canopy scorch,0.0,,0.0,,gwydir,254
+GWYDIR,high,"full canopy scorch, partial consumption",0.0,,0.0,,gwydir,255
+GWYDIR,extreme,full canopy consumption,0.0,,0.0,,gwydir,256
+GWYDIR,,,,0.0,,0.0,gwydir,257
+HAWKESBURY,low,"burnt understory, unburnt canopy",0.0,,0.0,,hawkesbury,258
+HAWKESBURY,moderate,partial canopy scorch,0.0,,0.0,,hawkesbury,259
+HAWKESBURY,high,"full canopy scorch, partial consumption",0.0,,0.0,,hawkesbury,260
+HAWKESBURY,extreme,full canopy consumption,0.0,,0.0,,hawkesbury,261
+HAWKESBURY,,,,0.0,,0.0,hawkesbury,262
+HAY,low,"burnt understory, unburnt canopy",57.56,,0.05,,hay,263
+HAY,moderate,partial canopy scorch,29.73,,0.02,,hay,264
+HAY,high,"full canopy scorch, partial consumption",119.75,,0.1,,hay,265
+HAY,extreme,full canopy consumption,31.92,,0.03,,hay,266
+HAY,,,,238.96,,0.2,hay,267
+HUNTERS HILL,low,"burnt understory, unburnt canopy",0.0,,0.0,,huntershill,278
+HUNTERS HILL,moderate,partial canopy scorch,0.0,,0.0,,huntershill,279
+HUNTERS HILL,high,"full canopy scorch, partial consumption",0.0,,0.0,,huntershill,280
+HUNTERS HILL,extreme,full canopy consumption,0.0,,0.0,,huntershill,281
+HUNTERS HILL,,,,0.0,,0.0,huntershill,282
+JUNEE,low,"burnt understory, unburnt canopy",0.0,,0.0,,junee,293
+JUNEE,moderate,partial canopy scorch,0.0,,0.0,,junee,294
+JUNEE,high,"full canopy scorch, partial consumption",0.0,,0.0,,junee,295
+JUNEE,extreme,full canopy consumption,0.0,,0.0,,junee,296
+JUNEE,,,,0.0,,0.0,junee,297
+KEMPSEY,low,"burnt understory, unburnt canopy",592.01,,1.58,,kempsey,298
+KEMPSEY,moderate,partial canopy scorch,311.68,,0.83,,kempsey,299
+KEMPSEY,high,"full canopy scorch, partial consumption",68.6,,0.18,,kempsey,300
+KEMPSEY,extreme,full canopy consumption,7.5,,0.02,,kempsey,301
+KEMPSEY,,,,979.79,,2.61,kempsey,302
+KIAMA,low,"burnt understory, unburnt canopy",0.0,,0.0,,kiama,303
+KIAMA,moderate,partial canopy scorch,0.0,,0.0,,kiama,304
+KIAMA,high,"full canopy scorch, partial consumption",0.0,,0.0,,kiama,305
+KIAMA,extreme,full canopy consumption,0.0,,0.0,,kiama,306
+KIAMA,,,,0.0,,0.0,kiama,307
+KU-RING-GAI,low,"burnt understory, unburnt canopy",0.0,,0.0,,kuringgai,308
+KU-RING-GAI,moderate,partial canopy scorch,0.0,,0.0,,kuringgai,309
+KU-RING-GAI,high,"full canopy scorch, partial consumption",0.0,,0.0,,kuringgai,310
+KU-RING-GAI,extreme,full canopy consumption,0.0,,0.0,,kuringgai,311
+KU-RING-GAI,,,,0.0,,0.0,kuringgai,312
+KYOGLE,low,"burnt understory, unburnt canopy",46.76,,0.12,,kyogle,313
+KYOGLE,moderate,partial canopy scorch,21.85,,0.05,,kyogle,314
+KYOGLE,high,"full canopy scorch, partial consumption",0.95,,0.0,,kyogle,315
+KYOGLE,extreme,full canopy consumption,0.01,,0.0,,kyogle,316
+KYOGLE,,,,69.57000000000001,,0.17,kyogle,317
+LAKE MACQUARIE,low,"burnt understory, unburnt canopy",9.66,,0.11,,lakemacquarie,323
+LAKE MACQUARIE,moderate,partial canopy scorch,14.93,,0.18,,lakemacquarie,324
+LAKE MACQUARIE,high,"full canopy scorch, partial consumption",16.31,,0.19,,lakemacquarie,325
+LAKE MACQUARIE,extreme,full canopy consumption,2.31,,0.03,,lakemacquarie,326
+LAKE MACQUARIE,,,,43.21,,0.51,lakemacquarie,327
+LANE COVE,low,"burnt understory, unburnt canopy",0.0,,0.0,,lanecove,328
+LANE COVE,moderate,partial canopy scorch,0.0,,0.0,,lanecove,329
+LANE COVE,high,"full canopy scorch, partial consumption",0.0,,0.0,,lanecove,330
+LANE COVE,extreme,full canopy consumption,0.0,,0.0,,lanecove,331
+LANE COVE,,,,0.0,,0.0,lanecove,332
+LEETON,low,"burnt understory, unburnt canopy",0.0,,0.0,,leeton,333
+LEETON,moderate,partial canopy scorch,0.0,,0.0,,leeton,334
+LEETON,high,"full canopy scorch, partial consumption",0.0,,0.0,,leeton,335
+LEETON,extreme,full canopy consumption,0.0,,0.0,,leeton,336
+LEETON,,,,0.0,,0.0,leeton,337
+LISMORE,low,"burnt understory, unburnt canopy",0.0,,0.0,,lismore,338
+LISMORE,moderate,partial canopy scorch,0.0,,0.0,,lismore,339
+LISMORE,high,"full canopy scorch, partial consumption",0.0,,0.0,,lismore,340
+LISMORE,extreme,full canopy consumption,0.0,,0.0,,lismore,341
+LISMORE,,,,0.0,,0.0,lismore,342
+LITHGOW,low,"burnt understory, unburnt canopy",7.3,,0.01,,lithgow,343
+LITHGOW,moderate,partial canopy scorch,2.3,,0.0,,lithgow,344
+LITHGOW,high,"full canopy scorch, partial consumption",10.94,,0.02,,lithgow,345
+LITHGOW,extreme,full canopy consumption,0.0,,0.0,,lithgow,346
+LITHGOW,,,,20.54,,0.03,lithgow,347
+LIVERPOOL,low,"burnt understory, unburnt canopy",0.0,,0.0,,liverpool,348
+LIVERPOOL,moderate,partial canopy scorch,0.0,,0.0,,liverpool,349
+LIVERPOOL,high,"full canopy scorch, partial consumption",0.0,,0.0,,liverpool,350
+LIVERPOOL,extreme,full canopy consumption,0.0,,0.0,,liverpool,351
+LIVERPOOL,,,,0.0,,0.0,liverpool,352
+LIVERPOOL PLAINS,low,"burnt understory, unburnt canopy",16.0,,0.03,,liverpoolplains,353
+LIVERPOOL PLAINS,moderate,partial canopy scorch,30.61,,0.05,,liverpoolplains,354
+LIVERPOOL PLAINS,high,"full canopy scorch, partial consumption",35.81,,0.06,,liverpoolplains,355
+LIVERPOOL PLAINS,extreme,full canopy consumption,0.02,,0.0,,liverpoolplains,356
+LIVERPOOL PLAINS,,,,82.44,,0.14,liverpoolplains,357
+LOCKHART,low,"burnt understory, unburnt canopy",0.0,,0.0,,lockhart,358
+LOCKHART,moderate,partial canopy scorch,0.0,,0.0,,lockhart,359
+LOCKHART,high,"full canopy scorch, partial consumption",0.0,,0.0,,lockhart,360
+LOCKHART,extreme,full canopy consumption,0.0,,0.0,,lockhart,361
+LOCKHART,,,,0.0,,0.0,lockhart,362
+MAITLAND,low,"burnt understory, unburnt canopy",0.0,,0.0,,maitland,363
+MAITLAND,moderate,partial canopy scorch,0.0,,0.0,,maitland,364
+MAITLAND,high,"full canopy scorch, partial consumption",0.0,,0.0,,maitland,365
+MAITLAND,extreme,full canopy consumption,0.0,,0.0,,maitland,366
+MAITLAND,,,,0.0,,0.0,maitland,367
+MID-WESTERN REGIONAL,low,"burnt understory, unburnt canopy",297.49,,0.31,,midwestern,373
+MID-WESTERN REGIONAL,moderate,partial canopy scorch,171.81,,0.18,,midwestern,374
+MID-WESTERN REGIONAL,high,"full canopy scorch, partial consumption",207.6,,0.21,,midwestern,375
+MID-WESTERN REGIONAL,extreme,full canopy consumption,89.71,,0.09,,midwestern,376
+MID-WESTERN REGIONAL,,,,766.61,,0.7899999999999999,midwestern,377
+MOREE PLAINS,low,"burnt understory, unburnt canopy",0.0,,0.0,,moreeplains,378
+MOREE PLAINS,moderate,partial canopy scorch,0.0,,0.0,,moreeplains,379
+MOREE PLAINS,high,"full canopy scorch, partial consumption",0.0,,0.0,,moreeplains,380
+MOREE PLAINS,extreme,full canopy consumption,0.0,,0.0,,moreeplains,381
+MOREE PLAINS,,,,0.0,,0.0,moreeplains,382
+MOSMAN,low,"burnt understory, unburnt canopy",0.0,,0.0,,mosman,383
+MOSMAN,moderate,partial canopy scorch,0.0,,0.0,,mosman,384
+MOSMAN,high,"full canopy scorch, partial consumption",0.0,,0.0,,mosman,385
+MOSMAN,extreme,full canopy consumption,0.0,,0.0,,mosman,386
+MOSMAN,,,,0.0,,0.0,mosman,387
+MUSWELLBROOK,low,"burnt understory, unburnt canopy",0.0,,0.0,,muswellbrook,398
+MUSWELLBROOK,moderate,partial canopy scorch,0.0,,0.0,,muswellbrook,399
+MUSWELLBROOK,high,"full canopy scorch, partial consumption",0.0,,0.0,,muswellbrook,400
+MUSWELLBROOK,extreme,full canopy consumption,0.0,,0.0,,muswellbrook,401
+MUSWELLBROOK,,,,0.0,,0.0,muswellbrook,402
+NAMBUCCA,low,"burnt understory, unburnt canopy",194.86,,1.17,,nambuccavalley,403
+NAMBUCCA,moderate,partial canopy scorch,23.99,,0.14,,nambuccavalley,404
+NAMBUCCA,high,"full canopy scorch, partial consumption",2.91,,0.02,,nambuccavalley,405
+NAMBUCCA,extreme,full canopy consumption,0.01,,0.0,,nambuccavalley,406
+NAMBUCCA,,,,221.77,,1.33,nambuccavalley,407
+NARRABRI,low,"burnt understory, unburnt canopy",53.83,,0.04,,narrabri,408
+NARRABRI,moderate,partial canopy scorch,36.44,,0.03,,narrabri,409
+NARRABRI,high,"full canopy scorch, partial consumption",63.5,,0.04,,narrabri,410
+NARRABRI,extreme,full canopy consumption,2.62,,0.0,,narrabri,411
+NARRABRI,,,,156.39,,0.11,narrabri,412
+NARRANDERA,low,"burnt understory, unburnt canopy",22.6,,0.05,,narrandera,413
+NARRANDERA,moderate,partial canopy scorch,1.32,,0.0,,narrandera,414
+NARRANDERA,high,"full canopy scorch, partial consumption",0.83,,0.0,,narrandera,415
+NARRANDERA,extreme,full canopy consumption,0.15,,0.0,,narrandera,416
+NARRANDERA,,,,24.9,,0.05,narrandera,417
+NARROMINE,low,"burnt understory, unburnt canopy",0.0,,0.0,,narromine,418
+NARROMINE,moderate,partial canopy scorch,0.0,,0.0,,narromine,419
+NARROMINE,high,"full canopy scorch, partial consumption",0.0,,0.0,,narromine,420
+NARROMINE,extreme,full canopy consumption,0.0,,0.0,,narromine,421
+NARROMINE,,,,0.0,,0.0,narromine,422
+NEWCASTLE,low,"burnt understory, unburnt canopy",0.0,,0.0,,newcastle,423
+NEWCASTLE,moderate,partial canopy scorch,0.0,,0.0,,newcastle,424
+NEWCASTLE,high,"full canopy scorch, partial consumption",0.0,,0.0,,newcastle,425
+NEWCASTLE,extreme,full canopy consumption,0.0,,0.0,,newcastle,426
+NEWCASTLE,,,,0.0,,0.0,newcastle,427
+NORTH SYDNEY,low,"burnt understory, unburnt canopy",0.0,,0.0,,northsydney,428
+NORTH SYDNEY,moderate,partial canopy scorch,0.0,,0.0,,northsydney,429
+NORTH SYDNEY,high,"full canopy scorch, partial consumption",0.0,,0.0,,northsydney,430
+NORTH SYDNEY,extreme,full canopy consumption,0.0,,0.0,,northsydney,431
+NORTH SYDNEY,,,,0.0,,0.0,northsydney,432
+OBERON,low,"burnt understory, unburnt canopy",0.0,,0.0,,oberon,438
+OBERON,moderate,partial canopy scorch,0.0,,0.0,,oberon,439
+OBERON,high,"full canopy scorch, partial consumption",0.0,,0.0,,oberon,440
+OBERON,extreme,full canopy consumption,0.0,,0.0,,oberon,441
+OBERON,,,,0.0,,0.0,oberon,442
+ORANGE,low,"burnt understory, unburnt canopy",0.0,,0.0,,orange,443
+ORANGE,moderate,partial canopy scorch,0.0,,0.0,,orange,444
+ORANGE,high,"full canopy scorch, partial consumption",0.0,,0.0,,orange,445
+ORANGE,extreme,full canopy consumption,0.0,,0.0,,orange,446
+ORANGE,,,,0.0,,0.0,orange,447
+PARKES,low,"burnt understory, unburnt canopy",50.03,,0.08,,parkes,448
+PARKES,moderate,partial canopy scorch,27.63,,0.04,,parkes,449
+PARKES,high,"full canopy scorch, partial consumption",13.17,,0.02,,parkes,450
+PARKES,extreme,full canopy consumption,4.9,,0.01,,parkes,451
+PARKES,,,,95.73,,0.15,parkes,452
+PENRITH,low,"burnt understory, unburnt canopy",22.97,,0.51,,penrith,458
+PENRITH,moderate,partial canopy scorch,23.59,,0.53,,penrith,459
+PENRITH,high,"full canopy scorch, partial consumption",14.03,,0.31,,penrith,460
+PENRITH,extreme,full canopy consumption,11.9,,0.27,,penrith,461
+PENRITH,,,,72.49000000000002,,1.62,penrith,462
+PORT MACQUARIE-HASTINGS,low,"burnt understory, unburnt canopy",186.21,,0.46,,portmacquariehastings,463
+PORT MACQUARIE-HASTINGS,moderate,partial canopy scorch,84.79,,0.21,,portmacquariehastings,464
+PORT MACQUARIE-HASTINGS,high,"full canopy scorch, partial consumption",42.43,,0.1,,portmacquariehastings,465
+PORT MACQUARIE-HASTINGS,extreme,full canopy consumption,30.28,,0.07,,portmacquariehastings,466
+PORT MACQUARIE-HASTINGS,,,,343.7100000000001,,0.8400000000000001,portmacquariehastings,467
+PORT STEPHENS,low,"burnt understory, unburnt canopy",208.64,,1.93,,portstephens,468
+PORT STEPHENS,moderate,partial canopy scorch,302.71,,2.8,,portstephens,469
+PORT STEPHENS,high,"full canopy scorch, partial consumption",303.44,,2.81,,portstephens,470
+PORT STEPHENS,extreme,full canopy consumption,28.63,,0.26,,portstephens,471
+PORT STEPHENS,,,,843.42,,7.799999999999999,portstephens,472
+RANDWICK,low,"burnt understory, unburnt canopy",0.0,,0.0,,randwick,478
+RANDWICK,moderate,partial canopy scorch,0.0,,0.0,,randwick,479
+RANDWICK,high,"full canopy scorch, partial consumption",0.0,,0.0,,randwick,480
+RANDWICK,extreme,full canopy consumption,0.0,,0.0,,randwick,481
+RANDWICK,,,,0.0,,0.0,randwick,482
+RICHMOND VALLEY,low,"burnt understory, unburnt canopy",744.17,,2.19,,richmondvalley,483
+RICHMOND VALLEY,moderate,partial canopy scorch,365.75,,1.08,,richmondvalley,484
+RICHMOND VALLEY,high,"full canopy scorch, partial consumption",87.99,,0.26,,richmondvalley,485
+RICHMOND VALLEY,extreme,full canopy consumption,22.73,,0.07,,richmondvalley,486
+RICHMOND VALLEY,,,,1220.64,,3.6,richmondvalley,487
+RYDE,low,"burnt understory, unburnt canopy",0.0,,0.0,,ryde,488
+RYDE,moderate,partial canopy scorch,0.0,,0.0,,ryde,489
+RYDE,high,"full canopy scorch, partial consumption",0.0,,0.0,,ryde,490
+RYDE,extreme,full canopy consumption,0.0,,0.0,,ryde,491
+RYDE,,,,0.0,,0.0,ryde,492
+SHELLHARBOUR,low,"burnt understory, unburnt canopy",0.0,,0.0,,shellharbour,493
+SHELLHARBOUR,moderate,partial canopy scorch,0.0,,0.0,,shellharbour,494
+SHELLHARBOUR,high,"full canopy scorch, partial consumption",0.0,,0.0,,shellharbour,495
+SHELLHARBOUR,extreme,full canopy consumption,0.0,,0.0,,shellharbour,496
+SHELLHARBOUR,,,,0.0,,0.0,shellharbour,497
+SHOALHAVEN,low,"burnt understory, unburnt canopy",66.99,,0.13,,shoalhaven,498
+SHOALHAVEN,moderate,partial canopy scorch,67.11,,0.13,,shoalhaven,499
+SHOALHAVEN,high,"full canopy scorch, partial consumption",7.51,,0.01,,shoalhaven,500
+SHOALHAVEN,extreme,full canopy consumption,0.18,,0.0,,shoalhaven,501
+SHOALHAVEN,,,,141.79,,0.27,shoalhaven,502
+SINGLETON,low,"burnt understory, unburnt canopy",175.64,,0.32,,singleton,503
+SINGLETON,moderate,partial canopy scorch,68.59,,0.13,,singleton,504
+SINGLETON,high,"full canopy scorch, partial consumption",28.93,,0.05,,singleton,505
+SINGLETON,extreme,full canopy consumption,0.08,,0.0,,singleton,506
+SINGLETON,,,,273.24,,0.5,singleton,507
+STRATHFIELD,low,"burnt understory, unburnt canopy",0.0,,0.0,,strathfield,518
+STRATHFIELD,moderate,partial canopy scorch,0.0,,0.0,,strathfield,519
+STRATHFIELD,high,"full canopy scorch, partial consumption",0.0,,0.0,,strathfield,520
+STRATHFIELD,extreme,full canopy consumption,0.0,,0.0,,strathfield,521
+STRATHFIELD,,,,0.0,,0.0,strathfield,522
+SUTHERLAND SHIRE,low,"burnt understory, unburnt canopy",0.0,,0.0,,sutherland,523
+SUTHERLAND SHIRE,moderate,partial canopy scorch,0.0,,0.0,,sutherland,524
+SUTHERLAND SHIRE,high,"full canopy scorch, partial consumption",0.0,,0.0,,sutherland,525
+SUTHERLAND SHIRE,extreme,full canopy consumption,0.0,,0.0,,sutherland,526
+SUTHERLAND SHIRE,,,,0.0,,0.0,sutherland,527
+SYDNEY,low,"burnt understory, unburnt canopy",0.0,,0.0,,sydney,528
+SYDNEY,moderate,partial canopy scorch,0.0,,0.0,,sydney,529
+SYDNEY,high,"full canopy scorch, partial consumption",0.0,,0.0,,sydney,530
+SYDNEY,extreme,full canopy consumption,0.0,,0.0,,sydney,531
+SYDNEY,,,,0.0,,0.0,sydney,532
+TAMWORTH REGIONAL,low,"burnt understory, unburnt canopy",52.26,,0.05,,tamworth,533
+TAMWORTH REGIONAL,moderate,partial canopy scorch,5.53,,0.01,,tamworth,534
+TAMWORTH REGIONAL,high,"full canopy scorch, partial consumption",0.77,,0.0,,tamworth,535
+TAMWORTH REGIONAL,extreme,full canopy consumption,0.07,,0.0,,tamworth,536
+TAMWORTH REGIONAL,,,,58.63,,0.06000000000000001,tamworth,537
+TEMORA,low,"burnt understory, unburnt canopy",1.91,,0.01,,temora,538
+TEMORA,moderate,partial canopy scorch,1.0,,0.0,,temora,539
+TEMORA,high,"full canopy scorch, partial consumption",0.19,,0.0,,temora,540
+TEMORA,extreme,full canopy consumption,0.1,,0.0,,temora,541
+TEMORA,,,,3.2,,0.01,temora,542
+TENTERFIELD,low,"burnt understory, unburnt canopy",1347.66,,1.65,,tenterfield,543
+TENTERFIELD,moderate,partial canopy scorch,280.62,,0.34,,tenterfield,544
+TENTERFIELD,high,"full canopy scorch, partial consumption",57.03,,0.07,,tenterfield,545
+TENTERFIELD,extreme,full canopy consumption,19.43,,0.02,,tenterfield,546
+TENTERFIELD,,,,1704.74,,2.08,tenterfield,547
+TWEED,low,"burnt understory, unburnt canopy",0.0,,0.0,,tweed,553
+TWEED,moderate,partial canopy scorch,0.0,,0.0,,tweed,554
+TWEED,high,"full canopy scorch, partial consumption",0.0,,0.0,,tweed,555
+TWEED,extreme,full canopy consumption,0.0,,0.0,,tweed,556
+TWEED,,,,0.0,,0.0,tweed,557
+UPPER HUNTER,low,"burnt understory, unburnt canopy",280.27,,0.31,,upperhunter,563
+UPPER HUNTER,moderate,partial canopy scorch,188.32,,0.21,,upperhunter,564
+UPPER HUNTER,high,"full canopy scorch, partial consumption",281.93,,0.31,,upperhunter,565
+UPPER HUNTER,extreme,full canopy consumption,148.08,,0.16,,upperhunter,566
+UPPER HUNTER,,,,898.6,,0.99,upperhunter,567
+UPPER LACHLAN SHIRE,low,"burnt understory, unburnt canopy",0.0,,0.0,,upperlachlan,568
+UPPER LACHLAN SHIRE,moderate,partial canopy scorch,0.0,,0.0,,upperlachlan,569
+UPPER LACHLAN SHIRE,high,"full canopy scorch, partial consumption",0.0,,0.0,,upperlachlan,570
+UPPER LACHLAN SHIRE,extreme,full canopy consumption,0.0,,0.0,,upperlachlan,571
+UPPER LACHLAN SHIRE,,,,0.0,,0.0,upperlachlan,572
+URALLA,low,"burnt understory, unburnt canopy",0.0,,0.0,,uralla,573
+URALLA,moderate,partial canopy scorch,0.0,,0.0,,uralla,574
+URALLA,high,"full canopy scorch, partial consumption",0.0,,0.0,,uralla,575
+URALLA,extreme,full canopy consumption,0.0,,0.0,,uralla,576
+URALLA,,,,0.0,,0.0,uralla,577
+WAGGA WAGGA,low,"burnt understory, unburnt canopy",12.68,,0.02,,waggawagga,578
+WAGGA WAGGA,moderate,partial canopy scorch,9.56,,0.02,,waggawagga,579
+WAGGA WAGGA,high,"full canopy scorch, partial consumption",5.19,,0.01,,waggawagga,580
+WAGGA WAGGA,extreme,full canopy consumption,0.59,,0.0,,waggawagga,581
+WAGGA WAGGA,,,,28.02,,0.05,waggawagga,582
+WALCHA,low,"burnt understory, unburnt canopy",303.18,,0.44,,walcha,583
+WALCHA,moderate,partial canopy scorch,96.44,,0.14,,walcha,584
+WALCHA,high,"full canopy scorch, partial consumption",25.77,,0.04,,walcha,585
+WALCHA,extreme,full canopy consumption,1.84,,0.0,,walcha,586
+WALCHA,,,,427.23,,0.6200000000000001,walcha,587
+WALGETT,low,"burnt understory, unburnt canopy",3.2,,0.0,,walgett,588
+WALGETT,moderate,partial canopy scorch,9.76,,0.0,,walgett,589
+WALGETT,high,"full canopy scorch, partial consumption",14.38,,0.01,,walgett,590
+WALGETT,extreme,full canopy consumption,12.05,,0.0,,walgett,591
+WALGETT,,,,39.39,,0.01,walgett,592
+WARREN,low,"burnt understory, unburnt canopy",0.0,,0.0,,warren,593
+WARREN,moderate,partial canopy scorch,0.0,,0.0,,warren,594
+WARREN,high,"full canopy scorch, partial consumption",0.0,,0.0,,warren,595
+WARREN,extreme,full canopy consumption,0.0,,0.0,,warren,596
+WARREN,,,,0.0,,0.0,warren,597
+WARRUMBUNGLE,low,"burnt understory, unburnt canopy",441.21,,0.32,,warrumbungle,598
+WARRUMBUNGLE,moderate,partial canopy scorch,697.23,,0.51,,warrumbungle,599
+WARRUMBUNGLE,high,"full canopy scorch, partial consumption",983.93,,0.72,,warrumbungle,600
+WARRUMBUNGLE,extreme,full canopy consumption,841.0,,0.61,,warrumbungle,601
+WARRUMBUNGLE,,,,2963.37,,2.16,warrumbungle,602
+WAVERLEY,low,"burnt understory, unburnt canopy",0.0,,0.0,,waverley,603
+WAVERLEY,moderate,partial canopy scorch,0.0,,0.0,,waverley,604
+WAVERLEY,high,"full canopy scorch, partial consumption",0.0,,0.0,,waverley,605
+WAVERLEY,extreme,full canopy consumption,0.0,,0.0,,waverley,606
+WAVERLEY,,,,0.0,,0.0,waverley,607
+WEDDIN,low,"burnt understory, unburnt canopy",1.33,,0.0,,weddin,608
+WEDDIN,moderate,partial canopy scorch,6.57,,0.02,,weddin,609
+WEDDIN,high,"full canopy scorch, partial consumption",3.79,,0.01,,weddin,610
+WEDDIN,extreme,full canopy consumption,0.72,,0.0,,weddin,611
+WEDDIN,,,,12.41,,0.03,weddin,612
+WENTWORTH,low,"burnt understory, unburnt canopy",0.0,,0.0,,wentworth,613
+WENTWORTH,moderate,partial canopy scorch,0.0,,0.0,,wentworth,614
+WENTWORTH,high,"full canopy scorch, partial consumption",0.0,,0.0,,wentworth,615
+WENTWORTH,extreme,full canopy consumption,0.0,,0.0,,wentworth,616
+WENTWORTH,,,,0.0,,0.0,wentworth,617
+WILLOUGHBY,low,"burnt understory, unburnt canopy",0.0,,0.0,,willoughby,618
+WILLOUGHBY,moderate,partial canopy scorch,0.0,,0.0,,willoughby,619
+WILLOUGHBY,high,"full canopy scorch, partial consumption",0.0,,0.0,,willoughby,620
+WILLOUGHBY,extreme,full canopy consumption,0.0,,0.0,,willoughby,621
+WILLOUGHBY,,,,0.0,,0.0,willoughby,622
+WINGECARRIBEE,low,"burnt understory, unburnt canopy",0.0,,0.0,,wingecarribee,623
+WINGECARRIBEE,moderate,partial canopy scorch,0.0,,0.0,,wingecarribee,624
+WINGECARRIBEE,high,"full canopy scorch, partial consumption",0.0,,0.0,,wingecarribee,625
+WINGECARRIBEE,extreme,full canopy consumption,0.0,,0.0,,wingecarribee,626
+WINGECARRIBEE,,,,0.0,,0.0,wingecarribee,627
+WOLLONDILLY,low,"burnt understory, unburnt canopy",0.0,,0.0,,wollondilly,628
+WOLLONDILLY,moderate,partial canopy scorch,0.0,,0.0,,wollondilly,629
+WOLLONDILLY,high,"full canopy scorch, partial consumption",0.0,,0.0,,wollondilly,630
+WOLLONDILLY,extreme,full canopy consumption,0.0,,0.0,,wollondilly,631
+WOLLONDILLY,,,,0.0,,0.0,wollondilly,632
+WOLLONGONG,low,"burnt understory, unburnt canopy",0.0,,0.0,,wollongong,633
+WOLLONGONG,moderate,partial canopy scorch,0.0,,0.0,,wollongong,634
+WOLLONGONG,high,"full canopy scorch, partial consumption",0.0,,0.0,,wollongong,635
+WOLLONGONG,extreme,full canopy consumption,0.0,,0.0,,wollongong,636
+WOLLONGONG,,,,0.0,,0.0,wollongong,637
+WOOLLAHRA,low,"burnt understory, unburnt canopy",0.0,,0.0,,woollahra,638
+WOOLLAHRA,moderate,partial canopy scorch,0.0,,0.0,,woollahra,639
+WOOLLAHRA,high,"full canopy scorch, partial consumption",0.0,,0.0,,woollahra,640
+WOOLLAHRA,extreme,full canopy consumption,0.0,,0.0,,woollahra,641
+WOOLLAHRA,,,,0.0,,0.0,woollahra,642
+YASS VALLEY,low,"burnt understory, unburnt canopy",15.29,,0.03,,yassvalley,643
+YASS VALLEY,moderate,partial canopy scorch,28.36,,0.06,,yassvalley,644
+YASS VALLEY,high,"full canopy scorch, partial consumption",33.2,,0.07,,yassvalley,645
+YASS VALLEY,extreme,full canopy consumption,4.25,,0.01,,yassvalley,646
+YASS VALLEY,,,,81.1,,0.17,yassvalley,647

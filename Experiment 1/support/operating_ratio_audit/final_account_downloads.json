@@ -1,0 +1,15 @@
+[
+  {
+    "source_id": "carrathool_2022",
+    "url": "https://carrathool.nsw.gov.au/wp-content/uploads/IPR/Annual-Report/Annual-Report-2021-22-FINAL.pdf",
+    "path": "sources/carrathool_2022.pdf",
+    "pages": 153,
+    "sha256": "001edb372a88f3ca2f48b154d76eacd7af40753fef3c1f4dc82b6b467a9403b2",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "centralcoast_2022",
+    "url": "https://www.centralcoast.nsw.gov.au/sites/default/files/2023-03/financial_statements_fy22_-_consolidated.pdf",
+    "status": "403 Client Error: Forbidden for url: https://www.centralcoast.nsw.gov.au/sites/default/files/2023-03/financial_statements_fy22_-_consolidated.pdf"
+  }
+]

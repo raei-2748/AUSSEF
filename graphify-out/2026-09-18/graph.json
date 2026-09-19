@@ -1,0 +1,390 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "outputs/decision_tree/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "outputs_decision_tree_readme",
+      "community": 1,
+      "community_name": "README.md",
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "AUSSEF exploratory fiscal decision tree",
+      "file_type": "document",
+      "source_file": "outputs/decision_tree/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "outputs_decision_tree_readme_aussef_exploratory_fiscal_decision_tree",
+      "community": 1,
+      "community_name": "README.md",
+      "norm_label": "aussef exploratory fiscal decision tree"
+    },
+    {
+      "label": "interpretation.md",
+      "file_type": "document",
+      "source_file": "outputs/decision_tree/interpretation.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "outputs_decision_tree_interpretation",
+      "community": 0,
+      "community_name": "interpretation.md",
+      "norm_label": "interpretation.md"
+    },
+    {
+      "label": "Primary: operating_ratio_pct \u2014 NO-GO",
+      "file_type": "document",
+      "source_file": "outputs/decision_tree/interpretation.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "outputs_decision_tree_interpretation_primary_operating_ratio_pct_no_go",
+      "community": 0,
+      "community_name": "interpretation.md",
+      "norm_label": "primary: operating_ratio_pct \u2014 no-go"
+    },
+    {
+      "label": "Secondary: cash_cover_months \u2014 NO-GO",
+      "file_type": "document",
+      "source_file": "outputs/decision_tree/interpretation.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "outputs_decision_tree_interpretation_secondary_cash_cover_months_no_go",
+      "community": 0,
+      "community_name": "interpretation.md",
+      "norm_label": "secondary: cash_cover_months \u2014 no-go"
+    },
+    {
+      "label": "Secondary: maintenance_ratio_pct \u2014 CONDITIONAL GO",
+      "file_type": "document",
+      "source_file": "outputs/decision_tree/interpretation.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "outputs_decision_tree_interpretation_secondary_maintenance_ratio_pct_conditional_go",
+      "community": 0,
+      "community_name": "interpretation.md",
+      "norm_label": "secondary: maintenance_ratio_pct \u2014 conditional go"
+    },
+    {
+      "label": "Overall verdict: NO-GO for further predictive modelling",
+      "file_type": "document",
+      "source_file": "outputs/decision_tree/interpretation.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "outputs_decision_tree_interpretation_overall_verdict_no_go_for_further_predictive_modelling",
+      "community": 0,
+      "community_name": "interpretation.md",
+      "norm_label": "overall verdict: no-go for further predictive modelling"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "outputs/decision_tree_diagnostics/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "outputs_decision_tree_diagnostics_readme",
+      "community": 4,
+      "community_name": "README.md",
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Fiscal prediction diagnostics",
+      "file_type": "document",
+      "source_file": "outputs/decision_tree_diagnostics/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "outputs_decision_tree_diagnostics_readme_fiscal_prediction_diagnostics",
+      "community": 4,
+      "community_name": "README.md",
+      "norm_label": "fiscal prediction diagnostics"
+    },
+    {
+      "label": "diagnosis.md",
+      "file_type": "document",
+      "source_file": "outputs/decision_tree_diagnostics/diagnosis.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "outputs_decision_tree_diagnostics_diagnosis",
+      "community": 3,
+      "community_name": "Fiscal prediction failure: evidence-based diagnosis",
+      "norm_label": "diagnosis.md"
+    },
+    {
+      "label": "Fiscal prediction failure: evidence-based diagnosis",
+      "file_type": "document",
+      "source_file": "outputs/decision_tree_diagnostics/diagnosis.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "outputs_decision_tree_diagnostics_diagnosis_fiscal_prediction_failure_evidence_based_diagnosis",
+      "community": 3,
+      "community_name": "Fiscal prediction failure: evidence-based diagnosis",
+      "norm_label": "fiscal prediction failure: evidence-based diagnosis"
+    },
+    {
+      "label": "Verdict",
+      "file_type": "document",
+      "source_file": "outputs/decision_tree_diagnostics/diagnosis.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "outputs_decision_tree_diagnostics_diagnosis_verdict",
+      "community": 3,
+      "community_name": "Fiscal prediction failure: evidence-based diagnosis",
+      "norm_label": "verdict"
+    },
+    {
+      "label": "What the diagnostics establish",
+      "file_type": "document",
+      "source_file": "outputs/decision_tree_diagnostics/diagnosis.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "outputs_decision_tree_diagnostics_diagnosis_what_the_diagnostics_establish",
+      "community": 2,
+      "community_name": "What the diagnostics establish",
+      "norm_label": "what the diagnostics establish"
+    },
+    {
+      "label": "1. The tree throws away useful council-specific persistence",
+      "file_type": "document",
+      "source_file": "outputs/decision_tree_diagnostics/diagnosis.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "outputs_decision_tree_diagnostics_diagnosis_1_the_tree_throws_away_useful_council_specific_persistence",
+      "community": 2,
+      "community_name": "What the diagnostics establish",
+      "norm_label": "1. the tree throws away useful council-specific persistence"
+    },
+    {
+      "label": "2. The direction of fiscal change did not transfer across years",
+      "file_type": "document",
+      "source_file": "outputs/decision_tree_diagnostics/diagnosis.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "outputs_decision_tree_diagnostics_diagnosis_2_the_direction_of_fiscal_change_did_not_transfer_across_years",
+      "community": 2,
+      "community_name": "What the diagnostics establish",
+      "norm_label": "2. the direction of fiscal change did not transfer across years"
+    },
+    {
+      "label": "3. The supplied disaster features add nothing to these fitted predictions",
+      "file_type": "document",
+      "source_file": "outputs/decision_tree_diagnostics/diagnosis.md",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "outputs_decision_tree_diagnostics_diagnosis_3_the_supplied_disaster_features_add_nothing_to_these_fitted_predictions",
+      "community": 2,
+      "community_name": "What the diagnostics establish",
+      "norm_label": "3. the supplied disaster features add nothing to these fitted predictions"
+    },
+    {
+      "label": "4. There are very few independent years, and the forecast spans two years from the baseline",
+      "file_type": "document",
+      "source_file": "outputs/decision_tree_diagnostics/diagnosis.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "outputs_decision_tree_diagnostics_diagnosis_4_there_are_very_few_independent_years_and_the_forecast_spans_two_years_from_the_baseline",
+      "community": 2,
+      "community_name": "What the diagnostics establish",
+      "norm_label": "4. there are very few independent years, and the forecast spans two years from the baseline"
+    },
+    {
+      "label": "5. The failure is not mainly a missing-value-imputation issue, and is not confined to one outlier",
+      "file_type": "document",
+      "source_file": "outputs/decision_tree_diagnostics/diagnosis.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "outputs_decision_tree_diagnostics_diagnosis_5_the_failure_is_not_mainly_a_missing_value_imputation_issue_and_is_not_confined_to_one_outlier",
+      "community": 2,
+      "community_name": "What the diagnostics establish",
+      "norm_label": "5. the failure is not mainly a missing-value-imputation issue, and is not confined to one outlier"
+    },
+    {
+      "label": "Did a better target representation fix it?",
+      "file_type": "document",
+      "source_file": "outputs/decision_tree_diagnostics/diagnosis.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "outputs_decision_tree_diagnostics_diagnosis_did_a_better_target_representation_fix_it",
+      "community": 3,
+      "community_name": "Fiscal prediction failure: evidence-based diagnosis",
+      "norm_label": "did a better target representation fix it?"
+    },
+    {
+      "label": "What remains unknown and what to do next",
+      "file_type": "document",
+      "source_file": "outputs/decision_tree_diagnostics/diagnosis.md",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "outputs_decision_tree_diagnostics_diagnosis_what_remains_unknown_and_what_to_do_next",
+      "community": 3,
+      "community_name": "Fiscal prediction failure: evidence-based diagnosis",
+      "norm_label": "what remains unknown and what to do next"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "outputs/decision_tree/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "outputs_decision_tree_readme",
+      "target": "outputs_decision_tree_readme_aussef_exploratory_fiscal_decision_tree",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "outputs/decision_tree/interpretation.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "outputs_decision_tree_interpretation",
+      "target": "outputs_decision_tree_interpretation_overall_verdict_no_go_for_further_predictive_modelling",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "outputs/decision_tree/interpretation.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "outputs_decision_tree_interpretation",
+      "target": "outputs_decision_tree_interpretation_primary_operating_ratio_pct_no_go",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "outputs/decision_tree/interpretation.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "outputs_decision_tree_interpretation",
+      "target": "outputs_decision_tree_interpretation_secondary_cash_cover_months_no_go",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "outputs/decision_tree/interpretation.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "outputs_decision_tree_interpretation",
+      "target": "outputs_decision_tree_interpretation_secondary_maintenance_ratio_pct_conditional_go",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "outputs/decision_tree_diagnostics/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "outputs_decision_tree_diagnostics_readme",
+      "target": "outputs_decision_tree_diagnostics_readme_fiscal_prediction_diagnostics",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "outputs/decision_tree_diagnostics/diagnosis.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "outputs_decision_tree_diagnostics_diagnosis",
+      "target": "outputs_decision_tree_diagnostics_diagnosis_fiscal_prediction_failure_evidence_based_diagnosis",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "outputs/decision_tree_diagnostics/diagnosis.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "outputs_decision_tree_diagnostics_diagnosis_fiscal_prediction_failure_evidence_based_diagnosis",
+      "target": "outputs_decision_tree_diagnostics_diagnosis_did_a_better_target_representation_fix_it",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "outputs/decision_tree_diagnostics/diagnosis.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "outputs_decision_tree_diagnostics_diagnosis_fiscal_prediction_failure_evidence_based_diagnosis",
+      "target": "outputs_decision_tree_diagnostics_diagnosis_verdict",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "outputs/decision_tree_diagnostics/diagnosis.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "outputs_decision_tree_diagnostics_diagnosis_fiscal_prediction_failure_evidence_based_diagnosis",
+      "target": "outputs_decision_tree_diagnostics_diagnosis_what_remains_unknown_and_what_to_do_next",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "outputs/decision_tree_diagnostics/diagnosis.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "outputs_decision_tree_diagnostics_diagnosis_fiscal_prediction_failure_evidence_based_diagnosis",
+      "target": "outputs_decision_tree_diagnostics_diagnosis_what_the_diagnostics_establish",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "outputs/decision_tree_diagnostics/diagnosis.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "outputs_decision_tree_diagnostics_diagnosis_what_the_diagnostics_establish",
+      "target": "outputs_decision_tree_diagnostics_diagnosis_1_the_tree_throws_away_useful_council_specific_persistence",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "outputs/decision_tree_diagnostics/diagnosis.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "outputs_decision_tree_diagnostics_diagnosis_what_the_diagnostics_establish",
+      "target": "outputs_decision_tree_diagnostics_diagnosis_2_the_direction_of_fiscal_change_did_not_transfer_across_years",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "outputs/decision_tree_diagnostics/diagnosis.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "outputs_decision_tree_diagnostics_diagnosis_what_the_diagnostics_establish",
+      "target": "outputs_decision_tree_diagnostics_diagnosis_3_the_supplied_disaster_features_add_nothing_to_these_fitted_predictions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "outputs/decision_tree_diagnostics/diagnosis.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "outputs_decision_tree_diagnostics_diagnosis_what_the_diagnostics_establish",
+      "target": "outputs_decision_tree_diagnostics_diagnosis_4_there_are_very_few_independent_years_and_the_forecast_spans_two_years_from_the_baseline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "outputs/decision_tree_diagnostics/diagnosis.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "outputs_decision_tree_diagnostics_diagnosis_what_the_diagnostics_establish",
+      "target": "outputs_decision_tree_diagnostics_diagnosis_5_the_failure_is_not_mainly_a_missing_value_imputation_issue_and_is_not_confined_to_one_outlier",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}

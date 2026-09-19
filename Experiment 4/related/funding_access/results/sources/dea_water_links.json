@@ -1,0 +1,690 @@
+[
+  {
+    "text": "Skip to main content",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-water-observations-landsat/#main-content"
+  },
+  {
+    "text": "",
+    "url": "https://knowledge.dea.ga.gov.au/"
+  },
+  {
+    "text": "",
+    "url": "https://knowledge.dea.ga.gov.au/"
+  },
+  {
+    "text": "Data Products",
+    "url": "https://knowledge.dea.ga.gov.au/data/"
+  },
+  {
+    "text": "User Guides",
+    "url": "https://knowledge.dea.ga.gov.au/guides/"
+  },
+  {
+    "text": "DEA Notebooks",
+    "url": "https://knowledge.dea.ga.gov.au/dea-notebooks/"
+  },
+  {
+    "text": "Validation reports",
+    "url": "https://knowledge.dea.ga.gov.au/validation/"
+  },
+  {
+    "text": "Tech Alerts",
+    "url": "https://knowledge.dea.ga.gov.au/tech-alerts/"
+  },
+  {
+    "text": "Operational reports",
+    "url": "https://knowledge.dea.ga.gov.au/operational-reports/"
+  },
+  {
+    "text": "Version history",
+    "url": "https://knowledge.dea.ga.gov.au/data/version-history/"
+  },
+  {
+    "text": "",
+    "url": "https://knowledge.dea.ga.gov.au/"
+  },
+  {
+    "text": "Data Products",
+    "url": "https://knowledge.dea.ga.gov.au/data/"
+  },
+  {
+    "text": "User Guides",
+    "url": "https://knowledge.dea.ga.gov.au/guides/"
+  },
+  {
+    "text": "DEA Notebooks",
+    "url": "https://knowledge.dea.ga.gov.au/dea-notebooks/"
+  },
+  {
+    "text": "Validation reports",
+    "url": "https://knowledge.dea.ga.gov.au/validation/"
+  },
+  {
+    "text": "Tech Alerts",
+    "url": "https://knowledge.dea.ga.gov.au/tech-alerts/"
+  },
+  {
+    "text": "Operational reports",
+    "url": "https://knowledge.dea.ga.gov.au/operational-reports/"
+  },
+  {
+    "text": "Version history",
+    "url": "https://knowledge.dea.ga.gov.au/data/version-history/"
+  },
+  {
+    "text": "All",
+    "url": "https://knowledge.dea.ga.gov.au/data/theme/baseline-satellite-data/"
+  },
+  {
+    "text": "DEA Surface Reflectance",
+    "url": "https://knowledge.dea.ga.gov.au/data/category/dea-surface-reflectance/"
+  },
+  {
+    "text": "Landsat 5 Analysis Ready Data",
+    "url": "https://knowledge.dea.ga.gov.au/data/category/landsat-5-analysis-ready-data/"
+  },
+  {
+    "text": "Landsat 5 Surface Reflectance",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-surface-reflectance-landsat-5-tm/"
+  },
+  {
+    "text": "Landsat 5 Surface Reflectance NBAR",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-surface-reflectance-nbar-landsat-5-tm/"
+  },
+  {
+    "text": "Landsat 5 Surface Reflectance NBART",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-surface-reflectance-nbart-landsat-5-tm/"
+  },
+  {
+    "text": "Landsat 5 Observational Attributes",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-surface-reflectance-oa-landsat-5-tm/"
+  },
+  {
+    "text": "Landsat 7 Analysis Ready Data",
+    "url": "https://knowledge.dea.ga.gov.au/data/category/landsat-7-analysis-ready-data/"
+  },
+  {
+    "text": "Landsat 7 Surface Reflectance",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-surface-reflectance-landsat-7-etm/"
+  },
+  {
+    "text": "Landsat 7 Surface Reflectance NBAR",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-surface-reflectance-nbar-landsat-7-etm/"
+  },
+  {
+    "text": "Landsat 7 Surface Reflectance NBART",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-surface-reflectance-nbart-landsat-7-etm/"
+  },
+  {
+    "text": "Landsat 7 Observational Attributes",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-surface-reflectance-oa-landsat-7-etm/"
+  },
+  {
+    "text": "Landsat 8 Analysis Ready Data",
+    "url": "https://knowledge.dea.ga.gov.au/data/category/landsat-8-analysis-ready-data/"
+  },
+  {
+    "text": "Landsat 8 Surface Reflectance",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-surface-reflectance-landsat-8-oli-tirs/"
+  },
+  {
+    "text": "Landsat 8 Surface Reflectance NBAR",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-surface-reflectance-nbar-landsat-8-oli-tirs/"
+  },
+  {
+    "text": "Landsat 8 Surface Reflectance NBART",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-surface-reflectance-nbart-landsat-8-oli-tirs/"
+  },
+  {
+    "text": "Landsat 8 Observational Attributes",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-surface-reflectance-oa-landsat-8-oli-tirs/"
+  },
+  {
+    "text": "Landsat 9 Analysis Ready Data",
+    "url": "https://knowledge.dea.ga.gov.au/data/category/landsat-9-analysis-ready-data/"
+  },
+  {
+    "text": "Landsat 9 Surface Reflectance",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-surface-reflectance-landsat-9-oli-tirs/"
+  },
+  {
+    "text": "Landsat 9 Surface Reflectance NBAR",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-surface-reflectance-nbar-landsat-9-oli-tirs/"
+  },
+  {
+    "text": "Landsat 9 Surface Reflectance NBART",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-surface-reflectance-nbart-landsat-9-oli-tirs/"
+  },
+  {
+    "text": "Landsat 9 Observational Attributes",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-surface-reflectance-oa-landsat-9-oli-tirs/"
+  },
+  {
+    "text": "Sentinel-2A Analysis Ready Data",
+    "url": "https://knowledge.dea.ga.gov.au/data/category/sentinel-2a-analysis-ready-data/"
+  },
+  {
+    "text": "Sentinel-2A Surface Reflectance",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-surface-reflectance-sentinel-2a-msi/"
+  },
+  {
+    "text": "Sentinel-2A Surface Reflectance NBART",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-surface-reflectance-nbart-sentinel-2a-msi/"
+  },
+  {
+    "text": "Sentinel-2A Observational Attributes",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-surface-reflectance-oa-sentinel-2a-msi/"
+  },
+  {
+    "text": "Sentinel-2B Analysis Ready Data",
+    "url": "https://knowledge.dea.ga.gov.au/data/category/sentinel-2b-analysis-ready-data/"
+  },
+  {
+    "text": "Sentinel-2B Surface Reflectance",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-surface-reflectance-sentinel-2b-msi/"
+  },
+  {
+    "text": "Sentinel-2B Surface Reflectance NBART",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-surface-reflectance-nbart-sentinel-2b-msi/"
+  },
+  {
+    "text": "Sentinel-2B Observational Attributes",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-surface-reflectance-oa-sentinel-2b-msi/"
+  },
+  {
+    "text": "Sentinel-2C Analysis Ready Data",
+    "url": "https://knowledge.dea.ga.gov.au/data/category/sentinel-2c-analysis-ready-data/"
+  },
+  {
+    "text": "Sentinel-2C Surface Reflectance",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-surface-reflectance-sentinel-2c-msi/"
+  },
+  {
+    "text": "Sentinel-2C Surface Reflectance NBART",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-surface-reflectance-nbart-sentinel-2c-msi/"
+  },
+  {
+    "text": "Sentinel-2C Observational Attributes",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-surface-reflectance-oa-sentinel-2c-msi/"
+  },
+  {
+    "text": "DEA Geometric Median and Median Absolute Deviation (GeoMAD)",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-geometric-median-and-median-absolute-deviation-landsat/"
+  },
+  {
+    "text": "Australian National Spectral Database",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/australian-national-spectral-database/"
+  },
+  {
+    "text": "Australian Geographic Reference Image",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/australian-geographic-reference-image/"
+  },
+  {
+    "text": "Daily SatPaths",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/daily-satpaths-beta/"
+  },
+  {
+    "text": "All",
+    "url": "https://knowledge.dea.ga.gov.au/data/theme/land-and-vegetation/"
+  },
+  {
+    "text": "DEA Land Cover",
+    "url": "https://knowledge.dea.ga.gov.au/data/category/dea-land-cover/"
+  },
+  {
+    "text": "DEA Land Cover",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-land-cover-landsat/"
+  },
+  {
+    "text": "GA Land Cover (Terra MODIS)",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/ga-land-cover-terra-modis/"
+  },
+  {
+    "text": "DEA Fractional Cover",
+    "url": "https://knowledge.dea.ga.gov.au/data/category/dea-fractional-cover/"
+  },
+  {
+    "text": "DEA Fractional Cover",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-fractional-cover-landsat/"
+  },
+  {
+    "text": "DEA Fractional Cover Percentiles",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-fractional-cover-percentiles-landsat/"
+  },
+  {
+    "text": "DEA Mangroves",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-mangroves/"
+  },
+  {
+    "text": "DEA Tasseled Cap Percentiles",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-tasseled-cap-percentiles-landsat/"
+  },
+  {
+    "text": "All",
+    "url": "https://knowledge.dea.ga.gov.au/data/theme/inland-water/"
+  },
+  {
+    "text": "DEA Wetlands Insight Tool",
+    "url": "https://knowledge.dea.ga.gov.au/data/category/dea-wetlands-insight-tool/"
+  },
+  {
+    "text": "DEA Wetlands Insight Tool (Ramsar Wetlands)",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-wetlands-insight-tool-ramsar-wetlands/"
+  },
+  {
+    "text": "DEA Wetlands Insight Tool (QLD)",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-wetlands-insight-tool-qld/"
+  },
+  {
+    "text": "DEA Water Observations",
+    "url": "https://knowledge.dea.ga.gov.au/data/category/dea-water-observations/"
+  },
+  {
+    "text": "DEA Water Observations (Landsat)",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-water-observations-landsat/"
+  },
+  {
+    "text": "DEA Water Observations Statistics (Landsat)",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-water-observations-statistics-landsat/"
+  },
+  {
+    "text": "DEA Water Observations (Sentinel-2 NRT)",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-water-observations-sentinel-2-nrt/"
+  },
+  {
+    "text": "DEA Waterbodies",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-waterbodies-landsat/"
+  },
+  {
+    "text": "All",
+    "url": "https://knowledge.dea.ga.gov.au/data/theme/sea-ocean-and-coast/"
+  },
+  {
+    "text": "DEA Coastal Ecosystems",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-coastal-ecosystems/"
+  },
+  {
+    "text": "DEA Coastlines",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-coastlines/"
+  },
+  {
+    "text": "DEA Intertidal",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-intertidal/"
+  },
+  {
+    "text": "DEA Tidal Composites",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-tidal-composites/"
+  },
+  {
+    "text": "All",
+    "url": "https://knowledge.dea.ga.gov.au/data/theme/hazards/"
+  },
+  {
+    "text": "DEA Hotspots",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-hotspots/"
+  },
+  {
+    "text": "DEA Burnt Area Characteristic Layers (Provisional)",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-burnt-area-characteristic-layers-sentinel-2-near-real-time/"
+  },
+  {
+    "text": "DEA Fuel Moisture Content",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-fuel-moisture-content/"
+  },
+  {
+    "text": "All",
+    "url": "https://knowledge.dea.ga.gov.au/data/theme/external-data/"
+  },
+  {
+    "text": "Elevation and bathymetry",
+    "url": "https://knowledge.dea.ga.gov.au/data/category/elevation-and-bathymetry/"
+  },
+  {
+    "text": "GA AusBathyTopo 250m",
+    "url": "https://knowledge.dea.ga.gov.au/data/external-data/ga-ausbathytopo-250m/"
+  },
+  {
+    "text": "GA SRTM 1 second DEM",
+    "url": "https://knowledge.dea.ga.gov.au/data/external-data/ga-srtm-1-second-dem/"
+  },
+  {
+    "text": "GA Multi-scale Topographic Position",
+    "url": "https://knowledge.dea.ga.gov.au/data/external-data/ga-multi-scale-topographic-position/"
+  },
+  {
+    "text": "Land use",
+    "url": "https://knowledge.dea.ga.gov.au/data/category/land-use/"
+  },
+  {
+    "text": "ABARES CLUM 2020",
+    "url": "https://knowledge.dea.ga.gov.au/data/external-data/abares-clum-2020/"
+  },
+  {
+    "text": "ABARES CLUM 2023",
+    "url": "https://knowledge.dea.ga.gov.au/data/external-data/abares-clum-2023/"
+  },
+  {
+    "text": "",
+    "url": "https://knowledge.dea.ga.gov.au/"
+  },
+  {
+    "text": "Data Products",
+    "url": "https://knowledge.dea.ga.gov.au/data/"
+  },
+  {
+    "text": "DEA Water Observations",
+    "url": "https://knowledge.dea.ga.gov.au/data/category/dea-water-observations/"
+  },
+  {
+    "text": "ga_ls_wo_3",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-water-observations-landsat/?tab=specifications"
+  },
+  {
+    "text": "2.0.0",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-water-observations-landsat/?tab=history"
+  },
+  {
+    "text": "Access tab",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-water-observations-landsat/?tab=access"
+  },
+  {
+    "text": "",
+    "url": "https://maps.dea.ga.gov.au/#share=s-fVc2VkHndVr0xOVakjP0lzXdJsT"
+  },
+  {
+    "text": "",
+    "url": "https://explorer.dea.ga.gov.au/products/ga_ls_wo_3"
+  },
+  {
+    "text": "",
+    "url": "https://data.dea.ga.gov.au/?prefix=derivative/ga_ls_wo_3/2-0-0"
+  },
+  {
+    "text": "",
+    "url": "https://thredds.nci.org.au/thredds/catalog/jw04/ga_ls_wo_3/catalog.html"
+  },
+  {
+    "text": "",
+    "url": "https://knowledge.dea.ga.gov.au/notebooks/DEA_products/DEA_Water_Observations/"
+  },
+  {
+    "text": "",
+    "url": "https://ows.dea.ga.gov.au"
+  },
+  {
+    "text": "Specifications tab",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-water-observations-landsat/?tab=specifications"
+  },
+  {
+    "text": "water",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-water-observations-landsat/?tab=specifications"
+  },
+  {
+    "text": "10.26186/146257",
+    "url": "https://doi.org/10.26186/146257"
+  },
+  {
+    "text": "See currency and the latest update date",
+    "url": "https://mgmt.sandbox.dea.ga.gov.au/public-dashboards/d22241dbfca54b1fa9f73938ef26e645?orgId=1#:~:text=DEA%20Water%20Observations%20%28Landsat%29"
+  },
+  {
+    "text": "Landsat 5, 7, 8 and 9 NBART and Observational Attributes",
+    "url": "https://knowledge.dea.ga.gov.au/data/category/dea-surface-reflectance/"
+  },
+  {
+    "text": "Geoscience Australia Landsat Collection 3",
+    "url": "https://knowledge.dea.ga.gov.au/search/?q=Geoscience+Australia+Landsat+Collection+3"
+  },
+  {
+    "text": "Creative Commons Attribution 4.0 International Licence",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "text": "https://doi.org/10.1016/j.rse.2015.11.003",
+    "url": "https://doi.org/10.1016/j.rse.2015.11.003"
+  },
+  {
+    "text": "https://doi.org/10.1016/j.rse.2015.11.003",
+    "url": "https://doi.org/10.1016/j.rse.2015.11.003"
+  },
+  {
+    "text": "load data from the Open Data Cube (ODC)",
+    "url": "https://knowledge.dea.ga.gov.au/notebooks/Beginners_guide/04_Loading_data/"
+  },
+  {
+    "text": "DEA Sandbox",
+    "url": "https://knowledge.dea.ga.gov.au/guides/setup/Sandbox/sandbox/"
+  },
+  {
+    "text": "NCI",
+    "url": "https://knowledge.dea.ga.gov.au/guides/setup/NCI/basics/"
+  },
+  {
+    "text": "STAC API",
+    "url": "https://knowledge.dea.ga.gov.au/guides/setup/gis/stac/"
+  },
+  {
+    "text": "Description tab",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-water-observations-landsat/?tab=description"
+  },
+  {
+    "text": "load data from the Open Data Cube",
+    "url": "https://knowledge.dea.ga.gov.au/notebooks/Beginners_guide/04_Loading_data/"
+  },
+  {
+    "text": "History tab",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-water-observations-landsat/?tab=history"
+  },
+  {
+    "text": "See the Currency Report",
+    "url": "https://mgmt.sandbox.dea.ga.gov.au/public-dashboards/d22241dbfca54b1fa9f73938ef26e645?orgId=1#:~:text=DEA%20Water%20Observations%20%28Landsat%29"
+  },
+  {
+    "text": "Currency Report",
+    "url": "https://mgmt.sandbox.dea.ga.gov.au/public-dashboards/d22241dbfca54b1fa9f73938ef26e645?orgId=1#:~:text=DEA%20Water%20Observations%20%28Landsat%29"
+  },
+  {
+    "text": "10.26186/146257",
+    "url": "https://doi.org/10.26186/146257"
+  },
+  {
+    "text": "146257",
+    "url": "https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/146257"
+  },
+  {
+    "text": "Creative Commons Attribution 4.0 International Licence",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "text": "Credits tab",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-water-observations-landsat/?tab=credits"
+  },
+  {
+    "text": "Landsat 5, 7, 8 and 9 NBART and Observational Attributes",
+    "url": "https://knowledge.dea.ga.gov.au/data/category/dea-surface-reflectance/"
+  },
+  {
+    "text": "Geoscience Australia Landsat Collection 3",
+    "url": "https://knowledge.dea.ga.gov.au/search/?q=Geoscience+Australia+Landsat+Collection+3"
+  },
+  {
+    "text": "geoscience_australia_landsat_collection_3",
+    "url": "https://knowledge.dea.ga.gov.au/search/?q=Tag+geoscience_australia_landsat_collection_3"
+  },
+  {
+    "text": "water",
+    "url": "https://knowledge.dea.ga.gov.au/search/?q=Tag+water"
+  },
+  {
+    "text": "water_detection",
+    "url": "https://knowledge.dea.ga.gov.au/search/?q=Tag+water_detection"
+  },
+  {
+    "text": "surface_water",
+    "url": "https://knowledge.dea.ga.gov.au/search/?q=Tag+surface_water"
+  },
+  {
+    "text": "See it on a map",
+    "url": "https://maps.dea.ga.gov.au/#share=s-fVc2VkHndVr0xOVakjP0lzXdJsT"
+  },
+  {
+    "text": "use DEA Maps",
+    "url": "https://knowledge.dea.ga.gov.au/guides/setup/dea_maps/"
+  },
+  {
+    "text": "Explore data availability",
+    "url": "https://explorer.dea.ga.gov.au/products/ga_ls_wo_3"
+  },
+  {
+    "text": "use the DEA Explorer",
+    "url": "https://knowledge.dea.ga.gov.au/setup/explorer_guide/"
+  },
+  {
+    "text": "Access the data on AWS",
+    "url": "https://data.dea.ga.gov.au/?prefix=derivative/ga_ls_wo_3/2-0-0"
+  },
+  {
+    "text": "Access the data on NCI",
+    "url": "https://thredds.nci.org.au/thredds/catalog/jw04/ga_ls_wo_3/catalog.html"
+  },
+  {
+    "text": "access the data via AWS",
+    "url": "https://knowledge.dea.ga.gov.au/guides/about/faq/#download-dea-data"
+  },
+  {
+    "text": "View code examples",
+    "url": "https://knowledge.dea.ga.gov.au/notebooks/DEA_products/DEA_Water_Observations/"
+  },
+  {
+    "text": "use the DEA Sandbox",
+    "url": "https://knowledge.dea.ga.gov.au/guides/setup/Sandbox/sandbox/"
+  },
+  {
+    "text": "Get via web service",
+    "url": "https://ows.dea.ga.gov.au"
+  },
+  {
+    "text": "use DEA\u00e2\u0080\u0099s web services",
+    "url": "https://knowledge.dea.ga.gov.au/guides/setup/gis/README/"
+  },
+  {
+    "text": "DEA Maps",
+    "url": "https://maps.dea.ga.gov.au"
+  },
+  {
+    "text": "Semantic Versioning",
+    "url": "https://semver.org/"
+  },
+  {
+    "text": "DEA Water Observations (Landsat)",
+    "url": "https://knowledge.dea.ga.gov.au/data/version-history/dea-water-observations-landsat-1.6.0/"
+  },
+  {
+    "text": "DEA Tech Alert on 2 April",
+    "url": "https://communication.ga.gov.au/link/id/zzzz69cdf18461773486Pzzzz6567c8b713b5b826/page.html"
+  },
+  {
+    "text": "DEA Tech Alert on 15 May",
+    "url": "https://communication.ga.gov.au/link/id/zzzz6a0685cb39a76258Pzzzz6567c8b713b5b826/page.html"
+  },
+  {
+    "text": "European Centre for Medium-Range Weather Forecasts (ECMWF)",
+    "url": "https://www.ecmwf.int/"
+  },
+  {
+    "text": "DEA Tech Alert issued 2 April",
+    "url": "https://communication.ga.gov.au/pub/pubType/EO/pubID/zzzz69cdbd8d27eed619/interface.html"
+  },
+  {
+    "text": "View the Tech Alert",
+    "url": "https://communication.ga.gov.au/link/id/zzzz6a0685cb39a76258Pzzzz6567c8b713b5b826/page.html"
+  },
+  {
+    "text": "DEA Coastlines",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-coastlines/"
+  },
+  {
+    "text": "DEA Mangroves",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-mangroves/"
+  },
+  {
+    "text": "DEA Water Observations Multi-Year Summary",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-water-observations-statistics-landsat/"
+  },
+  {
+    "text": "DEA Land Cover",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-land-cover-landsat/"
+  },
+  {
+    "text": "Explore the DEA datasets and tools in the Digital Atlas",
+    "url": "https://digital.atlas.gov.au/search?source=Digital%2520Earth%2520Australia"
+  },
+  {
+    "text": "View the Tech Alert",
+    "url": "https://communication.ga.gov.au/link/id/zzzz68c0df3fa6de5146Pzzzz6567c8b713b5b826/page.html"
+  },
+  {
+    "text": "access the latest data",
+    "url": "https://knowledge.dea.ga.gov.au/data/product/dea-water-observations-landsat/?tab=access"
+  },
+  {
+    "text": "View the Tech Alert",
+    "url": "https://communication.ga.gov.au/link/id/zzzz6811775c5a24b812Pzzzz6567c8b713b5b826/page.html"
+  },
+  {
+    "text": "Creative Commons Attribution 4.0 International Licence",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "text": "Geoscience Australia",
+    "url": "https://www.ga.gov.au/"
+  },
+  {
+    "text": "Digital Earth Australia",
+    "url": "https://www.ga.gov.au/scientific-topics/dea"
+  },
+  {
+    "text": "Digital Earth Africa",
+    "url": "https://www.digitalearthafrica.org/"
+  },
+  {
+    "text": "Open Data Cube",
+    "url": "https://www.opendatacube.org/"
+  },
+  {
+    "text": "Contact us",
+    "url": "https://www.ga.gov.au/scientific-topics/dea/contact-us"
+  },
+  {
+    "text": "ODC Stack Exchange",
+    "url": "https://gis.stackexchange.com/questions/tagged/open-data-cube"
+  },
+  {
+    "text": "ODC Discord chat",
+    "url": "https://discord.com/invite/4hhBQVas5U"
+  },
+  {
+    "text": "Copyright",
+    "url": "https://www.ga.gov.au/copyright"
+  },
+  {
+    "text": "Privacy",
+    "url": "https://www.ga.gov.au/privacy"
+  },
+  {
+    "text": "Accessibility",
+    "url": "https://www.ga.gov.au/accessibility"
+  },
+  {
+    "text": "Information Publication Scheme",
+    "url": "https://www.ga.gov.au/ips"
+  },
+  {
+    "text": "Freedom of Information Act",
+    "url": "https://www.ga.gov.au/ips/foi"
+  },
+  {
+    "text": "",
+    "url": "https://github.com/GeoscienceAustralia/dea-knowledge-hub"
+  }
+]

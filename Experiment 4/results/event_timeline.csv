@@ -1,0 +1,19 @@
+council_key,date,date_type,event_id,limitation,source_file,source_url
+lismore,2022-02-22,DRFA event start,1012,"Regional activation start, not local flood onset",outputs/experiment4_budget_deviation_audit/nsw_disaster_timing_audit.csv,
+richmondvalley,2022-02-22,DRFA event start,1012,"Regional activation start, not local flood onset",outputs/experiment4_budget_deviation_audit/nsw_disaster_timing_audit.csv,
+lismore,2022-02-28,Local gauge flood peak,1012,14.4m; does not specify first damage time to each project,,https://www.lismore.nsw.gov.au/Community/Natural-hazards-and-emergency-information/Flood-information-for-Lismore1/Flood-history
+richmondvalley,2022-02-28,Local extreme rainfall date,1012,"Casino daily rainfall; flood arrival varies by locality, exact project impact remains unknown",,https://richmondvalley.nsw.gov.au/wp-content/uploads/2022/04/RV-Flooding-EIS-PUBLIC-REPORT-April-2022.pdf
+eurobodalla,2019-11-26,Fire ignition,Black Summer,"Currowan ignition; same date as Q1 adoption, not proof of local asset damage that day",,https://www.esc.nsw.gov.au/__data/assets/pdf_file/0011/163001/E.ANNUAL-REPORT-2019-2020-FINAL.pdf
+eurobodalla,2019-12-31,Major local fire impact,Black Summer,"Major impact day; other firestorm days in January, not one-day treatment",,https://www.esc.nsw.gov.au/__data/assets/pdf_file/0006/159018/Six-Monthly-Report-for-25-Feb-Meeting.pdf
+eurobodalla,2020-02-10,Local flood event,follow-on flood,Q3 also contains flood and COVID disruption,,https://www.esc.nsw.gov.au/__data/assets/pdf_file/0011/163001/E.ANNUAL-REPORT-2019-2020-FINAL.pdf
+eurobodalla,2021-11-09,Other DRFA event start,987,Local physical footprint/onset not certified,outputs/experiment4_budget_deviation_audit/nsw_disaster_timing_audit.csv,
+eurobodalla,2022-09-14,Other DRFA event start,1034,Local physical footprint/onset not certified,outputs/experiment4_budget_deviation_audit/nsw_disaster_timing_audit.csv,
+griffith,2022-01-05,Other DRFA event start,1001,Local physical footprint/onset not certified,outputs/experiment4_budget_deviation_audit/nsw_disaster_timing_audit.csv,
+griffith,2022-08-04,Other DRFA event start,1030,Local physical footprint/onset not certified,outputs/experiment4_budget_deviation_audit/nsw_disaster_timing_audit.csv,
+griffith,2022-09-14,Other DRFA event start,1034,Local physical footprint/onset not certified,outputs/experiment4_budget_deviation_audit/nsw_disaster_timing_audit.csv,
+lismore,2021-11-09,Other DRFA event start,987,Local physical footprint/onset not certified,outputs/experiment4_budget_deviation_audit/nsw_disaster_timing_audit.csv,
+lismore,2022-09-14,Other DRFA event start,1034,Local physical footprint/onset not certified,outputs/experiment4_budget_deviation_audit/nsw_disaster_timing_audit.csv,
+richmondvalley,2021-11-09,Other DRFA event start,987,Local physical footprint/onset not certified,outputs/experiment4_budget_deviation_audit/nsw_disaster_timing_audit.csv,
+richmondvalley,2022-09-14,Other DRFA event start,1034,Local physical footprint/onset not certified,outputs/experiment4_budget_deviation_audit/nsw_disaster_timing_audit.csv,
+waggawagga,2022-08-04,Other DRFA event start,1030,Local physical footprint/onset not certified,outputs/experiment4_budget_deviation_audit/nsw_disaster_timing_audit.csv,
+waggawagga,2022-09-14,Other DRFA event start,1034,Local physical footprint/onset not certified,outputs/experiment4_budget_deviation_audit/nsw_disaster_timing_audit.csv,

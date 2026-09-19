@@ -1,0 +1,9 @@
+pandas==2.2.3
+numpy==2.3.5
+geopandas==1.1.4
+shapely==2.1.2
+rasterio==1.5.1
+pypdf==6.10.0
+matplotlib==3.11.2
+pyproj==3.8.0
+openpyxl==3.1.5

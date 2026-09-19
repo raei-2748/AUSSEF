@@ -1,0 +1,178 @@
+[
+  {
+    "variable": "flood_extent",
+    "source_id": "dea_water",
+    "spatial_unit": "Landsat pixel then event footprint \u00d7 LGA",
+    "temporal_unit": "individual satellite acquisition",
+    "measurement_date": "event observation timestamp; not recovered",
+    "availability_date": "Product/scene processing dates not recovered",
+    "independence_from_funding": "Physical sensor observations independent of grant decisions",
+    "coverage_limitation": "Cloud, shadow, revisit timing and missed peaks; surface water is not automatically flood damage or maximum extent",
+    "timing_risk": "First decision date and observation/publication vintage must be joined; not certified pre-decision"
+  },
+  {
+    "variable": "flood_depth",
+    "source_id": "dea_water",
+    "spatial_unit": "Depth surface / asset site",
+    "temporal_unit": "event peak",
+    "measurement_date": "event observation timestamp; not recovered",
+    "availability_date": "No verified consistent national event-depth source",
+    "independence_from_funding": "Would be independent if modelled from hydrology without grant outcomes",
+    "coverage_limitation": "DEA surface-water classification does not measure depth; elevation/hydraulic model and validation required",
+    "timing_risk": "First decision date and observation/publication vintage must be joined; not certified pre-decision"
+  },
+  {
+    "variable": "fire_extent_severity",
+    "source_id": "fesmsource",
+    "spatial_unit": "NSW mapped fire polygons/pixels, then LGA",
+    "temporal_unit": "fire / seasonal mapped release",
+    "measurement_date": "event observation timestamp; not recovered",
+    "availability_date": "Seasonal reports; event-specific release dates unresolved",
+    "independence_from_funding": "Remote sensing independent of assistance",
+    "coverage_limitation": "NSW-only, seasonal aggregates must not be assigned to a single AGRN; other states need matched fire footprints",
+    "timing_risk": "First decision date and observation/publication vintage must be joined; not certified pre-decision"
+  },
+  {
+    "variable": "cyclone_wind",
+    "source_id": "bom_tracks",
+    "spatial_unit": "Best-track point / station or windfield",
+    "temporal_unit": "storm timestamp",
+    "measurement_date": "event observation timestamp; not recovered",
+    "availability_date": "Best tracks are post-event reanalysis; issuance dates required",
+    "independence_from_funding": "Weather observations independent of funding",
+    "coverage_limitation": "Track distance is not measured LGA wind damage; retrospective best track may follow approval",
+    "timing_risk": "First decision date and observation/publication vintage must be joined; not certified pre-decision"
+  },
+  {
+    "variable": "rainfall",
+    "source_id": "bom_tracks",
+    "spatial_unit": "Weather station / gridded rainfall",
+    "temporal_unit": "daily / event accumulation",
+    "measurement_date": "event observation timestamp; not recovered",
+    "availability_date": "BOM observation/product publication audit outstanding",
+    "independence_from_funding": "Meteorological measurements independent",
+    "coverage_limitation": "Cyclone archive is a lead, not an extracted all-event rainfall dataset; station completeness required",
+    "timing_risk": "First decision date and observation/publication vintage must be joined; not certified pre-decision"
+  },
+  {
+    "variable": "infrastructure_exposed",
+    "source_id": "abs_census_release",
+    "spatial_unit": "Dated road/building/asset inventory intersected with footprint",
+    "temporal_unit": "pre-event stock \u00d7 event",
+    "measurement_date": "event observation timestamp; not recovered",
+    "availability_date": "No common dated asset layer recovered",
+    "independence_from_funding": "Pre-event inventory potentially independent",
+    "coverage_limitation": "Population/building exposure is not damage; road inventories differ across states",
+    "timing_risk": "First decision date and observation/publication vintage must be joined; not certified pre-decision"
+  },
+  {
+    "variable": "affected_area",
+    "source_id": "dea_water",
+    "spatial_unit": "Footprint area \u00d7 LGA",
+    "temporal_unit": "event",
+    "measurement_date": "event observation timestamp; not recovered",
+    "availability_date": "Acquisition-specific dates required",
+    "independence_from_funding": "Potentially independent sensor estimate",
+    "coverage_limitation": "No uniform all-hazard footprint measure; valid observed zero requires complete coverage",
+    "timing_risk": "First decision date and observation/publication vintage must be joined; not certified pre-decision"
+  },
+  {
+    "variable": "affected_population",
+    "source_id": "abs_census_release",
+    "spatial_unit": "Census small area / population grid \u00d7 footprint",
+    "temporal_unit": "pre-event stock \u00d7 event",
+    "measurement_date": "2021-08-10 for Census 2021; choose appropriate prior census",
+    "availability_date": "2021 Census first release 2022-06-28; finer products have later releases",
+    "independence_from_funding": "Census stock independent; affected estimate depends on valid hazard footprint",
+    "coverage_limitation": "Residential population is not people actually displaced; use older vintage before release where needed",
+    "timing_risk": "First decision date and observation/publication vintage must be joined; not certified pre-decision"
+  },
+  {
+    "variable": "houses_damaged_destroyed",
+    "source_id": "wa950",
+    "spatial_unit": "Property inspection / council / event totals",
+    "temporal_unit": "time-stamped impact assessment",
+    "measurement_date": "event observation timestamp; not recovered",
+    "availability_date": "Some annual/incident reports; no comparable LGA ledger recovered",
+    "independence_from_funding": "Damage assessments potentially independent; grants-approved damage is not",
+    "coverage_limitation": "Assessment coverage and revision dates selective; annual event total insufficient for pre-decision LGA vector",
+    "timing_risk": "First decision date and observation/publication vintage must be joined; not certified pre-decision"
+  },
+  {
+    "variable": "evacuations_displacement",
+    "source_id": "tas1038",
+    "spatial_unit": "Warning polygon / evacuation centre / locality",
+    "temporal_unit": "incident time",
+    "measurement_date": "event observation timestamp; not recovered",
+    "availability_date": "Some incident updates; national consistent historical vector not recovered",
+    "independence_from_funding": "Potentially independent operational records",
+    "coverage_limitation": "Evacuation order not count of displaced residents; council/event coverage unquantified",
+    "timing_risk": "First decision date and observation/publication vintage must be joined; not certified pre-decision"
+  },
+  {
+    "variable": "essential_infrastructure_damage",
+    "source_id": "guideline_c",
+    "spatial_unit": "Asset/site or NIAM recovery domain",
+    "temporal_unit": "assessment time",
+    "measurement_date": "event observation timestamp; not recovered",
+    "availability_date": "State impact requests may hold this; public event-wide availability not established",
+    "independence_from_funding": "Only if independently assessed rather than inferred from paid claims",
+    "coverage_limitation": "Need pre-decision asset damage and assessment protocol; later reconstruction spending excluded",
+    "timing_risk": "First decision date and observation/publication vintage must be joined; not certified pre-decision"
+  },
+  {
+    "variable": "business_agricultural_impact",
+    "source_id": "guideline_c",
+    "spatial_unit": "Affected enterprise / sector / region",
+    "temporal_unit": "assessment time",
+    "measurement_date": "event observation timestamp; not recovered",
+    "availability_date": "State Category C request/impact evidence not recovered",
+    "independence_from_funding": "Potentially independent if includes all assessed businesses; applications selected",
+    "coverage_limitation": "Do not use grant recipients or amounts as need; denominator of directly impacted enterprises required",
+    "timing_risk": "First decision date and observation/publication vintage must be joined; not certified pre-decision"
+  },
+  {
+    "variable": "population",
+    "source_id": "abs_census_release",
+    "spatial_unit": "LGA / SA1",
+    "temporal_unit": "Census or annual population estimate",
+    "measurement_date": "Census reference date or pre-event annual estimate",
+    "availability_date": "Release-specific; 2021 first release 2022-06-28",
+    "independence_from_funding": "Independent baseline structure",
+    "coverage_limitation": "Stock covariate, not event impact; boundary vintage must match",
+    "timing_risk": "First decision date and observation/publication vintage must be joined; not certified pre-decision"
+  },
+  {
+    "variable": "remoteness",
+    "source_id": "abs_sal",
+    "spatial_unit": "ABS Remoteness Areas aggregated to council",
+    "temporal_unit": "ASGS vintage",
+    "measurement_date": "event observation timestamp; not recovered",
+    "availability_date": "Exact selected RA vintage release not audited",
+    "independence_from_funding": "Independent baseline structure",
+    "coverage_limitation": "SAL documentation is geography lead only; LGA may span multiple remoteness classes; no arbitrary single class",
+    "timing_risk": "First decision date and observation/publication vintage must be joined; not certified pre-decision"
+  },
+  {
+    "variable": "socioeconomic_disadvantage",
+    "source_id": "seifa2021",
+    "spatial_unit": "LGA / SA1",
+    "temporal_unit": "2021 Census",
+    "measurement_date": "2021-08-10",
+    "availability_date": "2023-04-27",
+    "independence_from_funding": "Independent published baseline",
+    "coverage_limitation": "SEIFA is an existing statistical index, not a new need index; cannot use 2021 for pre-August-2021 onset",
+    "timing_risk": "First decision date and observation/publication vintage must be joined; not certified pre-decision"
+  },
+  {
+    "variable": "infrastructure_scale",
+    "source_id": "abs_census_release",
+    "spatial_unit": "Council / asset class",
+    "temporal_unit": "prior financial year",
+    "measurement_date": "event observation timestamp; not recovered",
+    "availability_date": "Frozen NSW fiscal road km observed; nationwide coverage unresolved",
+    "independence_from_funding": "Predisaster road length is separate from disaster loss",
+    "coverage_limitation": "NSW fiscal coverage only; differing road scope; use separate classes not combined need score",
+    "timing_risk": "First decision date and observation/publication vintage must be joined; not certified pre-decision"
+  }
+]

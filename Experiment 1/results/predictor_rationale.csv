@@ -1,0 +1,12 @@
+predictor,source_column,timing,unit,reason
+operating_ratio_pct__prior,operating_ratio_pct,t−1,percent (raw fire share may be censored),Prior operating balance relative to revenue; fiscal persistence
+cash_cover_months__prior,cash_cover_months,t−1,months,Prior liquidity buffer measured in months
+current_ratio__prior,current_ratio,t−1,ratio / multiple; exact definition unverified,Prior current-asset/current-liability liquidity proxy; exact definition unverified
+own_source_pct__prior,own_source_pct,t−1,percent (raw fire share may be censored),Prior revenue autonomy / composition
+debt_service_cover__prior,debt_service_cover,t−1,ratio / multiple; exact definition unverified,Prior capacity to cover debt service
+maintenance_ratio_pct__prior,maintenance_ratio_pct,t−1,percent (raw fire share may be censored),Prior actual-to-required maintenance adequacy
+population__prior,population,t−1,persons,Prior council population / service scale
+road_km__prior,road_km,t−1,kilometres,Prior road network / infrastructure scale
+fesm_burned_ha__event,fesm_burned_ha,t,hectares,"Mapped burned hectares during t; scoped physical exposure, not damage"
+bushfire_declared_event_count__event,bushfire_declared_event_count,t,listed events / counts,Listed bushfire event onsets during t
+flood_declared_event_count__event,flood_declared_event_count,t,listed events / counts,Listed flood event onsets during t; not inundated area

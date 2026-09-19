@@ -1,0 +1,25 @@
+target,test_year,test_fy,event_fy,status,train_candidate_n,train_n,train_excluded_n,test_candidate_n,test_n,test_excluded_n,training_target_years,embargoed_rows,test_excluded__no_exact_prior_year,test_excluded__boundary_flag,test_excluded__missing_or_ineligible_persistence,test_excluded__missing_target,train_excluded__boundary_flag,train_excluded__missing_or_ineligible_persistence,train_excluded__missing_target,test_excluded__no_exact_future_year,test_excluded__target_maintenance_quality,train_excluded__target_maintenance_quality
+operating_ratio_pct,2018,2018-19,2017-18,skipped: insufficient eligible training/test rows,0,0,0,128,0,128,,0,128.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+operating_ratio_pct,2019,2019-20,2018-19,skipped: insufficient eligible training/test rows,0,0,0,128,121,7,,128,0.0,4.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+operating_ratio_pct,2020,2020-21,2019-20,skipped: insufficient eligible training/test rows,0,0,0,128,122,6,,128,0.0,4.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+operating_ratio_pct,2021,2021-22,2020-21,evaluated,128,121,7,128,124,4,2019,128,0.0,4.0,0.0,0.0,4.0,3.0,0.0,0.0,0.0,0.0
+operating_ratio_pct,2022,2022-23,2021-22,evaluated,256,243,13,128,122,6,2019|2020,128,0.0,4.0,1.0,1.0,8.0,4.0,1.0,0.0,0.0,0.0
+operating_ratio_pct,2023,2023-24,2022-23,evaluated,384,367,17,128,124,4,2019|2020|2021,128,0.0,4.0,0.0,0.0,12.0,4.0,1.0,0.0,0.0,0.0
+operating_ratio_pct,2024,2024-25,2023-24,skipped: insufficient eligible training/test rows,512,489,23,128,0,128,2019|2020|2021|2022,128,0.0,4.0,0.0,124.0,16.0,5.0,2.0,0.0,0.0,0.0
+operating_ratio_pct,2025,2025-26,2024-25,skipped: insufficient eligible training/test rows,640,613,27,128,0,128,2019|2020|2021|2022|2023,128,0.0,0.0,0.0,0.0,20.0,5.0,2.0,128.0,0.0,0.0
+cash_cover_months,2018,2018-19,2017-18,skipped: insufficient eligible training/test rows,0,0,0,128,0,128,,0,128.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+cash_cover_months,2019,2019-20,2018-19,skipped: insufficient eligible training/test rows,0,0,0,128,121,7,,128,0.0,4.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+cash_cover_months,2020,2020-21,2019-20,skipped: insufficient eligible training/test rows,0,0,0,128,123,5,,128,0.0,4.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+cash_cover_months,2021,2021-22,2020-21,evaluated,128,121,7,128,124,4,2019,128,0.0,4.0,0.0,0.0,4.0,3.0,0.0,0.0,0.0,0.0
+cash_cover_months,2022,2022-23,2021-22,evaluated,256,244,12,128,122,6,2019|2020,128,0.0,4.0,1.0,1.0,8.0,3.0,1.0,0.0,0.0,0.0
+cash_cover_months,2023,2023-24,2022-23,evaluated,384,368,16,128,124,4,2019|2020|2021,128,0.0,4.0,0.0,0.0,12.0,3.0,1.0,0.0,0.0,0.0
+cash_cover_months,2024,2024-25,2023-24,skipped: insufficient eligible training/test rows,512,490,22,128,0,128,2019|2020|2021|2022,128,0.0,4.0,0.0,124.0,16.0,4.0,2.0,0.0,0.0,0.0
+cash_cover_months,2025,2025-26,2024-25,skipped: insufficient eligible training/test rows,640,614,26,128,0,128,2019|2020|2021|2022|2023,128,0.0,0.0,0.0,0.0,20.0,4.0,2.0,128.0,0.0,0.0
+maintenance_ratio_pct,2018,2018-19,2017-18,skipped: insufficient eligible training/test rows,0,0,0,128,0,128,,0,128.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+maintenance_ratio_pct,2019,2019-20,2018-19,skipped: insufficient eligible training/test rows,0,0,0,128,119,9,,128,0.0,4.0,4.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+maintenance_ratio_pct,2020,2020-21,2019-20,skipped: insufficient eligible training/test rows,0,0,0,128,120,8,,128,0.0,4.0,1.0,2.0,0.0,0.0,0.0,0.0,1.0,0.0
+maintenance_ratio_pct,2021,2021-22,2020-21,evaluated,128,119,9,128,122,6,2019,128,0.0,4.0,0.0,1.0,4.0,4.0,1.0,0.0,1.0,0.0
+maintenance_ratio_pct,2022,2022-23,2021-22,evaluated,256,239,17,128,120,8,2019|2020,128,0.0,4.0,2.0,2.0,8.0,5.0,3.0,0.0,0.0,1.0
+maintenance_ratio_pct,2023,2023-24,2022-23,evaluated,384,361,23,128,122,6,2019|2020|2021,128,0.0,4.0,1.0,1.0,12.0,5.0,4.0,0.0,0.0,2.0
+maintenance_ratio_pct,2024,2024-25,2023-24,evaluated,512,481,31,128,121,7,2019|2020|2021|2022,128,0.0,4.0,2.0,1.0,16.0,7.0,6.0,0.0,0.0,2.0
+maintenance_ratio_pct,2025,2025-26,2024-25,skipped: insufficient eligible training/test rows,640,603,37,128,0,128,2019|2020|2021|2022|2023,128,0.0,0.0,0.0,0.0,20.0,8.0,7.0,128.0,0.0,2.0

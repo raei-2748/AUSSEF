@@ -1,0 +1,11 @@
+{
+  "original": "/Users/ray/Downloads/drfa_activation_history_by_location_2026_august_11.csv",
+  "sha256": "6b2bebc520bb32741bc44c296c28f9830b1deacfa1e6b71bedb1ab41c2a88201",
+  "copy": "/Users/ray/Research/AUSSEF/outputs/experiment4_funding_access_feasibility/inputs/drfa_activation_history_by_location_2026_august_11.csv",
+  "snapshot_from_filename": "2026-08-11",
+  "publication_date_verified": false,
+  "publisher_resource_id": "ada7908b-afe6-48f3-966b-789aa26c1391",
+  "publisher_resource_last_modified": "2026-08-11T01:47:19.980280",
+  "publisher_download_hash_matches": true,
+  "publication_date_note": "Resource version date verified; first publication of each activation is not established."
+}

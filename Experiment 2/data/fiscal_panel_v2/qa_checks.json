@@ -1,0 +1,13 @@
+{
+  "unique_council_years": true,
+  "dictionary_covers_every_panel_column": true,
+  "five_historical_years_per_selected_council": true,
+  "no_2012_cash_in_common_series": true,
+  "no_historical_exposure_fabricated": true,
+  "policy_dates_before_cutoff": true,
+  "no_duplicate_availability_rows": true,
+  "only_dated_announcements_verified": true,
+  "financial_predictors_use_two_year_lag": true,
+  "all_252_frozen_files_unchanged": true,
+  "local_report_links_resolve": true
+}

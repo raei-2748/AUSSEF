@@ -1,0 +1,23 @@
+[
+  {
+    "file": "sources/nla_2014.html",
+    "url": "https://webarchive.nla.gov.au/awa/20170101000000/http://www.emergency.nsw.gov.au/publications/natural-disaster-declarations/2014-2015.html",
+    "final_url": "https://webarchive.nla.gov.au/awa/20170101000000/http://www.emergency.nsw.gov.au/publications/natural-disaster-declarations/2014-2015.html",
+    "status": 200,
+    "sha256": "17d85a05b619964c7f38b0d33c4cdde3f558c74189c784c5bfbac016c73bd4a6"
+  },
+  {
+    "file": "sources/mpes_2014_retry.pdf",
+    "url": "https://wayback.archive-it.org/22771/20240423201346/https://www.opengov.nsw.gov.au/download/15231",
+    "final_url": "https://wayback.archive-it.org/22771/20240426144550/https://media.opengov.nsw.gov.au/pairtree_root/f0/5e/e8/91/6d/88/43/70/a2/88/56/f4/74/ac/12/82/obj/MPES_ANNUAL_REPORT_2014_15.pdf",
+    "status": 200,
+    "sha256": "8932f27ba1e1a0b7ea7b08d011f0eaaa242e0ed71bf80ff4e54f5544b76dab6b"
+  },
+  {
+    "file": "sources/semc_2016_retry.pdf",
+    "url": "https://wayback.archive-it.org/22771/20240423201346/https://www.opengov.nsw.gov.au/download/19365",
+    "final_url": "https://wayback.archive-it.org/22771/20240425175148/https://media.opengov.nsw.gov.au/pairtree_root/05/60/01/bf/2f/09/43/f3/b0/37/70/af/11/cd/c4/bf/obj/NSW_SEMC_ANNUAL_REPORT_2016_2017.pdf",
+    "status": 200,
+    "sha256": "dca6f921a3a1d54083fca2e322261bd74bcfad55ba911cce469d1d0af20c919f"
+  }
+]

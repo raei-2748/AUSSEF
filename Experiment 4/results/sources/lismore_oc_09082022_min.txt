@@ -1,0 +1,8 @@
+Infocouncil Page has encountered an error. Please Contact us. Error logging disabled: The process cannot access the file 'E:\Client subdomains\Lismore\ErrorLog\2026\2026-9.htm' because it is being used by another process. Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Infocouncil.CustomCode.IncludeScript.RedirectToError(HttpSessionState& roSession, HttpResponse& roResponse, String vsMessage, String vsLogging) in D:\Source\Git\Development\Infocouncil.CustomCode\IncludeScript.vb:line 2129
+   at RedirectToDoc.SetErrorMessage(String vsMessage)
+   at RedirectToDoc.Page_Load(Object sender, EventArgs e)

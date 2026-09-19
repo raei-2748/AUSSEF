@@ -1,0 +1,10 @@
+variable,definition,unit,eligibility_note
+planned_routine_maintenance_aud,Complete original adopted routine budget,AUD,Must predate disaster and match actual asset/fund/work scope
+actual_routine_maintenance_aud,Actual routine expenditure excluding disaster reconstruction,AUD,Must reconcile to ledger and same period as budget
+maintenance_deviation,(actual routine minus planned routine) divided by planned routine,fraction,Requires positive planned amount and all measurement gates
+disaster_reconstruction_expenditure_aud,Pure actual reconstruction expenditure,AUD,Not funding announcements or emergency/reconstruction mixtures
+actual_maintenance_aud,Inherited aggregate actual maintenance,AUD,Secondary diagnostic only
+required_maintenance_aud,Inherited asset-management-plan estimated need,AUD,Not the adopted routine budget
+maintenance_ratio_pct,Inherited aggregate adequacy ratio,percentage points,Secondary only
+low_pre_cash_cover,Last pre-event cash cover below three months,binary,Fixed before event; no composite
+weak_pre_operating_position,Last pre-event operating ratio below zero,binary,Fixed before event; no composite

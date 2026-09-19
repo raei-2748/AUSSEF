@@ -1,0 +1,55 @@
+column,dtype,unit,missing_n,missing_pct,distinct_nonmissing,min,max
+council,object,"identifier, category, provenance or evidence text",0,0.0,132,,
+council_key,object,"identifier, category, provenance or evidence text",0,0.0,128,,
+year_start,int64,financial-year start (calendar year),0,0.0,8,2017,2024
+financial_year,object,"identifier, category, provenance or evidence text",0,0.0,8,,
+fiscal_source_file,object,"identifier, category, provenance or evidence text",0,0.0,8,,
+fiscal_source_sheet,object,"identifier, category, provenance or evidence text",0,0.0,4,,
+fiscal_excel_row,int64,source spreadsheet row number,0,0.0,128,4,131
+actual_maintenance_aud,float64,AUD (nominal; price basis not supplied),7,0.68359375,983,0.0,111821000.0
+required_maintenance_aud,float64,AUD (nominal; price basis not supplied),7,0.68359375,974,0.0,138988000.0
+maintenance_gap_aud,float64,AUD (nominal; price basis not supplied),7,0.68359375,890,-26895000.0,64188000.0
+maintenance_ratio_pct,float64,percent (raw fire share may be censored),15,1.46484375,950,0.0,547.3584905660377
+outcome_observed,bool,Boolean quality / scope flag,0,0.0,2,False,True
+outcome_quality_eligible,bool,Boolean quality / scope flag,0,0.0,2,False,True
+maintenance_conflict,bool,Boolean quality / scope flag,0,0.0,2,False,True
+cash_cover_months,float64,months,134,13.0859375,843,0.57,50.8183
+current_ratio,float64,ratio / multiple; exact definition unverified,134,13.0859375,732,-5.8,49.5063
+operating_ratio_pct,float64,percent (raw fire share may be censored),135,13.18359375,770,-35.28,59.77
+own_source_pct,float64,percent (raw fire share may be censored),134,13.0859375,838,9.76,108.23
+grants_pct,float64,percent (raw fire share may be censored),7,0.68359375,1005,-8.09866061421206,90.2392524930864
+debt_service_cover,float64,ratio / multiple; exact definition unverified,134,13.0859375,798,-4.6179,6146.83
+population,int64,persons,0,0.0,886,1408,438843
+area_km2,float64,square kilometres,0,0.0,166,5.7,53492.2
+road_km,float64,kilometres,0,0.0,684,0.0,3981.53
+road_expenditure_aud,float64,AUD (nominal; price basis not supplied),17,1.66015625,996,0.0,127199000.0
+classification,object,"identifier, category, provenance or evidence text",0,0.0,5,,
+fesm_burned_ha,float64,hectares,128,12.5,382,0.0,438159.67
+fesm_burned_pct_raw,object,percent (raw fire share may be censored),128,12.5,164,,
+fesm_extent_only_ha,float64,hectares,768,75.0,122,0.0,5444.61
+fesm_min_fire_size_ha_exclusive,float64,hectares,128,12.5,2,10.0,100.0
+fesm_source_file,object,"identifier, category, provenance or evidence text",128,12.5,7,,
+fesm_excel_total_row,float64,source spreadsheet row number,128,12.5,235,7.0,776.0
+fesm_status,object,"identifier, category, provenance or evidence text",0,0.0,3,,
+boundary_change_flag,bool,Boolean quality / scope flag,0,0.0,2,False,True
+boundary_compatibility,object,"identifier, category, provenance or evidence text",0,0.0,2,,
+physical_flood_status,object,"identifier, category, provenance or evidence text",0,0.0,1,,
+verified_zero_all_disaster_exposure,bool,Boolean quality / scope flag,0,0.0,1,False,False
+bushfire_declared_event_count,int64,listed events / counts,0,0.0,4,0,3
+bushfire_agrns,object,"identifier, category, provenance or evidence text",867,84.66796875,85,,
+bushfire_declaration_status,object,"identifier, category, provenance or evidence text",0,0.0,2,,
+flood_declared_event_count,int64,listed events / counts,0,0.0,6,0,5
+flood_agrns,object,"identifier, category, provenance or evidence text",525,51.26953125,80,,
+flood_declaration_status,object,"identifier, category, provenance or evidence text",0,0.0,2,,
+all_declared_event_count,int64,listed events / counts,0,0.0,7,0,6
+all_agrns,object,"identifier, category, provenance or evidence text",427,41.69921875,214,,
+all_declaration_status,object,"identifier, category, provenance or evidence text",0,0.0,2,,
+source_list_disagreement_count,float64,listed events / counts,0,0.0,2,0.0,1.0
+open_ended_onset_event_count,float64,listed events / counts,0,0.0,7,0.0,6.0
+known_prior_year_carryover_count,float64,listed events / counts,0,0.0,1,0.0,0.0
+prior_fy_declared_event_count,float64,listed events / counts,0,0.0,7,0.0,6.0
+declaration_vs_fesm_scope_difference,bool,Boolean quality / scope flag,0,0.0,2,False,True
+candidate_no_new_declared_event,bool,Boolean quality / scope flag,0,0.0,2,False,True
+candidate_strict_scoped_comparison,bool,Boolean quality / scope flag,0,0.0,2,False,True
+direct_infrastructure_damage_documented,float64,"identifier, category, provenance or evidence text",1019,99.51171875,1,1.0,1.0
+direct_infrastructure_evidence_ids,object,"identifier, category, provenance or evidence text",1019,99.51171875,5,,

@@ -1,0 +1,344 @@
+[
+  {
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-05/time-series-data-2024-2025.xlsx",
+    "title": "Time-Series Data 2024/2025 (XLSX,\u00a0129\u00a0KB)",
+    "file": "sources/time-series-data-2024-2025.xlsx",
+    "status": "retrieved",
+    "sha256": "11d79f8642a7610579dbcfcab68f9acd2c84e17b60ab7544ba846e6ebbc0cdc3",
+    "bytes": 205895,
+    "manifest_file": "outputs/operating_ratio_audit/source_downloads.json"
+  },
+  {
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2023-24.xlsx",
+    "title": "Time-Series Data 2023/2024 (XLSX,\u00a0209\u00a0KB)",
+    "file": "sources/time-series-data-2023-24.xlsx",
+    "status": "retrieved",
+    "sha256": "e760f245dc28a7bb9d54e21aca614641d88df21a67a7ec91805dfe04ecb15e32",
+    "bytes": 213642,
+    "manifest_file": "outputs/operating_ratio_audit/source_downloads.json"
+  },
+  {
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2022-23.xlsx",
+    "title": "Time-Series Data 2022/2023 (XLSX,\u00a0200\u00a0KB)",
+    "file": "sources/time-series-data-2022-23.xlsx",
+    "status": "retrieved",
+    "sha256": "062de94424575d1eaec948c710460ccdd09f08d0ebd15ed799e7e95fdc8c7255",
+    "bytes": 204952,
+    "manifest_file": "outputs/operating_ratio_audit/source_downloads.json"
+  },
+  {
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2021-22.xlsx",
+    "title": "Time-Series Data 2021/2022 (XLSX,\u00a0203\u00a0KB)",
+    "file": "sources/time-series-data-2021-22.xlsx",
+    "status": "retrieved",
+    "sha256": "7353f7f7c99c628b2785b5ba57ae7bbc56126349b3a36afc01c036df5d49becc",
+    "bytes": 208210,
+    "manifest_file": "outputs/operating_ratio_audit/source_downloads.json"
+  },
+  {
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2020-2021.xlsx",
+    "title": "Time Series Data 2020/2021 (XLSX,\u00a0200\u00a0KB)",
+    "file": "sources/time-series-data-2020-2021.xlsx",
+    "status": "retrieved",
+    "sha256": "626310275342198071e2c8df8c38e04d02a35f51ef13ecb2c408af2a57574bd3",
+    "bytes": 205010,
+    "manifest_file": "outputs/operating_ratio_audit/source_downloads.json"
+  },
+  {
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2019-2020.xlsx",
+    "title": "Time Series Data 2019/2020 (XLSX,\u00a0209\u00a0KB)",
+    "file": "sources/time-series-data-2019-2020.xlsx",
+    "status": "retrieved",
+    "sha256": "a29009e0ffdd97482ea8f3d60f58b71df4a580517ca9122eef21d6d736332c9a",
+    "bytes": 198007,
+    "manifest_file": "outputs/operating_ratio_audit/source_downloads.json"
+  },
+  {
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2018-2019.xlsx",
+    "title": "Time Series Data 2018/2019 (XLSX,\u00a0609\u00a0KB)",
+    "file": "sources/time-series-data-2018-2019.xlsx",
+    "status": "retrieved",
+    "sha256": "f9c99658b305be86b0b4b9a47586ada12af7bb78a01bf952ca4de80e763dfcd4",
+    "bytes": 623253,
+    "manifest_file": "outputs/operating_ratio_audit/source_downloads.json"
+  },
+  {
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2017-2018.xls",
+    "title": "Time Series Data 2017/2018 (XLS,\u00a0718\u00a0KB)",
+    "file": "sources/time-series-data-2017-2018.xls",
+    "status": "retrieved",
+    "sha256": "69fd629165a018a70a6a412acb3159e08190347bb0ab92aab26c4f9a56fdc3f6",
+    "bytes": 734720,
+    "manifest_file": "outputs/operating_ratio_audit/source_downloads.json"
+  },
+  {
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2016-17.xls",
+    "title": "Time Series Data 2016/2017 (XLS,\u00a0702\u00a0KB)",
+    "file": "sources/time-series-data-2016-17.xls",
+    "status": "retrieved",
+    "sha256": "42a1b4c0782f2a62c22c4ab030cedace8c0fe8420d587fc3b4fdc9e4cbb430f7",
+    "bytes": 743936,
+    "manifest_file": "outputs/operating_ratio_audit/source_downloads.json"
+  },
+  {
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2015-16.xls",
+    "title": "Time Series Data 2015/2016 (XLS,\u00a0703\u00a0KB)",
+    "file": "sources/time-series-data-2015-16.xls",
+    "status": "retrieved",
+    "sha256": "62bb1e2c38332f872564fb98c103d0053b842341720f62a1f9951b697dd279a2",
+    "bytes": 719360,
+    "manifest_file": "outputs/operating_ratio_audit/source_downloads.json"
+  },
+  {
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2014-15_1.xls",
+    "title": "Time Series Data 2014/2015 (XLS,\u00a0382\u00a0KB)",
+    "file": "sources/time-series-data-2014-15_1.xls",
+    "status": "retrieved",
+    "sha256": "baf59e3a00a8131a90710eabb12f9497218795510b180f0945c62527e26a600d",
+    "bytes": 391168,
+    "manifest_file": "outputs/operating_ratio_audit/source_downloads.json"
+  },
+  {
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-1994-2015.xls",
+    "title": "Time Series Data 1994-2015 (XLS,\u00a06.1 MB\u00a0)",
+    "file": "sources/time-series-data-1994-2015.xls",
+    "status": "retrieved",
+    "sha256": "402f2500192b0c6a614663072afe8404bb5b62cdf92d15fb1e73f8bd6199e608",
+    "bytes": 6386688,
+    "manifest_file": "outputs/operating_ratio_audit/source_downloads.json"
+  },
+  {
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-02/comparative-information-on-nsw-local-government-1994-2011-time-series-data.xls",
+    "title": "Comparative Information on NSW Local Government 1994-2011 (XLS,\u00a04.9\u00a0MB)",
+    "file": "sources/comparative-information-on-nsw-local-government-1994-2011-time-series-data.xls",
+    "status": "retrieved",
+    "sha256": "7ac147ce7b6ce75b30907a84a6513acd0796bbcbe3028671a9a68dda27d13797",
+    "bytes": 5099520,
+    "manifest_file": "outputs/operating_ratio_audit/source_downloads.json"
+  },
+  {
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-02/time-series-data-2011-12-2013-14.xlsx",
+    "title": "Time Series Data 2011/12 \u2013 2013/14 (XLSX,\u00a0798\u00a0KB)",
+    "file": "sources/time-series-data-2011-12-2013-14.xlsx",
+    "status": "retrieved",
+    "sha256": "dd6f66e801caaec9dadd454488a46aed4b0f55ffab82bc592226b69a124879f5",
+    "bytes": 817059,
+    "manifest_file": "outputs/operating_ratio_audit/source_downloads.json"
+  },
+  {
+    "source_id": "profile_2015",
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-02/your-council-june-2015-profile-and-performance-of-the-nsw-local-government-sector.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/profile_2015.pdf",
+    "sha256": "6ea77874ad6544e823dcc3d0728fe09b93a014916d97c75807077d774aedd23d",
+    "status": "retrieved",
+    "bytes": 3134291,
+    "pages": 39,
+    "manifest_file": "outputs/fiscal_panel_v2/source_manifest.json"
+  },
+  {
+    "source_id": "comparative_2013",
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-02/comparative-information-on-nsw-local-government-measuring-local-government-performance-2012-2013.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/comparative_2013.pdf",
+    "sha256": "fa66046191d485bbd2b929357aa9a3d028953e10724d009b10a561eb48070789",
+    "status": "retrieved",
+    "bytes": 76370604,
+    "pages": 353,
+    "manifest_file": "outputs/fiscal_panel_v2/source_manifest.json"
+  },
+  {
+    "source_id": "olg_annual_2014",
+    "url": "https://www.olg.nsw.gov.au/wp-content/uploads/OLG-Annual-Report-2013-14-24Feb2014-to-30June2014.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/olg_annual_2014.pdf",
+    "sha256": "d6fbbc63b421eae2647c637f3ba3b05966c1e253c35e78a87e6acaff1c0c579f",
+    "status": "Stream has ended unexpectedly",
+    "bytes": 88100,
+    "manifest_file": "outputs/fiscal_panel_v2/source_manifest.json"
+  },
+  {
+    "source_id": "olg_annual_2015",
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-03/olg-annual-report-2014-2015.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/olg_annual_2015.pdf",
+    "sha256": "9b8ce574a71d3db35beee6e19016fe640210fd0ecd585e2030ca858675e62ff9",
+    "status": "retrieved",
+    "bytes": 5627566,
+    "pages": 73,
+    "manifest_file": "outputs/fiscal_panel_v2/source_manifest.json"
+  },
+  {
+    "source_id": "boundary_2016",
+    "url": "https://legislation.nsw.gov.au/view/pdf/asmade/sl-2016-241",
+    "retrieved_date": "2026-09-18",
+    "status": "403 Client Error: Forbidden for url: https://legislation.nsw.gov.au/view/pdf/asmade/sl-2016-241",
+    "manifest_file": "outputs/fiscal_panel_v2/source_manifest.json"
+  },
+  {
+    "source_id": "amalgamations_2016",
+    "url": "https://www.audit.nsw.gov.au/sites/default/files/auditoffice/2018-Reports/Local%20Government%202017/Appendix%20four%20-%20Councils%20amalgamated%20in%202016.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/amalgamations_2016.pdf",
+    "sha256": "79f6054fd4da5ceca576209ec8105aa4dfac2765b73cd26bc1ed0637a3d0595a",
+    "status": "retrieved",
+    "bytes": 107908,
+    "pages": 2,
+    "manifest_file": "outputs/fiscal_panel_v2/source_manifest.json"
+  },
+  {
+    "source_id": "gc145",
+    "url": "https://www.olg.nsw.gov.au/wp-content/uploads/2020/12/GC-145.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/gc145.pdf",
+    "sha256": "d6fbbc63b421eae2647c637f3ba3b05966c1e253c35e78a87e6acaff1c0c579f",
+    "status": "Stream has ended unexpectedly",
+    "bytes": 88100,
+    "manifest_file": "outputs/fiscal_panel_v2/source_manifest.json"
+  },
+  {
+    "source_id": "gc147",
+    "url": "https://www.olg.nsw.gov.au/wp-content/uploads/GC-147-2018-19-Financial-Assistance-Grants-FAGs-%E2%80%93-advance-payment-and-transition-to-implement-improvements-to-the-existing-allocation-model.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/gc147.pdf",
+    "sha256": "d6fbbc63b421eae2647c637f3ba3b05966c1e253c35e78a87e6acaff1c0c579f",
+    "status": "Stream has ended unexpectedly",
+    "bytes": 88100,
+    "manifest_file": "outputs/fiscal_panel_v2/source_manifest.json"
+  },
+  {
+    "source_id": "grants_annual_2015",
+    "url": "https://www.olg.nsw.gov.au/wp-content/uploads/NSW-Local-Government-Grants-Commission-Annual-Report-2014-2015.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/grants_annual_2015.pdf",
+    "sha256": "d6fbbc63b421eae2647c637f3ba3b05966c1e253c35e78a87e6acaff1c0c579f",
+    "status": "Stream has ended unexpectedly",
+    "bytes": 88100,
+    "manifest_file": "outputs/fiscal_panel_v2/source_manifest.json"
+  },
+  {
+    "source_id": "council_circular_gc_150_2021_22_financial_assistance_grants_advance_payment_pdf",
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-01/council-circular-gc-150-2021-22-financial-assistance-grants\u2013advance-payment.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/council_circular_gc_150_2021_22_financial_assistance_grants_advance_payment_pdf.pdf",
+    "sha256": "302e0cbeeea1667366a38165b7c3e9da5678b9b7187c3fbae880ab2951a6f653",
+    "status": "retrieved",
+    "bytes": 85017,
+    "pages": 2,
+    "manifest_file": "outputs/fiscal_panel_v2/source_manifest.json"
+  },
+  {
+    "source_id": "grants_commission_circular_gc_149_2020_21_financial_assistance_grants_advance_payment_pdf",
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-01/grants-commission-circular-GC-149-2020-21-financial-assistance-grants\u2013advance-payment.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/grants_commission_circular_gc_149_2020_21_financial_assistance_grants_advance_payment_pdf.pdf",
+    "sha256": "a32e7b89535b84820fdf7cace17f8efd7476b762fe070d4a08a4cd9adb16a116",
+    "status": "retrieved",
+    "bytes": 110195,
+    "pages": 2,
+    "manifest_file": "outputs/fiscal_panel_v2/source_manifest.json"
+  },
+  {
+    "source_id": "olg_annual_report_2017_2018_pdf",
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-03/olg-annual-report-2017-2018.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/olg_annual_report_2017_2018_pdf.pdf",
+    "sha256": "07ec455ae54fb91342fc8243e7333a2ee005167a69a9468edb9ac278612d1ddf",
+    "status": "retrieved",
+    "bytes": 4820036,
+    "pages": 58,
+    "manifest_file": "outputs/fiscal_panel_v2/source_manifest.json"
+  },
+  {
+    "source_id": "olg_annual_report_2016_2017_pdf",
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-03/olg-annual-report-2016-2017.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/olg_annual_report_2016_2017_pdf.pdf",
+    "sha256": "476381a04b148f47068c688044f01704117074ca9e7424bbbf257d313d40adf7",
+    "status": "retrieved",
+    "bytes": 6797420,
+    "pages": 55,
+    "manifest_file": "outputs/fiscal_panel_v2/source_manifest.json"
+  },
+  {
+    "source_id": "olg_annual_report_2015_2016_pdf",
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-03/olg-annual-report-2015-2016.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/olg_annual_report_2015_2016_pdf.pdf",
+    "sha256": "e98ee0062a4f79e8427a6bcd4a3fcf677c00f2c2a8f13938f154176e4e914ff5",
+    "status": "retrieved",
+    "bytes": 8221224,
+    "pages": 61,
+    "manifest_file": "outputs/fiscal_panel_v2/source_manifest.json"
+  },
+  {
+    "source_id": "grants_commission_circular_gc_153_2024_25_financial_assistance_grants_advance_payment_pdf",
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-01/grants-commission-circular-gc-153-2024-25-financial-assistance-grants\u2013advance-payment.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/grants_commission_circular_gc_153_2024_25_financial_assistance_grants_advance_payment_pdf.pdf",
+    "sha256": "700d41e61f6df13a205c9f37b0abb6c9abe23d41f92ccad72fc68742c4d3c75d",
+    "status": "retrieved",
+    "bytes": 678185,
+    "pages": 5,
+    "manifest_file": "outputs/fiscal_panel_v2/source_manifest.json"
+  },
+  {
+    "source_id": "grants_commission_circular_gc_152_2023_24_financial_assistance_grants_advance_payment_pdf",
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-01/grants-commission-circular-gc-152-2023-24-financial-assistance-grants-advance-payment.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/grants_commission_circular_gc_152_2023_24_financial_assistance_grants_advance_payment_pdf.pdf",
+    "sha256": "bcd639b647e49c77465fd9d4e349e5de5e36310aba357910f8e44866f469d113",
+    "status": "retrieved",
+    "bytes": 189400,
+    "pages": 2,
+    "manifest_file": "outputs/fiscal_panel_v2/source_manifest.json"
+  },
+  {
+    "source_id": "walgett_2014",
+    "url": "https://www.walgett.nsw.gov.au/files/assets/public/v/1/council/documents/attachment-a-financial-statements.pdf",
+    "retrieved_date": "2026-09-18",
+    "status": "Not PDF",
+    "manifest_file": "outputs/fiscal_panel_v2/source_manifest_additional.json"
+  },
+  {
+    "source_id": "gc151",
+    "url": "https://www.olg.nsw.gov.au/sites/default/files/2026-03/council-circular-gc-150-2022-23-financial-assistance-grants-advance-payment.pdf",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/gc151.pdf",
+    "status": "retrieved",
+    "sha256": "be39004143bfcaa9152c678e6674092ec08f673862bbecdb6f3e83a54f9e2732",
+    "pages": 2,
+    "manifest_file": "outputs/fiscal_panel_v2/source_manifest_additional.json"
+  },
+  {
+    "source_id": "walgett_oct2013",
+    "url": "https://www.walgett.nsw.gov.au/files/assets/public/council/documents/archived-council-agendas/agenda-_-october-2013_ordinary-council-meeting.pdf",
+    "retrieved_date": "2026-09-18",
+    "status": "Not PDF",
+    "manifest_file": "outputs/fiscal_panel_v2/source_manifest_additional.json"
+  },
+  {
+    "source_id": "albury_fs_2012",
+    "url": "https://eservice.alburycity.nsw.gov.au/ACCPublicDocs/DocumentViewer.aspx?DocID=795722",
+    "retrieved_date": "2026-09-18",
+    "status": "Not PDF",
+    "manifest_file": "outputs/fiscal_panel_v2/source_manifest_albury.json"
+  },
+  {
+    "source_id": "albury_fs_2013",
+    "url": "https://eservice.alburycity.nsw.gov.au/ACCPublicDocs/DocumentViewer.aspx?DocID=1072745",
+    "retrieved_date": "2026-09-18",
+    "file": "sources/albury_fs_2013.pdf",
+    "status": "retrieved",
+    "sha256": "e3399f4e2c206787fea6054aadbb68bcc21309315f52be982bf8ec3ba568a580",
+    "pages": 94,
+    "manifest_file": "outputs/fiscal_panel_v2/source_manifest_albury.json"
+  },
+  {
+    "source_id": "albury_fs_2016",
+    "url": "https://eservice.alburycity.nsw.gov.au/ACCPublicDocs/DocumentViewer.aspx?DocID=1892954",
+    "retrieved_date": "2026-09-18",
+    "status": "Not PDF",
+    "manifest_file": "outputs/fiscal_panel_v2/source_manifest_albury.json"
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "sqlite_integrity": "ok",
+  "foreign_key_errors": 0,
+  "csv_database_match": true,
+  "table_counts": {
+    "budget_snapshots": 375,
+    "capacity_candidates": 144,
+    "comparison_budget_leads": 3,
+    "comparison_project_leads": 4,
+    "comparisons": 3,
+    "council_year_exposure_screen": 9,
+    "councils": 104,
+    "damage_status": 62,
+    "disaster_observations": 25,
+    "disasters": 13,
+    "fiscal_annual": 1339,
+    "fiscal_availability_evidence": 1,
+    "fiscal_value_audit": 5,
+    "project_evidence": 24,
+    "project_linkage_audit": 4,
+    "project_milestones": 26,
+    "project_revisions": 45,
+    "projects": 62,
+    "review_decisions": 8,
+    "source_conflicts": 3,
+    "sources": 160
+  },
+  "canonical_table_differences": [],
+  "model_rows": 0
+}

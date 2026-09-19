@@ -1,0 +1,534 @@
+record_id,event_id,council_name_source,council_key,in_fixed_103,year_start,hazard_group,include_in_historical_panel,source_file,pdf_page
+mpes_2012_p23_r01,mpes_2012_p23_r01,Shoalhaven,shoalhaven,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r01,mpes_2012_p23_r01,Goulburn Mulwaree,goulburnmulwaree,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r01,mpes_2012_p23_r01,Palerang,,False,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r02,mpes_2012_p23_r02,Nambucca,nambuccavalley,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r03,mpes_2012_p23_r03,Berrigan,berrigan,True,2012,other,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r03,mpes_2012_p23_r03,Corowa,,False,2012,other,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r04,mpes_2012_p23_r04,Armidale Dumaresq,,False,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r04,mpes_2012_p23_r04,Ballina,ballina,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r04,mpes_2012_p23_r04,Bellingen,bellingen,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r04,mpes_2012_p23_r04,Blue Mountains,bluemountains,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r04,mpes_2012_p23_r04,Byron,byron,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r04,mpes_2012_p23_r04,Camden,camden,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r04,mpes_2012_p23_r04,Cessnock,cessnock,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r04,mpes_2012_p23_r04,Clarence Valley,clarencevalley,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r04,mpes_2012_p23_r04,Coffs Harbour,coffsharbour,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r04,mpes_2012_p23_r04,Dungog,dungog,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r04,mpes_2012_p23_r04,Gloucester,,False,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r04,mpes_2012_p23_r04,Gosford,,False,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r04,mpes_2012_p23_r04,Greater Taree,,False,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r04,mpes_2012_p23_r04,Great Lakes,,False,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r04,mpes_2012_p23_r04,Hawkesbury,hawkesbury,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r04,mpes_2012_p23_r04,Kempsey,kempsey,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r04,mpes_2012_p23_r04,Kiama,kiama,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r04,mpes_2012_p23_r04,Kyogle,kyogle,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r04,mpes_2012_p23_r04,Lismore,lismore,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r04,mpes_2012_p23_r04,Lithgow,lithgow,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r04,mpes_2012_p23_r04,Nambucca,nambuccavalley,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r04,mpes_2012_p23_r04,Narrabri,narrabri,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r04,mpes_2012_p23_r04,Port Macquarie Hastings,portmacquariehastings,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r04,mpes_2012_p23_r04,Port Stephens,portstephens,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r04,mpes_2012_p23_r04,Randwick,randwick,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r04,mpes_2012_p23_r04,Richmond Valley,richmondvalley,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r04,mpes_2012_p23_r04,Shoalhaven,shoalhaven,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r04,mpes_2012_p23_r04,Upper Hunter,upperhunter,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r04,mpes_2012_p23_r04,Walcha,walcha,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r04,mpes_2012_p23_r04,Wyong,,False,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r05,mpes_2012_p23_r05,Ballina,ballina,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r05,mpes_2012_p23_r05,Bellingen,bellingen,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r05,mpes_2012_p23_r05,Byron,byron,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r05,mpes_2012_p23_r05,Clarence Valley,clarencevalley,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r05,mpes_2012_p23_r05,Coffs Harbour,coffsharbour,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r05,mpes_2012_p23_r05,Glen Innes Severn,gleninnessevern,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r05,mpes_2012_p23_r05,Gloucester,,False,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r05,mpes_2012_p23_r05,Great Lakes,,False,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r05,mpes_2012_p23_r05,Gunnedah,gunnedah,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r05,mpes_2012_p23_r05,Guyra,,False,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r05,mpes_2012_p23_r05,Inverell,,False,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r05,mpes_2012_p23_r05,Kempsey,kempsey,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r05,mpes_2012_p23_r05,Kyogle,kyogle,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r05,mpes_2012_p23_r05,Lismore,lismore,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r05,mpes_2012_p23_r05,Liverpool Plains,liverpoolplains,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r05,mpes_2012_p23_r05,Moree Plains,moreeplains,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r05,mpes_2012_p23_r05,Nambucca,nambuccavalley,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r05,mpes_2012_p23_r05,Port Macquarie Hastings,portmacquariehastings,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r05,mpes_2012_p23_r05,Richmond Valley,richmondvalley,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r05,mpes_2012_p23_r05,Tenterfield,tenterfield,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r05,mpes_2012_p23_r05,Tweed,tweed,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r05,mpes_2012_p23_r05,Upper Hunter,upperhunter,True,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r05,mpes_2012_p23_r05,Wyong,,False,2012,flood,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Albury,albury,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Bathurst,bathurst,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Bega Valley,begavalley,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Berrigan,berrigan,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Bogan,bogan,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Bland,bland,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Blayney,blayney,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Boorowa,,False,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Bourke,bourke,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Brewarrina,brewarrina,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Cabonne,cabonne,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Carrathool,carrathool,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Central Darling,centraldarling,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Cessnock,cessnock,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Cobar,,False,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Conargo,,False,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Coolamon,coolamon,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Cooma-Monaro,,False,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Coonamble Shire,coonamble,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Cootamundra,,False,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Corowa,,False,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Cowra,cowra,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Deniliquin,,False,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Dubbo,,False,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Eurobodalla,eurobodalla,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Forbes,forbes,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Gilgandra Shire,gilgandra,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Goulburn Mulwaree,goulburnmulwaree,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Greater Hume,greaterhume,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Griffith,griffith,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Gundagai,,False,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Gwydir,gwydir,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Harden,,False,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Hay,hay,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Jerilderie,,False,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Junee,junee,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Lachlan,,False,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Leeton,leeton,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Lithgow,lithgow,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Lockhart,lockhart,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Mid-Western Regional,midwestern,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Moree Plains,moreeplains,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Murray,,False,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Muswellbrook,muswellbrook,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Murrumbidgee,,False,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Narrabri,narrabri,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Narrandera,narrandera,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Narromine,narromine,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Oberon,oberon,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Orange,orange,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Palerang,,False,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Parkes,parkes,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Queanbeyan,,False,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Shoalhaven,shoalhaven,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Singleton,singleton,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Snowy River,,False,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Temora,temora,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Tumbarumba,,False,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Tumut,,False,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Upper Lachlan,upperlachlan,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Urana,,False,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,The Unincorporated Area,,False,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Wagga Wagga,waggawagga,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Wakool,,False,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Walgett,walgett,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Warren,warren,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Warrumbungle Shire,warrumbungle,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Weddin,weddin,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Wellington,,False,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Yass Valley,yassvalley,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r06,mpes_2012_p23_r06,Young,,False,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r07,mpes_2012_p23_r07,Gunnedah,gunnedah,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r07,mpes_2012_p23_r07,Liverpool Plains,liverpoolplains,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r07,mpes_2012_p23_r07,Upper Hunter,upperhunter,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r08,mpes_2012_p23_r08,Gloucester,,False,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r09,mpes_2012_p23_r09,Boorowa,,False,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r09,mpes_2012_p23_r09,Young,,False,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r10,mpes_2012_p23_r10,Bourke,bourke,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r10,mpes_2012_p23_r10,Brewarrina,brewarrina,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r10,mpes_2012_p23_r10,Cobar,,False,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r10,mpes_2012_p23_r10,Central Darling,centraldarling,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r10,mpes_2012_p23_r10,Unincorporated Area of NSW,,False,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r11,mpes_2012_p23_r11,Parkes,parkes,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r12,mpes_2012_p23_r12,Kempsey,kempsey,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r12,mpes_2012_p23_r12,Nambucca,nambuccavalley,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r13,mpes_2012_p23_r13,Great Lakes,,False,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r14,mpes_2012_p23_r14,Gwydir,gwydir,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r14,mpes_2012_p23_r14,Narrabri,narrabri,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p23_r14,mpes_2012_p23_r14,Moree Plains,moreeplains,True,2012,bushfire,True,sources/mpes_2012.pdf,23
+mpes_2012_p24_r15,mpes_2012_p24_r15,Ballina,ballina,True,2012,other,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r15,mpes_2012_p24_r15,Lismore,lismore,True,2012,other,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r15,mpes_2012_p24_r15,Richmond Valley,richmondvalley,True,2012,other,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r16,mpes_2012_p24_r16,Armidale Dumaresq,,False,2012,bushfire,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r16,mpes_2012_p24_r16,Guyra,,False,2012,bushfire,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r16,mpes_2012_p24_r16,Kempsey,kempsey,True,2012,bushfire,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r16,mpes_2012_p24_r16,Walcha,walcha,True,2012,bushfire,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r17,mpes_2012_p24_r17,Clarence Valley,clarencevalley,True,2012,bushfire,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r18,mpes_2012_p24_r18,Singleton,singleton,True,2012,bushfire,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r19,mpes_2012_p24_r19,Greater Taree,,False,2012,bushfire,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r19,mpes_2012_p24_r19,Port Macquarie,portmacquariehastings,True,2012,bushfire,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r20,mpes_2012_p24_r20,Brewarrina,brewarrina,True,2012,bushfire,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r20,mpes_2012_p24_r20,Bourke,bourke,True,2012,bushfire,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r20,mpes_2012_p24_r20,Central Darling,centraldarling,True,2012,bushfire,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r20,mpes_2012_p24_r20,Cobar,,False,2012,bushfire,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r20,mpes_2012_p24_r20,Unincorporated Area of NSW,,False,2012,bushfire,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r21,mpes_2012_p24_r21,Gloucester,,False,2012,bushfire,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r21,mpes_2012_p24_r21,Great Lakes,,False,2012,bushfire,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r21,mpes_2012_p24_r21,Upper Hunter,upperhunter,True,2012,bushfire,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r22,mpes_2012_p24_r22,Clarence Valley,clarencevalley,True,2012,bushfire,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r22,mpes_2012_p24_r22,Kyogle,kyogle,True,2012,bushfire,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r22,mpes_2012_p24_r22,Richmond Valley,richmondvalley,True,2012,bushfire,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r22,mpes_2012_p24_r22,Tenterfield,tenterfield,True,2012,bushfire,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r23,mpes_2012_p24_r23,Singleton,singleton,True,2012,bushfire,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r24,mpes_2012_p24_r24,Port Macquarie Hastings,portmacquariehastings,True,2012,bushfire,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r25,mpes_2012_p24_r25,Clarence Valley,clarencevalley,True,2012,bushfire,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r25,mpes_2012_p24_r25,Richmond Valley,richmondvalley,True,2012,bushfire,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r25,mpes_2012_p24_r25,Tenterfield,tenterfield,True,2012,bushfire,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r26,mpes_2012_p24_r26,Kiama,kiama,True,2012,bushfire,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r27,mpes_2012_p24_r27,Cooma-Monaro,,False,2012,bushfire,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r27,mpes_2012_p24_r27,Snowy River,,False,2012,bushfire,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r28,mpes_2012_p24_r28,Kempsey,kempsey,True,2012,bushfire,True,sources/mpes_2012.pdf,24
+mpes_2012_p24_r29,mpes_2012_p24_r29,Clarence Valley,clarencevalley,True,2012,bushfire,True,sources/mpes_2012.pdf,24
+raa_2013_p10_r01,mpes_2012_p23_r01,Shoalhaven City,shoalhaven,True,2012,flood,False,sources/raa_2013.pdf,10
+raa_2013_p10_r01,mpes_2012_p23_r01,Goulburn-Mulwaree,goulburnmulwaree,True,2012,flood,False,sources/raa_2013.pdf,10
+raa_2013_p10_r01,mpes_2012_p23_r01,Palerang,,False,2012,flood,False,sources/raa_2013.pdf,10
+raa_2013_p10_r02,raa_2013_p10_r02,Blacktown,blacktown,True,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r02,raa_2013_p10_r02,Blue Mountains,bluemountains,True,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r02,raa_2013_p10_r02,Hawkesbury,hawkesbury,True,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r02,raa_2013_p10_r02,Penrith,penrith,True,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r03,raa_2013_p10_r03,G reat Lakes,,False,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r03,raa_2013_p10_r03,Greater Taree,,False,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r03,raa_2013_p10_r03,Port Macquarie-Hastings,portmacquariehastings,True,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r03,raa_2013_p10_r03,Walcha,walcha,True,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r04,raa_2013_p10_r04,Clarence Valley,clarencevalley,True,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r04,raa_2013_p10_r04,Coffs Harbour,coffsharbour,True,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r05,raa_2013_p10_r05,Muswellbrook,muswellbrook,True,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r05,raa_2013_p10_r05,Singleton,singleton,True,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r06,raa_2013_p10_r06,Oberon,oberon,True,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r07,raa_2013_p10_r07,Blue Mountains,bluemountains,True,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r07,raa_2013_p10_r07,Cessnock,cessnock,True,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r07,raa_2013_p10_r07,Dungog,dungog,True,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r07,raa_2013_p10_r07,Eurobodalla,eurobodalla,True,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r07,raa_2013_p10_r07,Hawkesbury,hawkesbury,True,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r07,raa_2013_p10_r07,Lake Macquarie,lakemacquarie,True,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r07,raa_2013_p10_r07,Lithgow,lithgow,True,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r07,raa_2013_p10_r07,Newcastle,newcastle,True,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r07,raa_2013_p10_r07,Port Stephens,portstephens,True,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r07,raa_2013_p10_r07,Shoalhaven,shoalhaven,True,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r07,raa_2013_p10_r07,The Hills,,False,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r07,raa_2013_p10_r07,Wingecarribee,wingecarribee,True,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r07,raa_2013_p10_r07,Wollondilly,wollondilly,True,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r07,raa_2013_p10_r07,Wollongong,wollongong,True,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r07,raa_2013_p10_r07,Wyong,,False,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r08,raa_2013_p10_r08,Greater Taree,,False,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r08,raa_2013_p10_r08,Kempsey,kempsey,True,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r08,raa_2013_p10_r08,Port Macquarie-Hastings,portmacquariehastings,True,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p10_r08,raa_2013_p10_r08,Walcha,walcha,True,2013,bushfire,True,sources/raa_2013.pdf,10
+raa_2013_p11_r13,raa_2013_p11_r13,Dungog,dungog,True,2013,other,True,sources/raa_2013.pdf,11
+raa_2013_p11_r13,raa_2013_p11_r13,Hornsby,,False,2013,other,True,sources/raa_2013.pdf,11
+raa_2013_p11_r13,raa_2013_p11_r13,Port Stephens,portstephens,True,2013,other,True,sources/raa_2013.pdf,11
+raa_2013_p11_r14,raa_2013_p11_r14,Gwydir,gwydir,True,2013,bushfire,True,sources/raa_2013.pdf,11
+raa_2013_p11_r14,raa_2013_p11_r14,Moree,moreeplains,True,2013,bushfire,True,sources/raa_2013.pdf,11
+raa_2013_p11_r14,raa_2013_p11_r14,Narrabri,narrabri,True,2013,bushfire,True,sources/raa_2013.pdf,11
+raa_2013_p11_r15,raa_2013_p11_r15,Guyra,,False,2013,other,True,sources/raa_2013.pdf,11
+raa_2013_p11_r15,raa_2013_p11_r15,Gwydir,gwydir,True,2013,other,True,sources/raa_2013.pdf,11
+raa_2013_p11_r15,raa_2013_p11_r15,Liverpool Plains,liverpoolplains,True,2013,other,True,sources/raa_2013.pdf,11
+raa_2013_p11_r15,raa_2013_p11_r15,Muswellbrook,muswellbrook,True,2013,other,True,sources/raa_2013.pdf,11
+raa_2013_p11_r15,raa_2013_p11_r15,Upper Hunter,upperhunter,True,2013,other,True,sources/raa_2013.pdf,11
+raa_2013_p11_r18,raa_2013_p11_r18,Muswellbrook,muswellbrook,True,2013,bushfire,True,sources/raa_2013.pdf,11
+raa_2013_p11_r18,raa_2013_p11_r18,Singleton,singleton,True,2013,bushfire,True,sources/raa_2013.pdf,11
+raa_2013_p11_r18,raa_2013_p11_r18,Lithgow,lithgow,True,2013,bushfire,True,sources/raa_2013.pdf,11
+raa_2013_p11_r19,raa_2013_p11_r19,Gundagai,,False,2013,bushfire,True,sources/raa_2013.pdf,11
+raa_2013_p11_r19,raa_2013_p11_r19,Tumbarumba,,False,2013,bushfire,True,sources/raa_2013.pdf,11
+raa_2013_p11_r19,raa_2013_p11_r19,Tumut,,False,2013,bushfire,True,sources/raa_2013.pdf,11
+raa_2013_p11_r20,raa_2013_p11_r20,Coolamon,coolamon,True,2013,bushfire,True,sources/raa_2013.pdf,11
+raa_2013_p11_r20,raa_2013_p11_r20,Greater Hume,greaterhume,True,2013,bushfire,True,sources/raa_2013.pdf,11
+raa_2013_p11_r20,raa_2013_p11_r20,Junee,junee,True,2013,bushfire,True,sources/raa_2013.pdf,11
+raa_2013_p11_r20,raa_2013_p11_r20,Lockhart,lockhart,True,2013,bushfire,True,sources/raa_2013.pdf,11
+raa_2013_p11_r20,raa_2013_p11_r20,Urana,,False,2013,bushfire,True,sources/raa_2013.pdf,11
+raa_2013_p11_r20,raa_2013_p11_r20,Wagga Wagga,waggawagga,True,2013,bushfire,True,sources/raa_2013.pdf,11
+raa_2013_p11_r21,raa_2013_p11_r21,Bathurst,bathurst,True,2013,bushfire,True,sources/raa_2013.pdf,11
+raa_2013_p11_r21,raa_2013_p11_r21,Oberon,oberon,True,2013,bushfire,True,sources/raa_2013.pdf,11
+raa_2013_p11_r23,raa_2013_p11_r23,Cooma-Monaro,,False,2013,bushfire,True,sources/raa_2013.pdf,11
+raa_2013_p11_r24,raa_2013_p11_r24,Warrumbungle,warrumbungle,True,2013,bushfire,True,sources/raa_2013.pdf,11
+raa_2013_p11_r25,raa_2013_p11_r25,Dungog,dungog,True,2013,other,True,sources/raa_2013.pdf,11
+raa_2013_p11_r25,raa_2013_p11_r25,Gloucester,,False,2013,other,True,sources/raa_2013.pdf,11
+raa_2013_p11_r25,raa_2013_p11_r25,Great Lakes,,False,2013,other,True,sources/raa_2013.pdf,11
+raa_2013_p11_r25,raa_2013_p11_r25,Greater Taree,,False,2013,other,True,sources/raa_2013.pdf,11
+raa_2013_p11_r25,raa_2013_p11_r25,Port Stephens,portstephens,True,2013,other,True,sources/raa_2013.pdf,11
+raa_2014_p14_r01,raa_2014_p14_r01,Shellharbour,shellharbour,True,2013,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r01,raa_2014_p14_r01,Wollongong,wollongong,True,2013,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r03,raa_2014_p14_r03,Clarence Valley,clarencevalley,True,2014,bushfire,True,sources/raa_2014.pdf,14
+raa_2014_p14_r03,raa_2014_p14_r03,Coffs Harbour,coffsharbour,True,2014,bushfire,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Ashfield,,False,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Auburn,,False,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Bankstown,,False,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Blacktown,blacktown,True,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Blue Mountains,bluemountains,True,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Camden,camden,True,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Campbelltown,campbelltown,True,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Canada Bay,canadabay,True,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Canterbury,,False,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,City of Sydney,sydney,True,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Fairfield,fairfield,True,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Gosford,,False,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Holroyd,,False,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Hornsby,,False,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Hunters Hill,huntershill,True,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Hurstville,,False,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Kogarah,,False,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Kur-Ring-Gai,kuringgai,True,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Lane Cove,lanecove,True,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Leichhardt,,False,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Liverpool,liverpool,True,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Marrickville,,False,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Mosman,mosman,True,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Penrith,penrith,True,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Pittwater,,False,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Randwick,randwick,True,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Rockdale,,False,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Strathfield,strathfield,True,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Sutherland,sutherland,True,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,The Hills,,False,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Warringah,,False,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Waverley,waverley,True,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Willoughby,willoughby,True,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Wollondilly,wollondilly,True,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r04,raa_2014_p14_r04,Wyong,,False,2014,other,True,sources/raa_2014.pdf,14
+raa_2014_p14_r07,raa_2014_p14_r07,Bega Valley,begavalley,True,2014,flood,True,sources/raa_2014.pdf,14
+raa_2014_p14_r07,raa_2014_p14_r07,Bombala,,False,2014,flood,True,sources/raa_2014.pdf,14
+raa_2014_p14_r07,raa_2014_p14_r07,Eurobodala,eurobodalla,True,2014,flood,True,sources/raa_2014.pdf,14
+raa_2014_p14_r08,raa_2014_p14_r08,Byron,byron,True,2014,flood,True,sources/raa_2014.pdf,14
+raa_2014_p14_r09,raa_2014_p14_r09,Unincorporated Area,,False,2014,flood,True,sources/raa_2014.pdf,14
+raa_2014_p14_r12,raa_2014_p14_r12,Cessnock,cessnock,True,2014,flood,True,sources/raa_2014.pdf,14
+raa_2014_p14_r12,raa_2014_p14_r12,Dungog,dungog,True,2014,flood,True,sources/raa_2014.pdf,14
+raa_2014_p14_r12,raa_2014_p14_r12,Gosford,,False,2014,flood,True,sources/raa_2014.pdf,14
+raa_2014_p14_r12,raa_2014_p14_r12,Gloucester,,False,2014,flood,True,sources/raa_2014.pdf,14
+raa_2014_p14_r12,raa_2014_p14_r12,Great Lakes,,False,2014,flood,True,sources/raa_2014.pdf,14
+raa_2014_p14_r12,raa_2014_p14_r12,Hawkesbury,hawkesbury,True,2014,flood,True,sources/raa_2014.pdf,14
+raa_2014_p14_r12,raa_2014_p14_r12,Ku-ring-gai,kuringgai,True,2014,flood,True,sources/raa_2014.pdf,14
+raa_2014_p14_r12,raa_2014_p14_r12,Lake Macquarie,lakemacquarie,True,2014,flood,True,sources/raa_2014.pdf,14
+raa_2014_p14_r12,raa_2014_p14_r12,Lithgow,lithgow,True,2014,flood,True,sources/raa_2014.pdf,14
+raa_2014_p14_r12,raa_2014_p14_r12,Maitland,maitland,True,2014,flood,True,sources/raa_2014.pdf,14
+raa_2014_p14_r12,raa_2014_p14_r12,Mosman,mosman,True,2014,flood,True,sources/raa_2014.pdf,14
+raa_2014_p14_r12,raa_2014_p14_r12,Muswellbrook,muswellbrook,True,2014,flood,True,sources/raa_2014.pdf,14
+raa_2014_p14_r12,raa_2014_p14_r12,Newcastle City,newcastle,True,2014,flood,True,sources/raa_2014.pdf,14
+raa_2014_p14_r12,raa_2014_p14_r12,Pittwater,,False,2014,flood,True,sources/raa_2014.pdf,14
+raa_2014_p14_r12,raa_2014_p14_r12,Port Stephens,portstephens,True,2014,flood,True,sources/raa_2014.pdf,14
+raa_2014_p14_r12,raa_2014_p14_r12,Randwick,randwick,True,2014,flood,True,sources/raa_2014.pdf,14
+raa_2014_p14_r12,raa_2014_p14_r12,Singleton,singleton,True,2014,flood,True,sources/raa_2014.pdf,14
+raa_2014_p14_r12,raa_2014_p14_r12,The Hills,,False,2014,flood,True,sources/raa_2014.pdf,14
+raa_2014_p14_r12,raa_2014_p14_r12,Warringah,,False,2014,flood,True,sources/raa_2014.pdf,14
+raa_2014_p14_r12,raa_2014_p14_r12,Waverley,waverley,True,2014,flood,True,sources/raa_2014.pdf,14
+raa_2014_p14_r12,raa_2014_p14_r12,Wollondilly,wollondilly,True,2014,flood,True,sources/raa_2014.pdf,14
+raa_2014_p14_r12,raa_2014_p14_r12,Wyong,,False,2014,flood,True,sources/raa_2014.pdf,14
+raa_2014_p15_r13,raa_2014_p15_r13,Ballina,ballina,True,2014,flood,True,sources/raa_2014.pdf,15
+raa_2014_p15_r13,raa_2014_p15_r13,Bellingen,bellingen,True,2014,flood,True,sources/raa_2014.pdf,15
+raa_2014_p15_r13,raa_2014_p15_r13,Byron,byron,True,2014,flood,True,sources/raa_2014.pdf,15
+raa_2014_p15_r13,raa_2014_p15_r13,Clarence Valley,clarencevalley,True,2014,flood,True,sources/raa_2014.pdf,15
+raa_2014_p15_r13,raa_2014_p15_r13,Greater Taree,,False,2014,flood,True,sources/raa_2014.pdf,15
+raa_2014_p15_r13,raa_2014_p15_r13,Kyogle,kyogle,True,2014,flood,True,sources/raa_2014.pdf,15
+raa_2014_p15_r13,raa_2014_p15_r13,Lismore,lismore,True,2014,flood,True,sources/raa_2014.pdf,15
+raa_2014_p15_r13,raa_2014_p15_r13,Nambucca,nambuccavalley,True,2014,flood,True,sources/raa_2014.pdf,15
+raa_2014_p15_r13,raa_2014_p15_r13,Richmond Valley,richmondvalley,True,2014,flood,True,sources/raa_2014.pdf,15
+raa_2014_p15_r13,raa_2014_p15_r13,Tenterfield,tenterfield,True,2014,flood,True,sources/raa_2014.pdf,15
+raa_2015_p15_r01,raa_2015_p15_r01,Narrabri,narrabri,True,2014,bushfire,True,sources/raa_2015.pdf,15
+raa_2015_p15_r02,raa_2015_p15_r02,Blacktown,blacktown,True,2014,flood,True,sources/raa_2015.pdf,15
+raa_2015_p15_r02,raa_2015_p15_r02,Marrickville,,False,2014,flood,True,sources/raa_2015.pdf,15
+raa_2015_p15_r02,raa_2015_p15_r02,Randwick,randwick,True,2014,flood,True,sources/raa_2015.pdf,15
+raa_2015_p15_r02,raa_2015_p15_r02,City of Sydney,sydney,True,2014,flood,True,sources/raa_2015.pdf,15
+raa_2015_p15_r04,raa_2015_p15_r04,Upper Lachlan,upperlachlan,True,2015,other,True,sources/raa_2015.pdf,15
+raa_2015_p15_r04,raa_2015_p15_r04,Wingecarribee,wingecarribee,True,2015,other,True,sources/raa_2015.pdf,15
+raa_2015_p15_r05,raa_2015_p15_r05,Blue Mountains,bluemountains,True,2015,bushfire,True,sources/raa_2015.pdf,15
+raa_2015_p15_r06,raa_2015_p15_r06,Penrith,penrith,True,2015,other,True,sources/raa_2015.pdf,15
+raa_2015_p15_r06,raa_2015_p15_r06,Shoalhaven,shoalhaven,True,2015,other,True,sources/raa_2015.pdf,15
+raa_2015_p15_r06,raa_2015_p15_r06,Upper Hunter,upperhunter,True,2015,other,True,sources/raa_2015.pdf,15
+raa_2015_p15_r06,raa_2015_p15_r06,Wingecarribee,wingecarribee,True,2015,other,True,sources/raa_2015.pdf,15
+raa_2015_p15_r06,raa_2015_p15_r06,Wollongong,wollongong,True,2015,other,True,sources/raa_2015.pdf,15
+raa_2015_p15_r09,raa_2015_p15_r09,Shoalhaven,shoalhaven,True,2015,bushfire,True,sources/raa_2015.pdf,15
+raa_2015_p15_r11,raa_2015_p15_r11,Hawkesbury,hawkesbury,True,2015,bushfire,True,sources/raa_2015.pdf,15
+raa_2015_p15_r12,raa_2015_p15_r12,Randwick,randwick,True,2015,other,True,sources/raa_2015.pdf,15
+raa_2015_p15_r12,raa_2015_p15_r12,Sutherland,sutherland,True,2015,other,True,sources/raa_2015.pdf,15
+raa_2015_p15_r12,raa_2015_p15_r12,Waverley,waverley,True,2015,other,True,sources/raa_2015.pdf,15
+raa_2015_p15_r12,raa_2015_p15_r12,Woollahra,woollahra,True,2015,other,True,sources/raa_2015.pdf,15
+raa_2015_p15_r13,raa_2015_p15_r13,Bega Valley,begavalley,True,2015,flood,True,sources/raa_2015.pdf,15
+raa_2015_p15_r13,raa_2015_p15_r13,Dungog,dungog,True,2015,flood,True,sources/raa_2015.pdf,15
+raa_2015_p15_r13,raa_2015_p15_r13,Eurobodalla,eurobodalla,True,2015,flood,True,sources/raa_2015.pdf,15
+raa_2015_p15_r13,raa_2015_p15_r13,Gloucester,,False,2015,flood,True,sources/raa_2015.pdf,15
+raa_2015_p15_r13,raa_2015_p15_r13,Great Lakes,,False,2015,flood,True,sources/raa_2015.pdf,15
+raa_2015_p15_r13,raa_2015_p15_r13,Hawkesbury,hawkesbury,True,2015,flood,True,sources/raa_2015.pdf,15
+raa_2015_p15_r13,raa_2015_p15_r13,Maitland,maitland,True,2015,flood,True,sources/raa_2015.pdf,15
+raa_2015_p15_r13,raa_2015_p15_r13,Newcastle,newcastle,True,2015,flood,True,sources/raa_2015.pdf,15
+raa_2015_p15_r13,raa_2015_p15_r13,Port Macquarie- Hastings,portmacquariehastings,True,2015,flood,True,sources/raa_2015.pdf,15
+raa_2015_p15_r13,raa_2015_p15_r13,Port Stephens,portstephens,True,2015,flood,True,sources/raa_2015.pdf,15
+raa_2015_p15_r13,raa_2015_p15_r13,Wyong,,False,2015,flood,True,sources/raa_2015.pdf,15
+raa_2015_p15_r14,raa_2015_p15_r14,Bankstown,,False,2015,flood,True,sources/raa_2015.pdf,15
+raa_2015_p15_r14,raa_2015_p15_r14,Blacktown,blacktown,True,2015,flood,True,sources/raa_2015.pdf,15
+raa_2015_p15_r14,raa_2015_p15_r14,Campbelltown,campbelltown,True,2015,flood,True,sources/raa_2015.pdf,15
+raa_2015_p15_r14,raa_2015_p15_r14,Canterbury,,False,2015,flood,True,sources/raa_2015.pdf,15
+raa_2015_p15_r14,raa_2015_p15_r14,City of Sydney,sydney,True,2015,flood,True,sources/raa_2015.pdf,15
+raa_2015_p15_r14,raa_2015_p15_r14,Fairfield,fairfield,True,2015,flood,True,sources/raa_2015.pdf,15
+raa_2015_p15_r14,raa_2015_p15_r14,Hurstville,,False,2015,flood,True,sources/raa_2015.pdf,15
+raa_2015_p15_r14,raa_2015_p15_r14,Kogarah,,False,2015,flood,True,sources/raa_2015.pdf,15
+raa_2015_p15_r14,raa_2015_p15_r14,Liverpool,liverpool,True,2015,flood,True,sources/raa_2015.pdf,15
+raa_2015_p15_r14,raa_2015_p15_r14,Marrickville,,False,2015,flood,True,sources/raa_2015.pdf,15
+raa_2015_p15_r14,raa_2015_p15_r14,Penrith,penrith,True,2015,flood,True,sources/raa_2015.pdf,15
+raa_2015_p15_r14,raa_2015_p15_r14,Randwick,randwick,True,2015,flood,True,sources/raa_2015.pdf,15
+raa_2015_p15_r14,raa_2015_p15_r14,Rockdale,,False,2015,flood,True,sources/raa_2015.pdf,15
+raa_2015_p15_r14,raa_2015_p15_r14,Sutherland,sutherland,True,2015,flood,True,sources/raa_2015.pdf,15
+raa_2015_p15_r14,raa_2015_p15_r14,Wollondilly,wollondilly,True,2015,flood,True,sources/raa_2015.pdf,15
+raa_2015_p15_r14,raa_2015_p15_r14,Wyong,,False,2015,flood,True,sources/raa_2015.pdf,15
+raa_2015_p16_r16,raa_2015_p16_r16,Ballina,ballina,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Bega,begavalley,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Blacktown,blacktown,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Byron,byron,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Camden,camden,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Campbelltown,campbelltown,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Canterbury-Bankstown,,False,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Central Coast,,False,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,City of Sydney,sydney,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Coffs Harbour,coffsharbour,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Eurobodalla,eurobodalla,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Fairfield,fairfield,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Hornsby,,False,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Inner West,,False,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Kiama,kiama,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Kempsey,kempsey,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Ku-ring- gai,kuringgai,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Lane Cove,lanecove,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Lismore,lismore,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Liverpool,liverpool,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Maitland,maitland,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Nambucca,nambuccavalley,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Northern Beaches,,False,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Parramatta,,False,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Penrith,penrith,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Port Macquarie- Hastings,portmacquariehastings,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Port Stephens,portstephens,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Queanbeyan-Palerang,,False,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Randwick,randwick,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Ryde,ryde,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Shellharbour,shellharbour,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Shoalhaven,shoalhaven,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Sutherland,sutherland,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,The Hills,,False,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Tweed,tweed,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Waverley,waverley,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Willoughby,willoughby,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Wingecarribee,wingecarribee,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Wollondilly,wollondilly,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Wollongong,wollongong,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2015_p16_r16,raa_2015_p16_r16,Woollahra,woollahra,True,2015,flood,True,sources/raa_2015.pdf,16
+raa_2016_p12_r01,raa_2016_p12_r01,Bega Valley,begavalley,True,2015,other,True,sources/raa_2016.pdf,12
+raa_2016_p12_r01,raa_2016_p12_r01,Lismore,lismore,True,2015,other,True,sources/raa_2016.pdf,12
+raa_2016_p12_r01,raa_2016_p12_r01,Palerang,,False,2015,other,True,sources/raa_2016.pdf,12
+raa_2016_p12_r01,raa_2016_p12_r01,Richmond Valley,richmondvalley,True,2015,other,True,sources/raa_2016.pdf,12
+raa_2016_p12_r02,raa_2016_p12_r02,Bland,bland,True,2015,flood,True,sources/raa_2016.pdf,12
+raa_2016_p12_r02,raa_2016_p12_r02,Coolamon,coolamon,True,2015,flood,True,sources/raa_2016.pdf,12
+raa_2016_p12_r02,raa_2016_p12_r02,Coonamble,coonamble,True,2015,flood,True,sources/raa_2016.pdf,12
+raa_2016_p12_r02,raa_2016_p12_r02,Lachlan,,False,2015,flood,True,sources/raa_2016.pdf,12
+raa_2016_p12_r02,raa_2016_p12_r02,Narrandera,narrandera,True,2015,flood,True,sources/raa_2016.pdf,12
+raa_2016_p12_r02,raa_2016_p12_r02,Narromine,narromine,True,2015,flood,True,sources/raa_2016.pdf,12
+raa_2016_p12_r03,raa_2016_p12_r03,Bathurst,bathurst,True,2016,flood,True,sources/raa_2016.pdf,12
+raa_2016_p12_r03,raa_2016_p12_r03,Blayney,blayney,True,2016,flood,True,sources/raa_2016.pdf,12
+raa_2016_p12_r03,raa_2016_p12_r03,Bogan,bogan,True,2016,flood,True,sources/raa_2016.pdf,12
+raa_2016_p12_r03,raa_2016_p12_r03,Brewarrina,brewarrina,True,2016,flood,True,sources/raa_2016.pdf,12
+raa_2016_p12_r03,raa_2016_p12_r03,Cabonne,cabonne,True,2016,flood,True,sources/raa_2016.pdf,12
+raa_2016_p12_r03,raa_2016_p12_r03,Carrathool,carrathool,True,2016,flood,True,sources/raa_2016.pdf,12
+raa_2016_p12_r03,raa_2016_p12_r03,Coonamble,coonamble,True,2016,flood,True,sources/raa_2016.pdf,12
+raa_2016_p12_r03,raa_2016_p12_r03,Cowra,cowra,True,2016,flood,True,sources/raa_2016.pdf,12
+raa_2016_p12_r03,raa_2016_p12_r03,Forbes,forbes,True,2016,flood,True,sources/raa_2016.pdf,12
+raa_2016_p12_r03,raa_2016_p12_r03,Gilgandra,gilgandra,True,2016,flood,True,sources/raa_2016.pdf,12
+raa_2016_p12_r03,raa_2016_p12_r03,Hilltops,,False,2016,flood,True,sources/raa_2016.pdf,12
+raa_2016_p12_r03,raa_2016_p12_r03,Lachlan,,False,2016,flood,True,sources/raa_2016.pdf,12
+raa_2016_p12_r03,raa_2016_p12_r03,Narromine,narromine,True,2016,flood,True,sources/raa_2016.pdf,12
+raa_2016_p12_r03,raa_2016_p12_r03,Oberon,oberon,True,2016,flood,True,sources/raa_2016.pdf,12
+raa_2016_p12_r03,raa_2016_p12_r03,Orange,orange,True,2016,flood,True,sources/raa_2016.pdf,12
+raa_2016_p12_r03,raa_2016_p12_r03,Parkes,parkes,True,2016,flood,True,sources/raa_2016.pdf,12
+raa_2016_p12_r03,raa_2016_p12_r03,Upper Lachlan,upperlachlan,True,2016,flood,True,sources/raa_2016.pdf,12
+raa_2016_p12_r03,raa_2016_p12_r03,Warren,warren,True,2016,flood,True,sources/raa_2016.pdf,12
+raa_2016_p13_r05,raa_2016_p13_r05,Albury,albury,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Balranald,balranald,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Bathurst,bathurst,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Berrigan,berrigan,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Bland,bland,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Blayney,blayney,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Bogan,bogan,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Brewarrina,brewarrina,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Cabonne,cabonne,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Carrathool,carrathool,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Cobar,,False,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Coolamon,coolamon,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Coonamble,coonamble,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Cootamundra-Gundagai,,False,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Cowra,cowra,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Edward River,,False,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Federation,,False,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Forbes,forbes,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Gilgandra,gilgandra,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Greater Hume,greaterhume,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Griffith,griffith,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Hay,hay,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Hilltops,,False,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Junee,junee,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Lachlan,,False,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Leeton,leeton,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Lockhart,lockhart,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Mid-Western,midwestern,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Murray River,,False,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Murrumbidgee,,False,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Narrabri,narrabri,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Narrandera,narrandera,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Narromine,narromine,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Orange,orange,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Parkes,parkes,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Snowy Valley,,False,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Temora,temora,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Wagga Wagga,waggawagga,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Walgett,walgett,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Warren,warren,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Warrumbungle,warrumbungle,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Weddin,weddin,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Wentworth,wentworth,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Western Plains,,False,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r05,raa_2016_p13_r05,Yass Valley,yassvalley,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r06,raa_2016_p13_r06,Kempsey,kempsey,True,2016,bushfire,True,sources/raa_2016.pdf,13
+raa_2016_p13_r07,raa_2016_p13_r07,Tenterfield,tenterfield,True,2016,bushfire,True,sources/raa_2016.pdf,13
+raa_2016_p13_r08,raa_2016_p13_r08,Cessnock,cessnock,True,2016,bushfire,True,sources/raa_2016.pdf,13
+raa_2016_p13_r08,raa_2016_p13_r08,Dungog,dungog,True,2016,bushfire,True,sources/raa_2016.pdf,13
+raa_2016_p13_r08,raa_2016_p13_r08,Maitland,maitland,True,2016,bushfire,True,sources/raa_2016.pdf,13
+raa_2016_p13_r08,raa_2016_p13_r08,Mid Coast,,False,2016,bushfire,True,sources/raa_2016.pdf,13
+raa_2016_p13_r08,raa_2016_p13_r08,Port Stephens,portstephens,True,2016,bushfire,True,sources/raa_2016.pdf,13
+raa_2016_p13_r12,raa_2016_p13_r12,Penrith,penrith,True,2016,bushfire,True,sources/raa_2016.pdf,13
+raa_2016_p13_r13,raa_2016_p13_r13,Bland,bland,True,2016,bushfire,True,sources/raa_2016.pdf,13
+raa_2016_p13_r16,raa_2016_p13_r16,Cessnock,cessnock,True,2016,bushfire,True,sources/raa_2016.pdf,13
+raa_2016_p13_r17,raa_2016_p13_r17,Dubbo,,False,2016,bushfire,True,sources/raa_2016.pdf,13
+raa_2016_p13_r17,raa_2016_p13_r17,Mid-Western Regional,midwestern,True,2016,bushfire,True,sources/raa_2016.pdf,13
+raa_2016_p13_r18,raa_2016_p13_r18,Goulburn Mulwaree,goulburnmulwaree,True,2016,bushfire,True,sources/raa_2016.pdf,13
+raa_2016_p13_r18,raa_2016_p13_r18,Queanbeyan-Palerang,,False,2016,bushfire,True,sources/raa_2016.pdf,13
+raa_2016_p13_r18,raa_2016_p13_r18,Yass Valley,yassvalley,True,2016,bushfire,True,sources/raa_2016.pdf,13
+raa_2016_p13_r19,raa_2016_p13_r19,Mid-Western Regional Council,midwestern,True,2016,other,True,sources/raa_2016.pdf,13
+raa_2016_p13_r21,raa_2016_p13_r21,Bathurst,bathurst,True,2016,bushfire,True,sources/raa_2016.pdf,13
+raa_2016_p13_r22,raa_2016_p13_r22,Cessnock,cessnock,True,2016,bushfire,True,sources/raa_2016.pdf,13
+raa_2016_p13_r22,raa_2016_p13_r22,Maitland,maitland,True,2016,bushfire,True,sources/raa_2016.pdf,13
+raa_2016_p13_r23,raa_2016_p13_r23,Kempsey,kempsey,True,2016,bushfire,True,sources/raa_2016.pdf,13
+raa_2016_p13_r23,raa_2016_p13_r23,Mid Coast,,False,2016,bushfire,True,sources/raa_2016.pdf,13
+raa_2016_p13_r23,raa_2016_p13_r23,Mid-Western Regional,midwestern,True,2016,bushfire,True,sources/raa_2016.pdf,13
+raa_2016_p13_r23,raa_2016_p13_r23,Narrabri,narrabri,True,2016,bushfire,True,sources/raa_2016.pdf,13
+raa_2016_p13_r23,raa_2016_p13_r23,Port Macquaire-Hastings,portmacquariehastings,True,2016,bushfire,True,sources/raa_2016.pdf,13
+raa_2016_p13_r23,raa_2016_p13_r23,Upper Hunter,upperhunter,True,2016,bushfire,True,sources/raa_2016.pdf,13
+raa_2016_p13_r23,raa_2016_p13_r23,Warrumbungle,warrumbungle,True,2016,bushfire,True,sources/raa_2016.pdf,13
+raa_2016_p13_r24,raa_2016_p13_r24,Queanbeyan-Palerang,,False,2016,bushfire,True,sources/raa_2016.pdf,13
+raa_2016_p13_r25,raa_2016_p13_r25,Ku-ring-gai,kuringgai,True,2016,other,True,sources/raa_2016.pdf,13
+raa_2016_p13_r25,raa_2016_p13_r25,Northern Beaches,,False,2016,other,True,sources/raa_2016.pdf,13
+raa_2016_p13_r25,raa_2016_p13_r25,The Hills,,False,2016,other,True,sources/raa_2016.pdf,13
+raa_2016_p13_r26,raa_2016_p13_r26,Singleton,singleton,True,2016,bushfire,True,sources/raa_2016.pdf,13
+raa_2016_p13_r27,raa_2016_p13_r27,Bellingen,bellingen,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r27,raa_2016_p13_r27,Clarence Valley,clarencevalley,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r27,raa_2016_p13_r27,Kempsey,kempsey,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r27,raa_2016_p13_r27,Lismore City,lismore,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r27,raa_2016_p13_r27,Nambucca,nambuccavalley,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r27,raa_2016_p13_r27,Richmond Valley,richmondvalley,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r27,raa_2016_p13_r27,Sellharbour,shellharbour,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r27,raa_2016_p13_r27,Tenterfield,tenterfield,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r27,raa_2016_p13_r27,Wingecarribee,wingecarribee,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r27,raa_2016_p13_r27,Wollongong,wollongong,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r28,raa_2016_p13_r28,Ballina,ballina,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r28,raa_2016_p13_r28,Byron,byron,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r28,raa_2016_p13_r28,Clarence Valley,clarencevalley,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r28,raa_2016_p13_r28,Kyogle,kyogle,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r28,raa_2016_p13_r28,Lismore City,lismore,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r28,raa_2016_p13_r28,Richmond Valley,richmondvalley,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r28,raa_2016_p13_r28,Tenterfield,tenterfield,True,2016,flood,True,sources/raa_2016.pdf,13
+raa_2016_p13_r28,raa_2016_p13_r28,Tweed,tweed,True,2016,flood,True,sources/raa_2016.pdf,13

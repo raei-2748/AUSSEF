@@ -1,0 +1,367 @@
+source_csv_row,agrn,Location_Name,Location_code,STATE,cat_A,cat_B,cat_C,cat_D,highest_drfa_category_group,AGDRP,DRA,recorded_any_DRFA
+7,960,Armidale,10180,New South Wales,1,1,1,1,C/D,1,1,True
+17,960,Ballina,10250,New South Wales,1,1,1,1,C/D,1,1,True
+22,960,Bathurst,10470,New South Wales,1,1,1,1,C/D,1,1,True
+31,960,Bega Valley,10550,New South Wales,1,1,1,1,C/D,1,1,True
+45,960,Bellingen,10600,New South Wales,1,1,1,1,C/D,1,1,True
+53,960,Blacktown,10750,New South Wales,1,1,1,1,C/D,1,1,True
+68,960,Blue Mountains,10900,New South Wales,1,1,1,1,C/D,1,1,True
+75,960,Bogan,10950,New South Wales,1,1,1,1,C/D,0,0,True
+89,960,Brewarrina,11200,New South Wales,1,1,1,1,C/D,1,1,True
+99,960,Byron,11350,New South Wales,1,1,1,1,C/D,1,1,True
+107,960,Cabonne,11400,New South Wales,1,1,1,1,C/D,1,1,True
+116,960,Camden,11450,New South Wales,1,1,1,1,C/D,1,1,True
+124,960,Campbelltown (NSW),11500,New South Wales,1,1,1,1,C/D,1,1,True
+129,960,Canterbury-Bankstown,11570,New South Wales,1,1,1,1,C/D,1,1,True
+136,960,Central Coast (NSW),11650,New South Wales,1,1,1,1,C/D,1,1,True
+148,960,Central Darling,11700,New South Wales,1,1,1,1,C/D,0,0,True
+158,960,Cessnock,11720,New South Wales,1,1,1,1,C/D,1,1,True
+168,960,Clarence Valley,11730,New South Wales,1,1,1,1,C/D,1,1,True
+179,960,Cobar,11750,New South Wales,1,1,1,1,C/D,1,1,True
+186,960,Coffs Harbour,11800,New South Wales,1,1,1,1,C/D,1,1,True
+193,960,Coonamble,12150,New South Wales,1,1,1,1,C/D,0,0,True
+209,960,Cumberland,12380,New South Wales,1,1,1,1,C/D,1,1,True
+220,960,Dungog,12700,New South Wales,1,1,1,1,C/D,1,1,True
+236,960,Eurobodalla,12750,New South Wales,1,1,1,1,C/D,1,1,True
+244,960,Fairfield,12850,New South Wales,1,1,1,1,C/D,1,1,True
+254,960,Georges River,12930,New South Wales,1,1,1,1,C/D,0,0,True
+259,960,Gilgandra,12950,New South Wales,1,1,1,1,C/D,1,1,True
+267,960,Glen Innes Severn,13010,New South Wales,1,1,1,1,C/D,1,1,True
+274,960,Goulburn Mulwaree,13310,New South Wales,1,1,1,1,C/D,0,0,True
+282,960,Greater Hume,13340,New South Wales,1,1,1,1,C/D,0,0,True
+290,960,Gunnedah,13550,New South Wales,1,1,1,1,C/D,1,1,True
+298,960,Gwydir,13660,New South Wales,1,1,1,1,C/D,1,1,True
+308,960,Hawkesbury,13800,New South Wales,1,1,1,1,C/D,1,1,True
+328,960,Hornsby,14000,New South Wales,1,1,1,1,C/D,1,1,True
+333,960,Hunters Hill,14100,New South Wales,1,1,1,1,C/D,0,0,True
+334,960,Inner West,14170,New South Wales,1,1,1,1,C/D,1,1,True
+338,960,Inverell,14220,New South Wales,1,1,1,1,C/D,1,1,True
+348,960,Kempsey,14350,New South Wales,1,1,1,1,C/D,1,1,True
+364,960,Ku-ring-gai,14500,New South Wales,1,1,1,1,C/D,1,1,True
+370,960,Kyogle,14550,New South Wales,1,1,1,1,C/D,1,1,True
+378,960,Lachlan,14600,New South Wales,1,1,1,1,C/D,1,1,True
+381,960,Lake Macquarie,14650,New South Wales,1,1,1,1,C/D,1,1,True
+395,960,Lismore,14850,New South Wales,1,1,1,1,C/D,1,1,True
+404,960,Lithgow,14870,New South Wales,1,1,1,1,C/D,1,1,True
+416,960,Liverpool,14900,New South Wales,1,1,1,1,C/D,1,1,True
+420,960,Liverpool Plains,14920,New South Wales,1,1,1,1,C/D,1,1,True
+432,960,Maitland,15050,New South Wales,1,1,1,1,C/D,1,1,True
+441,960,Mid-Coast,15240,New South Wales,1,1,1,1,C/D,1,1,True
+467,960,Moree Plains,15300,New South Wales,1,1,1,1,C/D,1,1,True
+479,960,Muswellbrook,15650,New South Wales,1,1,1,1,C/D,0,0,True
+493,960,Nambucca Valley,15700,New South Wales,1,1,1,1,C/D,1,1,True
+500,960,Narrabri,15750,New South Wales,1,1,1,1,C/D,1,1,True
+515,960,Narromine,15850,New South Wales,1,1,1,1,C/D,0,0,True
+521,960,Newcastle,15900,New South Wales,1,1,1,1,C/D,1,1,True
+526,960,Northern Beaches,15990,New South Wales,1,1,1,1,C/D,1,1,True
+535,960,Oberon,16100,New South Wales,1,1,1,1,C/D,1,1,True
+543,960,Orange,16150,New South Wales,0,0,0,0,unknown,1,1,False
+556,960,Parramatta,16260,New South Wales,1,1,1,1,C/D,1,1,True
+559,960,Penrith,16350,New South Wales,1,1,1,1,C/D,1,1,True
+565,960,Port Macquarie-Hastings,16380,New South Wales,1,1,1,1,C/D,1,1,True
+576,960,Port Stephens,16400,New South Wales,1,1,1,1,C/D,1,1,True
+586,960,Queanbeyan-Palerang,16490,New South Wales,1,1,1,1,C/D,1,1,True
+596,960,Richmond Valley,16610,New South Wales,1,1,1,1,C/D,1,1,True
+612,960,Shoalhaven,16950,New South Wales,1,1,1,1,C/D,1,1,True
+624,960,Singleton,17000,New South Wales,1,1,1,1,C/D,1,1,True
+636,960,Snowy Monaro,17040,New South Wales,1,1,1,1,C/D,0,0,True
+657,960,Sutherland,17150,New South Wales,1,1,1,1,C/D,1,1,True
+670,960,Tamworth,17310,New South Wales,1,1,1,1,C/D,0,0,True
+676,960,Temora,17350,New South Wales,1,1,1,1,C/D,0,0,True
+683,960,Tenterfield,17400,New South Wales,1,1,1,1,C/D,1,1,True
+694,960,The Hills,17420,New South Wales,1,1,1,1,C/D,1,1,True
+700,960,Tweed,17550,New South Wales,1,1,1,1,C/D,1,1,True
+720,960,Upper Lachlan,17640,New South Wales,1,1,1,1,C/D,0,0,True
+730,960,Uralla,17650,New South Wales,1,1,1,1,C/D,0,0,True
+738,960,Walcha,17850,New South Wales,1,1,1,1,C/D,1,1,True
+744,960,Walgett,17900,New South Wales,1,1,1,1,C/D,1,1,True
+755,960,Warren,17950,New South Wales,1,1,1,1,C/D,0,0,True
+782,960,Wingecarribee,18350,New South Wales,1,1,1,1,C/D,1,1,True
+794,960,Wollondilly,18400,New South Wales,1,1,1,1,C/D,1,1,True
+821,1037,Alpine,20110,Victoria,1,1,1,1,C/D,0,1,True
+827,1037,Ararat,20260,Victoria,1,1,1,1,C/D,0,1,True
+834,1037,Ballarat,20570,Victoria,1,1,1,1,C/D,0,1,True
+838,1037,Banyule,20660,Victoria,1,1,1,1,C/D,0,1,True
+855,1037,Baw Baw,20830,Victoria,1,1,1,1,C/D,0,1,True
+870,1037,Benalla,21010,Victoria,1,1,1,1,C/D,1,1,True
+880,1037,Boroondara,21110,Victoria,1,1,1,1,C/D,1,1,True
+884,1037,Brimbank,21180,Victoria,1,1,1,1,C/D,1,1,True
+885,1037,Buloke,21270,Victoria,1,1,1,1,C/D,0,1,True
+891,1037,Campaspe,21370,Victoria,1,1,1,1,C/D,1,1,True
+898,1037,Cardinia,21450,Victoria,1,1,1,1,C/D,0,1,True
+908,1037,Casey,21610,Victoria,1,1,1,1,C/D,0,1,True
+913,1037,Central Goldfields,21670,Victoria,1,1,1,1,C/D,1,1,True
+918,1037,Colac Otway,21750,Victoria,1,1,1,1,C/D,0,1,True
+926,1037,Corangamite,21830,Victoria,1,1,1,1,C/D,1,1,True
+937,1037,East Gippsland,22110,Victoria,1,1,1,1,C/D,0,1,True
+954,1037,Gannawarra,22250,Victoria,1,1,1,1,C/D,1,1,True
+962,1037,Glenelg,22410,Victoria,1,1,1,1,C/D,0,1,True
+968,1037,Golden Plains,22490,Victoria,1,1,1,1,C/D,1,1,True
+974,1037,Greater Bendigo,22620,Victoria,1,1,1,1,C/D,1,1,True
+984,1037,Greater Geelong,22750,Victoria,1,1,1,1,C/D,0,1,True
+991,1037,Greater Shepparton,22830,Victoria,1,1,1,1,C/D,1,1,True
+1002,1037,Hepburn,22910,Victoria,1,1,1,1,C/D,1,1,True
+1006,1037,Hindmarsh,22980,Victoria,1,1,1,1,C/D,0,1,True
+1009,1037,Horsham,23190,Victoria,1,1,1,1,C/D,0,1,True
+1015,1037,Hume,23270,Victoria,1,1,1,1,C/D,0,1,True
+1017,1037,Indigo,23350,Victoria,1,1,1,1,C/D,0,1,True
+1034,1037,Latrobe (Vic.),23810,Victoria,1,1,1,1,C/D,0,1,True
+1041,1037,Loddon,23940,Victoria,1,1,1,1,C/D,1,1,True
+1048,1037,Macedon Ranges,24130,Victoria,1,1,1,1,C/D,1,1,True
+1059,1037,Manningham,24210,Victoria,1,1,1,1,C/D,0,1,True
+1063,1037,Mansfield,24250,Victoria,1,1,1,1,C/D,0,1,True
+1071,1037,Maribyrnong,24330,Victoria,1,1,1,1,C/D,1,1,True
+1074,1037,Maroondah,24410,Victoria,1,1,1,1,C/D,1,1,True
+1076,1037,Melbourne,24600,Victoria,1,1,1,1,C/D,1,1,True
+1077,1037,Melton,24650,Victoria,1,1,1,1,C/D,0,1,True
+1081,1037,Mildura,24780,Victoria,1,1,1,1,C/D,1,1,True
+1085,1037,Mitchell,24850,Victoria,1,1,1,1,C/D,1,1,True
+1091,1037,Moira,24900,Victoria,1,1,1,1,C/D,1,1,True
+1098,1037,Moonee Valley,25060,Victoria,1,1,1,1,C/D,1,1,True
+1103,1037,Moorabool,25150,Victoria,1,1,1,1,C/D,0,1,True
+1107,1037,Mornington Peninsula,25340,Victoria,1,1,1,1,C/D,1,1,True
+1114,1037,Mount Alexander,25430,Victoria,1,1,1,1,C/D,1,1,True
+1120,1037,Moyne,25490,Victoria,1,1,1,1,C/D,0,1,True
+1123,1037,Murrindindi,25620,Victoria,1,1,1,1,C/D,1,1,True
+1137,1037,Nillumbik,25710,Victoria,1,1,1,1,C/D,0,1,True
+1144,1037,Northern Grampians,25810,Victoria,1,1,1,1,C/D,1,1,True
+1152,1037,Pyrenees,25990,Victoria,1,1,1,1,C/D,1,1,True
+1165,1037,South Gippsland,26170,Victoria,1,1,1,1,C/D,0,1,True
+1175,1037,Southern Grampians,26260,Victoria,1,1,1,1,C/D,1,1,True
+1179,1037,Strathbogie,26430,Victoria,1,1,1,1,C/D,1,1,True
+1185,1037,Surf Coast,26490,Victoria,1,1,1,1,C/D,0,1,True
+1190,1037,Swan Hill,26610,Victoria,1,1,1,1,C/D,1,1,True
+1193,1037,Towong,26670,Victoria,1,1,1,1,C/D,0,1,True
+1200,1037,Wangaratta,26700,Victoria,1,1,1,1,C/D,1,1,True
+1208,1037,Warrnambool,26730,Victoria,1,1,1,1,C/D,0,1,True
+1221,1037,Wellington,26810,Victoria,1,1,1,1,C/D,0,1,True
+1229,1037,West Wimmera,26890,Victoria,1,1,1,1,C/D,0,1,True
+1236,1037,Whittlesea,27070,Victoria,1,1,1,1,C/D,0,1,True
+1241,1037,Wodonga,27170,Victoria,1,1,1,1,C/D,0,1,True
+1245,1037,Wyndham,27260,Victoria,1,1,1,1,C/D,0,1,True
+1246,1037,Yarra,27350,Victoria,0,0,0,0,unknown,1,1,False
+1252,1037,Yarra Ranges,27450,Victoria,1,1,1,1,C/D,1,1,True
+1265,1037,Yarriambiack,27630,Victoria,1,1,1,1,C/D,0,1,True
+1267,1037,Unincorporated Vic,29399,Victoria,1,1,1,1,C/D,0,1,True
+1282,1046,Aurukun,30250,Queensland,0,1,0,0,A/B,0,0,True
+1284,1174,Aurukun,30250,Queensland,1,1,1,1,C/D,0,0,True
+1285,1243,Aurukun,30250,Queensland,1,1,1,1,C/D,0,1,True
+1299,1202,Balonne,30300,Queensland,1,1,1,1,C/D,0,1,True
+1300,1243,Balonne,30300,Queensland,1,1,0,0,A/B,0,0,True
+1309,1202,Banana,30370,Queensland,1,1,1,1,C/D,0,0,True
+1311,1243,Banana,30370,Queensland,1,1,1,1,C/D,0,1,True
+1318,1046,Barcaldine,30410,Queensland,0,1,0,0,A/B,0,0,True
+1320,1174,Barcaldine,30410,Queensland,1,1,1,1,C/D,0,1,True
+1321,1202,Barcaldine,30410,Queensland,1,1,1,1,C/D,1,1,True
+1322,1243,Barcaldine,30410,Queensland,1,1,1,1,C/D,0,1,True
+1335,1046,Barcoo,30450,Queensland,0,1,0,0,A/B,0,0,True
+1338,1202,Barcoo,30450,Queensland,1,1,1,1,C/D,1,1,True
+1339,1243,Barcoo,30450,Queensland,1,1,1,1,C/D,0,0,True
+1354,1046,Blackall Tambo,30760,Queensland,0,1,0,0,A/B,0,0,True
+1356,1174,Blackall Tambo,30760,Queensland,1,1,1,1,C/D,0,1,True
+1357,1202,Blackall Tambo,30760,Queensland,1,1,1,1,C/D,0,1,True
+1358,1243,Blackall Tambo,30760,Queensland,1,1,1,1,C/D,0,0,True
+1366,1046,Boulia,30900,Queensland,1,1,1,1,C/D,1,1,True
+1369,1174,Boulia,30900,Queensland,1,1,1,1,C/D,0,1,True
+1370,1202,Boulia,30900,Queensland,1,1,1,1,C/D,0,1,True
+1371,1243,Boulia,30900,Queensland,1,1,1,1,C/D,0,1,True
+1420,1202,Bulloo,31750,Queensland,1,1,1,1,C/D,1,1,True
+1421,1243,Bulloo,31750,Queensland,1,1,1,1,C/D,0,0,True
+1432,1243,Bundaberg,31820,Queensland,1,1,1,1,C/D,0,1,True
+1438,1046,Burdekin,31900,Queensland,0,1,0,0,A/B,0,0,True
+1441,1174,Burdekin,31900,Queensland,1,1,1,1,C/D,0,1,True
+1442,1202,Burdekin,31900,Queensland,1,1,1,1,C/D,0,0,True
+1443,1243,Burdekin,31900,Queensland,1,1,1,1,C/D,0,1,True
+1447,1046,Burke,31950,Queensland,1,1,1,1,C/D,1,1,True
+1449,1174,Burke,31950,Queensland,1,1,1,1,C/D,0,0,True
+1450,1202,Burke,31950,Queensland,1,1,1,1,C/D,0,1,True
+1451,1243,Burke,31950,Queensland,1,1,1,1,C/D,0,1,True
+1460,1046,Cairns,32080,Queensland,0,1,0,0,A/B,0,0,True
+1462,1174,Cairns,32080,Queensland,1,1,1,1,C/D,0,1,True
+1463,1243,Cairns,32080,Queensland,1,1,1,1,C/D,0,0,True
+1474,1046,Carpentaria,32250,Queensland,0,1,1,1,C/D,0,1,True
+1477,1174,Carpentaria,32250,Queensland,1,1,1,1,C/D,0,1,True
+1478,1202,Carpentaria,32250,Queensland,1,1,1,1,C/D,0,1,True
+1479,1243,Carpentaria,32250,Queensland,1,1,1,1,C/D,0,1,True
+1486,1046,Cassowary Coast,32260,Queensland,0,1,0,0,A/B,0,0,True
+1488,1174,Cassowary Coast,32260,Queensland,1,1,1,1,C/D,1,1,True
+1489,1243,Cassowary Coast,32260,Queensland,1,1,1,1,C/D,0,1,True
+1494,1046,Central Highlands (Qld),32270,Queensland,0,1,0,0,A/B,0,0,True
+1499,1202,Central Highlands (Qld),32270,Queensland,1,1,1,1,C/D,0,1,True
+1501,1243,Central Highlands (Qld),32270,Queensland,1,1,1,1,C/D,0,1,True
+1507,1046,Charters Towers,32310,Queensland,0,1,0,0,A/B,0,0,True
+1510,1174,Charters Towers,32310,Queensland,1,1,1,1,C/D,0,1,True
+1511,1202,Charters Towers,32310,Queensland,1,1,1,1,C/D,0,1,True
+1512,1243,Charters Towers,32310,Queensland,1,1,1,1,C/D,0,1,True
+1518,1243,Cherbourg,32330,Queensland,1,1,1,1,C/D,0,0,True
+1527,1046,Cloncurry,32450,Queensland,0,1,0,1,C/D,0,1,True
+1529,1174,Cloncurry,32450,Queensland,1,1,1,1,C/D,0,1,True
+1531,1202,Cloncurry,32450,Queensland,1,1,1,1,C/D,0,1,True
+1532,1243,Cloncurry,32450,Queensland,1,1,1,1,C/D,0,1,True
+1540,1046,Cook,32500,Queensland,0,1,0,0,A/B,0,0,True
+1543,1174,Cook,32500,Queensland,1,1,1,1,C/D,0,1,True
+1545,1243,Cook,32500,Queensland,1,1,1,1,C/D,0,0,True
+1552,1046,Croydon,32600,Queensland,0,1,0,0,A/B,0,0,True
+1554,1174,Croydon,32600,Queensland,1,1,1,1,C/D,0,1,True
+1555,1202,Croydon,32600,Queensland,1,1,1,1,C/D,0,1,True
+1556,1243,Croydon,32600,Queensland,1,1,1,1,C/D,0,1,True
+1569,1046,Diamantina,32750,Queensland,0,1,0,0,A/B,0,0,True
+1573,1174,Diamantina,32750,Queensland,1,1,1,1,C/D,0,1,True
+1574,1202,Diamantina,32750,Queensland,1,1,1,1,C/D,0,1,True
+1575,1243,Diamantina,32750,Queensland,1,1,1,1,C/D,0,1,True
+1578,1046,Doomadgee,32770,Queensland,1,1,1,1,C/D,0,1,True
+1580,1174,Doomadgee,32770,Queensland,1,1,1,1,C/D,0,0,True
+1581,1202,Doomadgee,32770,Queensland,1,1,1,1,C/D,0,1,True
+1582,1243,Doomadgee,32770,Queensland,1,1,1,1,C/D,0,1,True
+1586,1046,Douglas,32810,Queensland,0,1,0,0,A/B,0,0,True
+1588,1174,Douglas,32810,Queensland,1,1,1,1,C/D,0,1,True
+1589,1243,Douglas,32810,Queensland,1,1,1,1,C/D,0,1,True
+1601,1046,Etheridge,33100,Queensland,0,1,0,0,A/B,0,0,True
+1606,1174,Etheridge,33100,Queensland,1,1,1,1,C/D,0,1,True
+1607,1202,Etheridge,33100,Queensland,1,1,1,1,C/D,0,1,True
+1608,1243,Etheridge,33100,Queensland,1,1,1,1,C/D,0,1,True
+1620,1046,Flinders (Qld),33200,Queensland,0,1,0,0,A/B,0,0,True
+1625,1174,Flinders (Qld),33200,Queensland,1,1,1,1,C/D,0,1,True
+1626,1202,Flinders (Qld),33200,Queensland,1,1,1,1,C/D,0,1,True
+1627,1243,Flinders (Qld),33200,Queensland,1,1,1,1,C/D,0,1,True
+1635,1202,Fraser Coast,33220,Queensland,1,1,1,1,C/D,0,0,True
+1637,1243,Fraser Coast,33220,Queensland,1,1,1,1,C/D,0,1,True
+1643,1202,Gladstone,33360,Queensland,1,1,1,1,C/D,0,0,True
+1644,1243,Gladstone,33360,Queensland,1,1,1,1,C/D,0,1,True
+1655,1202,Gold Coast,33430,Queensland,1,1,1,1,C/D,0,0,True
+1665,1202,Goondiwindi,33610,Queensland,1,1,1,1,C/D,0,0,True
+1674,1202,Gympie,33620,Queensland,1,1,1,1,C/D,0,0,True
+1676,1243,Gympie,33620,Queensland,1,1,1,1,C/D,0,1,True
+1681,1174,Hinchinbrook,33800,Queensland,1,1,1,1,C/D,1,1,True
+1682,1243,Hinchinbrook,33800,Queensland,1,1,1,1,C/D,0,0,True
+1686,1046,Hope Vale,33830,Queensland,0,1,0,0,A/B,0,0,True
+1688,1174,Hope Vale,33830,Queensland,1,1,1,1,C/D,0,1,True
+1690,1243,Hope Vale,33830,Queensland,1,1,1,1,C/D,0,0,True
+1702,1046,Isaac,33980,Queensland,0,1,0,0,A/B,0,0,True
+1703,1243,Isaac,33980,Queensland,1,1,1,1,C/D,0,1,True
+1707,1046,Kowanyama,34420,Queensland,0,1,0,0,A/B,0,0,True
+1709,1174,Kowanyama,34420,Queensland,1,1,1,1,C/D,0,1,True
+1710,1243,Kowanyama,34420,Queensland,1,1,1,1,C/D,0,0,True
+1712,1046,Livingstone,34530,Queensland,0,1,0,0,A/B,0,0,True
+1715,1202,Livingstone,34530,Queensland,1,1,1,1,C/D,0,0,True
+1716,1243,Livingstone,34530,Queensland,1,1,1,1,C/D,0,1,True
+1720,1046,Lockhart River,34570,Queensland,0,1,0,0,A/B,0,0,True
+1723,1243,Lockhart River,34570,Queensland,1,1,1,1,C/D,0,0,True
+1732,1202,Lockyer Valley,34580,Queensland,1,1,1,1,C/D,0,0,True
+1747,1046,Longreach,34710,Queensland,0,1,0,0,A/B,0,0,True
+1749,1174,Longreach,34710,Queensland,1,1,1,1,C/D,0,1,True
+1750,1202,Longreach,34710,Queensland,1,1,1,1,C/D,1,1,True
+1751,1243,Longreach,34710,Queensland,1,1,1,1,C/D,0,0,True
+1752,1046,Mackay,34770,Queensland,0,1,0,0,A/B,0,0,True
+1753,1174,Mackay,34770,Queensland,1,1,0,1,C/D,0,0,True
+1754,1243,Mackay,34770,Queensland,1,1,1,1,C/D,0,1,True
+1758,1046,McKinlay,34800,Queensland,0,1,0,0,A/B,0,0,True
+1761,1174,McKinlay,34800,Queensland,1,1,1,1,C/D,0,1,True
+1762,1202,McKinlay,34800,Queensland,1,1,1,1,C/D,0,0,True
+1763,1243,McKinlay,34800,Queensland,1,1,1,1,C/D,0,1,True
+1765,1046,Mapoon,34830,Queensland,0,1,0,0,A/B,0,0,True
+1766,1243,Mapoon,34830,Queensland,1,1,1,1,C/D,0,0,True
+1774,1202,Maranoa,34860,Queensland,1,1,1,1,C/D,0,1,True
+1775,1243,Maranoa,34860,Queensland,1,1,1,1,C/D,0,0,True
+1781,1046,Mareeba,34880,Queensland,0,1,0,0,A/B,0,0,True
+1784,1174,Mareeba,34880,Queensland,1,1,1,1,C/D,0,0,True
+1786,1243,Mareeba,34880,Queensland,1,1,1,1,C/D,0,0,True
+1799,1046,Mornington,35250,Queensland,0,1,0,1,C/D,0,1,True
+1801,1174,Mornington,35250,Queensland,1,1,1,1,C/D,0,0,True
+1802,1243,Mornington,35250,Queensland,1,1,1,1,C/D,0,0,True
+1805,1046,Mount Isa,35300,Queensland,1,1,1,1,C/D,1,1,True
+1808,1174,Mount Isa,35300,Queensland,1,1,1,1,C/D,0,0,True
+1810,1202,Mount Isa,35300,Queensland,1,1,1,1,C/D,0,1,True
+1811,1243,Mount Isa,35300,Queensland,1,1,1,1,C/D,0,1,True
+1819,1202,Murweh,35600,Queensland,1,1,1,1,C/D,1,1,True
+1820,1243,Murweh,35600,Queensland,1,1,0,0,A/B,0,0,True
+1822,1046,Napranum,35670,Queensland,0,1,0,0,A/B,0,0,True
+1824,1174,Napranum,35670,Queensland,1,1,1,1,C/D,0,0,True
+1825,1243,Napranum,35670,Queensland,1,1,1,1,C/D,0,0,True
+1830,1202,Noosa,35740,Queensland,1,1,1,1,C/D,0,0,True
+1841,1202,North Burnett,35760,Queensland,1,1,0,0,A/B,0,0,True
+1842,1243,North Burnett,35760,Queensland,1,1,1,1,C/D,0,1,True
+1847,1046,Northern Peninsula Area,35780,Queensland,0,1,0,0,A/B,0,0,True
+1849,1174,Northern Peninsula Area,35780,Queensland,1,1,1,1,C/D,0,1,True
+1850,1243,Northern Peninsula Area,35780,Queensland,1,1,1,1,C/D,0,0,True
+1854,1046,Palm Island,35790,Queensland,0,1,0,0,A/B,0,0,True
+1856,1174,Palm Island,35790,Queensland,1,1,1,1,C/D,0,1,True
+1857,1243,Palm Island,35790,Queensland,1,1,1,1,C/D,0,1,True
+1863,1202,Paroo,35800,Queensland,1,1,1,1,C/D,1,1,True
+1864,1243,Paroo,35800,Queensland,0,1,0,0,A/B,0,0,True
+1867,1046,Pormpuraaw,36070,Queensland,0,1,0,0,A/B,0,0,True
+1868,1174,Pormpuraaw,36070,Queensland,1,1,1,1,C/D,0,1,True
+1869,1243,Pormpuraaw,36070,Queensland,1,1,1,1,C/D,0,1,True
+1876,1202,Quilpie,36150,Queensland,1,1,1,1,C/D,1,1,True
+1877,1243,Quilpie,36150,Queensland,1,1,1,1,C/D,0,0,True
+1885,1046,Richmond,36300,Queensland,0,1,0,0,A/B,0,0,True
+1888,1174,Richmond,36300,Queensland,1,1,1,1,C/D,0,1,True
+1889,1202,Richmond,36300,Queensland,1,1,1,1,C/D,0,1,True
+1890,1243,Richmond,36300,Queensland,1,1,1,1,C/D,0,1,True
+1894,1202,Rockhampton,36370,Queensland,1,1,1,1,C/D,0,0,True
+1895,1243,Rockhampton,36370,Queensland,1,1,1,1,C/D,0,1,True
+1918,1243,Somerset,36580,Queensland,1,1,1,1,C/D,0,0,True
+1928,1243,South Burnett,36630,Queensland,1,1,1,1,C/D,0,1,True
+1936,1202,Southern Downs,36660,Queensland,1,1,1,1,C/D,0,0,True
+1944,1202,Sunshine Coast,36720,Queensland,1,1,1,1,C/D,0,0,True
+1948,1046,Tablelands,36820,Queensland,0,1,0,0,A/B,0,0,True
+1952,1174,Tablelands,36820,Queensland,1,1,1,1,C/D,0,1,True
+1954,1243,Tablelands,36820,Queensland,1,1,1,1,C/D,0,0,True
+1972,1046,Torres,36950,Queensland,0,1,0,0,A/B,0,0,True
+1974,1174,Torres,36950,Queensland,1,1,1,1,C/D,0,0,True
+1975,1243,Torres,36950,Queensland,1,1,1,1,C/D,0,0,True
+1979,1046,Torres Strait Island,36960,Queensland,0,1,0,0,A/B,0,0,True
+1981,1174,Torres Strait Island,36960,Queensland,1,1,0,1,C/D,0,0,True
+1982,1243,Torres Strait Island,36960,Queensland,1,1,1,1,C/D,0,0,True
+1985,1046,Townsville,37010,Queensland,0,1,0,0,A/B,0,0,True
+1989,1174,Townsville,37010,Queensland,1,1,1,1,C/D,1,1,True
+1990,1202,Townsville,37010,Queensland,1,1,1,1,C/D,0,0,True
+1991,1243,Townsville,37010,Queensland,1,1,1,1,C/D,0,1,True
+1993,1243,Weipa,37300,Queensland,1,1,1,1,C/D,0,0,True
+2002,1202,Western Downs,37310,Queensland,1,1,1,1,C/D,0,0,True
+2003,1243,Western Downs,37310,Queensland,1,1,1,1,C/D,0,1,True
+2009,1046,Whitsunday,37340,Queensland,0,1,0,0,A/B,0,0,True
+2011,1174,Whitsunday,37340,Queensland,1,1,1,1,C/D,0,1,True
+2012,1243,Whitsunday,37340,Queensland,1,1,1,1,C/D,0,1,True
+2016,1046,Winton,37400,Queensland,0,1,0,0,A/B,0,0,True
+2018,1174,Winton,37400,Queensland,1,1,1,1,C/D,0,1,True
+2019,1202,Winton,37400,Queensland,1,1,1,1,C/D,1,1,True
+2020,1243,Winton,37400,Queensland,1,1,1,1,C/D,0,1,True
+2021,1243,Woorabinda,37550,Queensland,1,1,1,1,C/D,0,0,True
+2023,1046,Wujal Wujal,37570,Queensland,0,1,0,0,A/B,0,0,True
+2025,1174,Wujal Wujal,37570,Queensland,1,1,1,1,C/D,0,1,True
+2026,1243,Wujal Wujal,37570,Queensland,1,1,1,1,C/D,0,0,True
+2029,1046,Yarrabah,37600,Queensland,0,1,0,0,A/B,0,0,True
+2031,1174,Yarrabah,37600,Queensland,1,1,1,1,C/D,0,1,True
+2032,1243,Yarrabah,37600,Queensland,1,1,1,1,C/D,0,1,True
+2291,1038,Break O'Day,60210,Tasmania,1,1,1,0,C/D,0,1,True
+2297,1038,Burnie,60610,Tasmania,1,1,1,0,C/D,0,1,True
+2300,1038,Central Coast (Tas.),60810,Tasmania,1,1,1,0,C/D,1,1,True
+2303,1038,Central Highlands (Tas.),61010,Tasmania,1,1,1,0,C/D,0,1,True
+2305,1038,Circular Head,61210,Tasmania,1,1,1,0,C/D,0,1,True
+2313,1038,Devonport,61610,Tasmania,1,1,1,0,C/D,1,1,True
+2315,1038,Dorset,61810,Tasmania,1,1,1,0,C/D,0,1,True
+2318,1038,Flinders (Tas.),62010,Tasmania,1,1,1,0,C/D,0,1,True
+2320,1038,George Town,62210,Tasmania,1,1,1,0,C/D,0,1,True
+2324,1038,Glamorgan-Spring Bay,62410,Tasmania,1,1,0,0,A/B,0,1,True
+2335,1038,Kentish,63210,Tasmania,1,1,1,0,C/D,1,1,True
+2340,1038,Latrobe (Tas.),63810,Tasmania,1,1,1,0,C/D,1,1,True
+2342,1038,Launceston,64010,Tasmania,1,1,1,0,C/D,1,1,True
+2344,1038,Meander Valley,64210,Tasmania,1,1,1,0,C/D,1,1,True
+2347,1038,Northern Midlands,64610,Tasmania,1,1,1,0,C/D,0,1,True
+2354,1038,Waratah-Wynyard,65410,Tasmania,1,1,1,0,C/D,0,1,True
+2357,1038,West Coast,65610,Tasmania,1,1,1,0,C/D,0,1,True
+2360,1038,West Tamar,65810,Tasmania,1,1,1,0,C/D,0,1,True
+2396,1269,Belyuen,70540,Northern Territory,1,1,1,0,C/D,0,0,True
+2406,1269,Coomalie ,70700,Northern Territory,1,1,1,0,C/D,0,1,True
+2409,1269,Darwin,71000,Northern Territory,1,1,0,0,A/B,0,0,True
+2415,1269,East Arnhem,71300,Northern Territory,1,1,0,0,A/B,0,0,True
+2419,1269,Katherine,72200,Northern Territory,1,1,1,0,C/D,1,1,True
+2423,1269,Litchfield,72300,Northern Territory,1,1,1,0,C/D,0,1,True
+2432,1269,Palmerston,72800,Northern Territory,1,1,0,0,A/B,0,0,True
+2440,1269,Roper Gulf,73600,Northern Territory,1,1,1,0,C/D,0,1,True
+2451,1269,Victoria Daly,74550,Northern Territory,1,1,1,0,C/D,0,1,True
+2454,1269,Wagait,74560,Northern Territory,1,1,1,0,C/D,0,1,True
+2461,1269,West Arnhem,74660,Northern Territory,1,1,1,0,C/D,0,1,True
+2469,1269,West Daly,74680,Northern Territory,1,1,1,0,C/D,0,1,True
+2472,1269,Unincorporated NT,79399,Northern Territory,1,1,1,0,C/D,0,1,True

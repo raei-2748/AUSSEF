@@ -1,0 +1,4 @@
+target,n,top_error_rows,top_10pct_share_absolute_error,top_10pct_share_squared_error
+cash_cover_months,370,37,0.3110747253949373,0.5590012527810545
+maintenance_ratio_pct,485,49,0.34814992192713895,0.6142067238499018
+operating_ratio_pct,370,37,0.25227264892578927,0.41604535057924197

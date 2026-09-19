@@ -1,0 +1,195 @@
+public_record_id,council_key,applicant,project_asset_label,submission_date,decision_date,period_end,publication_date,quality_note,capacity_measurement_before_known_submission,capacity_publication_before_known_submission,timing_verdict
+QRA2022_T1_R001,QLD_balonne,Balonne Shire Council,Mungindi Levee,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R002,QLD_balonne,Balonne Shire Council,Whyenbah Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R003,QLD_balonne,Balonne Shire Council,Jakelwar-Goodooga Road North,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R004,QLD_balonne,Balonne Shire Council,Jakelwar-Goodooga Road North,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R005,QLD_banana,Banana Shire Council,Defence Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R006,QLD_banana,Banana Shire Council,Coolum Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R007,QLD_brisbane,Brisbane City Council,Hawera Ct Bridge,,,2021-06-30,2022-05-11,"2020–21 ratios; AASB1059 concession liabilities affect comparability; QAO gives 127% excluding new standard, do not silently replace 202%",,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R008,QLD_brisbane,Brisbane City Council,Kooringal Dr Bridge,,,2021-06-30,2022-05-11,"2020–21 ratios; AASB1059 concession liabilities affect comparability; QAO gives 127% excluding new standard, do not silently replace 202%",,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R009,QLD_central_highlands,Central Highlands Regional Council,Mt Playfair Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R010,QLD_central_highlands,Central Highlands Regional Council,Withersfield Willows Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R011,QLD_central_highlands,Central Highlands Regional Council,Wyntoon Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R012,QLD_central_highlands,Central Highlands Regional Council,Wyuna Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R013,QLD_carpentaria,Carpentaria Shire Council,Dunbar - Kowanyama Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R041,QLD_fraser_coast,Fraser Coast Regional Council,Teebar Hall Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R042,QLD_fraser_coast,Fraser Coast Regional Council,Gigoomgan Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R043,QLD_fraser_coast,Fraser Coast Regional Council,Adelaide Street,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R044,QLD_gold_coast,City of Gold Coast,Gold Coast Springbrook Road,,,2021-06-30,2022-05-11,2020–21 ratios; source label Council of the City of Gold Coast; exact documented alias,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R045,QLD_gold_coast,City of Gold Coast,"Smithroad,Bonogin Road",,,2021-06-30,2022-05-11,2020–21 ratios; source label Council of the City of Gold Coast; exact documented alias,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R046,QLD_goondiwindi,Goondiwindi Regional Council,Kildonan Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R047,QLD_goondiwindi,Goondiwindi Regional Council,Kioma Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R048,QLD_goondiwindi,Goondiwindi Regional Council,Kondar Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R049,QLD_gladstone,Gladstone Regional Council,Baldaw Road Captain Creek,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R050,QLD_gladstone,Gladstone Regional Council,Blackman Gap Road Colosseum,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R051,QLD_gladstone,Gladstone Regional Council,Bootmaker Drive Roundhill,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R052,QLD_gladstone,Gladstone Regional Council,Bunker Road Roundhill,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R053,QLD_gladstone,Gladstone Regional Council,Cross Road Euleilah,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R054,QLD_gladstone,Gladstone Regional Council,Daisy Dell Road Bororen,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R055,QLD_gladstone,Gladstone Regional Council,Dillon Road Captain Creek,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R056,QLD_gladstone,Gladstone Regional Council,John Clifforoad Way Lowmead,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R057,QLD_gladstone,Gladstone Regional Council,Talaba Road Calliope,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R058,QLD_gladstone,Gladstone Regional Council,Toowell Road Oconnell,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R059,QLD_gladstone,Gladstone Regional Council,Taylor Lane Machine Creek,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R060,QLD_gympie,Gympie Regional Council,Maudsley Street,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R061,QLD_gympie,Gympie Regional Council,Moy Pocket Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R062,QLD_gympie,Gympie Regional Council,Cedar Pocket Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R063,QLD_gympie,Gympie Regional Council,Noosa Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R064,QLD_gympie,Gympie Regional Council,Rossmore Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R065,QLD_gympie,Gympie Regional Council,Mcleish Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R066,QLD_gympie,Gympie Regional Council,Wilsons Pocket Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R067,QLD_gympie,Gympie Regional Council,Amamoor Creek Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R068,QLD_gympie,Gympie Regional Council,North Deep Creek Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R069,QLD_gympie,Gympie Regional Council,Kew Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R070,QLD_gympie,Gympie Regional Council,Roebuck Street,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R071,QLD_ipswich,Ipswich City Council,East Ipswich Catchment,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R072,QLD_ipswich,Ipswich City Council,Bradfield Bidge,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R073,QLD_kowanyama,Kowanyama Aboriginal Shire Council,Pindi Street Subdivision,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R074,QLD_logan,Logan City Council,Greenbank,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R075,QLD_logan,Logan City Council,New Beith,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R076,QLD_logan,Logan City Council,Haven,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R077,QLD_logan,Logan City Council,Murcot,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R078,QLD_lockyer_valley,Lockyer Valley Regional Council,Old Laidley Forest Hill Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R079,QLD_lockyer_valley,Lockyer Valley Regional Council,Brightview Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R080,QLD_lockyer_valley,Lockyer Valley Regional Council,Dallingers Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R081,QLD_lockyer_valley,Lockyer Valley Regional Council,Flagstone Creek Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R082,QLD_lockyer_valley,Lockyer Valley Regional Council,Ingoldsby Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R083,QLD_lockyer_valley,Lockyer Valley Regional Council,Lefthand Branch Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R084,QLD_lockyer_valley,Lockyer Valley Regional Council,Mcgarrigal Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R085,QLD_lockyer_valley,Lockyer Valley Regional Council,Paynter Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R086,QLD_lockyer_valley,Lockyer Valley Regional Council,Rockmount Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R087,QLD_lockyer_valley,Lockyer Valley Regional Council,Sawpit Gully Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R088,QLD_lockyer_valley,Lockyer Valley Regional Council,Stockyaroad Creek Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R089,QLD_lockyer_valley,Lockyer Valley Regional Council,Thomas Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R090,QLD_lockyer_valley,Lockyer Valley Regional Council,Upper Flagstone Creek Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R091,QLD_maranoa,Maranoa Regional Council,Maranoa Road(81),,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R092,QLD_maranoa,Maranoa Regional Council,Roma Southern Road(414),,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R093,QLD_moreton_bay,Moreton Bay Regional Council,Barklya Crescent To Bribie Garoadens,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R094,QLD_moreton_bay,Moreton Bay Regional Council,Marine Outfall Multi Cell Culvert System,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R095,QLD_moreton_bay,Moreton Bay Regional Council,Youngs Crossing Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R096,QLD_moreton_bay,Moreton Bay Regional Council,Pringles Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R097,QLD_moreton_bay,Moreton Bay Regional Council,Stratton Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R098,QLD_murweh,Murweh Shire Council,Barngo Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R099,QLD_north_burnett,North Burnett Regional Council,Bon Accoroad Wetheron Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R100,QLD_noosa,Noosa Shire Council,Schreibers Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R101,QLD_noosa,Noosa Shire Council,Middle Creek Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R102,QLD_south_burnett,South Burnett Regional Council,Dip Road (Windera),,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R103,QLD_south_burnett,South Burnett Regional Council,Flagstone Creek Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R104,QLD_south_burnett,South Burnett Regional Council,Williams Road (Benarkin North),,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R105,QLD_south_burnett,South Burnett Regional Council,Mercer Springate Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R106,QLD_south_burnett,South Burnett Regional Council,Goldsworthy Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R107,QLD_south_burnett,South Burnett Regional Council,Hodges Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R108,QLD_south_burnett,South Burnett Regional Council,Kearneys Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R109,QLD_south_burnett,South Burnett Regional Council,Magee Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R110,QLD_south_burnett,South Burnett Regional Council,Manar Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R111,QLD_south_burnett,South Burnett Regional Council,Walkers Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R112,QLD_south_burnett,South Burnett Regional Council,Arthur Street East,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R113,QLD_south_burnett,South Burnett Regional Council,Mondure Crossing Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R114,QLD_south_burnett,South Burnett Regional Council,Noroads Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R115,QLD_south_burnett,South Burnett Regional Council,Tim Dwyer Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R116,QLD_south_burnett,South Burnett Regional Council,Weeks Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R117,QLD_south_burnett,South Burnett Regional Council,Finnemores Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R118,QLD_south_burnett,South Burnett Regional Council,Greenview Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R119,QLD_south_burnett,South Burnett Regional Council,Hoggs Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R120,QLD_south_burnett,South Burnett Regional Council,Ironpot Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R121,QLD_south_burnett,South Burnett Regional Council,Jerraroads Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R122,QLD_south_burnett,South Burnett Regional Council,Kings Bridge Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R123,QLD_south_burnett,South Burnett Regional Council,Lamperoads Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R124,QLD_south_burnett,South Burnett Regional Council,Maidenwell Upper Yarraman Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R125,QLD_south_burnett,South Burnett Regional Council,Manumbar Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R126,QLD_south_burnett,South Burnett Regional Council,Noroads Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R127,QLD_south_burnett,South Burnett Regional Council,Old Wondai Road (Southbound1),,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R128,QLD_south_burnett,South Burnett Regional Council,Parkers Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R129,QLD_south_burnett,South Burnett Regional Council,Pedersens Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R130,QLD_south_burnett,South Burnett Regional Council,Recreation Drive,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R131,QLD_south_burnett,South Burnett Regional Council,Smiths Road (Inverlaw),,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R132,QLD_south_burnett,South Burnett Regional Council,Trentham Lane,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R133,QLD_south_burnett,South Burnett Regional Council,Trouts Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R134,QLD_southern_downs,Southern Downs Regional Council,Goldfields Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R135,QLD_southern_downs,Southern Downs Regional Council,Talgai West Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R136,QLD_southern_downs,Southern Downs Regional Council,Glen Niven Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R137,QLD_southern_downs,Southern Downs Regional Council,Kital Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R138,QLD_southern_downs,Southern Downs Regional Council,Connells Bridge Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R139,QLD_southern_downs,Southern Downs Regional Council,Merivale Street,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R140,QLD_southern_downs,Southern Downs Regional Council,Wheatvale Plains Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R141,QLD_southern_downs,Southern Downs Regional Council,Azalea Street,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R142,QLD_southern_downs,Southern Downs Regional Council,Charleys Gully Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R143,QLD_southern_downs,Southern Downs Regional Council,Coopers Gully Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R144,QLD_southern_downs,Southern Downs Regional Council,Fairbanks Lane,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R145,QLD_southern_downs,Southern Downs Regional Council,Gillbaroad Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R146,QLD_southern_downs,Southern Downs Regional Council,Halls Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R147,QLD_southern_downs,Southern Downs Regional Council,Jensens Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R148,QLD_southern_downs,Southern Downs Regional Council,Kays Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R149,QLD_southern_downs,Southern Downs Regional Council,Lode Creek Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R150,QLD_southern_downs,Southern Downs Regional Council,Mikkelsens Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R151,QLD_southern_downs,Southern Downs Regional Council,Pierces Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R152,QLD_southern_downs,Southern Downs Regional Council,Pratten - Hendon Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R153,QLD_southern_downs,Southern Downs Regional Council,Warner Street,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R154,QLD_southern_downs,Southern Downs Regional Council,Yankee Gully Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R155,QLD_somerset,Somerset Regional Council,Patrick Estate Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R156,QLD_somerset,Somerset Regional Council,Scrub Creek Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R157,QLD_scenic_rim,Scenic Rim Regional Council,Teviotville Road,2022-12,early 2023,2021-06-30,2022-05-11,2020–21 ratios,True,True,QAO baseline predates earliest day of reported submission month
+QRA2022_T1_R158,QLD_scenic_rim,Scenic Rim Regional Council,Roadvale Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R159,QLD_scenic_rim,Scenic Rim Regional Council,Rosevale Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R160,QLD_scenic_rim,Scenic Rim Regional Council,Tarome Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R161,QLD_scenic_rim,Scenic Rim Regional Council,Allandale Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R162,QLD_scenic_rim,Scenic Rim Regional Council,Biddaddaba Creek Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R163,QLD_scenic_rim,Scenic Rim Regional Council,Brookland Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R164,QLD_scenic_rim,Scenic Rim Regional Council,Christmas Creek Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R165,QLD_scenic_rim,Scenic Rim Regional Council,Round Mountain Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R166,QLD_scenic_rim,Scenic Rim Regional Council,Croftby Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R167,QLD_scenic_rim,Scenic Rim Regional Council,Wild Pig Creek Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R168,QLD_toowoomba,Toowoomba Regional Council,O'Connor Road (Coalbank),,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R169,QLD_toowoomba,Toowoomba Regional Council,Windermere Drive (Hodgson Vale),,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R170,QLD_toowoomba,Toowoomba Regional Council,Blaxland Road (Bowenville),,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R171,QLD_toowoomba,Toowoomba Regional Council,Brimblecombe Road (Oakey),,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R172,QLD_toowoomba,Toowoomba Regional Council,Jimna Springs Road (Southbrook),,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R173,QLD_toowoomba,Toowoomba Regional Council,Kearney Street (Kearneys Spring),,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R174,QLD_toowoomba,Toowoomba Regional Council,Lagoon Crescenteek Road (West Haldon),,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R175,QLD_toowoomba,Toowoomba Regional Council,Maria Crescenteek Road (Anduramba),,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R176,QLD_toowoomba,Toowoomba Regional Council,Umbiram Road (Wyreema),,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R177,QLD_toowoomba,Toowoomba Regional Council,Westbrook Wayreema Road (Westbrook),,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R178,QLD_toowoomba,Toowoomba Regional Council,Westcreek004,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R179,QLD_western_downs,Western Downs Regional Council,Wilds Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R180,QLD_western_downs,Western Downs Regional Council,Sandalwood Av West,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R181,QLD_western_downs,Western Downs Regional Council,Giligulgul Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R182,QLD_western_downs,Western Downs Regional Council,Springvale Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T1_R183,QLD_western_downs,Western Downs Regional Council,Commodity Ct,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R001,QLD_aurukun,Aurukun Shire Council,Aurukun Access Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R002,QLD_barcoo,Barcoo Shire Council,Connemara Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R003,QLD_blackall_tambo,Blackall-Tambo Regional Council,Blackall Emmet Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R004,QLD_blackall_tambo,Blackall-Tambo Regional Council,Coolatai Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R005,QLD_blackall_tambo,Blackall-Tambo Regional Council,Evora Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R006,QLD_cloncurry,Cloncurry Shire Council,Kajabbi Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R007,QLD_croydon,Croydon Shire Council,Glenora Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R008,QLD_flinders,Flinders Shire Council,Moondah Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R009,QLD_mareeba,Mareeba Shire Council,Bakers Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R010,QLD_mareeba,Mareeba Shire Council,Bellevue Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R011,QLD_mareeba,Mareeba Shire Council,Bolwarra Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R012,QLD_mareeba,Mareeba Shire Council,Fantin Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R013,QLD_mareeba,Mareeba Shire Council,Fossilbrook Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R014,QLD_mareeba,Mareeba Shire Council,Hurricane Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R015,QLD_mareeba,Mareeba Shire Council,Karma Waters Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R016,QLD_mareeba,Mareeba Shire Council,Kondaparinga Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R017,QLD_mareeba,Mareeba Shire Council,Mcbean Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R018,QLD_mareeba,Mareeba Shire Council,Mount Cardwell Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R019,QLD_mareeba,Mareeba Shire Council,Mount Misery Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R020,QLD_mareeba,Mareeba Shire Council,Mount Mulligan - Kondaparinga Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R021,QLD_mareeba,Mareeba Shire Council,Mount Mulligan Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R022,QLD_mareeba,Mareeba Shire Council,Nychum Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R023,QLD_mareeba,Mareeba Shire Council,Ok Mine Road South,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R024,QLD_mareeba,Mareeba Shire Council,Price Creek Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R025,QLD_mareeba,Mareeba Shire Council,Springfield Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R026,QLD_mareeba,Mareeba Shire Council,Sunnymount Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R027,QLD_mareeba,Mareeba Shire Council,Torwood Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R028,QLD_northern_peninsula_area,Northern Peninsula Area Regional Council,Ferry Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R029,QLD_palm_island,Palm Island Aboriginal Shire Council,Farm Road,,,2020-06-30,2022-05-11,QAO footnote: 2020–21 audit unfinished; ratios from 2019–20,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R030,QLD_palm_island,Palm Island Aboriginal Shire Council,Lower Weir Road,,,2020-06-30,2022-05-11,QAO footnote: 2020–21 audit unfinished; ratios from 2019–20,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R031,QLD_palm_island,Palm Island Aboriginal Shire Council,Mount Bentley Road,,,2020-06-30,2022-05-11,QAO footnote: 2020–21 audit unfinished; ratios from 2019–20,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R032,QLD_palm_island,Palm Island Aboriginal Shire Council,Sundowner Ridge Road,,,2020-06-30,2022-05-11,QAO footnote: 2020–21 audit unfinished; ratios from 2019–20,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R033,QLD_palm_island,Palm Island Aboriginal Shire Council,Tip Bypass Road,,,2020-06-30,2022-05-11,QAO footnote: 2020–21 audit unfinished; ratios from 2019–20,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R034,QLD_paroo,Paroo Shire Council,Humeburn Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R035,QLD_paroo,Paroo Shire Council,Mount Alfred Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R036,QLD_quilpie,Quilpie Shire Council,Old Charleville Road - 16-3_4B-Quilpie - Combined,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R037,QLD_richmond,Richmond Shire Council,Richmond - Croydon Road (A1),,,2020-06-30,2022-05-11,QAO footnote: 2020–21 audit unfinished; ratios from 2019–20,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified
+QRA2022_T2_R038,QLD_torres_strait_island,Torres Strait Island Regional Council,Dauan (Mt Cornwallis Island) - Reservoir Road,,,2021-06-30,2022-05-11,2020–21 ratios,,,APPLICATION/DECISION DATE UNKNOWN; no strict as-of join certified

@@ -1,0 +1,39 @@
+{
+  "stage": "measurement_first_pilot",
+  "treated_cases": [
+    {
+      "council_key": "eurobodalla",
+      "event_year": 2019,
+      "event_group": "black_summer_2019_20"
+    },
+    {
+      "council_key": "lismore",
+      "event_year": 2021,
+      "event_group": "northern_rivers_floods_2022"
+    },
+    {
+      "council_key": "richmondvalley",
+      "event_year": 2021,
+      "event_group": "northern_rivers_floods_2022"
+    }
+  ],
+  "selection_reason": "purposive major-disaster cases with official document archives, two shared event groups, all in continuing 103-council subset; not representative or selected by outcome",
+  "window": [
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2
+  ],
+  "primary_outcome": "(actual routine maintenance - original planned routine maintenance) / original planned routine maintenance",
+  "gate": "same routine asset/fund/work scope; planned amount fixed before disaster; disaster reconstruction excluded with documentary evidence; positive denominator; unit and annual period verified",
+  "comparison_screen": "pre-event fiscal/maintenance/scale only; later exposure used solely to exclude contaminated controls; unknown hazard not zero",
+  "interactions_prespecified": [
+    "disaster x cash cover below 3 months",
+    "disaster x prior operating ratio below 0 percent"
+  ],
+  "inference_gate": "comparable routine outcome for treated and controls with >=3 pre-event years; no clearly incompatible pre-trends; enough independent council/event clusters and untreated observations for credible uncertainty; no models merely to fill output files",
+  "funding_gate": "verified effective date and first council payment date, amount, project/event linkage; do not use announcements as payments",
+  "freeze_rule": "all existing files, including repository index, remain unchanged"
+}

@@ -1,0 +1,15 @@
+{
+  "merged_rows": 1339,
+  "councils": 103,
+  "one_to_one_join": true,
+  "source_files_unchanged": 440,
+  "changed_files": [],
+  "outer_and_inner_forward_only": true,
+  "original_one_year_embargo_retained": true,
+  "identical_test_rows_across_models_and_ablations": true,
+  "unknown_exposure_preserved": true,
+  "complete_case_target_and_persistence": true,
+  "negative_R2_count": 122,
+  "no_models_beyond_mean_persistence_ridge_shallow_tree": true,
+  "model_rows": 27704
+}

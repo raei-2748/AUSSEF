@@ -1,0 +1,98 @@
+[
+  {
+    "source_id": "nema_metadata.json",
+    "url": "https://data.gov.au/data/api/3/action/package_show?id=drfa-activation-history-by-lga",
+    "file": "sources/nema_metadata.json",
+    "bytes": 5857,
+    "sha256": "84f7084a0c8ac41066dc1c42d4cf7df68615f085e914157ecb78329bdbb525ed",
+    "retrieved": "2026-09-18"
+  },
+  {
+    "source_id": "nema_drfa.csv",
+    "url": "https://data.gov.au/data/dataset/10ba7303-e3af-41b4-98b5-e04db77caea8/resource/ada7908b-afe6-48f3-966b-789aa26c1391/download/drfa_activation_history_by_location_2026_august_11.csv",
+    "file": "sources/nema_drfa.csv",
+    "bytes": 367919,
+    "sha256": "6b2bebc520bb32741bc44c296c28f9830b1deacfa1e6b71bedb1ab41c2a88201",
+    "retrieved": "2026-09-18"
+  },
+  {
+    "source_id": "fesm_2016_17.xlsx",
+    "url": "https://www.environment.nsw.gov.au/sites/default/files/2024-09/fire-extent-severity-mapping-results-2016-17.xlsx",
+    "file": "sources/fesm_2016_17.xlsx",
+    "bytes": 263489,
+    "sha256": "67aaf911a343087ef332841e65c8b4b24c6e0d6f6c5384f5a1e5f37927704b3f",
+    "retrieved": "2026-09-18"
+  },
+  {
+    "source_id": "fesm_metadata_2012.json",
+    "url": "https://datasets.seed.nsw.gov.au/api/3/action/package_show?id=historical-fire-extent-and-severity-mapping-fesm-statewide-201213",
+    "file": "sources/fesm_metadata_2012.json",
+    "bytes": 10270,
+    "sha256": "ae959f828c04f30df56a97ae5bddda8cd42d953a9c9b91af4a354ed3d27530af",
+    "retrieved": "2026-09-18"
+  },
+  {
+    "source_id": "fesm_wildfires_2012.zip",
+    "url": "https://datasets.seed.nsw.gov.au/dataset/4d0de137-501e-495a-9b00-e802678f3ad7/resource/ee67d740-c286-4739-a3fa-033a357014fe/download/cvmsre_nswwildfire_20122013_ag1l0.zip",
+    "file": "sources/fesm_wildfires_2012.zip",
+    "bytes": 1161941,
+    "sha256": "b4057535a1206c3ead7c0629565d8f8bbe5d2710913f9a758a1c27e5f35375a7",
+    "retrieved": "2026-09-18"
+  },
+  {
+    "source_id": "fesm_historical_quality.pdf",
+    "url": "https://datasets.seed.nsw.gov.au/dataset/historical-fire-extent-and-severity-mapping-fesm-statewide-201213/resource/data_quality_report/pdf",
+    "file": "sources/fesm_historical_quality.pdf",
+    "bytes": 26064,
+    "sha256": "5b32ba5d04bd0c70b0109d27256cb16f6fbfe5db99bbb3a77f13ff099010858e",
+    "retrieved": "2026-09-18"
+  },
+  {
+    "source_id": "fesm_metadata_2013.json",
+    "url": "https://datasets.seed.nsw.gov.au/api/3/action/package_show?id=historical-fire-extent-and-severity-mapping-fesm-statewide-201314",
+    "file": "sources/fesm_metadata_2013.json",
+    "bytes": 10270,
+    "sha256": "83665b2ac0668a4cac31f009a26d501a0c91a5cd4b804322877752178e785336",
+    "retrieved": "2026-09-18"
+  },
+  {
+    "source_id": "fesm_wildfires_2013.zip",
+    "url": "https://datasets.seed.nsw.gov.au/dataset/faf74450-77e9-4023-8282-3f672d51b25f/resource/ea484b74-a314-423b-b4de-cfee28c3e12c/download/cvmsre_nswwildfire_20132014_ag1l0.zip",
+    "file": "sources/fesm_wildfires_2013.zip",
+    "bytes": 1626116,
+    "sha256": "2b5d7d6bc847d8d8b48501dd8f852b774fbfb5f8d11ccf4e7b43cb420fdda526",
+    "retrieved": "2026-09-18"
+  },
+  {
+    "source_id": "fesm_metadata_2014.json",
+    "url": "https://datasets.seed.nsw.gov.au/api/3/action/package_show?id=historical-fire-extent-and-severity-mapping-fesm-statewide-201415",
+    "file": "sources/fesm_metadata_2014.json",
+    "bytes": 10269,
+    "sha256": "8a12f4d39ad3acb7316371f98cc59a1df02bb68c448341c929feae8cf91fbcc0",
+    "retrieved": "2026-09-18"
+  },
+  {
+    "source_id": "fesm_wildfires_2014.zip",
+    "url": "https://datasets.seed.nsw.gov.au/dataset/5c8ba8c8-2518-460c-be6c-0901e4b77a3f/resource/75f383f2-7664-4892-af65-d0c46f60c987/download/cvmsre_nswwildfire_20142015_ag1l0.zip",
+    "file": "sources/fesm_wildfires_2014.zip",
+    "bytes": 996069,
+    "sha256": "7cb3eae2b97dd308cda125c81586c2b743cee75ef88394f56dbd5e824c4e2ed2",
+    "retrieved": "2026-09-18"
+  },
+  {
+    "source_id": "fesm_metadata_2015.json",
+    "url": "https://datasets.seed.nsw.gov.au/api/3/action/package_show?id=historical-fire-extent-and-severity-mapping-fesm-statewide-201516",
+    "file": "sources/fesm_metadata_2015.json",
+    "bytes": 10270,
+    "sha256": "cdbd90399ca236907b19b5ca4bbf626fd980576e63c1e9ff51253ba2d2b3c2b0",
+    "retrieved": "2026-09-18"
+  },
+  {
+    "source_id": "fesm_wildfires_2015.zip",
+    "url": "https://datasets.seed.nsw.gov.au/dataset/83620eb4-1c0f-4ef4-a5d7-d34cb545d8f7/resource/d2b12d49-7e65-457c-8359-1040d685275f/download/cvmsre_nswwildfire_20152016_ag1l0.zip",
+    "file": "sources/fesm_wildfires_2015.zip",
+    "bytes": 1235200,
+    "sha256": "ef7dd8672cea2225372787ec4e7067bd02ba51ae9a1b46b1bdaa0c55cd7f1fc7",
+    "retrieved": "2026-09-18"
+  }
+]

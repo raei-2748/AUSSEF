@@ -1,0 +1,33 @@
+{
+  "continuing_councils_in_2015_16": 108,
+  "selected_councils": 103,
+  "candidate_rows": 1339,
+  "new_historical_rows": 515,
+  "new_fiscal_years": 5,
+  "cash_earliest_candidate_year": 2013,
+  "operating_nonmissing": 1232,
+  "maintenance_conflicts": 7,
+  "verified_policy_target_years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "verified_policy_council_target_rows": 824,
+  "strict_ex_ante_ready_forecast_rows": 0,
+  "prior_files_hash_checked": 252,
+  "all_prior_files_unchanged": true,
+  "new_models_fitted": 0,
+  "new_historical_statement_council_years": 2,
+  "audited_component_council_years": 9,
+  "vintage_discrepancies": 2,
+  "potential_folds": {
+    "V1_period_same_subset": 3,
+    "V2_fiscal_only_upper_bound": 8,
+    "V2_fiscal_plus_inherited_exposure": 4
+  }
+}

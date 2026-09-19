@@ -1,0 +1,18 @@
+issue_id,council_key,issue_type,finding,treatment
+C01,all,missingness,"Year-end category/project actual is not matched; blank retained, not imputed",blocks annual outcome
+C02,all,scope,"Cash IPPE, full capital, ordinary infrastructure and accounting maintenance are distinct",blocks automatic joining
+C03,all,timing,Quarter end differs from approval/publication; Lismore Q2 reconvened16Feb,decision_dates.csv
+C04,lismore,unit/year,"QBR capital pages say $000 and 2020/21, surrounding review says2021/22; magnitudes treated provisional AUD and quarantined",council clarification required
+C05,lismore,classification,"Q3 renewal Other projects ends as negative expenditure; retain sign, not absolute value; source category allocation suspect",blocks category interpretation
+C06,lismore,decision amendment,May10 resolution adds $5m reserve transfer; not in attachment funding totals,do not claim full approved funding reconstruction
+C07,waggawagga,arithmetic,"Sep one-off: 97,965,275 + 2,000,585 !=100,965,860; residual1,000,000",reported levels retained; movement not repaired
+C08,eurobodalla,rounding,Capital sums/rollforward have AUD1 discrepancies,retain reported figures and tolerance flag
+C09,griffith,scope/rounding,"QBR original IPPE40,932,455 vs accounts40,933,000; discrepancy545 exceeds nominal nearest-$1000 half-unit",reconcile before exact annual chain
+C10,richmondvalley,disaster replacement,"Roads decrease contains1,245,243 prior disaster projects closed and reclassified after redamage",exclude from ordinary displacement
+C11,all,zero,Dash becomes0 only in observed numeric table; absent record staysblank; mapped burn0 is not no disaster,no imputation
+C12,all,independence,Multiple categories/projects share council and event; five councils and two index event groups do not become77 independent treatments,blocks final causal model
+C13,all,ordinary eligibility,No complete fixed pre-event undamaged/access-certified project portfolio with matched actuals,blocks causal outcome
+C14,eurobodalla,retrieval,"Direct download403 and screenshot cache misses; extracted public web PDF text used, not claimed image verified; Q2/Q3 minutes unavailable",Q3 remains proposed
+C15,richmondvalley,completion,Q4 masterplan action marked completed while construction commenced; cannot label whole pool finished,separate action from asset completion
+C16,all,pretrends,One focused event-year per council; no validated ordinary-budget pretrends,cannot call deviations abnormal
+C17,all,capacity,No low cash-cover treated council under prior3month convention; weaker operating councils share NorthernRivers event,capacity interaction unsupported

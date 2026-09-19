@@ -1,0 +1,1104 @@
+                                                                                         Local government 2021 (Report 15: 2021–22)
+
+
+
+
+I. Financial sustainability measures
+      Figure I1 details the ratios (measures) indicating short-term and long-term financial sustainability. The
+      guidelines quoted in the target range were issued by the Department of State Development,
+      Infrastructure, Local Government and Planning.
+                                                    Figure I1
+                                  Financial sustainability measures for councils
+
+       Measure                       Formula                             Description                        Target range
+
+       Operating           Net operating result divided       Indicates the extent to which           Between zero and
+       surplus ratio       by total operating revenue         operational revenues raised             10 per cent – per
+                           (excludes capital items)           cover operational expenses              department-issued
+                           Expressed as a percentage                                                  guidelines
+
+                           A negative result indicates an operating deficit, and the larger the negative percentage, the
+                           worse the result. Operating deficits cannot be sustained in the long term. A positive
+                           percentage indicates that surplus revenue is available to support the funding of capital
+                           expenses, or to hold in reserve to offset past or future operating deficits.
+                           We consider councils as financially sustainable when they consistently achieve an operating
+                           surplus and expect that they can do so in the future, having regard to asset management and
+                           community service level needs.
+
+       Net financial       Total liabilities less current     Indicates the extent to which a         Not greater than
+       liabilities ratio   assets divided by total            council’s operating revenues            60 per cent – per
+                           operating revenue                  (including grants and subsidies)        department-issued
+                           Expressed as a percentage          can cover its net financial             guidelines
+                                                              liabilities (usually loans and
+                                                              leases)
+
+                           If net financial liabilities are greater than 60 per cent of operating revenue, the council has
+                           limited capacity to increase loan borrowings and may experience stress in servicing current
+                           debt.
+
+       Asset               Capital expenses on                Indicates the extent to which           Greater than 90 per cent
+       sustainability      replacement of assets              assets are being replaced as            – per department-issued
+       ratio               (renewals) divided by              they reach the end of their useful      guidelines
+                           depreciation expenses              lives
+                           Expressed as a percentage
+
+                           If the asset sustainability ratio is greater than 90 per cent, the council is likely to be sufficiently
+                           maintaining, replacing, and/or renewing its assets as they reach the end of their useful lives.
+                           While a low percentage may indicate that the asset base is relatively new (which may result
+                           from rectifying extensive natural disaster damage) and does not require replacement, the
+                           lower the percentage, the more likely it is that a council has inadequate asset management
+                           plans and practices.
+
+      Source: Queensland Audit Office.
+
+
+
+
+•••
+                                                                                                                                     •
+                                                                                                                                     52
+Local government 2021 (Report 15: 2021–22)
+
+
+        Figure I2 details our risk assessment criteria for financial sustainability measures.
+                                                   Figure I2
+                         Risk assessment criteria for financial sustainability measures
+
+         Relative risk          Operating surplus          Net financial             Asset sustainability ratio
+         rating measure               ratio               liabilities ratio
+
+         Higher                Less than negative        More than 80%                     Less than 50% 
+                               10% (i.e. losses) 
+
+                               Insufficient revenue     Potential long-term     Insufficient spending on asset
+                               being generated to       concern over ability    replacement or renewal, resulting in
+                               fund operations and      to repay debt levels    reduced service levels and increased
+                               asset renewal            from operating          burden on future ratepayers
+                                                        revenue
+
+         Moderate              Negative 10% to zero        60% to 80%                       50% to 90% 
+                               (i.e. losses) 
+
+                               A risk of long-term      Some concern over       Irregular spending or insufficient asset
+                               reduction in cash        the ability to repay    management practices, creating a
+                               reserves and inability   debt from operating     backlog of maintenance/renewal work
+                               to fund asset renewals   revenue
+
+         Lower                 More than zero             Less than 60%                    More than 90% 
+                               (i.e. surpluses) 
+
+                               Generating surpluses     No concern over the     Likely to be sufficiently replacing or
+                               consistently             ability to repay debt   renewing assets as they reach the end
+                                                        from operating          of their useful lives
+                                                        revenue
+
+        Source: Queensland Audit Office.
+
+        We calculate our overall risk assessment of financial sustainability using the ratings determined for each
+        measure, as shown in Figure I1, and the assignment of the risk criteria, as shown in Figure I2.
+
+
+
+
+ • 53
+                                                                                                                           •••
+                                                                                       Local government 2021 (Report 15: 2021–22)
+
+
+                                                    Figure I3
+                                  Explanations of our relative risk assessments
+
+       Risk level                                                   Risk criteria
+
+       Higher risk      There is a higher risk of sustainability issues arising in the short to medium term if current
+                       operating income and expenses policies continue, as indicated by average operating deficits
+                        (losses) of more than 10 per cent of operating revenue.
+
+       Moderate risk    There is a moderate risk of sustainability issues over the longer term if current debt financing and
+                       capital investment policies continue, as indicated by:
+                        •   a current net financial liabilities ratio of more than 80 per cent of operating revenue, or
+                        •   an average asset sustainability ratio of less than 50 per cent, or
+                        •   average operating deficits (losses) of between 2 per cent and 10 per cent of operating
+                            revenue, or
+                        •   having 2 or more of the ratios assessed as moderate risk (see Figure I2).
+
+       Lower risk       There is a lower risk of concerns about financial sustainability based on current income,
+                       expenses, asset investment, and debt financing policies.
+
+      Source: Queensland Audit Office.
+
+      We use a 5-year average when assessing the operating surplus and asset sustainability ratios. This is
+      because these are long-term indicators. Viewing the annual ratios in isolation does not provide insights
+      into councils’ long-term financial sustainability.
+      The net financial liabilities ratio, however, is more effective as a point-in-time ratio. The more recent the
+      point in time, the more useful this ratio is in assessing councils’ flexibility to increase debt.
+      Our assessment of financial sustainability risk factors does not consider councils’ long-term forecasts or
+      credit assessments undertaken by the Queensland Treasury Corporation.
+
+
+
+
+•••
+                                                                                                                               •
+                                                                                                                               54
+Local government 2021 (Report 15: 2021–22)
+
+
+
+                                                                                 Figure I4
+                                        Financial sustainability risk assessment by council category: Results at the end of 2020–21
+
+        Coastal councils                                     Current                        Avg                                   Net
+                                            Avg. grant                                                   Net financia l                      Current asset     Avg. asset         Avg. asset
+                                                            o perating   Avg. ope rating operating                            financial                                                          Relative risk
+                                             funding                                                    liabi lities ratio                   sustainability   sustainabi lity   sustainability
+                                                              surplus    surplus ratio% surplus ratio                         liabi lities                                                       assessment
+                                           pe rce ntage 1                                                        %                              ratio%           ratio%          ratio trend 2
+                                                              ratio%                       trend 2                           ratio trend
+                                                                                             Coastal councils
+                                                                                                                                                                                      .,..
+        Bundaberg Regional Council             21%            5.00%       5.64%
+                                                                                      •       -
+                                                                                              .,,.
+                                                                                                        -7.00%
+                                                                                                                      •            -
+                                                                                                                                  .,..
+                                                                                                                                                45 .00%        55.40%     0
+                                                                                                                                                                                      .,..
+                                                                                                                                                                                                    Low er
+        Burde kin Shire Council                21%            0.26%       6.24%
+                                                                                      •       .,..
+                                                                                                        -71.90%
+                                                                                                                      •                        107.54%         91 .56%
+                                                                                                                                                                          •           .,,.
+                                                                                                                                                                                                    Low er
+        Cairns Regional Council                18%           1.00%        -0.07%      0                 72.00%        0
+                                                                                                                                  "".,..        96.00%        101 .20%
+                                                                                                                                                                          •                        Moderate
+
+        Cassowary Coast Regional Council       23%           -3.00%       -3.08%              ,;..      -31.60%
+                                                                                                                      •                        100.00%         90.40%
+                                                                                                                                                                          •            -
+                                                                                                                                                                                      .,,.
+                                                                                                                                                                                                   Moderate
+
+        Douglas Shire Council                  25%           "5.00%       -3. 11 %    0       -
+                                                                                              .,,.
+                                                                                                        -32.00%
+                                                                                                                      •           ""            9,3 _00%      102.80%
+                                                                                                                                                                          •           .,..
+                                                                                                                                                                                                   Moderate
+        Fraser Coast Regional Council          22%            0.21%       3.86%
+                                                                                      •                 -23 .95%
+                                                                                                                      •           ,i..         137.69%         9'2.13%
+                                                                                                                                                                          •           .,..
+                                                                                                                                                                                                    Low er
+        Gladstone Regional Council
+        Gympie Regional Council
+                                               15%
+                                               23%
+                                                            -11 .96%
+                                                              0.61%
+                                                                          -0.61%
+                                                                          -422%
+                                                                                      0
+                                                                                      0
+                                                                                              ,;..
+                                                                                              .,..
+                                                                                                        31.18%
+                                                                                                         0.94%
+                                                                                                                      ••          .,..""
+                                                                                                                                                87.02%
+                                                                                                                                                96.44%
+                                                                                                                                                               52.40%
+                                                                                                                                                              121. 17%
+                                                                                                                                                                          0
+                                                                                                                                                                          •           .,,.
+                                                                                                                                                                                                   Moderate
+                                                                                                                                                                                                   Moderate
+                                                                                              .,,.                                                                                    .,..
+        Hinchin brook Shire Council            30%          -17.40%       -9.74%      0                 -17.80%
+                                                                                                                       •          .,.."'
+                                                                                                                                                89 .80%        68 .56%    0
+                                                                                                                                                                                      .,..
+                                                                                                                                                                                                   Moderate
+        Livingstone Shire Council
+        Mac kay Regional Council
+                                               31%
+                                               18%
+                                                              3.65%
+                                                             2.20%
+                                                                          3.24%
+                                                                          0.18%
+                                                                                      ••      -
+                                                                                              -
+                                                                                                        22.76%
+                                                                                                         6.10%
+                                                                                                                       ••         .,..
+                                                                                                                                                62.97%
+                                                                                                                                                82.20%
+                                                                                                                                                               52 .55%
+                                                                                                                                                               62.52%
+                                                                                                                                                                          0
+                                                                                                                                                                          0           .,..
+                                                                                                                                                                                                    Lower
+                                                                                                                                                                                                    Lower
+                                                                                                                                  .,..
+        Noosa Shire Council                    14%            7.48%       9.66%
+                                                                                       •      -
+                                                                                              .,,.
+                                                                                                        -19.89%
+                                                                                                                        •                       83.42%        11 0.04%
+                                                                                                                                                                          •            -
+
+                                                                                                                                                                                      .,..
+                                                                                                                                                                                                    Low er
+        Roc khampton Regional Council
+        Townsville City Council
+                                               26%
+                                               28%
+                                                             1.00%
+                                                              1.00%
+                                                                          2.95%
+                                                                          -0.28%      0
+                                                                                       •      -
+                                                                                                        55.50%
+                                                                                                        79 .00%       0
+                                                                                                                        •         "".,..        98 .90%
+                                                                                                                                                59.00%
+                                                                                                                                                               96 .92%
+                                                                                                                                                               73 .80%
+                                                                                                                                                                          •
+                                                                                                                                                                          0
+                                                                                                                                                                                      .,,.
+                                                                                                                                                                                                    Lower
+                                                                                                                                                                                                   Moderate
+                                                                                                                                  .,..                                                .,..
+        W hitsunday Regional Council
+        Coastal oouncils av,erage
+                                               35%
+                                               23%
+                                                             4.86%
+                                                             -0.67%
+                                                                          3.29%
+                                                                          0.93%
+                                                                                       •      -         11 .10%
+                                                                                                         4.96%
+                                                                                                                        •                       97.78%
+                                                                                                                                                89.05%
+                                                                                                                                                              147.39%
+                                                                                                                                                               87 .92%
+                                                                                                                                                                          •                         Low er
+
+
+
+        Coastal oouncils - combined risk assessment                           Lower                                 Low er                                     Moderate                             Lower
+
+
+
+
+ • 55
+                                                                                                                                                                                                                 •••
+                                                                                                                                                            Local government 2021 (Report 15: 2021–22)
+
+
+
+      Indigenous councils
+                                                                Current                     Avg                             Net        Current
+                                                   Avg. grant            Avg. operating                Net financial                           t       Avg. asset     Avg. asset
+                                                               operating  surplus ratio  operating                       financial        asse            ta· b"l"ty sustainability Relative risk
+                                                    funding                                           liabilities ratio • b"l"t·
+                                                                surplus                   surplus                        II~ I I 1es SUS ta·ma b"l"ty sus ma 11
+                                                                                                                                                         ratio %
+                                                  percentage 1                 %                              %                                  II                   ratio trend 2 assessment
+                                                                ratio%                  ratio trend 2                   ratio trend     ratio%
+
+                                                                                                  Indigenous councils
+      A urnkun Shi re Council
+      Cherbourg Aboriginal! Shire Council
+                                                      65%
+                                                      55%
+                                                                 -23.00 %
+                                                                 -15.00 %
+                                                                             -17.31%
+                                                                             5.42%      ••            .....
+                                                                                                      .....
+                                                                                                               -80.00 %
+                                                                                                                19.00%
+                                                                                                                           ••      1'
+                                                                                                                                   .....
+                                                                                                                                            2.00 %
+                                                                                                                                           14 1.00 %
+                                                                                                                                                       18.20 %
+                                                                                                                                                       11 7.20%
+                                                                                                                                                                  ••       -
+                                                                                                                                                                          1'
+                                                                                                                                                                                       Higher
+                                                                                                                                                                                       Lower
+      Doomadgee Aboriginal Shire Council
+      Hope Va le Aboriginal! Shire Council
+                                                      55%
+                                                      46%
+                                                                  6.00%
+                                                                  5.00%
+                                                                             -27.56%
+                                                                             8.54%
+                                                                                         ••           1'
+                                                                                                      .....
+                                                                                                                7.00%
+                                                                                                               -179.00%
+                                                                                                                           ••      1'
+                                                                                                                                   1'
+                                                                                                                                           30 .00%
+                                                                                                                                           104.00 %
+                                                                                                                                                       70 .40 %
+                                                                                                                                                       97.60 %
+                                                                                                                                                                  0
+                                                                                                                                                                   •
+                                                                                                                                                                          .....
+                                                                                                                                                                          1'
+                                                                                                                                                                                       Higher
+                                                                                                                                                                                       Lower
+      Kowa nyama Aboriginal Shi re Council            71%        -4 1.00 %   -44.80%
+                                                                                          •           .....     3.00%
+                                                                                                                             •     .....   120.00 %    77.62 %    0       .....        Higher
+      Lockhart River Aboriginal Shire
+      Council
+                                                      74 %       -14.00 %    -5.96%                   .....    -37.00 %
+                                                                                                                           •       .....   54.00%      134 .40%
+                                                                                                                                                                  •       .....       Moderate
+
+      Mapoon Abo ri ginal Shiire Council
+      Mornington Shire Council
+                                                      65%
+                                                      52 %
+                                                                 -28.00 %
+                                                                 -10.70 %
+                                                                             -2 1.02%
+                                                                             -26.59%      ••          .....
+                                                                                                      1'
+                                                                                                               -64.00 %
+                                                                                                               -16.00 %
+                                                                                                                           ••      1'
+                                                                                                                                   1'
+                                                                                                                                           13.00%
+                                                                                                                                           92 .60%
+                                                                                                                                                       54.62 %
+                                                                                                                                                       194 .54%
+                                                                                                                                                                  0
+                                                                                                                                                                   ••
+                                                                                                                                                                          1'
+                                                                                                                                                                          1'
+                                                                                                                                                                                       Higher
+                                                                                                                                                                                       Higher
+      Napranum Aborig inal Shire Counci1l             65%        -39.00 %    -16.09%
+                                                                                           •          .....    -35.00 %
+                                                                                                                             •     .....   20 .00%     46.20 %            1'           Higher
+      Northem Peninsula Area Regional
+      Council
+                                                      54 %       -28.00 %    -15.00%
+                                                                                           •          .....    -10.00 %
+                                                                                                                             •     .....   57.00%      64.44 %    0       .....        Higher
+
+      Palm Island Aboriginal Shiire Council•
+      Pormpuraaw Abo ri ginal Shiire Council
+                                                      54 %
+                                                      63%
+                                                                 -23.80 %
+                                                                 10.00%
+                                                                             -17.09%
+                                                                             10.32%        ••         .....
+                                                                                                      1'
+                                                                                                                -2.93%
+                                                                                                               -2 13.00%
+                                                                                                                           ••       -
+
+                                                                                                                                   1'
+                                                                                                                                            0.00 %
+                                                                                                                                           64 .00%
+                                                                                                                                                       60 .20 %
+                                                                                                                                                       78.20 %
+                                                                                                                                                                  0
+                                                                                                                                                                  0
+                                                                                                                                                                          .....
+                                                                                                                                                                          .....
+                                                                                                                                                                                       Higher
+                                                                                                                                                                                       Lower
+      Torres Shire Council                            47%        -16.50 %    -15.51%
+                                                                                            ••        1'       -64.30 %
+                                                                                                                             ••    .....   31.4 1%     66.27%     0       1'           Higher
+
+
+
+                                                                                                                                                                  ••
+      Torres Strait Island Regional Council           57%       -11 2.00%    -66.33%                  .....    -39.00 %            .....   28 .00%     30 .34 %           1'           Higher
+      Woorabinda Aborigi1nal Shi re Council
+      W uja l W ujal Abo ri ginal Shire Council
+                                                      29%
+                                                      66%
+                                                                  -0.90 %
+                                                                 -14.00 %
+                                                                             -15.4 1%
+                                                                             -28.48%         ••        -
+
+                                                                                                       -
+                                                                                                               -4 1.90 %
+                                                                                                                14.00%
+                                                                                                                            ••     1'
+                                                                                                                                   1'
+                                                                                                                                           104.40 %
+                                                                                                                                           14 1.00 %
+                                                                                                                                                       34.25%
+                                                                                                                                                       71.80 %    0
+                                                                                                                                                                          1'
+                                                                                                                                                                          1'
+                                                                                                                                                                                       Higher
+                                                                                                                                                                                       Higher
+      Yarrabah Aboriginal Shi re Council
+      Indigenous councils average
+      Indigenous councils - combined risk
+                                                      48 %
+                                                      57%
+                                                                 -28.00 %
+                                                                 -21.94%
+                                                                             -27.15%
+                                                                             -18.83%          •       .....    -32.00 %
+                                                                                                               -45.36%        •    1'      29.00%
+                                                                                                                                           60.67%
+                                                                                                                                                       41.80 %
+                                                                                                                                                       74.00%      •       -           Higher
+
+
+                                                                                 Higher                                    Lower                        Moderate                       Higher
+      assessment
+
+
+
+
+•••
+                                                                                                                                                                                                    •
+                                                                                                                                                                                                    56
+Local government 2021 (Report 15: 2021–22)
+
+
+
+         Resources councils
+                                                              Current                     Avg                             Net        Current t     Avg. asset
+                                              Avg. grant               Avg. operating                Net financial                                               Avg. asset
+                                                             operating                 operating                                                      t . bTty sustainability Relative risk
+                                               funding                  surplus ratio               liabilities ratio financial        asse
+                                                              surplus                   surplus                        liabilities sustainability sus a;_na01/ 1 ratio trend 2 assessment
+                                              percentage 1                   %                              %
+                                                              ratio%                  ratio trend 2                   ratio trend     ratio%         ra 10 0
+
+                                                                                          Resources councils
+         Ba nana Shi re Council
+         Bulloo Shire Council
+                                                 32%
+                                                 63%
+                                                              -9.24%
+                                                              -7.80%
+                                                                         -5.48%
+                                                                          1.54%
+                                                                                     0
+                                                                                     ••
+                                                                                              ,,I,
+                                                                                              ,,I,
+                                                                                                       -16.2.2 %
+                                                                                                       -82 .80 %
+                                                                                                                     ••      1'
+                                                                                                                             ,,I,
+                                                                                                                                    90 .24%
+                                                                                                                                    47 .00%
+                                                                                                                                                 95.04%
+                                                                                                                                                11 4.29%    ••       1'
+                                                                                                                                                                     ,,I,
+                                                                                                                                                                                 Moderate
+                                                                                                                                                                                  Lower
+         Burke Shire Council
+         Central Highlands Regional Council
+                                                 77%
+                                                 23%
+                                                             -32.40%
+                                                              -2.53%
+                                                                         -33.79%
+                                                                         -1.28%      0
+                                                                                              1'
+                                                                                              ,,I,
+                                                                                                       -46.10%
+                                                                                                         -9.2.2 %      ••    1'
+                                                                                                                             1'
+                                                                                                                                    146.40 %
+                                                                                                                                    87 .60%
+                                                                                                                                                 86.92%
+                                                                                                                                                107.14%
+                                                                                                                                                             ••
+                                                                                                                                                                 a   1'
+                                                                                                                                                                     ,,I,
+                                                                                                                                                                                  Higher
+                                                                                                                                                                                  Lower
+
+
+
+                                                                                                                     •••
+         Charters Towers Regional! Council       44%          -4.00%     -0.02 %     0        -        -46.00 %              -      80 .00%     148.40%              ,,I,
+                                                                                                                                                                             I    Lower
+         Cloncurry Shire Council
+         Cook Shire Council
+                                                 54%
+                                                 8 1%
+                                                             -20.00%
+                                                             -18.04%
+                                                                         -5.25%
+                                                                         -2 8. 51%
+                                                                                     0
+                                                                                     •
+                                                                                              ,,I,
+
+                                                                                              1'
+                                                                                                       -10.00 %
+                                                                                                         4.10%
+                                                                                                                             -
+                                                                                                                             1'
+                                                                                                                                    11 5.00 %
+                                                                                                                                    43.20%
+                                                                                                                                                2 11 .80%
+                                                                                                                                                14 1.50%      ••     ,,I,
+                                                                                                                                                                     ,,I,
+                                                                                                                                                                                 Moderate
+                                                                                                                                                                                  Higher
+
+
+
+                                                                                                                     •••                                       ••
+         Etheridge Shire Council                 55%          -1.62%     -7 .3 1%    0        -        -62 .07 %             1'      0.00 %      12.19%              ,,I,
+                                                                                                                                                                             I   Moderate
+         Isaac Regional Council
+         Maranoa Regional Council
+                                                 26%
+                                                 44%
+                                                              1.2 1%
+                                                              6.13%
+                                                                          2.40%
+                                                                          2.24%      ••       ,,I,
+
+                                                                                              1'
+                                                                                                         -7 .17%
+                                                                                                       -43.58 %
+                                                                                                                             ,,I,
+
+                                                                                                                             1'
+                                                                                                                                    103.90 %
+                                                                                                                                    134.35%
+                                                                                                                                                193.23%
+                                                                                                                                                122.43%
+                                                                                                                                                                ••
+                                                                                                                                                                     ,,I,
+
+                                                                                                                                                                     1'      I
+                                                                                                                                                                                  Lower
+                                                                                                                                                                                  Lower
+         McKinlay Shi re Council
+         Mount Isa City Council
+                                                 72%
+                                                 26%
+                                                              0.53%
+                                                              -3.92%
+                                                                         -4 .94%
+                                                                          3.07%
+                                                                                     0
+                                                                                      •
+                                                                                              1'
+                                                                                              ,,I,
+                                                                                                      -100 .40 %
+                                                                                                       -49.50 %
+                                                                                                                     ••      1'
+                                                                                                                             ,,I,
+                                                                                                                                    484 .27 %
+                                                                                                                                    42 .00%
+                                                                                                                                                366.32%
+                                                                                                                                                 52.7 1%    0
+                                                                                                                                                                     1'
+                                                                                                                                                                     ,,I,
+                                                                                                                                                                                 Moderate
+                                                                                                                                                                                  Lower
+
+
+
+                                                                                                                     ••                                          •
+         Quilpie Shire Council                   63%          -6.00%     -3.89%      0        -        -67.00 %              ,,I,   83.00%       47.20%              ,,I,
+                                                                                                                                                                             I   Moderate
+         Western Downs Regional Council
+         Resources councils average
+         Resources councils - combined risk
+                                                 28%
+                                                 49%
+                                                              8.10%
+                                                              -6.40%
+                                                                          8.84%
+                                                                         -5.17%       •       1'      -11 7.50 %
+                                                                                                       -46.68%
+                                                                                                                             1'     88 .70%
+                                                                                                                                    11 0.40%
+                                                                                                                                                 80.30%
+                                                                                                                                                127. 11%
+                                                                                                                                                            0        -            Lower
+
+
+                                                                           Moderate                                 Low er                          Lower                        Moderate
+         assessment
+
+
+
+
+ • 57
+                                                                                                                                                                                              •••
+                                                                                                                                                                  Local government 2021 (Report 15: 2021–22)
+
+
+
+      Rura l/Regional councils                            Current                            Avg                                   Net
+                                           Avg. grant
+                                                         operating   Avg. operating       operating
+                                                                                                           Net financial
+                                                                                                                               financial
+                                                                                                                                         I Current asset    I Avg . asset          Avg. asset
+                                                                                                                                                                                                   Relative risk
+                                            funding                                                      liabilities ratio                 sustainability    sustainability       sustainability
+                                                          surplus    surplus ratio%      surplus ratio                         liabilities                                                         assessment
+                                          percentage 1                                                           %                            ratio%            ratio%             ratio trend 2
+                                                          ratio%                            trend 2                           ratio trend
+                                                                                         Rural/Regional councils
+      Goondiwindi Regional Council
+      Lockyer Valley Regional Council
+                                              33%
+                                              2 3%
+                                                          1.85%
+                                                          12.30%
+                                                                      3_sg%
+                                                                      6.48%
+                                                                                 ••           -
+                                                                                              .,.
+                                                                                                         -73.77%
+                                                                                                         38.23%
+                                                                                                                      ••          ,I,
+                                                                                                                                  .,.
+                                                                                                                                              98 .17%
+                                                                                                                                              95 .16%
+                                                                                                                                                              103.75%
+                                                                                                                                                              94 .48%
+                                                                                                                                                                          ••            ,I,
+                                                                                                                                                                                        .,.
+                                                                                                                                                                                                      Lower
+                                                                                                                                                                                                      Lower
+      Maree ba Shire Council
+      North Burnett Regional Council
+                                              40%
+                                              52%
+                                                          14.00%
+                                                         -31 .80%
+                                                                     14.92%
+                                                                     -15 .39%
+                                                                                  ••          -
+
+                                                                                              ""
+                                                                                                         -89.00%
+                                                                                                         -26.17%
+                                                                                                                       ••         1'
+                                                                                                                                  .,.
+                                                                                                                                             161.00%
+                                                                                                                                              97.34%
+                                                                                                                                                              190.40%
+                                                                                                                                                              102_g93/o
+                                                                                                                                                                           ••           1'
+                                                                                                                                                                                        ,I,
+                                                                                                                                                                                                      Lower
+                                                                                                                                                                                                      Highe r
+      Scenic Ri m Regional Council
+      Somerset Regional Council
+                                              32%
+                                              26%
+                                                          -3.00%
+                                                          2.00%
+                                                                      2.61 %
+                                                                      2.63%
+                                                                                   ••         ·"-
+                                                                                              -
+                                                                                                          6.00%
+                                                                                                         -83 .00%
+                                                                                                                        ••        1'
+                                                                                                                                  ,I,
+                                                                                                                                              81.00%
+                                                                                                                                              78 .00%
+                                                                                                                                                              174.00%
+                                                                                                                                                              105.60%
+                                                                                                                                                                            ••          ,I,
+                                                                                                                                                                                        ,I,
+                                                                                                                                                                                                      Lower
+                                                                                                                                                                                                      Lower
+      South Burnett Regional Council
+      Southern Downs Regional Council
+                                              25%
+                                              28%
+                                                          -1.60%
+                                                          0.61%
+                                                                      0.20%
+                                                                      6.26%
+                                                                                    ••        ""
+                                                                                                          9. 10 %
+                                                                                                         -18 .80%
+                                                                                                                         ••       1'
+                                                                                                                                  .,.
+                                                                                                                                             110.70%
+                                                                                                                                             101 .13%
+                                                                                                                                                              88 .34%
+                                                                                                                                                              120.96%
+                                                                                                                                                                          0
+
+                                                                                                                                                                             ••
+                                                                                                                                                                                        ,I,
+                                                                                                                                                                                        .,.
+                                                                                                                                                                                                      Lower
+                                                                                                                                                                                                      Lower
+                                                                                              ""-
+      Tablelands Regional Council
+      Rura l/Regiona l councils average
+                                              29%
+                                              32%
+                                                          1.55%
+                                                          -0.45%
+                                                                      1.46%
+                                                                      2.56%
+                                                                                     •                   -45.24%
+                                                                                                         -31.41%
+                                                                                                                          •       1'          98 .33%
+                                                                                                                                             102.31 %
+                                                                                                                                                              101 .55%
+                                                                                                                                                              120.23%
+                                                                                                                                                                                        1'            Lower
+
+
+      Rura l/Regiona l •councils - combined risk
+                                                                         Lower                                      Lowe r                                       Lower                                Lowe r
+      assessment
+
+
+
+
+•••
+                                                                                                                                                                                                                   •
+                                                                                                                                                                                                                   58
+Local government 2021 (Report 15: 2021–22)
+
+
+
+        Rural/Remote councils                                Current                                Avg                                      Net
+                                             Avg. grant                                                         Net financial                         Current asset     Avg. asset             Avg . asset
+                                                            operating   Avg. operating  operating             liabilities ratio           financial                                                            Relative risk
+                                              funding                                                                                                 sustainability   sustainability         sustainability
+                                                             surplus    surplus ratio% surplus ratio                                      liabilities                                                          assessment
+                                             percentage 1                                                            %                                   ratio%           ratio%               ratio trend 2
+                                                             ratio%                                trend 2                               ratio trend
+                                                                                                Rural/Remote councils
+        Balonne Shire Council
+        Barcaldine Regiona l Council
+                                                51 %
+                                                46%
+                                                             -8 .10%
+                                                             -9.02%
+                                                                         -7.85%
+                                                                        -19.13%         ••           -
+                                                                                                      1'      -43.83%
+                                                                                                               -9.05%        ••      I       ..J,,
+                                                                                                                                             ..J,,
+                                                                                                                                                          70.80%
+                                                                                                                                                         209.75%
+                                                                                                                                                                       45 .38%
+                                                                                                                                                                       127.70%      ••              1'
+                                                                                                                                                                                                    1'
+                                                                                                                                                                                                                Moderate
+                                                                                                                                                                                                                 Higher
+        Barcoo Shire Council
+        Blackall-Tambo Regional Council
+                                                52%
+                                                43%
+                                                            -27.33%
+                                                             0.00%
+                                                                        -23 .39%
+                                                                         -9.77%
+                                                                                        ••           ..J,,
+
+                                                                                                     1'
+                                                                                                              -22.88%
+                                                                                                              -45.00%
+                                                                                                                              ••             ..J,,
+                                                                                                                                             ..J,,   I
+                                                                                                                                                         26.08%
+                                                                                                                                                         93.00%
+                                                                                                                                                                        85 .97%
+                                                                                                                                                                        84.40%
+                                                                                                                                                                                     ••             ..J,,
+                                                                                                                                                                                                     -
+                                                                                                                                                                                                                  Higher
+                                                                                                                                                                                                                Moderate
+        Soulia Shire Council
+        Carpentaria Shire Council
+                                                68%
+                                                70%
+                                                            -64.23%
+                                                             -3.80%
+                                                                        -25 .27%
+                                                                        -14.75%
+                                                                                   I
+                                                                                           ••        ..J,,
+                                                                                                     1'
+                                                                                                             1-1 35.46%
+                                                                                                              -22.19%
+                                                                                                                               ••    I
+                                                                                                                                     I
+                                                                                                                                             1'
+                                                                                                                                             1'
+                                                                                                                                                     I
+                                                                                                                                                     I
+                                                                                                                                                         56.61%
+                                                                                                                                                         10.53%
+                                                                                                                                                                        40 .52%
+                                                                                                                                                                        54 .37%
+                                                                                                                                                                                      ••            ..J,,
+                                                                                                                                                                                                    ..J,,
+                                                                                                                                                                                                                  Higher
+                                                                                                                                                                                                                  Higher
+        Croydon Sh ire Council
+        Diamantina Shire Council
+                                                78%
+                                                43%
+                                                             4.20%
+                                                             16.80%
+                                                                         4.71%
+                                                                         -9.88%         ••           1'
+                                                                                                     1'
+                                                                                                              -147.20%
+                                                                                                               -49.50%          ••   I
+                                                                                                                                     I
+                                                                                                                                             1'
+                                                                                                                                             ..J,,
+                                                                                                                                                     I
+                                                                                                                                                     I
+                                                                                                                                                         72.30%
+                                                                                                                                                          5.30%
+                                                                                                                                                                       129.10%
+                                                                                                                                                                       75.70%          ••           ..J,,
+                                                                                                                                                                                                    ..J,,
+                                                                                                                                                                                                                 Lower
+                                                                                                                                                                                                                Moderate
+        Flinders Shire Council
+        Longreach Regiona l Council
+                                                45%
+                                                53%
+                                                             21.99%
+                                                             -3.40%
+                                                                         12.85%
+                                                                         -6.15%          ••          1'
+                                                                                                     1'
+                                                                                                              -53.75%
+                                                                                                               -4.37%
+                                                                                                                           •••
+                                                                                                                                             ..J,,
+                                                                                                                                             1'
+                                                                                                                                                     I
+                                                                                                                                                     I
+                                                                                                                                                         128.85%
+                                                                                                                                                         98.13%
+                                                                                                                                                                       87 .91%
+                                                                                                                                                                       122.76%          ••          ..J,,
+                                                                                                                                                                                                    ..J,,
+                                                                                                                                                                                                                 Lower
+                                                                                                                                                                                                                Moderate
+        Murweh Shire Council
+        Paroo Shire Council
+                                                59%
+                                                67%
+                                                            -10.07%
+                                                             -2.05%
+                                                                         -7.83%
+                                                                        -23 .37%          ••         -
+                                                                                                     1'
+                                                                                                               -1.07%
+                                                                                                              -14.98%
+                                                                                                                           ••
+                                                                                                                                             ..J,,
+                                                                                                                                             ..J,,
+                                                                                                                                                     I   90.00%
+                                                                                                                                                         45.93%
+                                                                                                                                                                       105.64%
+                                                                                                                                                                       62 .51 %          ••         1'
+                                                                                                                                                                                                     -
+                                                                                                                                                                                                                Moderate
+                                                                                                                                                                                                                 Higher
+
+
+                                                                                       ••                                                                                          ••
+        Richmond Shire Council*                 60%         -12.67%     -32 .25%                     1'        4.25%                         ..J,,       311.93%       154.33%                      1'           Higher
+        Winton Shire Council
+        Rural/Remote councils average
+                                                68%
+                                                 57%
+                                                             -7.45%
+                                                             -7 .51 %
+                                                                         -4.96%
+                                                                        -1 1.93%
+                                                                                                     ..J,,    -98.51 %
+                                                                                                              -45 .97%
+                                                                                                                           •                 ..J,,
+                                                                                                                                                     I
+                                                                                                                                                         329.36%
+                                                                                                                                                         110.61 %
+                                                                                                                                                                       241.36%
+                                                                                                                                                                       101 .26%
+                                                                                                                                                                                                    1'          Moderate
+
+
+        Rural/Remote councils - combined risk assessment                    Higher                                        Lower                                            Lower                                  Higher
+                                                                                                                                                     I
+
+
+
+
+ • 59
+                                                                                                                                                                                                                               •••
+                                                                                                                                                                        Local government 2021 (Report 15: 2021–22)
+
+
+
+
+          South East Queensland councils
+                                                                 Current                     Avg                             Net        Current
+                                                    Avg. grant            Avg. operating                Net financial                           t     Avg. asset     Avg. asset
+                                                                operating  surplus ratio  operating                       financial        asse          t . b"l"ty sustainability Relative risk
+                                                     funding                                           liabilities ratio r bTf            ta·   bTty sus  ama  11
+                                                                 surplus                   surplus                         I~ I I 1es SUS 1_  na I I    ratio %                    assessment
+                                                   percentage 1                 %                              %                                                     ratio trend 2
+                                                                 ratio %                 ratio trend 2                   ratio trend     ratio %
+
+                                                                                            South East Queensland councils
+          Bri sbane City Council
+          Council of the City of Gold Coast
+                                                       12%
+                                                       2.2 %
+                                                                     1_00%
+                                                                    -2_10%
+                                                                                  5_71%
+                                                                                 -0_80%      •
+                                                                                             0
+                                                                                                        -
+                                                                                                        -
+                                                                                                                   202 %3
+                                                                                                                  -14_50%     ••         -
+                                                                                                                                        "'
+                                                                                                                                                    47_00%
+                                                                                                                                                    65_80%
+                                                                                                                                                                   80_70%
+                                                                                                                                                                   57_14%
+                                                                                                                                                                              0
+                                                                                                                                                                              0
+                                                                                                                                                                                         "'
+                                                                                                                                                                                         1'
+                                                                                                                                                                                                      Moderate
+                                                                                                                                                                                                      Moderate
+          Ipswich City Council
+          Loga n City Council
+                                                       29%
+                                                       28 %
+                                                                     1-28%
+                                                                     0_35%
+                                                                                  7_30%
+                                                                                  2_85%      ••         -
+                                                                                                        "'
+                                                                                                                  73-43%
+                                                                                                                  -19_87%
+                                                                                                                              0
+                                                                                                                               ••       "'
+                                                                                                                                        1'
+                                                                                                                                                    57_67%
+                                                                                                                                                    65_72%
+                                                                                                                                                                   63_76%
+                                                                                                                                                                   79-46%
+                                                                                                                                                                              0
+                                                                                                                                                                              0
+                                                                                                                                                                                          -
+                                                                                                                                                                                         "'
+                                                                                                                                                                                                      Moderate
+                                                                                                                                                                                                        Lower
+          Moreton Bay Regional Council
+          Redland City Council
+                                                       24 %
+                                                       13%
+                                                                    15_10%
+                                                                    -4_0 1%
+                                                                                 20 _88%
+                                                                                 -4_18%      0
+                                                                                              •         "'-       15_00%
+                                                                                                                  -37_37%
+                                                                                                                                ••
+                                                                                                                                        1'
+                                                                                                                                        1'
+                                                                                                                                                    72_00%
+                                                                                                                                                    54_64%
+                                                                                                                                                                   60_94%
+                                                                                                                                                                   48_35%
+                                                                                                                                                                              0
+                                                                                                                                                                              •          "'
+                                                                                                                                                                                         1'
+                                                                                                                                                                                                        Lower
+                                                                                                                                                                                                      Moderate
+          Sunshine Coast Regional Council
+          Toowoomba Regional Council
+                                                       27 %
+                                                       21%
+                                                                     2-20%
+                                                                     4-25%
+                                                                                  7_33%
+                                                                                  2_10%       ••        "'-       49_60%
+                                                                                                                  53_14%
+                                                                                                                                 •
+                                                                                                                                        1'
+                                                                                                                                        1'
+                                                                                                                                                    75-70%
+                                                                                                                                                    91_05%
+                                                                                                                                                                   74-40%
+                                                                                                                                                                   60-25%
+                                                                                                                                                                              0
+                                                                                                                                                                              0
+                                                                                                                                                                                         "'
+                                                                                                                                                                                         1'
+                                                                                                                                                                                                        Lower
+                                                                                                                                                                                                        Lower
+
+          SEQ councils average                         22%           2.26%        5.15%                           17.06 %                           66.20%         65.63%
+
+          SEQ councils - combined risk assessment                                    Lower                                   Lower                                  Moderate                           Lower
+
+
+      Notes:
+      1
+            Average grant funding percentage shows the 5-year average level of grant funding as a percentage of total revenue per council. These ratios do not form a part of the financial sustainability ratios
+            but have been included for contextual purposes. Refer also to further commentary in Chapter 4, which analyses the financial sustainability by grant funding levels.
+      2
+            Average ratio trend compares the average ratio from 2020–21 with the average ratio from 2019–20. Trends should be considered in conjunction with the Department of State Development,
+            Infrastructure, Local Government and Planning’s set benchmarks, and the analysis performed and explained in Chapter 4.
+      3
+            The net financial liabilities ratio was impacted for first-time in 2020–21 with the introduction of Australian Accounting Standards Board’s AASB 1059 Service Concession Arrangements: Grantors. The
+            Department of State Development, Infrastructure, Local Government and Planning did not adjust the target for this ratio in response to the introduction of the new standard. This new standard
+            impacted Brisbane City Council more than other councils. Excluding the impact of the new standard, the ratio would be 127 per cent, with the risk rating remaining unchanged.
+      *     The 2020–21 audit for this council is unfinished. The sustainability measures reported are based on the audited 2019–20 financial statements.
+      Refer also to Figures I1, I2 and I3, which explain the financial sustainability measures and associated benchmarks.
+      Legend:  An improving trend; − No substantial change;  A deteriorating trend.
+      Source: Queensland Audit Office.
+
+
+
+
+•••
+                                                                                                                                                                                                                    •
+                                                                                                                                                                                                                    60
+

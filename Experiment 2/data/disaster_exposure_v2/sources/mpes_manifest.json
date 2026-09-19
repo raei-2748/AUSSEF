@@ -1,0 +1,20 @@
+[
+  {
+    "year": 2012,
+    "url": "https://wayback.archive-it.org/22771/20240423201346/https://www.opengov.nsw.gov.au/download/14743",
+    "status": 200,
+    "sha256": "873aa7e8e6095a2c4e5fc578468b3ce0c1bf4e6fb7f8ca284c1702564e746a9f"
+  },
+  {
+    "year": 2013,
+    "url": "https://wayback.archive-it.org/22771/20240423201346/https://www.opengov.nsw.gov.au/download/14741",
+    "status": 200,
+    "sha256": "bdaf15a4eabf4bd0dd237fb68e31b86e128c7cdb4641c9c3bc0ea137031563d4"
+  },
+  {
+    "year": 2014,
+    "url": "https://wayback.archive-it.org/22771/20240423201346/https://www.opengov.nsw.gov.au/download/15231",
+    "status": 429,
+    "sha256": "40a0457e763902ed12097cffc3536f1e9a2306a95a701ab2df18f7d47e2b9c39"
+  }
+]

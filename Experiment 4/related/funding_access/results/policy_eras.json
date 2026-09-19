@@ -1,0 +1,82 @@
+[
+  {
+    "era": "Pre-DRFA / NDRRA",
+    "start": "2017-09-08",
+    "end": "2018-10-31",
+    "jurisdiction": "Australia",
+    "source_id": "qld_drfa_start",
+    "document_section": "DRFA commencement",
+    "finding": "DRFA replaced NDRRA on 1 November 2018. Dataset has earlier records; labels do not prove retrospective harmonisation.",
+    "pooling": "Do not pool without original NDRRA measurement crosswalk"
+  },
+  {
+    "era": "DRFA 2018 framework",
+    "start": "2018-11-01",
+    "end": "",
+    "jurisdiction": "Australia",
+    "source_id": "drfa2018",
+    "document_section": "pp21\u201323 clauses 4.4\u20134.5",
+    "finding": "Category C contains multiple community/sector measures; D exceptional assistance; approval and amount rules distinct.",
+    "pooling": "Match actual measure, recipient, scope and rules, not category letter alone"
+  },
+  {
+    "era": "QLD guideline v1",
+    "start": "2018-11-01",
+    "end": "2021-06-30",
+    "jurisdiction": "Queensland",
+    "source_id": "qdfg",
+    "document_section": "Prior guideline versions",
+    "finding": "Version 1 applies to events in stated period.",
+    "pooling": "Keep guideline version with each measure"
+  },
+  {
+    "era": "QLD guideline v2",
+    "start": "2021-07-01",
+    "end": "2024-11-30",
+    "jurisdiction": "Queensland",
+    "source_id": "qdfg",
+    "document_section": "Prior guideline versions",
+    "finding": "Version 2 July 2021 applies until November 2024.",
+    "pooling": "Not a nationally universal reform date"
+  },
+  {
+    "era": "QLD guideline v3",
+    "start": "2024-12-01",
+    "end": "2026-06-30",
+    "jurisdiction": "Queensland",
+    "source_id": "qdfg",
+    "document_section": "Prior guideline versions",
+    "finding": "December 2024 version applies to events in stated interval; latest website now has later guideline.",
+    "pooling": "Category assignment and grant cap must be verified per event"
+  },
+  {
+    "era": "Standardised packages reform",
+    "start": "",
+    "end": "",
+    "jurisdiction": "Australia",
+    "source_id": "nema_drfa",
+    "document_section": "Category C/D activation process; updated 2 January 2026",
+    "finding": "Current page reports standardised packages and changes. It does not certify a single retrospective effective date for all measures.",
+    "pooling": "Unknown transition date; do not invent 2025 cutoff"
+  },
+  {
+    "era": "Observed category composition contrast",
+    "start": "2022-12-20",
+    "end": "2025-03-21",
+    "jurisdiction": "Queensland",
+    "source_id": "activation_1046",
+    "document_section": "p6 versus activation_1202 p4",
+    "finding": "Primary-producer extraordinary grants labelled D for 1046; exceptional producer grants labelled C for 1202. Scope/caps vary, so C is not one stable treatment.",
+    "pooling": "No pooled generic C outcome; not proof of one national legal definition change"
+  },
+  {
+    "era": "State implementation difference",
+    "start": "",
+    "end": "",
+    "jurisdiction": "NSW / SA / QLD / TAS / VIC / WA / NT",
+    "source_id": "guideline_c",
+    "document_section": "paras2\u20137",
+    "finding": "State requests, administration and community/region/sector scope differ; not uniformly council applications.",
+    "pooling": "State \u00d7 event \u00d7 specific measure minimum documentation unit"
+  }
+]

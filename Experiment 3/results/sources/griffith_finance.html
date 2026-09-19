@@ -1,0 +1,1153 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en-AU">
+<!--<![endif]-->
+<head>
+	<!-- Published by OpenCities, 1.37.6.0 -->
+
+    
+        
+    
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="theme-color" content="#FFFFFF"/>
+    <title>Finance and budget | GCC</title>
+	<meta name="generator" content="OpenCities - https://granicus.com/product/opencities" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Using mobile-web-app-capable for now to enable full-screen experience on supported platforms -->
+    <!-- Note: This tag works mainly on Android Chrome. It does NOT enable full-screen mode on iOS Safari. -->
+    <!-- For iOS, the correct tag is: <meta name="apple-mobile-web-app-capable" content="yes"> -->
+    <!-- TODO: Monitor for updated meta tag standards from Apple or other browser vendors -->
+    <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="description" content="View our current fees and charges and annual financial statements" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://www.griffith.nsw.gov.au/Council/Forms-and-documents/Finance-and-budget" />
+    <meta property="og:title" content="Finance and budget" />
+    <meta property="og:description" content="View our current fees and charges and annual financial statements" />
+    <meta property="og:image" content="https://www.griffith.nsw.gov.au/files/ocwebsite/Public/HeroImage/gcclogo%20recoloured.png?w=1200" />
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:title" content="Finance and budget" />
+    <meta property="twitter:description" content="View our current fees and charges and annual financial statements" />
+    <meta property="twitter:image" content="https://www.griffith.nsw.gov.au/files/ocwebsite/Public/HeroImage/gcclogo%20recoloured.png?w=1080" />
+    <link rel="canonical" href="https://www.griffith.nsw.gov.au/Council/Forms-and-documents/Finance-and-budget" />
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/files/ocfavicon/Public/apple-touch-icon.png?V=638596812594721427">
+<link rel="icon" type="image/png" sizes="32x32" href="/files/ocfavicon/Public/favicon-32x32.png?V=638596812594721427">
+<link rel="icon" type="image/png" sizes="16x16" href="/files/ocfavicon/Public/favicon-16x16.png?V=638596812594721427">
+<link rel="manifest" href="/files/ocfavicon/Public/site.webmanifest?V=638596812594721427">
+<link rel="shortcut icon" href="/files/ocfavicon/Public/favicon.ico?V=638596812594721427">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+<meta name="msapplication-config" content="/files/ocfavicon/Public/browserconfig.xml?V=638596812594721427">
+    <script>
+        (function () {
+            if (window.__UNLOAD_LAZY_PATCH__) return;
+            window.__UNLOAD_LAZY_PATCH__ = true;
+
+            var supportsPageHide = ("onpagehide" in window);
+            var mappedType = supportsPageHide ? "pagehide" : "beforeunload";
+            var nativeAdd = window.addEventListener;
+            var nativeRemove = window.removeEventListener;
+            var unloadMap = null;
+            var patched = false;
+
+            function ensurePatched() {
+                if (patched) return;
+                unloadMap = new WeakMap();
+
+                window.addEventListener = function (type, listener, options) {
+                    if (type === "unload") {
+                        var wrapped = function (evt) {
+                            if (supportsPageHide && evt.persisted) return;
+                            listener.call(this, evt);
+                        };
+                        unloadMap.set(listener, wrapped);
+                        return nativeAdd.call(this, mappedType, wrapped, options);
+                    }
+                    return nativeAdd.call(this, type, listener, options);
+                };
+
+                window.removeEventListener = function (type, listener, options) {
+                    if (type === "unload") {
+                        var wrapped = unloadMap.get(listener);
+                        if (wrapped) {
+                            nativeRemove.call(this, mappedType, wrapped, options);
+                            unloadMap.delete(listener);
+                        }
+                        return;
+                    }
+                    return nativeRemove.call(this, type, listener, options);
+                };
+
+                var orig = null;
+                Object.defineProperty(window, "onunload", {
+                    configurable: true, enumerable: true,
+                    get: function () { return orig; },
+                    set: function (h) {
+                        orig = h;
+                        if (typeof h === "function") window.addEventListener("unload", h);
+                    }
+                });
+                patched = true;
+            }
+
+            window.addEventListener = function (type, listener, options) {
+                if (type === "unload") {
+                    ensurePatched();
+                    return window.addEventListener(type, listener, options);
+                }
+                return nativeAdd.call(this, type, listener, options);
+            };
+
+            window.removeEventListener = function (type, listener, options) {
+                if (type === "unload" && !patched) {
+                    return;
+                }
+                return nativeRemove.call(this, type, listener, options);
+            };
+
+            function patchTelerik() {
+                ensurePatched();
+                var ns = window.RadAjaxNamespace;
+                if (!ns || !ns.EventManager || !ns.EventManager.Add || ns.EventManager.__UnloadPatched) return;
+                var origAdd = ns.EventManager.Add;
+                ns.EventManager.Add = function (el, evtName, handler, clientId) {
+                    if (el === window && evtName === "unload") {
+                        return window.addEventListener("unload", handler);
+                    }
+                    return origAdd.call(this, el, evtName, handler, clientId);
+                };
+                ns.EventManager.__UnloadPatched = true;
+            }
+
+            if (window.RadAjaxNamespace)
+                patchTelerik();
+            else (window.requestIdleCallback || function (cb)
+            {
+                setTimeout(cb, 120);
+            })(patchTelerik);
+        })();
+    </script>
+    <!-- Preconnecting to Google Fonts servers -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Defer Roboto font loading to avoid render-blocking -->
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            const robotoLink = document.createElement('link');
+            robotoLink.rel = 'stylesheet';
+            robotoLink.href = 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap';
+            document.head.appendChild(robotoLink);
+        });
+    </script>
+
+    <style>
+        .gm-style, .gm-style * {
+            font-family: 'Roboto', system-ui, -apple-system, "Segoe UI", Arial, sans-serif !important;
+        }
+    </style>
+
+    <script>
+        document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, "js");
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titillium+Web:wght@400;700&display=swap" rel="stylesheet">
+    
+        
+            <script type="text/javascript">
+                window.__oc_flags_ImprovedBreakpointEventHandling = true;
+            </script>
+            
+        
+    
+    
+    
+        <script type="text/javascript">
+            var __metaQueryBreakpoints = {
+                'sc-size-4': '(max-width: 480px)',
+                'sc-size-3': '(min-width: 480px) and (max-width: 768px)',
+                'sc-size-2': '(min-width: 768px) and (max-width: 992px)',
+                'sc-size-1': '(min-width: 992px)'
+            }
+
+            var __ocSizePoints = [
+                { min: 0, name: 'sc-size-4' },
+                { min: 480, name: 'sc-size-3' },
+                { min: 768, name: 'sc-size-2' },
+                { min: 992, name: 'sc-size-1' }
+            ];
+
+        </script>
+    
+
+    <!-- Framework Section -->
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/files/templates/00000000-0000-0000-0000-000000000000/d94d870e-03cc-4be8-920b-59cfc0020abe/v/186/jquery-3.7.1.min.js?seamlessts=639227822006535095" ><\/script>')</script>
+
+    <!--Google Maps API Loader – Improved Version to avoid Warning
+    This script loads the Google Maps JavaScript API using a dynamic and async method.
+    It replaces the old static <script> tag to avoid performance warnings from Google.
+
+    Dynamically creates the <script> tag with loading = async for better performance
+    Builds the API URL with required libraries(places, geometry, marker, geocoding)
+    Uses a Promise and callback(google.maps.__ib__) to confirm when the script is ready
+
+    It Avoids Google’s warning about direct script loading
+    Improves page load speed by loading the API asynchronously-->
+
+    
+        <script>
+            (function (root) {
+                root.OpenCities = root.OpenCities || {};
+                if (!root.OpenCities.GoogleMapsLoader) {
+                    root.OpenCities.GoogleMapsLoader = {
+                        _cbs: [],
+                        _ready: false,
+                        onReady: function (cb) {
+                            if (this._ready) { try { cb(); } catch (e) { console.error(e); } }
+                            else if (typeof cb === 'function') this._cbs.push(cb);
+                        },
+                        _fire: function () {
+                            if (this._ready) return;
+                            this._ready = true;
+                            var q = this._cbs.splice(0);
+                            for (var i = 0; i < q.length; i++) {
+                                try { q[i](); } catch (e) { console.error(e); }
+                            }
+                        }
+                    };
+                }
+            })(window);
+
+            (g => {
+                var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__",
+                    m = document, b = window;
+                b = b[c] || (b[c] = {});
+                var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams,
+                    u = () => h || (h = new Promise(async (resolve, reject) => {
+                        a = m.createElement("script");
+                        e.set("libraries", [...r] + "");
+                        for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]);
+                        e.set("callback", c + ".maps." + q);
+                        a.src = "https://maps." + c + "apis.com/maps/api/js?" + e.toString();
+                        a.loading = "async";
+                        a.async = true;
+                        a.defer = true;
+                        d[q] = resolve;
+                        a.onerror = () => reject(Error(p + " could not load."));
+                        a.nonce = m.querySelector("script[nonce]")?.nonce || "";
+                        m.head.append(a);
+                    }));
+                if (d[l]) {
+                    console.warn(p + " only loads once. Ignoring duplicate load.");
+                } else {
+                    d[l] = (f, ...n) => (r.add(f), u().then(() => d[l](f, ...n)));
+                }
+            })({
+                key: "AIzaSyDCu5pUkoxzHFqQY_j0vc8-77s4iYNRyiY",
+                v: "3.65"
+            });
+
+            (async () => {
+                try {
+                    if (!google?.maps?.importLibrary) return;
+
+                    if (!window.OpenCities.__mapsLibsPromise) {
+                        window.OpenCities.__mapsLibsPromise = Promise.all([
+                            google.maps.importLibrary('maps'),
+                            google.maps.importLibrary('places'),
+                            google.maps.importLibrary('geocoding'),
+                            google.maps.importLibrary('marker'),
+                            google.maps.importLibrary('geometry')
+                        ]);
+                    }
+                    await window.OpenCities.__mapsLibsPromise;
+
+                    if (window.OpenCities?.GoogleMapsLoader) {
+                        window.OpenCities.GoogleMapsLoader._fire();
+                    }
+                } catch (err) {
+                    console.error('Google Maps failed to initialise', err);
+                }
+            })();
+        </script>
+    
+    <script src="/files/templates/00000000-0000-0000-0000-000000000000/d94d870e-03cc-4be8-920b-59cfc0020abe/v/186/modernizr.custom.710f3bf.js?seamlessts=639227822006535095" defer></script>
+    
+    <!--// End Framework Section -->
+    <!-- OpenCities Section -->
+    <script>
+        var OpenCities = OpenCities || {};
+        OpenCities.Paths = {
+            SiteTemplate: '/files/templates/00000000-0000-0000-0000-000000000000/d94d870e-03cc-4be8-920b-59cfc0020abe/v/186/',
+            ThemePath: '/files/templates/00000000-0000-0000-0000-000000000000/d94d870e-03cc-4be8-920b-59cfc0020abe/v/186/'
+        };
+    </script>
+    <script src='/ocapi/efca92d3-e6b8-432b-9e71-c1fcee39c671/en-AU/websitesettings.js'></script>
+    <script src="/files/templates/00000000-0000-0000-0000-000000000000/d94d870e-03cc-4be8-920b-59cfc0020abe/v/186/oc_head.js?applied=20241126013541"></script>
+    <!-- Script Combine. To enter debug mode for this browser session, enter OcScriptCombineDebug=true as a querystring -->
+<link href="/files/oc-templates/00000000-0000-0000-0000-000000000000/d94d870e-03cc-4be8-920b-59cfc0020abe/v/186/oc_grid.css~oc_style.css~oc_wizard_style.css~oc_main.css~oc_forms.css~oc_wizard.css~oc_wizard_menu.css~oc_main_s1.css~oc_wizard_s1.css~oc_wizard_menu_s1.css~oc_grid_s1.css~OcScriptCombine_Minify0?uniqueid=20241126013541" rel="stylesheet" type="text/css">
+    <!-- Script Combine. To enter debug mode for this browser session, enter OcScriptCombineDebug=true as a querystring -->
+<link href="/files/oc-templates/00000000-0000-0000-0000-000000000000/d94d870e-03cc-4be8-920b-59cfc0020abe/v/186/client_style.css~client.css~client_menu.css~client_s1.css~client_menu_s1.css~client_forms.css~OcScriptCombine_Minify0?uniqueid=20241126013541" rel="stylesheet" type="text/css">
+    <script>
+(function (BackgroundSettings, $, undefined) {
+    BackgroundSettings.initialise = function () {
+        this.Application = {"CSSSelector":".background-container","EnableFade":true};
+    };
+} (OpenCities.BackgroundSettings = OpenCities.BackgroundSettings || {}, jQuery));
+OpenCities.BackgroundSettings.initialise();
+</script>
+    
+    <!-- Script Combine. To enter debug mode for this browser session, enter OcScriptCombineDebug=true as a querystring -->
+<link href="/files/oc-templates/00000000-0000-0000-0000-000000000000/d94d870e-03cc-4be8-920b-59cfc0020abe/v/186/oc_print.css~client_print.css~OcScriptCombine_Minify0?uniqueid=20241126013541" rel="stylesheet" type="text/css" media="print">
+    <!-- Script Combine. To enter debug mode for this browser session, enter OcScriptCombineDebug=true as a querystring -->
+<script src="/files/oc-templates/00000000-0000-0000-0000-000000000000/d94d870e-03cc-4be8-920b-59cfc0020abe/v/186/external_plugins.js~oc_form_helper.js~oc_main.js~plugins.js~oc_main_init.js~OcScriptCombine_Minify0?uniqueid=20241126013541" defer="true"></script>
+    
+    
+
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="UYNRY-2YMH8-7PYXA-RUTF9-QCXU8",function(){function e(){if(!r){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.appendChild(e),r=!0}}function t(e){r=!0;var n,t,a,i,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",i=(a.frameElement||a).style,i.width=0,i.height=0,i.border=0,i.display="none",o.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void 0;",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=14,window.BOOMR.url=n+"UYNRY-2YMH8-7PYXA-RUTF9-QCXU8";var i=document.currentScript||document.getElementsByTagName("script")[0],o=i.parentNode,r=!1,d=document.createElement("link");if(d.relList&&"function"==typeof d.relList.supports&&d.relList.supports("preload")&&"as"in d)window.BOOMR.snippetMethod="p",d.href=window.BOOMR.url,d.rel="preload",d.as="script",d.addEventListener("load",e),d.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!r)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.appendChild(d);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="eaayaa6eiuuaajqacqksqaaaabvk3wd2-f-8206bc131-clienttons-s.akamaihd.net",i="false"=="true"?2:1,o={"ak.v":"41","ak.cp":"1733713","ak.ai":parseInt("1075936",10),"ak.ol":"0","ak.cr":5,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"15d546d6","ak.r":40856,"ak.a2":n,"ak.m":"dscb","ak.n":"essl","ak.cport":52133,"ak.gh":"23.54.30.70","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1789778042","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==jUfyXvdKNlowFUYIM3zKBqUPsEnymDxEgbYU2y1K5NFF+Tv2ILhS6uzmi8jx+QQ7ZwReZFdms0A+SwACNPJ75f4E6NfZ2Hfvl3IeEePBdHbaGPbG+z8sGYoZ0TJBghec+5wKhVOh5NNYbU+l9vcPpOHMjjsvGs1Wi7rwZShzzLobI/ZR1PNbVsB/GIU9K68xIcMVpeSx66/33r+ykWmaG411xwO0OEBba5DCP5SdaofcTNwkG+hAi+Ns0Z0ELl66+nOwbX1D6SpkTB0OlRVcqoPqPgcSio1dFExxX1xhVCZxWdwVHXsCQEDvWI4UwSFx+Nge6iYuxkxcDUL3PE0NTFnOVsXfiehMDzyeK6EuWQm6M7IfkxotwylNAOGjy+ZK9dpRxbObSdD7rv7v5jtpvIA/3fU7I0JebZtgDV2XKCs=","ak.pv":"145","ak.dpoabenc":"","ak.tf":i};if(""!==t)o["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))o["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(o)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:o,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body class="body layout-modern  site-search-always-visble  content-type-oc-general content-template-oc-full-width-without-image group-template-oc-full-width-with-default-header page-name-finance-and-budget page-sequence-3 page-depth-3 page-section-2 website-type-primary device-desktop " id="body-top">
+    <div id="skip-to-content-container">
+        <a href="#main-content" class="visuallyhidden focusable" id="skip-to-content-link">Skip to main content</a>
+    </div>
+    <script>
+        // OCNOW-11988 (Cursor): Proactively focus skip link when returning from browser chrome.
+        // Must run inline (not deferred oc_main.js) so focus is intercepted before NVDA speaks footer.
+        (function () {
+            var awaitingReentry = false;
+            var inertSupported = 'inert' in HTMLElement.prototype;
+
+            function isExplicitlyOutsideDocument(node) {
+                return node != null && !document.documentElement.contains(node);
+            }
+
+            function getSkipContainer() {
+                return document.getElementById('skip-to-content-container');
+            }
+
+            function getSkipLink() {
+                return document.getElementById('skip-to-content-link');
+            }
+
+            function applyGuard() {
+                awaitingReentry = true;
+                if (!inertSupported) {
+                    return;
+                }
+                var skipContainer = getSkipContainer();
+                var children = document.body.children;
+                for (var i = 0; i < children.length; i++) {
+                    if (children[i] !== skipContainer) {
+                        children[i].setAttribute('inert', '');
+                    }
+                }
+            }
+
+            function clearGuard() {
+                awaitingReentry = false;
+                if (!inertSupported) {
+                    return;
+                }
+                var children = document.body.children;
+                for (var i = 0; i < children.length; i++) {
+                    children[i].removeAttribute('inert');
+                }
+            }
+
+            function isSkipLinkElement(target) {
+                if (!target) {
+                    return false;
+                }
+                var skipContainer = getSkipContainer();
+                return target.id === 'skip-to-content-link' ||
+                    (skipContainer && skipContainer.contains(target));
+            }
+
+            function focusSkipLink() {
+                var skipLink = getSkipLink();
+                if (!skipLink) {
+                    return;
+                }
+                if (window.scrollY > 0) {
+                    window.scrollTo(0, 0);
+                }
+                skipLink.focus({ preventScroll: true });
+            }
+
+            function scheduleGuardIfDocumentLostFocus() {
+                window.setTimeout(function () {
+                    if (!document.hasFocus()) {
+                        applyGuard();
+                    }
+                }, 0);
+            }
+
+            document.addEventListener('focusout', function (e) {
+                if (isExplicitlyOutsideDocument(e.relatedTarget)) {
+                    applyGuard();
+                }
+            }, true);
+
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Tab') {
+                    scheduleGuardIfDocumentLostFocus();
+                } else if (e.key === 'F6' || (e.key === 'l' && e.ctrlKey)) {
+                    scheduleGuardIfDocumentLostFocus();
+                }
+            }, true);
+
+            window.addEventListener('focus', function () {
+                if (!awaitingReentry) {
+                    return;
+                }
+                applyGuard();
+                focusSkipLink();
+            }, true);
+
+            document.addEventListener('focusin', function (e) {
+                var reentryFromChrome = awaitingReentry || isExplicitlyOutsideDocument(e.relatedTarget);
+                if (!reentryFromChrome) {
+                    return;
+                }
+                if (isSkipLinkElement(e.target)) {
+                    clearGuard();
+                    return;
+                }
+                applyGuard();
+                focusSkipLink();
+                clearGuard();
+            }, true);
+        })();
+    </script>
+    <form name="mainForm" method="post" action="/Council/Forms-and-documents/Finance-and-budget" id="mainForm">
+<input type="hidden" name="ctl04_seamless_script_manager_TSM" id="ctl04_seamless_script_manager_TSM" value="" />
+<input type="hidden" name="__SEAMLESSVIEWSTATE" id="__SEAMLESSVIEWSTATE" value="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" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+
+
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ctl04_seamless_script_manager_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-GB%3add3ac3d5-1e29-4112-8fed-529caffa8f24%3aea597d4b%3bOpenCities.CustomControls%3aen-GB%3a484f8dd2-9bd4-4208-af6e-03f67d9c874d%3a8e1d32bf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=yLfp0lNK_IqsZNwoEeFK0DNmFbbqfw7lftKHUvLR_gIW14r1_7jcBOZnAWmfvxOi9dPHXunj4IIDy3moyxl7Zpxws4kF4o89HYQsYcSRUBKB4EkdhmMlKWUBVo8fSdeinvGFuspKPYqY801Ddn_6TEZYT1lnTW4vMHktVnMhdErYKcL2ZN0467rmv3gvm2tRjfB6gAR07FgY9WxcpQl6exqzS5as74Qa3jctnuShyYV-TrofVyn5xEiZg1jueobakO5oqUXLhvpozNgi701sfHfthK83hf9Va8_7EKKJ7gwNOt688tOBjdarkEQ5O1q8bnQHRaAwHWbwWUxDJWtwa-xw3wlhIvr8zofEv8hz8Qp7qzeZqS7YnKL8TPe0fuZA_aFCjvJt-gSwvx2VydMfSNQLTOTKHSd05fbBpNwdsD4Lm6oabQ0U2LWPOXIDCwBK0" type="text/javascript"></script>
+    
+<script type="text/javascript">
+    try{
+        function SeamlessEndRequestHandler(sender, args) {
+            try {
+                var dataItems = args.get_dataItems();
+                if(dataItems.ctl04_seamless_script_manager)
+                    document.getElementById('__SEAMLESSVIEWSTATE').value = dataItems.ctl04_seamless_script_manager;
+            }
+            catch (e) { }
+        }
+
+        Sys.WebForms.PageRequestManager.getInstance().add_endRequest(SeamlessEndRequestHandler);
+    }
+    catch (e) { }
+</script>
+
+    <div class="unsupported-browser-warning js-element"></div>
+    
+    <div hidden>
+        <span id="new-window-0">opens in new tab or window </span>
+    </div>
+    <div class="overlay-container"></div>
+    
+    <div class="background-container">
+        <div class="page-container">
+            <!-- OC Layout Element GROUP TEMPLATE -->
+            <!--groupTemplateStart--><header><div class="print-header-outer-container print-element">
+<img src="/files/templates/00000000-0000-0000-0000-000000000000/d94d870e-03cc-4be8-920b-59cfc0020abe/v/185/print-header.png" alt="Griffith City Council - Logo" />
+</div>
+            <div class="toolbar-outer-container">
+  <div class="toolbar-inner-container clearfix">
+    <div class="toolbar-item toolbar-quicklinks toolbar-display-dropdown">
+	<button type="button" aria-controls="toolbar-quicklinks-drop-down" aria-expanded="false" class="toolbar-button toolbar-button-quicklinks js-element"><span>Quick Links</span><i aria-hidden="true"></i></button>	
+	<div id="toolbar-quicklinks-drop-down" class="toolbar-drop-down toolbar-quicklinks-drop-down clearfix">
+		<ul>
+		  <li><a href="https://www.griffith.nsw.gov.au/Residents/Community/Community-Directory" class="oc-icon-b oc-i--none link-type-internal"><span>Community Directory</span></a></li><li><a href="https://www.griffith.nsw.gov.au/Council/About-Council/Contact-us" class="oc-icon-b oc-i--none link-type-internal"><span>Contact Us</span></a></li>
+		</ul>
+	</div>
+</div><div class="toolbar-item toolbar-language notranslate toolbar-display-dropdown"><div class="no-js-element">
+		  <ul>
+		    <li id="toolbar-language-option-en-au-noscript"><a href="https://www.griffith.nsw.gov.au/Council/Forms-and-documents/Finance-and-budget?oc_lang=en-AU" class="lang-item lang-en-au" data-translate-to="en-au" lang="en-AU">English (Australia)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-it-noscript"><a href="https://www.griffith.nsw.gov.au/Council/Forms-and-documents/Finance-and-budget?oc_lang=it" class="lang-item lang-it" data-translate-to="it" lang="en">Italian<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-gu-noscript"><a href="https://www.griffith.nsw.gov.au/Council/Forms-and-documents/Finance-and-budget?oc_lang=gu" class="lang-item lang-gu" data-translate-to="gu" lang="en">Gujarati<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-pa-noscript"><a href="https://www.griffith.nsw.gov.au/Council/Forms-and-documents/Finance-and-budget?oc_lang=pa" class="lang-item lang-pa" data-translate-to="pa" lang="en">Punjabi<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-zh-cn-noscript"><a href="https://www.griffith.nsw.gov.au/Council/Forms-and-documents/Finance-and-budget?oc_lang=zh-CN" class="lang-item lang-zh-cn" data-translate-to="zh-cn" lang="en">Chinese (Simplified)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li id="toolbar-language-option-tr-noscript"><a href="https://www.griffith.nsw.gov.au/Council/Forms-and-documents/Finance-and-budget?oc_lang=tr" class="lang-item lang-tr" data-translate-to="tr" lang="en">Turkish<span class="visuallyhidden"> Select this as your preferred language</span></a></li>
+          </ul>
+		</div>
+	<button type="button" role="combobox" aria-controls="toolbar-language-drop-down" aria-expanded="false" aria-haspopup="listbox" aria-autocomplete="none" aria-labelledby="toolbar-language-label" class="toolbar-button toolbar-button-language js-element">  
+        <span class="toolbar-language-globe-icon" aria-hidden="true"></span>
+        <span id="toolbar-language-label" class="current-language">
+            Select a language to translate to
+		</span>
+		<i aria-hidden="true"></i>
+	</button>
+	<div id="toolbar-language-drop-down" role="listbox" aria-label="Available languages" class="toolbar-drop-down toolbar-language-drop-down js-element clearfix">
+		<ul role="group">
+		    <li role="presentation"><a id="toolbar-language-option-en-au" role="option" aria-selected="true" href="https://www.griffith.nsw.gov.au/Council/Forms-and-documents/Finance-and-budget?oc_lang=en-AU" class="lang-item lang-en-au" data-translate-to="en-au" lang="en-AU">English (Australia)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-it" role="option" aria-selected="false" href="https://www.griffith.nsw.gov.au/Council/Forms-and-documents/Finance-and-budget?oc_lang=it" class="lang-item lang-it" data-translate-to="it" lang="en">Italian<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-gu" role="option" aria-selected="false" href="https://www.griffith.nsw.gov.au/Council/Forms-and-documents/Finance-and-budget?oc_lang=gu" class="lang-item lang-gu" data-translate-to="gu" lang="en">Gujarati<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-pa" role="option" aria-selected="false" href="https://www.griffith.nsw.gov.au/Council/Forms-and-documents/Finance-and-budget?oc_lang=pa" class="lang-item lang-pa" data-translate-to="pa" lang="en">Punjabi<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-zh-cn" role="option" aria-selected="false" href="https://www.griffith.nsw.gov.au/Council/Forms-and-documents/Finance-and-budget?oc_lang=zh-CN" class="lang-item lang-zh-cn" data-translate-to="zh-cn" lang="en">Chinese (Simplified)<span class="visuallyhidden"> Select this as your preferred language</span></a></li><li role="presentation"><a id="toolbar-language-option-tr" role="option" aria-selected="false" href="https://www.griffith.nsw.gov.au/Council/Forms-and-documents/Finance-and-budget?oc_lang=tr" class="lang-item lang-tr" data-translate-to="tr" lang="en">Turkish<span class="visuallyhidden"> Select this as your preferred language</span></a></li>
+        </ul>
+	</div></div>
+  </div>
+</div>
+            <div class="header-outer-container">
+    <div class="header-container header-layout-4  clearfix">
+			<div class="header-site-logo">
+				<a href="https://www.griffith.nsw.gov.au/Home" lang="en-AU" aria-label="Griffith City Council - Home - Logo">
+				</a>
+			</div>
+      
+		    <div class="mobile-search-btn js-element">
+		        <button><i aria-hidden="true"></i><span class="mobile-search-btn-text"><span class="visuallyhidden">Open </span>Search</span></button>
+		    </div>
+		    <div class="header-website-settings">
+                <button id="btn-mob-nav" type="button" aria-expanded="false" aria-controls="nav">
+                    <i aria-hidden="true"></i><span class="side-menu-btn-text">Menu</span>
+                </button>
+        	</div>
+          <div class="navigation-outer-container">
+	<div id="nav" role="navigation" class="navigation-container  navigation-container-option-8" data-menu-type="horizontal" aria-label="primary">
+        <div class="grid">
+            <div class="col-xs-12">              
+                <ul class="sf-menu" id="sc-main-menu"><li class="nav-section-quarters-1 nav-active-path  first-item nav-item-seq-1">
+<a href="https://www.griffith.nsw.gov.au/Council" class="nav-level-1 nav-has-children"  target="">
+	<i class="item-icon" aria-hidden="true"></i><span class="item-text">Council</span>
+</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-1">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-1">
+
+          
+            <li class=" "><a  href="https://www.griffith.nsw.gov.au/Council/About-Council" class="nav-has-children"  target="">About Council</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-1-nav-item-seq-1"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-1-nav-item-seq-1">
+          
+            <li  class=" "><a href="https://www.griffith.nsw.gov.au/Council/About-Council/Our-organisation"  target="">Our organisation</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Council/About-Council/Our-history"  target="">Our history</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Council/About-Council/How-does-Council-work"  target="">How does Council work?</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Council/About-Council/Customer-service-charter"  target="">Customer service charter</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Council/About-Council/Work-with-us"  target="">Work with us</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Council/About-Council/Contact-us"  target="">Contact us</a></li></ul></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Council/Councillors" class=""  target="">Councillors</a></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Council/Council-meetings" class="nav-has-children"  target="">Council meetings</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-1-nav-item-seq-3"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-1-nav-item-seq-3">
+          
+            <li  class=" "><a href="https://www.griffith.nsw.gov.au/Council/Council-meetings/About-Council-Meetings"  target="">About Council Meetings</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Council/Council-meetings/Minutes-and-agendas"  target="">Minutes and agendas</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Council/Council-meetings/Recordings-of-meetings"  target="">Recordings of meetings</a></li></ul></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Council/Corporate-planning-and-reporting" class=""  target="">Corporate planning and reporting</a></li><li class="nav-active-path "><a  href="https://www.griffith.nsw.gov.au/Council/Forms-and-documents" class="nav-has-children"  target="">Forms and documents</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-1-nav-item-seq-5"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-1-nav-item-seq-5">
+          
+            <li  class=" "><a href="https://www.griffith.nsw.gov.au/Council/Forms-and-documents/Policies"  target="">Policies</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Council/Forms-and-documents/Forms"  target="">Forms</a></li><li  class="nav-active-path nav-active-page"><a href="https://www.griffith.nsw.gov.au/Council/Forms-and-documents/Finance-and-budget"  target="">Finance and budget</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Council/Forms-and-documents/Plans-and-strategies"  target="_self">Plans and strategies</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Council/Forms-and-documents/Corporate-planning-and-reporting"  target="_self">Corporate planning and reporting</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Council/Forms-and-documents/Congratulatory-message-requests"  target="">Congratulatory message requests</a></li></ul></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Council/Governance-and-transparency" class="nav-has-children"  target="">Governance and transparency</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-1-nav-item-seq-6"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-1-nav-item-seq-6">
+          
+            <li  class=" "><a href="https://www.griffith.nsw.gov.au/Council/Governance-and-transparency/Information-held-by-Council"  target="">Information held by Council</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Council/Governance-and-transparency/Code-of-conduct"  target="">Code of conduct</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Council/Governance-and-transparency/Privacy-and-personal-information"  target="">Privacy and personal information</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Council/Governance-and-transparency/Council-Committees"  target="">Council Committees</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Council/Governance-and-transparency/Fraud-and-corruption-prevention"  target="">Fraud and corruption prevention</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Council/Governance-and-transparency/Governance-Framework"  target="">Governance Framework</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Council/Governance-and-transparency/Local-Government-Week"  target="_blank">Local Government Week</a></li></ul></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Council/Council-policies-and-plans-on-exhibition" class=""  target="">Council policies and plans on exhibition</a></li></ul></li>
+          
+            <li class="nav-section-quarters-1   nav-item-seq-2">
+<a href="https://www.griffith.nsw.gov.au/Residents" class="nav-level-1 nav-has-children"  target="">Residents</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-2">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-2">
+
+          
+            <li class=" "><a  href="https://www.griffith.nsw.gov.au/Residents/Rates-and-water-billing" class="nav-has-children"  target="">Rates and water billing</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-2-nav-item-seq-1"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-2-nav-item-seq-1">
+          
+            <li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Rates-and-water-billing/How-do-I-make-a-payment"  target="">How do I make a payment?</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Rates-and-water-billing/Rates-FAQs"  target="">Rates FAQs</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Rates-and-water-billing/Rates-charges-explained"  target="">Rates charges explained</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Rates-and-water-billing/Water-and-sewer-charges-explained"  target="">Water and sewer charges explained</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Rates-and-water-billing/Pensioner-concessions"  target="">Pensioner concessions</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Rates-and-water-billing/eNotices"  target="">Receive Rates and Water notices by email</a></li></ul></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Residents/Waste" class="nav-has-children"  target="">Waste and recycling</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-2-nav-item-seq-2"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-2-nav-item-seq-2">
+          
+            <li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Waste/Find-your-bin-day"  target="">Find your bin day</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Waste/Waste-services"  target="">Waste services</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Waste/Recycling-services"  target="">Recycling services</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Waste/Asbestos-safety"  target="">Asbestos safety</a></li></ul></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Residents/Water" class="nav-has-children"  target="">Water</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-2-nav-item-seq-3"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-2-nav-item-seq-3">
+          
+            <li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Water/Drinking-water"  target="">Drinking water</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Water/Saving-water"  target="">Saving water</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Water/Sewage-treatment"  target="">Sewage treatment</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Water/Drawing-Water-Standpipes"  target="">Drawing Water (Standpipes)</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Water/Water-Prospectus-Position-Statement"  target="">Water Prospectus & Position Statement</a></li></ul></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Residents/Roads" class="nav-has-children"  target="">Roads</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-2-nav-item-seq-4"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-2-nav-item-seq-4">
+          
+            <li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Roads/Roads-information"  target="">Roads information</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Roads/Road-closures"  target="">Road closures</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Roads/Road-projects"  target="">Road projects</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Roads/Road-maintenance-program"  target="">Road maintenance program</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Roads/GIS-mapping"  target="">GIS (mapping)</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Roads/Parking-enforcement"  target="">Parking enforcement</a></li></ul></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Residents/Health-and-environment" class="nav-has-children"  target="">Health and environment</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-2-nav-item-seq-5"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-2-nav-item-seq-5">
+          
+            <li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Health-and-environment/Biodiversity"  target="">Biodiversity</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Health-and-environment/Biosecurity"  target="">Biosecurity</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Health-and-environment/Mosquitoes"  target="">Mosquitoes</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Health-and-environment/Public-swimming-pools-and-spas"  target="">Public swimming pools and spas</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Health-and-environment/Private-Water"  target="">Private Water</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Health-and-environment/Get-SepticSmart"  target="">Get SepticSmart</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Health-and-environment/Land-and-natural-environment"  target="">Land and natural environment</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Health-and-environment/Long-grass"  target="">Long grass and overgrown properties</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Health-and-environment/Roadside-Environmental-Management"  target="">Roadside Environmental Management</a></li></ul></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Residents/Pets-and-animals" class="nav-has-children"  target="">Pets and animals</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-2-nav-item-seq-6"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-2-nav-item-seq-6">
+          
+            <li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Pets-and-animals/Pound-and-Rehoming-Centre"  target="">Pound and Rehoming Centre</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Pets-and-animals/Pet-registration"  target="">Pet registration</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Pets-and-animals/Fees-and-charges"  target="">Fees and charges</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Pets-and-animals/Adopt-a-pet"  target="">Adopt a pet</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Pets-and-animals/Surrendering-an-animal"  target="">Surrendering an animal</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Pets-and-animals/Pet-owner-responsibilities"  target="">Pet owner responsibilities</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Pets-and-animals/Problem-animals"  target="">Problem animals</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Pets-and-animals/Off-leash-area"  target="">Off leash area</a></li></ul></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Residents/Cemeteries" class=""  target="">Cemeteries</a></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Residents/Community" class="nav-has-children"  target="">Community</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-2-nav-item-seq-8"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-2-nav-item-seq-8">
+          
+            <li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Community/Community-Development"  target="">Community Development</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Community/Community-Directory"  target="">Community Directory</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Community/Aboriginal-and-Torres-Strait-Islander-Communities"  target="">Aboriginal and Torres Strait Islander Communities</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Community/Youth"  target="">Youth</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Community/Disability-Inclusion-and-Access"  target="">Disability Inclusion and Access</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Community/Community-Grants"  target="">Community grants</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Community/Community-Safety"  target="">Community safety</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Community/New-residents"  target="">New residents</a></li></ul></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Residents/Events" class="nav-has-children"  target="">Events</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-2-nav-item-seq-9"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-2-nav-item-seq-9">
+          
+            <li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Events/Whats-on"  target="_blank">What's on in Griffith</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Events/Our-Council-events"  target="_self">Our Council events</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Events/Plan-your-own-event"  target="">Plan your own event</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Events/Christmas-in-Griffith"  target="">Christmas in Griffith - Glow2680</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Events/Australian-Local-Government-Womens-Association-Conference-2025"  target="">Australian Local Government Women's Association Conference 2025</a></li></ul></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Residents/Fees-and-charges" class=""  target="_self">Fees and charges</a></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Residents/Arts-and-culture" class=""  target="_self">Arts and culture</a></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Residents/Sport-and-leisure" class=""  target="_self">Sport and leisure</a></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Residents/We-Are-Griffith" class="nav-has-children"  target="">We Are Griffith</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-2-nav-item-seq-13"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-2-nav-item-seq-13">
+          
+            <li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/We-Are-Griffith/We-are-Invigorating-Griffith"  target="">We are Invigorating Griffith</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/We-Are-Griffith/We-are-Creative"  target="">We are Creative</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/We-Are-Griffith/We-are-Local"  target="">We are Local</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/We-Are-Griffith/We-are-the-Future"  target="">We are the Future</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/We-Are-Griffith/We-are-Connected"  target="">We are Connected</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/We-Are-Griffith/We-are-Respectful"  target="">We are Respectful</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/We-Are-Griffith/We-are-Local-Government"  target="">We are Local Government</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/We-Are-Griffith/We-are-Positive"  target="">We are Positive</a></li></ul></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Residents/Public-notice" class="nav-has-children"  target="">Public notice</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-2-nav-item-seq-14"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-2-nav-item-seq-14">
+          
+            <li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Public-notice/Public-holiday-closures"  target="">Public holiday closures</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Residents/Public-notice/Sale-of-Land-for-Overdue-Rates"  target="">Sale of Land for Overdue Rates</a></li></ul></li></ul></li>
+          
+            <li class="nav-section-quarters-2   nav-item-seq-3">
+<a href="https://www.griffith.nsw.gov.au/Visitors" class="nav-level-1 nav-has-children"  target="">Visitors</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-3">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-3">
+
+          
+            <li class=" "><a  href="https://www.griffith.nsw.gov.au/Visitors/History-and-heritage" class="nav-has-children"  target="">History and heritage</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-3-nav-item-seq-1"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-3-nav-item-seq-1">
+          
+            <li  class=" "><a href="https://www.griffith.nsw.gov.au/Visitors/History-and-heritage/Heritage-trail"  target="">Heritage trail</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Visitors/History-and-heritage/Scenic-hill-and-Hermits-Cave"  target="">Scenic hill and Hermit's Cave</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Visitors/History-and-heritage/Museum"  target="_blank">Griffith Pioneer Park Museum</a></li></ul></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Visitors/Parks-and-gardens" class="nav-has-children"  target="">Parks and gardens</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-3-nav-item-seq-2"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-3-nav-item-seq-2">
+          
+            <li  class=" "><a href="https://www.griffith.nsw.gov.au/Visitors/Parks-and-gardens/Parks"  target="">Parks</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Visitors/Parks-and-gardens/Lake-Wyangan"  target="">Lake Wyangan</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Visitors/Parks-and-gardens/Park-hire"  target="_self">Park hire</a></li></ul></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Visitors/Arts-and-culture" class=""  target="_self">Arts and culture</a></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Visitors/Sport-and-leisure" class=""  target="_self">Sport and leisure</a></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Visitors/Visit-Griffith" class=""  target="_self">Visit Griffith</a></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Visitors/Events" class=""  target="_self">Events</a></li></ul></li>
+          
+            <li class="nav-section-quarters-2   nav-item-seq-4">
+<a href="https://www.griffith.nsw.gov.au/Business" class="nav-level-1 nav-has-children"  target="">Business</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-4">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-4">
+
+          
+            <li class=" "><a  href="https://www.griffith.nsw.gov.au/Business/Doing-business-in-Griffith" class=""  target="">Doing business in Griffith</a></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Business/Operating-a-business" class="nav-has-children"  target="">Operating a business</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-4-nav-item-seq-2"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-4-nav-item-seq-2">
+          
+            <li  class=" "><a href="https://www.griffith.nsw.gov.au/Business/Operating-a-business/Food-businesses"  target="">Food businesses</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Business/Operating-a-business/Public-pools-and-spas"  target="_self">Public pools and spas</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Business/Operating-a-business/Hair-beauty-and-body-art-businesses"  target="">Hair, beauty and body art businesses</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Business/Operating-a-business/Liquid-trade-waste"  target="">Liquid trade waste</a></li></ul></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Business/Griffith-Now-Hiring" class=""  target="">Griffith Now Hiring</a></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Business/Tenders-RFQs-and-EOIs" class="nav-has-children"  target="">Tenders, RFQs and EOIs</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-4-nav-item-seq-4"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-4-nav-item-seq-4">
+          
+            <li  class=" "><a href="https://www.griffith.nsw.gov.au/Business/Tenders-RFQs-and-EOIs/Open-Tenders"  target="">Open Tenders</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Business/Tenders-RFQs-and-EOIs/Awarded-Tenders"  target="">Awarded Tenders</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Business/Tenders-RFQs-and-EOIs/Contracts-Register"  target="">Contracts Register</a></li></ul></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Business/Airport" class=""  target="">Griffith Regional Airport</a></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Business/Saleyards" class=""  target="">Griffith Livestock Marketing Centre</a></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Business/Information-for-Contractors" class=""  target="">Information for Contractors</a></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Business/Small-Business-Financial-Assistance" class=""  target="">Small Business Financial Assistance</a></li></ul></li>
+          
+            <li class="nav-section-quarters-3   nav-item-seq-5">
+<a href="https://www.griffith.nsw.gov.au/Building" class="nav-level-1 nav-has-children"  target="">Building</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-5">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-5">
+
+          
+            <li class=" "><a  href="https://www.griffith.nsw.gov.au/Building/Development-Applications" class="nav-has-children"  target="">Development Applications</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-5-nav-item-seq-1"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-5-nav-item-seq-1">
+          
+            <li  class=" "><a href="https://www.griffith.nsw.gov.au/Building/Development-Applications/Track-a-DA"  target="">Track a DA</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Building/Development-Applications/Do-I-need-a-DA"  target="">Do I need a DA?</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Building/Development-Applications/Types-of-DA"  target="">Types of DA</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Building/Development-Applications/Understanding-the-DA-process"  target="">Understanding the DA process</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Building/Development-Applications/How-do-I-make-a-submission"  target="">How do I make a submission?</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Building/Development-Applications/DAs-on-exhibition"  target="">DAs on exhibition</a></li></ul></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Building/Building-and-construction" class="nav-has-children"  target="">Building and construction</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-5-nav-item-seq-2"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-5-nav-item-seq-2">
+          
+            <li  class=" "><a href="https://www.griffith.nsw.gov.au/Building/Building-and-construction/Construction-certificates"  target="">Construction certificates</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Building/Building-and-construction/Constructing-your-driveway"  target="">Constructing your driveway</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Building/Building-and-construction/Fire-safety"  target="">Fire safety</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Building/Building-and-construction/Certification-services"  target="">Certification services</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Building/Building-and-construction/Swimming-pools-and-spas"  target="">Swimming pools and spas</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Building/Building-and-construction/Section-68-Approvals"  target="">Section 68 Approvals</a></li></ul></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Building/Planning" class="nav-has-children"  target="">Planning</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-5-nav-item-seq-3"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-5-nav-item-seq-3">
+          
+            <li  class=" "><a href="https://www.griffith.nsw.gov.au/Building/Planning/Plans-and-strategies"  target="">Plans and strategies</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Building/Planning/Development-controls"  target="">Development controls</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Building/Planning/Flood-Information"  target="">Flood Information</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Building/Planning/Planning-Alerts-Australia-Wide"  target="_blank">Planning Alerts Australia Wide</a></li></ul></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/Building/Septic-and-plumbing" class="nav-has-children"  target="">Septic and plumbing</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-5-nav-item-seq-4"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-5-nav-item-seq-4">
+          
+            <li  class=" "><a href="https://www.griffith.nsw.gov.au/Building/Septic-and-plumbing/Plumbing-and-drainage"  target="">Plumbing and drainage</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/Building/Septic-and-plumbing/Onsite-sewerage"  target="">Onsite sewerage</a></li></ul></li></ul></li>
+          
+            <li class="nav-section-quarters-3   nav-item-seq-6">
+<a href="https://www.griffith.nsw.gov.au/News" class="nav-level-1 nav-has-children"  target="">News</a>
+<button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow" aria-controls="sc-menu-second-level-nav-item-seq-6">
+              <i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-second-level-nav-item-seq-6">
+
+          
+            <li class=" "><a  href="https://www.griffith.nsw.gov.au/News/News" class="nav-has-children"  target="">News</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-6-nav-item-seq-1"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-6-nav-item-seq-1">
+          
+            <li  class=" "><a href="https://www.griffith.nsw.gov.au/News/News/Local-youth-invited-to-be-part-of-mosaic-mural-project"  target="">Local youth invited to be part of mosaic mural project</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/News/News/Griffith-Regional-Airport-paid-parking-system-enters-testing-phase"  target="">Griffith Regional Airport paid parking system enters testing phase</a></li></ul></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/News/Newsletters" class="nav-has-children"  target="">Newsletters</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-6-nav-item-seq-2"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-6-nav-item-seq-2">
+          
+            <li  class=" "><a href="https://www.griffith.nsw.gov.au/News/Newsletters/Council-Catch-Up"  target="">Council Catch Up</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/News/Newsletters/Griffith-City-Library"  target="">Griffith City Library</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/News/Newsletters/Evolve-Economic-Development-Newsletter"  target="">Evolve - Economic Development Newsletter</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/News/Newsletters/Griffith-Now-Hiring"  target="">Griffith Now Hiring Newsletter</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/News/Newsletters/Visit-Griffith-Newsletter"  target="">Visit Griffith Newsletter</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/News/Newsletters/Griffith-Regional-Art-Gallery"  target="">Griffith Regional Art Gallery</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/News/Newsletters/Griffith-Regional-Theatre"  target="">Griffith Regional Theatre</a></li></ul></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/News/Road-Closures" class=""  target="_self">Road Closures</a></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/News/Special-Rate-Variation" class=""  target="">Special Rate Variation</a></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/News/Health" class="nav-has-children"  target="">Health</a><button aria-label="Expand" aria-haspopup="true" class="mobnav-subarrow-child" aria-controls="sc-menu-third-level-nav-item-seq-6-nav-item-seq-5"><i aria-hidden="true"></i>
+              </button>
+<ul id="sc-menu-third-level-nav-item-seq-6-nav-item-seq-5">
+          
+            <li  class=" "><a href="https://www.griffith.nsw.gov.au/News/Health/Murrumbidgee-Local-Health-District-MLHD-news"  target="">Murrumbidgee Local Health District (MLHD) news</a></li><li  class=" "><a href="https://www.griffith.nsw.gov.au/News/Health/St-Vincents-Private-Hospital-Griffith"  target="">St Vincent's Private Hospital Griffith</a></li></ul></li><li class=" "><a  href="https://www.griffith.nsw.gov.au/News/Bears-bring-families-out-in-force-at-Griffith-Pioneer-Park-Museum" class=""  target="">Bears bring families out in force at Griffith Pioneer Park Museum</a></li></ul></li>
+          
+            </ul>
+            </div>
+        </div>
+    </div>
+</div>
+			
+			<div class="header-search-control-container" id="header-search">
+				<div class="search-inner-container">
+					<div class="sc-search-panel">
+	<label for="ctl08_txtSearch" id="ctl08_lblSearch" class="sc-search-label">Search</label><input name="ctl08$txtSearch" type="text" id="ctl08_txtSearch" class="sc-search-text" placeholder="What are you looking for?" /><input type="submit" name="ctl08$btnSearch" value="Search" id="ctl08_btnSearch" class="sc-search-button" />
+</div>
+					<div role="status" id="predictiveResults"></div>
+				</div>
+			</div>
+    </div>
+</div>
+
+            
+            </header>
+            <div class="content-outer-container">
+                <div id="main" role="main" class="main-outer-container clearfix">
+                        
+                        <div class="content-main-container">
+                            <div class="grid">
+					            <div class="col-xs-12">
+						            <nav id="breadcrumbs-container" aria-label="You Are Here :">
+							            <span role="list">
+<span role="listitem">
+	<a href="https://www.griffith.nsw.gov.au/Home"  lang="en-AU">Home</a>
+	<span class="nav-separator" aria-hidden="true" role="presentation">/</span>
+</span>
+          <span role="listitem"><a href="https://www.griffith.nsw.gov.au/Council" >Council</a><span class='nav-separator' aria-hidden="true" role="presentation">/</span></span><span role="listitem">
+	<a href="https://www.griffith.nsw.gov.au/Council/Forms-and-documents" >
+		Forms and documents
+	</a>
+	<span class='nav-separator' aria-hidden="true" role="presentation">/</span>
+</span>
+<span class="current-page" role="listitem" aria-current="page" >Finance and budget</span>
+          </span>
+						            </nav>
+					            </div>
+                      
+					            <div class="col-xs-12">
+						            <div class="main-inner-container">
+							            <div id="main-content" class="main-container clearfix">
+							              
+                            <!-- OC Layout Element Conent Template -->
+							              <!--normalTemplateStart--><div class="grid">
+    <div class="col-xs-12">
+        <h1 class='oc-page-title '>Finance and budget</h1>
+        
+        <div data-type="0" data-title-level="2" class="oc-wysiwyg-container">
+<div class="oc-wysiwyg-container-panel">
+<h2>Fees and charges</h2>
+<div class="oc-wysiwyg-container-panel-content">
+<p><span style="font-size: 1em;"><a name="fees" id="fees"></a>We provide&nbsp;a wide range of services that are essential to the community such as waste disposal, recreation, community amenities, and environmental services</span><span style="font-size: 1em;">&nbsp;and adopts a new fees &amp; charges structure annually, effective 1 July.</span></p>
+<p><span style="font-size: 1em;">View the <a title="External Revenue Policy 2026-27.PDF" href="/files/sharedassets/public/v/1/cm-documents/external-revenue-policy-2026-27.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2026-27 Revenue Policy<span class="file-info">(PDF,&nbsp;697KB)</span></a></span></p>
+<p><span style="font-size: 1em;">View the <a title="2025-2026 Revenue Policy - Public Format" href="/files/sharedassets/public/v/1/cm-documents/2025-2026-revenue-policy-public-format.pdf" target="_blank" class="document ext-pdf"><i aria-hidden="true"></i>2025-26 Revenue Policy<span class="file-info">(PDF,&nbsp;1MB)</span></a></span></p>
+</div>
+</div>
+<div class="oc-wysiwyg-container-panel">
+<h2>Current Annual Financial Statements</h2>
+<div class="oc-wysiwyg-container-panel-content">
+<p>Each year, individual Local Governments across NSW are required to present a set of audited financial statements to their Council and Community.</p>
+<p>The financial statements set out the financial performance, financial position and cash flows of Council for each financial year.</p>
+<p><span style="font-size: 1em; font-family: inherit;"><strong>Presentation of financial statements&nbsp;</strong></span><span style="font-size: 1em; font-family: inherit;">as per Section 418 (3) of the Local Government Act.</span></p>
+<p>Griffith City Council adopted the&nbsp;audited Financial Statements and the Auditor&rsquo;s Reports for the year ending 30/06/2025 at the&nbsp;<span style="font-size: 1em; font-family: inherit;">Ordinary&nbsp;</span><span style="font-size: 1em; font-family: inherit; color: rgb(44,44,44);">Council meeting held on 26 November 2025.</span></p>
+<table class="sc-responsive-table">
+<tbody>
+<tr>
+<td><a title="GCC GPFS-2025.PDF" href="/files/sharedassets/public/v/1/cm-documents/gcc-gpfs-2025.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2024/25 General Purpose Report<span class="file-info">(PDF,&nbsp;2MB)</span></a></td>
+<td><a title="GCC SPFS-2025.PDF" href="/files/sharedassets/public/v/1/cm-documents/gcc-spfs-2025.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2024/25 Special Purpose Report<span class="file-info">(PDF,&nbsp;830KB)</span></a></td>
+<td><a title="GCC SS-2025.PDF" href="/files/sharedassets/public/v/1/cm-documents/gcc-ss-2025.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2024/25 Special Schedule<span class="file-info">(PDF,&nbsp;414KB)</span></a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+</div>
+</div>
+<div class="oc-wysiwyg-container-panel">
+<h2>Previous 5 years Annual Financial Statements</h2>
+<div class="oc-wysiwyg-container-panel-content">
+<table class="sc-responsive-table">
+<tbody>
+<tr>
+<td>General Purpose Report</td>
+<td>Special Purpose Report</td>
+<td>Special Schedule&nbsp;</td>
+</tr>
+<tr>
+<td><a title="GCC Annual Financial Statements-GPFS-2024.PDF" href="/files/sharedassets/public/v/1/cm-documents/gcc-annual-financial-statements-gpfs-2024.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2023/24<span class="file-info">(PDF,&nbsp;6MB)</span></a></td>
+<td>&nbsp;<a title="GCC Annual Financial Statements-SPFS-2024.PDF" href="/files/sharedassets/public/v/1/cm-documents/gcc-annual-financial-statements-spfs-2024.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2023/24<span class="file-info">(PDF,&nbsp;859KB)</span></a></td>
+<td>&nbsp;<a title="GCC Annual Financial Statements-SS-2024.PDF" href="/files/sharedassets/public/v/1/cm-documents/gcc-annual-financial-statements-ss-2024.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2023/24<span class="file-info">(PDF,&nbsp;973KB)</span></a></td>
+</tr>
+<tr>
+<td>&nbsp;<a title="2022-2023 General Purpose Report.PDF" href="/files/sharedassets/public/v/1/cm-documents/2022-2023-general-purpose-report.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2022/23<span class="file-info">(PDF,&nbsp;2MB)</span></a></td>
+<td>&nbsp;<a title="2022-2023 Special Purpose Report.PDF" href="/files/sharedassets/public/v/1/cm-documents/2022-2023-special-purpose-report.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2022/23<span class="file-info">(PDF,&nbsp;1MB)</span></a></td>
+<td>&nbsp;<a title="2022-2023 Special Schedule.PDF" href="/files/sharedassets/public/v/1/cm-documents/2022-2023-special-schedule.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2022/23<span class="file-info">(PDF,&nbsp;986KB)</span></a></td>
+</tr>
+<tr>
+<td>&nbsp;<a title="2021-2022 General Purpose Report.PDF" href="/files/sharedassets/public/v/1/cm-documents/2021-2022-general-purpose-report.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2021/22<span class="file-info">(PDF,&nbsp;1MB)</span></a></td>
+<td>&nbsp;<a title="2021-2022 Special Purpose Report.PDF" href="/files/sharedassets/public/v/1/cm-documents/2021-2022-special-purpose-report.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2021/22<span class="file-info">(PDF,&nbsp;667KB)</span></a></td>
+<td>&nbsp;<a title="2021-2022 Special Schedule.PDF" href="/files/sharedassets/public/v/1/cm-documents/2021-2022-special-schedule.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2021/22<span class="file-info">(PDF,&nbsp;271KB)</span></a></td>
+</tr>
+<tr>
+<td>&nbsp;<a title="2020-2021 General Purpose Report.PDF" href="/files/sharedassets/public/v/1/cm-documents/2020-2021-general-purpose-report.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2020/21<span class="file-info">(PDF,&nbsp;12MB)</span></a></td>
+<td>&nbsp;<a title="2020-2021 Special Purpose Report.PDF" href="/files/sharedassets/public/v/1/cm-documents/2020-2021-special-purpose-report.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2020/21<span class="file-info">(PDF,&nbsp;6MB)</span></a></td>
+<td>&nbsp;<a title="2020-2021 Special Schedule.PDF" href="/files/sharedassets/public/v/1/cm-documents/2020-2021-special-schedule.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2020/21<span class="file-info">(PDF,&nbsp;3MB)</span></a></td>
+</tr>
+<tr>
+<td>&nbsp;<a title="2019-2020 General Purpose Report.PDF" href="/files/sharedassets/public/v/1/cm-documents/2019-2020-general-purpose-report.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2019/20<span class="file-info">(PDF,&nbsp;3MB)</span></a></td>
+<td>&nbsp;<a title="2019-2020 Special Purpose Report.PDF" href="/files/sharedassets/public/v/1/cm-documents/2019-2020-special-purpose-report.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2019/20<span class="file-info">(PDF,&nbsp;582KB)</span></a></td>
+<td>&nbsp;<a title="2019-2020 Special Schedule.PDF" href="/files/sharedassets/public/v/1/cm-documents/2019-2020-special-schedule.pdf" target="_self" class="document ext-pdf"><i aria-hidden="true"></i>2019/20<span class="file-info">(PDF,&nbsp;1005KB)</span></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<p><span style="font-size: 1.25em;">&nbsp;</span></p>
+
+
+      
+        
+            
+        
+    </div>
+    
+    
+</div><!--normalTemplateEnd-->
+                            
+                            
+                            
+							            </div>
+						            </div>
+					            </div>
+                        <div class="col-xs-12">
+					            	<div class="share-page-container share-page-link-right share-page-link-small share-page-link-square share-page-link-no-labels" data-item-id="efca92d3-e6b8-432b-9e71-c1fcee39c671" id="share-page-container clearfix">
+                                        <section aria-labelledby="share-page-info-label">
+                                            <span id="share-page-info-label" class="share-page-info">Share</span><ul class="share-page-links no-translate"><li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.griffith.nsw.gov.au%2fCouncil%2fForms-and-documents%2fFinance-and-budget" target="{ShareTarget}" class="share-page-link share-page-link-facebook" data-channel="facebook" data-channel-id="1"><i aria-hidden="true"></i><span class="share-page-link-name share-page-link-name-facebook">Facebook</span></a></li><li><a href="mailto:?Body=https%3a%2f%2fwww.griffith.nsw.gov.au%2fCouncil%2fForms-and-documents%2fFinance-and-budget" target="_self" class="share-page-link share-page-link-email" data-channel="email" data-channel-id="3"><i aria-hidden="true"></i><span class="share-page-link-name share-page-link-name-email">Email</span></a></li><li><a href="#" target="_self" class="share-page-link share-page-link-print" data-channel="print" data-channel-id="5"><i aria-hidden="true"></i><span class="share-page-link-name share-page-link-name-print">Print</span></a></li><li><a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.griffith.nsw.gov.au%2fCouncil%2fForms-and-documents%2fFinance-and-budget" target="_blank" class="share-page-link share-page-link-linkedin" data-channel="linkedin" data-channel-id="7"><i aria-hidden="true"></i><span class="share-page-link-name share-page-link-name-linkedin">LinkedIn</span></a></li></ul>
+                                        </section>
+                                    </div></div>
+                            </div>
+                        </div>
+                        <div class="back-to-top-container text-center">
+                            <a href="#body-top" id="back-to-top"><i aria-hidden="true"></i><span class="js-visuallyhidden">Back to top</span></a>
+                        </div>
+                </div>
+            </div><!--groupTemplateEnd-->
+            <footer>
+                
+                    <div class="footer-outer-container footer-first-row">
+                        <div class="footer-container clearfix">
+                            <div class="grid grid-pad">
+                                <div class="col-xs-12 col-s-12 col-m-12 col-lg-12 footer-widget-acknowledgement" >
+	
+			<h2 class="visuallyhidden">Site Footer</h2>
+			<h3 class="footer-title">Acknowledgement of Country</h3>
+			
+	<p>Griffith City Council acknowledges the Wiradjuri people as the traditional owners and custodians of the land and waters, and their deep knowledge embedded within the Aboriginal community. Council further pays respect to the local Wiradjuri Elders, past, present and those emerging, for whom we acknowledge have responsibilities for the continuation of cultural, spiritual and educational practices of the local Wiradjuri people.</p>
+
+
+	
+	
+</div><div class="col-xs-12 col-s-12 col-m-4 col-lg-3" >
+	
+			<h2 class="visuallyhidden">Site Footer</h2>
+			<h3 class="footer-title">Contact us</h3>
+			
+	<p>Griffith City Council<br />
+1 Benerembah Street, PO Box 485<br />
+Griffith NSW 2680<br />
+<a href="https://www.google.com/maps/place/1+Benerembah+St,+Griffith+NSW+2680/@-34.2863189,146.0341527,16z/data=!3m1!4b1!4m6!3m5!1s0x6b1fae1783911751:0x75ce824355520b55!8m2!3d-34.2863189!4d146.0367276!16s%2Fg%2F11crrcqczy?entry=ttu" target="_blank">View on map</a></p>
+<p>T <a href="tel:1300176077">1300 176 077</a><br />
+E <a href="mailto:admin@griffith.nsw.gov.au">admin@griffith.nsw.gov.au</a><span style="font-size: 1.25em;">&nbsp;</span></p>
+
+
+	
+	
+</div><div class="col-xs-12 col-s-12 col-m-4 col-lg-3" >
+	
+			<h2 class="visuallyhidden">Site Footer</h2>
+			<h3 class="footer-title">Share and connect</h3>
+			
+	
+	<ul class="footer-links with-icons social-media-links">  <li class="footer-link-facebook">
+	<a href="https://www.facebook.com/griffithcitycouncil" target="_self"  >
+<i aria-hidden="true"></i>Like us on Facebook
+</a>
+</li>
+          <li class="footer-link-youtube">
+	<a href="https://www.youtube.com/griffithcitycouncil" target="_blank"  >
+<i aria-hidden="true"></i>Watch our YouTube Channel
+</a>
+</li>
+          <li class="footer-link-instagram">
+	<a href="http://www.instagram.com/griffithcitycouncil" target="_blank"  >
+<i aria-hidden="true"></i>Follow us on Instagram
+</a>
+</li>
+           </ul>
+	
+</div><div class="col-xs-12 col-s-12 col-m-4 col-lg-3" >
+	
+			<h2 class="visuallyhidden">Site Footer</h2>
+			<h3 class="footer-title">Stay Informed</h3>
+			
+	<p>Subscribe to our monthly eNewsletter to stay informed<br />
+about city news and events</p>
+<p><a href="https://www.griffith.nsw.gov.au/News/Newsletters/Council-Catch-Up" class="styled-button-footer">Subscribe to eNewsletter</a></p>
+
+
+	<ul class="footer-links with-icons ">   </ul>
+	
+</div><div class="col-xs-12 col-s-12 col-m-4 col-lg-3" >
+	
+			<h2 class="visuallyhidden">Site Footer</h2>
+			<h3 class="footer-title">Our sites</h3>
+			
+	
+	<ul class="footer-links without-icons ">  <li>
+<a href="https://artsculture.griffith.nsw.gov.au/Home" target="_self"  >Arts and culture</a>
+</li>
+          <li>
+<a href="https://sportleisure.griffith.nsw.gov.au/Home" target="_blank"  >Sport and leisure</a>
+</li>
+          <li>
+<a href="https://www.wrl.nsw.gov.au/our-libraries/griffith-city-library/" target="_self"  >Griffith City Library</a>
+</li>
+          <li>
+<a href="https://visitgriffith.com.au/" target="_self"  >Visit Griffith</a>
+</li>
+           </ul>
+	
+</div>
+                            </div>
+                        </div>
+                    </div>
+                
+                <div class="footer-outer-container footer-second-row">
+                    <div class="footer-container clearfix">
+                        <div class="grid grid-pad footer-secondary-links">
+                            <div class="col-xs-12 col-m-7">
+                                
+                                    <div><a href="https://www.griffith.nsw.gov.au/Sitemap" target="_self"  >Sitemap</a>&nbsp;| <a href="https://www.griffith.nsw.gov.au/Council/About-Council/Disclaimer" target="_self"  >Disclaimer</a>&nbsp;| <a href="https://www.griffith.nsw.gov.au/Council/Governance-and-transparency/Privacy-and-personal-information" target="_self"  >Privacy Statement</a></div>
+                                
+                            </div>
+                            <div class="col-xs-12 col-m-5 powered-by">
+                                <div class="right">
+                                    &copy; 2026 Griffith City Council&nbsp;|&nbsp;<span class="powered-by">Powered by <a href="https://granicus.com/solution/govaccess/opencities/" target="_blank">Granicus</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="/files/oc-resources/304b18e5-9e14-4c14-82c4-c090bcfe6eb7/JsTextSnippets.js?ocsvclang=en-AU" type="text/javascript"></script><script></script>
+    
+    <script type="text/javascript">
+
+// Load Attekus Bookable Modal for Attekus events
+
+$(document).ready(function() {
+
+  $('.hyperlink-button-container').each(function() {
+
+    var bookable_domain = "bookable.net.au";
+
+    var $container = $(this);
+
+    var $link = $container.find('a');
+
+    var link_url = $link.prop('href');
+
+    var link_matches_bookable = $link.prop('href').indexOf(bookable_domain);
+
+ 
+
+    // Initiate only for bookable event urls
+
+    if (link_matches_bookable != -1) {
+
+      // Inject modal window
+
+      var modal = $('<div id="bookable-iframe" class="backdrop" style="display:none"> \
+
+              <div class="content"> \
+
+                  <button type="button" \
+
+                          class="btn btn-bookable btn-info close-button" \
+
+                      <span class="glyphicon glyphicon-remove"></span> \
+
+                  </button> \
+
+                  <iframe src="' + link_url + '?hideBackNavigation=true" style="width: 100%; height: 100%; border:none;"></iframe> \
+
+              </div> \
+
+      </div>');
+
+      modal.insertAfter($container)
+
+ 
+
+      // Bind click event for modal
+
+      $link.click(function(e) {
+
+        $('#bookable-iframe').show();
+
+        e.preventDefault();
+
+      });
+
+      $('.btn-bookable.close-button').click(function(e) {
+
+        $('#bookable-iframe').hide();
+
+        e.preventDefault();
+
+      });
+
+    }
+
+  });
+
+});
+
+</script>
+
+ 
+
+ 
+
+<style type="text/css">
+
+ 
+
+#bookable-iframe.backdrop {
+
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+
+  right: 0;
+
+  bottom: 0;
+
+  background-color: rgba(0, 0, 0, 0.5);
+
+  z-index: 2000;
+
+}
+
+ 
+
+#bookable-iframe.backdrop .content {
+
+  position: relative;
+
+  margin-top: 20px;
+
+  margin-bottom: 20px;
+
+ background: white;
+
+  width: 100%;
+
+  height: calc(100% - 40px);
+
+  max-width: 1280px;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+}
+
+ 
+
+#bookable-iframe.backdrop .content .close-button {
+
+  position: absolute;
+
+  right: 20px;
+
+  top: 20px;
+
+  border-radius: 0;
+
+  padding: 6px 12px 6px 12px;
+
+}
+
+ 
+
+#bookable-iframe.backdrop .content .close-button:before { content: "\2715"; }
+
+.btn {
+
+    display: inline-block;
+
+    margin-bottom: 0;
+
+    font-size: 14px;
+
+    font-weight: normal;
+
+    line-height: 1.42857143;
+
+    text-align: center;
+
+    white-space: nowrap;
+
+    vertical-align: middle;
+
+    -ms-touch-action: manipulation;
+
+    touch-action: manipulation;
+
+    cursor: pointer;
+
+    -webkit-user-select: none;
+
+    -moz-user-select: none;
+
+    -ms-user-select: none;
+
+    user-select: none;
+
+    background-image: none;
+
+    border: 1px solid transparent;
+
+    border-radius: 4px;
+
+}
+
+ 
+
+#bookable-iframe.backdrop .content .btn-info {
+
+    //background-color: #7abce7;
+
+    //border-color: #3498db;
+
+    color: #fff;
+
+}
+
+</style>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-88X7GW6FR0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-88X7GW6FR0');
+</script>
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+window.__TsmHiddenField = $get('ctl04_seamless_script_manager_TSM');//]]>
+</script>
+</form>
+</body>
+</html>

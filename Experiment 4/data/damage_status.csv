@@ -1,0 +1,63 @@
+damage_record_id,project_id,disaster_id,assessment_date,damage_status,access_status,source_id,evidence_status
+richmondvalley:candidate:P001:unresolved,richmondvalley:candidate:P001,,,unknown,unknown,richmond_q3,inherited_unknown_not_evidence_of_no_damage
+richmondvalley:candidate:P002:unresolved,richmondvalley:candidate:P002,,,unknown,unknown,richmond_q3,inherited_unknown_not_evidence_of_no_damage
+richmondvalley:candidate:P003:unresolved,richmondvalley:candidate:P003,,,unknown,unknown,richmond_q3,inherited_unknown_not_evidence_of_no_damage
+richmondvalley:candidate:P004:unresolved,richmondvalley:candidate:P004,,,unknown,unknown,richmond_q3,inherited_unknown_not_evidence_of_no_damage
+richmondvalley:candidate:P005:unresolved,richmondvalley:candidate:P005,,,unknown,unknown,richmond_q3,inherited_unknown_not_evidence_of_no_damage
+richmondvalley:candidate:P006:unresolved,richmondvalley:candidate:P006,,,unknown,unknown,richmond_q3,inherited_unknown_not_evidence_of_no_damage
+richmondvalley:candidate:P007:unresolved,richmondvalley:candidate:P007,,,unknown,unknown,richmond_q3,inherited_unknown_not_evidence_of_no_damage
+richmondvalley:candidate:P008:unresolved,richmondvalley:candidate:P008,,,landslip_reported_as_project_deferral_reason,unknown,richmond_q3,Q3_2022_PDF12_explicit_deferral_reason;physical_section_assessment_event_identity_and_date_unresolved
+richmondvalley:candidate:P009:unresolved,richmondvalley:candidate:P009,,,unknown,unknown,richmond_q3,inherited_unknown_not_evidence_of_no_damage
+richmondvalley:candidate:P010:unresolved,richmondvalley:candidate:P010,,,unknown,unknown,richmond_q3,inherited_unknown_not_evidence_of_no_damage
+richmondvalley:candidate:P011:unresolved,richmondvalley:candidate:P011,,,unknown,unknown,richmond_q3,inherited_unknown_not_evidence_of_no_damage
+richmondvalley:candidate:P012:unresolved,richmondvalley:candidate:P012,,,unknown,unknown,richmond_q3,inherited_unknown_not_evidence_of_no_damage
+richmondvalley:candidate:P013:unresolved,richmondvalley:candidate:P013,,,unknown,unknown,richmond_q3,inherited_unknown_not_evidence_of_no_damage
+richmondvalley:candidate:P014:unresolved,richmondvalley:candidate:P014,,,unknown,unknown,richmond_q3,inherited_unknown_not_evidence_of_no_damage
+richmondvalley:candidate:P015:unresolved,richmondvalley:candidate:P015,,,unknown,unknown,richmond_q3,inherited_unknown_not_evidence_of_no_damage
+lismore:candidate:P016:unresolved,lismore:candidate:P016,,,unknown,unknown,lismore_oc_10052022_att_excluded_direct,inherited_unknown_not_evidence_of_no_damage
+lismore:candidate:P017:unresolved,lismore:candidate:P017,,,unknown,unknown,lismore_oc_10052022_att_excluded_direct,inherited_unknown_not_evidence_of_no_damage
+lismore:candidate:P018:unresolved,lismore:candidate:P018,,,unknown,unknown,lismore_oc_10052022_att_excluded_direct,inherited_unknown_not_evidence_of_no_damage
+lismore:candidate:P019:unresolved,lismore:candidate:P019,,,unknown,unknown,lismore_oc_10052022_att_excluded_direct,inherited_unknown_not_evidence_of_no_damage
+lismore:candidate:P020:unresolved,lismore:candidate:P020,,,unknown,unknown,lismore_oc_10052022_att_excluded_direct,inherited_unknown_not_evidence_of_no_damage
+lismore:candidate:P021:unresolved,lismore:candidate:P021,,,unknown,unknown,lismore_oc_10052022_att_excluded_direct,inherited_unknown_not_evidence_of_no_damage
+lismore:candidate:P022:unresolved,lismore:candidate:P022,,,unknown,unknown,lismore_oc_10052022_att_excluded_direct,inherited_unknown_not_evidence_of_no_damage
+lismore:candidate:P023:unresolved,lismore:candidate:P023,,,unknown,unknown,lismore_oc_10052022_att_excluded_direct,inherited_unknown_not_evidence_of_no_damage
+lismore:candidate:P024:unresolved,lismore:candidate:P024,,,unknown,unknown,lismore_oc_10052022_att_excluded_direct,inherited_unknown_not_evidence_of_no_damage
+lismore:candidate:P025:unresolved,lismore:candidate:P025,,,unknown,unknown,lismore_oc_10052022_att_excluded_direct,inherited_unknown_not_evidence_of_no_damage
+lismore:candidate:P026:unresolved,lismore:candidate:P026,,,unknown,unknown,lismore_oc_10052022_att_excluded_direct,inherited_unknown_not_evidence_of_no_damage
+lismore:candidate:P027:unresolved,lismore:candidate:P027,,,unknown,unknown,lismore_oc_10052022_att_excluded_direct,inherited_unknown_not_evidence_of_no_damage
+waggawagga:job:45049:unresolved,waggawagga:job:45049,,,unknown,unknown,wagga_q2,inherited_unknown_not_evidence_of_no_damage
+waggawagga:job:45109:unresolved,waggawagga:job:45109,,,unknown,unknown,wagga_q2,inherited_unknown_not_evidence_of_no_damage
+eurobodalla:candidate:P030:unresolved,eurobodalla:candidate:P030,,,unknown,unknown,euro_cap_q3,inherited_unknown_not_evidence_of_no_damage
+eurobodalla:candidate:P031:unresolved,eurobodalla:candidate:P031,,,unknown,unknown,euro_cap_q3,inherited_unknown_not_evidence_of_no_damage
+eurobodalla:candidate:P032:unresolved,eurobodalla:candidate:P032,,,unknown,unknown,euro_cap_q3,inherited_unknown_not_evidence_of_no_damage
+snowyvalleys:candidate:bombowlee_land:unknown,snowyvalleys:candidate:bombowlee_land,,,unknown,unknown,snowy_ar2122,no_asset_damage_assessment_in_budget_row_recovery_label_is_not_damage_measure
+snowyvalleys:candidate:tintaldra_culvert:unknown,snowyvalleys:candidate:tintaldra_culvert,,,unknown,unknown,snowy_ar2122,no_asset_damage_assessment_in_budget_row_recovery_label_is_not_damage_measure
+snowyvalleys:candidate:withers_bridge:unknown,snowyvalleys:candidate:withers_bridge,,,unknown,unknown,snowy_ar2122,no_asset_damage_assessment_in_budget_row_recovery_label_is_not_damage_measure
+snowyvalleys:candidate:bombowlee_complex:unknown,snowyvalleys:candidate:bombowlee_complex,,,unknown,unknown,snowy_ar2122,no_asset_damage_assessment_in_budget_row_recovery_label_is_not_damage_measure
+snowyvalleys:candidate:tumbarumba_generator:unknown,snowyvalleys:candidate:tumbarumba_generator,,,unknown,unknown,snowy_ar2122,no_asset_damage_assessment_in_budget_row_recovery_label_is_not_damage_measure
+snowyvalleys:candidate:tumbarumba_solar:unknown,snowyvalleys:candidate:tumbarumba_solar,,,unknown,unknown,snowy_ar2122,no_asset_damage_assessment_in_budget_row_recovery_label_is_not_damage_measure
+snowyvalleys:candidate:khancoban_toilets:unknown,snowyvalleys:candidate:khancoban_toilets,,,unknown,unknown,snowy_ar2122,no_asset_damage_assessment_in_budget_row_recovery_label_is_not_damage_measure
+snowyvalleys:candidate:fitzroy_toilets:unknown,snowyvalleys:candidate:fitzroy_toilets,,,unknown,unknown,snowy_ar2122,no_asset_damage_assessment_in_budget_row_recovery_label_is_not_damage_measure
+snowyvalleys:candidate:ournie_hall:unknown,snowyvalleys:candidate:ournie_hall,,,unknown,unknown,snowy_ar2122,no_asset_damage_assessment_in_budget_row_recovery_label_is_not_damage_measure
+snowyvalleys:candidate:office_refurbishment:unknown,snowyvalleys:candidate:office_refurbishment,,,unknown,unknown,snowy_ar2122,no_asset_damage_assessment_in_budget_row_recovery_label_is_not_damage_measure
+snowyvalleys:candidate:snowview:unknown,snowyvalleys:candidate:snowview,,,unknown,unknown,snowy_ar2122,no_asset_damage_assessment_in_budget_row_recovery_label_is_not_damage_measure
+snowyvalleys:candidate:batlow_caravan:unknown,snowyvalleys:candidate:batlow_caravan,,,unknown,unknown,snowy_ar2122,no_asset_damage_assessment_in_budget_row_recovery_label_is_not_damage_measure
+snowyvalleys:candidate:tumut_aerodrome:unknown,snowyvalleys:candidate:tumut_aerodrome,,,unknown,unknown,snowy_ar2122,no_asset_damage_assessment_in_budget_row_recovery_label_is_not_damage_measure
+ballina:reference:2160:unknown,ballina:reference:2160,,,unknown,unknown,ballina_capital_june2021,No damage determination in capital schedule; no absence inference
+ballina:reference:6532:unknown,ballina:reference:6532,,,unknown,unknown,ballina_capital_june2021,No damage determination in capital schedule; no absence inference
+ballina:reference:4586:unknown,ballina:reference:4586,,,unknown,unknown,ballina_capital_june2021,No damage determination in capital schedule; no absence inference
+ballina:reference:4588:unknown,ballina:reference:4588,,,unknown,unknown,ballina_capital_june2021,No damage determination in capital schedule; no absence inference
+ballina:reference:4589:unknown,ballina:reference:4589,,,unknown,unknown,ballina_capital_june2021,No damage determination in capital schedule; no absence inference
+ballina:reference:4767:unknown,ballina:reference:4767,,,unknown,unknown,ballina_capital_june2021,No damage determination in capital schedule; no absence inference
+ballina:reference:4768:unknown,ballina:reference:4768,,,unknown,unknown,ballina_capital_june2021,No damage determination in capital schedule; no absence inference
+ballina:reference:4769:unknown,ballina:reference:4769,,,unknown,unknown,ballina_capital_june2021,No damage determination in capital schedule; no absence inference
+ballina:reference:4770:unknown,ballina:reference:4770,,,unknown,unknown,ballina_capital_june2021,No damage determination in capital schedule; no absence inference
+ballina:reference:4771:unknown,ballina:reference:4771,,,unknown,unknown,ballina_capital_june2021,No damage determination in capital schedule; no absence inference
+ballina:reference:5488:unknown,ballina:reference:5488,,,unknown,unknown,ballina_capital_june2021,No damage determination in capital schedule; no absence inference
+ballina:reference:6501:unknown,ballina:reference:6501,,,unknown,unknown,ballina_capital_june2021,No damage determination in capital schedule; no absence inference
+ballina:reference:6503:unknown,ballina:reference:6503,,,unknown,unknown,ballina_capital_june2021,No damage determination in capital schedule; no absence inference
+ballina:reference:6531:unknown,ballina:reference:6531,,,unknown,unknown,ballina_capital_june2021,No damage determination in capital schedule; no absence inference
+ballina:reference:6545:unknown,ballina:reference:6545,,,unknown,unknown,ballina_capital_june2021,No damage determination in capital schedule; no absence inference
+ballina:reference:2372:unknown,ballina:reference:2372,,,unknown,unknown,ballina_capital_june2021,No damage determination in capital schedule; no absence inference
+ballina:reference:2544:unknown,ballina:reference:2544,,,unknown,unknown,ballina_capital_june2021,No damage determination in capital schedule; no absence inference

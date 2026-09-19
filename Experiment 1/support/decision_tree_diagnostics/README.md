@@ -1,0 +1,9 @@
+# Fiscal prediction diagnostics
+
+Read `diagnosis.md` first, then the fully executed `02_fiscal_prediction_diagnostics.ipynb` in the AUSSEF root. The original notebook and outputs are preserved. The sole source dataset is `NSW Data Panel.csv`; earlier derived predictions are read only to check exact reproduction.
+
+The notebook reconstructs the same cohorts and conservative forward-year embargo, reproduces the original tree, removes exposure features, and fits one fixed change-target tree plus a mean-change baseline. All preprocessing remains within the training fold. No hyperparameter search, random split, ensemble, or outcome-dependent row removal is used. All models are compared on identical held-out samples per target. These diagnostics reuse previously examined years and are not fresh confirmatory validation.
+
+`diagnostic_fold_metrics.csv` and `diagnostic_pooled_metrics.csv` compare models; `diagnostic_predictions.csv` contains every held-out prediction. `generalisation_gap.csv` compares training and future errors. `exposure_ablation_prediction_difference.csv` checks the effect of removing exposure. `adjustment_decomposition.csv` explains the persistence-to-tree error change. `error_attribution_by_council_year.csv` identifies large errors. `error_concentration.csv`, `year_shift_diagnostics.csv`, `hazard_subgroup_errors.csv`, `model_cohort_missingness.csv`, and `training_test_coverage.csv` audit alternative explanations. `change_target_metrics.csv` reports R² relative to changes rather than fiscal levels. Leaf sizes, used features and cohort exclusion files provide further audit details. The PNG summarises the primary diagnosis.
+
+Percentage-ratio errors are percentage points; cash-cover errors are months. Negative R² is retained. Hazard subgroups overlap and are not causal comparisons. Source defects and omitted mechanisms are limitations, not proven explanations. The original predictive NO-GO remains.

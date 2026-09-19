@@ -1,0 +1,242 @@
+[
+  {
+    "source_id": "hay_2022",
+    "url": "https://www.hay.nsw.gov.au/LinkClick.aspx?fileticket=H1oYw0BKpL8%3D&portalid=0",
+    "path": "sources/hay_2022.pdf",
+    "pages": 110,
+    "sha256": "164935c88ee94767ae7a413d1d4c6da32530addbf16e0673ab9fd7bd2be49e1a",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "coonamble_2022",
+    "url": "https://www.coonambleshire.nsw.gov.au/__media_downloads/annual-reports/2021-2022_2_Coonamble_Shire_Council_Annual_Financial_Statement.pdf",
+    "path": "sources/coonamble_2022.pdf",
+    "pages": 120,
+    "sha256": "bffc7b1212fdb7249ff6210a7c95fe1b275a4a67293752d5c8d22a2ed42b536e",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "brokenhill_2023",
+    "url": "https://www.brokenhill.nsw.gov.au/files/assets/public/v/1/documents/public-notices/annual_financial_statements-2023-final-inclusive-of-audit-reports.pdf",
+    "path": "sources/brokenhill_2023.pdf",
+    "pages": 99,
+    "sha256": "bcbd7b3b182806c2ad59684ea088e378bfe3a9ca4a7f5c0882a61d5f9c518c67",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "murrayriver_3",
+    "url": "https://www.murrayriver.nsw.gov.au/files/assets/public/v/1/documents/financial-statements/mrc-2021-2022-annual-financial-statements.pdf",
+    "path": "sources/murrayriver_3.pdf",
+    "pages": 130,
+    "sha256": "715a3c749cf97fcf4bb2396a50a6def71f99116376e78fa9dae3bf5388debd95",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "murrayriver_4",
+    "url": "https://www.murrayriver.nsw.gov.au/files/assets/public/v/1/documents/financial-statements/2022-2023-murray-river-council-annual-financial-statements.pdf",
+    "path": "sources/murrayriver_4.pdf",
+    "pages": 127,
+    "sha256": "b4de9ff27390638918bb21b62a0e5ef4f8171134f1867028a597bab581d3f0ee",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "murrayriver_5",
+    "url": "https://www.murrayriver.nsw.gov.au/files/assets/public/v/1/documents/ipampr-docs-and-budgets/mrc-annual_financial_statements-2023-2024.pdf",
+    "path": "sources/murrayriver_5.pdf",
+    "pages": 117,
+    "sha256": "e71ab3a8bdec76508f70f50d53414ce576422639a16061bb8024159a36c06ef7",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "murrayriver_6",
+    "url": "https://www.murrayriver.nsw.gov.au/files/assets/public/v/1/documents/ipampr-docs-and-budgets/2025-2026/mrc-annual-financial-statements-2024-2025.pdf",
+    "path": "sources/murrayriver_6.pdf",
+    "pages": 120,
+    "sha256": "e6eaa5a55c867b1fc46165c45c879fa10f8d8239ff9b77a8c435a63f2ecee1c8",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "brewarrina_7",
+    "url": "https://brewarrina.nsw.gov.au/wp-content/uploads/2025/12/Bre_AR_2025_web.pdf",
+    "path": "sources/brewarrina_7.pdf",
+    "pages": 164,
+    "sha256": "c635e2026a334656c1b67ace34ba1359728332d82d563db36e3ad4c2ed383b27",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "brewarrina_8",
+    "url": "https://brewarrina.nsw.gov.au/wp-content/uploads/2024/11/Brewarrina-Shire-Council-Financial-Statements-2023-24-audited.pdf",
+    "path": "sources/brewarrina_8.pdf",
+    "pages": 97,
+    "sha256": "26f1227768b8ca6df8bffeae60a7eccf8924d38076b91ff62a774adb8ac6a5ac",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "brewarrina_9",
+    "url": "https://brewarrina.nsw.gov.au/wp-content/uploads/2024/09/ar_fs2022-23.pdf",
+    "path": "sources/brewarrina_9.pdf",
+    "pages": 100,
+    "sha256": "e2ba11cc84cae6dc488efec001e27dd9f375d61b800d9882765c4a283212badc",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "brewarrina_10",
+    "url": "https://brewarrina.nsw.gov.au/wp-content/uploads/2024/09/3.1-Brewarrina-Shire-Council-Financial-Statements-2021-22.pdf",
+    "path": "sources/brewarrina_10.pdf",
+    "pages": 103,
+    "sha256": "124e17322986705e7ed88ec0ae5a97463a007c4296dc62b57e9a61aa81fecb44",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "brewarrina_11",
+    "url": "https://brewarrina.nsw.gov.au/wp-content/uploads/2024/09/Annual_Financial_Statements-2021_Audited.pdf",
+    "path": "sources/brewarrina_11.pdf",
+    "pages": 102,
+    "sha256": "5b8173958d256752632d732a5f13c24cab8f7546c7fb516ac7d5890dbb94de6a",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "brewarrina_12",
+    "url": "https://brewarrina.nsw.gov.au/wp-content/uploads/2024/10/Financial-Hardship-Policy-2023.pdf",
+    "path": "sources/brewarrina_12.pdf",
+    "pages": 4,
+    "sha256": "d9fc007b00718f590b49fe05d81c6aa1b187f7b7d6a19c623fdfe3af0b6ba49c",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "hilltops_13",
+    "url": "https://www.hilltops.nsw.gov.au/wp-content/uploads/2025/08/Hilltops-Council-Annual-Financial-Statements-2025.pdf",
+    "path": "sources/hilltops_13.pdf",
+    "pages": 112,
+    "sha256": "80d1ddc794f8600628615d2aa0a30275daa1997b2a91655d650ed13d2be11eeb",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "hilltops_14",
+    "url": "https://www.hilltops.nsw.gov.au/wp-content/uploads/2024/10/Annual_Financial_Statements-2023-2024.pdf",
+    "path": "sources/hilltops_14.pdf",
+    "pages": 128,
+    "sha256": "8009d605a87117ec5e3a8c8495e0888beb6215be5f517cf984cfd01087eb4896",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "hilltops_15",
+    "url": "https://www.hilltops.nsw.gov.au/wp-content/uploads/2024/10/Annual_Financial_Statements-2023-2024.pdf",
+    "path": "sources/hilltops_15.pdf",
+    "pages": 128,
+    "sha256": "8009d605a87117ec5e3a8c8495e0888beb6215be5f517cf984cfd01087eb4896",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "hilltops_16",
+    "url": "https://www.hilltops.nsw.gov.au/wp-content/uploads/2024/03/Annual-Financial-Statements-2022-2023.pdf",
+    "path": "sources/hilltops_16.pdf",
+    "pages": 128,
+    "sha256": "cc85be4a80fdfe53347a27bf8b4952095907793745b6e1fe841d9963895bd5f5",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "hilltops_17",
+    "url": "https://www.hilltops.nsw.gov.au/wp-content/uploads/2024/03/Annual-Financial-Statements-2022-2023.pdf",
+    "path": "sources/hilltops_17.pdf",
+    "pages": 128,
+    "sha256": "cc85be4a80fdfe53347a27bf8b4952095907793745b6e1fe841d9963895bd5f5",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "hilltops_18",
+    "url": "https://www.hilltops.nsw.gov.au/wp-content/uploads/2023/03/Annual_Financial_Statements-2021-2022.pdf",
+    "path": "sources/hilltops_18.pdf",
+    "pages": 127,
+    "sha256": "8b14f944abf0f69deed09e5637562c0fd03a629d90dec700cbadc6b316d3e323",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "hilltops_19",
+    "url": "https://www.hilltops.nsw.gov.au/wp-content/uploads/2023/03/Annual_Financial_Statements-2021-2022.pdf",
+    "path": "sources/hilltops_19.pdf",
+    "pages": 127,
+    "sha256": "8b14f944abf0f69deed09e5637562c0fd03a629d90dec700cbadc6b316d3e323",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "hilltops_20",
+    "url": "https://www.hilltops.nsw.gov.au/wp-content/uploads/2021/12/Hilltops-Council-Financial_Statements-2020_2021.pdf",
+    "path": "sources/hilltops_20.pdf",
+    "pages": 125,
+    "sha256": "6a358d6b521ae63658593ef384592f6e74a8dbc3521c251766291f55c5ed6b5f",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "hilltops_21",
+    "url": "https://www.hilltops.nsw.gov.au/wp-content/uploads/2021/12/Hilltops-Council-Financial_Statements-2020_2021.pdf",
+    "path": "sources/hilltops_21.pdf",
+    "pages": 125,
+    "sha256": "6a358d6b521ae63658593ef384592f6e74a8dbc3521c251766291f55c5ed6b5f",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "hilltops_22",
+    "url": "https://www.hilltops.nsw.gov.au/wp-content/uploads/2021/07/Annual_Financial_Statements-2020.pdf",
+    "path": "sources/hilltops_22.pdf",
+    "pages": 134,
+    "sha256": "43c5fbf07e4d0a9d3cbc50580e636118c3fb6b529e0bfda3c0ca19bd2b4a263b",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "hilltops_23",
+    "url": "https://www.hilltops.nsw.gov.au/wp-content/uploads/2021/07/Annual_Financial_Statements-2020.pdf",
+    "path": "sources/hilltops_23.pdf",
+    "pages": 134,
+    "sha256": "43c5fbf07e4d0a9d3cbc50580e636118c3fb6b529e0bfda3c0ca19bd2b4a263b",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "hilltops_24",
+    "url": "https://www.hilltops.nsw.gov.au/wp-content/uploads/2021/07/Hilltops-Council-Annual_Financial_Statements-2019-3-in-1-1-May-2020-all.pdf",
+    "path": "sources/hilltops_24.pdf",
+    "pages": 120,
+    "sha256": "71a71db22c197cbf6112806166819e6eda6605b794995eb491e5872995d18f3c",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "hilltops_25",
+    "url": "https://www.hilltops.nsw.gov.au/wp-content/uploads/2021/07/Hilltops-Council-Annual_Financial_Statements-2019-3-in-1-1-May-2020-all.pdf",
+    "path": "sources/hilltops_25.pdf",
+    "pages": 120,
+    "sha256": "71a71db22c197cbf6112806166819e6eda6605b794995eb491e5872995d18f3c",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "hilltops_26",
+    "url": "https://www.hilltops.nsw.gov.au/wp-content/uploads/2021/07/Annual-Financial-Statements-2017-18-Hilltops-Council-2.pdf",
+    "path": "sources/hilltops_26.pdf",
+    "pages": 131,
+    "sha256": "60a9cfecec2b93556af45aa0d5e628d4516641a94d4bc4e965c0cc419ddaae1d",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "hilltops_27",
+    "url": "https://www.hilltops.nsw.gov.au/wp-content/uploads/2021/07/Annual-Financial-Statements-2017-18-Hilltops-Council-2.pdf",
+    "path": "sources/hilltops_27.pdf",
+    "pages": 131,
+    "sha256": "60a9cfecec2b93556af45aa0d5e628d4516641a94d4bc4e965c0cc419ddaae1d",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "hilltops_28",
+    "url": "https://www.hilltops.nsw.gov.au/wp-content/uploads/2021/07/Annual-Financial-Statements-YE-1617-Hilltops-Council.pdf",
+    "path": "sources/hilltops_28.pdf",
+    "pages": 125,
+    "sha256": "5712c2910a016f9aca50e4d696d51cb200893a4b445b7d8fa744d726709ecc8e",
+    "status": "retrieved"
+  },
+  {
+    "source_id": "hilltops_29",
+    "url": "https://www.hilltops.nsw.gov.au/wp-content/uploads/2021/07/Annual-Financial-Statements-YE-1617-Hilltops-Council.pdf",
+    "path": "sources/hilltops_29.pdf",
+    "pages": 125,
+    "sha256": "5712c2910a016f9aca50e4d696d51cb200893a4b445b7d8fa744d726709ecc8e",
+    "status": "retrieved"
+  }
+]
