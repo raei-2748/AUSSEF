@@ -1,0 +1,18 @@
+stages:
+  export-parquet:
+    cmd: uv run python scripts/export_parquet.py
+    deps:
+      - data/aussef.duckdb
+      - scripts/export_parquet.py
+    outs:
+      - data/parquet
+  validate-stack:
+    cmd: uv run python scripts/validate_stack.py --write-report
+    deps:
+      - data/aussef.duckdb
+      - data/parquet/manifest.json
+      - schemas/canonical.py
+      - scripts/validate_stack.py
+    outs:
+      - data/checks/stack_validation.json:
+          cache: false

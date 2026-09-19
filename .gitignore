@@ -2,6 +2,13 @@
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
+.venv/
+_site/
+_freeze/
+reports/stack_smoke.html
+reports/stack_smoke_files/
+data/checks/stack_validation.json
+data/parquet/
 
 # The canonical database is data/aussef.duckdb. Preserve older local stores
 # without accidentally staging them as additional database targets.
@@ -16,3 +23,6 @@ aussef_duckdb/source_tables/evidence_master_expanded.csv
 
 # Generated graph output is kept in the repository for this snapshot.
 # Future rebuilds may create additional cache files here.
+
+/.quarto/
+**/*.quarto_ipynb

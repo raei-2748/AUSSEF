@@ -1,0 +1,24 @@
+[project]
+name = "aussef-research"
+version = "0.1.0"
+description = "Reproducible data and research stack for AUSSEF"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+  "duckdb==1.5.5",
+  "pandas>=2.2,<3",
+  "pyarrow>=18,<25",
+  "geopandas>=1.0,<2",
+  "pyogrio>=0.10,<1",
+  "shapely>=2.0,<3",
+  "pandera[pandas]>=0.26,<1",
+  "dvc>=3.67,<4",
+  "jupyter>=1.1,<2",
+  "jupyterlab>=4.4,<5",
+  "ipykernel>=6.29,<7",
+  "nbformat>=5.10,<6",
+  "pytest>=8,<9",
+]
+
+[tool.uv]
+package = false
+python-preference = "only-system"

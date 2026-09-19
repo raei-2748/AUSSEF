@@ -1,0 +1,45 @@
+schema: '2.0'
+stages:
+  export-parquet:
+    cmd: uv run python scripts/export_parquet.py
+    deps:
+    - path: data/aussef.duckdb
+      hash: md5
+      md5: 1780f16bef9d37113aa660ea79b5c11a
+      size: 13643776
+    - path: scripts/export_parquet.py
+      hash: md5
+      md5: dc7ea41f6378b765f6cfbb510ea3e4e2
+      size: 6233
+      isexec: true
+    outs:
+    - path: data/parquet
+      hash: md5
+      md5: 61983a0f4356eed540f57effc741d61a.dir
+      size: 13522544
+      nfiles: 40
+  validate-stack:
+    cmd: uv run python scripts/validate_stack.py --write-report
+    deps:
+    - path: data/aussef.duckdb
+      hash: md5
+      md5: 1780f16bef9d37113aa660ea79b5c11a
+      size: 13643776
+    - path: data/parquet/manifest.json
+      hash: md5
+      md5: d15aaf6f353f04adba73766a9f42182a
+      size: 12115
+    - path: schemas/canonical.py
+      hash: md5
+      md5: bb9dec760dd2a253d1f771dad4b23325
+      size: 3612
+    - path: scripts/validate_stack.py
+      hash: md5
+      md5: 5516133c757d1ef747bf4aa20348cbd8
+      size: 10713
+      isexec: true
+    outs:
+    - path: data/checks/stack_validation.json
+      hash: md5
+      md5: c19de97bd6b076ee1ff33c497d02f8b7
+      size: 1874

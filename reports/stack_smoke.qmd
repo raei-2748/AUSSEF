@@ -1,0 +1,38 @@
+---
+title: "AUSSEF research stack smoke test"
+format:
+  html:
+    toc: false
+jupyter: python3
+---
+
+This small report reads the canonical database through DuckDB, loads the
+Spatial extension, and checks that the Parquet export is available.
+
+```{python}
+from pathlib import Path
+
+import duckdb
+import pyarrow.parquet as pq
+
+ROOT = Path.cwd()
+db_path = ROOT / "data" / "aussef.duckdb"
+parquet_path = ROOT / "data" / "parquet" / "master" / "councils.parquet"
+
+con = duckdb.connect(str(db_path), read_only=True)
+con.execute("LOAD spatial")
+councils = con.execute("SELECT COUNT(*) FROM master.councils").fetchone()[0]
+duckdb_version = con.execute("PRAGMA version").fetchone()[0]
+spatial_loaded = con.execute(
+    "SELECT loaded FROM duckdb_extensions() WHERE extension_name = 'spatial'"
+).fetchone()[0]
+parquet_rows = pq.ParquetFile(parquet_path).metadata.num_rows
+con.close()
+
+print({
+    "council_rows_in_duckdb": councils,
+    "council_rows_in_parquet": parquet_rows,
+    "duckdb_version": duckdb_version,
+    "spatial_loaded": spatial_loaded,
+})
+```

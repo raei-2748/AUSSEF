@@ -29,3 +29,23 @@ Stable keys are deterministic and source-bounded:
 The expanded evidence register is available as `master.evidence_records` and the view `experiments.experiment_4_evidence_register`. Its 244 rows are preserved with exact-only council/project resolution; unresolved project references remain unresolved, and the source `model_ready` values are not promoted.
 
 The former SQLite stores and any local legacy model bundle are preserved as historical files. They are not canonical build targets. No data is deleted by this consolidation.
+
+## Research stack
+
+Set up DuckDB Spatial, Parquet/GeoParquet, Pandera, DVC, Jupyter, GeoPandas,
+PyArrow, DBeaver Community and Quarto with:
+
+```bash
+bash scripts/setup_research_stack.sh
+```
+
+Generate the additive Parquet derivatives and validate them with:
+
+```bash
+uv run python scripts/export_parquet.py
+uv run python scripts/validate_stack.py --write-report
+```
+
+The DVC pipeline is defined in [`dvc.yaml`](../dvc.yaml). It tracks the
+generated Parquet tree and validation receipt while leaving this canonical
+DuckDB file and all existing inputs/results in place.
