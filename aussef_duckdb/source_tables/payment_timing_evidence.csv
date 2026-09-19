@@ -1,0 +1,6 @@
+council,date_lower,date_upper,amount_aud,agrn,precision,kind,source,pdf_page
+Shoalhaven,2022-03-01,2022-03-31,5000000.0,1012.0,month,reported advance receipt,shoalhaven_20240311.pdf,56
+Shoalhaven,2023-09-01,2023-09-30,25400000.0,,month,reported prepayment; mixed components require disaggregation,shoalhaven_20240311.pdf,56
+Shoalhaven,2023-11-01,2023-11-30,15528703.68,,month,reported advance receipt,shoalhaven_20240311.pdf,56
+Weddin,2024-06-30,2024-06-30,,,day,reported upfront milestone receipt; amount not extracted,weddin_state.pdf,47
+Lismore,2023-07-01,2024-06-30,86000000.0,,financial year,restricted road disaster advance received during FY,lismore_2024.pdf,28

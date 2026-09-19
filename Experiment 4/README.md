@@ -11,6 +11,7 @@ This is the current pilot. It reconstructs original budgets, Q1–Q3 revisions a
 - [Pilot report](results/PILOT_REPORT.md)
 - [Rebuild code](code/rebuild_evidence.py)
 - [Audit](audit/)
+- [Evidence data and canonical DuckDB](data/README.md#duckdb-snapshot)
 
 Quarterly revisions are partly recoverable, but no fixed ordinary portfolio has a matched year-end actual. The modelling table is intentionally empty and no final model has been fitted.
 

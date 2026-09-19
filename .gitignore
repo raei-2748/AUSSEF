@@ -3,5 +3,16 @@ __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 
+# The canonical database is data/aussef.duckdb. Preserve older local stores
+# without accidentally staging them as additional database targets.
+data/.aussef.duckdb.building
+Experiment 4/data/experiment4.duckdb
+aussef_duckdb/aussef_model.duckdb
+aussef_duckdb/parquet/
+aussef_duckdb/checks/
+aussef_duckdb/build_duckdb.py
+aussef_duckdb/README.md
+aussef_duckdb/source_tables/evidence_master_expanded.csv
+
 # Generated graph output is kept in the repository for this snapshot.
 # Future rebuilds may create additional cache files here.

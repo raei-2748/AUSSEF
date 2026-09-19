@@ -6,7 +6,7 @@ Status: collection in progress; **not model-ready**. No model fitted.
 
 Current extension status and updated counts: [EXTENSION_STATUS.md](EXTENSION_STATUS.md). The initial-build description below is retained; run both build and extension scripts to reproduce the current store.
 
-`experiment4.sqlite` and the matching CSV files hold the canonical candidate records. All imported raw documents and previous experiment outputs remain untouched. The initial register is a selected evidence sample, not a census of ordinary projects. It contains bundled programs as well as project candidates; `unit_status` prevents treating these as certified independent projects.
+`experiment4.sqlite` and the matching CSV files hold the preserved legacy candidate records. The canonical unified database is documented below. All imported raw documents and previous experiment outputs remain untouched. The initial register is a selected evidence sample, not a census of ordinary projects. It contains bundled programs as well as project candidates; `unit_status` prevents treating these as certified independent projects.
 
 ## Tables and keys
 
@@ -32,9 +32,21 @@ The `field_gaps.csv` lists 283 specific missing or uncertified fields for curren
 
 Wagga's 2021–22 adopted LTFP, printed/PDF page 66, lists job 45049 (Treatment of Re-use Water) with $331,341 in **2021/22 Pending**, with the confirmed cell blank. This was checked against a rendered page. It must not become a confirmed original funded allocation. The later December review's $359,030 before-revision figure therefore does not establish the original adopted budget. The finding is retained in `project_evidence`, not silently joined into B0.
 
-## Rebuild and validation
+## DuckDB snapshot
 
-Run `python3 build_candidate_store.py /path/to/new/output-folder`. It uses only the Python standard library and reads the inherited evidence and locally stored new PDF. Existing databases are not overwritten. SQLite enforces primary keys, snapshot uniqueness and foreign keys. `validation.json` records counts, integrity and the original source CSV hash. Five project-stage budget levels are currently observed; zero complete certified ordinary chains exist.
+`evidence_master_expanded.csv` is the newly filed source register. The canonical database is [`data/aussef.duckdb`](../../data/aussef.duckdb), documented in [`data/README.md`](../../data/README.md). Its `master.evidence_records` table contains all 244 source rows, and `experiments.experiment_4_evidence_register` exposes the experiment-facing view.
+
+The expanded evidence is retained with exact-only council/project resolution. It is not converted into outcomes, joined by fuzzy project names or marked model-ready. The existing `experiment4.sqlite` and its CSV exports remain untouched as historical candidate-store files; they are not canonical build targets.
+
+Rebuild the canonical DuckDB from the repository root with:
+
+```text
+python3 data/build_aussef_duckdb.py
+```
+
+## Preserved legacy validation
+
+`build_candidate_store.py` and `experiment4.sqlite` are retained for historical traceability only. They are not used by, or rebuilt as part of, the canonical DuckDB model. The canonical rebuild command is `python3 data/build_aussef_duckdb.py` from the repository root. Five project-stage budget levels are currently observed; zero complete certified ordinary chains exist.
 
 ## Next collection actions
 

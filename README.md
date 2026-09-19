@@ -4,16 +4,18 @@ Research on disasters, local-government finance and infrastructure in New South 
 
 ## Start here
 
+- [Canonical data model](data/README.md)
 - [Experiment 1 — fiscal forecasting](Experiment%201/README.md)
 - [Experiment 2 — longer matched history](Experiment%202/README.md)
 - [Experiment 3 — crowd-out measurement](Experiment%203/README.md)
 - [Experiment 4 — quarterly budget revisions](Experiment%204/README.md)
 
-Each experiment has one notebook, one entry script where applicable, and its own data, audits and results.
+Each experiment retains its notebook, code, audits and results. Cleaned structured data is consolidated in the canonical DuckDB model under `data/`.
 
 ## Repository map
 
 ```text
+data/                canonical DuckDB model and build receipt
 NSW Data Panel.csv   frozen source panel
 Experiment 1/        first forecasting test
 Experiment 2/        extended panel and exposure construction
