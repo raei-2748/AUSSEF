@@ -19,7 +19,7 @@ Start with [the feasibility report](FEASIBILITY_REPORT.md), then [the notebook](
 | source_provenance.csv/json; sources/ | Official URLs, access dates, cached files and hashes; unsuccessful access retained |
 | DATA_DICTIONARY.md | Units, missingness and identifiers |
 | figures/ | Descriptive audit figures, not model results |
-| build_audit.py; qao_capacity_transcription.csv; case_evidence.json | One rebuild helper and source-checked manual inputs |
+| [../code/build_audit.py](../code/build_audit.py); qao_capacity_transcription.csv; case_evidence.json | One rebuild helper and source-checked manual inputs |
 | validation_checks.json; frozen_existing_sha256.json | Counts and preservation of all 962 pre-existing files |
 
 Reproduce: run the notebook from the repository root with Python containing pandas, numpy, matplotlib, beautifulsoup4, nbformat and nbclient. The notebook rebuilds only this experiment’s derived tables/figures from the cached official sources and manually checked transcriptions; it makes no network requests. The helper first checks frozen-file hashes. Original source downloads are not refreshed on rerun. The manual inputs remain auditable against the cited PDF pages.

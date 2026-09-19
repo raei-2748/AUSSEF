@@ -28,6 +28,6 @@ Start with [the short notebook](../experiment.ipynb), [its browser preview](note
 
 ## Reproduce
 
-Open the notebook from within AUSSEF and run all cells. It calls `build_workflow.py`, which rebuilds only Experiment 3 tables/figures from cached evidence. It does not download new files or fit models. The pre-event screen is in `screen_comparisons.py`; curated observations are in `curated_evidence.json`. `acquire_sources.py` is the optional acquisition helper; its URL-list input is `source_provenance.json`. Dependencies: pandas, numpy, matplotlib, nbformat, nbclient, IPython, requests, beautifulsoup4 and pypdf.
+Open the notebook from within AUSSEF and run all cells. It calls [`code/build_workflow.py`](../code/build_workflow.py), which rebuilds only Experiment 3 tables/figures from cached evidence. It does not download new files or fit models. The pre-event screen is in [`code/screen_comparisons.py`](../code/screen_comparisons.py); curated observations are in `curated_evidence.json`. [`code/acquire_sources.py`](../code/acquire_sources.py) is the optional acquisition helper; its URL-list input is `source_provenance.json`. Dependencies: pandas, numpy, matplotlib, nbformat, nbclient, IPython, requests, beautifulsoup4 and pypdf.
 
 Experiments 1 and 2, the original CSV and all 623 files present before this task are hash-protected. The repository index is deliberately not refreshed, because that would overwrite an existing output contrary to this request. The new workflow has no dependency on changing older files.

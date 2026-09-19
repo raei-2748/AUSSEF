@@ -1,0 +1,7 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Generated graph output is kept in the repository for this snapshot.
+# Future rebuilds may create additional cache files here.

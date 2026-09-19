@@ -22,7 +22,7 @@ The primary input is a byte-identical copy of the user's 11 August 2026 CSV in `
 
 ## Reproduce
 
-Run the notebook from AUSSEF. It runs `build_audit.py` against the immutable copied input, read-only V2 panel and curated JSON evidence/catalogues. No network access, model fitting, imputation or previous-experiment regeneration occurs. The script checks original hashes before and after running. Cached official documents and extraction files are in `sources/`; blocked documents are identified in provenance and the report. Dependencies: Python, pandas, numpy, matplotlib, nbformat, nbclient and IPython. There is intentionally no `statistical_results.csv`.
+Run the notebook from AUSSEF. It runs [`../code/build_audit.py`](../code/build_audit.py) against the immutable copied input, read-only V2 panel and curated JSON evidence/catalogues. No network access, model fitting, imputation or previous-experiment regeneration occurs. The script checks original hashes before and after running. Cached official documents and extraction files are in `sources/`; blocked documents are identified in provenance and the report. Dependencies: Python, pandas, numpy, matplotlib, nbformat, nbclient and IPython. There is intentionally no `statistical_results.csv`.
 
 ## Interpretation
 

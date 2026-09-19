@@ -36,7 +36,7 @@ def digest(p): return hashlib.sha256(p.read_bytes()).hexdigest()
 # Graphify is an index maintained by repository instructions, not a research input/output.
 frozen = {str(p.relative_to(ROOT)):digest(p) for p in ROOT.rglob('*')
           if p.is_file() and OUT not in p.parents and p != NOTEBOOK
-          and 'graphify-out' not in p.relative_to(ROOT).parts and '__pycache__' not in p.parts}
+          and 'generated' not in p.relative_to(ROOT).parts and '__pycache__' not in p.parts}
 
 TARGETS = {'operating_ratio_pct':'percentage points', 'cash_cover_months':'months',
            'maintenance_ratio_pct':'percentage points'}

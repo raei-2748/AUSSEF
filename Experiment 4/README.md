@@ -1,16 +1,20 @@
-# Experiment 4 — Quarterly budget reallocation pilot
+# Experiment 4 — quarterly budget revisions
 
-This is the current Experiment 4. It reconstructs original budget, Q1/Q2/Q3 revisions and year-end actuals where available for Lismore, Richmond Valley, Eurobodalla and screened comparison councils, aligned to disaster timing.
+**Status:** NO-GO for causal modelling; conditional continuation for targeted data collection.
 
-Start with the [current handover](HANDOVER.md) for the latest coverage, blockers and minimum data request.
+This is the current pilot. It reconstructs original budgets, Q1–Q3 revisions and year-end actuals where available, then checks whether the records identify ordinary infrastructure reallocation after disaster events.
 
-Start with [experiment.ipynb](experiment.ipynb) and the [pilot report](results/PILOT_REPORT.md). The [audit](audit/) documents what the repository supported before the focused reconstruction.
+## Open
 
-The `related/` folder preserves two earlier access-to-funding feasibility studies:
+- [Notebook](experiment.ipynb)
+- [Current status and handover](STATUS.md)
+- [Pilot report](results/PILOT_REPORT.md)
+- [Rebuild code](code/rebuild_evidence.py)
+- [Audit](audit/)
+
+Quarterly revisions are partly recoverable, but no fixed ordinary portfolio has a matched year-end actual. The modelling table is intentionally empty and no final model has been fitted.
+
+## Preserved related studies
 
 - [NSW funding access](related/funding_access/)
 - [Queensland Betterment Fund access](related/betterment_access/)
-
-They are retained as related studies rather than additional numbered experiments.
-
-**Current verdict:** quarterly revisions are partly recoverable, but the pilot has no certified fixed ordinary portfolio with a matched year-end actual. The cleaned modelling table is therefore intentionally empty, and no final model has been fitted.

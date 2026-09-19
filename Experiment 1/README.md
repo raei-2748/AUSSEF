@@ -1,11 +1,19 @@
-# Experiment 1
+# Experiment 1 — fiscal forecasting
 
-Start with [experiment.ipynb](experiment.ipynb) or its [browser preview](results/notebook_preview.html).
+**Status:** NO-GO for predictive escalation.
 
-The original shallow tree does not beat persistence for operating performance. The primary evaluation covers three future years and 370 council-year predictions; the tree MAE is 7.400 versus 6.938 percentage points for persistence.
+Can pre-disaster fiscal condition and disaster exposure predict a council's next-year fiscal condition? In the primary test, the shallow tree did not beat persistence: MAE was 7.400 versus 6.938 percentage points across 370 held-out council-years.
 
-- `run_experiment.py` — complete original forecasting implementation; refitting is optional.
-- `results/` — metrics, predictions, figures and detailed interpretation.
-- `support/` — archived notebooks and earlier diagnostics and accounting audits.
+## Open
 
-The short notebook is a results walkthrough: it reads saved CSVs and plots them. Execute the script to regenerate model outputs. The research design and saved model results have not changed during this cleanup.
+- [Notebook](experiment.ipynb)
+- [Saved results](results/README.md)
+- [Browser preview](results/notebook_preview.html)
+- [Run script](run_experiment.py)
+
+## Folders
+
+- `results/` — saved metrics, predictions and figures.
+- `audit/` — diagnostics, accounting checks and preserved source evidence.
+
+The notebook reads saved results. Running the script refits the original specification; it does not change the research conclusion.

@@ -21,6 +21,6 @@ Lismore/Richmond Valley/Wagga: FY2021–22. Eurobodalla/Griffith: FY2019–20.
 Nominal AUD unless explicitly labelled millions. Annual accounts' AUD thousands converted ×1000.
 Lismore unit/year conflicts remain quarantined. Griffith “Ordinary Services” is a fund name.
 Quarter end is not approval/publication date. Rows share council/event dependence.
-Run reproduce.py with Python, pandas, numpy and matplotlib, or run the short notebook.
+Run [`../code/reproduce.py`](../code/reproduce.py) with Python, pandas, numpy and matplotlib, or run the short notebook.
 The helper rebuilds checks and descriptive outputs offline; it does not download or fit models.
 Existing experiments and NSW Data Panel.csv are read-only and hash-verified.

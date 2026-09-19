@@ -1,7 +1,13 @@
-# Experiment 3 — Infrastructure crowd-out feasibility
+# Experiment 3 — crowd-out measurement
 
-This experiment tests whether existing public records can measure a defensible chain from a pre-disaster ordinary infrastructure budget to post-disaster spending and deferral outcomes.
+**Status:** Feasibility study; no model fitted.
 
-Start with [experiment.ipynb](experiment.ipynb). Detailed measurement findings, source records, cleaned tables and figures are in [results/](results/).
+Can public records measure whether disasters crowd out planned ordinary infrastructure spending? The current records do not provide a consistent, project-linked ordinary-infrastructure outcome suitable for causal modelling. Missing values and unverified scope remain explicit.
 
-**Current verdict:** the available records do not yet provide a consistent, project-linked ordinary infrastructure outcome suitable for causal modelling. Missing values and unverified scope remain explicit rather than being treated as zero.
+## Open
+
+- [Notebook](experiment.ipynb)
+- [Results and measurement report](results/README.md)
+- [Code](code/)
+
+`results/` contains the saved evidence ledgers, candidate panel and figures. `code/` contains the rebuild and screening helpers.
