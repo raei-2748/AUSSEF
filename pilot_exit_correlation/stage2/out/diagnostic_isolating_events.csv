@@ -1,0 +1,47 @@
+part,town,population,exits,event_id,share_of_town_inside_fire
+A,Batemans Bay,12263,5,DF_c65d27d344ed2b65,0.213
+A,Ulladulla,14396,3,DF_c65d27d344ed2b65,0.001
+A,Batlow,1022,3,DF_eb998975bfde99b9,0.167
+A,Buxton (NSW),1741,3,DF_0e5c7670677aa724,0.136
+A,Hallidays Point - Black Head,1106,2,DF_771fb41f1d1e3e74,0.271
+A,Malua Bay,2372,3,DF_c65d27d344ed2b65,0.272
+A,Milton,1538,3,DF_c65d27d344ed2b65,0.021
+A,Moruya,2762,4,DF_c65d27d344ed2b65,0.001
+A,Sussex Inlet,3659,2,DF_c65d27d344ed2b65,0.029
+A,Bawley Point (L),716,2,DF_c65d27d344ed2b65,0.0
+A,Berrara - Cudmirrah (L),612,2,DF_c65d27d344ed2b65,0.099
+A,Diamond Beach (L),1012,2,DF_771fb41f1d1e3e74,0.126
+A,Hallidays Point - West (L),500,2,DF_771fb41f1d1e3e74,0.433
+A,Lake Tabourie (L),670,2,DF_c65d27d344ed2b65,0.115
+A,Red Head (L),798,2,DF_771fb41f1d1e3e74,0.0
+A,Tallwoods Village (L),993,2,DF_771fb41f1d1e3e74,0.012
+A,Balmoral (L),365,2,DF_0e5c7670677aa724,1.0
+A,Cobargo (L),417,4,DF_c65d27d344ed2b65,0.33
+A,Kioloa (L),284,2,DF_c65d27d344ed2b65,0.151
+A,Mogo (L),249,4,DF_c65d27d344ed2b65,0.877
+A,Nelligen (L),245,4,DF_c65d27d344ed2b65,0.117
+A,Rosedale - Guerilla Bay (L),283,3,DF_c65d27d344ed2b65,0.42
+B,St Georges Basin - Sanctuary Point,11000,4,HB_004179,0.007
+B,Basin View,1583,4,HB_004179,0.0
+B,Evans Head,2894,2,HB_004523,0.205
+B,Hill Top,2262,2,HB_000574,0.555
+B,Old Erowal Bay,1719,2,HB_004179,0.0
+B,Smiths Lake,1332,2,HB_000566,0.056
+B,Sussex Inlet,3659,2,HB_004179,0.333
+B,Vincentia,2705,2,HB_004179,0.011
+B,Vincentia West,1162,3,HB_004179,0.565
+B,Berrara - Cudmirrah (L),612,2,HB_004179,0.114
+B,Catherine Hill Bay (L),820,2,HB_009122,0.847
+B,Cowan (L),599,2,HB_001675,1.0
+B,Huskisson (L),825,3,HB_004179,0.083
+B,Lake Tabourie (L),670,2,HB_007759,0.005
+B,Medlow Bath (L),556,2,HB_004614,0.499
+B,Nords Wharf (L),895,3,HB_009122,0.479
+B,Yanderra (L),702,5,HB_000574,1.0
+B,Yerrinbool (L),974,2,HB_009111,0.0
+B,Abernethy (L),255,2,HB_004625,1.0
+B,Falls Creek (L) (NSW),258,4,HB_004179,0.615
+B,Sutton (L),284,3,HB_001040,0.586
+B,Thredbo Village (L),400,2,HB_004979,0.098
+B,Tingha (L),445,4,HB_011036,0.256
+B,Tomerong (L),388,3,HB_004179,1.0
