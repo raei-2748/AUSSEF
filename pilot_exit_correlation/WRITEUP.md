@@ -75,6 +75,7 @@ seeing results are logged as deviations.
 | 6 | Public finance: do councils with cut-off towns have less own revenue? | median own-source share 68.0% vs 62.0% (10 vs 72 councils) | difference +6.0 pp (0.9 to 15.0) | NOT SUPPORTED: opposite direction |
 | 7 | Social: are cut-off towns older (% aged 65+)? | median 27.7% vs 23.1% (43 vs 418 towns) | difference +4.6 pp (−0.002 to 7.0) | NOT SUPPORTED (borderline) |
 | 8 | Socioeconomic change 2016→2021: Black Summer cut-off vs burned-only towns (exploratory) | median population growth 10.3% vs 4.2% (19 vs 119 towns) | difference +6.1 pp (2.2 to 12.7) | "BETTER": most likely coastal growth, not an effect of being cut off |
+| 9 | Does the published count-based exit measure find the towns fire cuts off? | no NSW town with 4+ counted exits ever cut off; only 5 towns reach the 6-exit threshold | — | NOT EVALUABLE at the published threshold; 15 towns with ≥3 roads out were still fully cut off |
 
 \*Stage 4 was designed after seeing stage 3's timing table, so it is supporting evidence, not independent confirmation.
 
@@ -119,6 +120,13 @@ cut-offs happened. The Home Affairs corridor records were too coarse to place: o
 - The fast growers are coastal towns and new estates (Red Head +55%, Tallwoods Village +41%) during a period of strong coastal and COVID-era migration.
 - Cut-off inland or heavily damaged towns barely grew or shrank (Batlow +0.1%, Mogo −1.6%).
 - This most likely reflects location, not a benefit of being cut off. Separating the two would need a 2011–2016 pre-trend or a coastal-only comparison.
+
+**The published standard, and who pays (stage 9).**
+- Fong et al. (PNAS 2026) rate evacuation safety by counting exit roads, with risk flattening near six. Applied to NSW, that count does track risk in the right direction: no town with 4 or more counted exits has ever been fully cut off, and none with 6 or more independent network routes.
+- But the six-exit threshold cannot be used here: only 5 of 461 NSW towns reach it, so the pre-registered comparison at that threshold is NOT EVALUABLE.
+- Counting roads out without the method's "divide by two" step, **15 towns with 3 or more roads out were still completely cut off**. **50,638 people live in them, including 15,954 aged 65+ and 4,405 who need help with everyday activities.** They are mostly South Coast towns: Ulladulla, Batemans Bay, St Georges Basin, Moruya.
+- **49% of those towns' exit-route length, and 53% of the exit road that actually burned, is State-owned** (NSW Government), against 38.8% of exit length across all towns. Councils hold the local roads and the local rate base; the State holds most of the roads that fail.
+- Indicative maintenance-equivalent scale of the burned exit roads: about $6.9 million a year across 4 councils. Exploratory only.
 
 ## 5. Discussion
 
@@ -174,3 +182,6 @@ Git history:
 | `b52d066` | Stage 7 pre-registration |
 | `19b9502` | Stage 7 |
 | `57e3835` | Stage 8 pre-registration |
+| `01b6852` | Stage 8 |
+| `ef4642f` | Stage 9 pre-registration |
+| `a4d5f96` | Stage 9 |
