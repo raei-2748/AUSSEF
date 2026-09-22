@@ -73,6 +73,7 @@ seeing results are logged as deviations.
 | 4 | Satellite: all exits reached within 12 h, within 5 km of town* | 11 vs 1.3 | 8.4 (1.9–14.4) | PASS |
 | 5 | Official closure records (descriptive) | 0 of 22 cut-offs with every exit recorded closed on one day | — | no verdict |
 | 6 | Public finance: do councils with cut-off towns have less own revenue? | median own-source share 68.0% vs 62.0% (10 vs 72 councils) | difference +6.0 pp (0.9 to 15.0) | NOT SUPPORTED: opposite direction |
+| 7 | Social: are cut-off towns older (% aged 65+)? | median 27.7% vs 23.1% (43 vs 418 towns) | difference +4.6 pp (−0.002 to 7.0) | NOT SUPPORTED (borderline) |
 
 \*Stage 4 was designed after seeing stage 3's timing table, so it is supporting evidence, not independent confirmation.
 
@@ -102,6 +103,14 @@ cut-offs happened. The Home Affairs corridor records were too coarse to place: o
 - Compared only with councils whose towns were touched by fire but never cut off, the difference was small and not clear (+2.1, CI −2.4 to 11.7).
 - Exposed councils are mostly coastal and peri-urban (Shoalhaven, Eurobodalla, Lake Macquarie, Wingecarribee, Blue Mountains), with large rate bases. They manage far fewer road kilometres per resident (median 21 vs 128 per 1,000).
 - The risk sits in councils that can raise their own money, not in the poorest councils. Many exits are also state highways (such as the Princes Highway), which the state, not the council, pays for.
+
+**Who lives there (stage 7).**
+- **80,061 people** live in the 43 towns where fire has cut every road out at least once (2021 Census).
+- They include **23,873 people aged 65 or over**, **6,251 people who need help with everyday activities**, and **1,378 homes with no car**.
+- Cut-off towns are older at the median (27.7% vs 23.1% aged 65+), but the 95% range just reaches zero, so by the pre-registered rule this is not a clear difference.
+- Households without a car were, if anything, less common (2.6% vs 4.1%). Need for assistance and income were similar.
+- Most of these people live in two councils: Shoalhaven (13,439 aged 65+ in 15 cut-off towns) and Eurobodalla (5,817 in 6 towns).
+- Per resident aged 65+ in their cut-off towns, those councils raise about $17,000–18,000 a year of their own revenue. Councils with only one or two small cut-off towns raise $200,000–2.4 million per such resident. Council own-source revenue is a whole budget, not money for evacuation roads.
 
 ## 5. Discussion
 
@@ -153,3 +162,5 @@ Git history:
 | `2851eea` | Stage 5 pre-registration |
 | `e4833ca` | Stage 5 |
 | `b7f0124` | Stage 6 pre-registration |
+| `115641d` | Stage 6 |
+| `b52d066` | Stage 7 pre-registration |

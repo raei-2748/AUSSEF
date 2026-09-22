@@ -1,0 +1,28 @@
+{
+  "run_utc": "2026-09-22T06:21:52+00:00",
+  "seed": 20260921,
+  "bootstrap": 2000,
+  "verdict": "NOT SUPPORTED",
+  "totals": {
+    "cut_off_towns": 43,
+    "residents": 80061,
+    "aged_65_plus": 23873,
+    "need_assistance": 6251,
+    "dwellings_no_car": 1378,
+    "towns_missing_census": 0
+  },
+  "towns": 461,
+  "groups": {
+    "fire-touched, never cut off": 258,
+    "never touched": 160,
+    "cut off": 43
+  },
+  "councils_missing_finance": [
+    "Mid-Coast",
+    "Snowy Valleys",
+    "Inverell",
+    "Hornsby",
+    "Snowy Monaro Regional"
+  ],
+  "aussef_duckdb_sha256": "ce294c7ef50964b334a13d83b627f0732e35d2237c70ddf7ce3a26b06f1cba59"
+}
