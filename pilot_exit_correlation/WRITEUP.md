@@ -74,6 +74,7 @@ seeing results are logged as deviations.
 | 5 | Official closure records (descriptive) | 0 of 22 cut-offs with every exit recorded closed on one day | — | no verdict |
 | 6 | Public finance: do councils with cut-off towns have less own revenue? | median own-source share 68.0% vs 62.0% (10 vs 72 councils) | difference +6.0 pp (0.9 to 15.0) | NOT SUPPORTED: opposite direction |
 | 7 | Social: are cut-off towns older (% aged 65+)? | median 27.7% vs 23.1% (43 vs 418 towns) | difference +4.6 pp (−0.002 to 7.0) | NOT SUPPORTED (borderline) |
+| 8 | Socioeconomic change 2016→2021: Black Summer cut-off vs burned-only towns (exploratory) | median population growth 10.3% vs 4.2% (19 vs 119 towns) | difference +6.1 pp (2.2 to 12.7) | "BETTER": most likely coastal growth, not an effect of being cut off |
 
 \*Stage 4 was designed after seeing stage 3's timing table, so it is supporting evidence, not independent confirmation.
 
@@ -111,6 +112,13 @@ cut-offs happened. The Home Affairs corridor records were too coarse to place: o
 - Households without a car were, if anything, less common (2.6% vs 4.1%). Need for assistance and income were similar.
 - Most of these people live in two councils: Shoalhaven (13,439 aged 65+ in 15 cut-off towns) and Eurobodalla (5,817 in 6 towns).
 - Per resident aged 65+ in their cut-off towns, those councils raise about $17,000–18,000 a year of their own revenue. Councils with only one or two small cut-off towns raise $200,000–2.4 million per such resident. Council own-source revenue is a whole budget, not money for evacuation roads.
+
+**What happened afterwards (stage 8, exploratory).**
+- Towns fully cut off by Black Summer fires grew *faster* from 2016 to 2021 than towns burned but not cut off: a median of 10.3% vs 4.2%.
+- Income and employment changes showed no clear difference.
+- The fast growers are coastal towns and new estates (Red Head +55%, Tallwoods Village +41%) during a period of strong coastal and COVID-era migration.
+- Cut-off inland or heavily damaged towns barely grew or shrank (Batlow +0.1%, Mogo −1.6%).
+- This most likely reflects location, not a benefit of being cut off. Separating the two would need a 2011–2016 pre-trend or a coastal-only comparison.
 
 ## 5. Discussion
 
@@ -164,3 +172,5 @@ Git history:
 | `b7f0124` | Stage 6 pre-registration |
 | `115641d` | Stage 6 |
 | `b52d066` | Stage 7 pre-registration |
+| `19b9502` | Stage 7 |
+| `57e3835` | Stage 8 pre-registration |
