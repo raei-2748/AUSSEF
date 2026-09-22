@@ -1,0 +1,56 @@
+{
+  "run_utc": "2026-09-22T21:40:58+00:00",
+  "seed": 20260921,
+  "bootstrap": 2000,
+  "verdict": "NOT EVALUABLE",
+  "groups_T6": {
+    "rated at risk": 456,
+    "correctly rated safe": 5
+  },
+  "groups_T3": {
+    "rated at risk": 394,
+    "correctly rated safe": 66,
+    "illusory redundancy": 1
+  },
+  "groups_nohalve_T6": {
+    "rated at risk": 394,
+    "correctly rated safe": 66,
+    "illusory redundancy": 1
+  },
+  "groups_nohalve_T3": {
+    "correctly rated safe": 289,
+    "rated at risk": 157,
+    "illusory redundancy": 15
+  },
+  "illusory_towns_by_variant": {
+    "T6": 0,
+    "T3": 1,
+    "nohalve_T6": 1,
+    "nohalve_T3": 15
+  },
+  "report_variant": "nohalve_T3",
+  "illusory_totals": {
+    "towns": 15,
+    "residents": 50638,
+    "aged_65_plus": 15954,
+    "need_assistance": 4405,
+    "dwellings_no_car": 991
+  },
+  "cost": {
+    "councils": 4,
+    "total": 6893951.24330935,
+    "q1": 0.0,
+    "median": 1557261.130690972,
+    "q3": 3280748.9415183095,
+    "spend_per_km_median": 17390.346349985397
+  },
+  "state_share_all": 0.3875952998589846,
+  "state_share_illusory": 0.4904964469526388,
+  "burned_state_share_illusory": 0.5294146191705024,
+  "councils_missing_finance": [
+    "Hornsby",
+    "Inverell",
+    "Mid-Coast"
+  ],
+  "aussef_duckdb_sha256": "ce294c7ef50964b334a13d83b627f0732e35d2237c70ddf7ce3a26b06f1cba59"
+}

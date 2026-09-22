@@ -1,0 +1,13 @@
+bucket,towns,cut_off,cut_off_rate_pct,measure
+0,59,12,20.338983050847457,counted exits (PNAS-style)
+1,198,24,12.121212121212121,counted exits (PNAS-style)
+2,137,6,4.37956204379562,counted exits (PNAS-style)
+3,46,1,2.1739130434782608,counted exits (PNAS-style)
+4-5,16,0,0.0,counted exits (PNAS-style)
+6+,5,0,0.0,counted exits (PNAS-style)
+0,0,0,,max-flow exits (this project)
+1,0,0,,max-flow exits (this project)
+2,67,22,32.83582089552239,max-flow exits (this project)
+3,91,11,12.087912087912088,max-flow exits (this project)
+4-5,163,10,6.134969325153374,max-flow exits (this project)
+6+,140,0,0.0,max-flow exits (this project)

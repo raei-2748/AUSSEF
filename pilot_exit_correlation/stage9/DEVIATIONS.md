@@ -1,3 +1,7 @@
 # Deviations from stage9/PREREGISTRATION.md
 
-None yet.
+| # | Date | Change | Reason | Effect on verdict |
+|---|---|---|---|---|
+| U1 | 2026-09-23 | Added an **unhalved** counted-exit variant (distinct higher-order roads crossing the 0.5 km buffer, without the published "divide by two"), reported alongside the pre-registered halved count at both thresholds. | The first run showed the pre-registered halved count puts only 5 of 461 NSW towns at ≥ 6 exits and none in the illusory group, so the comparison could not run. The "divide by two" step is described in the source as accounting for bidirectional lanes, which is ambiguous for Australian rural roads where divided carriageways are rare and already share a route number. Both versions are now reported. | None. The verdict still comes only from the pre-registered halved count at ≥ 6 exits, which is NOT EVALUABLE. |
+| U2 | 2026-09-23 | The "who lives there", ownership and cost sections report the variant with the most illusory-redundancy towns (here the unhalved count at ≥ 3), instead of the pre-registered primary. | At the primary threshold the group is empty, so those sections would be blank. The choice is stated in the results, the counts for every variant are published, and the section is labelled indicative. | None; those sections carry no verdict. |
+| U3 | 2026-09-23 | Fixed two coding errors found on the first runs: the network loader does not expose road `ref`/`name` (now merged from the frozen parquet), and a duplicated index column broke the town-to-council overlay. | Both crashed before any result existed. | None. |
