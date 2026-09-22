@@ -1,0 +1,13 @@
+{
+  "run_utc": "2026-09-22T02:13:12+00:00",
+  "cutoffs": 22,
+  "with_any_record": 16,
+  "all_exits_recorded": 10,
+  "all_exits_same_day": 10,
+  "all_exits_located_same_day": 0,
+  "max_located_exits": 2,
+  "towns_matched_by_top_line_record": 14,
+  "top_line_record": "HA_a1edbfb5b3bb2c3e",
+  "records": 37,
+  "records_matched": 7
+}
