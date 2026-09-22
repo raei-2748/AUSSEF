@@ -1,0 +1,4 @@
+measure,comparison,baseline,n_exposed,n_comparison,median_exposed,median_comparison,diff,diff_lo,diff_hi,p_mwu
+own_source_pct,"fire-touched, never cut off",2018-19,10,49,67.965,65.9,2.0649999999999977,-2.3500000000000085,11.745000000000005,0.22933194239164756
+own_source_pct,all other councils,2016-17 to 2018-19 average,10,72,68.95,61.56333333333334,7.386666666666663,1.920000000000016,14.158333333333339,0.014508842401253157
+own_source_pct,"all other councils (legacy panel, post-hoc)",2018-19,15,85,67.81,61.38,6.43,2.219999999999999,13.299999999999997,0.009411319960462575

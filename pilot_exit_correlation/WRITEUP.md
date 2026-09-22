@@ -72,6 +72,7 @@ seeing results are logged as deviations.
 | 3b | Satellite: all exits reached within 12 h, anywhere on the route | 9 vs 1.3 | 6.9 (0–12.4) | FAIL |
 | 4 | Satellite: all exits reached within 12 h, within 5 km of town* | 11 vs 1.3 | 8.4 (1.9–14.4) | PASS |
 | 5 | Official closure records (descriptive) | 0 of 22 cut-offs with every exit recorded closed on one day | — | no verdict |
+| 6 | Public finance: do councils with cut-off towns have less own revenue? | median own-source share 68.0% vs 62.0% (10 vs 72 councils) | difference +6.0 pp (0.9 to 15.0) | NOT SUPPORTED: opposite direction |
 
 \*Stage 4 was designed after seeing stage 3's timing table, so it is supporting evidence, not independent confirmation.
 
@@ -93,6 +94,14 @@ were 9.6% against 1.1%.
 (Yowani Road at Rosedale, Araluen Road at Moruya, Wilson Drive at Hill Top). No cut-off had records
 on every exit. The records have large gaps, including 30 December 2019 to 11 January 2020 when most
 cut-offs happened. The Home Affairs corridor records were too coarse to place: one record matched 14 towns.
+
+**Public finance (stage 6).**
+- We tested whether councils containing towns ever fully cut off by fire have weaker finances (2018-19, before Black Summer).
+- They do not. Their own-source revenue share was *higher* (68% vs 62%), and their grant dependence lower.
+- This held with a fuller council list that adds the 2016-amalgamated councils: 15 vs 85 councils, +6.4 points (CI 2.2 to 13.3).
+- Compared only with councils whose towns were touched by fire but never cut off, the difference was small and not clear (+2.1, CI −2.4 to 11.7).
+- Exposed councils are mostly coastal and peri-urban (Shoalhaven, Eurobodalla, Lake Macquarie, Wingecarribee, Blue Mountains), with large rate bases. They manage far fewer road kilometres per resident (median 21 vs 128 per 1,000).
+- The risk sits in councils that can raise their own money, not in the poorest councils. Many exits are also state highways (such as the Princes Highway), which the state, not the council, pays for.
 
 ## 5. Discussion
 
@@ -143,3 +152,4 @@ Git history:
 | `60329e6` | Stage 4 |
 | `2851eea` | Stage 5 pre-registration |
 | `e4833ca` | Stage 5 |
+| `b7f0124` | Stage 6 pre-registration |
