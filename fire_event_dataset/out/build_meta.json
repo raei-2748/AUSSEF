@@ -1,0 +1,21 @@
+{
+  "rows": 6829,
+  "fires": 6476,
+  "enrichments": [
+    "economy",
+    "hotspots",
+    "ica",
+    "severity",
+    "terrain",
+    "vegetation",
+    "weather"
+  ],
+  "counts": {
+    "nsw_inventory_events_since_2015": 6672,
+    "prescribed_removed": 0,
+    "recent_layer_records_not_in_inventory": 0,
+    "events_without_geometry": 0,
+    "cross_source_duplicates_removed": 191,
+    "fire_events": 6481
+  }
+}

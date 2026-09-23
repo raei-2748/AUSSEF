@@ -1,0 +1,7 @@
+# Downloads and API caches (re-creatable; hashes in data/manifest.csv)
+data/
+
+# Large rebuilt outputs (rebuild with build_all.py); dictionary, checks and build_meta are committed
+out/*.xlsx
+out/fires.csv
+out/lga_year.csv

@@ -1,0 +1,23 @@
+[PASS] no duplicate fire × LGA rows: 0 duplicates
+[PASS] every fire has at least one LGA row: 6476 fires, 6829 rows
+[PASS] LGA pieces sum to fire area (±1%, fires >= 1 ha): 14 of 4938 fires off by >1% (fires partly outside NSW LGAs)
+[PASS] Y, components and split left blank
+[PASS] dates ordered (end >= start)
+[PASS] X2_FFDI within [0, 250]: n=3415, min=0.06, max=116.65
+[PASS] X3_SPEI within [-5, 5]: n=6829, min=-3.18, max=3.86
+[PASS] X6_severity within [0, 1]: n=1773, min=0.00, max=1.00
+[PASS] X7_temp_max within [-5, 50]: n=3415, min=8.30, max=44.80
+[PASS] X8_humidity_min within [0, 100]: n=3415, min=4.00, max=62.00
+[PASS] X9_wind_max within [0, 150]: n=3415, min=6.20, max=57.80
+[PASS] X10_elevation within [-20, 2300]: n=3415, min=-2.26, max=1505.37
+[PASS] X11_slope within [0, 60]: n=3415, min=0.00, max=31.68
+[PASS] X13_canopy_cover within [0, 100]: n=3415, min=0.00, max=91.15
+[PASS] X18_remoteness within [0, 4]: n=6828, min=0.00, max=4.00
+[PASS] X5_hotspot_density within [0, 5000]: n=3415, min=0.00, max=681.26
+[PASS] Gospers Mountain area plausible: 479,514 ha, start 2019-10-25
+       Gospers Mountain: FFDI max 61, Tmax 42.8, RH min 11.0, severity 0.30, LGAs ['Blue Mountains', 'Central Coast (NSW)', 'Cessnock', 'Hawkesbury', 'Lithgow', 'Mid-Western Regional', 'Muswellbrook', 'Singleton']
+[PASS] Currowan area plausible: 315,471 ha, start 2019-11-25
+       Currowan: FFDI max 72, Tmax 44.3, RH min 11.0, severity 0.56, LGAs ['Eurobodalla', 'Goulburn Mulwaree', 'Queanbeyan-Palerang Regional', 'Shoalhaven', 'Wingecarribee']
+[PASS] Black Summer fires reach FFDI 'extreme' (>= 75) on some day: max 97; station FFDI exceeded 100 — reanalysis wind is lower
+[PASS] Black Summer FFDI higher than other fires (median): 41.8 vs 21.8
+[PASS] Black Summer severity higher than other fires (median): 0.49 vs 0.23
