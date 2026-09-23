@@ -2,7 +2,7 @@
 
 One-page handover covering what this project is, what it found, where the data and code live, the
 rules it follows, its known weaknesses, and the options for what comes next.
-Last updated 23 September 2026. Branch `pilot-exit-correlation`, latest commit `df6a737`.
+Last updated 23 September 2026. Branch `pilot-exit-correlation`, latest commit `0166473`.
 
 ---
 
@@ -40,6 +40,8 @@ all four on Australian data.
 | 7 | Are cut-off towns older? | **NOT SUPPORTED (borderline)** — 27.7% vs 23.1% aged 65+, CI −0.002 to 7.0 |
 | 8 | 2016→2021 change, cut-off vs burned-only towns (exploratory) | "BETTER" — +6.1 pp population growth; almost certainly coastal growth, not an effect |
 | 9 | Does the published count-based measure find cut-off towns? | **NOT EVALUABLE** at 6 exits (only 5 NSW towns qualify); the count does track risk directionally |
+| 10 | Did roads the outline touched actually close? (traffic counters) | **RULE UNRELIABLE** — 0 of 7 cases fell to ≤20% of normal daily traffic; lowest days 25–95% |
+| 10 | Council finance model worth building? (pre-set gate) | **NO-GO** on road spending; grants not evaluable (data missing) |
 
 **Headline numbers to quote**
 - All exits cut together **≈15× more often than chance** (historical record, CI 3.9–31).
@@ -120,7 +122,7 @@ results), a one-command runner and tests.
 
 ## 6. Known weaknesses (say these before a judge does)
 
-1. **Closure is inferred from fire maps, not observed.** Final perimeters assume everything inside closed at once, so R is an upper bound. Official closure records were too sparse to confirm even one town.
+1. **Closure is inferred from fire maps, and the one direct check does not support it.** Traffic counters (stage 10) show that roads touched by fire outlines mostly kept carrying traffic at the daily level (0 of 7 cases fell to ≤20% of normal). Every "cut off" in stages 2–9 should be read as **exposure of every road out to fire footprints**, not confirmed closure. Daily data can hide closures lasting only hours.
 2. **Relevance is loose.** A fire counts as "relevant" if it burned within 30 km, even if the town was never threatened. The sharper question is *given the town was threatened, how often were all exits cut?*
 3. **Fire only.** Smoke, fallen trees, burnt bridges, post-fire landslides and debris flows, and floods also close the same corridors. Our numbers are a floor for road failure, not a ceiling.
 4. **Few events.** The historical result rests on 24 cut-offs from 13 fires; 2019–23 on 22 from 4 fires. One fire complex often dominates.
@@ -157,4 +159,5 @@ results), a one-command runner and tests.
 | `b52d066` / `19b9502` | Stage 7 |
 | `57e3835` / `01b6852` | Stage 8 |
 | `ef4642f` / `a4d5f96` | Stage 9 |
+| `d2f4d89` / `0166473` | Stage 10 |
 | `b668391`, `df6a737` | Consolidated write-up |

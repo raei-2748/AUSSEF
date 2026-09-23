@@ -76,6 +76,7 @@ seeing results are logged as deviations.
 | 7 | Social: are cut-off towns older (% aged 65+)? | median 27.7% vs 23.1% (43 vs 418 towns) | difference +4.6 pp (−0.002 to 7.0) | NOT SUPPORTED (borderline) |
 | 8 | Socioeconomic change 2016→2021: Black Summer cut-off vs burned-only towns (exploratory) | median population growth 10.3% vs 4.2% (19 vs 119 towns) | difference +6.1 pp (2.2 to 12.7) | "BETTER": most likely coastal growth, not an effect of being cut off |
 | 9 | Does the published count-based exit measure find the towns fire cuts off? | no NSW town with 4+ counted exits ever cut off; only 5 towns reach the 6-exit threshold | — | NOT EVALUABLE at the published threshold; 15 towns with ≥3 roads out were still fully cut off |
+| 10 | **Did roads the fire outline touched actually close? (traffic counters)** | 0 of 7 cases fell to ≤20% of normal daily traffic; lowest days 25–95% of normal | — | **RULE UNRELIABLE: fire-outline closure overstates closure at the daily level** |
 
 \*Stage 4 was designed after seeing stage 3's timing table, so it is supporting evidence, not independent confirmation.
 
@@ -127,6 +128,14 @@ cut-offs happened. The Home Affairs corridor records were too coarse to place: o
 - Counting roads out without the method's "divide by two" step, **15 towns with 3 or more roads out were still completely cut off**. **50,638 people live in them, including 15,954 aged 65+ and 4,405 who need help with everyday activities.** They are mostly South Coast towns: Ulladulla, Batemans Bay, St Georges Basin, Moruya.
 - **49% of those towns' exit-route length, and 53% of the exit road that actually burned, is State-owned** (NSW Government), against 38.8% of exit length across all towns. Councils hold the local roads and the local rate base; the State holds most of the roads that fail.
 - Indicative maintenance-equivalent scale of the burned exit roads: about $6.9 million a year across 4 councils. Exploratory only.
+
+**Were the roads really closed? (stage 10)**
+- We checked the "fire outline touches road = road closed" rule against TfNSW traffic counters, 2006–2020.
+- In the 7 usable cases, daily traffic **never fell to 20% of normal**. The lowest day was 25%, 53%, 57%, 61%, 64%, 91% and 95% of normal. By the pre-registered rule this is **RULE UNRELIABLE**.
+- **Consequence:** the cut-off counts in stages 2–4 and 6–9 measure **exposure of every road out to fire footprints**, not confirmed closures, and likely overstate closure. Daily totals can still hide closures lasting only hours; an hourly check would be a new test.
+- **Escape window:** timed near town, the median gap between fire reaching the first and last road out was about 22 hours.
+- **Short-run disruption:** all-vehicle traffic on roads within 5 km of Black Summer fires ran 2.9% below normal (about 1.5 million fewer trips, 42 counters); truck traffic was not below normal.
+- **Council finance gate:** councils with cut-off towns did not raise road spending more than burned-only councils (NO-GO). Grant data were too sparse to test.
 
 ## 5. Discussion
 
@@ -185,3 +194,5 @@ Git history:
 | `01b6852` | Stage 8 |
 | `ef4642f` | Stage 9 pre-registration |
 | `a4d5f96` | Stage 9 |
+| `d2f4d89` | Stage 10 pre-registration |
+| `0166473` | Stage 10 |
