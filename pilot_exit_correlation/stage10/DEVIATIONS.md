@@ -1,3 +1,6 @@
 # Deviations from stage10/PREREGISTRATION.md
 
-None yet.
+| # | Date | Change | Reason | Effect |
+|---|---|---|---|---|
+| V1 | 2026-09-23 | "All vehicles" is now class 0 where the counter publishes it, **otherwise light (class 2) + heavy (class 3) added together**, only when both are valid that day. The pre-registration used class 0 alone. | The first run excluded most counters: only 330 of 461 counters publish a class-0 total, while all 461 publish light and heavy separately. 17 of the 20 predicted-closed validation cases were "no valid window days" for this reason. Adding the two classes gives the same quantity. First-run outputs were superseded; the first-run Part A result was NOT EVALUABLE (2 eligible predicted-closed pairs, 0 observed closed). | Part A and Part C are recomputed with the corrected definition. The decision rules and thresholds are unchanged. |
+| V2 | 2026-09-23 | The Part D grants measure is reported as **NOT EVALUABLE (data missing)** instead of being folded into the NO-GO. | `capital_grants_aud` and `operating_grants_aud` in `master.fiscal_panel_extended` are populated for only 1–3 councils in a few years (none in 2014–2019), so no index can be built. | The overall gate still rests on road spending; the grants measure is shown as untestable, not as negative evidence. |

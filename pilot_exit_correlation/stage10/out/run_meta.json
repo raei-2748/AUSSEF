@@ -1,0 +1,48 @@
+{
+  "run_utc": "2026-09-23T12:49:35+00:00",
+  "traffic_raw_rows": 4193981,
+  "traffic_fingerprint_sha256": "241b6cf4f2b406a393426bd09df674f14894f3b8b3748df49f79dfaacb7e0631",
+  "stations_with_data": 742,
+  "stations_matched": 531,
+  "partA_verdict": "RULE UNRELIABLE",
+  "pairs_total": 104,
+  "pairs_eligible": 30,
+  "partB": {
+    "cutoffs": 31,
+    "dated": 29,
+    "undated": 2,
+    "median_h": 22.166666666666668,
+    "q1_h": 3.3333333333333335,
+    "q3_h": 120.83333333333333,
+    "within_6h": 9,
+    "within_12h": 11,
+    "within_24h": 17
+  },
+  "partC_stations": 106,
+  "partD_verdict": "NO-GO",
+  "partD_gates": {
+    "road spending": {
+      "go": false,
+      "pre_max_abs_gap": 15.219274765094738,
+      "post_max_gap": -1.7818938749428241,
+      "councils": {
+        "burned only": 23,
+        "cut off": 7,
+        "untouched": 73
+      },
+      "status": "NO-GO"
+    },
+    "total grants": {
+      "go": false,
+      "pre_max_abs_gap": NaN,
+      "post_max_gap": NaN,
+      "councils": {
+        "burned only": 19,
+        "cut off": 5,
+        "untouched": 60
+      },
+      "status": "NOT EVALUABLE (data missing)"
+    }
+  },
+  "aussef_duckdb_sha256": "ce294c7ef50964b334a13d83b627f0732e35d2237c70ddf7ce3a26b06f1cba59"
+}
