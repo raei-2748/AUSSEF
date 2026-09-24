@@ -1,9 +1,10 @@
 """X5 hotspot density: DEA Hotspots (satellite fire detections) inside each fire outline during the fire, per km².
 
-One WFS query per fire >= 10 ha: the outline's bounding box, from the day before the start to the day after the end
+One WFS query per fire: the outline's bounding box, from the day before the start to the day after the end
 (capped at 120 days). Reuses the pilot's DEA downloader (cached per fire under data/hotspot_cache/).
 DEA combines several products (MODIS, VIIRS, AVHRR, Himawari), so one fire pixel can appear in several products;
 X5 counts all detections, and a VIIRS-only density is given separately for a consistent sensor.
+Density = detections inside the outline + 500 m buffer, divided by the area of that buffered outline (km²).
 """
 import importlib.util
 import json
@@ -21,7 +22,7 @@ H = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(H)
 
 CACHE = DATA / "hotspot_cache"
-MIN_HA, MAX_DAYS, BUFFER_M = 10, 120, 500
+MIN_HA, MAX_DAYS, BUFFER_M = 0, 120, 500
 
 
 def _one(r):
@@ -32,7 +33,7 @@ def _one(r):
     bbox = tuple(g.total_bounds)
     H.fetch_event(r.event_id, bbox, s.strftime("%Y-%m-%dT00:00:00Z"), e.strftime("%Y-%m-%dT00:00:00Z"), CACHE)
     pts = pd.read_parquet(CACHE / f"{r.event_id}.parquet")
-    area_km2 = r.geometry.area / 1e6
+    area_km2 = g.to_crs(3577).iloc[0].area / 1e6  # searched area: outline + buffer (keeps tiny fires comparable)
     if len(pts):
         p = gpd.GeoDataFrame(pts, geometry=gpd.points_from_xy(pts.longitude, pts.latitude), crs=4326).to_crs(3577)
         inside = p[p.within(g.to_crs(3577).iloc[0])]

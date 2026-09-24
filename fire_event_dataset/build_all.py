@@ -15,7 +15,7 @@ import pandas as pd
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
-from src import export, socio  # noqa: E402
+from src import anomaly, export, socio  # noqa: E402
 from src.common import AUSSEF_DB, DATA, OUT, sha256  # noqa: E402
 from src.fires import GA_ZIP, GA_ZIP_SHA256, load_fire_events  # noqa: E402
 from src.regions import load_lgas, road_exposure, split_by_lga  # noqa: E402
@@ -30,6 +30,10 @@ EXTRAS_DOC = {
     "capture_method": ("How the outline was captured", "str", "GA", ""),
     "ga_source": ("GA layer holding the record", "str", "GA", "GA_V2 historical, GA_RECENT_3 2020–25"),
     "ga_fire_ids": ("Agency fire ID(s)", "str", "GA", ""),
+    "merged_record_count": ("GA records combined into this fire (1 = not merged)", "int", "GA", "same incident: started "
+                            "within 10 days and overlapping >= 50% (IoU) or >= 80% inside the larger record"),
+    "merged_event_ids": ("Inventory event IDs combined into this fire", "str", "GA", "blank if not merged"),
+    "merged_event_names": ("Names of the combined records", "str", "GA", "blank if not merged"),
     "date_end_note": ("Why date_end is blank although GA has a value", "str", "GA", "end before start in the source record"),
     "centroid_lat": ("Fire centroid latitude (point inside the fire)", "deg", "GA outline", ""),
     "centroid_lon": ("Fire centroid longitude", "deg", "GA outline", ""),
@@ -38,9 +42,10 @@ EXTRAS_DOC = {
     "share_of_region_burned": ("Share of the LGA burned by this fire", "fraction", "", ""),
     "road_km_within_100m": ("Road km within 100 m of the fire in this LGA", "km", "2019 OSM network", ""),
     "official_declaration_agrn": ("Matching NSW bushfire disaster declaration (AGRN)", "str",
-                                  "AUSSEF disaster declarations", "declaration for this LGA starting within 30 days before to the end of the fire"),
+                                  "AUSSEF disaster declarations", "fire declaration for this LGA whose period overlaps the fire (dates parsed from the declaration name; open-ended = 180 days). The declarations table has almost none before 2018, so 2015–2017 fires show none"),
     "official_declaration_name": ("Declared event name", "str", "AUSSEF disaster declarations", ""),
-    "historical_bushfire_declarations_10y": ("Declared bushfire disasters for the LGA, previous 10 years", "int", "", ""),
+    "historical_bushfire_declarations_10y": ("Declared bushfire disasters for the LGA, previous 10 years", "int", "",
+                                             "declarations table is thin before 2018; undercounts for early fires"),
     "population_prev_year": ("LGA population, year before the fire", "persons", "ABS ERP (Regional population 2024-25)", "2025 LGA boundaries"),
     "IL_total_income_change_pct_proxy": ("Total personal income change, event FY vs previous (%)", "%",
                                          "ABS Personal Income in Australia", "proxy for GRP change"),
@@ -54,12 +59,15 @@ EXTRAS_DOC = {
 def lga_year_table(lga):
     rows = []
     pop, inc, sf, fis = socio.population(), socio.income(), socio.seifa(), socio.fiscal()
+    sfn = socio.seifa_by_name()
     for code, name, area in zip(lga.LGA_CODE21.astype(str), lga.LGA_NAME21, lga.AREASQKM21):
         key = socio.norm(name)
+        nm = str(name).replace(" (NSW)", "").strip().lower()
         for y in range(2014, 2026):
             r = dict(region_id=code, region_name=name, year=y, area_km2=area,
                      population=pop.get((code, y), np.nan),
-                     seifa_irsd=sf.get((code, 2016 if y <= 2020 else 2021), np.nan))
+                     seifa_irsd=sf.get((code, 2016 if y <= 2020 else 2021),
+                                       sfn.get((socio.SEIFA_ALIASES.get(nm, nm), 2016 if y <= 2020 else 2021), np.nan)))
             if (code, y) in inc.index:
                 v = inc.loc[(code, y)]
                 r.update(median_income_aud_fy=v.median_income_aud, total_income_aud_fy=v.total_income_aud,
@@ -103,14 +111,12 @@ def main():
     r["year"] = r.event_id.map(e.year)
     r["date_start"] = r.event_id.map(e.start).dt.date
     r["date_end"] = r.event_id.map(e.end).dt.date
-    # GA records with an end date before the start (1969-12-31 empty-date placeholders or typos) -> blank, flagged
-    bad = pd.to_datetime(r.date_end) < pd.to_datetime(r.date_start)
-    r["date_end_note"] = np.where(bad, "source end date " + r.date_end.astype(str) + " is before the start: blanked", "")
-    r.loc[bad, "date_end"] = pd.NaT
+    r["date_end_note"] = r.event_id.map(e.end_date_note)  # end dates before the start are blanked in src/fires.py
     r["X1_burn_area"] = r.event_id.map(e.burn_area_ha)
     r["X4_fire_duration"] = r.event_id.map(e.duration_days)
     r["X14_road_exposure"] = r.road_km_inside
-    for c in ("fire_type_flag", "ignition_cause", "agency", "capture_method", "ga_fire_ids", "centroid_lat", "centroid_lon"):
+    for c in ("fire_type_flag", "ignition_cause", "agency", "capture_method", "ga_fire_ids", "centroid_lat", "centroid_lon",
+              "merged_record_count", "merged_event_ids", "merged_event_names"):
         r[c] = r.event_id.map(e[c])
     r["ga_source"] = r.event_id.map(e.source)
 
@@ -124,6 +130,10 @@ def main():
         doc = HERE / "data/enrich" / f"{p.stem}.doc.json"
         if doc.exists():
             EXTRAS_DOC.update({k: tuple(v) for k, v in json.loads(doc.read_text()).items()})
+
+    # excess-change ("abnormal") Y components vs councils without a large fire in the same period
+    r = anomaly.add(r, ev, pieces)
+    EXTRAS_DOC.update(anomaly.DOC)
 
     drop = ["LGA_CODE21", "LGA_NAME21", "AREASQKM21", "key", "fy", "road_km_inside"]
     r = r.drop(columns=[c for c in drop if c in r.columns]).sort_values(["date_start", "event_id", "region_id"])

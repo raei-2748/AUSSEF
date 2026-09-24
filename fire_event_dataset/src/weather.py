@@ -1,6 +1,6 @@
 """Weather enrichment: X2 FFDI, X3 SPEI-3, X7 max temperature, X8 min humidity, X9 max wind.
 
-- Fire-day weather: Open-Meteo historical archive (ERA5), one request per fire >= 10 ha, days start-1 .. end (max 60 days).
+- Fire-day weather: Open-Meteo historical archive (ERA5), one request per fire, days start-1 .. end (max 60 days).
 - Long daily rain/temperature: NASA POWER (MERRA-2, 0.5°) per 0.5° cell, 1991–2025, for KBDI -> drought factor and SPEI-3.
 All responses are cached under data/weather_cache/ so reruns make no new requests.
 """
@@ -18,7 +18,7 @@ from src.common import DATA, record_source
 from src.fire_weather import drought_factor, ffdi, hargreaves_pet, kbdi_series, spei3_monthly
 
 CACHE = DATA / "weather_cache"
-MIN_HA, MAX_DAYS, DRIZZLE_MM = 10, 60, 1.0
+MIN_HA, MAX_DAYS, DRIZZLE_MM = 0, 60, 1.0
 OM = "https://archive-api.open-meteo.com/v1/archive"
 POWER = "https://power.larc.nasa.gov/api/temporal/daily/point"
 
@@ -38,6 +38,7 @@ def _get(url, tries=6, wait=5):
             if k == tries - 1:
                 raise
         time.sleep(wait * (k + 1))
+    raise RuntimeError(f"no response after {tries} tries (rate limited): {url[:120]}")
 
 
 def power_cell(lat, lon):

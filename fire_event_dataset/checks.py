@@ -31,6 +31,26 @@ blank = ["Y", "Y_class", "DL", "IL", "FP", "SL", "split"]
 check("Y, components and split left blank", f[blank].isna().all().all())
 check("dates ordered (end >= start)", (pd.to_datetime(f.date_end) >= pd.to_datetime(f.date_start)).loc[f.date_end.notna()].all())
 
+# no duplicate incidents left (same rule as src/fires.merge_incidents)
+import geopandas as gpd  # noqa: E402
+import numpy as np  # noqa: E402
+import shapely  # noqa: E402
+ev = gpd.read_parquet(Path(__file__).resolve().parent / "data/cache/fires.parquet").reset_index(drop=True)
+gm, st = ev.geometry.values, ev.start.values
+a, b = shapely.STRtree(gm).query(gm, predicate="intersects")
+m = a < b
+left = 0
+for i, j in zip(a[m], b[m]):
+    if abs((st[i] - st[j]) / np.timedelta64(1, "D")) > 10:
+        continue
+    inter = shapely.area(shapely.intersection(gm[i], gm[j]))
+    if inter / max(shapely.area(shapely.union(gm[i], gm[j])), 1) >= 0.5 or inter / max(min(gm[i].area, gm[j].area), 1) >= 0.8:
+        left += 1
+check("no duplicate incidents (overlap >= 50% or >= 80% contained, starts <= 10 days apart)", left == 0, f"{left} pairs")
+bs_decl = f[(pd.to_datetime(f.date_start) >= "2019-09-01") & (pd.to_datetime(f.date_start) <= "2020-02-15") & (f.X1_burn_area >= 1000)]
+check("Black Summer fires >= 1,000 ha linked to a declaration", bs_decl.official_declaration_agrn.notna().mean() > 0.8,
+      f"{bs_decl.official_declaration_agrn.notna().mean():.0%} of rows", hard=False)
+
 # ranges
 rng = {"X2_FFDI": (0, 250), "X3_SPEI": (-5, 5), "X6_severity": (0, 1), "X7_temp_max": (-5, 50), "X8_humidity_min": (0, 100),
        "X9_wind_max": (0, 150), "X10_elevation": (-20, 2300), "X11_slope": (0, 60), "X13_canopy_cover": (0, 100),

@@ -49,9 +49,19 @@ def income():
     return i[["median_income_aud", "income_earners", "total_income_aud", "mean_income_aud", "source_id"]]
 
 
+SEIFA_ALIASES = {"dubbo regional": "western plains regional"}  # renamed after the 2016 Census
+
+
 def seifa():
     s = pd.read_csv(PHASE1 / "data/seifa_baselines.csv", dtype={"geographic_id": str})
     return s.set_index(["geographic_id", "boundary_vintage"]).irsd_score
+
+
+def seifa_by_name():
+    """IRSD by (normalised name, vintage), for councils whose code changed between the 2016 and 2021 vintages."""
+    s = pd.read_csv(PHASE1 / "data/seifa_baselines.csv", dtype={"geographic_id": str})
+    s["n"] = s.geographic_name.str.replace(r"\s*\(.*\)$", "", regex=True).str.strip().str.lower()
+    return s.drop_duplicates(["n", "boundary_vintage"]).set_index(["n", "boundary_vintage"]).irsd_score
 
 
 def fiscal():
@@ -67,7 +77,43 @@ def fiscal():
     ext["fiscal_source"], leg["fiscal_source"] = "fiscal_panel_extended", "fiscal_panel_legacy"
     ext["key"], leg["key"] = ext.council_name.map(norm), leg.council_name.map(norm)
     both = pd.concat([ext, leg[~leg.set_index(["key", "year_start"]).index.isin(ext.set_index(["key", "year_start"]).index)]])
-    return both.groupby(["key", "year_start"]).first()
+    both = both.groupby(["key", "year_start"]).first()
+    olg = olg_fiscal()
+    if olg is None:
+        return both
+    # OLG Time Series Data take priority; AUSSEF panels fill council-years OLG does not publish
+    out = olg.combine_first(both)
+    out.loc[olg.index, "fiscal_source"] = "olg_time_series"
+    return out
+
+
+OLG_WIDE = DATA / "olg/olg_wide.parquet"
+OLG_ALIASES = {"nambucca": "nambuccavalley"}  # OLG used the old name to 2017-18
+
+
+def olg_fiscal():
+    """NSW OLG Time Series Data (src/olg.py) mapped to the fiscal-panel column names, by (norm name, FY start)."""
+    if not OLG_WIDE.exists():
+        return None
+    o = pd.read_parquet(OLG_WIDE)
+    o["key"] = o.council_name.map(norm).replace(OLG_ALIASES)
+    o = o.rename(columns={"fy_start": "year_start", "cash_expense_cover_ratio_months": "cash_cover_months",
+                          "own_source_revenue_pct": "own_source_pct",
+                          "operating_performance_ratio_pct": "operating_ratio_pct",
+                          "asset_maintenance_ratio_pct": "maintenance_ratio_pct",
+                          "total_revenue_continuing_ops_aud": "total_revenue_including_capital_aud",
+                          "population": "council_population"})
+    keep = ["cash_cover_months", "own_source_pct", "operating_ratio_pct", "debt_service_ratio_pct",
+            "debt_service_cover_ratio", "maintenance_ratio_pct", "unrestricted_current_ratio",
+            "building_infrastructure_renewals_ratio_pct", "infrastructure_backlog_ratio_pct",
+            "total_revenue_including_capital_aud", "council_population"]
+    o = o.groupby(["key", "year_start"])[keep].first()
+    # a debt service COVER ratio of 0 means no debt (the ratio is undefined), not zero cover
+    o.loc[o.debt_service_cover_ratio == 0, "debt_service_cover_ratio"] = np.nan
+    return o
+
+
+DECL_OPEN_DAYS = 180
 
 
 def disasters():
@@ -79,8 +125,35 @@ def disasters():
                    join master.councils c using (council_id)""").df()
     con.close()
     d["key"] = d.council_name.map(norm)
-    d["start"] = pd.to_datetime(d.start_lo).fillna(pd.to_datetime(d.start_hi))
+    parsed = d.event_name.map(name_dates)
+    d["name_start"], d["name_end"] = parsed.str[0], parsed.str[1]
+    d["start"] = pd.to_datetime(d.start_lo).fillna(pd.to_datetime(d.start_hi)).fillna(d.name_start)
+    d["end"] = d.name_end
     return d
+
+
+_MONTHS = {m: i for i, m in enumerate(["january", "february", "march", "april", "may", "june", "july", "august",
+                                        "september", "october", "november", "december"], 1)}
+_TOKEN = re.compile(r"\b(\d{1,2})\b(?:\s+(january|february|march|april|may|june|july|august|september|october|"
+                    r"november|december))?(?:\s+(\d{4}))?", re.I)
+
+
+def name_dates(name):
+    """(start, end) from a declaration name such as '8 – 18 December 2023', 'from 6 to 9 October 2025' or
+    '31 August 2019 onwards'; missing month/year are taken from the next date in the name. End is NaT if open-ended."""
+    toks = [[int(dd), (m or "").lower(), int(y) if y else None] for dd, m, y in _TOKEN.findall(str(name).replace("\xa0", " "))]
+    for i in range(len(toks) - 2, -1, -1):  # carry month and year backwards
+        toks[i][1] = toks[i][1] or toks[i + 1][1]
+        toks[i][2] = toks[i][2] or toks[i + 1][2]
+    dates = []
+    for dd, m, y in toks:
+        try:
+            dates.append(pd.Timestamp(year=y, month=_MONTHS[m], day=dd))
+        except (KeyError, TypeError, ValueError):
+            pass
+    if not dates:
+        return (pd.NaT, pd.NaT)
+    return (dates[0], dates[-1] if len(dates) > 1 else pd.NaT)
 
 
 def attach(rows, ev):
@@ -104,7 +177,13 @@ def attach(rows, ev):
     r["X16_regional_GDP_proxy_total_income_aud"] = r.total_income_aud_pre
 
     s = seifa()
-    r["X17_SEIFA"] = [s.get((c, 2016 if y <= 2020 else 2021), np.nan) for c, y in zip(code, r.start.dt.year)]
+    sn = seifa_by_name()
+    x17 = []
+    for c, nm, y in zip(code, r.LGA_NAME21, r.start.dt.year):
+        v = 2016 if y <= 2020 else 2021
+        n = str(nm).replace(" (NSW)", "").strip().lower()
+        x17.append(s.get((c, v), sn.get((n, v), sn.get((SEIFA_ALIASES.get(n, n), v), np.nan))))
+    r["X17_SEIFA"] = x17
 
     f = fiscal()
     for lag, lab in ((-1, "pre"), (0, "event"), (1, "plus1")):
@@ -131,7 +210,11 @@ def attach(rows, ev):
         hist.append(int(prior.agrn.nunique()))
         hist_bf.append(int(prior[prior.hazard.astype(str).str.contains("fire", case=False)].agrn.nunique()))
         e1 = e0 if pd.notna(e0) else s0 + pd.Timedelta(days=30)
-        m = g[(g.hazard.astype(str).str.contains("fire", case=False)) & (g.start >= s0 - pd.Timedelta(days=30)) & (g.start <= e1)]
+        # fire declaration for this council whose period overlaps the fire: starts no later than the fire ends and
+        # ends no earlier than a week before it starts; open-ended ("onwards") declarations cover 180 days
+        dend = g.end.fillna(g.start + pd.Timedelta(days=DECL_OPEN_DAYS))
+        m = g[(g.hazard.astype(str).str.contains("fire", case=False)) & (g.start <= e1)
+              & (dend >= s0 - pd.Timedelta(days=7))]
         agrn.append(";".join(sorted({str(x) for x in m.agrn.dropna()})))
         dname.append(" | ".join(sorted({str(x) for x in m.event_name.dropna()})))
     r["X22_historical_disaster_count"] = hist

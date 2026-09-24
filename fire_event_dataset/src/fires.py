@@ -114,6 +114,14 @@ def load_fire_events():
 
     ev["end"] = pd.to_datetime(ev.end_date, errors="coerce")
     ev["end"] = ev.end.fillna(ev.extinguish_date).fillna(ev.capture_date)
+    # end dates before the start (1969-12-31 empty-date placeholders or typos) are not usable
+    bad_end = ev.end.notna() & (ev.end < ev.start)
+    ev["end_date_note"] = np.where(bad_end, "source end date " + ev.end.dt.date.astype(str) + " is before the start: blanked", "")
+    ev.loc[bad_end, "end"] = pd.NaT
+    counts["end_dates_blanked"] = int(bad_end.sum())
+
+    ev, n_merged = merge_incidents(ev)
+    counts["records_merged_into_other_fires"] = n_merged
     ev["duration_days"] = np.where(ev.end.notna() & (ev.end >= ev.start), (ev.end - ev.start).dt.days + 1, np.nan)
     ev["burn_area_ha"] = ev.geometry.area / 1e4
     cen = ev.geometry.representative_point()
@@ -122,3 +130,54 @@ def load_fire_events():
     ev["year"] = ev.start.dt.year
     counts["fire_events"] = len(ev)
     return ev, counts
+
+
+MERGE_IOU, MERGE_CONTAIN, MERGE_DAYS = 0.5, 0.8, 10
+
+
+def merge_incidents(ev):
+    """One event per incident. Records are merged when they started within MERGE_DAYS of each other and either overlap
+    (IoU >= MERGE_IOU) or the smaller lies mostly inside the larger (>= MERGE_CONTAIN of its area): duplicate mappings
+    and spot fires absorbed by the main fire. The largest record gives the event_id, name and attributes; the outline is
+    the union, start the earliest, end the latest. Reburns months later stay separate."""
+    ev = ev.reset_index(drop=True)
+    geoms, area = ev.geometry.values, shapely.area(ev.geometry.values)
+    starts = ev.start.values
+    a, b = shapely.STRtree(geoms).query(geoms, predicate="intersects")
+    m = a < b
+    parent = list(range(len(ev)))
+
+    def find(x):
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]
+            x = parent[x]
+        return x
+
+    for i, j in zip(a[m], b[m]):
+        if abs((starts[i] - starts[j]) / np.timedelta64(1, "D")) > MERGE_DAYS:
+            continue
+        inter = shapely.area(shapely.intersection(geoms[i], geoms[j]))
+        if inter <= 0:
+            continue
+        iou = inter / max(shapely.area(shapely.union(geoms[i], geoms[j])), 1)
+        contain = inter / max(min(area[i], area[j]), 1)
+        if iou >= MERGE_IOU or contain >= MERGE_CONTAIN:
+            parent[find(i)] = find(j)
+    ev["_grp"] = [find(i) for i in range(len(ev))]
+    ev["_area"] = area
+    keep, n_merged = [], 0
+    for _, g in ev.groupby("_grp", sort=False):
+        rep = g.loc[g._area.idxmax()].copy()
+        if len(g) > 1:
+            n_merged += len(g) - 1
+            rep["geometry"] = shapely.make_valid(shapely.union_all(g.geometry.values))
+            rep["start"] = g.start.min()
+            rep["end"] = g.end.max() if g.end.notna().any() else pd.NaT
+            rep["ga_fire_ids"] = ";".join(sorted({x for v in g.ga_fire_ids.dropna() for x in str(v).split(";") if x}))
+            rep["records_linked"] = g.records_linked.sum()
+        rep["merged_event_ids"] = ";".join(g.event_id) if len(g) > 1 else ""
+        rep["merged_event_names"] = " | ".join(dict.fromkeys(g.event_name.astype(str))) if len(g) > 1 else ""
+        rep["merged_record_count"] = len(g)
+        keep.append(rep)
+    out = gpd.GeoDataFrame(pd.DataFrame(keep).drop(columns=["_grp", "_area"]), geometry="geometry", crs=CRS)
+    return out.reset_index(drop=True), n_merged

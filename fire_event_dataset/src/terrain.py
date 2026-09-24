@@ -20,7 +20,7 @@ from rasterio.transform import from_origin
 
 from src.common import DATA, record_source
 
-Z, MIN_HA, WATER_M = 11, 10, -10
+Z, MIN_HA, WATER_M = 11, 0, -10
 URL = "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png"
 CACHE = DATA / "terrain_cache"
 R = 6378137.0

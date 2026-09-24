@@ -22,7 +22,7 @@ from src.common import DATA, record_source
 NVIS = DATA / "nvis/nvis6_mvg_nsw.tif"
 HANSEN = sorted((DATA / "hansen").glob("tc_*.tif"))
 HANSEN_URL = "https://storage.googleapis.com/earthenginepartners-hansen/GFC-2023-v1.11/Hansen_GFC-2023-v1.11_treecover2000_{t}.tif"
-MIN_HA, MAX_PX = 10, 4000
+MIN_HA, MAX_PX = 0, 4000
 MVG = {1: "Rainforests and Vine Thickets", 2: "Eucalypt Tall Open Forests", 3: "Eucalypt Open Forests",
        4: "Eucalypt Low Open Forests", 5: "Eucalypt Woodlands", 6: "Acacia Forests and Woodlands",
        7: "Callitris Forests and Woodlands", 8: "Casuarina Forests and Woodlands", 9: "Melaleuca Forests and Woodlands",

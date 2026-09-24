@@ -38,7 +38,7 @@ def rows():
     add("X2_FFDI, X7–X9, rain during fire", "Open-Meteo historical weather API (ERA5)",
         "https://archive-api.open-meteo.com/v1/archive?latitude=-33.4&longitude=150.4&start_date=2019-10-24&end_date=2019-12-23"
         "&daily=temperature_2m_max,relative_humidity_2m_min,wind_speed_10m_max,precipitation_sum&timezone=Australia/Sydney",
-        "api", "one request per fire >= 10 ha; example shown")
+        "api", "one request per fire; example shown")
     add("X2 drought factor, X3_SPEI", "NASA POWER daily point API",
         "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR,T2M_MAX,T2M_MIN&community=AG"
         "&latitude=-33.5&longitude=150.5&start=19910101&end=20251231&format=JSON", "api", "one request per 0.5° cell; example shown")
@@ -47,7 +47,7 @@ def rows():
     add("X5_hotspot_density", "DEA Hotspots WFS (Geoscience Australia)",
         "https://hotspots.dea.ga.gov.au/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=public:hotspots"
         "&outputFormat=application/json&CQL_FILTER=datetime+BETWEEN+%272019-10-25T00:00:00Z%27+AND+%272020-02-10T00:00:00Z%27"
-        "+AND+BBOX(geometry,-33.9,150.0,-32.9,150.9)", "api", "one query per fire >= 10 ha; example shown")
+        "+AND+BBOX(geometry,-33.9,150.0,-32.9,150.9)", "api", "one query per fire; example shown")
     for line in (DATA / "fesm/urls.txt").read_text().splitlines():
         s, u = line.split()
         if s == "202021":
@@ -97,9 +97,10 @@ def rows():
         "https://insurancecouncil.com.au/wp-content/uploads/2024/07/ICA-Historical-Normalised-Catastrophe-June-2024.xlsx", "file")
 
     # council finance and disasters (from the AUSSEF database)
-    add("X19–X21, FP_* proxies", "NSW Office of Local Government council data (Time Series Data)",
-        "https://www.olg.nsw.gov.au/public/your-council-data-and-reports", "page",
-        "values come from the AUSSEF fiscal panels (Experiment 2 V2 and legacy NSW Data Panel); the exact file URLs were not recorded")
+    for line in (DATA / "olg/urls.txt").read_text().splitlines():
+        fname, url = line.split("\t")
+        add("X19–X21, FP_* columns, lga_year finance", f"NSW OLG Time Series Data: {fname}", url, "file",
+            "OLG values take priority; AUSSEF fiscal panels fill council-years OLG does not publish")
     for fy in ("2018-19", "2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25", "2025-26"):
         add("X22, official_declaration_*", f"NSW Reconstruction Authority natural disaster declarations, FY {fy}",
             "https://www.nsw.gov.au/departments-and-agencies/nsw-reconstruction-authority/about-us/recovery/"

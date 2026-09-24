@@ -35,7 +35,7 @@ RASTERS = {
     2024: f"{Z}/fesm_202425.zip/fesmWFs2425_grid/fesmwfs2425",
     2025: f"{Z}/fesm_202526.zip/FESM_GRID20260331/fesm20260331",
 }
-MIN_HA, MAX_PX, MIN_MAPPED = 10, 4000, 0.2
+MIN_HA, MAX_PX, MIN_MAPPED = 0, 4000, 0.2
 NAMES = {1: "unburnt", 2: "low", 3: "moderate", 4: "high", 5: "extreme"}
 
 
@@ -53,6 +53,8 @@ def classes(src, geom):
                    resampling=Resampling.nearest)
     tr = src.window_transform(win) * rasterio.Affine.scale(w / arr.shape[1] if k > 1 else 1, h / arr.shape[0] if k > 1 else 1)
     inside = geometry_mask([geom], out_shape=arr.shape, transform=tr, invert=True, all_touched=False)
+    if not inside.any():  # fire smaller than a pixel: use the pixels it touches
+        inside = geometry_mask([geom], out_shape=arr.shape, transform=tr, invert=True, all_touched=True)
     v = arr[inside]
     n = int(inside.sum())
     counts = {c: int((v == c).sum()) for c in NAMES}

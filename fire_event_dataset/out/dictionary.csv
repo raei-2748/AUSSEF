@@ -18,30 +18,30 @@ IL_GRP_change_raw,Gross regional product change,float,,no official LGA GRP is pu
 IL_job_loss_raw,Change in unemployed persons: quarter after the fire vs same quarter a year before,float,DEWR Small Area Labour Markets (smoothed),positive = more unemployed,yes,97.7
 FP_reconstruction_gap_raw,Reconstruction funding gap,float,,not publicly measurable at council level,yes,0.0
 FP_budget_crowd_out_raw,Spending crowd-out,float,,not publicly measurable (AUSSEF Experiments 3–4),yes,0.0
-SL_income_drop_raw,"Median income change, event FY vs previous FY (%)",float,ABS Personal Income in Australia,negative = drop; income data end FY 2021-22,yes,55.4
+SL_income_drop_raw,"Median income change, event FY vs previous FY (%)",float,ABS Personal Income in Australia,negative = drop; income data end FY 2021-22,yes,57.1
 SL_vulnerable_loss_raw,Loss to vulnerable groups,float,,no direct public measure,yes,0.0
 X1_burn_area,"Fire burned area (ha, whole fire)",float,GA outline,area inside this LGA: region_burn_area_ha,yes,100.0
-X2_FFDI,Max McArthur Mark 5 FFDI during the fire,float,"computed: Open-Meteo ERA5 daily Tmax, RH min, wind max + drought factor from NASA POWER rain (KBDI)","fires >= 10 ha; reanalysis wind is a 25 km daily value, so peaks are lower than station FFDI",yes,50.0
+X2_FFDI,Max McArthur Mark 5 FFDI during the fire,float,"computed: Open-Meteo ERA5 daily Tmax, RH min, wind max + drought factor from NASA POWER rain (KBDI)","reanalysis wind is a 25 km daily value, so peaks are lower than station FFDI",yes,100.0
 X3_SPEI,SPEI-3 at the ignition month (negative = drier than normal),float,"computed from NASA POWER rain and Hargreaves PET, 1991–2020 reference",normal fit per calendar month,yes,100.0
 X4_fire_duration,Fire duration (days),float,GA dates,,yes,99.2
-X5_hotspot_density,Satellite hotspots per km² during the fire,float,DEA Hotspots (all products),"fires >= 10 ha; 0 = queried, none found",yes,50.0
-X6_severity,Share of burnt pixels in high or extreme severity,float,NSW FESM (season of the fire),fires >= 10 ha mapped by FESM,yes,26.0
-X7_temp_max,Max 2 m temperature during the fire (°C),float,Open-Meteo ERA5,fires >= 10 ha,yes,50.0
-X8_humidity_min,Min relative humidity during the fire (%),float,Open-Meteo ERA5,,yes,50.0
-X9_wind_max,Max 10 m wind speed during the fire (km/h),float,Open-Meteo ERA5,,yes,50.0
-X10_elevation,Mean elevation inside the fire (m),float,"AWS Terrain Tiles (SRTM-based), ~65 m",fires >= 10 ha,yes,50.0
-X11_slope,Mean slope inside the fire (degrees),float,computed from AWS Terrain Tiles,fires >= 10 ha,yes,50.0
-X12_vegetation,Dominant NVIS Major Vegetation Group inside the fire,category,NVIS 6.0 (100 m),fires >= 10 ha,yes,50.0
-X13_canopy_cover,Mean tree canopy cover inside the fire (%),float,Hansen GFC v1.11 treecover2000,fires >= 10 ha,yes,50.0
+X5_hotspot_density,"Satellite hotspots per km² of the outline + 500 m buffer, during the fire",float,DEA Hotspots (all products),"0 = queried, none found",yes,100.0
+X6_severity,Share of burnt pixels in high or extreme severity,float,NSW FESM (season of the fire),fires inside FESM mapping,yes,27.7
+X7_temp_max,Max 2 m temperature during the fire (°C),float,Open-Meteo ERA5,,yes,100.0
+X8_humidity_min,Min relative humidity during the fire (%),float,Open-Meteo ERA5,,yes,100.0
+X9_wind_max,Max 10 m wind speed during the fire (km/h),float,Open-Meteo ERA5,,yes,100.0
+X10_elevation,Mean elevation inside the fire (m),float,"AWS Terrain Tiles (SRTM-based), ~65 m",,yes,100.0
+X11_slope,Mean slope inside the fire (degrees),float,computed from AWS Terrain Tiles,,yes,100.0
+X12_vegetation,Dominant NVIS Major Vegetation Group inside the fire,category,NVIS 6.0 (100 m),,yes,99.4
+X13_canopy_cover,Mean tree canopy cover inside the fire (%),float,Hansen GFC v1.11 treecover2000,,yes,99.9
 X14_road_exposure,Road km inside the fire within this LGA,float,2019 OSM network (excl. service),,yes,100.0
 X15_pop_density,"LGA population ÷ area, year before the fire (per km²)",float,ABS ERP,,yes,100.0
 X16_regional_GDP,Regional GDP,float,,no official LGA GDP; see X16_regional_GDP_proxy_total_income_aud,yes,0.0
-X17_SEIFA,"IRSD score (2016 for fires ≤2020, 2021 after)",float,ABS SEIFA,,yes,98.7
+X17_SEIFA,"IRSD score (2016 for fires ≤2020, 2021 after)",float,ABS SEIFA,,yes,100.0
 X18_remoteness,Remoteness class at fire centroid (0 major city … 4 very remote),float,ABS RA 2021,,yes,100.0
-X19_cash_reserve,"Council cash cover (months), FY before the fire",float,AUSSEF fiscal panel (NSW OLG),,yes,95.8
-X20_own_source_revenue_ratio,"Council own-source revenue (%), FY before",float,AUSSEF fiscal panel,,yes,95.8
-X21_debt_burden,"Council debt service ratio (%), FY before",float,AUSSEF fiscal panel,,yes,76.8
-X22_historical_disaster_count,Declared disasters for the LGA in the previous 10 years,int,AUSSEF disaster declarations,,yes,99.7
+X19_cash_reserve,"Council cash cover (months), FY before the fire",float,AUSSEF fiscal panel (NSW OLG),,yes,96.1
+X20_own_source_revenue_ratio,"Council own-source revenue (%), FY before",float,AUSSEF fiscal panel,,yes,96.1
+X21_debt_burden,"Council debt service ratio (%), FY before",float,AUSSEF fiscal panel,,yes,96.1
+X22_historical_disaster_count,Declared disasters for the LGA in the previous 10 years,int,AUSSEF disaster declarations (NSW Reconstruction Authority),"declaration dates parsed from names; the table has few declarations before 2018, so early fires are undercounted",yes,99.7
 X23_insurance_coverage,Insurance coverage,float,,not publicly available by LGA,yes,0.0
 split,train / val / test,str,,blank: to be designed in class,yes,0.0
 region_burn_area_ha,Burned area inside this LGA (ha),ha,GA outline × ABS LGA,,no,100.0
@@ -49,73 +49,88 @@ region_share_of_fire,Share of the fire inside this LGA,fraction,,,no,100.0
 share_of_region_burned,Share of the LGA burned by this fire,fraction,,,no,100.0
 road_km_within_100m,Road km within 100 m of the fire in this LGA,km,2019 OSM network,,no,100.0
 population_prev_year,"LGA population, year before the fire",persons,ABS ERP (Regional population 2024-25),2025 LGA boundaries,no,100.0
-median_income_aud_pre,,,,,no,86.5
-total_income_aud_pre,,,,,no,86.5
-income_earners_pre,,,,,no,86.5
-median_income_aud_event,,,,,no,55.5
-total_income_aud_event,,,,,no,55.5
-income_earners_event,,,,,no,55.5
-median_income_aud_plus1,,,,,no,41.1
-total_income_aud_plus1,,,,,no,41.1
-income_earners_plus1,,,,,no,41.1
-IL_total_income_change_pct_proxy,"Total personal income change, event FY vs previous (%)",%,ABS Personal Income in Australia,proxy for GRP change,no,55.4
-X16_regional_GDP_proxy_total_income_aud,"Total personal income, FY before (AUD)",AUD,ABS PIA,proxy for regional GDP,no,86.5
-fiscal_council_name_pre,,,,,no,96.7
-fiscal_cash_cover_months_pre,,,,,no,95.8
-fiscal_own_source_pct_pre,,,,,no,95.8
-fiscal_grants_pct_pre,,,,,no,95.8
-fiscal_operating_ratio_pct_pre,,,,,no,95.8
-fiscal_debt_service_ratio_pct_pre,,,,,no,76.8
+median_income_aud_pre,,,,,no,86.1
+total_income_aud_pre,,,,,no,86.1
+income_earners_pre,,,,,no,86.1
+median_income_aud_event,,,,,no,57.1
+total_income_aud_event,,,,,no,57.1
+income_earners_event,,,,,no,57.1
+median_income_aud_plus1,,,,,no,42.6
+total_income_aud_plus1,,,,,no,42.6
+income_earners_plus1,,,,,no,42.6
+IL_total_income_change_pct_proxy,"Total personal income change, event FY vs previous (%)",%,ABS Personal Income in Australia,proxy for GRP change,no,57.1
+X16_regional_GDP_proxy_total_income_aud,"Total personal income, FY before (AUD)",AUD,ABS PIA,proxy for regional GDP,no,86.1
+fiscal_building_infrastructure_renewals_ratio_pct_pre,,,,,no,96.1
+fiscal_cash_cover_months_pre,,,,,no,96.1
+fiscal_council_name_pre,,,,,no,96.5
+fiscal_council_population_pre,,,,,no,97.9
 fiscal_debt_service_cover_pre,,,,,no,95.8
-fiscal_maintenance_ratio_pct_pre,,,,,no,95.4
+fiscal_debt_service_cover_ratio_pre,,,,,no,95.4
+fiscal_debt_service_ratio_pct_pre,,,,,no,96.1
+fiscal_fiscal_source_pre,,,,,no,97.9
+fiscal_grants_pct_pre,,,,,no,95.8
+fiscal_infrastructure_backlog_ratio_pct_pre,,,,,no,96.1
 fiscal_maintenance_gap_aud_pre,,,,,no,95.8
-fiscal_total_revenue_including_capital_aud_pre,,,,,no,76.8
+fiscal_maintenance_ratio_pct_pre,,,,,no,96.1
+fiscal_operating_ratio_pct_pre,,,,,no,96.1
+fiscal_own_source_pct_pre,,,,,no,96.1
+fiscal_road_km_pre,,,,,no,89.9
 fiscal_total_expenses_aud_pre,,,,,no,76.8
-fiscal_road_km_pre,,,,,no,90.4
-fiscal_council_population_pre,,,,,no,96.7
-fiscal_fiscal_source_pre,,,,,no,96.7
-fiscal_council_name_event,,,,,no,97.8
-fiscal_cash_cover_months_event,,,,,no,84.0
-fiscal_own_source_pct_event,,,,,no,84.0
-fiscal_grants_pct_event,,,,,no,97.2
-fiscal_operating_ratio_pct_event,,,,,no,84.0
-fiscal_debt_service_ratio_pct_event,,,,,no,66.8
-fiscal_debt_service_cover_event,,,,,no,84.0
-fiscal_maintenance_ratio_pct_event,,,,,no,96.6
-fiscal_maintenance_gap_aud_event,,,,,no,97.2
-fiscal_total_revenue_including_capital_aud_event,,,,,no,77.0
-fiscal_total_expenses_aud_event,,,,,no,77.0
-fiscal_road_km_event,,,,,no,94.9
-fiscal_council_population_event,,,,,no,97.8
-fiscal_fiscal_source_event,,,,,no,97.8
-fiscal_council_name_plus1,,,,,no,85.2
-fiscal_cash_cover_months_plus1,,,,,no,53.7
-fiscal_own_source_pct_plus1,,,,,no,53.7
-fiscal_grants_pct_plus1,,,,,no,84.5
-fiscal_operating_ratio_pct_plus1,,,,,no,53.7
-fiscal_debt_service_ratio_pct_plus1,,,,,no,43.2
-fiscal_debt_service_cover_plus1,,,,,no,53.7
-fiscal_maintenance_ratio_pct_plus1,,,,,no,83.4
-fiscal_maintenance_gap_aud_plus1,,,,,no,84.5
-fiscal_total_revenue_including_capital_aud_plus1,,,,,no,66.7
-fiscal_total_expenses_aud_plus1,,,,,no,66.7
-fiscal_road_km_plus1,,,,,no,84.6
-fiscal_council_population_plus1,,,,,no,85.2
-fiscal_fiscal_source_plus1,,,,,no,85.2
-FP_debt_ratio_change_raw,"Change in debt service ratio, event FY vs previous (pp)",pp,AUSSEF fiscal panel,,no,66.2
-FP_operating_ratio_change_proxy,"Change in operating ratio, event FY vs previous (pp)",pp,AUSSEF fiscal panel,,no,82.2
+fiscal_total_revenue_including_capital_aud_pre,,,,,no,96.1
+fiscal_unrestricted_current_ratio_pre,,,,,no,96.1
+fiscal_building_infrastructure_renewals_ratio_pct_event,,,,,no,97.3
+fiscal_cash_cover_months_event,,,,,no,83.7
+fiscal_council_name_event,,,,,no,97.7
+fiscal_council_population_event,,,,,no,98.7
+fiscal_debt_service_cover_event,,,,,no,83.5
+fiscal_debt_service_cover_ratio_event,,,,,no,83.2
+fiscal_debt_service_ratio_pct_event,,,,,no,83.7
+fiscal_fiscal_source_event,,,,,no,98.7
+fiscal_grants_pct_event,,,,,no,97.1
+fiscal_infrastructure_backlog_ratio_pct_event,,,,,no,97.3
+fiscal_maintenance_gap_aud_event,,,,,no,97.1
+fiscal_maintenance_ratio_pct_event,,,,,no,97.3
+fiscal_operating_ratio_pct_event,,,,,no,83.7
+fiscal_own_source_pct_event,,,,,no,83.7
+fiscal_road_km_event,,,,,no,94.6
+fiscal_total_expenses_aud_event,,,,,no,76.9
+fiscal_total_revenue_including_capital_aud_event,,,,,no,97.3
+fiscal_unrestricted_current_ratio_event,,,,,no,83.7
+fiscal_building_infrastructure_renewals_ratio_pct_plus1,,,,,no,84.2
+fiscal_cash_cover_months_plus1,,,,,no,55.4
+fiscal_council_name_plus1,,,,,no,84.8
+fiscal_council_population_plus1,,,,,no,85.6
+fiscal_debt_service_cover_plus1,,,,,no,55.3
+fiscal_debt_service_cover_ratio_plus1,,,,,no,55.0
+fiscal_debt_service_ratio_pct_plus1,,,,,no,55.4
+fiscal_fiscal_source_plus1,,,,,no,85.6
+fiscal_grants_pct_plus1,,,,,no,84.1
+fiscal_infrastructure_backlog_ratio_pct_plus1,,,,,no,84.2
+fiscal_maintenance_gap_aud_plus1,,,,,no,84.1
+fiscal_maintenance_ratio_pct_plus1,,,,,no,84.2
+fiscal_operating_ratio_pct_plus1,,,,,no,55.4
+fiscal_own_source_pct_plus1,,,,,no,55.4
+fiscal_road_km_plus1,,,,,no,84.1
+fiscal_total_expenses_aud_plus1,,,,,no,66.3
+fiscal_total_revenue_including_capital_aud_plus1,,,,,no,84.2
+fiscal_unrestricted_current_ratio_plus1,,,,,no,55.4
+FP_debt_ratio_change_raw,"Change in debt service ratio, event FY vs previous (pp)",pp,AUSSEF fiscal panel,,no,82.2
+FP_operating_ratio_change_proxy,"Change in operating ratio, event FY vs previous (pp)",pp,AUSSEF fiscal panel,,no,82.1
 FP_cash_cover_change_proxy,"Change in cash cover, event FY vs previous (months)",months,AUSSEF fiscal panel,,no,82.2
-historical_bushfire_declarations_10y,"Declared bushfire disasters for the LGA, previous 10 years",int,,,no,99.7
-official_declaration_agrn,Matching NSW bushfire disaster declaration (AGRN),str,AUSSEF disaster declarations,declaration for this LGA starting within 30 days before to the end of the fire,no,4.6
-official_declaration_name,Declared event name,str,AUSSEF disaster declarations,,no,5.2
+historical_bushfire_declarations_10y,"Declared bushfire disasters for the LGA, previous 10 years",int,,declarations table is thin before 2018; undercounts for early fires,no,99.7
+official_declaration_agrn,Matching NSW bushfire disaster declaration (AGRN),str,AUSSEF disaster declarations,"fire declaration for this LGA whose period overlaps the fire (dates parsed from the declaration name; open-ended = 180 days). The declarations table has almost none before 2018, so 2015–2017 fires show none",no,21.7
+official_declaration_name,Declared event name,str,AUSSEF disaster declarations,,no,22.9
 date_end_note,Why date_end is blank although GA has a value,str,GA,end before start in the source record,no,0.4
 fire_type_flag,"GA fire type: bushfire, or type unknown (never prescribed)",category,GA,,no,100.0
-ignition_cause,Recorded ignition cause,category,GA,often blank for historical records,no,69.2
+ignition_cause,Recorded ignition cause,category,GA,often blank for historical records,no,68.4
 agency,Mapping agency,str,GA,,no,100.0
 capture_method,How the outline was captured,str,GA,,no,0.1
 ga_fire_ids,Agency fire ID(s),str,GA,,no,99.7
 centroid_lat,Fire centroid latitude (point inside the fire),deg,GA outline,,no,100.0
 centroid_lon,Fire centroid longitude,deg,GA outline,,no,100.0
+merged_record_count,GA records combined into this fire (1 = not merged),int,GA,same incident: started within 10 days and overlapping >= 50% (IoU) or >= 80% inside the larger record,no,100.0
+merged_event_ids,Inventory event IDs combined into this fire,str,GA,blank if not merged,no,4.9
+merged_event_names,Names of the combined records,str,GA,blank if not merged,no,4.9
 ga_source,GA layer holding the record,str,GA,"GA_V2 historical, GA_RECENT_3 2020–25",no,100.0
 unemployment_rate_pre,"LGA smoothed unemployment rate, quarter before the fire",%,JSA/DEWR SALM,,no,98.1
 labour_force_pre,"LGA labour force, quarter before the fire",persons,SALM,,no,98.1
@@ -123,34 +138,34 @@ unemployed_pre,"LGA unemployed persons, quarter before the fire",persons,SALM,,n
 unemployment_rate_after,"Unemployment rate, quarter after the fire-start quarter",%,SALM,,no,98.3
 unemployed_after,"Unemployed persons, quarter after the fire-start quarter",persons,SALM,,no,98.3
 unemployment_rate_change_pp,"Unemployment rate, quarter after vs same quarter a year before",pp,SALM,seasonally comparable; smoothed series,no,97.7
-industry_share_agriculture_forestry_fishing,Share of employed residents in agriculture forestry fishing,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.7
-industry_share_mining,Share of employed residents in mining,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.7
-industry_share_manufacturing,Share of employed residents in manufacturing,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.7
-industry_share_utilities,Share of employed residents in utilities,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.7
-industry_share_construction,Share of employed residents in construction,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.7
-industry_share_wholesale,Share of employed residents in wholesale,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.7
-industry_share_retail,Share of employed residents in retail,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.7
-industry_share_accommodation_food,Share of employed residents in accommodation food,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.7
-industry_share_transport,Share of employed residents in transport,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.7
-industry_share_information_media,Share of employed residents in information media,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.7
-industry_share_finance_insurance,Share of employed residents in finance insurance,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.7
-industry_share_rental_real_estate,Share of employed residents in rental real estate,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.7
-industry_share_professional_services,Share of employed residents in professional services,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.7
-industry_share_admin_support,Share of employed residents in admin support,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.7
-industry_share_public_administration,Share of employed residents in public administration,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.7
-industry_share_education,Share of employed residents in education,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.7
-industry_share_health_social,Share of employed residents in health social,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.7
-industry_share_arts_recreation,Share of employed residents in arts recreation,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.7
-industry_share_other_services,Share of employed residents in other services,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.7
-employed_persons_census,Employed residents (Census),persons,ABS Census GCP,,no,98.7
+industry_share_agriculture_forestry_fishing,Share of employed residents in agriculture forestry fishing,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.6
+industry_share_mining,Share of employed residents in mining,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.6
+industry_share_manufacturing,Share of employed residents in manufacturing,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.6
+industry_share_utilities,Share of employed residents in utilities,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.6
+industry_share_construction,Share of employed residents in construction,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.6
+industry_share_wholesale,Share of employed residents in wholesale,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.6
+industry_share_retail,Share of employed residents in retail,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.6
+industry_share_accommodation_food,Share of employed residents in accommodation food,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.6
+industry_share_transport,Share of employed residents in transport,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.6
+industry_share_information_media,Share of employed residents in information media,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.6
+industry_share_finance_insurance,Share of employed residents in finance insurance,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.6
+industry_share_rental_real_estate,Share of employed residents in rental real estate,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.6
+industry_share_professional_services,Share of employed residents in professional services,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.6
+industry_share_admin_support,Share of employed residents in admin support,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.6
+industry_share_public_administration,Share of employed residents in public administration,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.6
+industry_share_education,Share of employed residents in education,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.6
+industry_share_health_social,Share of employed residents in health social,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.6
+industry_share_arts_recreation,Share of employed residents in arts recreation,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.6
+industry_share_other_services,Share of employed residents in other services,fraction,ABS Census GCP (2016 G51 / 2021 G54),place of usual residence; excludes not stated,no,98.6
+employed_persons_census,Employed residents (Census),persons,ABS Census GCP,,no,98.6
 census_vintage,Census used for industry shares,year,ABS Census,"2016 for fires to 2020, 2021 after",no,100.0
 remoteness_name,ABS remoteness area at the fire centroid,category,ABS RA 2021,,no,100.0
-hotspot_count,Satellite hotspots inside the outline (+500 m) during the fire,count,DEA Hotspots,all products,no,50.0
-hotspot_viirs_count,VIIRS hotspots inside the outline during the fire,count,DEA Hotspots,,no,50.0
-hotspot_viirs_density,VIIRS hotspots per km² of burned area,per km²,DEA Hotspots,,no,50.0
-hotspot_first_utc,First hotspot time inside the outline,UTC,DEA Hotspots,,no,36.1
-hotspot_last_utc,Last hotspot time inside the outline,UTC,DEA Hotspots,,no,36.1
-hotspot_note,Why hotspot columns are blank,str,,,no,50.0
+hotspot_count,Satellite hotspots inside the outline (+500 m) during the fire,count,DEA Hotspots,all products,no,100.0
+hotspot_viirs_count,VIIRS hotspots inside the outline during the fire,count,DEA Hotspots,,no,100.0
+hotspot_viirs_density,VIIRS hotspots per km² of burned area,per km²,DEA Hotspots,,no,100.0
+hotspot_first_utc,First hotspot time inside the outline,UTC,DEA Hotspots,,no,42.4
+hotspot_last_utc,Last hotspot time inside the outline,UTC,DEA Hotspots,,no,42.4
+hotspot_note,Why hotspot columns are blank,str,,,no,0.0
 ica_cat,ICA catastrophe code linked by date,str,ICA Historical Catastrophe List (June 2024),,no,6.1
 ica_event_name,ICA catastrophe name,str,ICA,,no,6.1
 ica_event_start,ICA catastrophe start,date,ICA,,no,6.1
@@ -160,30 +175,40 @@ ica_normalised_loss_2022,Catastrophe loss normalised to 2022 (AUD),AUD,ICA,event
 ica_claims_count,Catastrophe claim count,count,ICA,event level,no,5.6
 ica_linked_fires,NSW fires linked to this catastrophe,count,,,no,6.1
 DL_insurance_loss_area_share_proxy,Catastrophe loss × this fire's share of linked burned area,AUD,computed,ASSUMPTION: loss proportional to area; includes other states' losses,no,6.1
-severity_note,Why severity is blank,str,,,no,68.5
-severity_mapped_share,Share of the outline covered by FESM mapping,fraction,NSW FESM,,no,31.5
-severity_season,FESM season used,str,NSW FESM,July–June,no,31.5
-severity_decimation,Pixel stride used (1 = full resolution),int,,very large fires sampled,no,31.5
-severity_share_unburnt,Share of mapped pixels in the unburnt class,fraction,NSW FESM,,no,31.5
-severity_share_low,Share of mapped pixels in the low class,fraction,NSW FESM,,no,31.5
-severity_share_moderate,Share of mapped pixels in the moderate class,fraction,NSW FESM,,no,31.5
-severity_share_high,Share of mapped pixels in the high class,fraction,NSW FESM,,no,31.5
-severity_share_extreme,Share of mapped pixels in the extreme class,fraction,NSW FESM,,no,31.5
-elevation_min,Lowest elevation inside the fire,m,AWS Terrain Tiles (SRTM-based),"zoom 11, ~65 m",no,50.0
-elevation_max,Highest elevation inside the fire,m,AWS Terrain Tiles,,no,50.0
-slope_p90,90th percentile slope inside the fire,degrees,computed from AWS Terrain Tiles,,no,50.0
-terrain_pixels,DEM pixels inside the outline,count,,,no,50.0
-terrain_note,Why terrain is blank,str,,,no,50.0
-vegetation_mvg_code,NVIS Major Vegetation Group number of X12,int,NVIS 6.0,,no,50.0
-vegetation_dominant_share,Share of the fire in the dominant group,fraction,NVIS 6.0,,no,50.0
-vegetation_forest_share,"Share of the fire in forest or woodland groups (MVG 1–10, 30)",fraction,NVIS 6.0,,no,50.0
-vegetation_cleared_share,Share of the fire that is cleared / non-native (MVG 25),fraction,NVIS 6.0,,no,50.0
-canopy_cover_share_over_30pct,Share of the fire with tree cover over 30%,fraction,Hansen 2000,,no,50.0
-vegetation_note,Why vegetation is blank,str,,,no,50.0
+severity_note,Why severity is blank,str,,,no,66.6
+severity_mapped_share,Share of the outline covered by FESM mapping,fraction,NSW FESM,,no,33.4
+severity_season,FESM season used,str,NSW FESM,July–June,no,33.4
+severity_decimation,Pixel stride used (1 = full resolution),int,,very large fires sampled,no,33.4
+severity_share_unburnt,Share of mapped pixels in the unburnt class,fraction,NSW FESM,,no,33.4
+severity_share_low,Share of mapped pixels in the low class,fraction,NSW FESM,,no,33.4
+severity_share_moderate,Share of mapped pixels in the moderate class,fraction,NSW FESM,,no,33.4
+severity_share_high,Share of mapped pixels in the high class,fraction,NSW FESM,,no,33.4
+severity_share_extreme,Share of mapped pixels in the extreme class,fraction,NSW FESM,,no,33.4
+elevation_min,Lowest elevation inside the fire,m,AWS Terrain Tiles (SRTM-based),"zoom 11, ~65 m",no,100.0
+elevation_max,Highest elevation inside the fire,m,AWS Terrain Tiles,,no,100.0
+slope_p90,90th percentile slope inside the fire,degrees,computed from AWS Terrain Tiles,,no,100.0
+terrain_pixels,DEM pixels inside the outline,count,,,no,100.0
+terrain_note,Why terrain is blank,str,,,no,0.0
+vegetation_mvg_code,NVIS Major Vegetation Group number of X12,int,NVIS 6.0,,no,99.4
+vegetation_dominant_share,Share of the fire in the dominant group,fraction,NVIS 6.0,,no,99.4
+vegetation_forest_share,"Share of the fire in forest or woodland groups (MVG 1–10, 30)",fraction,NVIS 6.0,,no,99.4
+vegetation_cleared_share,Share of the fire that is cleared / non-native (MVG 25),fraction,NVIS 6.0,,no,99.4
+canopy_cover_share_over_30pct,Share of the fire with tree cover over 30%,fraction,Hansen 2000,,no,99.9
+vegetation_note,Why vegetation is blank,str,,,no,0.0
 power_cell,NASA POWER 0.5° cell used for drought indices,"lat,lon",NASA POWER,,no,100.0
 kbdi_at_start,"Keetch–Byram drought index on the start day (mm, 0–203)",mm,computed from NASA POWER rain/temperature,,no,100.0
 drought_factor_at_start,Griffiths drought factor on the start day (0–10),0–10,computed from NASA POWER,,no,100.0
-rain_during_fire_mm,Total rain during the fire window,mm,Open-Meteo ERA5,fires >= 10 ha,no,50.0
-weather_days,Days of fire-day weather used,days,Open-Meteo ERA5,"start-1 to end, capped at 60 days",no,50.0
-ffdi_peak_date,Date of the highest FFDI during the fire,date,computed,,no,50.0
-weather_note,Why fire-day weather is blank,str,,,no,50.0
+rain_during_fire_mm,Total rain during the fire window,mm,Open-Meteo ERA5,fires >= 10 ha,no,100.0
+weather_days,Days of fire-day weather used,days,Open-Meteo ERA5,"start-1 to end, capped at 60 days",no,100.0
+ffdi_peak_date,Date of the highest FFDI during the fire,date,computed,,no,100.0
+IL_unemployment_rate_change_excess_pp,Unemployment-rate change (quarter after vs same quarter a year before) minus the median change in NSW councils with no fire >= 100 ha in that window,pp,DEWR SALM,positive = unemployment rose more than comparison,no,97.7
+SL_income_drop_excess_pct,Median-income % change (fire FY vs previous FY) minus the median change in councils with no fire >= 100 ha that FY,%,ABS PIA,negative = income grew less than comparison,no,57.1
+IL_total_income_change_excess_pct,Total-income % change (fire FY vs previous) minus comparison-council median,%,ABS PIA,GRP proxy,no,57.1
+SL_income_change_plus1_pct,"Median-income % change, FY after the fire vs FY before",%,ABS PIA,lagged,no,42.6
+SL_income_change_plus1_excess_pct,As above minus comparison-council median,%,ABS PIA,lagged,no,42.6
+FP_debt_ratio_change_event_excess,Debt service ratio change (fire FY vs previous) minus comparison median,pp,council finance panel,,no,82.2
+FP_debt_ratio_change_plus1_excess,Debt service ratio change (FY after vs FY before) minus comparison median,pp,council finance panel,lagged,no,53.5
+FP_operating_ratio_change_event_excess,Operating ratio change (fire FY vs previous) minus comparison median,pp,council finance panel,,no,82.1
+FP_operating_ratio_change_plus1_excess,Operating ratio change (FY after vs FY before) minus comparison median,pp,council finance panel,lagged,no,53.5
+FP_cash_cover_change_event_excess,Cash cover change (fire FY vs previous) minus comparison median,months,council finance panel,,no,82.2
+FP_cash_cover_change_plus1_excess,Cash cover change (FY after vs FY before) minus comparison median,months,council finance panel,lagged,no,53.5
