@@ -152,8 +152,8 @@ FP_operating_ratio_change_proxy,"Change in operating ratio, event FY vs previous
 FP_cash_cover_change_proxy,"Change in cash cover, event FY vs previous (months)",months,AUSSEF fiscal panel,,no,82.2
 FP_roads_share_change_plus1_pp,,,,,no,80.5
 historical_bushfire_declarations_10y,"Declared bushfire disasters for the LGA, previous 10 years",int,,declarations table is thin before 2018; undercounts for early fires,no,99.7
-official_declaration_agrn,Matching NSW bushfire disaster declaration (AGRN),str,AUSSEF disaster declarations,"fire declaration for this LGA whose period overlaps the fire (dates parsed from the declaration name; 'onwards' = 180 days, single date = 30 days). The declarations table has almost none before 2018, so 2015–2017 fires show none",no,19.4
-official_declaration_name,Declared event name,str,AUSSEF disaster declarations,,no,19.4
+official_declaration_agrn,Matching NSW bushfire disaster declaration (AGRN),str,AUSSEF disaster declarations,"fire declaration for this LGA whose period overlaps the fire (dates parsed from the declaration name; 'onwards' runs until the council's next fire declaration, at most 180 days; single date = 30 days). The declarations table has almost none before 2018, so 2015–2017 fires show none",no,21.5
+official_declaration_name,Declared event name,str,AUSSEF disaster declarations,,no,21.5
 date_end_note,Why date_end is blank although GA has a value,str,GA,end before start in the source record,no,0.4
 fire_type_flag,"GA fire type: bushfire, or type unknown (never prescribed)",category,GA,,no,100.0
 ignition_cause,Recorded ignition cause,category,GA,often blank for historical records,no,68.4

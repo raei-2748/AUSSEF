@@ -107,3 +107,31 @@ council-year shares them.
 - `data/aussef.duckdb` is opened read-only. Its hash is checked before and after every build.
 - No synthetic fires. No results are described as causal.
 - Downloads (under `data/`, git-ignored) are listed with hashes in the `sources` sheet.
+
+## Key-events dataset (declared bushfire disasters)
+
+`out/nsw_key_bushfire_events.xlsx` is the compact "key information" view: **125 declared NSW bushfire disasters** since
+2015. Declarations come from three sources: the AUSSEF disasters table (2018 onward), the AUSSEF Experiment 2 ledger
+(NSW RAA annual reports, 2012–17), and 21 FY2017-18 declarations recovered from an archived NSW Government page.
+
+| Sheet | What it holds |
+|---|---|
+| `events` | One row per declaration: name, dates, councils, main fires, a 2–4 sentence summary, headline facts, `key_facts` (every verified fact in words) |
+| `event_council` | One row per declaration × council (218): the event's fires in that council (area, share burned, peak FFDI, severity, homes destroyed), council context (X15–X22) and the Y columns with their `_excess` versions |
+| `facts` | Every reported fact (181) with source, date, verbatim quote and `value_check` |
+| `dictionary` | Column meanings |
+
+Facts were collected from official reports and reputable news (spec: `data/key_events/SPEC.md`). Rules enforced by
+`src/key_events.py`:
+- **The number must be in its quote.** Otherwise the value is blanked (`value_check`). One named death counts as 1.
+- **Hedged numbers are blanked.** For example "more than 700 ha". The original is kept in `value_as_submitted`.
+- **Manual fixes after spot checks** are listed in `data/key_events/corrections.csv`.
+- **Disagreements stay visible.** When sources disagree, each figure is its own row; the headline prefers the latest official source.
+
+Most small declarations have no news coverage. Their summaries say so, and their facts stay blank.
+
+A fire can link to two declarations when the same council was declared twice within weeks.
+`also_under_declarations` flags these cases, so add up event × council rows with care.
+
+An "X onwards" declaration runs until the council's next bushfire declaration begins, at most 180 days. A declaration
+named with a single date runs 30 days.

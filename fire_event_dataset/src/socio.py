@@ -124,6 +124,21 @@ def olg_fiscal():
 DECL_OPEN_DAYS, DECL_SINGLE_DAYS = 180, 30  # 'X onwards' vs a single-date declaration name
 
 
+def _close_open_declarations(g):
+    """Effective end of each declaration for one council: its stated end; else, for 'X onwards' names, the day before
+    the council's next fire declaration starts (capped at 180 days); single-date names get 30 days."""
+    g = g.copy()
+    fire = g.hazard.astype(str).str.contains("fire", case=False)
+    onwards = g.event_name.astype(str).str.contains("onward|commenc", case=False)
+    cap = g.start + pd.to_timedelta(np.where(onwards, DECL_OPEN_DAYS, DECL_SINGLE_DAYS), unit="D")
+    starts = sorted(set(g.loc[fire, "start"].dropna()))
+    nxt = [min([t for t in starts if t > s0], default=pd.NaT) if pd.notna(s0) else pd.NaT for s0 in g.start]
+    nxt = pd.to_datetime(pd.Series(nxt, index=g.index)) - pd.Timedelta(days=1)
+    g["eff_end"] = g.end.fillna(pd.concat([cap, nxt.where(onwards)], axis=1).min(axis=1))
+    g["grace_days"] = np.where(g.end.notna(), 7, 0)  # a stated end date may lag the fire start slightly
+    return g
+
+
 def disasters():
     """Declared disasters per council key with start dates and hazard."""
     con = duckdb.connect(str(AUSSEF_DB), read_only=True)
@@ -141,7 +156,29 @@ def disasters():
     e2 = e2_declarations()
     if e2 is not None:
         d = pd.concat([d, e2], ignore_index=True)
+    gap = gap_declarations()
+    if gap is not None:
+        d = pd.concat([d, gap[~gap.agrn.isin(d.agrn.astype(str))]], ignore_index=True)
     return d
+
+
+GAP_1718 = DATA / "key_events/gap_declarations_2017_18.csv"
+
+
+def gap_declarations():
+    """NSW bushfire declarations July 2017 – July 2018, missing from both other sources; recovered from the NSW
+    Government's FY2017-18 declarations page (Wayback snapshot). Real AGRN where found, else 'NSW1718-<n>'."""
+    if not GAP_1718.exists():
+        return None
+    g = pd.read_csv(GAP_1718, dtype=str)
+    g["agrn"] = [a if isinstance(a, str) and a.strip() else f"NSW1718-{i + 1:02d}" for i, a in enumerate(g.agrn)]
+    g["council_name"] = g.councils.str.split(";")
+    g = g.explode("council_name")
+    g["council_name"] = g.council_name.str.strip()
+    return pd.DataFrame({"council_name": g.council_name, "key": g.council_name.map(norm), "agrn": g.agrn,
+                         "event_name": g.official_name, "hazard": "Bushfire",
+                         "start": pd.to_datetime(g.start_date, errors="coerce"),
+                         "end": pd.to_datetime(g.end_date, errors="coerce"), "decl_source": "nsw_fy2017_18_page"})
 
 
 E2_DIR = REPO / "Experiment 2/data/disaster_exposure_v2"
@@ -247,7 +284,7 @@ def attach(rows, ev):
         r["FP_roads_share_change_plus1_pp"] = r.fiscal_roads_share_pct_plus1 - r.fiscal_roads_share_pct_pre
 
     d = disasters()
-    by = {k: g for k, g in d.groupby("key")}
+    by = {k: _close_open_declarations(g) for k, g in d.groupby("key")}
     hist, hist_bf, agrn, dname = [], [], [], []
     for k, s0, e0 in zip(r.key, r.start, r.end):
         g = by.get(k)
@@ -259,10 +296,9 @@ def attach(rows, ev):
         e1 = e0 if pd.notna(e0) else s0 + pd.Timedelta(days=30)
         # fire declaration for this council whose period overlaps the fire: starts no later than the fire ends and
         # ends no earlier than a week before it starts; open-ended ("onwards") declarations cover 180 days
-        onwards = g.event_name.astype(str).str.contains("onward|commenc", case=False)
-        dend = g.end.fillna(g.start + pd.to_timedelta(np.where(onwards, DECL_OPEN_DAYS, DECL_SINGLE_DAYS), unit="D"))
+        dend = g.eff_end
         m = g[(g.hazard.astype(str).str.contains("fire", case=False)) & (g.start <= e1)
-              & (dend >= s0 - pd.Timedelta(days=7))]
+              & (dend >= s0 - pd.to_timedelta(g.grace_days, unit="D"))]
         agrn.append(";".join(sorted({str(x) for x in m.agrn.dropna()})))
         dname.append(" | ".join(sorted({str(x) for x in m.event_name.dropna()})))
     r["X22_historical_disaster_count"] = hist
