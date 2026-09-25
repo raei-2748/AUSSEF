@@ -26,6 +26,54 @@ SHEETS = [
     ("download_links", FULL, "download_links", "Exact download link for every input dataset"),
     ("data_sources", FULL, "sources", "Every input file: local path, SHA-256, access time, licence"),
 ]
+WRAP_COLS = {"summary", "key_facts", "quoted_text", "notes", "what it holds", "meaning", "note", "main_fires",
+             "fire_names", "councils", "towns_affected", "key_sources", "links_removed", "house_loss_all_sources",
+             "official_declaration_name", "correction_note", "used_for", "dataset", "title"}
+MIN_W, MAX_W, WRAP_W = 8, 45, 70  # column widths in characters
+
+
+def format_sheet(ws, d):
+    """Bold frozen header; width fitted to content (header and 95th-percentile cell length), long text wrapped."""
+    from openpyxl.styles import Alignment, Font
+    from openpyxl.utils import get_column_letter
+    ws.freeze_panes = "B2" if len(d.columns) > 8 else "A2"
+    bold, wrap = Font(bold=True), Alignment(wrap_text=True, vertical="top")
+    for j, col in enumerate(d.columns, start=1):
+        cell = ws.cell(row=1, column=j)
+        cell.font = bold
+        cell.alignment = Alignment(wrap_text=True, vertical="bottom")
+        vals = d[col].dropna()
+        # display formats only (stored values unchanged): dates as yyyy-mm-dd; large decimals with thousands separators
+        fmt = None
+        if pd.api.types.is_datetime64_any_dtype(d[col]):
+            fmt = "yyyy-mm-dd"
+        elif pd.api.types.is_float_dtype(d[col]) and len(vals):
+            med = vals.abs().median()
+            whole = bool((vals == vals.round()).all())
+            fmt = "#,##0" if (med >= 100 or whole) else "#,##0.00" if med >= 1 else "0.0000"
+            if any(k in str(col).lower() for k in ("lat", "lon")):
+                fmt = "0.0000"  # coordinates: 4 decimals ≈ 10 m
+        if fmt:
+            for i in range(2, len(d) + 2):
+                ws.cell(row=i, column=j).number_format = fmt
+            ws.column_dimensions[get_column_letter(j)].width = max(12, min(len(str(col)), 30) + 2) if fmt == "yyyy-mm-dd" \
+                else max(MIN_W, min(MAX_W, max(len(f"{vals.abs().max():,.0f}") + (6 if "." in fmt else 2),
+                                                min(len(str(col)), 30) + 2)))
+            continue
+        vals = vals.map(lambda v: len(f"{v:,.2f}") if isinstance(v, float) else len(str(v)))
+        body = int(vals.quantile(0.95)) if len(vals) else 0
+        head = min(len(str(col)), 30)
+        letter = get_column_letter(j)
+        if col in WRAP_COLS and body > MAX_W:
+            ws.column_dimensions[letter].width = WRAP_W
+            for i in range(2, len(d) + 2):
+                ws.cell(row=i, column=j).alignment = wrap
+        else:
+            ws.column_dimensions[letter].width = max(MIN_W, min(MAX_W, max(body, head) + 2))
+    ws.row_dimensions[1].height = 30
+    ws.auto_filter.ref = ws.dimensions
+
+
 URL_COLS = {"source_url", "declaration_source_url", "download_url", "url", "source", "house_loss_url"}
 
 
@@ -48,6 +96,7 @@ def main():
             d = pd.read_excel(book, sheet_name=sheet)
             d.to_excel(w, sheet_name=name, index=False)
             ws = w.sheets[name]
+            format_sheet(ws, d)
             for j, col in enumerate(d.columns, start=1):
                 if col not in URL_COLS:
                     continue
@@ -55,8 +104,11 @@ def main():
                     if isinstance(u, str) and u.startswith("http") and "{" not in u and " " not in u:
                         ws.cell(row=i, column=j).hyperlink = u
                         ws.cell(row=i, column=j).style = "Hyperlink"
-        w.sheets["README"].column_dimensions["A"].width = 24
-        w.sheets["README"].column_dimensions["B"].width = 110
+        g = w.sheets["README"]
+        format_sheet(g, guide)
+        g.column_dimensions["A"].width = 24
+        g.column_dimensions["B"].width = 110
+        g.auto_filter.ref = None
     return DEST
 
 
