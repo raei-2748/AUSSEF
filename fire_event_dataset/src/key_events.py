@@ -40,6 +40,7 @@ def load_facts():
     f["council"] = f.council.fillna("ALL").str.strip()
     f = apply_corrections(f)
     f = validate(f)
+    f = link_status(f)
     f["as_of"] = pd.to_datetime(f.as_of_date, errors="coerce")
     f["official"] = f.source_type.str.lower().eq("official")
     return f
@@ -97,6 +98,53 @@ def validate(f):
     return f
 
 
+def _links():
+    from src import linkcheck
+    lc = linkcheck.load()
+    return linkcheck.clean, dict(zip(lc.url, zip(lc.verdict, lc.archive_url)))
+
+
+# local copies cited by the agents, mapped to the official file (same SHA-256, checked 2026-09-25)
+LOCAL_COPIES = {"nsw_bushfire_inquiry_final_report_2020.pdf":
+                "https://www.nsw.gov.au/sites/default/files/noindex/2023-06/Final-Report-of-the-NSW-Bushfire-Inquiry.pdf"}
+
+
+def link_status(f):
+    """link_status per fact; a dead link with a Wayback copy is replaced by the copy (original kept)."""
+    clean, lc = _links()
+    st, url = [], []
+    for u in f.source_url.fillna(""):
+        for local, official in LOCAL_COPIES.items():  # local files cited by agents -> the identical official file
+            if local in u:
+                u = official
+        v, a = lc.get(clean(u), ("unchecked", ""))
+        st.append(v)
+        # dead link, or a site that refuses automated checks: use the Wayback copy when one exists
+        url.append(a if v in ("dead_archived", "blocked") and a else u)
+    f["source_url_original"] = f.source_url
+    f["source_url"] = url
+    f["link_status"] = st
+    return f
+
+
+def clean_key_sources(text):
+    """Keep checked links (ok / blocked / archived copy); list the rest in links_removed."""
+    clean, lc = _links()
+    keep, drop = [], []
+    for part in re.split(r"\s*[;|]\s*|\s+(?=https?://)", str(text or "")):
+        if not part.strip():
+            continue
+        u = clean(part)
+        v, a = lc.get(u, ("unchecked", ""))
+        if v in ("ok", "blocked", "unchecked") and u.startswith("http") and "wikipedia.org" not in u:
+            keep.append(u)
+        elif v == "dead_archived" and a:
+            keep.append(a)
+        else:
+            drop.append(f"{part.strip()} [{v}]")
+    return "; ".join(dict.fromkeys(keep)), "; ".join(drop)
+
+
 def apply_corrections(f):
     path = KE / "corrections.csv"
     if not path.exists():
@@ -109,6 +157,11 @@ def apply_corrections(f):
             f.loc[m, "council"] = c.new_value
         elif c.action == "set_fact":
             f.loc[m, "fact"] = c.new_value
+        elif c.action == "set_source":
+            f.loc[m, "source_url"] = c.new_value
+            if getattr(c, "new_quote", ""):
+                f.loc[m, "quoted_text"] = c.new_quote
+            f.loc[m, "source_type"] = "news"
         elif c.action == "blank":
             f.loc[m, "value"] = np.nan
         elif c.action == "drop":
@@ -143,6 +196,7 @@ def build_seed():
         rows.append(dict(
             agrn=a, declaration_name=g.event_name.iloc[0], hazard=g.hazard.iloc[0], decl_start=g.start.min().date(),
             decl_end=g.end.max().date() if g.end.notna().any() else "", source=g.decl_source.iloc[0],
+            declaration_source_url=g.decl_source_url.dropna().iloc[0] if g.decl_source_url.notna().any() else "",
             councils="; ".join(sorted(set(lf.region_name)) or sorted(set(g.council_name.astype(str)))),
             n_councils=g.key.nunique(), linked_fires=lf.event_id.nunique(),
             linked_burn_area_ha=round(lf.drop_duplicates("event_id").X1_burn_area.sum()),
@@ -164,7 +218,10 @@ def _summaries(seed):
     s.loc[miss, "agrn"] = s.loc[miss, "declaration_name"].str.lower().str.strip().map(name2id)
     s = s[s.agrn.notna()]
     s["_len"] = s.summary.fillna("").str.len()  # two groups may summarise the same event: keep the fuller one
-    return s.sort_values("_len", ascending=False).drop_duplicates("agrn").drop(columns="_len")
+    s = s.sort_values("_len", ascending=False).drop_duplicates("agrn").drop(columns="_len")
+    ks = s.key_sources.map(clean_key_sources)
+    s["key_sources"], s["links_removed"] = ks.str[0], ks.str[1]
+    return s
 
 
 def build():
@@ -242,7 +299,8 @@ def build():
         ok = ok.fillna({"publisher": "", "notes": ""})
         kf = ok.groupby("agrn").apply(lambda g: "; ".join(line(r) for r in g.itertuples()))
         ev["key_facts"] = ev.agrn.astype(str).map(kf)
-    keep = [c for c in ["agrn", "real_agrn_if_found", "official_name_if_found", "towns_affected", "summary", "key_sources"]
+    keep = [c for c in ["agrn", "real_agrn_if_found", "official_name_if_found", "towns_affected", "summary", "key_sources",
+                        "links_removed"]
             if c in summ.columns]
     if keep:
         ev = ev.merge(summ[keep].drop_duplicates("agrn"), on="agrn", how="left")
@@ -262,12 +320,47 @@ def build():
         ("X15…X22, IL_*, SL_*, FP_*, DL_*", "Council context and Y components for this council and financial year "
                                             "(see the main dataset's dictionary); _excess = vs councils without a large fire"),
     ], columns=["column", "meaning"])
+    src_of = {"agrn": "declaration (declaration_source_url)", "reported_*": "facts sheet: source_url per fact",
+              "key_facts": "facts sheet: source_url per fact",
+              "X15…X22, IL_*, SL_*, FP_*, DL_*": "main dataset nsw_fire_events_2015_2025.xlsx (dictionary + download_links)"}
+    dic["source"] = dic.column.map(src_of).fillna("GA fire outlines and enrichments in the main dataset (see sources sheet)")
+    dic = pd.concat([dic, pd.DataFrame([
+        ("declaration_source_url", "Official document listing the declaration (page number where it is a PDF)",
+         "declaration source"),
+        ("summary / key_sources", "Summary written from the listed sources; events with no coverage say so", "summary sources"),
+        ("links_removed", "Links the research agents gave that failed the link check (dead, guessed, bare homepage, "
+                          "Wikipedia); not used", "out/link_check.csv"),
+        ("facts.link_status", "ok / blocked (site refuses automated checks) / dead_archived (Wayback copy used) / dead",
+         "out/link_check.csv"),
+    ], columns=["column", "meaning", "source"])], ignore_index=True)
+    # every document behind the workbook: declarations, facts, summaries, and the data behind event_council
+    src = [dict(kind="declaration", title=n, url=u, used_for="declaration name, dates, councils")
+           for n, u in zip(ev.declaration_name, ev.declaration_source_url) if isinstance(u, str) and u]
+    if not facts.empty:
+        for r in facts.drop_duplicates("source_url").itertuples():
+            src.append(dict(kind=f"fact ({r.source_type})", title=f"{r.source_title} — {r.publisher}", url=r.source_url,
+                            used_for="facts sheet / reported_* columns"))
+    if "key_sources" in ev:
+        for u in ev.key_sources.dropna().str.split(r"\s*[;|\s]\s*(?=https?://)", regex=True).explode().str.strip():
+            if u.startswith("http"):
+                src.append(dict(kind="summary", title="", url=u, used_for="events.summary"))
+    from src.links import rows as data_links
+    for r in data_links().itertuples():
+        src.append(dict(kind=f"data ({r.type})", title=r.dataset, url=r.download_url,
+                        used_for=f"event_council: {r.used_for}"))
+    sources = pd.DataFrame(src).drop_duplicates(["url", "used_for"])
     path = OUT / "nsw_key_bushfire_events.xlsx"
     with pd.ExcelWriter(path, engine="openpyxl") as w:
         ev.to_excel(w, sheet_name="events", index=False)
         ec.to_excel(w, sheet_name="event_council", index=False)
         facts.drop(columns=[c for c in ["as_of", "official"] if c in facts]).to_excel(w, sheet_name="facts", index=False)
         dic.to_excel(w, sheet_name="dictionary", index=False)
+        sources.to_excel(w, sheet_name="sources", index=False)
+        ws = w.sheets["sources"]
+        for i, u in enumerate(sources.url, start=2):
+            if isinstance(u, str) and u.startswith("http") and "{" not in u:
+                ws.cell(row=i, column=3).hyperlink = u.split(" (PDF")[0]
+                ws.cell(row=i, column=3).style = "Hyperlink"
     ev.to_csv(OUT / "key_events.csv", index=False)
     ec.to_csv(OUT / "key_event_council.csv", index=False)
     return ev, ec, facts

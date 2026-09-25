@@ -153,6 +153,11 @@ def disasters():
     d["start"] = pd.to_datetime(d.start_lo).fillna(pd.to_datetime(d.start_hi)).fillna(d.name_start)
     d["end"] = d.name_end
     d["decl_source"] = "aussef_disasters"
+    con = duckdb.connect(str(AUSSEF_DB), read_only=True)
+    urls = con.sql("select cast(agrn as varchar) agrn, first(source_url) url from master.disaster_sources "
+                   "where agrn is not null group by 1").df()
+    con.close()
+    d["decl_source_url"] = d.agrn.astype(str).map(dict(zip(urls.agrn, urls.url)))
     e2 = e2_declarations()
     if e2 is not None:
         d = pd.concat([d, e2], ignore_index=True)
@@ -178,9 +183,14 @@ def gap_declarations():
     return pd.DataFrame({"council_name": g.council_name, "key": g.council_name.map(norm), "agrn": g.agrn,
                          "event_name": g.official_name, "hazard": "Bushfire",
                          "start": pd.to_datetime(g.start_date, errors="coerce"),
-                         "end": pd.to_datetime(g.end_date, errors="coerce"), "decl_source": "nsw_fy2017_18_page"})
+                         "end": pd.to_datetime(g.end_date, errors="coerce"), "decl_source": "nsw_fy2017_18_page",
+                         "decl_source_url": g.source_url})
 
 
+# the parliament.nsw.gov.au address refuses automated requests; this files.parliament address serves the identical PDF
+# (SHA-256 38cfe0a8…, as in Experiment 2's source_register.csv)
+RAA_2016_OLD = "https://www.parliament.nsw.gov.au/tp/files/72400/NSW%20Rural%20Assistance%20Authority%20Annual%20Report.PDF"
+RAA_2016_NEW = "https://files.parliament.nsw.gov.au/fileapi/ParlFiles/GetArtifact?serverRelativeUrl=/tp/files/72400/NSW+Rural+Assistance+Authority+Annual+Report.PDF"
 E2_DIR = REPO / "Experiment 2/data/disaster_exposure_v2"
 
 
@@ -207,7 +217,8 @@ def e2_declarations():
         "council_name": m.council_name_source, "key": m.key, "agrn": "RAA-" + m.record_id,
         "event_name": m.reported_hazard.astype(str) + " (NSW RAA annual report, onset " + lo.dt.date.astype(str) + ")",
         "hazard": m.reported_hazard, "start": lo, "end": end.fillna(hi.where(hi > lo)),
-        "decl_source": "e2_raa_annual_reports"})
+        "decl_source": "e2_raa_annual_reports",
+        "decl_source_url": m.source_url.replace(RAA_2016_OLD, RAA_2016_NEW) + " (PDF p." + m.pdf_page.astype(str) + ")"})
     return out.drop_duplicates(["key", "agrn"])
 
 

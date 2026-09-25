@@ -135,3 +135,21 @@ A fire can link to two declarations when the same council was declared twice wit
 
 An "X onwards" declaration runs until the council's next bushfire declaration begins, at most 180 days. A declaration
 named with a single date runs 30 days.
+
+## Sources and link checks
+
+Every value traces to a source. The build enforces this:
+- **Dictionary sources.** Every column in `dictionary` and `lga_year_dictionary` has a `source`, and the build fails if
+  one is blank. Template columns with no public data say so explicitly ("none: …" or "not a data column: …").
+- **Download links.** `download_links` holds the exact file, API example or page for every input.
+- **Declaration documents.** Every declared event carries `declaration_source_url`: the NSW Reconstruction Authority
+  FY page, the NSW RAA annual-report PDF with its page number, or the archived FY2017-18 page.
+- **Fact sources.** Every fact carries `source_url`, a verbatim `quoted_text` and a `link_status`.
+
+`src/linkcheck.py` checks every cited URL and writes the results to `out/link_check.csv`:
+- A dead link with a Wayback Machine copy is replaced by the copy. The original is kept in `source_url_original`.
+- A site that refuses automated checks also gets its Wayback copy where one exists.
+- Links that fail the check are removed from summaries and listed in `links_removed`. These are mostly DisasterAssist
+  addresses the research agents guessed, bare homepages, and Wikipedia, which is not accepted as a source.
+- Local copies cited by the agents are replaced by the official file after a SHA-256 match (e.g. the NSW Bushfire
+  Inquiry final report).

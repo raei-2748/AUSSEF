@@ -62,15 +62,60 @@ TEMPLATE = [
     ("X16_regional_GDP", "Regional GDP", "float", "", "no official LGA GDP; see X16_regional_GDP_proxy_total_income_aud"),
     ("X17_SEIFA", "IRSD score (2016 for fires ≤2020, 2021 after)", "float", "ABS SEIFA", ""),
     ("X18_remoteness", "Remoteness class at fire centroid (0 major city … 4 very remote)", "float", "ABS RA 2021", ""),
-    ("X19_cash_reserve", "Council cash cover (months), FY before the fire", "float", "AUSSEF fiscal panel (NSW OLG)", ""),
-    ("X20_own_source_revenue_ratio", "Council own-source revenue (%), FY before", "float", "AUSSEF fiscal panel", ""),
-    ("X21_debt_burden", "Council debt service ratio (%), FY before", "float", "AUSSEF fiscal panel", ""),
+    ("X19_cash_reserve", "Council cash cover (months), FY before the fire", "float", "NSW OLG Time Series Data (AUSSEF fiscal panels fill gaps)", "see fiscal_fiscal_source_pre"),
+    ("X20_own_source_revenue_ratio", "Council own-source revenue (%), FY before", "float", "NSW OLG Time Series Data (AUSSEF fiscal panels fill gaps)", ""),
+    ("X21_debt_burden", "Council debt service ratio (%), FY before", "float", "NSW OLG Time Series Data (AUSSEF fiscal panels fill gaps)", ""),
     ("X22_historical_disaster_count", "Declared disasters for the LGA in the previous 10 years", "int",
-     "AUSSEF disaster declarations (NSW Reconstruction Authority)",
+     "NSW disaster declarations: NSW Reconstruction Authority FY pages (2018+), NSW RAA annual reports (2012–17), NSW FY2017-18 page (archived)",
      "declaration dates parsed from names; the table has few declarations before 2018, so early fires are undercounted"),
     ("X23_insurance_coverage", "Insurance coverage", "float", "", "not publicly available by LGA"),
     ("split", "train / val / test", "str", "", "blank: to be designed in class"),
 ]
+
+
+# Source for columns whose own doc entry leaves it blank, by name pattern (first match wins)
+NOT_DATA = "not a data column: to be designed in class"
+NONE_PUBLIC = "none: no public data at fire or council level (see note)"
+SOURCE_RULES = [
+    (r"^(Y|Y_class|DL|IL|FP|SL|split)$", NOT_DATA),
+    (r"^(IL_GRP_change_raw|FP_reconstruction_gap_raw|X16_regional_GDP|X23_insurance_coverage)$", NONE_PUBLIC),
+    (r"^(region_share_of_fire|share_of_region_burned|region_burn_area_ha|area_km2)$",
+     "computed: GA fire outlines × ABS LGA 2021 boundaries"),
+    (r"(median_income|total_income|income_earners)", "ABS Personal Income in Australia (LGA tables)"),
+    (r"^fiscal_fiscal_source", "which council-finance source filled the row (OLG or AUSSEF panel)"),
+    (r"^fiscal_", "NSW OLG Time Series Data; AUSSEF fiscal panels (built from NSW OLG data) where OLG has no value"),
+    (r"^FP_", "NSW OLG Time Series Data (council finances)"),
+    (r"(declaration|disaster_count)", "NSW disaster declarations (see download_links)"),
+    (r"^hotspot", "DEA Hotspots (Geoscience Australia)"),
+    (r"^house_loss|^homes_damaged$", "NSW coronial inquiry, NSW RFS, AIDR (per row in house_loss_source / house_loss_url)"),
+    (r"^ica_", "ICA Historical Catastrophe List"),
+    (r"^severity", "NSW FESM (SEED)"),
+    (r"^terrain|^elevation|^slope", "AWS Terrain Tiles (SRTM-based)"),
+    (r"^vegetation|^canopy", "NVIS 6.0; Hansen GFC 2000"),
+    (r"^(weather|ffdi|kbdi|drought|rain|spei|temp|rh_|wind)", "Open-Meteo ERA5; NASA POWER"),
+    (r"(unemploy|labour_force|salm)", "DEWR Small Area Labour Markets"),
+    (r"(business)", "ABS Counts of Australian Businesses (CABEE)"),
+    (r"(income_support|jobseeker|vulnerable)", "DSS Payments by LGA"),
+    (r"(industry|employed|census)", "ABS Census General Community Profile"),
+    (r"^(region_id|region_name)$", "ABS LGA 2021 boundaries"),
+    (r"^year$", "row key: calendar year"),
+    (r"(population|pop_density)", "ABS Estimated Resident Population"),
+    (r"(seifa|irsd)", "ABS SEIFA"),
+    (r"(remote)", "ABS Remoteness Areas 2021"),
+    (r"(road)", "OpenStreetMap 2019 (Geofabrik)"),
+    (r"(date|ga_|agency|capture|ignition|fire_type|event_|merged_|centroid|X1_|X4_|end_date)", "Geoscience Australia bushfire boundaries"),
+]
+
+
+def fill_sources(dic):
+    import re
+    blank = dic.source.isna() | (dic.source.astype(str).str.strip() == "")
+    for i in dic.index[blank]:
+        for rx, src in SOURCE_RULES:
+            if re.search(rx, dic.at[i, "column"], re.I):
+                dic.at[i, "source"] = src
+                break
+    return dic
 
 
 def write(fires, lga_year, extras_doc):
@@ -87,15 +132,21 @@ def write(fires, lga_year, extras_doc):
     for c in extra:
         m, u, s, n = extras_doc.get(c, ("", "", "", ""))
         rows.append(dict(column=c, meaning=m, unit=u, source=s, note=n, in_template="no"))
-    dic = pd.DataFrame(rows)
+    dic = fill_sources(pd.DataFrame(rows))
     cov = fires.replace("", pd.NA).notna().mean() * 100
     dic["coverage_pct"] = dic.column.map(cov).round(1)
+    ldic = fill_sources(pd.DataFrame(dict(column=lga_year.columns, meaning="", unit="", source="", note="")))
+    ldic["coverage_pct"] = ldic.column.map(lga_year.replace("", pd.NA).notna().mean() * 100).round(1)
+    missing = pd.concat([dic, ldic])
+    missing = missing[missing.source.isna() | (missing.source.astype(str).str.strip() == "")]
+    assert missing.empty, f"columns without a source: {missing.column.tolist()}"
     sources = pd.read_csv(MANIFEST).drop_duplicates("name", keep="last") if MANIFEST.exists() else pd.DataFrame()
     xlsx = OUT / "nsw_fire_events_2015_2025.xlsx"
     with pd.ExcelWriter(xlsx, engine="openpyxl") as w:
         fires.to_excel(w, sheet_name="fires", index=False)
         lga_year.to_excel(w, sheet_name="lga_year", index=False)
         dic.to_excel(w, sheet_name="dictionary", index=False)
+        ldic.to_excel(w, sheet_name="lga_year_dictionary", index=False)
         sources.to_excel(w, sheet_name="sources", index=False)
         links = download_links()
         links.to_excel(w, sheet_name="download_links", index=False)

@@ -46,8 +46,8 @@ def rows():
     # fire behaviour and landscape
     add("X5_hotspot_density", "DEA Hotspots WFS (Geoscience Australia)",
         "https://hotspots.dea.ga.gov.au/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=public:hotspots"
-        "&outputFormat=application/json&CQL_FILTER=datetime+BETWEEN+%272019-10-25T00:00:00Z%27+AND+%272020-02-10T00:00:00Z%27"
-        "+AND+BBOX(geometry,-33.9,150.0,-32.9,150.9)", "api", "one query per fire; example shown")
+        "&outputFormat=application/json&count=10&CQL_FILTER=datetime%20BETWEEN%20%272019-12-01T00:00:00Z%27%20AND%20"
+        "%272019-12-02T00:00:00Z%27%20AND%20BBOX(geometry,-33.9000,150.0000,-32.9000,150.9000)", "api", "one query per fire; example shown")
     for line in (DATA / "fesm/urls.txt").read_text().splitlines():
         s, u = line.split()
         if s == "202021":
@@ -56,7 +56,8 @@ def rows():
     add("X6_severity", "NSW FESM severity raster, season 2019-20", SEED_2019, "file", "copy already on disk in data/Manual")
     add("X6_severity", "NSW FESM severity raster, season 2020-21", SEED_2020B, "file")
     add("X10_elevation, X11_slope", "AWS Open Data Terrain Tiles (terrarium PNG, zoom 11)",
-        "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/11/{x}/{y}.png", "api", "1,926 tiles; {x}/{y} = tile index")
+        "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/11/1879/1227.png", "api",
+        "1,926 tiles, pattern .../terrarium/11/{x}/{y}.png; example shown is the Blue Mountains tile")
     add("X12_vegetation", "NVIS 6.0 Present Major Vegetation Groups, MDBA ImageServer (exportImage)",
         "https://gis.mdba.gov.au/arcgis/rest/services/Vegetation/NVIS_Version_6_0_Australia_Present_Major_Vegetation_Groups/"
         "ImageServer/exportImage?bbox=835300,-4213400,2082700,-3206900&bboxSR=3577&imageSR=3577&format=tiff&pixelType=S8&f=image",
@@ -77,10 +78,12 @@ def rows():
         PIA + "2011-12-2017-18/6524055002_DO001.xls", "file")
     add("SL_income_drop_raw, X16 proxy", "ABS Personal Income in Australia 2015-16 to 2019-20 (Table 1)",
         PIA + "2015-16-2019-20/6524055002_DO001.xlsx", "file")
-    add("SL_income_drop_raw, X16 proxy", "ABS Personal Income in Australia 2021-22 (release page)", PIA + "2021-22", "page",
-        "Table 1 file linked from this page")
-    add("SL_income_drop_raw, X16 proxy", "ABS Personal Income in Australia 2022-23 (release page)", PIA + "2022-23", "page",
-        "Table 1 file linked from this page; latest release")
+    add("SL_income_drop_raw, X16 proxy", "ABS Personal Income in Australia 2021-22, Table 1 (2017-18 to 2021-22)",
+        PIA + "2021-22/Table%201%20-%20Total%20income%2C%20earners%20and%20summary%20statistics%20by%20geography%2C"
+        "%202017-18%20to%202021-22.xlsx", "file")
+    add("SL_income_drop_raw, X16 proxy", "ABS Personal Income in Australia 2022-23, Table 1 (2018-19 to 2022-23)",
+        PIA + "2022-23/Table%201%20-%20Total%20income%2C%20earners%20and%20summary%20statistics%20by%20geography%2C"
+        "%202018-19%20to%202022-23.xlsx", "file", "latest release")
     add("X17_SEIFA (2016)", "ABS SEIFA 2016, LGA indexes",
         "https://www.abs.gov.au/ausstats/subscriber.nsf/log?openagent&2033055001%20-%20lga%20indexes.xls&2033.0.55.001"
         "&Data%20Cubes&5604C75C214CD3D0CA25825D000F91AE&0&2016&27.03.2018&Latest", "file")
@@ -96,9 +99,23 @@ def rows():
     for line in (DATA / "dss/urls.txt").read_text().splitlines():
         fname, url = line.split("\t")
         add("SL_vulnerable_loss_raw", f"DSS Payments by LGA: {fname}", url, "file", "data.gov.au, quarterly 2016–2026")
-    add("X22, official declaration (2012–2017)", "AUSSEF Experiment 2 declaration ledger (NSW Rural Assistance Authority "
-        "annual reports)", "Experiment 2/data/disaster_exposure_v2/declaration_event_ledger.csv", "page",
-        "project file; source PDFs and URLs are listed inside the ledger (source_url column)")
+    for yr, url in [("2012-13", "https://wayback.archive-it.org/22771/20240423201346/https://www.opengov.nsw.gov.au/download/14743"),
+                    ("2013-14", "https://wayback.archive-it.org/22771/20240423201346/https://www.opengov.nsw.gov.au/download/14785"),
+                    ("2014-15", "https://wayback.archive-it.org/22771/20240423201346/https://www.opengov.nsw.gov.au/download/15213"),
+                    ("2015-16", "https://wayback.archive-it.org/22771/20240423201346/https://www.opengov.nsw.gov.au/download/15718"),
+                    ("2016-17", "https://files.parliament.nsw.gov.au/fileapi/ParlFiles/GetArtifact?serverRelativeUrl=/tp/files/72400/NSW+Rural+Assistance+Authority+Annual+Report.PDF")]:
+        add("X22, official declaration (2012–2017)", f"NSW Rural Assistance Authority annual report {yr} (declarations table)",
+            url, "file", "declarations transcribed in AUSSEF Experiment 2 ledger (record_id gives the PDF page)")
+    gap = pd.read_csv(DATA / "key_events/gap_declarations_2017_18.csv", dtype=str) \
+        if (DATA / "key_events/gap_declarations_2017_18.csv").exists() else pd.DataFrame(columns=["source_url"])
+    for u in gap.source_url.dropna().unique():
+        name = ("NSW natural disaster declarations FY2017-18 (archived emergency.nsw.gov.au page)" if "archive.org" in u
+                else "DisasterAssist declaration page: " + u.rsplit("/", 1)[-1].replace(".aspx", "").replace("-", " "))
+        add("X22, official declaration (FY2017-18)", name, u, "page", "")
+    hl = DATA / "house_loss/house_loss.csv"
+    if hl.exists():
+        for t, u in pd.read_csv(hl).drop_duplicates("source_url")[["source_title", "source_url"]].itertuples(index=False):
+            add("DL_house_loss_raw", t, u, "file" if str(u).lower().endswith(".pdf") else "page", "quoted per fire in house_loss_all_sources")
     for line in (DATA / "cabee/urls.txt").read_text().splitlines():
         fname, url = line.split("\t")
         add("IL business proxy, X16 proxy", f"ABS Counts of Australian Businesses by LGA: {fname}", url, "file",
@@ -111,8 +128,8 @@ def rows():
         fname, url = line.split("\t")
         add("X19–X21, FP_* columns, lga_year finance", f"NSW OLG Time Series Data: {fname}", url, "file",
             "OLG values take priority; AUSSEF fiscal panels fill council-years OLG does not publish")
-    for fy in ("2018-19", "2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25", "2025-26"):
+    for fy in ("2018-19", "2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25", "2025-26", "2026-27"):
         add("X22, official_declaration_*", f"NSW Reconstruction Authority natural disaster declarations, FY {fy}",
             "https://www.nsw.gov.au/departments-and-agencies/nsw-reconstruction-authority/about-us/recovery/"
-            f"natural-disaster-declarations/fy-{fy}", "page", "via AUSSEF disaster tables; earlier years from archived OpenGov NSW reports")
+            f"natural-disaster-declarations/fy-{fy}", "page", "via AUSSEF disasters table (source_url per declaration)")
     return pd.DataFrame(r)
