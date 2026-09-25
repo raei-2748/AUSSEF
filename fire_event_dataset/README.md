@@ -95,7 +95,11 @@ Summer councils in 2019→2020, because of COVID. So for each council-level Y co
 | `IL_total_income_change_excess_pct` | total personal income, fire FY vs FY before (GRP proxy) |
 | `FP_debt_ratio_change_*_excess`, `FP_operating_ratio_change_*_excess`, `FP_cash_cover_change_*_excess` | council finances, fire FY (`event`) and FY after (`plus1`) vs FY before |
 
-These are descriptive comparisons, not causal estimates. The values are still council-by-year, so every fire in the same
+Also: `SL_vulnerable_loss_excess` (income-support recipients per 1,000, DSS), `IL_business_count_change_excess_pct`
+(ABS business counts; both years from the same ABS release), and `FP_service_share_change_*_excess` (crowd-out).
+
+These are descriptive comparisons, not causal estimates. The comparison councils are mostly metropolitan, so part of
+any gap can be rural-vs-city difference rather than fire. The values are still council-by-year, so every fire in the same
 council-year shares them.
 
 ## Rules followed

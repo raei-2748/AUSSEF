@@ -93,6 +93,16 @@ def rows():
     for y in (2016, 2021):
         add("industry shares", f"ABS {y} Census General Community Profile, LGA, NSW",
             f"https://www.abs.gov.au/census/find-census-data/datapacks/download/{y}_GCP_LGA_for_NSW_short-header.zip", "file")
+    for line in (DATA / "dss/urls.txt").read_text().splitlines():
+        fname, url = line.split("\t")
+        add("SL_vulnerable_loss_raw", f"DSS Payments by LGA: {fname}", url, "file", "data.gov.au, quarterly 2016–2026")
+    add("X22, official declaration (2012–2017)", "AUSSEF Experiment 2 declaration ledger (NSW Rural Assistance Authority "
+        "annual reports)", "Experiment 2/data/disaster_exposure_v2/declaration_event_ledger.csv", "page",
+        "project file; source PDFs and URLs are listed inside the ledger (source_url column)")
+    for line in (DATA / "cabee/urls.txt").read_text().splitlines():
+        fname, url = line.split("\t")
+        add("IL business proxy, X16 proxy", f"ABS Counts of Australian Businesses by LGA: {fname}", url, "file",
+            "annual, June 2015–June 2025")
     add("DL_insurance_loss_raw", "ICA Historical Normalised Catastrophe List, June 2024",
         "https://insurancecouncil.com.au/wp-content/uploads/2024/07/ICA-Historical-Normalised-Catastrophe-June-2024.xlsx", "file")
 

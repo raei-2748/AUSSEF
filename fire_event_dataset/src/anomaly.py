@@ -86,7 +86,8 @@ def add(r, ev, pieces):
     # --- council finances (by normalised council name and FY): event FY vs previous, and FY+1 vs previous
     f = socio.fiscal()
     for metric, short in (("debt_service_ratio_pct", "debt_ratio"), ("operating_ratio_pct", "operating_ratio"),
-                          ("cash_cover_months", "cash_cover")):
+                          ("cash_cover_months", "cash_cover"), ("service_share_pct", "service_share"),
+                          ("roads_share_pct", "roads_share")):
         if metric not in f.columns:
             continue
         tab = f[metric].unstack(1)
@@ -125,6 +126,14 @@ DOC = {
                                                "pp", "council finance panel", "lagged"),
     "FP_cash_cover_change_event_excess": ("Cash cover change (fire FY vs previous) minus comparison median", "months",
                                           "council finance panel", ""),
+    "FP_service_share_change_event_excess": ("Everyday-services share of spending, change (fire FY vs previous) minus "
+                                             "comparison median", "pp", "NSW OLG", "negative = services squeezed"),
+    "FP_service_share_change_plus1_excess": ("Everyday-services share of spending, change (FY after vs FY before) minus "
+                                             "comparison median", "pp", "NSW OLG", "negative = services squeezed; crowd-out"),
+    "FP_roads_share_change_event_excess": ("Roads & bridges share of spending, change (fire FY vs previous) minus comparison "
+                                           "median", "pp", "NSW OLG", ""),
+    "FP_roads_share_change_plus1_excess": ("Roads & bridges share of spending, change (FY after vs FY before) minus "
+                                           "comparison median", "pp", "NSW OLG", "rebuilding shows up here"),
     "FP_cash_cover_change_plus1_excess": ("Cash cover change (FY after vs FY before) minus comparison median", "months",
                                           "council finance panel", "lagged"),
 }

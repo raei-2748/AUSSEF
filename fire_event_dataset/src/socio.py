@@ -5,7 +5,7 @@ import duckdb
 import numpy as np
 import pandas as pd
 
-from src.common import DATA, AUSSEF_DB, PHASE1
+from src.common import DATA, REPO, AUSSEF_DB, PHASE1
 
 
 def norm(name):
@@ -106,14 +106,22 @@ def olg_fiscal():
     keep = ["cash_cover_months", "own_source_pct", "operating_ratio_pct", "debt_service_ratio_pct",
             "debt_service_cover_ratio", "maintenance_ratio_pct", "unrestricted_current_ratio",
             "building_infrastructure_renewals_ratio_pct", "infrastructure_backlog_ratio_pct",
-            "total_revenue_including_capital_aud", "council_population"]
-    o = o.groupby(["key", "year_start"])[keep].first()
+            "total_revenue_including_capital_aud", "council_population", "total_expenses_continuing_ops_aud",
+            "net_operating_result_before_capital_aud", "exp_governance_admin_aud",
+            "exp_public_order_health_water_sewer_aud", "exp_environment_aud", "exp_community_services_housing_aud",
+            "exp_recreation_culture_aud", "exp_roads_bridges_footpaths_aud", "exp_other_services_aud"]
+    o = o.groupby(["key", "year_start"])[[c for c in keep if c in o.columns]].first()
+    # spending mix (share of total expenses): everyday services vs roads & bridges (where reconstruction goes)
+    tot = o.total_expenses_continuing_ops_aud
+    o["service_share_pct"] = 100 * (o.exp_community_services_housing_aud + o.exp_recreation_culture_aud
+                                    + o.exp_environment_aud) / tot
+    o["roads_share_pct"] = 100 * o.exp_roads_bridges_footpaths_aud / tot
     # a debt service COVER ratio of 0 means no debt (the ratio is undefined), not zero cover
     o.loc[o.debt_service_cover_ratio == 0, "debt_service_cover_ratio"] = np.nan
     return o
 
 
-DECL_OPEN_DAYS = 180
+DECL_OPEN_DAYS, DECL_SINGLE_DAYS = 180, 30  # 'X onwards' vs a single-date declaration name
 
 
 def disasters():
@@ -129,7 +137,41 @@ def disasters():
     d["name_start"], d["name_end"] = parsed.str[0], parsed.str[1]
     d["start"] = pd.to_datetime(d.start_lo).fillna(pd.to_datetime(d.start_hi)).fillna(d.name_start)
     d["end"] = d.name_end
+    d["decl_source"] = "aussef_disasters"
+    e2 = e2_declarations()
+    if e2 is not None:
+        d = pd.concat([d, e2], ignore_index=True)
     return d
+
+
+E2_DIR = REPO / "Experiment 2/data/disaster_exposure_v2"
+
+
+def e2_declarations():
+    """Declarations July 2012 – June 2017 from AUSSEF Experiment 2 (NSW Rural Assistance Authority annual reports),
+    which the AUSSEF disasters table lacks. They carry no AGRN, so the ID is 'RAA-<record_id>'. Councils are given
+    under pre-2016 names and are mapped to their 2016 successors (e.g. Palerang -> Queanbeyan-Palerang)."""
+    led, lnk = E2_DIR / "declaration_event_ledger.csv", E2_DIR / "declaration_council_links.csv"
+    if not (led.exists() and lnk.exists()):
+        return None
+    from src.olg import PREDECESSORS
+    succ = {norm(k): norm(v) for k, v in PREDECESSORS.items()}
+    L = pd.read_csv(led)
+    L = L[L.include_in_historical_panel.astype(bool)]
+    K = pd.read_csv(lnk)
+    K = K[K.include_in_historical_panel.astype(bool)]
+    k = K.council_key.fillna(K.council_name_source.map(norm)).map(norm)
+    K["key"] = k.map(lambda x: succ.get(x, x))
+    m = K[["record_id", "key", "council_name_source"]].merge(L, on="record_id", how="inner")
+    lo = pd.to_datetime(m.onset_date_lower_bound, errors="coerce")
+    hi = pd.to_datetime(m.onset_date_upper_bound, errors="coerce")
+    end = pd.to_datetime(m.reported_end_date, errors="coerce")
+    out = pd.DataFrame({
+        "council_name": m.council_name_source, "key": m.key, "agrn": "RAA-" + m.record_id,
+        "event_name": m.reported_hazard.astype(str) + " (NSW RAA annual report, onset " + lo.dt.date.astype(str) + ")",
+        "hazard": m.reported_hazard, "start": lo, "end": end.fillna(hi.where(hi > lo)),
+        "decl_source": "e2_raa_annual_reports"})
+    return out.drop_duplicates(["key", "agrn"])
 
 
 _MONTHS = {m: i for i, m in enumerate(["january", "february", "march", "april", "may", "june", "july", "august",
@@ -198,6 +240,11 @@ def attach(rows, ev):
     r["FP_debt_ratio_change_raw"] = r.fiscal_debt_service_ratio_pct_event - r.fiscal_debt_service_ratio_pct_pre
     r["FP_operating_ratio_change_proxy"] = r.fiscal_operating_ratio_pct_event - r.fiscal_operating_ratio_pct_pre
     r["FP_cash_cover_change_proxy"] = r.fiscal_cash_cover_months_event - r.fiscal_cash_cover_months_pre
+    # budget crowd-out: fall in the share of spending on everyday services (community, recreation, environment)
+    # from the FY before the fire to the FY after (positive = services squeezed); roads share rises with rebuilding
+    if "fiscal_service_share_pct_pre" in r:
+        r["FP_budget_crowd_out_raw"] = r.fiscal_service_share_pct_pre - r.fiscal_service_share_pct_plus1
+        r["FP_roads_share_change_plus1_pp"] = r.fiscal_roads_share_pct_plus1 - r.fiscal_roads_share_pct_pre
 
     d = disasters()
     by = {k: g for k, g in d.groupby("key")}
@@ -212,7 +259,8 @@ def attach(rows, ev):
         e1 = e0 if pd.notna(e0) else s0 + pd.Timedelta(days=30)
         # fire declaration for this council whose period overlaps the fire: starts no later than the fire ends and
         # ends no earlier than a week before it starts; open-ended ("onwards") declarations cover 180 days
-        dend = g.end.fillna(g.start + pd.Timedelta(days=DECL_OPEN_DAYS))
+        onwards = g.event_name.astype(str).str.contains("onward|commenc", case=False)
+        dend = g.end.fillna(g.start + pd.to_timedelta(np.where(onwards, DECL_OPEN_DAYS, DECL_SINGLE_DAYS), unit="D"))
         m = g[(g.hazard.astype(str).str.contains("fire", case=False)) & (g.start <= e1)
               & (dend >= s0 - pd.Timedelta(days=7))]
         agrn.append(";".join(sorted({str(x) for x in m.agrn.dropna()})))

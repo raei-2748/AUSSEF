@@ -2,12 +2,15 @@
   "rows": 6484,
   "fires": 6146,
   "enrichments": [
+    "business",
     "economy",
     "hotspots",
+    "house_loss",
     "ica",
     "severity",
     "terrain",
     "vegetation",
+    "vulnerable",
     "weather"
   ],
   "counts": {

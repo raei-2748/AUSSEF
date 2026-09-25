@@ -76,6 +76,21 @@ METRICS = {
     "grants_contributions_revenue_pct": r"^%? ?grants (& contributions )?revenue",
     "population": r"^population( \d{4})?$",
     "total_revenue_continuing_ops_aud": r"^(\d{4}/\d{2} )?total revenue from continuing operations",
+    # spending by function ($, not the % or per-capita versions) -> budget crowd-out after a disaster
+    "total_expenses_continuing_ops_aud": r"^total expenses from continuing operations",
+    "net_operating_result_before_capital_aud": r"^net operating result before capital",
+    "exp_governance_admin_aud": r"^total governance (&|and) administration expenditure",
+    "exp_public_order_safety_health_aud": r"^total public order,? safety,? (&|and )?health,? expenditure(?!.*water)",
+    "exp_environment_aud": r"^total environmental expenditure",
+    "exp_community_services_housing_aud": r"^total community services,? education",
+    "exp_recreation_culture_aud": r"^total recreational (&|and) cultural expenditure",
+    "exp_roads_bridges_footpaths_aud": r"^total roads,? bridges (&|and) footpaths expenditure",
+    "exp_other_services_aud": r"^total other services expenditure",
+    "exp_water_aud": r"^total water expenditure(?! per capita)",
+    "exp_sewer_aud": r"^total sewer expenditure(?! per capita)",
+    # to 2017-18 OLG publishes public order, safety, health, water & sewer as one line; from 2018-19 as three
+    # (wide() adds the combined line for later years as the sum of exp_public_order_safety_health, water, sewer)
+    "exp_public_order_health_water_sewer_aud": r"^total public order,? safety,? health,? water (&|and) sewer expenditure",
 }
 # Percent metrics published as fractions (0.81 instead of 81). Decided from the column medians and
 # checked against the prior year's file; see __main__ check. {fy_start: [metrics]}
@@ -162,6 +177,9 @@ def parse_sheet(fn, sheet, fy):
             continue
         label = hdr[-1]
         lab = label.lower()
+        yr = re.search(r"(\d{4})/(\d{2})", label)  # multi-year files: keep only this file's own year
+        if yr and int(yr.group(1)) != fy and not lab.startswith("typical"):
+            continue
         for m, rx in METRICS.items():
             if re.search(rx, lab):
                 break
@@ -172,7 +190,7 @@ def parse_sheet(fn, sheet, fy):
         bad = bad[~bad.str.lower().isin(MISSING) & ~bad.str.lower().str.startswith("not collected")]
         if len(bad):
             print(f"[olg] {fn}:{m}: {len(bad)} unparsed text cells -> NaN, e.g. {bad.unique()[:3].tolist()}")
-        if m == "total_revenue_continuing_ops_aud" and re.search(r"\$\s*['’,]\s*000", label):
+        if m.endswith("_aud") and re.search(r"\$\s*['’,]?\s*'?000", label):
             vals = vals * 1000.0
         if m in FRACTION_TO_PCT.get(fy, []):
             vals = vals * 100.0
@@ -209,6 +227,12 @@ def wide(long):
     w = long.pivot(index=["council_name_norm", "fy_start"], columns="metric", values="value")
     names = long.groupby(["council_name_norm", "fy_start"])["council_name"].first()
     w = w.join(names).reset_index()
+    parts = ["exp_public_order_safety_health_aud", "exp_water_aud", "exp_sewer_aud"]
+    if all(p in w for p in parts):
+        comb = w[parts].sum(axis=1, min_count=1)  # water/sewer blank for councils without those services
+        w["exp_public_order_health_water_sewer_aud"] = w.get("exp_public_order_health_water_sewer_aud",
+                                                             pd.Series(np.nan, index=w.index)).fillna(
+            comb.where(w.exp_public_order_safety_health_aud.notna()))
     # normalised LGA-2021 name this row belongs to (predecessors -> successor; for joining, not aggregating)
     w["successor_lga21_norm"] = w["council_name_norm"].map(lambda n: PREDECESSORS.get(n, n))
     return w[["council_name", "council_name_norm", "successor_lga21_norm", "fy_start"]

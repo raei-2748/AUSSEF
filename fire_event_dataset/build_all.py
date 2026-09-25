@@ -42,7 +42,7 @@ EXTRAS_DOC = {
     "share_of_region_burned": ("Share of the LGA burned by this fire", "fraction", "", ""),
     "road_km_within_100m": ("Road km within 100 m of the fire in this LGA", "km", "2019 OSM network", ""),
     "official_declaration_agrn": ("Matching NSW bushfire disaster declaration (AGRN)", "str",
-                                  "AUSSEF disaster declarations", "fire declaration for this LGA whose period overlaps the fire (dates parsed from the declaration name; open-ended = 180 days). The declarations table has almost none before 2018, so 2015–2017 fires show none"),
+                                  "AUSSEF disaster declarations", "fire declaration for this LGA whose period overlaps the fire (dates parsed from the declaration name; 'onwards' = 180 days, single date = 30 days). The declarations table has almost none before 2018, so 2015–2017 fires show none"),
     "official_declaration_name": ("Declared event name", "str", "AUSSEF disaster declarations", ""),
     "historical_bushfire_declarations_10y": ("Declared bushfire disasters for the LGA, previous 10 years", "int", "",
                                              "declarations table is thin before 2018; undercounts for early fires"),
