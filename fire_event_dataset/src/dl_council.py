@@ -22,7 +22,8 @@ Rules:
   "fire_in_council" = one named fire inside the council (a lower bound when other fires also burned there);
   "statewide_zero" = the source reports zero for the whole state and season (so zero in every council).
 - preferred: one value per (agrn, region_id, metric), chosen in this order: scope council_total > statewide_zero >
-  fire_in_council, then not interim/superseded (per `note`), official > other > news, latest as_of_date, unhedged. Use it for a single figure per row.
+  fire_in_council, then not interim/superseded (per `note`), the larger of two single-fire lower bounds, official >
+  other > news, latest as_of_date, unhedged. Use it for a single figure per row.
 - 2019-20 season-wide council figures sit on AGRN 871 (statewide declaration). AGRN 880 (North Coast, from 18 July
   2019) overlaps it in seven councils; a figure is put on 880 only where the source ties it to that declaration's fires.
 
@@ -681,8 +682,10 @@ def facts():
     f["_d"] = pd.to_datetime(f.as_of_date.astype(str).str[:10], errors="coerce", format="mixed")
     # interim / superseded counts and single-species livestock rows are never the preferred figure
     f["_m"] = f.note.fillna("").str.contains(MINOR)
-    f = f.sort_values(["agrn", "region_id", "metric", "_s", "_m", "_t", "_d", "hedged"],
-                      ascending=[True, True, True, True, True, True, False, True], na_position="last")
+    # between single-fire figures (lower bounds), the larger one is the better lower bound
+    f["_v"] = -f.value.where(f.scope == "fire_in_council", 0)
+    f = f.sort_values(["agrn", "region_id", "metric", "_s", "_v", "_m", "_t", "_d", "hedged"],
+                      ascending=[True, True, True, True, True, True, True, False, True], na_position="last")
     f["preferred"] = ~f.duplicated(["agrn", "region_id", "metric"])
     return f[COLS].reset_index(drop=True)
 
