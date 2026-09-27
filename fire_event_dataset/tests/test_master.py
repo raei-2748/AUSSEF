@@ -96,7 +96,7 @@ check((m.Y_class >= m.Y_class_from_Y).all(), "floor lowered a class")
 
 # ranges
 for col in m.columns:
-    num = m[col].dtype.kind in "fi" and not re.search(r"(change|excess|area_share|_proxy)", col)
+    num = m[col].dtype.kind in "fi" and not re.search(r"(change|excess|growth|area_share|_proxy)", col)
     if num and re.search(r"(_share$|_share_|share_of)", col) and "_pct" not in col:
         s = m[col].dropna()
         check(((s >= -1e-9) & (s <= 1 + 1e-6)).all(), f"{col} outside 0-1: {s.min()}..{s.max()}")

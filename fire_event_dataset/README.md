@@ -48,6 +48,10 @@ names, order and labels change, and the `variables` sheet maps each new name to 
     else the next year (event). One-off columns (Census, SEIFA, TRA 2017, REDS 2020) take the latest value dated at
     or before the fire year, else the earliest after it.
   - All-blank and exactly duplicated columns are dropped and listed on `removed_columns`.
+- **Layout:** compact columns, one merged band cell per group, severity colour codes on `master` (Y_class 1-4 green /
+  yellow / orange / red; Y, Y_norm, Y_FFDI and the pillars shaded green to red). Column names are shortened with fixed
+  abbreviations (`NEAT` in `src/xy_format.py`, e.g. `biz_` = CABEE businesses, `A_agri`, `_pre/_event/_plus1`); Bowen's
+  template names are kept exactly, and the `variables` sheet keeps each column's original name.
 - **Sources:** the `variables` sheet gives every column's meaning, unit, source and link (`src/col_sources.py`,
   `src/col_docs.py`). Per-council home losses and deaths (`*_sourced`) carry title | URL | page | verbatim quote in
   their `_source` column (`src/dl_council.py`).

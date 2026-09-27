@@ -219,36 +219,161 @@ def order(labels):
     return sorted(range(len(labels)), key=lambda i: (rank[labels[i][0]], head.get(labels[i][1], len(head)), i))
 
 
+DIVISIONS = {"A_agriculture_forestry_and_fishing": "A_agri", "C_manufacturing": "C_manuf",
+             "D_electricity_gas_water_and_waste_services": "D_utilities", "E_construction": "E_constr",
+             "F_wholesale_trade": "F_wholesale", "G_retail_trade": "G_retail",
+             "H_accommodation_and_food_services": "H_accom_food", "I_transport_postal_and_warehousing": "I_transport",
+             "J_information_media_and_telecommunications": "J_info_media", "K_financial_and_insurance_services":
+             "K_finance", "L_rental_hiring_and_real_estate_services": "L_real_estate",
+             "M_professional_scientific_and_technical_services": "M_professional",
+             "N_administrative_and_support_services": "N_admin", "O_public_administration_and_safety": "O_public_admin",
+             "P_education_and_training": "P_education", "Q_health_care_and_social_assistance": "Q_health",
+             "R_arts_and_recreation_services": "R_arts_rec", "S_other_services": "S_other",
+             "X_currently_unknown": "X_unknown", "K_finance_and_insurance_services": "K_finance"}
+NEAT = [  # (old, new) substring replacements, in order; the original name stays on the variables sheet
+    *DIVISIONS.items(),
+    ("cabee_businesses_", "biz_"), ("jia_employee_jobs_", "jobs_emp_"), ("jia_jobs_", "jobs_"),
+    ("business_entries", "biz_entries"), ("business_exits", "biz_exits"), ("tourism_businesses", "tourism_biz"),
+    ("non_business_related", "nonbiz"), ("business_related", "biz"), ("insolvency_debtors_", "insolv_"),
+    ("pia_own_business_income", "pia_own_biz_income"), ("pia_employee_income", "pia_emp_income"),
+    ("businesses", "biz"), ("business", "biz"), ("_non_employing", "_nonemp"), ("_employing_sum", "_employing"),
+    ("X_council_fiscal_", "X_council_"), ("FP_src_fiscal_", "FP_src_"), ("FP_src_fp_olg_", "FP_src_olg_"),
+    ("X_council_fp_olg_", "X_council_olg_"), ("building_infrastructure_renewals_ratio", "renewals_ratio"),
+    ("infrastructure", "infra"), ("_including_capital", "_incl_cap"), ("_continuing_ops", "_cont_ops"),
+    ("net_operating_result_before_capital", "net_op_result_pre_cap"), ("asset_maintenance", "asset_maint"),
+    ("exp_community_services_housing", "exp_community"), ("exp_public_order_health_water_sewer", "exp_public_order"),
+    ("exp_roads_bridges_footpaths", "exp_roads"), ("exp_governance_admin", "exp_governance"),
+    ("exp_recreation_culture", "exp_recreation"), ("exp_other_services", "exp_other"),
+    ("industry_share_", "ind_share_"), ("income_support_recipients_mean", "income_support"),
+    ("jobseeker_newstart_recipients_mean", "jobseeker"), ("unemployment_rate_annual_mean", "unemp_rate"),
+    ("labour_force_annual_mean", "labour_force"), ("unemployed_annual_mean", "unemployed"),
+    ("rent_median_weekly_mean", "rent_median_weekly"), ("unemployment_rate", "unemp_rate"),
+    ("council_reported_damage_cost_estimate", "damage_estimate"), ("disaster_funding_received", "funding_received"),
+    ("project_funding_in_lga", "project_funding"), ("grant_allocated", "grant"), ("grant_awarded", "grant"),
+    ("_sourced_source_type", "_sourced_ref_type"), ("_sourced_source", "_sourced_ref"),
+    ("X23_insurance_proxy_building_cover_required_share", "X23_insurance_proxy_share"),
+    ("insurance_proxy_building_cover_required_share", "insurance_proxy_share"),
+    ("X16_regional_GDP_sa4_popshare_proxy_aud_m", "X16_grp_sa4_proxy_aud_m"),
+    ("X16_regional_GDP_proxy_total_income_aud", "X16_income_proxy_aud"),
+    ("nominal_avg_annual_change_pct", "nominal_growth_pct"), ("real_avg_annual_change_pct", "real_growth_pct"),
+    ("accommodation_food", "accom_food"), ("dwellings_occupied_census", "dwellings_occupied"),
+    ("capital_grants_contributions_aud_derived_aud", "capital_grants_derived_aud"),
+    ("capital_grants_contributions_derived", "capital_grants_derived"), ("tra2017_", "tra_"),
+    ("_2014_17avg", "_1417avg"), ("domestic_overnight", "dom_overnight"), ("domestic_day", "dom_day"),
+    ("international", "intl"), ("agriculture_forestry_fishing", "agri"), ("_fy_t_and_t_1", "_t_t1"),
+    ("black_summer_recovery_grants_total", "black_summer_grants_total"),
+    ("growth_pct_fy", "growth_pct"), ("_fy_pre", "_pre"), ("_fy_event", "_event"), ("_fy_plus1", "_plus1"),
+    ("_june_pre", "_pre"), ("_june_event", "_event"), ("_june_plus1", "_plus1"),
+]
+TEMPLATE_NAMES = set()  # Bowen's template columns keep their names exactly (filled in main)
+
+
+def neat(name):
+    if name in TEMPLATE_NAMES:
+        return name
+    for old, new in NEAT:
+        name = name.replace(old, new)
+    return name
+
+
 def relabel(d, panel=False):
     labels = [classify(c, panel) for c in d.columns]
     idx = order(labels)
     out = d.iloc[:, idx].copy()
-    out.columns = [labels[i][1] for i in idx]
+    out.columns = [neat(labels[i][1]) for i in idx]
     table = pd.DataFrame({"column": out.columns, "original_column": [d.columns[i] for i in idx],
                           "group": [labels[i][0] for i in idx]})
     assert out.columns.is_unique, out.columns[out.columns.duplicated()].tolist()
     return out, table
 
 
+SEVERITY_FILL = {1: "C6EFCE", 2: "FFEB9C", 3: "F8CBAD", 4: "FF7C80"}  # Light green, Moderate yellow, Severe orange,
+# Extreme red
+CLASS_COLS = ["Y_class", "Y_class_from_Y", "Y_class_excl_responder_deaths", "Y_class_label"]
+SCALE_COLS = ["Y", "Y_norm", "Y_FFDI", *PILLARS]  # green (low) -> yellow -> red (high)
+
+
+def compact(ws, d, header_row=1, text_max=24, wide=None):
+    """Compact layout: widths fitted to the values (not the long names), small wrapped header, no wrapped body text,
+    number formats as in combine.format_sheet. `wide` = {column: width} for text columns that deserve more room."""
+    from openpyxl.styles import Alignment, Font
+    from openpyxl.utils import get_column_letter
+    wide = wide or {}
+    head_font, head_align = Font(bold=True, size=8), Alignment(wrap_text=True, vertical="bottom")
+    first, last = header_row + 1, header_row + len(d)
+    for j, col in enumerate(d.columns, start=1):
+        letter = get_column_letter(j)
+        cell = ws.cell(row=header_row, column=j)
+        cell.font, cell.alignment = head_font, head_align
+        vals = d[col].dropna()
+        fmt, width = None, 8
+        if pd.api.types.is_datetime64_any_dtype(d[col]):
+            fmt, width = "yyyy-mm-dd", 10
+        elif pd.api.types.is_bool_dtype(d[col]):
+            width = 6
+        elif pd.api.types.is_numeric_dtype(d[col]) and len(vals):
+            big = vals.abs().max()
+            if pd.api.types.is_float_dtype(d[col]):
+                med = vals.abs().median()
+                whole = bool((vals == vals.round()).all())
+                fmt = "#,##0" if (med >= 100 or whole) else "#,##0.00" if med >= 1 else "0.000"
+                if any(k in str(col).lower() for k in ("lat", "lon")):
+                    fmt = "0.0000"
+            width = min(14, max(6, len(f"{big:,.0f}") + (4 if fmt and "." in fmt else 2)))
+        elif len(vals):
+            width = min(wide.get(col, text_max), max(6, int(vals.astype(str).str.len().quantile(0.9)) + 1))
+        if fmt:
+            for i in range(first, last + 1):
+                ws.cell(row=i, column=j).number_format = fmt
+        ws.column_dimensions[letter].width = width
+    ws.row_dimensions[header_row].height = 56
+    ws.auto_filter.ref = f"A{header_row}:{get_column_letter(len(d.columns))}{last}"
+
+
 def write_sheet(w, name, d, table):
-    """Band row (role · group, coloured) above the column names; data from row 3."""
+    """Band row (role · group, one merged coloured cell per run of columns) above the column names; data from row 3.
+    On the master sheet the severity columns are colour coded."""
+    from openpyxl.formatting.rule import ColorScaleRule
     from openpyxl.styles import Alignment, Font, PatternFill
     from openpyxl.utils import get_column_letter
-    from src import combine
-    d.to_excel(w, sheet_name=name, index=False)
+    d.to_excel(w, sheet_name=name, index=False, startrow=1)
     ws = w.sheets[name]
-    combine.format_sheet(ws, d)
-    ws.auto_filter.ref = None
-    ws.insert_rows(1)
-    for j, g in enumerate(table["group"], start=1):
+    compact(ws, d, header_row=2)
+    groups = list(table["group"])
+    j = 1
+    while j <= len(groups):  # merge each run of same-group columns into one band cell
+        k = j
+        while k < len(groups) and groups[k] == groups[j - 1]:
+            k += 1
+        g = groups[j - 1]
         fill = PatternFill("solid", fgColor=GROUPS[g][2])
         top = ws.cell(row=1, column=j, value=GROUPS[g][1])
-        top.fill, top.font = fill, Font(bold=True, size=9)
-        top.alignment = Alignment(wrap_text=True, vertical="bottom")
-        ws.cell(row=2, column=j).fill = fill
-    ws.row_dimensions[1].height, ws.row_dimensions[2].height = 42, 30
-    ws.freeze_panes = "C3"
-    ws.auto_filter.ref = f"A2:{get_column_letter(len(d.columns))}{len(d) + 2}"
+        top.fill, top.font = fill, Font(bold=True, size=8)
+        top.alignment = Alignment(horizontal="left", vertical="center")
+        for c in range(j, k + 1):
+            ws.cell(row=2, column=c).fill = fill
+        if k > j:
+            ws.merge_cells(start_row=1, start_column=j, end_row=1, end_column=k)
+        j = k + 1
+    ws.row_dimensions[1].height = 16
+    ws.freeze_panes = "D3"
+    if name == "master":
+        cols = {c: i for i, c in enumerate(d.columns, start=1)}
+        label_val = {v: k for k, v in CLASS_LABEL.items()}
+        bold = Font(bold=True)
+        for c in [c for c in CLASS_COLS if c in cols]:
+            for i, v in enumerate(d[c], start=3):
+                v = label_val.get(v, v)
+                if pd.notna(v) and int(v) in SEVERITY_FILL:
+                    cell = ws.cell(row=i, column=cols[c])
+                    cell.fill = PatternFill("solid", fgColor=SEVERITY_FILL[int(v)])
+                    if c == "Y_class":
+                        cell.font = bold
+        for c in [c for c in SCALE_COLS if c in cols]:
+            L = get_column_letter(cols[c])
+            ws.conditional_formatting.add(f"{L}3:{L}{len(d) + 2}", ColorScaleRule(
+                start_type="min", start_color="63BE7B", mid_type="percentile", mid_value=50, mid_color="FFEB84",
+                end_type="max", end_color="F8696B"))
 
 
 # columns that repeat another column under a second name; dropped only when identical in every row. Different
@@ -371,7 +496,7 @@ def key_doc(o):
     return (None, None)
 
 
-def option_role(col, role, opt):
+def option_role(col, role, opt, original=None):
     """Role of a master column when Y is measured as `opt` (class 1-4, pillar sum, or FFDI)."""
     if col in Y_OPTIONS[opt]:
         return "Y (target)"
@@ -388,7 +513,7 @@ def option_role(col, role, opt):
                     "runs from fire weather to impact)")
         return role
     if role == "Y":
-        if col in Y_INPUTS:
+        if col in Y_INPUTS or original in Y_INPUTS:
             return "not a predictor: Y is built from it"
         return "not a predictor: an impact (outcome) variable, same side as Y"
     return role
@@ -442,6 +567,7 @@ def main():
     from src import master
     mst, mmeta = master.build(kec, book["lga_year"], decl)
     template = set(book["all_fires_dictionary"].query("in_template == 'yes'").column)
+    TEMPLATE_NAMES.update(template)
     mst, removed = prune(mst, keep=template | {"DL_homes_destroyed_in_council", "DL_homes_destroyed_per_1000_dwellings"})
 
     meaning = {}  # original column -> (meaning, unit, source, note, coverage)
@@ -547,8 +673,9 @@ def main():
          "link_note", "note", "coverage_pct"]]
 
     for opt in Y_OPTIONS:
-        variables[f"role_if_Y_{opt}"] = [option_role(c, r, opt) if sh == "master" else ""
-                                         for sh, c, r in zip(variables.sheet, variables.column, variables.role)]
+        variables[f"role_if_Y_{opt}"] = [option_role(c, r, opt, oc) if sh == "master" else ""
+                                         for sh, c, r, oc in zip(variables.sheet, variables.column, variables.role,
+                                                                 variables.original_column)]
     variables.to_csv(OUT / "master_variables.csv", index=False)
     removed = removed.assign(sheet="master")
     counts = kec.groupby(["Y_class", "Y_class_label"]).size().rename("rows").reset_index()
@@ -556,7 +683,7 @@ def main():
                              int(kec[f"{p}_rank_{slug(n)}"].notna().sum())) for p, n, s, c in INDICATORS],
                            columns=["pillar", "indicator", "direction", "source columns", "rows with data"])
     readme = pd.DataFrame({"item": [
-        "What this file is", "Y: three measures", "", "", "", "Labels", "", "", "", "", "Y levels", "", "", "", "", "Y_class", "", "", "",
+        "What this file is", "Y: three measures", "", "", "", "", "Labels", "", "", "", "", "Y levels", "", "", "", "", "Y_class", "", "", "",
         "Where Y is filled", "master sheet", "", "", "Blank vs zero", "Sheets"],
         "detail": [
         "The combined NSW bushfire workbook reformatted for Bowen: every column labelled X or Y. Same data, "
@@ -567,6 +694,8 @@ def main():
         "Which columns may be predictors depends on the option: see role_if_Y_class / role_if_Y_sum / role_if_Y_FFDI "
         "on the variables sheet (e.g. with Y_FFDI, the weather columns FFDI is computed from are not predictors).",
         "The band row on each data sheet shows the default roles (options 1 and 2).",
+        "Colours on the master sheet: Y_class 1 Light = green, 2 Moderate = yellow, 3 Severe = orange, 4 Extreme = red; "
+        "Y, Y_norm, Y_FFDI and the pillars DL / IL / FP / SL are shaded green (low) to red (high).",
         "Row 1 of each data sheet is a coloured band: ID, Y (DL / IL / FP / SL), X (fire / env / socio / council), "
         "Info. Row 2 holds the column names; data start on row 3.",
         "Y columns start with DL_, IL_, FP_ or SL_. DL_src_ / IL_src_ / FP_src_ / SL_src_ = raw levels an indicator "
@@ -596,7 +725,7 @@ def main():
         "others calendar years. Census / one-off columns are taken once, for the fire's year.",
         "Every column's meaning, unit and source are on the variables sheet; download links on download_links.",
         "Blank means no data; 0 means the source was checked and the value is zero.",
-        "README, variables, removed_columns, insured_loss_reported (every published insured-loss figure, with quote; none is by council), indicators, master, key_events, all_fires, lga_year, key_facts, key_sources, "
+        "README, master, variables, removed_columns, insured_loss_reported (every published insured-loss figure, with quote; none is by council), indicators, key_events, all_fires, lga_year, key_facts, key_sources, "
         "download_links, data_sources"]})
 
     with pd.ExcelWriter(DEST, engine="openpyxl") as w:
@@ -605,22 +734,33 @@ def main():
         combine.format_sheet(g, readme)
         g.column_dimensions["A"].width, g.column_dimensions["B"].width = 20, 120
         g.auto_filter.ref = None
+        write_sheet(w, "master", *sheets["master"])  # the main sheet comes right after the README
         variables.to_excel(w, sheet_name="variables", index=False)
-        combine.format_sheet(w.sheets["variables"], variables)
-        insured.to_excel(w, sheet_name="insured_loss_reported", index=False)
-        combine.format_sheet(w.sheets["insured_loss_reported"], insured)
-        removed.to_excel(w, sheet_name="removed_columns", index=False)
-        combine.format_sheet(w.sheets["removed_columns"], removed)
+        compact(w.sheets["variables"], variables, wide={"column": 40, "meaning": 70, "source": 45, "source_url": 40,
+                                                        "note": 40, "original_column": 34, "group_label": 26,
+                                                        "role_if_Y_class": 22, "role_if_Y_sum": 22,
+                                                        "role_if_Y_FFDI": 22})
+        w.sheets["variables"].freeze_panes = "C2"
+        for name_, frame in [("insured_loss_reported", insured), ("removed_columns", removed)]:
+            frame.to_excel(w, sheet_name=name_, index=False)
+            compact(w.sheets[name_], frame, text_max=45)
+            w.sheets[name_].freeze_panes = "A2"
         ind_tab.to_excel(w, sheet_name="indicators", index=False)
         counts.to_excel(w, sheet_name="indicators", index=False, startrow=len(ind_tab) + 3)
-        combine.format_sheet(w.sheets["indicators"], ind_tab)
+        compact(w.sheets["indicators"], ind_tab, text_max=45)
         w.sheets["indicators"].auto_filter.ref = None
-        for name in ["master", "key_events", "all_fires", "lga_year"]:
+        from openpyxl.styles import PatternFill
+        ws_i = w.sheets["indicators"]
+        for i, v in enumerate(counts["Y_class"], start=len(ind_tab) + 5):  # colour the class counts too
+            ws_i.cell(row=i, column=1).fill = PatternFill("solid", fgColor=SEVERITY_FILL[int(v)])
+            ws_i.cell(row=i, column=2).fill = PatternFill("solid", fgColor=SEVERITY_FILL[int(v)])
+        for name in ["key_events", "all_fires", "lga_year"]:
             out, t = sheets[name]
             write_sheet(w, name, out, t)
         for name in ["key_facts", "key_sources", "download_links", "data_sources"]:
             book[name].to_excel(w, sheet_name=name, index=False)
-            combine.format_sheet(w.sheets[name], book[name])
+            compact(w.sheets[name], book[name], text_max=45)
+            w.sheets[name].freeze_panes = "A2"
     return DEST, kec
 
 
