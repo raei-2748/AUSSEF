@@ -763,57 +763,52 @@ def main():
     ind_tab = pd.DataFrame([(p, n, "higher = worse" if s > 0 else "sign flipped (fall = worse)", ", ".join(c),
                              int(kec[f"{p}_rank_{slug(n)}"].notna().sum())) for p, n, s, c in INDICATORS],
                            columns=["pillar", "indicator", "direction", "source columns", "rows with data"])
-    readme = pd.DataFrame({"item": [
-        "What this file is", "Y: three measures", "", "", "", "", "Codes", "Labels", "", "", "", "", "Y levels", "", "", "", "", "Y_class", "", "", "",
-        "Where Y is filled", "master sheet", "", "", "Blank vs zero", "Sheets"],
-        "detail": [
-        "The combined NSW bushfire workbook reformatted for Bowen: every column labelled X or Y. Same data, "
-        "nothing dropped; only column names, column order and labels changed (see variables for old names).",
-        "Recommended: sum the four pillars (DL+IL+FP+SL) -> normalise (Y, Y_norm 0-1) -> grade (Y_class 1-4).",
-        "Option 1: Y_class, the 1-4 grade. Option 2: Y / Y_norm, the continuous pillar sum. Bowen's third option (FFDI "
-        "itself as Y) is set aside for now: FFDI measures fire weather, not impact; it stays a predictor.",
-        "Predictor roles for each option: role_if_Y_class / role_if_Y_sum on the codebook sheet.",
-        "The band row on each data sheet shows the default roles (options 1 and 2).",
-        "Codes on the master: row 1 = group and topic, row 2 = code, row 3 = name. Y1, Y2 … are impact variables by "
-        "pillar (DL, then IL, FP, SL); X1-X23 are Bowen's template variables (or their event × council equivalents, "
-        "see bowen_template on the codebook), X24 onwards our extra predictors by category (fire, terrain, people & "
-        "economy, council). Codes are frozen in codes/master_codes.csv; master_event_council_coded.csv has codes as "
-        "column names.",
-        "Colours on the master sheet: Y_class 1 Light = green, 2 Moderate = yellow, 3 Severe = orange, 4 Extreme = red; "
-        "Y, Y_norm and the pillars DL / IL / FP / SL are shaded green (low) to red (high).",
-        "Row 1 of each data sheet is a coloured band: ID, Y (DL / IL / FP / SL), X (fire / env / socio / council), "
-        "Info. Row 2 holds the column names; data start on row 3.",
-        "Y columns start with DL_, IL_, FP_ or SL_. DL_src_ / IL_src_ / FP_src_ / SL_src_ = raw levels an indicator "
-        "is computed from. DL_reported_ etc. = figures reported in declarations and inquiries.",
-        "X columns: X1-X23 = Bowen's template; X_fire_, X_env_, X_socio_, X_council_ = the extra X variables.",
-        "info_ columns = provenance, notes, links. lga_year is a council × year panel: its values are X before a fire "
-        "and Y source data after it, so it is labelled Panel.",
-        "Colours: warm = Y, cool = X, grey = ID / info.",
-        "Level 1 indicators: raw measures signed so higher = worse (see the indicators sheet).",
-        "Level 2: each indicator -> percentile rank 0-1 across the 218 declared event × council rows.",
-        "Level 3: pillar scores DL, IL, FP, SL = mean of that pillar's indicator ranks (missing ones skipped).",
-        "Level 4: composite Y = equal-weight mean of the pillars with data (at least 2 needed). Higher = worse.",
-        "Deaths and reported losses are not averaged in (too few rows); they set the class floor below.",
-        "1 Light, 2 Moderate, 3 Severe, 4 Extreme. From Y: bottom 50% -> 1, next 30% -> 2, next 15% -> 3, top 5% -> 4.",
-        "Floor so one catastrophic loss is not averaged away (sourced figures only): >=100 homes destroyed -> 4; >=10 homes "
-        "destroyed or >=2 deaths -> at least 3; one death -> one level up (at most 3). Deaths include firefighters and "
-        "aircrew; Y_class_excl_responder_deaths shows the class without them (SL_deaths_type says who died).",
-        "Y is relative to this sample of declared events (every row is already a declared disaster), so 1 Light "
-        "means light among declared disasters.",
-        "Counts by class are on the indicators sheet.",
-        "master (unit decided 2026-09-26: declared event × council). In all_fires the Y columns stay blank: "
-        "council-level Y belongs to the declared event, not to each fire.",
-        "master: one row per declared event × council (218 rows) with every variable: the Y hierarchy, the event's "
-        "fire variables aggregated over its fires in the council, and every lga_year council variable in three windows.",
-        "_pre = period before the fire (X). _event = the fire's period and _plus1 = the period after (Y source data). "
-        "_fy columns use financial years (fire FY = FY of the first fire start), _june columns the 30 June counts, "
-        "others calendar years. Census / one-off columns are taken once, for the fire's year.",
-        "Every column's code, meaning, unit and source are on the codebook sheet; download links on download_links.",
-        "Blank = not found (yet). N/A = cannot exist for that row (the source does not publish that year or quarter, the "
-        "program only covered Black Summer, no ICA catastrophe was declared, TRA made no profile for the council); "
-        "na_rule on the codebook says which. 0 = the source was checked and the value is zero.",
-        "README, master, codebook, post_fire_levels (raw council figures in the fire year and the year after), business_detail (business counts by size and turnover band), removed_columns, insured_loss_reported (every published insured-loss figure, with quote; none is by council), indicators, key_events, all_fires, lga_year, key_facts, key_sources, "
-        "download_links, data_sources"]})
+    n_y = int(t.code.str.startswith("Y").sum())
+    n_x = int(t.code.str.startswith("X").sum())
+    readme_rows = [  # (item, detail): one line each, so labels never drift
+        ("What this file is", "NSW declared bushfire events 2015-2025, one row per declared event × council (218 rows), "
+                              "every variable labelled X or Y and sourced. Start with the master sheet."),
+        ("Y (outcome)", "Recommended: sum the four impact pillars (DL direct loss, IL indirect loss, FP fiscal pressure, "
+                        "SL social loss) -> normalise (Y, Y_norm 0-1) -> grade (Y_class 1-4)."),
+        ("", "Option 1: Y_class, the 1-4 grade. Option 2: Y / Y_norm, the continuous pillar sum. FFDI as Y (Bowen's "
+             "third option) is set aside: FFDI measures fire weather, not impact; it stays a predictor."),
+        ("", "Level 1: impact indicators, signed so higher = worse (indicators sheet). Level 2: each -> percentile rank "
+             "0-1 across the 218 rows. Level 3: pillar scores DL / IL / FP / SL = mean of their ranks. Level 4: Y = "
+             "equal-weight mean of the pillars with data (at least 2)."),
+        ("Y_class", "1 Light, 2 Moderate, 3 Severe, 4 Extreme. From Y: bottom 50% -> 1, next 30% -> 2, next 15% -> 3, "
+                    "top 5% -> 4. Relative to this sample: every row is already a declared disaster."),
+        ("", "Floor so one catastrophic loss is not averaged away (sourced figures only): >=100 homes destroyed -> 4; "
+             ">=10 homes destroyed or >=2 deaths -> at least 3; one death -> one level up (at most 3). Deaths include "
+             "firefighters and aircrew; Y_class_excl_responder_deaths shows the class without them."),
+        ("Codes (master)", f"Header rows: 1 = group · topic, 2 = code, 3 = name; data from row 4. Y1-Y{n_y} = impact "
+                           f"variables by pillar (DL, IL, FP, SL) and topic; X1-X{n_x} = predictors by category (fire, "
+                           "terrain, people & economy, council) and topic. Y_class, Y, Y_norm and the pillar scores keep "
+                           "their names."),
+        ("", "Bowen's template variables were examples: they are numbered like the rest and marked in the codebook "
+             "column bowen_template. Codes are fixed (codes/master_codes.csv); new variables get the next number."),
+        ("X and Y roles", "X = predictors: the fire, the land, and each council's conditions before the fire (_pre). "
+                          "Y = impacts: losses, and changes in the fire year (_event) and the year after (_plus1). "
+                          "codebook role_if_Y_class / role_if_Y_sum say which columns may be predictors."),
+        ("Colours", "Band row: warm = Y, cool = X, grey = ID / info. Y_class: 1 green, 2 yellow, 3 orange, 4 red; Y, "
+                    "Y_norm and the pillars shaded green (low) to red (high)."),
+        ("Blank vs N/A", "Blank = not found (yet). N/A = cannot exist for that row (the source does not publish that "
+                         "year or quarter, a Black Summer-only program, no ICA catastrophe, no TRA profile); codebook "
+                         "na_rule says which. 0 = a source says zero."),
+        ("Time windows", "_pre = before the fire (X); _event = the fire's period, _plus1 = the period after (Y). _fy = "
+                         "financial years (fire FY = FY of the first fire start); 30 June counts and population by the "
+                         "30 June before / ending / after the fire FY; calendar-year means: pre = year before the fire "
+                         "year, event = fire year if the fire started Jan-Jun else the next year."),
+        ("Sources", "Every column's code, meaning, unit, source and link: codebook sheet. Home losses and deaths per "
+                    "council carry title | URL | page | verbatim quote in their info_..._ref column. Download links: "
+                    "download_links."),
+        ("Not public", "Yearly GDP by council, insured share of homes, insured losses by council and DRFA payments by "
+                       "council are not published: labelled proxies (X16 / X23 equivalents) or blank."),
+        ("Sheets", "master; codebook; post_fire_levels (raw council figures after the fire); business_detail (business "
+                   "counts by size and turnover band); removed_columns; insured_loss_reported (published figures with "
+                   "quotes, none by council); indicators; key_events; all_fires (fire × council); lga_year (council × "
+                   "year panel); key_facts; key_sources; download_links; data_sources."),
+    ]
+    readme = pd.DataFrame(readme_rows, columns=["item", "detail"])
 
     with pd.ExcelWriter(DEST, engine="openpyxl") as w:
         readme.to_excel(w, sheet_name="README", index=False)
