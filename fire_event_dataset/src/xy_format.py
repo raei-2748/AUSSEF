@@ -298,12 +298,12 @@ SCALE_COLS = ["Y", "Y_norm", *PILLARS]  # green (low) -> yellow -> red (high)
 
 
 def compact(ws, d, header_row=1, text_max=24, wide=None):
-    """Compact layout: widths fitted to the values (not the long names), small wrapped header, no wrapped body text,
+    """Compact layout: widths fitted to the values (not the long names), small one-line header, nothing wrapped,
     number formats as in combine.format_sheet. `wide` = {column: width} for text columns that deserve more room."""
     from openpyxl.styles import Alignment, Font
     from openpyxl.utils import get_column_letter
     wide = wide or {}
-    head_font, head_align = Font(bold=True, size=8), Alignment(wrap_text=True, vertical="bottom")
+    head_font, head_align = Font(bold=True, size=8), Alignment(wrap_text=False, vertical="bottom")  # nothing wraps
     first, last = header_row + 1, header_row + len(d)
     for j, col in enumerate(d.columns, start=1):
         letter = get_column_letter(j)
@@ -330,7 +330,6 @@ def compact(ws, d, header_row=1, text_max=24, wide=None):
             for i in range(first, last + 1):
                 ws.cell(row=i, column=j).number_format = fmt
         ws.column_dimensions[letter].width = width
-    ws.row_dimensions[header_row].height = 56
     ws.auto_filter.ref = f"A{header_row}:{get_column_letter(len(d.columns))}{last}"
 
 
@@ -793,6 +792,10 @@ def main():
         readme.to_excel(w, sheet_name="README", index=False)
         g = w.sheets["README"]
         combine.format_sheet(g, readme)
+        from openpyxl.styles import Alignment
+        for cell in g[1]:
+            cell.alignment = Alignment(wrap_text=False, vertical="bottom")
+        g.row_dimensions[1].height = None
         g.column_dimensions["A"].width, g.column_dimensions["B"].width = 20, 120
         g.auto_filter.ref = None
         write_sheet(w, "master", *sheets["master"])  # the main sheet comes right after the README
