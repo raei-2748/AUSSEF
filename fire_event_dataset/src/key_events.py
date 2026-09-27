@@ -16,7 +16,7 @@ import re
 import numpy as np
 import pandas as pd
 
-from src.common import DATA, OUT
+from src.common import DATA, OUT, human_only
 
 KE = DATA / "key_events"
 FACTS = ["homes_destroyed", "homes_damaged", "deaths", "injuries", "people_evacuated", "livestock_lost",
@@ -42,6 +42,8 @@ def load_facts():
         return pd.DataFrame(columns=["agrn", "council", "fact", "value"])
     f = pd.concat(parts, ignore_index=True)
     f["council"] = f.council.fillna("ALL").str.strip()
+    note = f["check_note"] if "check_note" in f else pd.Series("", index=f.index)
+    f = f[~human_only(f.source_url, note)].reset_index(drop=True)  # ABC / ACM: only facts a person has checked
     f = apply_corrections(f)
     f = validate(f)
     f = link_status(f)

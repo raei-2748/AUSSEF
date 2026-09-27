@@ -110,8 +110,9 @@ def classify(col, panel=False):
         return ed[0], ed[1]
     if col in Y_OWN:
         return Y_OWN[col][:2], Y_OWN[col]
-    if col in REPORTED:
-        return REPORTED[col], f"{REPORTED[col]}_{col}"
+    if col in REPORTED or col in ("reported_area_burned_ha", "reported_cause", "reported_fire_danger_rating"):
+        # figures quoted in the older key-facts table: kept for reference; the *_sourced columns replace them
+        return "info", "info_" + col
     if col in Y_SRC:
         return Y_SRC[col], f"{Y_SRC[col]}_src_{col}"
     m = re.match(r"^fiscal_(.+)_(pre|event|plus1)$", col)
@@ -333,7 +334,7 @@ def compact(ws, d, header_row=1, text_max=24, wide=None):
     ws.auto_filter.ref = f"A{header_row}:{get_column_letter(len(d.columns))}{last}"
 
 
-def write_sheet(w, name, d, table):
+def write_sheet(w, name, d, table, na=None):
     """Band row (group, and topic on the master; one merged coloured cell per run of columns) above the column names.
     The master also gets a code row (Y1…, X1…) between the band and the names. Severity columns are colour coded."""
     from openpyxl.formatting.rule import ColorScaleRule
@@ -370,6 +371,12 @@ def write_sheet(w, name, d, table):
         j = k + 1
     ws.row_dimensions[1].height = 16
     ws.freeze_panes = f"D{hdr + 1}"
+    if na is not None and na.values.any():  # cells that cannot exist: grey "N/A" (blank = not found)
+        grey, centre = Font(italic=True, color="808080", size=9), Alignment(horizontal="center")
+        for j, c in enumerate(d.columns, start=1):
+            for i in np.flatnonzero(na[c].to_numpy()):
+                cell = ws.cell(row=hdr + 1 + int(i), column=j, value="N/A")
+                cell.font, cell.alignment = grey, centre
     if name == "master":
         cols = {c: i for i, c in enumerate(d.columns, start=1)}
         label_val = {v: k for k, v in CLASS_LABEL.items()}
@@ -578,7 +585,7 @@ def main():
     book["lga_year"] = panel_extra.extend_lga_year(book["lga_year"])
     kec.to_csv(Y_CSV, index=False)
     from src import master
-    mst, mmeta = master.build(kec, book["lga_year"], decl)
+    mst, mmeta, na_mask, na_why = master.build(kec, book["lga_year"], decl)
     template = set(book["all_fires_dictionary"].query("in_template == 'yes'").column)
     TEMPLATE_NAMES.update(template)
     mst, removed = prune(mst, keep=template | {"DL_homes_destroyed_in_council", "DL_homes_destroyed_per_1000_dwellings"})
@@ -721,12 +728,25 @@ def main():
     for dname, (dout, dt) in detail.items():
         sheets[dname] = (dout, dt)
         tables.insert(1, dt)
-        dout.to_csv(OUT / f"master_{dname}.csv", index=False)
-    out.to_csv(MASTER_CSV, index=False)  # labelled names, as in the workbook
-    out.set_axis([c or n for c, n in zip(t.code, t.column)], axis=1).to_csv(MASTER_CODED_CSV, index=False)
+
+    def na_of(frame, table):
+        """Cells that cannot exist (N/A), for a sheet's columns, from the master's N/A rules."""
+        return pd.DataFrame({c: (na_mask[o].to_numpy() if o in na_mask else np.zeros(len(frame), bool))
+                             for c, o in zip(table.column, table.original_column)}, index=frame.index)
+    nas = {n: na_of(*sheets[n]) for n in DETAIL_SHEETS}
+    for tb in tables:
+        if tb.sheet.iloc[0] in DETAIL_SHEETS:
+            tb["na_rule"] = [na_why.get(o, "") for o in tb.original_column]
+            tb["na_cells"] = [int(nas[tb.sheet.iloc[0]][c].sum()) for c in tb.column]
+    labelled = {n: sheets[n][0].astype(object).mask(nas[n], "N/A") for n in DETAIL_SHEETS}
+    for dname in detail:
+        labelled[dname].to_csv(OUT / f"master_{dname}.csv", index=False)
+    labelled["master"].to_csv(MASTER_CSV, index=False)  # labelled names, as in the workbook; N/A = cannot exist
+    labelled["master"].set_axis([c or n for c, n in zip(t.code, t.column)], axis=1).to_csv(MASTER_CODED_CSV,
+                                                                                         index=False)
     variables = pd.concat(tables, ignore_index=True)[
         ["sheet", "code", "column", "role", "group_label", "topic", "bowen_template", "original_column", "meaning",
-         "unit", "source", "source_url", "link_note", "note", "coverage_pct"]]
+         "unit", "source", "source_url", "link_note", "note", "coverage_pct", "na_rule", "na_cells"]]
 
     for opt in Y_OPTIONS:
         variables[f"role_if_Y_{opt}"] = [option_role(c, r, opt, oc) if sh in DETAIL_SHEETS else ""
@@ -784,7 +804,9 @@ def main():
         "_fy columns use financial years (fire FY = FY of the first fire start), _june columns the 30 June counts, "
         "others calendar years. Census / one-off columns are taken once, for the fire's year.",
         "Every column's code, meaning, unit and source are on the codebook sheet; download links on download_links.",
-        "Blank means no data; 0 means the source was checked and the value is zero.",
+        "Blank = not found (yet). N/A = cannot exist for that row (the source does not publish that year or quarter, the "
+        "program only covered Black Summer, no ICA catastrophe was declared, TRA made no profile for the council); "
+        "na_rule on the codebook says which. 0 = the source was checked and the value is zero.",
         "README, master, codebook, post_fire_levels (raw council figures in the fire year and the year after), business_detail (business counts by size and turnover band), removed_columns, insured_loss_reported (every published insured-loss figure, with quote; none is by council), indicators, key_events, all_fires, lga_year, key_facts, key_sources, "
         "download_links, data_sources"]})
 
@@ -798,7 +820,7 @@ def main():
         g.row_dimensions[1].height = None
         g.column_dimensions["A"].width, g.column_dimensions["B"].width = 20, 120
         g.auto_filter.ref = None
-        write_sheet(w, "master", *sheets["master"])  # the main sheet comes right after the README
+        write_sheet(w, "master", *sheets["master"], na=nas["master"])  # the main sheet, right after the README
         variables.to_excel(w, sheet_name="codebook", index=False)
         compact(w.sheets["codebook"], variables, wide={"column": 40, "bowen_template": 40, "topic": 24, "meaning": 70, "source": 45, "source_url": 40,
                                                         "note": 40, "original_column": 34, "group_label": 26,
@@ -819,7 +841,7 @@ def main():
             ws_i.cell(row=i, column=2).fill = PatternFill("solid", fgColor=SEVERITY_FILL[int(v)])
         for name in ["post_fire_levels", "business_detail", "key_events", "all_fires", "lga_year"]:
             out, t = sheets[name]
-            write_sheet(w, name, out, t)
+            write_sheet(w, name, out, t, na=nas.get(name))
         for name in ["key_facts", "key_sources", "download_links", "data_sources"]:
             book[name].to_excel(w, sheet_name=name, index=False)
             compact(w.sheets[name], book[name], text_max=45)

@@ -1,6 +1,6 @@
 agrn,region_name,deaths,responders,type,basis
-1075,Kyogle,1,1,responder,"RFS Annual Report 2023/24 p.27: Senior Deputy Captain John Holmes (Mallanganee Brigade) died while fighting the Bean Creek fire; medical episode on the fireground (ABC News, 14 Oct 2023)"
-1076,Kempsey,1,0,civilian,"ABC News: 56-year-old man found on a rural property at Temagog, believed to be defending his property"
+1075,Kyogle,1,1,responder,"RFS Annual Report 2023/24 p.27: 'Senior Deputy Captain John Holmes of Mallanganee Brigade died while fighting the Bean Creek fire at Kyogle.'"
+1076,Kempsey,1,0,civilian,"RFS Bush Fire Bulletin Vol 45 No 2 p.3: 'a member of the public also lost his life while defending his family farm from the Willi Willi Rd in Temagog'"
 1081,Walgett,1,1,responder,"AIDR Hudson fire 2023: RFS volunteer firefighter struck by a falling tree while responding (Captain Leo Fransen)"
 818,Shoalhaven,1,1,responder,"AIDR Kingiman bushfire 2018: pilot of a firefighting water-bombing helicopter that crashed at the fire"
 871,Bega Valley,4,0,resident,"Coronial Inquiry Vol 1 p.35 para 15: 'four residents'"
@@ -15,3 +15,4 @@ agrn,region_name,deaths,responders,type,basis
 871,Snowy Valleys,1,0,unknown,"Coronial Inquiry Vol 1 p.38 para 39: 'took the life of David Harrison' (residency not stated in the quote)"
 871,Walcha,1,0,resident,"Coronial Inquiry Vol 1 p.186 para 39: Russell Bratby, resident of Yarrowitch"
 871,Wollondilly,2,2,responder,"Activate Wollondilly 2021 p.14: two RFS volunteers from Horsley Park killed when their truck rolled over"
+871,Glen Innes Severn,2,0,resident,"NSW RFS Bush Fire Bulletin Vol 42 No 1 (2020), ""Spring fires torment northern NSW"" Incidents, p.9 (PDF p.11), Kangawalla fire paragraph: 'The town lost its school, more than half of its buildings and two of its residents.' (Wytaliba)"

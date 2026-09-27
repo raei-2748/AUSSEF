@@ -21,10 +21,12 @@ Columns added here:
    the variables sheet). Census columns therefore follow X17: 2016 Census for fires up to 2020, 2021 after.
 Nothing is modelled.
 """
+import re
+
 import numpy as np
 import pandas as pd
 
-from src.common import OUT
+from src.common import DATA, OUT
 
 # (source column in fires.csv, aggregation, new name). Weights = burned area of the fire inside this council.
 FIRE_AGG = [
@@ -148,7 +150,9 @@ def panel_windows(k, ly, start):
              "fy": {"_pre": fy - 1, "_event": fy, "_plus1": fy + 1},
              "june": {"_pre": fy, "_event": fy + 1, "_plus1": fy + 2}}  # 30 June before / ending / after the fire FY
     kinds = {v: time_kind(v) for v in tab.columns}
-    out, meta = {}, {}
+    out, meta, na = {}, {}, {}
+    # years in which the source publishes the variable at all (any council): a blank window outside them is N/A
+    avail = {v: set(tab[v].dropna().index.get_level_values(1)) for v in tab.columns}
     static = [v for v in tab.columns if kinds[v] == "static" and v not in k.columns]
     for v in static:
         by = {r: g.droplevel(0).sort_index() for r, g in tab[v].dropna().groupby(level=0)}
@@ -166,7 +170,9 @@ def panel_windows(k, ly, start):
                     name = f"{pillar(v)}_src_{v}{suf}"
                 out[name] = vals[v].to_numpy()
                 meta[name] = (v, suf.strip("_"), kind)
-    return pd.DataFrame(out, index=k.index), meta
+                na[name] = pd.isna(out[name]) & ~np.isin(yrs, list(avail[v]))
+    frame = pd.DataFrame(out, index=k.index)
+    return frame, meta, pd.DataFrame(na, index=k.index).reindex(columns=frame.columns, fill_value=False)
 
 
 def revenue_change(panel):
@@ -187,10 +193,74 @@ def build(kec, ly, decl_start):
     start = pd.to_datetime(kec.first_fire_start).fillna(pd.to_datetime(decl_start))
     assert start.notna().all(), "rows without a fire or declaration start"
     fire = fire_aggregates(kec)
-    panel, meta = panel_windows(kec, ly, start)
+    panel, meta, na_panel = panel_windows(kec, ly, start)
     base = kec.assign(info_fire_fy=[f"{y}-{str(y + 1)[2:]}" for y in np.where(start.dt.month >= 7, start.dt.year,
                                                                               start.dt.year - 1)])
-    panel = pd.concat([panel, revenue_change(panel)], axis=1)
+    rev = revenue_change(panel)
+    na_rev = pd.DataFrame({c: na_panel[[x for x in na_panel.columns if "total_revenue_including_capital" in x
+                                        or "own_source_pct" in x]].any(axis=1) & rev[c].isna() for c in rev.columns})
+    panel = pd.concat([panel, rev], axis=1)
     clash = set(panel.columns) & set(base.columns) | set(fire.columns) & set(base.columns)
     assert not clash, f"duplicate column names: {sorted(clash)[:10]}"
-    return pd.concat([base, fire, panel], axis=1), meta
+    full = pd.concat([base, fire, panel], axis=1)
+    na, why = na_rules(full)
+    for c in na_panel.columns:
+        na[c] = na_panel[c]
+        why[c] = "N/A: the source does not publish this variable for that year / date"
+    for c in na_rev.columns:
+        na[c] = na_rev[c]
+        why[c] = "N/A: council revenue not published for one of the financial years compared"
+    return full, meta, na.reindex(columns=full.columns, fill_value=False), why
+
+
+# ---------------------------------------------------------------- N/A: cells that cannot exist
+QUARTER_COVER = {"payroll": ("2020Q1", "2023Q2"), "ntl": ("2014Q1", "2025Q2"), "nsw_sfd": ("1985Q3", "2026Q2")}
+
+
+def _q_offsets(col):
+    """Quarter offsets (from the fire-start quarter) a quarterly column needs."""
+    if "chg_pct_qp1_vs_qm1" in col:
+        return [1, -1]
+    if "yoy_pct_qp4_vs_q0" in col:
+        return [4, 0]
+    if "yoy_pct_qp1" in col:  # incl. _ctrl_median and _excess
+        return [1, -3]
+    if "yoy_pct_q0" in col:
+        return [0, -4]
+    m = re.search(r"q([mp])(\d)$", col)
+    return [int(m.group(2)) * (1 if m.group(1) == "p" else -1)] if m else []
+
+
+def na_rules(full):
+    """(bool frame of cells that cannot exist, {column: reason}). A blank that is not N/A = not found (yet)."""
+    na, why = pd.DataFrame(index=full.index), {}
+    agrn = full.agrn.astype(str)
+    for c in [c for c in full.columns if c.startswith("FP_reported_")]:
+        na[c] = full[c].isna() & (agrn != "871")
+        why[c] = "N/A: a 2019-20 (Black Summer) recovery program; it does not exist for other events"
+    for c in ["DL_insurance_loss_raw", "DL_insurance_loss_area_share_proxy_in_council"]:
+        if c in full:
+            na[c] = full[c].isna()
+            why[c] = "N/A: ICA declared no catastrophe for the event's dates, so no insured-loss figure exists"
+    if "X16_grp_per_capita_sa4_aud" in full:
+        na["X16_grp_per_capita_sa4_aud"] = full.X16_grp_per_capita_sa4_aud.isna() & (full.X16_grp_base_fy == "2015-16")
+        why["X16_grp_per_capita_sa4_aud"] = "N/A: BCARR publishes GRP per resident for 2020-21 only"
+    tra = set(pd.read_parquet(DATA / "enrich/il_sector.parquet", columns=["variable", "region_id"]).query(
+        "variable.str.startswith('tra2017_')", engine="python").region_id.astype(str))
+    for c in [c for c in full.columns if "tra2017_" in c]:
+        na[c] = full[c].isna() & ~full.region_id.astype(str).isin(tra)
+        why[c] = "N/A: Tourism Research Australia published no 2017 profile for this council"
+    q0 = pd.PeriodIndex(full["info_fire_start_quarter"], freq="Q")
+    for c in [c for c in full.columns if re.search(r"(ntl_|payroll|nsw_sfd)", c) and not c.startswith("info_")]:
+        fam = "payroll" if "payroll" in c else "ntl" if "ntl_" in c else "nsw_sfd"
+        lo, hi = (pd.Period(x, freq="Q") for x in QUARTER_COVER[fam])
+        offs = _q_offsets(c)
+        if not offs:
+            continue
+        outside = np.zeros(len(full), bool)
+        for o in offs:
+            q = q0 + o
+            outside |= np.array([(x < lo) or (x > hi) for x in q])
+        na[c] = full[c].isna() & outside
+        why[c] = f"N/A: the series covers {QUARTER_COVER[fam][0]}-{QUARTER_COVER[fam][1]} only"
+    return na, why

@@ -17,10 +17,12 @@ from src import master, panel_extra  # noqa: E402
 from src.xy_format import CLASS_CUTS, MIN_PILLARS, PILLARS  # noqa: E402
 
 OUT = ROOT / "out"
-m = pd.read_csv(OUT / "master_event_council.csv", low_memory=False, dtype={"region_id": str, "agrn": str})
+NA = ["N/A"]  # "N/A" = cannot exist (see na_rule); read as missing here
+m = pd.read_csv(OUT / "master_event_council.csv", low_memory=False, dtype={"region_id": str, "agrn": str},
+                na_values=NA)
 master_cols = list(m.columns)
 for d in ("post_fire_levels", "business_detail"):  # same rows, split off the master; checked together
-    x = pd.read_csv(OUT / f"master_{d}.csv", low_memory=False, dtype={"region_id": str, "agrn": str})
+    x = pd.read_csv(OUT / f"master_{d}.csv", low_memory=False, dtype={"region_id": str, "agrn": str}, na_values=NA)
     assert (x.agrn.values == m.agrn.values).all() and (x.region_id.values == m.region_id.values).all(), d
     m = pd.concat([m, x.drop(columns=[c for c in x.columns if c in m.columns])], axis=1)
 var_all = pd.read_csv(OUT / "master_variables.csv")

@@ -295,6 +295,8 @@ def event_extras(k, decl_start):
     out["SL_deaths_type"] = dt["type"].reindex(dkey).to_numpy()
     out["SL_deaths_responders"] = dt["responders"].reindex(dkey).to_numpy()
     out["SL_deaths_type_basis"] = dt["basis"].reindex(dkey).to_numpy()
+    # no deaths -> no responder deaths (derived); unknown deaths stay blank
+    out.loc[k.get("SL_deaths_sourced", pd.Series(index=k.index, dtype=float)).eq(0), "SL_deaths_responders"] = 0
     # quarterly activity around the fire-start quarter (src/econ_quarterly.py): night lights, payroll, NSW SFD
     eq = pd.read_parquet(ENRICH / "econ_quarterly_events.parquet")
     eq = eq.assign(agrn=eq.agrn.astype(str), region_id=eq.region_id.astype(str)).set_index(["agrn", "region_id"])

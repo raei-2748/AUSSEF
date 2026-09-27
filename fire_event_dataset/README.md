@@ -63,6 +63,16 @@ names, order and labels change, and the `variables` sheet maps each new name to 
 - **Detail sheets (same 218 rows):** `post_fire_levels` = the raw council figures in the fire year and the year after
   (raw material for new impact measures; `out/master_post_fire_levels.csv`); `business_detail` = pre-fire business
   counts by size and turnover band (`out/master_business_detail.csv`). The master keeps the per-industry totals.
+- **Blank vs N/A:** on the master and detail sheets a blank means "not found (yet)"; `N/A` means the value cannot
+  exist for that row (the source does not publish that year or quarter, a Black Summer-only program, no ICA
+  catastrophe declared, no TRA profile for the council). The codebook's `na_rule` / `na_cells` say which rule applies.
+  In the CSVs `N/A` is written out; pandas reads it as missing by default.
+- **Direct losses and deaths** come from `src/dl_council.py`: round 1 facts in the module, round 2 (2026-09-27) in
+  `data/key_events/dl_facts_round2.csv`, every quote checked. Zeros need a source saying so; `season_zero` rows use an
+  official season total that the listed rows fully account for. Who died: `data/key_events/death_types.csv`.
+- **ACM papers need a person:** Australian Community Media prohibits using its content for AI purposes, so facts from
+  ACM papers are dropped by the build unless a person has checked them (`HUMAN_ONLY_SOURCES` in `src/common.py`;
+  checklist `out/checks/human_check_acm.xlsx`). ABC is used (its robots.txt blocks AI crawlers only).
 - **Sources:** the `codebook` sheet (formerly `variables`) gives every column's code, topic, meaning, unit, source and link (`src/col_sources.py`,
   `src/col_docs.py`). Per-council home losses and deaths (`*_sourced`) carry title | URL | page | verbatim quote in
   their `_source` column (`src/dl_council.py`).
