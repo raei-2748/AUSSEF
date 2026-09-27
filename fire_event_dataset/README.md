@@ -52,7 +52,13 @@ names, order and labels change, and the `variables` sheet maps each new name to 
   yellow / orange / red; Y, Y_norm, Y_FFDI and the pillars shaded green to red). Column names are shortened with fixed
   abbreviations (`NEAT` in `src/xy_format.py`, e.g. `biz_` = CABEE businesses, `A_agri`, `_pre/_event/_plus1`); Bowen's
   template names are kept exactly, and the `variables` sheet keeps each column's original name.
-- **Sources:** the `variables` sheet gives every column's meaning, unit, source and link (`src/col_sources.py`,
+- **Codes (master sheet):** row 1 = group · topic, row 2 = code, row 3 = name. Y1–Y747 are the impact variables by
+  pillar (DL Y1–21, IL Y22–636, FP Y637–720, SL Y721–747) and topic; X1–X23 are Bowen's template variables or their
+  event × council equivalents (column `bowen_template` on the codebook), X24–X461 our extra predictors by category
+  (fire, terrain, people & economy, council) and topic. The Y targets and Y hierarchy keep their names. Codes are
+  frozen in `codes/master_codes.csv` (`src/codes.py`): existing codes never change, new variables get the next free
+  number. `out/master_event_council_coded.csv` uses the codes as column names.
+- **Sources:** the `codebook` sheet (formerly `variables`) gives every column's code, topic, meaning, unit, source and link (`src/col_sources.py`,
   `src/col_docs.py`). Per-council home losses and deaths (`*_sourced`) carry title | URL | page | verbatim quote in
   their `_source` column (`src/dl_council.py`).
 - **Direct loss for Y uses sourced figures only.** `DL_homes_destroyed_in_council` = the per-council figure of

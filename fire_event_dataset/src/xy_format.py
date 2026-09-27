@@ -22,6 +22,7 @@ SRC = OUT / "nsw_bushfires_2015_2025_combined.xlsx"
 DEST = OUT / "nsw_bushfires_2015_2025_XY.xlsx"
 Y_CSV = OUT / "key_event_council_Y.csv"
 MASTER_CSV = OUT / "master_event_council.csv"
+MASTER_CODED_CSV = OUT / "master_event_council_coded.csv"  # same table, codes (Y1…, X1…) as column names
 
 # ---------------------------------------------------------------- column roles
 GROUPS = {  # group -> (role, band label, fill colour)
@@ -90,6 +91,9 @@ def classify(col, panel=False):
         return "panel_socio", col
     if col in {"Y", "Y_class", "Y_class_label", "DL", "IL", "FP", "SL"} or col.startswith("Y_"):
         return "Y", col
+    if re.search(r"_sourced_(scope|source_type|source)$", col) or col in (
+            "DL_homes_destroyed_basis", "SL_deaths_type", "SL_deaths_type_basis"):
+        return "info", "info_" + col  # who / where / which source: descriptions, not measurements
     m = re.match(r"^(DL|IL|FP|SL)_", col)
     if m:
         return m.group(1), col
@@ -331,38 +335,48 @@ def compact(ws, d, header_row=1, text_max=24, wide=None):
 
 
 def write_sheet(w, name, d, table):
-    """Band row (role · group, one merged coloured cell per run of columns) above the column names; data from row 3.
-    On the master sheet the severity columns are colour coded."""
+    """Band row (group, and topic on the master; one merged coloured cell per run of columns) above the column names.
+    The master also gets a code row (Y1…, X1…) between the band and the names. Severity columns are colour coded."""
     from openpyxl.formatting.rule import ColorScaleRule
     from openpyxl.styles import Alignment, Font, PatternFill
     from openpyxl.utils import get_column_letter
-    d.to_excel(w, sheet_name=name, index=False, startrow=1)
+    coded = "code" in table and table["code"].fillna("").astype(bool).any()
+    hdr = 3 if coded else 2
+    d.to_excel(w, sheet_name=name, index=False, startrow=hdr - 1)
     ws = w.sheets[name]
-    compact(ws, d, header_row=2)
+    compact(ws, d, header_row=hdr)
     groups = list(table["group"])
+    labels = [GROUPS[g][1] + (f" · {tp}" if coded and isinstance(tp, str) and tp else "")
+              for g, tp in zip(groups, table["topic"] if coded else [""] * len(groups))]
+    if coded:
+        code_font = Font(bold=True, size=9)
+        for j, c in enumerate(table["code"], start=1):
+            cell = ws.cell(row=2, column=j, value=c or None)
+            cell.font, cell.alignment = code_font, Alignment(horizontal="center")
+            cell.fill = PatternFill("solid", fgColor=GROUPS[groups[j - 1]][2])
     j = 1
-    while j <= len(groups):  # merge each run of same-group columns into one band cell
+    while j <= len(groups):  # merge each run of same-label columns into one band cell
         k = j
-        while k < len(groups) and groups[k] == groups[j - 1]:
+        while k < len(groups) and labels[k] == labels[j - 1]:
             k += 1
         g = groups[j - 1]
         fill = PatternFill("solid", fgColor=GROUPS[g][2])
-        top = ws.cell(row=1, column=j, value=GROUPS[g][1])
+        top = ws.cell(row=1, column=j, value=labels[j - 1])
         top.fill, top.font = fill, Font(bold=True, size=8)
         top.alignment = Alignment(horizontal="left", vertical="center")
         for c in range(j, k + 1):
-            ws.cell(row=2, column=c).fill = fill
+            ws.cell(row=hdr, column=c).fill = fill
         if k > j:
             ws.merge_cells(start_row=1, start_column=j, end_row=1, end_column=k)
         j = k + 1
     ws.row_dimensions[1].height = 16
-    ws.freeze_panes = "D3"
+    ws.freeze_panes = f"D{hdr + 1}"
     if name == "master":
         cols = {c: i for i, c in enumerate(d.columns, start=1)}
         label_val = {v: k for k, v in CLASS_LABEL.items()}
         bold = Font(bold=True)
         for c in [c for c in CLASS_COLS if c in cols]:
-            for i, v in enumerate(d[c], start=3):
+            for i, v in enumerate(d[c], start=hdr + 1):
                 v = label_val.get(v, v)
                 if pd.notna(v) and int(v) in SEVERITY_FILL:
                     cell = ws.cell(row=i, column=cols[c])
@@ -371,7 +385,7 @@ def write_sheet(w, name, d, table):
                         cell.font = bold
         for c in [c for c in SCALE_COLS if c in cols]:
             L = get_column_letter(cols[c])
-            ws.conditional_formatting.add(f"{L}3:{L}{len(d) + 2}", ColorScaleRule(
+            ws.conditional_formatting.add(f"{L}{hdr + 1}:{L}{len(d) + hdr}", ColorScaleRule(
                 start_type="min", start_color="63BE7B", mid_type="percentile", mid_value=50, mid_color="FFEB84",
                 end_type="max", end_color="F8696B"))
 
@@ -667,10 +681,27 @@ def main():
         t["unit"] = [fix_unit(u, m_) for u, m_ in zip(t["unit"], t["meaning"])]
         t["coverage_pct"] = (out.notna().mean().round(3) * 100).values
         sheets[name], tables = (out, t), tables + [t]
-    sheets["master"][0].to_csv(MASTER_CSV, index=False)  # labelled names, as in the workbook
+    from src import codes
+    out, t = sheets["master"]
+    t = codes.assign(t.reset_index(drop=True), lambda c: c in Y_HEAD or "_rank_" in c)
+
+    def final_key(i):
+        if t.role[i] == "ID":
+            return (0, (i,))
+        if t.code[i]:
+            return (2, t.sort[i])
+        if t.role[i] in ("X", "Y"):
+            return (1, (i,))  # Y targets and hierarchy, named
+        return (3, (i,))
+    t = t.loc[sorted(t.index, key=final_key)].reset_index(drop=True).drop(columns="sort")
+    out = out[t.column.tolist()]
+    sheets["master"] = (out, t)
+    tables[0] = t
+    out.to_csv(MASTER_CSV, index=False)  # labelled names, as in the workbook
+    out.set_axis([c or n for c, n in zip(t.code, t.column)], axis=1).to_csv(MASTER_CODED_CSV, index=False)
     variables = pd.concat(tables, ignore_index=True)[
-        ["sheet", "column", "role", "group_label", "original_column", "meaning", "unit", "source", "source_url",
-         "link_note", "note", "coverage_pct"]]
+        ["sheet", "code", "column", "role", "group_label", "topic", "bowen_template", "original_column", "meaning",
+         "unit", "source", "source_url", "link_note", "note", "coverage_pct"]]
 
     for opt in Y_OPTIONS:
         variables[f"role_if_Y_{opt}"] = [option_role(c, r, opt, oc) if sh == "master" else ""
@@ -683,7 +714,7 @@ def main():
                              int(kec[f"{p}_rank_{slug(n)}"].notna().sum())) for p, n, s, c in INDICATORS],
                            columns=["pillar", "indicator", "direction", "source columns", "rows with data"])
     readme = pd.DataFrame({"item": [
-        "What this file is", "Y: three measures", "", "", "", "", "Labels", "", "", "", "", "Y levels", "", "", "", "", "Y_class", "", "", "",
+        "What this file is", "Y: three measures", "", "", "", "", "Codes", "Labels", "", "", "", "", "Y levels", "", "", "", "", "Y_class", "", "", "",
         "Where Y is filled", "master sheet", "", "", "Blank vs zero", "Sheets"],
         "detail": [
         "The combined NSW bushfire workbook reformatted for Bowen: every column labelled X or Y. Same data, "
@@ -692,8 +723,13 @@ def main():
         "Option 1: Y_class, the 1-4 grade. Option 2: Y / Y_norm, the continuous pillar sum. Option 3 (the easy way): "
         "Y_FFDI, the highest fire danger index of the event's fires in the council.",
         "Which columns may be predictors depends on the option: see role_if_Y_class / role_if_Y_sum / role_if_Y_FFDI "
-        "on the variables sheet (e.g. with Y_FFDI, the weather columns FFDI is computed from are not predictors).",
+        "on the codebook sheet (e.g. with Y_FFDI, the weather columns FFDI is computed from are not predictors).",
         "The band row on each data sheet shows the default roles (options 1 and 2).",
+        "Codes on the master: row 1 = group and topic, row 2 = code, row 3 = name. Y1, Y2 … are impact variables by "
+        "pillar (DL, then IL, FP, SL); X1-X23 are Bowen's template variables (or their event × council equivalents, "
+        "see bowen_template on the codebook), X24 onwards our extra predictors by category (fire, terrain, people & "
+        "economy, council). Codes are frozen in codes/master_codes.csv; master_event_council_coded.csv has codes as "
+        "column names.",
         "Colours on the master sheet: Y_class 1 Light = green, 2 Moderate = yellow, 3 Severe = orange, 4 Extreme = red; "
         "Y, Y_norm, Y_FFDI and the pillars DL / IL / FP / SL are shaded green (low) to red (high).",
         "Row 1 of each data sheet is a coloured band: ID, Y (DL / IL / FP / SL), X (fire / env / socio / council), "
@@ -723,9 +759,9 @@ def main():
         "_pre = period before the fire (X). _event = the fire's period and _plus1 = the period after (Y source data). "
         "_fy columns use financial years (fire FY = FY of the first fire start), _june columns the 30 June counts, "
         "others calendar years. Census / one-off columns are taken once, for the fire's year.",
-        "Every column's meaning, unit and source are on the variables sheet; download links on download_links.",
+        "Every column's code, meaning, unit and source are on the codebook sheet; download links on download_links.",
         "Blank means no data; 0 means the source was checked and the value is zero.",
-        "README, master, variables, removed_columns, insured_loss_reported (every published insured-loss figure, with quote; none is by council), indicators, key_events, all_fires, lga_year, key_facts, key_sources, "
+        "README, master, codebook, removed_columns, insured_loss_reported (every published insured-loss figure, with quote; none is by council), indicators, key_events, all_fires, lga_year, key_facts, key_sources, "
         "download_links, data_sources"]})
 
     with pd.ExcelWriter(DEST, engine="openpyxl") as w:
@@ -735,12 +771,12 @@ def main():
         g.column_dimensions["A"].width, g.column_dimensions["B"].width = 20, 120
         g.auto_filter.ref = None
         write_sheet(w, "master", *sheets["master"])  # the main sheet comes right after the README
-        variables.to_excel(w, sheet_name="variables", index=False)
-        compact(w.sheets["variables"], variables, wide={"column": 40, "meaning": 70, "source": 45, "source_url": 40,
+        variables.to_excel(w, sheet_name="codebook", index=False)
+        compact(w.sheets["codebook"], variables, wide={"column": 40, "bowen_template": 40, "topic": 24, "meaning": 70, "source": 45, "source_url": 40,
                                                         "note": 40, "original_column": 34, "group_label": 26,
                                                         "role_if_Y_class": 22, "role_if_Y_sum": 22,
                                                         "role_if_Y_FFDI": 22})
-        w.sheets["variables"].freeze_panes = "C2"
+        w.sheets["codebook"].freeze_panes = "D2"
         for name_, frame in [("insured_loss_reported", insured), ("removed_columns", removed)]:
             frame.to_excel(w, sheet_name=name_, index=False)
             compact(w.sheets[name_], frame, text_max=45)
