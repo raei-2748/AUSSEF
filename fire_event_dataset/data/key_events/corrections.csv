@@ -1,0 +1,11 @@
+agrn,fact,match_quote,action,new_value,note,new_quote
+1075,deaths,John Holmes,set_council,Kyogle,Died of a medical episode at Bean Creek near Kyogle during October fire operations; not in the Tenterfield/Tabulam fire (checked 2026-09-25),
+1081,homes_destroyed,24 properties,set_fact,other,"Source says 24 'properties', not homes (checked 2026-09-25)",
+871,homes_destroyed,nearly 2,blank,,"Quote says 'nearly 2,500'; the exact 2,448 is in a separate RFS row",
+871,roads_closed,880 km,set_fact,other,"880 km of roadside assets affected (damage extent), not a count of roads closed",
+1231,deaths,NPWS firefighter died on 7 December 2025,set_source,https://www.abc.net.au/news/2025-12-08/npws-firefighter-killed-by-falling-tree/106113538,"Replaced Wikipedia pointer with primary source (ABC News, 8 Dec 2025); Nerong is in MidCoast Council (checked 2026-09-25)",A firefighter from the NSW National Parks and Wildlife Service has died after being crushed by a falling tree near a bushfire on the Mid North Coast.
+RAA-raa_2016_p13_r17,homes_destroyed,1 home (uninhabited),set_agrn,RAA-raa_2016_p13_r23,"White Cedars Rd, Kains Flat fire was reported in the RFS damage assessment of 13 Feb 2017 and burned from 11 Feb 2017: declaration r23 (onset 2017-02-11), not r17 (checked 2026-09-27)",
+1066,homes_destroyed,destroyed one home and 17 buildings,set_agrn,1056,"ABC 17 Mar 2023 report is the Curraweela / Craigs Road fire: AGRN 1056 'Upper Lachlan Bushfires – 16 March 2023', not 1066 (February fires) (checked 2026-09-27)",
+1071,deaths,A 56-year-old man died,set_agrn,1076,"ABC 17 Oct 2023 death near Kempsey is in the October fires: AGRN 1076 'Mid North NSW Bushfires from 16 October 2023', not 1071 (from 21 August) (checked 2026-09-27)",
+1071,homes_destroyed,At least four homes and two sheds,drop,,Duplicate of the same ABC 19 Oct 2023 fact already recorded under AGRN 1076 (checked 2026-09-27),
+1052,homes_destroyed,destroyed six homes,set_council,"Bathurst Regional; Mid-Western Regional (Hill End fire, whole fire)","ABC 15 Mar 2023: 'six homes' is the whole Hill End fire, which burned in Bathurst Regional and Mid-Western Regional; the source names no council (checked 2026-09-27)",

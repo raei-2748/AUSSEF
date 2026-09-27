@@ -87,7 +87,9 @@ def add(r, ev, pieces):
     f = socio.fiscal()
     for metric, short in (("debt_service_ratio_pct", "debt_ratio"), ("operating_ratio_pct", "operating_ratio"),
                           ("cash_cover_months", "cash_cover"), ("service_share_pct", "service_share"),
-                          ("roads_share_pct", "roads_share")):
+                          ("roads_share_pct", "roads_share"),
+                          ("building_infrastructure_renewals_ratio_pct", "renewals_ratio"),
+                          ("grants_per_capita_aud", "grants_per_capita")):
         if metric not in f.columns:
             continue
         tab = f[metric].unstack(1)
@@ -134,6 +136,16 @@ DOC = {
                                            "median", "pp", "NSW OLG", ""),
     "FP_roads_share_change_plus1_excess": ("Roads & bridges share of spending, change (FY after vs FY before) minus "
                                            "comparison median", "pp", "NSW OLG", "rebuilding shows up here"),
+    "FP_renewals_ratio_change_event_excess": ("Building & infrastructure renewals ratio (renewal spending ÷ depreciation) "
+                                              "change, fire FY vs previous, minus comparison median", "pp", "NSW OLG",
+                                              "capital-side rebuilding, which operating-expense shares miss"),
+    "FP_renewals_ratio_change_plus1_excess": ("Renewals ratio change (FY after vs FY before) minus comparison median", "pp",
+                                              "NSW OLG", "rebuilding peaks a year or more after the fire"),
+    "FP_grants_per_capita_change_event_excess": ("Grants & contributions per resident, change (fire FY vs previous) minus "
+                                                 "comparison median", "AUD", "NSW OLG (grants % × total revenue ÷ population)",
+                                                 "transfer intensity: DRFA and other grants; not a loss, a control"),
+    "FP_grants_per_capita_change_plus1_excess": ("Grants & contributions per resident, change (FY after vs FY before) minus "
+                                                 "comparison median", "AUD", "NSW OLG", "reimbursement lags the fire"),
     "FP_cash_cover_change_plus1_excess": ("Cash cover change (FY after vs FY before) minus comparison median", "months",
                                           "council finance panel", "lagged"),
 }

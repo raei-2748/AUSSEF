@@ -124,9 +124,18 @@ def main():
     merged = []
     for p in sorted(ENRICH.glob("*.parquet")) if ENRICH.exists() else []:
         d = pd.read_parquet(p)
+        if "event_id" not in d.columns:  # council-level tables (il_sector, fp_funding, ...) join in src/panel_extra.py
+            continue
+        d = d.drop(columns=[c for c in ("start", "region_burn_area_ha") if c in d.columns and p.stem.startswith("econ_")])
         keys = ["event_id", "region_id"] if "region_id" in d.columns else ["event_id"]
         r = r.drop(columns=[c for c in d.columns if c not in keys and c in r.columns]).merge(d, on=keys, how="left")
         merged.append(p.stem)
+        if p.stem.startswith("econ_quarterly"):  # its doc.json uses templated names; document each column here
+            from src.panel_extra import econ_doc
+            for c in d.columns:
+                ed = econ_doc(c)
+                if ed:
+                    EXTRAS_DOC[c] = (ed[2], ed[3], ed[4], ed[5])
         doc = HERE / "data/enrich" / f"{p.stem}.doc.json"
         if doc.exists():
             EXTRAS_DOC.update({k: tuple(v) for k, v in json.loads(doc.read_text()).items()})

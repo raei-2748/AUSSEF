@@ -84,6 +84,10 @@ def fiscal():
     # OLG Time Series Data take priority; AUSSEF panels fill council-years OLG does not publish
     out = olg.combine_first(both)
     out.loc[olg.index, "fiscal_source"] = "olg_time_series"
+    # grants & contributions (operating + capital) in dollars per resident: how much outside money reached the council
+    # (DRFA reimbursements arrive here), so fiscal pressure can be read gross and net of transfers
+    out["grants_per_capita_aud"] = (out.grants_pct / 100 * out.total_revenue_including_capital_aud
+                                    / out.council_population)
     return out
 
 
@@ -102,8 +106,9 @@ def olg_fiscal():
                           "operating_performance_ratio_pct": "operating_ratio_pct",
                           "asset_maintenance_ratio_pct": "maintenance_ratio_pct",
                           "total_revenue_continuing_ops_aud": "total_revenue_including_capital_aud",
+                          "grants_contributions_revenue_pct": "grants_pct",
                           "population": "council_population"})
-    keep = ["cash_cover_months", "own_source_pct", "operating_ratio_pct", "debt_service_ratio_pct",
+    keep = ["cash_cover_months", "own_source_pct", "grants_pct", "operating_ratio_pct", "debt_service_ratio_pct",
             "debt_service_cover_ratio", "maintenance_ratio_pct", "unrestricted_current_ratio",
             "building_infrastructure_renewals_ratio_pct", "infrastructure_backlog_ratio_pct",
             "total_revenue_including_capital_aud", "council_population", "total_expenses_continuing_ops_aud",
@@ -111,8 +116,17 @@ def olg_fiscal():
             "exp_public_order_health_water_sewer_aud", "exp_environment_aud", "exp_community_services_housing_aud",
             "exp_recreation_culture_aud", "exp_roads_bridges_footpaths_aud", "exp_other_services_aud"]
     o = o.groupby(["key", "year_start"])[[c for c in keep if c in o.columns]].first()
-    # spending mix (share of total expenses): everyday services vs roads & bridges (where reconstruction goes)
-    tot = o.total_expenses_continuing_ops_aud
+    # every NSW council maintains roads: a roads line of exactly 0 is a gap in the OLG file (e.g. Glen Innes Severn
+    # 2023-24, 2024-25; Cobar, Armidale Regional 2021-22), not zero spending
+    o.loc[o.exp_roads_bridges_footpaths_aud == 0, "exp_roads_bridges_footpaths_aud"] = np.nan
+    # spending mix: everyday services vs roads & bridges (where reconstruction goes), as a share of the sum of the
+    # function lines, which is OLG's own "Total Expenditure on ... (%)" definition. Total operating expenses is NOT the
+    # right denominator: the function lines can include capital spending (Gwydir 2023-24: roads $55.3m vs $49.2m
+    # operating expenses; OLG's published roads share is 67.9%)
+    funcs = ["exp_governance_admin_aud", "exp_public_order_health_water_sewer_aud", "exp_environment_aud",
+             "exp_community_services_housing_aud", "exp_recreation_culture_aud", "exp_roads_bridges_footpaths_aud",
+             "exp_other_services_aud"]
+    tot = o[funcs].sum(axis=1, min_count=len(funcs))
     o["service_share_pct"] = 100 * (o.exp_community_services_housing_aud + o.exp_recreation_culture_aud
                                     + o.exp_environment_aud) / tot
     o["roads_share_pct"] = 100 * o.exp_roads_bridges_footpaths_aud / tot

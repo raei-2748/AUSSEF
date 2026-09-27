@@ -19,6 +19,56 @@ A CSV copy of each sheet is also in `out/`. Sanity-check results are in `out/che
 **Missing is never zero.** A blank cell means no data. A zero means the data source was checked and the value really
 is zero; for example, a hotspot count of 0 means DEA was queried and found no detections inside the outline.
 
+## X/Y-labelled workbook for Bowen (`src/xy_format.py`)
+
+`out/nsw_bushfires_2015_2025_XY.xlsx` is the combined workbook with every column labelled. Nothing is dropped; only
+names, order and labels change, and the `variables` sheet maps each new name to the original one.
+
+- Row 1 of each data sheet is a coloured band: **ID**, **Y** (DL / IL / FP / SL), **X** (fire / env / socio / council),
+  **Info**. Row 2 holds the column names (`pd.read_excel(..., header=1)`).
+- Y columns start `DL_`, `IL_`, `FP_`, `SL_`; `*_src_` = raw levels an indicator is built from; `*_reported_` = figures
+  from declarations and inquiries. X columns: `X1`–`X23` (template) and `X_fire_`, `X_env_`, `X_socio_`, `X_council_`.
+- `key_event_council` (declared event × council, 218 rows) carries the Y hierarchy: indicator → percentile rank →
+  pillar DL/IL/FP/SL → composite `Y` (equal weights) → `Y_class` 1 Light / 2 Moderate / 3 Severe / 4 Extreme.
+  The class comes from Y's percentile (50/30/15/5), raised to at least 3 for >=10 homes destroyed or any death and to 4
+  for >=100 homes destroyed. Also written to `out/key_event_council_Y.csv`.
+
+- **`master` sheet** (`out/master_event_council.csv`): one row per declared event × council with every variable,
+  built by `src/master.py`:
+  - the Y hierarchy and key-event columns;
+  - the event's per-fire variables aggregated over its fires in the council (weighted means, max/min, and whole-fire
+    totals × the fire's share inside the council);
+  - every `lga_year` variable in windows: `_pre` (before the fire, X), `_event` and `_plus1` (Y source data).
+    Financial-year columns use the fire FY; 30 June counts and ERP the 30 June before / ending / after it;
+    calendar-year means use the year before the fire year (pre) and the fire year if the fire started January–June,
+    else the next year (event). One-off columns (Census, SEIFA, TRA 2017, REDS 2020) take the latest value dated at
+    or before the fire year, else the earliest after it.
+  - All-blank and exactly duplicated columns are dropped and listed on `removed_columns`.
+- **Sources:** the `variables` sheet gives every column's meaning, unit, source and link (`src/col_sources.py`,
+  `src/col_docs.py`). Per-council home losses and deaths (`*_sourced`) carry title | URL | page | verbatim quote in
+  their `_source` column (`src/dl_council.py`).
+- **Direct loss for Y uses sourced figures only.** `DL_homes_destroyed_in_council` = the per-council figure of
+  `src/dl_council.py`, else a council fact in `key_facts`. The area-share split of whole-fire figures is kept only as
+  the proxy `homes_destroyed_area_share` (it double counts where a source already assigns a fire's losses to one
+  council).
+- **Council-level enrichments** joined in `src/panel_extra.py`: `src/il_sector.py` (CABEE by industry, business
+  entries/exits, Jobs in Australia, insolvencies, PIA, TRA 2017), `src/grp_insurance.py` (BCARR SA4 GRP, REDS 2020 GRP,
+  Census tenure insurance proxy), `src/fp_funding.py` (2019-20 recovery grants by council, OLG maintenance $).
+- **Checks:** `tests/test_master.py` recomputes every window cell, fire aggregate and Y value independently.
+
+```bash
+uv run --no-sync --with openpyxl python -m src.xy_format
+uv run --no-sync --with openpyxl python tests/test_master.py
+```
+
+Audit fixes of 2026-09-27 (an independent cell-by-cell trace against the raw files found them):
+- OLG spending shares are divided by the sum of the spending-by-function lines (OLG's definition), not total operating
+  expenses (Gwydir 2023-24 was 112%). A published $0 roads line is treated as not reported.
+- Rent annual values need all four quarters (suppressed quarters had summed to 0; 2017 had only two quarters).
+- Hotspot counts and the ICA loss proxy are split by the fire's share inside each council before summing.
+- Audit Office council figures keep bushfire-only amounts (flood damage and grants were mixed in).
+- Four facts moved to the right declaration or council (`data/key_events/corrections.csv`, new action `set_agrn`).
+
 ## How to rebuild
 
 Run from the repository root. `uv --with` adds packages for the run without changing the project lock file.
@@ -42,6 +92,8 @@ uv run --no-sync --with rasterio python -m src.vegetation       # X12–X13
 uv run --no-sync --with openpyxl python -m src.economy          # SALM, remoteness X18, Census industry
 uv run --no-sync --with openpyxl python -m src.ica              # DL_insurance_loss_raw
 uv run --no-sync --with openpyxl python -m src.olg              # NSW OLG council finance time series
+../.venv/bin/python -m src.dwellings                           # dwellings_census (ABS Census 2016 G32 / 2021 G36)
+uv run --no-sync --with openpyxl python -m src.rent             # SL_rent_change_* (NSW DCJ Rent and Sales Report)
 uv run --no-sync python checks.py                               # sanity checks -> out/checks.txt
 ../.venv/bin/python tests/test_fire_weather.py                  # formula tests
 ```
@@ -79,6 +131,18 @@ uv run --no-sync python checks.py                               # sanity checks 
 | SL_income_drop_raw | % change in median income, fire FY vs the previous FY | ABS Personal Income in Australia. The latest release ends at FY 2022-23, so fires after June 2023 are blank |
 | DL_insurance_loss_raw | Original insured loss of the ICA catastrophe linked by date | **Catastrophe level**: every linked fire shows the same value, and Black Summer includes QLD/SA/VIC. `DL_insurance_loss_area_share_proxy` splits it by burned area (an assumption, not an ICA figure) |
 | DL_house_loss_raw, FP_reconstruction_gap_raw, FP_budget_crowd_out_raw, SL_vulnerable_loss_raw, IL_GRP_change_raw, X23 | Blank | No public data at fire or council level; the reason is in `dictionary` |
+
+## Added for the Y composition (2026-09-26)
+
+See `docs/y_composition/README.md` for why each column is needed.
+
+| Column | Definition | Choice / caveat |
+|---|---|---|
+| `dwellings_census` | Private dwellings in the council, occupied + unoccupied | ABS Census; 2016 for fires to 2020, 2021 after. The 2016 interim codes of merged councils are recoded (`RECODE_2016` in `src/dwellings.py`) |
+| `DL_homes_destroyed_per_1000_dwellings` (key events) | Homes destroyed in the council ÷ dwellings × 1,000 | Uses a council-specific reported figure if one exists, else whole-fire figures split by burned-area share (`DL_homes_destroyed_basis`) |
+| `SL_rent_change_pct`, `_excess_pct` | Median weekly rent for new bonds, quarter after the fire vs a year earlier | NSW DCJ, Sep 2017 – Jun 2026, so fires from mid-2017. Blank where DCJ suppresses the median (10 or fewer bonds) |
+| `FP_renewals_ratio_change_{event,plus1}_excess` | Building & infrastructure renewals ratio (renewal spending ÷ depreciation), change vs FY before | Capital-side rebuilding. OLG publishes no capital expenditure in dollars |
+| `FP_grants_per_capita_change_{event,plus1}_excess` | Grants & contributions per resident (grants % × total revenue ÷ population) | Transfer intensity (DRFA arrives here): a control, not a loss |
 
 ## Excess-change ("abnormal") Y columns
 

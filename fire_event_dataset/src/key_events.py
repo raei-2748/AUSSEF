@@ -29,7 +29,11 @@ Y_COLS = ["IL_job_loss_raw", "IL_unemployment_rate_change_excess_pp", "IL_busine
           "IL_business_count_change_excess_pct", "SL_income_drop_raw", "SL_income_drop_excess_pct",
           "SL_vulnerable_loss_raw", "SL_vulnerable_loss_excess", "FP_budget_crowd_out_raw",
           "FP_service_share_change_plus1_excess", "FP_debt_ratio_change_raw", "FP_operating_ratio_change_plus1_excess",
-          "FP_cash_cover_change_plus1_excess", "DL_insurance_loss_raw"]
+          "FP_cash_cover_change_plus1_excess", "DL_insurance_loss_raw",
+          # added 2026-09-26 for the Y composition (docs/y_composition/README.md)
+          "IL_total_income_change_excess_pct", "FP_cash_cover_change_event_excess", "FP_roads_share_change_plus1_excess",
+          "FP_renewals_ratio_change_plus1_excess", "FP_grants_per_capita_change_plus1_excess",
+          "SL_rent_change_pct", "SL_rent_change_excess_pct", "dwellings_census"]
 
 
 def load_facts():
@@ -155,6 +159,8 @@ def apply_corrections(f):
                                                                                                          regex=False)
         if c.action == "set_council":
             f.loc[m, "council"] = c.new_value
+        elif c.action == "set_agrn":
+            f.loc[m, "agrn"] = c.new_value
         elif c.action == "set_fact":
             f.loc[m, "fact"] = c.new_value
         elif c.action == "set_source":
@@ -224,6 +230,38 @@ def _summaries(seed):
     return s
 
 
+DL_METRICS = {"homes_destroyed": "DL", "homes_damaged": "DL", "facilities_destroyed": "DL", "facilities_damaged": "DL",
+              "outbuildings_destroyed": "DL", "outbuildings_damaged": "DL", "properties_destroyed": "DL",
+              "properties_damaged": "DL", "fencing_km": "DL", "livestock_lost": "DL", "deaths": "SL",
+              "injuries": "SL"}
+
+
+def dl_council_wide():
+    """Preferred value per (agrn, council, metric) from data/enrich/dl_council.parquet (src/dl_council.py), with its
+    scope and a one-cell source: title | URL | page | quote."""
+    p = DATA / "enrich/dl_council.parquet"
+    cols = ["agrn", "region_id"]
+    if not p.exists():
+        return pd.DataFrame(columns=cols)
+    d = pd.read_parquet(p)
+    d = d[d.preferred].copy()
+    assert not d.duplicated(["agrn", "region_id", "metric"]).any(), "dl_council: more than one preferred value"
+    d["src"] = (d.source_title.fillna("") + " | " + d.url.fillna("") + " | " + d.page_or_section.fillna("").astype(str)
+                + " | \"" + d.quote.fillna("") + "\"")
+    out = None
+    for metric, pillar in DL_METRICS.items():
+        s = d[d.metric == metric].set_index(cols)
+        if s.empty:
+            continue
+        name = f"{pillar}_{metric}_sourced"
+        w = pd.DataFrame({name: s.value, f"{name}_scope": s.scope, f"{name}_source_type": s.source_type,
+                          f"{name}_source": s.src})
+        out = w if out is None else out.join(w, how="outer")
+    out = out.reset_index()
+    out["agrn"], out["region_id"] = out.agrn.astype(str), out.region_id.astype(str)
+    return out
+
+
 def build():
     seed = build_seed()
     fires = pd.read_csv(OUT / "fires.csv", low_memory=False, dtype={"region_id": str})
@@ -249,14 +287,19 @@ def build():
                  largest_fire_total_area_ha=g.X1_burn_area.max(), max_fire_duration_days=g.X4_fire_duration.max(),
                  max_ffdi=g.X2_FFDI.max(), min_spei3=g.X3_SPEI.min(), max_temp_c=g.X7_temp_max.max(),
                  min_rh_pct=g.X8_humidity_min.min(), max_wind_kmh=g.X9_wind_max.max(),
-                 hotspots_n=g.hotspot_count.sum(min_count=1) if "hotspot_count" in g else np.nan,
+                 # hotspot_count is per whole fire: take each fire's share inside this council (2026-09-27 fix)
+                 hotspots_n=(g.hotspot_count * g.region_share_of_fire).sum(min_count=1) if "hotspot_count" in g
+                 else np.nan,
                  severity_high_extreme_share=(np.average(g.X6_severity.dropna(),
                                                          weights=w[g.X6_severity.notna()].clip(lower=1e-9))
                                               if g.X6_severity.notna().any() else np.nan),
                  mean_slope_deg=np.average(g.X11_slope.fillna(0), weights=w.clip(lower=1e-9)),
                  dominant_vegetation=big.X12_vegetation, mean_canopy_pct=big.X13_canopy_cover,
                  road_km_burned=g.X14_road_exposure.sum(),
-                 homes_destroyed_by_these_fires=one.DL_house_loss_raw.sum(min_count=1) if "DL_house_loss_raw" in one else np.nan)
+                 homes_destroyed_by_these_fires=one.DL_house_loss_raw.sum(min_count=1) if "DL_house_loss_raw" in one else np.nan,
+                 # whole-fire figure × share of that fire inside this council (an assumption, like the ICA area share)
+                 homes_destroyed_area_share=((one.DL_house_loss_raw * one.region_share_of_fire).sum(min_count=1)
+                                             if "DL_house_loss_raw" in one else np.nan))
         for c in TEMPLATE_X + Y_COLS:  # council-year context: from the largest fire's row (same council & FY)
             r[c] = big.get(c, np.nan)
         rows.append(r)
@@ -276,6 +319,23 @@ def build():
         piv = hc.pivot_table(index=["agrn", "key"], columns="fact", values="value", aggfunc="first")
         piv.columns = [f"reported_{c}" for c in piv.columns]
         ec = ec.merge(piv.reset_index(), on=["agrn", "key"], how="left").drop(columns="key")
+
+    # DL for Y: homes destroyed in this council per 1,000 private dwellings. A council-specific reported figure is used
+    # when one exists; otherwise the area-share split of whole-fire figures
+    # Sourced figures only (2026-09-27): first the per-council table of src/dl_council.py (one preferred, quote-checked
+    # value per row and metric), then council facts from facts_*.csv. The area-share split of whole-fire figures stays
+    # in homes_destroyed_area_share as a labelled proxy: it double counts when a source already assigns a fire's
+    # losses to one council (e.g. Sir Ivan 2017: RFS puts all 35 homes in Warrumbungle)
+    rep = ec["reported_homes_destroyed"] if "reported_homes_destroyed" in ec else pd.Series(np.nan, index=ec.index)
+    rep = pd.to_numeric(rep, errors="coerce")
+    ec = ec.merge(dl_council_wide(), on=["agrn", "region_id"], how="left")
+    dl = ec["DL_homes_destroyed_sourced"]
+    ec["DL_homes_destroyed_in_council"] = dl.fillna(rep)
+    ec["DL_homes_destroyed_basis"] = np.select(
+        [dl.notna() & (ec.DL_homes_destroyed_sourced_scope == "fire_in_council"), dl.notna(), rep.notna()],
+        ["one fire in the council (lower bound), see DL_homes_destroyed_sourced_source",
+         "council figure, see DL_homes_destroyed_sourced_source", "council report (key_facts)"], "")
+    ec["DL_homes_destroyed_per_1000_dwellings"] = ec.DL_homes_destroyed_in_council / ec.dwellings_census * 1000
 
     # ---- events
     ev = seed.copy()
@@ -314,6 +374,13 @@ def build():
         ("homes_destroyed_by_these_fires", "Sum of official homes-destroyed figures of the fires touching this council "
                                            "(whole-fire figures; a fire spanning councils counts fully in each)"),
         ("also_under_declarations", "Other declarations covering some of the same fires in this council (avoid double counting)"),
+        ("homes_destroyed_area_share", "Whole-fire homes-destroyed figures × each fire's share inside this council "
+                                       "(assumes losses spread like burned area)"),
+        ("DL_homes_destroyed_in_council", "Homes destroyed in this council: council-specific reported figure if any, "
+                                          "else homes_destroyed_area_share (see DL_homes_destroyed_basis)"),
+        ("DL_homes_destroyed_basis", "Which figure DL_homes_destroyed_in_council uses"),
+        ("DL_homes_destroyed_per_1000_dwellings", "DL_homes_destroyed_in_council per 1,000 private dwellings "
+                                                  "(ABS Census, dwellings_census)"),
         ("reported_*", "Headline fact from news/official reports: the whole-event figure (latest official source preferred), "
                        "or the one council's figure when only one council reports it; every value is in `facts`"),
         ("key_facts", "Every verified fact for the event in words: council, value, source, date"),
@@ -321,6 +388,10 @@ def build():
                                             "(see the main dataset's dictionary); _excess = vs councils without a large fire"),
     ], columns=["column", "meaning"])
     src_of = {"agrn": "declaration (declaration_source_url)", "reported_*": "facts sheet: source_url per fact",
+              "homes_destroyed_area_share": "house-loss sources (main dataset house_loss_source) × GA outlines",
+              "DL_homes_destroyed_in_council": "facts sheet, or house-loss sources × GA outlines",
+              "DL_homes_destroyed_basis": "computed",
+              "DL_homes_destroyed_per_1000_dwellings": "as above ÷ ABS Census private dwellings (2016 G32 / 2021 G36)",
               "key_facts": "facts sheet: source_url per fact",
               "X15…X22, IL_*, SL_*, FP_*, DL_*": "main dataset nsw_fire_events_2015_2025.xlsx (dictionary + download_links)"}
     dic["source"] = dic.column.map(src_of).fillna("GA fire outlines and enrichments in the main dataset (see sources sheet)")

@@ -94,8 +94,13 @@ def rows():
         "https://www.dewr.gov.au/download/17069/salm-smoothed-lga-datafiles-asgs-2025-march-quarter-2026/43119/"
         "salm-smoothed-lga-datafiles-asgs-2025-march-quarter-2026/csv", "file")
     for y in (2016, 2021):
-        add("industry shares", f"ABS {y} Census General Community Profile, LGA, NSW",
+        add("industry shares, dwellings_census", f"ABS {y} Census General Community Profile, LGA, NSW",
             f"https://www.abs.gov.au/census/find-census-data/datapacks/download/{y}_GCP_LGA_for_NSW_short-header.zip", "file")
+    for line in (DATA / "rent/urls.txt").read_text().splitlines():
+        fname, url = line.split("\t")
+        add("SL_rent_change_*, rent_* columns", f"NSW DCJ Rent and Sales Report: {fname}", url, "file",
+            "quarterly rents for new bonds by LGA, Sep 2017 – Jun 2026" if "june-2017" not in fname
+            else "June 2017 issue: different layout, kept but not parsed")
     for line in (DATA / "dss/urls.txt").read_text().splitlines():
         fname, url = line.split("\t")
         add("SL_vulnerable_loss_raw", f"DSS Payments by LGA: {fname}", url, "file", "data.gov.au, quarterly 2016–2026")
