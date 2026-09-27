@@ -39,11 +39,7 @@ UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML,
 ICA_TERMS = "ICA: non-commercial use with attribution to the ICA (ICA Data Hub disclaimer)"
 
 # file -> (url, title, publisher, source_type, licence/terms note)
-SOURCES = {
-    "bega_district_news_2018-04-17_tathra_forum.html": (
-        "https://www.begadistrictnews.com.au/story/5348281/tathra-bushfire-insurance-forum-to-update-residents/",
-        "Tathra bushfire insurance forum to update residents", "Bega District News", "news (figure not attributed)",
-        "© publisher; short quote for citation"),
+SOURCES = {  # ACM papers (e.g. Bega District News) removed 2026-09-27: ACM prohibits AI use of its content
     "insurancebusiness_2018-04-19_tathra_ica.html": (
         "https://www.insurancebusinessmag.com/au/news/breaking-news/tathra-bushfire-cleanup-is-making-strong-progress--ica-98231.aspx",
         "Tathra bushfire cleanup is making strong progress - ICA", "Insurance Business Australia", "trade news quoting ICA",
@@ -92,11 +88,6 @@ SOURCES = {
 
 # One row per published figure. `quote` must appear in the saved source (checked); "…" separates checked fragments.
 FACTS = [
-    dict(fid="tathra_2018_bdn", file="bega_district_news_2018-04-17_tathra_forum.html", statement_date="2018-04-17",
-         agrn="NSW1718-20", region_id="10550", geography="Tathra / Reedy Swamp fire (Bega Valley)", geography_type="fire",
-         multi_state=False, insured_loss_aud=30e6, claims=340, loss_basis="insurance bill to date",
-         quote="The current insurance bill from the Tathra bushfire is $30million, with 340 claims lodged.",
-         note="figure not attributed to a named source in the article; no primary ICA copy found"),
     dict(fid="tathra_vic_2018_ib", file="insurancebusiness_2018-04-19_tathra_ica.html", statement_date="2018-04-19",
          agrn="NSW1718-20", region_id="", geography="Tathra (NSW) and south-west Victoria fires, 17-18 March 2018 combined",
          geography_type="multi-state event", multi_state=True, insured_loss_aud=45e6, claims=1050,

@@ -624,6 +624,11 @@ def main():
     cd = col_docs.lookup()
     ECON_COLS = [c for c in pd.read_parquet(_EN / "econ_quarterly_events.parquet").columns if econ_doc(c)]
     insured = pd.read_parquet(_EN / "insured_loss.parquet")
+    from src.common import HUMAN_ONLY_SOURCES as _ACM  # ACM links never reach the workbook (see src/common.py)
+    insured = insured[~insured.astype(str).apply(lambda r: r.str.contains(_ACM).any(), axis=1)]
+    for _s in ("key_sources", "download_links", "data_sources", "key_facts"):
+        _d = book[_s]
+        book[_s] = _d[~_d.astype(str).apply(lambda r: r.str.contains(_ACM).any(), axis=1)]
     for name, panel in [("master", False), ("key_events", False), ("all_fires", False), ("lga_year", True)]:
         d = mst if name == "master" else book[name]
         out, t = relabel(d, panel)
