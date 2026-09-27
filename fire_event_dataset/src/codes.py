@@ -1,9 +1,8 @@
-"""Short codes for the master sheet: Y1, Y2 … (impact variables, by pillar) and X1, X2 … (predictors, by category).
+"""Short codes for the master sheet: Y1, Y2 … (impact measures) and X1, X2 … (predictors).
 
-- Bowen's template codes keep their meaning: X1-X23 go to his variables (or their event × council equivalents, e.g.
-  X1 burn area = burned area inside this council), and his DL/IL/FP/SL raw columns come first in each Y pillar.
-- Our extra X variables are numbered from X24, category by category (fire, terrain, people & economy, council) and
-  topic by topic; Y variables from Y1, pillar by pillar (DL, IL, FP, SL) and topic by topic.
+- One sequence each, grouped: Y pillar by pillar (DL, IL, FP, SL), X category by category (fire, terrain, people &
+  economy, council), topic by topic inside. Bowen's template variables (X1-X23, DL/IL/FP/SL raw) were examples: they
+  are numbered like the rest, first in their topic, and marked in the codebook column bowen_template.
 - Codes are frozen in codes/master_codes.csv: a variable keeps its code across rebuilds; a new variable gets the next
   free number (so it may sit out of numeric order inside its category); a variable that disappears keeps its code
   reserved. Y targets and the Y hierarchy (Y, Y_class, pillar scores, ranks), IDs and info columns are not coded.
@@ -16,7 +15,7 @@ from src.common import ROOT
 
 CODE_FILE = ROOT / "codes/master_codes.csv"
 
-# Bowen's template variable -> its column in the master sheet (event × council level)
+# Bowen's example variable -> its column in the master sheet (event × council level); for the bowen_template column
 BOWEN_X = {
     "X1": ("X1_burn_area", "X_fire_burn_area_in_council_ha", "burned area inside this council"),
     "X2": ("X2_FFDI", "X_fire_max_ffdi", "highest FFDI of the event's fires in this council"),
@@ -32,16 +31,16 @@ BOWEN_X = {
     "X12": ("X12_vegetation", "X_env_dominant_vegetation", "vegetation group of the largest fire"),
     "X13": ("X13_canopy_cover", "X_env_mean_canopy_pct", "canopy cover of the largest fire"),
     "X14": ("X14_road_exposure", "X_env_road_km_burned", "road km inside these fires"),
-    "X15": ("X15_pop_density", "X15_pop_density", ""),
-    "X16": ("X16_regional_GDP", "X16_grp_sa4_proxy_aud_m", "proxy: SA4 GRP × population share (no council GRP "
+    "X15": ("X15_pop_density", "X_socio_pop_density", ""),
+    "X16": ("X16_regional_GDP", "X_socio_grp_sa4_proxy_aud_m", "proxy: SA4 GRP × population share (no council GRP "
                                                            "is public)"),
-    "X17": ("X17_SEIFA", "X17_SEIFA", ""),
-    "X18": ("X18_remoteness", "X18_remoteness", ""),
-    "X19": ("X19_cash_reserve", "X19_cash_reserve", ""),
-    "X20": ("X20_own_source_revenue_ratio", "X20_own_source_revenue_ratio", ""),
-    "X21": ("X21_debt_burden", "X21_debt_burden", ""),
-    "X22": ("X22_historical_disaster_count", "X22_historical_disaster_count", ""),
-    "X23": ("X23_insurance_coverage", "X23_insurance_proxy_share", "proxy: share of dwellings mortgaged or flats (no "
+    "X17": ("X17_SEIFA", "X_socio_SEIFA", ""),
+    "X18": ("X18_remoteness", "X_socio_remoteness", ""),
+    "X19": ("X19_cash_reserve", "X_council_cash_reserve", ""),
+    "X20": ("X20_own_source_revenue_ratio", "X_council_own_source_revenue_ratio", ""),
+    "X21": ("X21_debt_burden", "X_council_debt_burden", ""),
+    "X22": ("X22_historical_disaster_count", "X_council_historical_disaster_count", ""),
+    "X23": ("X23_insurance_coverage", "X_council_insurance_proxy_share", "proxy: share of dwellings mortgaged or flats (no "
                                                                    "insured share is public)"),
 }
 BOWEN_Y = {"DL_insurance_loss_raw": "DL_insurance_loss_raw", "DL_homes_destroyed_in_council": "DL_house_loss_raw",
@@ -119,19 +118,16 @@ def assign(table, is_hierarchy):
         # pillar / category, then topic; Bowen's template variable heads its topic
         if r == "Y":
             return (0, Y_PILLARS.index(g), topic_rank(t.topic[i], g), 0 if c in BOWEN_Y else 1, i)
-        bowen = int(bowen_x[c][1:]) if c in bowen_x else 999
-        return (1, X_CATEGORIES.index(g), topic_rank(t.topic[i], g), bowen, i)
+        return (1, X_CATEGORIES.index(g), topic_rank(t.topic[i], g), 0 if c in bowen_x else 1, i)
 
     rows = sorted([i for i in t.index if codable[i]], key=order_key)
-    nxt = {"X": max([int(c[1:]) for c in used if c.startswith("X")] + [23]) + 1,
+    nxt = {"X": max([int(c[1:]) for c in used if c.startswith("X")] + [0]) + 1,
            "Y": max([int(c[1:]) for c in used if c.startswith("Y")] + [0]) + 1}
     codes = {}
     for i in rows:
         key = t.original_column[i]
         if key in known:
             codes[i] = known[key]
-        elif t.column[i] in bowen_x:
-            codes[i] = bowen_x[t.column[i]]
         else:
             p = t.role[i][0]
             codes[i] = f"{p}{nxt[p]}"

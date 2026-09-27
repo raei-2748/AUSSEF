@@ -18,8 +18,15 @@ from src.xy_format import CLASS_CUTS, MIN_PILLARS, PILLARS  # noqa: E402
 
 OUT = ROOT / "out"
 m = pd.read_csv(OUT / "master_event_council.csv", low_memory=False, dtype={"region_id": str, "agrn": str})
-var = pd.read_csv(OUT / "master_variables.csv")
-var = var[var.sheet == "master"].set_index("column")
+master_cols = list(m.columns)
+for d in ("post_fire_levels", "business_detail"):  # same rows, split off the master; checked together
+    x = pd.read_csv(OUT / f"master_{d}.csv", low_memory=False, dtype={"region_id": str, "agrn": str})
+    assert (x.agrn.values == m.agrn.values).all() and (x.region_id.values == m.region_id.values).all(), d
+    m = pd.concat([m, x.drop(columns=[c for c in x.columns if c in m.columns])], axis=1)
+var_all = pd.read_csv(OUT / "master_variables.csv")
+var_m = var_all[var_all.sheet == "master"]
+var = pd.concat([var_m, var_all[var_all.sheet.isin(["post_fire_levels", "business_detail"]) & (var_all.role != "ID")]])
+var = var.set_index("column")
 fails = []
 
 
@@ -32,7 +39,15 @@ def check(ok, msg):
 check(len(m) == 218, f"rows {len(m)}")
 check(not m.duplicated(["agrn", "region_id"]).any(), "duplicate agrn × region_id")
 check(m.columns.is_unique, "duplicate columns")
-check(set(m.columns) == set(var.index), "variables sheet does not list exactly the master columns")
+check(set(m.columns) == set(var.index), "codebook does not list exactly the master + detail columns")
+check(var_m.code.fillna("").ne("").sum() == var_m.role.isin(["X", "Y"]).sum() - var_m.column.isin(
+    ["Y_class", "Y_class_label", "Y", "Y_norm", "Y_class_reason", "Y_class_from_Y", "Y_class_excl_responder_deaths",
+     "Y_pillars_n", "DL", "IL", "FP", "SL"]).sum() - var_m.column.str.contains("_rank_").sum(),
+      "every master X / Y predictor or impact column has a code")
+codes_ = var_m.code.dropna()
+for p_ in ("X", "Y"):
+    n = sorted(int(c[1:]) for c in codes_ if c.startswith(p_))
+    check(n == list(range(1, len(n) + 1)), f"{p_} codes are not 1..n")
 check(var.source.notna().all(), "columns without a source")
 check(var.role.isin(["ID", "X", "Y", "Info"]).all(), "unexpected role")
 

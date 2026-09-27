@@ -22,7 +22,8 @@ SRC = OUT / "nsw_bushfires_2015_2025_combined.xlsx"
 DEST = OUT / "nsw_bushfires_2015_2025_XY.xlsx"
 Y_CSV = OUT / "key_event_council_Y.csv"
 MASTER_CSV = OUT / "master_event_council.csv"
-MASTER_CODED_CSV = OUT / "master_event_council_coded.csv"  # same table, codes (Y1…, X1…) as column names
+MASTER_CODED_CSV = OUT / "master_event_council_coded.csv"
+DETAIL_SHEETS = ("master", "post_fire_levels", "business_detail")  # the same 218 event × council rows  # same table, codes (Y1…, X1…) as column names
 
 # ---------------------------------------------------------------- column roles
 GROUPS = {  # group -> (role, band label, fill colour)
@@ -154,11 +155,11 @@ INDICATORS = [
 PILLARS = ["DL", "IL", "FP", "SL"]
 Y_INPUTS = {c for _, _, _, cols in INDICATORS for c in cols} | {"DL_homes_destroyed_in_council", "SL_deaths_sourced",
                                                                  "reported_deaths"}
-Y_HEAD = ["Y_class", "Y_class_label", "Y", "Y_norm", "Y_FFDI", "Y_class_reason", "Y_class_from_Y",
+Y_HEAD = ["Y_class", "Y_class_label", "Y", "Y_norm", "Y_class_reason", "Y_class_from_Y",
           "Y_class_excl_responder_deaths", "Y_pillars_n",
           *PILLARS]
 # Bowen's three ways of measuring Y (2026-09-27): each is a separate target; see role_if_Y_* on the variables sheet
-Y_OPTIONS = {"class": ["Y_class", "Y_class_label"], "sum": ["Y", "Y_norm"], "FFDI": ["Y_FFDI"]}
+Y_OPTIONS = {"class": ["Y_class", "Y_class_label"], "sum": ["Y", "Y_norm"]}  # FFDI as Y set aside (Ray, 2026-09-27)
 FFDI_INPUTS = ("temp", "humid", "rh_pct", "wind", "drought_factor", "kbdi", "rain_during")  # FFDI is computed from these
 MIN_PILLARS = 2
 CLASS_CUTS = [0.50, 0.80, 0.95]  # Y percentile: below 50% -> 1, 50-80 -> 2, 80-95 -> 3, top 5% -> 4
@@ -200,7 +201,6 @@ def build_y(k):
     k["Y_class_excl_responder_deaths"] = floor_class(base, homes, deaths - k["SL_deaths_responders"].fillna(0))
     k["Y_class_label"] = k["Y_class"].map(CLASS_LABEL)
     k["Y_norm"] = (k.Y - k.Y.min()) / (k.Y.max() - k.Y.min())  # the pillar sum, rescaled to 0 (lowest) - 1 (highest)
-    k["Y_FFDI"] = k["max_ffdi"]  # Bowen's option 3: highest FFDI of the event's fires in this council
     k["Y_class_reason"] = np.where(
         k["Y_class"].isna(), f"fewer than {MIN_PILLARS} pillars with data",
         np.where(k["Y_class"] > k["Y_class_from_Y"].fillna(0),
@@ -294,7 +294,7 @@ def relabel(d, panel=False):
 SEVERITY_FILL = {1: "C6EFCE", 2: "FFEB9C", 3: "F8CBAD", 4: "FF7C80"}  # Light green, Moderate yellow, Severe orange,
 # Extreme red
 CLASS_COLS = ["Y_class", "Y_class_from_Y", "Y_class_excl_responder_deaths", "Y_class_label"]
-SCALE_COLS = ["Y", "Y_norm", "Y_FFDI", *PILLARS]  # green (low) -> yellow -> red (high)
+SCALE_COLS = ["Y", "Y_norm", *PILLARS]  # green (low) -> yellow -> red (high)
 
 
 def compact(ws, d, header_row=1, text_max=24, wide=None):
@@ -603,8 +603,6 @@ def main():
         "Y_class_reason": ("Why the class is what it is", ""),
         "Y_norm": ("Y option 2: Y (the equal-weight mean of the 2-4 pillar scores a row has; equals their sum ÷ 4 when "
                    "all four exist) rescaled min-max so the lowest row is 0 and the highest 1", "0-1"),
-        "Y_FFDI": ("Y option 3: highest daily McArthur FFDI during any of the event's fires in this council (reanalysis "
-                   "weather; same value as X_fire_max_ffdi, which is then not a predictor)", "FFDI"),
         **ind,
         **{c: v[:2] for c, v in panel_extra.EVENT_DOCS.items()}}
     src_of = {c: v[2] for c, v in panel_extra.EVENT_DOCS.items()}
@@ -683,7 +681,31 @@ def main():
         sheets[name], tables = (out, t), tables + [t]
     from src import codes
     out, t = sheets["master"]
-    t = codes.assign(t.reset_index(drop=True), lambda c: c in Y_HEAD or "_rank_" in c)
+    t = t.reset_index(drop=True)
+    # Bowen's X1-X23 were examples: on the master they get plain names, so no name carries a number that differs from
+    # its code (all_fires keeps his template names)
+    plain = {c: re.sub(r"^X\d+_", f"X_{g}_", c) for c, g in zip(t.column, t.group) if re.match(r"^X\d+_", c)}
+    plain = {c: n.replace("X_socio_grp_base_fy", "info_grp_base_fy") for c, n in plain.items()}
+    assert not set(plain.values()) & set(t.column), "plain name collides with an existing column"
+    t["column"] = t.column.replace(plain)
+    t.loc[t.column == "info_grp_base_fy", ["group", "role"]] = ["info", "Info"]
+    out = out.rename(columns=plain)
+    # detail sheets: raw post-fire council levels (_src_ windows; raw material for new Y measures) and the business
+    # counts by size / turnover band; the master keeps the impact measures and the per-industry business totals
+    t["topic_"] = [codes.topic(c, g) for c, g in zip(t.column, t.group)]
+    post = (t.role == "Y") & t.column.str.contains("_src_")
+    band = (t.role == "X") & t.topic_.isin(["Business counts", "Business entries & exits"]) & t.column.str.contains(
+        r"_(emp_|to_|nonemp|employing)")
+    ids = t.role == "ID"
+    detail = {}
+    for dname, mask in [("post_fire_levels", post), ("business_detail", band)]:
+        td = t[ids | mask].drop(columns="topic_").reset_index(drop=True)
+        td["sheet"], td["code"], td["topic"], td["bowen_template"] = dname, "", [
+            codes.topic(c, g) if r != "ID" else "" for c, g, r in zip(td.column, td.group, td.role)], ""
+        detail[dname] = (out[td.column.tolist()], td)
+    keep = ~(post | band)
+    t, out = t[keep].drop(columns="topic_").reset_index(drop=True), out[t.column[keep].tolist()]
+    t = codes.assign(t, lambda c: c in Y_HEAD or "_rank_" in c)
 
     def final_key(i):
         if t.role[i] == "ID":
@@ -697,6 +719,10 @@ def main():
     out = out[t.column.tolist()]
     sheets["master"] = (out, t)
     tables[0] = t
+    for dname, (dout, dt) in detail.items():
+        sheets[dname] = (dout, dt)
+        tables.insert(1, dt)
+        dout.to_csv(OUT / f"master_{dname}.csv", index=False)
     out.to_csv(MASTER_CSV, index=False)  # labelled names, as in the workbook
     out.set_axis([c or n for c, n in zip(t.code, t.column)], axis=1).to_csv(MASTER_CODED_CSV, index=False)
     variables = pd.concat(tables, ignore_index=True)[
@@ -704,7 +730,7 @@ def main():
          "unit", "source", "source_url", "link_note", "note", "coverage_pct"]]
 
     for opt in Y_OPTIONS:
-        variables[f"role_if_Y_{opt}"] = [option_role(c, r, opt, oc) if sh == "master" else ""
+        variables[f"role_if_Y_{opt}"] = [option_role(c, r, opt, oc) if sh in DETAIL_SHEETS else ""
                                          for sh, c, r, oc in zip(variables.sheet, variables.column, variables.role,
                                                                  variables.original_column)]
     variables.to_csv(OUT / "master_variables.csv", index=False)
@@ -720,10 +746,9 @@ def main():
         "The combined NSW bushfire workbook reformatted for Bowen: every column labelled X or Y. Same data, "
         "nothing dropped; only column names, column order and labels changed (see variables for old names).",
         "Recommended: sum the four pillars (DL+IL+FP+SL) -> normalise (Y, Y_norm 0-1) -> grade (Y_class 1-4).",
-        "Option 1: Y_class, the 1-4 grade. Option 2: Y / Y_norm, the continuous pillar sum. Option 3 (the easy way): "
-        "Y_FFDI, the highest fire danger index of the event's fires in the council.",
-        "Which columns may be predictors depends on the option: see role_if_Y_class / role_if_Y_sum / role_if_Y_FFDI "
-        "on the codebook sheet (e.g. with Y_FFDI, the weather columns FFDI is computed from are not predictors).",
+        "Option 1: Y_class, the 1-4 grade. Option 2: Y / Y_norm, the continuous pillar sum. Bowen's third option (FFDI "
+        "itself as Y) is set aside for now: FFDI measures fire weather, not impact; it stays a predictor.",
+        "Predictor roles for each option: role_if_Y_class / role_if_Y_sum on the codebook sheet.",
         "The band row on each data sheet shows the default roles (options 1 and 2).",
         "Codes on the master: row 1 = group and topic, row 2 = code, row 3 = name. Y1, Y2 … are impact variables by "
         "pillar (DL, then IL, FP, SL); X1-X23 are Bowen's template variables (or their event × council equivalents, "
@@ -731,7 +756,7 @@ def main():
         "economy, council). Codes are frozen in codes/master_codes.csv; master_event_council_coded.csv has codes as "
         "column names.",
         "Colours on the master sheet: Y_class 1 Light = green, 2 Moderate = yellow, 3 Severe = orange, 4 Extreme = red; "
-        "Y, Y_norm, Y_FFDI and the pillars DL / IL / FP / SL are shaded green (low) to red (high).",
+        "Y, Y_norm and the pillars DL / IL / FP / SL are shaded green (low) to red (high).",
         "Row 1 of each data sheet is a coloured band: ID, Y (DL / IL / FP / SL), X (fire / env / socio / council), "
         "Info. Row 2 holds the column names; data start on row 3.",
         "Y columns start with DL_, IL_, FP_ or SL_. DL_src_ / IL_src_ / FP_src_ / SL_src_ = raw levels an indicator "
@@ -761,7 +786,7 @@ def main():
         "others calendar years. Census / one-off columns are taken once, for the fire's year.",
         "Every column's code, meaning, unit and source are on the codebook sheet; download links on download_links.",
         "Blank means no data; 0 means the source was checked and the value is zero.",
-        "README, master, codebook, removed_columns, insured_loss_reported (every published insured-loss figure, with quote; none is by council), indicators, key_events, all_fires, lga_year, key_facts, key_sources, "
+        "README, master, codebook, post_fire_levels (raw council figures in the fire year and the year after), business_detail (business counts by size and turnover band), removed_columns, insured_loss_reported (every published insured-loss figure, with quote; none is by council), indicators, key_events, all_fires, lga_year, key_facts, key_sources, "
         "download_links, data_sources"]})
 
     with pd.ExcelWriter(DEST, engine="openpyxl") as w:
@@ -774,8 +799,7 @@ def main():
         variables.to_excel(w, sheet_name="codebook", index=False)
         compact(w.sheets["codebook"], variables, wide={"column": 40, "bowen_template": 40, "topic": 24, "meaning": 70, "source": 45, "source_url": 40,
                                                         "note": 40, "original_column": 34, "group_label": 26,
-                                                        "role_if_Y_class": 22, "role_if_Y_sum": 22,
-                                                        "role_if_Y_FFDI": 22})
+                                                        "role_if_Y_class": 22, "role_if_Y_sum": 22})
         w.sheets["codebook"].freeze_panes = "D2"
         for name_, frame in [("insured_loss_reported", insured), ("removed_columns", removed)]:
             frame.to_excel(w, sheet_name=name_, index=False)
@@ -790,7 +814,7 @@ def main():
         for i, v in enumerate(counts["Y_class"], start=len(ind_tab) + 5):  # colour the class counts too
             ws_i.cell(row=i, column=1).fill = PatternFill("solid", fgColor=SEVERITY_FILL[int(v)])
             ws_i.cell(row=i, column=2).fill = PatternFill("solid", fgColor=SEVERITY_FILL[int(v)])
-        for name in ["key_events", "all_fires", "lga_year"]:
+        for name in ["post_fire_levels", "business_detail", "key_events", "all_fires", "lga_year"]:
             out, t = sheets[name]
             write_sheet(w, name, out, t)
         for name in ["key_facts", "key_sources", "download_links", "data_sources"]:

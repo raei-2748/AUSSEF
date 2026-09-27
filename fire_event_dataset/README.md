@@ -52,12 +52,17 @@ names, order and labels change, and the `variables` sheet maps each new name to 
   yellow / orange / red; Y, Y_norm, Y_FFDI and the pillars shaded green to red). Column names are shortened with fixed
   abbreviations (`NEAT` in `src/xy_format.py`, e.g. `biz_` = CABEE businesses, `A_agri`, `_pre/_event/_plus1`); Bowen's
   template names are kept exactly, and the `variables` sheet keeps each column's original name.
-- **Codes (master sheet):** row 1 = group · topic, row 2 = code, row 3 = name. Y1–Y747 are the impact variables by
-  pillar (DL Y1–21, IL Y22–636, FP Y637–720, SL Y721–747) and topic; X1–X23 are Bowen's template variables or their
-  event × council equivalents (column `bowen_template` on the codebook), X24–X461 our extra predictors by category
-  (fire, terrain, people & economy, council) and topic. The Y targets and Y hierarchy keep their names. Codes are
-  frozen in `codes/master_codes.csv` (`src/codes.py`): existing codes never change, new variables get the next free
-  number. `out/master_event_council_coded.csv` uses the codes as column names.
+- **Codes (master sheet):** row 1 = group · topic, row 2 = code, row 3 = name. Y1–Y69 are the impact measures by
+  pillar (DL, IL, FP, SL) and topic; X1–X226 the predictors by category (fire, terrain, people & economy, council) and
+  topic; each topic is one run of codes. Bowen's template variables were examples: they are numbered like the rest
+  (first in their topic) and marked in the codebook column `bowen_template`; on the master their names drop the
+  template number (e.g. `X17_SEIFA` -> `X_socio_SEIFA`). The Y targets (`Y_class`, `Y`, `Y_norm`) and the Y hierarchy
+  keep their names; FFDI as Y is set aside (FFDI stays a predictor). Codes are frozen in `codes/master_codes.csv`
+  (`src/codes.py`): existing codes never change, new variables get the next free number.
+  `out/master_event_council_coded.csv` uses the codes as column names.
+- **Detail sheets (same 218 rows):** `post_fire_levels` = the raw council figures in the fire year and the year after
+  (raw material for new impact measures; `out/master_post_fire_levels.csv`); `business_detail` = pre-fire business
+  counts by size and turnover band (`out/master_business_detail.csv`). The master keeps the per-industry totals.
 - **Sources:** the `codebook` sheet (formerly `variables`) gives every column's code, topic, meaning, unit, source and link (`src/col_sources.py`,
   `src/col_docs.py`). Per-council home losses and deaths (`*_sourced`) carry title | URL | page | verbatim quote in
   their `_source` column (`src/dl_council.py`).
