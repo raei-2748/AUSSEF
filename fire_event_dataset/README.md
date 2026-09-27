@@ -70,9 +70,9 @@ names, order and labels change, and the `variables` sheet maps each new name to 
 - **Direct losses and deaths** come from `src/dl_council.py`: round 1 facts in the module, round 2 (2026-09-27) in
   `data/key_events/dl_facts_round2.csv`, every quote checked. Zeros need a source saying so; `season_zero` rows use an
   official season total that the listed rows fully account for. Who died: `data/key_events/death_types.csv`.
-- **ACM papers need a person:** Australian Community Media prohibits using its content for AI purposes, so facts from
-  ACM papers are dropped by the build unless a person has checked them (`HUMAN_ONLY_SOURCES` in `src/common.py`;
-  checklist `out/checks/human_check_acm.xlsx`). ABC is used (its robots.txt blocks AI crawlers only).
+- **ACM papers are not used:** Australian Community Media prohibits using its content for AI purposes, so facts and
+  event summaries from ACM papers were removed (2026-09-27) and the build drops any that reappear
+  (`HUMAN_ONLY_SOURCES` in `src/common.py`). ABC is used (its robots.txt blocks AI crawlers only).
 - **Sources:** the `codebook` sheet (formerly `variables`) gives every column's code, topic, meaning, unit, source and link (`src/col_sources.py`,
   `src/col_docs.py`). Per-council home losses and deaths (`*_sourced`) carry title | URL | page | verbatim quote in
   their `_source` column (`src/dl_council.py`).

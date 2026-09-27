@@ -36,12 +36,12 @@ def record_source(name, path_or_url, local_path=None, licence="", note=""):
                     dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), licence, note])
 
 
-# Publishers that forbid AI use of their content: Australian Community Media's policy (top of each paper's robots.txt,
-# checked 2026-09-27) "expressly prohibits the use of any ACM content ... for any ... artificial intelligence purposes,
-# including the ... operation of AI technologies, tools". Facts from ACM papers are kept only when a person has read
-# the article (quote_check / check_note says "checked by a person"); otherwise the build drops them.
-# Checklist: out/checks/human_check_acm.xlsx. (ABC's robots.txt only blocks AI *crawlers* - ClaudeBot, Claude-Web,
-# anthropic-ai - not user-directed retrieval, and states no other AI restriction, so ABC facts are kept.)
+# Australian Community Media (ACM) papers are NOT used: ACM's policy (top of each paper's robots.txt, checked
+# 2026-09-27) "expressly prohibits the use of any ACM content ... for any ... artificial intelligence purposes, including
+# the ... operation of AI technologies, tools". Their facts and summaries were removed on 2026-09-27; this pattern stays
+# as a guard, so any ACM-sourced fact that reappears is dropped by the build unless a person checked it ("checked by a
+# person" in quote_check / check_note). ABC is used: its robots.txt blocks AI crawlers only (ClaudeBot, Claude-Web,
+# anthropic-ai), not user-directed retrieval.
 HUMAN_ONLY_SOURCES = (r"macleayargus|centralwesterndaily|newcastleherald|northerndailyleader|mudgeeguardian|"
                       r"begadistrictnews|tenterfieldstar|cessnockadvertiser|portstephensexaminer|goulburnpost|"
                       r"canberratimes|theland\.com|southcoastregister|portnews|greatlakesadvocate|singletonargus")
