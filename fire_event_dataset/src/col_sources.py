@@ -46,6 +46,8 @@ def rules():
         (r"^(info_|fire_names|also_under|summary|key_facts|key_sources|links_removed|towns_affected|"
          r"real_agrn|official_name_if|main_fires|linked_fires|councils$|source$|declaration_source_url)",
          "provenance / notes (see key_sources, data_sources)", ""),
+        (r"^SL_deaths_(type|responders)", "data/key_events/death_types.csv: each row's basis (source and quote) is in "
+                                          "SL_deaths_type_basis", ""),
         (r"_sourced", "per-council facts collected 2026-09-27 (src/dl_council.py): each value's title, URL, page and "
                       "verbatim quote are in the matching _source column", ""),
         (r"(pop_in_fire|pop_within|dwellings_in_fire|dwellings_within|pop_census_year|^census_year$)",

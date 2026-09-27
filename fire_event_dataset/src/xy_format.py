@@ -150,7 +150,8 @@ INDICATORS = [
 PILLARS = ["DL", "IL", "FP", "SL"]
 Y_INPUTS = {c for _, _, _, cols in INDICATORS for c in cols} | {"DL_homes_destroyed_in_council", "SL_deaths_sourced",
                                                                  "reported_deaths"}
-Y_HEAD = ["Y_class", "Y_class_label", "Y", "Y_norm", "Y_FFDI", "Y_class_reason", "Y_class_from_Y", "Y_pillars_n",
+Y_HEAD = ["Y_class", "Y_class_label", "Y", "Y_norm", "Y_FFDI", "Y_class_reason", "Y_class_from_Y",
+          "Y_class_excl_responder_deaths", "Y_pillars_n",
           *PILLARS]
 # Bowen's three ways of measuring Y (2026-09-27): each is a separate target; see role_if_Y_* on the variables sheet
 Y_OPTIONS = {"class": ["Y_class", "Y_class_label"], "sum": ["Y", "Y_norm"], "FFDI": ["Y_FFDI"]}
@@ -158,6 +159,19 @@ FFDI_INPUTS = ("temp", "humid", "rh_pct", "wind", "drought_factor", "kbdi", "rai
 MIN_PILLARS = 2
 CLASS_CUTS = [0.50, 0.80, 0.95]  # Y percentile: below 50% -> 1, 50-80 -> 2, 80-95 -> 3, top 5% -> 4
 CLASS_LABEL = {1: "Light", 2: "Moderate", 3: "Severe", 4: "Extreme"}
+
+
+def floor_class(base, homes, deaths):
+    """Direct-loss floor on the class from Y, so a catastrophic loss is not averaged away:
+    >=100 homes destroyed -> 4; >=10 homes or >=2 deaths -> at least 3; exactly one death -> one level up, at most 3.
+    Deaths count everyone the fire killed in the council, residents and responders alike (as EM-DAT and the Sendai
+    mortality indicator do); see Y_class_excl_responder_deaths for the class without firefighter / aircrew deaths."""
+    out = base.copy()
+    one = (deaths >= 1) & (deaths < 2)
+    out = out.where(~one, np.fmin(np.fmax(out, out + 1), np.fmax(out, 3)))
+    out = out.where(~((homes >= 10) | (deaths >= 2)), np.fmax(out, 3))
+    out = out.where(~(homes >= 100), 4)
+    return out.where(base.notna())
 
 
 def build_y(k):
@@ -176,17 +190,19 @@ def build_y(k):
                      index=k.index).where(k["Y"].notna())
     homes = k["DL_homes_destroyed_in_council"]
     deaths = k["SL_deaths_sourced"].fillna(k["reported_deaths"]) if "SL_deaths_sourced" in k else k["reported_deaths"]
-    floor = pd.Series(np.select([homes >= 100, (homes >= 10) | (deaths >= 1)], [4, 3], 0), index=k.index)
     k["Y_class_from_Y"] = base
-    k["Y_class"] = np.fmax(base, floor.where(floor > 0))
+    k["Y_class"] = floor_class(base, homes, deaths)
+    # sensitivity: the same rule counting only deaths that were not firefighters / aircrew
+    k["Y_class_excl_responder_deaths"] = floor_class(base, homes, deaths - k["SL_deaths_responders"].fillna(0))
     k["Y_class_label"] = k["Y_class"].map(CLASS_LABEL)
     k["Y_norm"] = (k.Y - k.Y.min()) / (k.Y.max() - k.Y.min())  # the pillar sum, rescaled to 0 (lowest) - 1 (highest)
     k["Y_FFDI"] = k["max_ffdi"]  # Bowen's option 3: highest FFDI of the event's fires in this council
     k["Y_class_reason"] = np.where(
         k["Y_class"].isna(), f"fewer than {MIN_PILLARS} pillars with data",
         np.where(k["Y_class"] > k["Y_class_from_Y"].fillna(0),
-                 np.where(homes >= 100, "raised: >=100 homes destroyed",
-                          np.where(homes >= 10, "raised: >=10 homes destroyed", "raised: death reported")),
+                 np.select([homes >= 100, homes >= 10, deaths >= 2],
+                           ["raised: >=100 homes destroyed", "raised: >=10 homes destroyed", "raised: >=2 deaths"],
+                           "raised one level: one death"),
                  "from composite Y"))
     return k
 
@@ -318,6 +334,10 @@ KEY_DOCS = {  # original column -> (meaning, unit) where the inherited dictionar
     **{f"FP_own_source_revenue_change_{w}_pct": (f"Council own-source revenue (total revenue × own-source share), {lab} "
                                                  "vs the FY before the fire", "%")
        for w, lab in [("event", "fire FY"), ("plus1", "FY after")]},
+    "SL_deaths_type": ("Who died: resident, civilian (not stated as resident), responder (firefighter / aircrew), "
+                       "unknown", "text"),
+    "SL_deaths_responders": ("Deaths of firefighters / aircrew among SL_deaths_sourced", "persons"),
+    "SL_deaths_type_basis": ("Source and quote behind SL_deaths_type (data/key_events/death_types.csv)", "text"),
     "reported_power_customers_without_supply": ("Power customers without supply, reported in the facts (key_facts)",
                                                 "customers"),
 }
@@ -436,7 +456,9 @@ def main():
         "Y": ("Composite impact: equal-weight mean of the available pillar scores (DL, IL, FP, SL)", "0-1"),
         "Y_pillars_n": ("Pillars with data behind Y", "count"),
         "Y_class_from_Y": ("Class from Y's percentile alone: <50% 1, 50-80% 2, 80-95% 3, top 5% 4", "1-4"),
-        "Y_class": ("Final severity class: Y class raised to the direct-loss floor", "1-4"),
+        "Y_class": ("Final severity class: Y class raised to the direct-loss floor (see README)", "1-4"),
+        "Y_class_excl_responder_deaths": ("Sensitivity: Y_class with firefighter / aircrew deaths left out of the "
+                                          "floor", "1-4"),
         "Y_class_label": ("1 Light, 2 Moderate, 3 Severe, 4 Extreme", ""),
         "Y_class_reason": ("Why the class is what it is", ""),
         "Y_norm": ("Y option 2: Y (the equal-weight mean of the 2-4 pillar scores a row has; equals their sum ÷ 4 when "
@@ -559,8 +581,9 @@ def main():
         "Level 4: composite Y = equal-weight mean of the pillars with data (at least 2 needed). Higher = worse.",
         "Deaths and reported losses are not averaged in (too few rows); they set the class floor below.",
         "1 Light, 2 Moderate, 3 Severe, 4 Extreme. From Y: bottom 50% -> 1, next 30% -> 2, next 15% -> 3, top 5% -> 4.",
-        "Floor so one catastrophic pillar is not averaged away: >=10 homes destroyed in the council (sourced figures only) or any death "
-        "-> at least 3; >=100 homes destroyed -> 4.",
+        "Floor so one catastrophic loss is not averaged away (sourced figures only): >=100 homes destroyed -> 4; >=10 homes "
+        "destroyed or >=2 deaths -> at least 3; one death -> one level up (at most 3). Deaths include firefighters and "
+        "aircrew; Y_class_excl_responder_deaths shows the class without them (SL_deaths_type says who died).",
         "Y is relative to this sample of declared events (every row is already a declared disaster), so 1 Light "
         "means light among declared disasters.",
         "Counts by class are on the indicators sheet.",

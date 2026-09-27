@@ -30,8 +30,12 @@ names, order and labels change, and the `variables` sheet maps each new name to 
   from declarations and inquiries. X columns: `X1`–`X23` (template) and `X_fire_`, `X_env_`, `X_socio_`, `X_council_`.
 - `key_event_council` (declared event × council, 218 rows) carries the Y hierarchy: indicator → percentile rank →
   pillar DL/IL/FP/SL → composite `Y` (equal weights) → `Y_class` 1 Light / 2 Moderate / 3 Severe / 4 Extreme.
-  The class comes from Y's percentile (50/30/15/5), raised to at least 3 for >=10 homes destroyed or any death and to 4
-  for >=100 homes destroyed. Also written to `out/key_event_council_Y.csv`.
+  The class comes from Y's percentile (50/30/15/5), then a direct-loss floor (sourced figures only): >=100 homes
+  destroyed -> 4; >=10 homes destroyed or >=2 deaths -> at least 3; one death -> one level up, at most 3. Deaths count
+  everyone the fire killed in the council, firefighters and aircrew included (EM-DAT / Sendai practice);
+  `SL_deaths_type` says who died (from `data/key_events/death_types.csv`, with the source quote) and
+  `Y_class_excl_responder_deaths` gives the class without responder deaths. Also written to
+  `out/key_event_council_Y.csv`.
 
 - **`master` sheet** (`out/master_event_council.csv`): one row per declared event × council with every variable,
   built by `src/master.py`:

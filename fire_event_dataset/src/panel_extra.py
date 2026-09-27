@@ -288,6 +288,13 @@ def event_extras(k, decl_start):
     for c in AFFECTED_COLS:
         out[f"X_socio_{c}"] = ap[c].reindex(key).to_numpy()
     out["info_pop_census_year"] = ap["census_year"].reindex(key).to_numpy()
+    # who died (data/key_events/death_types.csv, one line per row with a sourced death; basis quoted there)
+    dt = pd.read_csv(DATA / "key_events/death_types.csv", dtype={"agrn": str})
+    dt = dt.set_index([dt.agrn, dt.region_name])
+    dkey = pd.MultiIndex.from_arrays([k.agrn.astype(str), k.region_name])
+    out["SL_deaths_type"] = dt["type"].reindex(dkey).to_numpy()
+    out["SL_deaths_responders"] = dt["responders"].reindex(dkey).to_numpy()
+    out["SL_deaths_type_basis"] = dt["basis"].reindex(dkey).to_numpy()
     # quarterly activity around the fire-start quarter (src/econ_quarterly.py): night lights, payroll, NSW SFD
     eq = pd.read_parquet(ENRICH / "econ_quarterly_events.parquet")
     eq = eq.assign(agrn=eq.agrn.astype(str), region_id=eq.region_id.astype(str)).set_index(["agrn", "region_id"])
