@@ -1,0 +1,139 @@
+BFPL polygons 235537 LGAs 129
+0 Albury 0.806
+1 Armidale Regional 0.99
+2 Ballina 0.755
+3 Balranald 0.947
+4 Bathurst Regional 0.986
+5 Bayside (NSW) 0.007
+6 Bega Valley 0.988
+7 Bellingen 0.99
+8 Berrigan 0.982
+9 Blacktown 0.29
+10 Bland 0.992
+11 Blayney 0.064
+12 Blue Mountains 0.984
+13 Bogan 1.0
+14 Bourke 0.999
+15 Brewarrina 0.995
+16 Broken Hill 0.799
+17 Burwood 0.0
+18 Byron 0.932
+19 Cabonne 0.996
+20 Camden 0.55
+21 Campbelltown (NSW) 0.772
+22 Canada Bay 0.0
+23 Canterbury-Bankstown 0.095
+24 Carrathool 0.125
+25 Central Coast (NSW) 0.89
+26 Central Darling 0.991
+27 Cessnock 0.968
+28 Clarence Valley 0.985
+29 Cobar 0.216
+30 Coffs Harbour 0.943
+31 Coolamon 0.065
+32 Coonamble 0.121
+33 Cootamundra-Gundagai Regional 0.994
+34 Cowra 0.216
+35 Cumberland 0.048
+36 Dubbo Regional 0.982
+37 Dungog 0.994
+38 Edward River 0.996
+39 Eurobodalla 0.979
+40 Fairfield 0.206
+41 Federation 0.08
+42 Forbes 0.08
+43 Georges River 0.079
+44 Gilgandra 0.998
+45 Glen Innes Severn 0.996
+46 Goulburn Mulwaree 0.974
+47 Greater Hume Shire 0.989
+48 Griffith 0.792
+49 Gunnedah 0.981
+50 Gwydir 0.713
+51 Hawkesbury 0.969
+52 Hay 0.051
+53 Hilltops 0.114
+54 Hornsby 0.872
+55 Hunters Hill 0.123
+56 Inner West 0.0
+57 Inverell 0.529
+58 Junee 0.045
+59 Kempsey 0.986
+60 Kiama 0.933
+61 Ku-ring-gai 0.493
+62 Kyogle 0.997
+63 Lachlan 0.997
+64 Lake Macquarie 0.83
+65 Lane Cove 0.148
+66 Leeton 0.132
+67 Lismore 0.936
+68 Lithgow 0.989
+69 Liverpool 0.619
+70 Liverpool Plains 0.992
+71 Lockhart 0.991
+72 Maitland 0.834
+73 Mid-Coast 0.969
+74 Mid-Western Regional 0.985
+75 Moree Plains 0.998
+76 Mosman 0.285
+77 Murray River 0.987
+78 Murrumbidgee 0.021
+79 Muswellbrook 0.968
+80 Nambucca Valley 0.975
+81 Narrabri 0.995
+82 Narrandera 0.995
+83 Narromine 0.992
+84 Newcastle 0.433
+85 North Sydney 0.05
+86 Northern Beaches 0.7
+87 Oberon 0.997
+88 Orange 0.866
+89 Parkes 0.147
+90 Parramatta 0.082
+91 Penrith 0.703
+92 Port Macquarie-Hastings 0.967
+93 Port Stephens 0.865
+94 Queanbeyan-Palerang Regional 0.964
+95 Randwick 0.0
+96 Richmond Valley 0.99
+97 Ryde 0.172
+98 Shellharbour 0.734
+99 Shoalhaven 0.969
+100 Singleton 0.941
+101 Snowy Monaro Regional 0.988
+102 Snowy Valleys 0.991
+103 Strathfield 0.0
+104 Sutherland Shire 0.778
+105 Sydney 0.0
+106 Tamworth Regional 0.987
+107 Temora 0.11
+108 Tenterfield 0.998
+109 The Hills Shire 0.774
+110 Tweed 0.949
+111 Upper Hunter Shire 0.995
+112 Upper Lachlan Shire 0.996
+113 Uralla 0.453
+114 Wagga Wagga 0.981
+115 Walcha 0.999
+116 Walgett 0.999
+117 Warren 0.999
+118 Warrumbungle Shire 0.999
+119 Waverley 0.0
+120 Weddin 0.997
+121 Wentworth 0.972
+122 Willoughby 0.246
+123 Wingecarribee 0.969
+124 Wollondilly 0.958
+125 Wollongong 0.833
+126 Woollahra 0.0
+127 Yass Valley 0.988
+128 Unincorporated NSW 0.998
+                   count          mean  ...           75%           max
+region_id          129.0  14476.891473  ...  16610.000000  19399.000000
+area_km2_geom      129.0   6207.733865  ...   7140.887664  93208.919903
+bfpl_share_any     129.0      0.686865  ...      0.990155      0.999578
+bfpl_share_cat1    129.0      0.291942  ...      0.560804      0.923841
+bfpl_share_cat12   129.0      0.310362  ...      0.572234      0.931832
+nvis_forest_share  129.0      0.289263  ...      0.490890      0.871808
+
+[6 rows x 8 columns]

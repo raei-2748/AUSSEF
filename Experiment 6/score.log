@@ -1,0 +1,12 @@
+129 councils scored
+rows with score 218 of 218
+target                           DL    FP    IL    SL     Y
+definition                                                 
+Y class Severe/Extreme         0.14 -0.07 -0.23 -0.15 -0.25
+all rows (no size filter)      0.28 -0.05 -0.08 -0.08 -0.07
+burned >= 1,000 ha in council  0.26  0.01 -0.04 -0.07 -0.03
+burned >= 5,000 ha in council  0.24 -0.05  0.06 -0.06  0.02
+share burned >= 10%            0.14 -0.31  0.33  0.40  0.46
+share burned >= 2%             0.25 -0.10  0.21  0.13  0.18
+share burned >= 20% (old)      0.24 -0.46  0.11  0.25  0.31
+share burned >= 5%             0.22 -0.20  0.27  0.32  0.34

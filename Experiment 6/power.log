@@ -1,0 +1,13 @@
+{'all rows': 218, 'fires >= 5% burned': 38, '>= 5% excl. Black Summer': 8}
+F 0.0 {'all rows': 0, 'fires >= 5% burned': 1, '>= 5% excl. Black Summer': 1} 18 s
+F 0.1 {'all rows': 11, 'fires >= 5% burned': 5, '>= 5% excl. Black Summer': 2} 35 s
+F 0.2 {'all rows': 52, 'fires >= 5% burned': 10, '>= 5% excl. Black Summer': 2} 54 s
+F 0.3 {'all rows': 94, 'fires >= 5% burned': 18, '>= 5% excl. Black Summer': 1} 75 s
+F 0.4 {'all rows': 100, 'fires >= 5% burned': 33, '>= 5% excl. Black Summer': 2} 95 s
+F 0.5 {'all rows': 100, 'fires >= 5% burned': 60, '>= 5% excl. Black Summer': 4} 115 s
+V 0.0 {'all rows': 0, 'fires >= 5% burned': 7, '>= 5% excl. Black Summer': 13} 134 s
+V 0.1 {'all rows': 15, 'fires >= 5% burned': 15, '>= 5% excl. Black Summer': 21} 154 s
+V 0.2 {'all rows': 72, 'fires >= 5% burned': 46, '>= 5% excl. Black Summer': 26} 174 s
+V 0.3 {'all rows': 99, 'fires >= 5% burned': 78, '>= 5% excl. Black Summer': 33} 193 s
+V 0.4 {'all rows': 100, 'fires >= 5% burned': 93, '>= 5% excl. Black Summer': 43} 214 s
+V 0.5 {'all rows': 100, 'fires >= 5% burned': 100, '>= 5% excl. Black Summer': 52} 234 s
