@@ -1,0 +1,9 @@
+Frozen header of evaluate_fp_alternatives.py
+frozen at: 2026-09-29T15:36:48+10:00
+header sha256: 84281b6ad8b1df64e7ce65eff81ad3a9fc66b6c96da56487a39bba60a421412b
+state at freeze: results/AUDIT*.csv/txt exist; NO results/EVAL* files exist; no new-FP-vs-damage/F/V statistic had been computed.
+inputs:
+  workbook size 22408486 bytes, modified 2026-09-27T23:12:36
+  ROWS_WITH_SCORE_v2.csv sha256 936aee83abc612c625407832b12ff130ebeb19de04bc8a9ebe97bc21931d84ba
+  inputs/fiscal_panel_by_council_name.csv sha256 f74e76105030fe9d93b964c9385eb72be762dac9c95dc8d0faee339b3a0dcd43
+  inputs/fire_pieces_all.csv sha256 2f885c17d77eec56f041847d8f452d90431e1327c0985df504cd1efd44459bd5

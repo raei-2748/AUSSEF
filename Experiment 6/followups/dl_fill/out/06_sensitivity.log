@@ -1,0 +1,49 @@
+880 Clarence Valley = 0 | rank pct of Clarence Valley 880 among the 38 rows: 0.12
+880 Clarence Valley = 9 (main, lower bound) | rank pct of Clarence Valley 880 among the 38 rows: 0.32
+880 Clarence Valley = 168 (whole-season council figure) | rank pct of Clarence Valley 880 among the 38 rows: 0.83
+imputation pool: n = 24 | share zero = 0.62 | mean rate = 0.216
+DL_v0_original n 90 share zero 0.42 distinct values 53
+DL_v3_estimated n 208 share zero 0.72 distinct values 57
+DL_v1_reported n 93 share zero 0.42 distinct values 53
+DL_v2_inferred n 135 share zero 0.6 distinct values 53
+                                             analysis                                                    case    score  n_with_DL                  txt
+             A: fires >=5%, Clarence Valley 880 value                                 880 Clarence Valley = 0 risk_add         38 +0.37 [+0.07, +0.63]
+             A: fires >=5%, Clarence Valley 880 value                                 880 Clarence Valley = 0        H         38 +0.13 [-0.19, +0.44]
+             A: fires >=5%, Clarence Valley 880 value                                 880 Clarence Valley = 0        E         38 +0.32 [-0.09, +0.63]
+             A: fires >=5%, Clarence Valley 880 value                                 880 Clarence Valley = 0        V         38 +0.35 [+0.08, +0.57]
+             A: fires >=5%, Clarence Valley 880 value             880 Clarence Valley = 9 (main, lower bound) risk_add         38 +0.39 [+0.07, +0.65]
+             A: fires >=5%, Clarence Valley 880 value             880 Clarence Valley = 9 (main, lower bound)        H         38 +0.15 [-0.18, +0.44]
+             A: fires >=5%, Clarence Valley 880 value             880 Clarence Valley = 9 (main, lower bound)        E         38 +0.33 [-0.09, +0.65]
+             A: fires >=5%, Clarence Valley 880 value             880 Clarence Valley = 9 (main, lower bound)        V         38 +0.36 [+0.08, +0.58]
+             A: fires >=5%, Clarence Valley 880 value 880 Clarence Valley = 168 (whole-season council figure) risk_add         38 +0.44 [+0.12, +0.69]
+             A: fires >=5%, Clarence Valley 880 value 880 Clarence Valley = 168 (whole-season council figure)        H         38 +0.20 [-0.15, +0.50]
+             A: fires >=5%, Clarence Valley 880 value 880 Clarence Valley = 168 (whole-season council figure)        E         38 +0.35 [-0.07, +0.67]
+             A: fires >=5%, Clarence Valley 880 value 880 Clarence Valley = 168 (whole-season council figure)        V         38 +0.40 [+0.12, +0.61]
+                            B: excluding Black Summer                                          DL_v0_original risk_add         40 +0.48 [+0.13, +0.71]
+                            B: excluding Black Summer                                          DL_v1_reported risk_add         43 +0.43 [+0.07, +0.69]
+                            B: excluding Black Summer                                          DL_v2_inferred risk_add         85 +0.41 [+0.16, +0.57]
+                            B: excluding Black Summer                                         DL_v3_estimated risk_add        158 +0.24 [+0.03, +0.39]
+                            B: excluding Black Summer                                          DL_v0_original        H         40 +0.21 [-0.18, +0.52]
+                            B: excluding Black Summer                                          DL_v1_reported        H         43 +0.15 [-0.25, +0.48]
+                            B: excluding Black Summer                                          DL_v2_inferred        H         85 +0.28 [+0.01, +0.49]
+                            B: excluding Black Summer                                         DL_v3_estimated        H        158 +0.15 [-0.06, +0.35]
+                            B: excluding Black Summer                                          DL_v0_original        E         40 +0.44 [+0.10, +0.66]
+                            B: excluding Black Summer                                          DL_v1_reported        E         43 +0.39 [+0.03, +0.64]
+                            B: excluding Black Summer                                          DL_v2_inferred        E         85 +0.35 [+0.08, +0.54]
+                            B: excluding Black Summer                                         DL_v3_estimated        E        158 +0.15 [-0.07, +0.32]
+                            B: excluding Black Summer                                          DL_v0_original        V         40 +0.59 [+0.31, +0.78]
+                            B: excluding Black Summer                                          DL_v1_reported        V         43 +0.58 [+0.30, +0.76]
+                            B: excluding Black Summer                                          DL_v2_inferred        V         85 +0.43 [+0.23, +0.57]
+                            B: excluding Black Summer                                         DL_v3_estimated        V        158 +0.34 [+0.19, +0.44]
+C: multiple imputation of estimated zeros (300 draws)                                                all rows risk_add        208 +0.29 [+0.23, +0.34]
+C: multiple imputation of estimated zeros (300 draws)                                              fires >=5% risk_add        208 +0.39 [+0.39, +0.39]
+C: multiple imputation of estimated zeros (300 draws)                                  excluding Black Summer risk_add        208 +0.24 [+0.15, +0.32]
+C: multiple imputation of estimated zeros (300 draws)                                                all rows        H        208 +0.28 [+0.22, +0.34]
+C: multiple imputation of estimated zeros (300 draws)                                              fires >=5%        H        208 +0.15 [+0.15, +0.15]
+C: multiple imputation of estimated zeros (300 draws)                                  excluding Black Summer        H        208 +0.17 [+0.08, +0.26]
+C: multiple imputation of estimated zeros (300 draws)                                                all rows        E        208 +0.27 [+0.20, +0.33]
+C: multiple imputation of estimated zeros (300 draws)                                              fires >=5%        E        208 +0.33 [+0.33, +0.33]
+C: multiple imputation of estimated zeros (300 draws)                                  excluding Black Summer        E        208 +0.20 [+0.10, +0.30]
+C: multiple imputation of estimated zeros (300 draws)                                                all rows        V        208 +0.22 [+0.17, +0.29]
+C: multiple imputation of estimated zeros (300 draws)                                              fires >=5%        V        208 +0.36 [+0.36, +0.36]
+C: multiple imputation of estimated zeros (300 draws)                                  excluding Black Summer        V        208 +0.24 [+0.14, +0.34]

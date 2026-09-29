@@ -1,0 +1,81 @@
+subset,target,kind,series,n_rows,n_councils,rho,ci_low,ci_high
+all rows,burned_share,damage,old_FP,198,69,0.11063782423307474,-0.037786696478686425,0.2623037304399869
+all rows,DL,damage,old_FP,86,55,0.21886579618188035,-0.0008857013007117519,0.43408918896758275
+all rows,F_block,prefire,old_FP,198,69,-0.0008594669918204593,-0.18368451232283026,0.16738736504405155
+all rows,V_block,prefire,old_FP,198,69,-0.13099693854616962,-0.287190539512728,0.04547934617019683
+all rows,burned_share,damage,A_liquidity,198,69,0.09647967047909757,-0.028023635393994797,0.2294489361210322
+all rows,DL,damage,A_liquidity,86,55,0.15603215869409368,-0.07565122583572734,0.3755647601317694
+all rows,F_block,prefire,A_liquidity,198,69,-0.06106934587604923,-0.19350191358400945,0.083096875009505
+all rows,V_block,prefire,A_liquidity,198,69,-0.13504808732422122,-0.2697749773624245,0.016415567458878535
+all rows,burned_share,damage,B_result_shock,198,69,-0.0343765918926965,-0.1729649159230004,0.10258921583847652
+all rows,DL,damage,B_result_shock,86,55,0.0023035537696547777,-0.21468660517586516,0.2307707829962548
+all rows,F_block,prefire,B_result_shock,198,69,0.003076212253755075,-0.15599275697273648,0.16733821845906086
+all rows,V_block,prefire,B_result_shock,198,69,-0.08093446770631967,-0.2467045309601588,0.08794560537595252
+all rows,burned_share,damage,C_composite,198,69,0.003913667419545007,-0.11970898746850359,0.13611465149331142
+all rows,DL,damage,C_composite,86,55,-0.028709060067470343,-0.25246619430223904,0.22531773443534897
+all rows,F_block,prefire,C_composite,198,69,-0.05440248130763454,-0.20277331679616012,0.10922908986407304
+all rows,V_block,prefire,C_composite,198,69,-0.14770493084381428,-0.2848687096306493,0.0073421682756012255
+all rows,burned_share,damage,own_source_only,198,69,-0.046967874003352596,-0.19563356859741077,0.1142587529559888
+all rows,DL,damage,own_source_only,86,55,-0.22468065923880307,-0.40941619613408,0.0004750212254497744
+all rows,F_block,prefire,own_source_only,198,69,-0.057005637407972834,-0.24778561164613264,0.14082445220849726
+all rows,V_block,prefire,own_source_only,198,69,-0.13524063094814465,-0.29051196564816467,0.023145054622099023
+fires >= 5% of council,burned_share,damage,old_FP,38,34,0.3018165918706903,-0.024895457976700335,0.5731201591176477
+fires >= 5% of council,DL,damage,old_FP,37,34,0.20767283259631367,-0.13730276944995778,0.5065861517704808
+fires >= 5% of council,F_block,prefire,old_FP,38,34,-0.06906432057800248,-0.37463417899387774,0.2269744650592971
+fires >= 5% of council,V_block,prefire,old_FP,38,34,-0.27276707694047125,-0.558497828805226,0.062329820368217034
+fires >= 5% of council,burned_share,damage,A_liquidity,38,34,0.3458087129482891,-0.006280800099018572,0.6214663466103556
+fires >= 5% of council,DL,damage,A_liquidity,37,34,0.39084360132387547,0.029800392623851896,0.6865540905873831
+fires >= 5% of council,F_block,prefire,A_liquidity,38,34,-0.10683558652209287,-0.40577192469078127,0.20723275267770805
+fires >= 5% of council,V_block,prefire,A_liquidity,38,34,-0.14886164712642094,-0.4655954769347449,0.18774254323508943
+fires >= 5% of council,burned_share,damage,B_result_shock,38,34,0.0339242724727752,-0.3214750088573927,0.36016461791861365
+fires >= 5% of council,DL,damage,B_result_shock,37,34,0.1377349027185173,-0.21614037492063295,0.47732037068322847
+fires >= 5% of council,F_block,prefire,B_result_shock,38,34,-0.19588354198911986,-0.48653698451511945,0.10206642536874098
+fires >= 5% of council,V_block,prefire,B_result_shock,38,34,-0.2644483378363478,-0.5130879837941907,0.05310259622934014
+fires >= 5% of council,burned_share,damage,C_composite,38,34,0.04815058028393899,-0.32742942537740144,0.37198873619061795
+fires >= 5% of council,DL,damage,C_composite,37,34,0.19030729218447986,-0.16980163375568316,0.515595629340837
+fires >= 5% of council,F_block,prefire,C_composite,38,34,-0.176448908058585,-0.4568943829780667,0.13032559919977812
+fires >= 5% of council,V_block,prefire,C_composite,38,34,-0.2681698790145083,-0.5341948867418533,0.038874913791894554
+fires >= 5% of council,burned_share,damage,own_source_only,38,34,-0.2812431621130073,-0.595040448028234,0.05527016871840748
+fires >= 5% of council,DL,damage,own_source_only,37,34,-0.1360697139119031,-0.48060929585691053,0.21310695766214885
+fires >= 5% of council,F_block,prefire,own_source_only,38,34,-0.09794177099455993,-0.42122452104982827,0.23804085762096291
+fires >= 5% of council,V_block,prefire,own_source_only,38,34,-0.24912434474980444,-0.49611365448058503,0.07056388039462648
+excluding Black Summer,burned_share,damage,old_FP,149,54,0.012140923976996485,-0.1739458420008803,0.18778794338141047
+excluding Black Summer,DL,damage,old_FP,37,23,0.19722267767147766,-0.12412495526522918,0.48810077027648224
+excluding Black Summer,F_block,prefire,old_FP,149,54,-0.008125700009571196,-0.2297307904951195,0.20063760057786395
+excluding Black Summer,V_block,prefire,old_FP,149,54,-0.06693963799943405,-0.25756308234953523,0.12136352967106707
+excluding Black Summer,burned_share,damage,A_liquidity,149,54,-0.05488539321260759,-0.2037624357277634,0.0954873603817323
+excluding Black Summer,DL,damage,A_liquidity,37,23,-0.08069938911832279,-0.4147574839647759,0.257272394983965
+excluding Black Summer,F_block,prefire,A_liquidity,149,54,-0.1293140891603609,-0.29715048355305945,0.06580749945548851
+excluding Black Summer,V_block,prefire,A_liquidity,149,54,-0.15129160381836676,-0.2954348515964051,0.025096055031081498
+excluding Black Summer,burned_share,damage,B_result_shock,149,54,-0.03923443070348976,-0.19900482965066146,0.11194475233935755
+excluding Black Summer,DL,damage,B_result_shock,37,23,-0.10466698019927806,-0.4208882334915665,0.21288674137893296
+excluding Black Summer,F_block,prefire,B_result_shock,149,54,0.06838949302068054,-0.11586097691081003,0.25924009108263063
+excluding Black Summer,V_block,prefire,B_result_shock,149,54,-0.03194982477949291,-0.23127939766517375,0.15526072331060192
+excluding Black Summer,burned_share,damage,C_composite,149,54,-0.010936445638325387,-0.1725407562522276,0.14661191949879104
+excluding Black Summer,DL,damage,C_composite,37,23,-0.18039436904016862,-0.5086231401491063,0.1714021402943528
+excluding Black Summer,F_block,prefire,C_composite,149,54,-0.018019593006032994,-0.1932440103058433,0.18266365120466246
+excluding Black Summer,V_block,prefire,C_composite,149,54,-0.12338904723123183,-0.28261033910252487,0.04265794644807255
+excluding Black Summer,burned_share,damage,own_source_only,149,54,0.07685261110614225,-0.10965960316760238,0.2715802222714908
+excluding Black Summer,DL,damage,own_source_only,37,23,-0.28901345202407236,-0.5479520534310276,0.02884787873467558
+excluding Black Summer,F_block,prefire,own_source_only,149,54,0.02285216973201122,-0.21643906724469072,0.2589517876052912
+excluding Black Summer,V_block,prefire,own_source_only,149,54,-0.1243509540213438,-0.32511865342948476,0.0662243904100833
+"fires >= 5%, excl. Black Summer (descriptive)",burned_share,damage,old_FP,8,7,0.4311454542887732,,
+"fires >= 5%, excl. Black Summer (descriptive)",DL,damage,old_FP,7,6,0.22473328748774737,,
+"fires >= 5%, excl. Black Summer (descriptive)",F_block,prefire,old_FP,8,7,0.08433734939759036,,
+"fires >= 5%, excl. Black Summer (descriptive)",V_block,prefire,old_FP,8,7,0.27710843373493976,,
+"fires >= 5%, excl. Black Summer (descriptive)",burned_share,damage,A_liquidity,8,7,0.6946232319096901,,
+"fires >= 5%, excl. Black Summer (descriptive)",DL,damage,A_liquidity,7,6,-0.044946657497549475,,
+"fires >= 5%, excl. Black Summer (descriptive)",F_block,prefire,A_liquidity,8,7,0.34939759036144574,,
+"fires >= 5%, excl. Black Summer (descriptive)",V_block,prefire,A_liquidity,8,7,0.10843373493975902,,
+"fires >= 5%, excl. Black Summer (descriptive)",burned_share,damage,B_result_shock,8,7,0.407192929050508,,
+"fires >= 5%, excl. Black Summer (descriptive)",DL,damage,B_result_shock,7,6,0.13483997249264842,,
+"fires >= 5%, excl. Black Summer (descriptive)",F_block,prefire,B_result_shock,8,7,0.15662650602409636,,
+"fires >= 5%, excl. Black Summer (descriptive)",V_block,prefire,B_result_shock,8,7,-0.32530120481927705,,
+"fires >= 5%, excl. Black Summer (descriptive)",burned_share,damage,C_composite,8,7,0.4311454542887732,,
+"fires >= 5%, excl. Black Summer (descriptive)",DL,damage,C_composite,7,6,-0.044946657497549475,,
+"fires >= 5%, excl. Black Summer (descriptive)",F_block,prefire,C_composite,8,7,0.3734939759036144,,
+"fires >= 5%, excl. Black Summer (descriptive)",V_block,prefire,C_composite,8,7,-0.22891566265060237,,
+"fires >= 5%, excl. Black Summer (descriptive)",burned_share,damage,own_source_only,8,7,0.14371515142959107,,
+"fires >= 5%, excl. Black Summer (descriptive)",DL,damage,own_source_only,7,6,-0.08989331499509895,,
+"fires >= 5%, excl. Black Summer (descriptive)",F_block,prefire,own_source_only,8,7,0.39759036144578314,,
+"fires >= 5%, excl. Black Summer (descriptive)",V_block,prefire,own_source_only,8,7,-0.3734939759036144,,

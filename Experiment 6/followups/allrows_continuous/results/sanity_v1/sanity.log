@@ -1,0 +1,30 @@
+nulls done 0s; ICC of real T* by council = 0.325
+int done 2s
+thr/main done 3s
+   block   sample        rule  mde_g_80pct_power
+0      H      all  unadjusted           0.184505
+1      H      all        Holm           0.240250
+2      H  excl_BS  unadjusted                NaN
+3      H  excl_BS        Holm                NaN
+4      E      all  unadjusted           0.189951
+5      E      all        Holm           0.248537
+6      E  excl_BS  unadjusted           0.307997
+7      E  excl_BS        Holm                NaN
+8      V      all  unadjusted           0.159631
+9      V      all        Holm           0.190512
+10     V  excl_BS  unadjusted           0.234382
+11     V  excl_BS        Holm           0.279407
+12     F      all  unadjusted           0.238463
+13     F      all        Holm           0.279954
+14     F  excl_BS  unadjusted           0.293123
+15     F  excl_BS        Holm                NaN
+
+NULL false-alarm rates (two-sided %, nominal 5):
+term                  b_E   b_F   b_H  b_V   g_E   g_F   g_H   g_V
+scenario     sample                                               
+null_council all      7.0   9.8   7.2  8.8   8.1   8.2   6.4   7.2
+             excl_BS  7.8  11.7   7.7  9.7  10.1  10.0   7.4   9.2
+null_full    all      7.9   9.2   6.6  7.8   7.7   8.2   7.0   7.6
+             excl_BS  6.9  11.8   7.2  8.1   8.8   9.3   8.3  10.3
+null_stratum all      7.6   7.6  26.5  5.7  14.0   8.6  10.0   7.8
+             excl_BS  6.6   9.5  17.6  5.1   9.1   8.9   8.0  10.8

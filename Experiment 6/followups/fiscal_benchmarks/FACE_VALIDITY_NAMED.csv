@@ -1,0 +1,10 @@
+council,status,event_fy,window,years_usable,met_by_year,bench_share,n_met_of8,pct_rank,of_councils
+Central Coast (NSW),distress_financial,2020,2017-2019,3,2017:6/8 2018:4/8 2019:3/8,0.542,4.33,0.2,127
+Central Darling,distress_financial,2016,2013-2015,2,2013:- 2014:1/8 2015:2/8,0.188,1.5,0.0,105
+Kiama,distress_financial,2022,2019-2021,2,2019:3/8 2020:- 2021:2/8,0.312,2.5,0.0,128
+Tenterfield,distress_financial,2020,2017-2019,3,2017:4/8 2018:6/8 2019:6/8,0.667,5.33,0.52,127
+Snowy Monaro Regional,distress_financial,2021,2018-2020,3,2018:4/8 2019:3/8 2020:5/8,0.5,4.0,0.15,128
+Bathurst Regional,circular_same_ratios,2023,2020-2022,3,2020:2/8 2021:3/8 2022:4/8,0.375,3.0,0.03,128
+Shoalhaven,circular_same_ratios,2023,2020-2022,3,2020:4/8 2021:3/8 2022:4/8,0.458,3.67,0.09,128
+Balranald,administration_nonfinancial,2019,2016-2018,3,2016:4/8 2017:4/8 2018:3/8,0.458,3.67,0.04,124
+Wingecarribee,administration_nonfinancial,2022,2019-2021,3,2019:7/8 2020:8/8 2021:7/8,0.917,7.33,0.96,128

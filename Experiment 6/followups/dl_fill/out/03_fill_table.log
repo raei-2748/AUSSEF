@@ -1,0 +1,15 @@
+ season  official_total  attributed_in_rows  attributed_named_outside_rows  residual  rows  rows_missing                         rule
+2015/16               1                 0.0                              0       1.0     3             1         inferred_zero_season
+2016/17              65                38.0                             19       8.0    16             7    none (residual too large)
+2017/18              74                71.0                              0       3.0    35            27 estimated_zero_season_budget
+2018/19              37                36.0                              0       1.0    27            21         inferred_zero_season
+2022/23               8                 2.0                              6       0.0    26            24         inferred_zero_season
+2023/24              29                15.0                              0      14.0    38            30    none (residual too large)
+flag
+inferred_zero_season            42
+estimated_zero_small_fire       41
+estimated_zero_season_budget    27
+reported_new                     3
+reported_weak                    3
+estimated_area_share             2
+still missing: 10

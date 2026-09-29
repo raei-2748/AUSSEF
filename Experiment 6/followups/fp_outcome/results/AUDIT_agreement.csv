@@ -1,0 +1,4 @@
+subset,n_complete,cash_drawdown vs services_crowd_out,cash_drawdown vs renewals_rise,services_crowd_out vs renewals_rise,mean_pairwise_rho,std_alpha,first_PC_share
+all rows,193,-0.21 (n=193),+0.04 (n=199),+0.06 (n=193),-0.04,-0.13,0.4
+fires >= 5% of council,36,-0.16 (n=36),+0.36 (n=38),+0.12 (n=36),0.06,0.16,0.44
+excluding Black Summer,147,-0.26 (n=147),-0.02 (n=149),+0.09 (n=147),-0.07,-0.25,0.43

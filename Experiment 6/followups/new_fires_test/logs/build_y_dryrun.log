@@ -1,0 +1,80 @@
+{
+ "nsw2013_income": {
+  "comparison_n": 79,
+  "median_change": 5.6000000000000005,
+  "councils_in_table": 128,
+  "in_group_frame": 128
+ },
+ "nsw2013_business": {
+  "comparison_n": 99,
+  "median_change": 0.9678337603188157,
+  "councils_in_table": 153,
+  "in_group_frame": 152
+ },
+ "nsw2013_cash_event": {
+  "comparison_n": 99,
+  "median_change": 4.117100000000001,
+  "councils_in_table": 152,
+  "in_group_frame": 152
+ },
+ "nsw2013_cash_plus1": {
+  "comparison_n": 93,
+  "median_change": 5.1649,
+  "councils_in_table": 150,
+  "in_group_frame": 152
+ },
+ "nsw2013_service_share_plus1": {
+  "comparison_n": 93,
+  "median_change": 1.3484729991288837,
+  "councils_in_table": 150,
+  "in_group_frame": 152
+ },
+ "nsw2013_renewals_plus1": {
+  "comparison_n": 93,
+  "median_change": 9.91000000000001,
+  "councils_in_table": 150,
+  "in_group_frame": 152
+ },
+ "vic2009_income": {
+  "comparison_n": 50,
+  "median_change": 0.8463132466255567,
+  "councils_in_table": 80,
+  "in_group_frame": 79
+ },
+ "vic2009_business": {
+  "comparison_n": 50,
+  "median_change": -0.9972885320185597,
+  "councils_in_table": 562,
+  "in_group_frame": 79
+ }
+}
+                      event          region_name  pillars_n      flag_DL
+0              NSW_2013_oct       Hawkesbury (C)          2  unavailable
+1              NSW_2013_oct   Blue Mountains (C)          2  unavailable
+2              NSW_2013_oct     Muswellbrook (A)          2  unavailable
+3              NSW_2013_oct          Lithgow (C)          2  unavailable
+4              NSW_2013_oct    Port Stephens (A)          2  unavailable
+5              NSW_2013_oct      Wollondilly (A)          2  unavailable
+6              NSW_2013_oct    Wingecarribee (A)          2  unavailable
+7              NSW_2013_oct  Clarence Valley (A)          2  unavailable
+8              NSW_2013_oct            Wyong (A)          2  unavailable
+9              NSW_2013_oct            Guyra (A)          2  unavailable
+10             NSW_2013_oct         Cessnock (C)          2  unavailable
+11             NSW_2013_oct   Lake Macquarie (C)          2  unavailable
+12             NSW_2013_oct       Shoalhaven (C)          2  unavailable
+13             NSW_2013_oct       Wollongong (C)          2  unavailable
+14             NSW_2013_oct        Singleton (A)          2  unavailable
+15  VIC_2009_black_saturday      Murrindindi (S)          1  unavailable
+16  VIC_2009_black_saturday        Nillumbik (S)          1  unavailable
+17  VIC_2009_black_saturday     Yarra Ranges (S)          1  unavailable
+18  VIC_2009_black_saturday       Whittlesea (C)          1  unavailable
+19  VIC_2009_black_saturday         Mitchell (S)          1  unavailable
+20  VIC_2009_black_saturday          Latrobe (C)          1  unavailable
+21  VIC_2009_black_saturday  South Gippsland (S)          1  unavailable
+22  VIC_2009_black_saturday           Alpine (S)          1  unavailable
+23  VIC_2009_black_saturday          Baw Baw (S)          1  unavailable
+24  VIC_2009_black_saturday         Cardinia (S)          1  unavailable
+25  VIC_2009_black_saturday  Mount Alexander (S)          1  unavailable
+26  VIC_2009_black_saturday           Indigo (S)          1  unavailable
+27  VIC_2009_black_saturday       Wellington (S)          1  unavailable
+rows with Y_new: 28 of 28

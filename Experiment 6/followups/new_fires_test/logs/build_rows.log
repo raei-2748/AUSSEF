@@ -1,0 +1,38 @@
+                      event lga_code             lga_name  lga_area_km2  burned_km2   share unchanged_in_lga2021  scoreable_in_nsw_129
+0              NSW_2013_oct    13800       Hawkesbury (C)     2774.6409    506.0636  0.1824                 True                  True
+1              NSW_2013_oct    10900   Blue Mountains (C)     1431.1452    201.8207  0.1410                 True                  True
+2              NSW_2013_oct    15650     Muswellbrook (A)     3404.9943    458.9957  0.1348                 True                  True
+3              NSW_2013_oct    14870          Lithgow (C)     4511.8468    373.6602  0.0828                 True                  True
+4              NSW_2013_oct    16400    Port Stephens (A)      858.4732     60.1419  0.0701                 True                  True
+5              NSW_2013_oct    18400      Wollondilly (A)     2555.9269     76.5175  0.0299                 True                  True
+6              NSW_2013_oct    18350    Wingecarribee (A)     2688.3928     70.9305  0.0264                 True                  True
+7              NSW_2013_oct    11730  Clarence Valley (A)    10428.7734    254.1913  0.0244                 True                  True
+8              NSW_2013_oct    18550            Wyong (A)      739.7975     16.6002  0.0224                False                 False
+9              NSW_2013_oct    13650            Guyra (A)     4389.5480     87.5065  0.0199                False                 False
+10             NSW_2013_oct    11720         Cessnock (C)     1965.4067     37.2070  0.0189                 True                  True
+11             NSW_2013_oct    14650   Lake Macquarie (C)      647.9868     12.1209  0.0187                 True                  True
+12             NSW_2013_oct    16950       Shoalhaven (C)     4567.0226     75.7298  0.0166                 True                  True
+13             NSW_2013_oct    18450       Wollongong (C)      684.0130      9.7606  0.0143                 True                  True
+14             NSW_2013_oct    17000        Singleton (A)     4892.8301     54.3310  0.0111                 True                  True
+15  VIC_2009_black_saturday    25620      Murrindindi (S)     3879.4006   1563.3325  0.4030                  NaN                 False
+16  VIC_2009_black_saturday    25710        Nillumbik (S)      432.3372    100.3080  0.2320                  NaN                 False
+17  VIC_2009_black_saturday    27450     Yarra Ranges (S)     2465.7413    462.4682  0.1876                  NaN                 False
+18  VIC_2009_black_saturday    27070       Whittlesea (C)      489.7063     84.1048  0.1717                  NaN                 False
+19  VIC_2009_black_saturday    24850         Mitchell (S)     2862.4306    359.3920  0.1256                  NaN                 False
+20  VIC_2009_black_saturday    23810          Latrobe (C)     1425.7600    155.2600  0.1089                  NaN                 False
+21  VIC_2009_black_saturday    26170  South Gippsland (S)     3297.3540    243.2812  0.0738                  NaN                 False
+22  VIC_2009_black_saturday    20110           Alpine (S)     4788.2346    348.6607  0.0728                  NaN                 False
+23  VIC_2009_black_saturday    20830          Baw Baw (S)     4031.2754    221.9360  0.0551                  NaN                 False
+24  VIC_2009_black_saturday    21450         Cardinia (S)     1281.6784     56.9664  0.0444                  NaN                 False
+25  VIC_2009_black_saturday    25430  Mount Alexander (S)     1529.6184     32.1698  0.0210                  NaN                 False
+26  VIC_2009_black_saturday    23350           Indigo (S)     2040.0688     42.3851  0.0208                  NaN                 False
+27  VIC_2009_black_saturday    29399   Unincorporated Vic      283.0141      5.5178  0.0195                  NaN                 False
+28  VIC_2009_black_saturday    26810       Wellington (S)    10817.3681    127.6415  0.0118                  NaN                 False
+                                                          councils  with_fire  n_polygons
+event                   window               lga_vintage                                 
+NSW_2013_oct            FY2013-14            2015              154         53         570
+                                             2018              131         49         570
+                        FY2013-14..FY2014-15 2015              154         58         875
+                                             2018              131         54         875
+VIC_2009_black_saturday FY2008-09            2015               81         30         370
+                        FY2008-09..FY2009-10 2015               81         34         509

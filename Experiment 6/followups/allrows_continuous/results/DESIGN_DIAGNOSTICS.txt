@@ -1,0 +1,67 @@
+rows 218 | fires 96 | councils 69
+non-missing per target (all rows / excluding Black Summer / Black Summer only):
+   Y: 218 / 168 /  50
+  DL:  90 /  40 /  50
+  IL: 218 / 168 /  50
+  FP: 199 / 149 /  50
+  SL: 213 / 163 /  50
+
+clusters: councils all rows 69 | excl BS 54 | fires excl BS 95
+rows per council: 1 row 26 | 2+ rows 43 | max 10
+excl BS, rows per council: 1 row 18 | 2+ rows 36
+rows per fire: 1 row 56 | 2+ rows 40 | max (Black Summer) 50
+
+fire-size measures (all rows):
+  share: min 2.94e-07 median 0.0056 max 0.762 | share == 0 rows: 0
+  burn_ha: min 0.134 median 2581 max 526595
+  share >= 5%: 38 rows (Black Summer 30 )
+  log10(share): mean -2.247 sd 1.108 | in Black Summer mean -1.147 | elsewhere -2.575
+  log10(share) at 5%: -1.301  -> z = 0.85
+
+Spearman among predictors (rows, all):
+            H     E     V     F  s_log  s_rank  s_logha
+H        1.00  0.51  0.29  0.24   0.32    0.32     0.24
+E        0.51  1.00  0.43  0.42   0.23    0.23     0.26
+V        0.29  0.43  1.00  0.20   0.16    0.16     0.23
+F        0.24  0.42  0.20  1.00   0.13    0.13     0.06
+s_log    0.32  0.23  0.16  0.13   1.00    1.00     0.90
+s_rank   0.32  0.23  0.16  0.13   1.00    1.00     0.90
+s_logha  0.24  0.26  0.23  0.06   0.90    0.90     1.00
+
+Spearman among predictors, excluding Black Summer:
+            H     E     V     F  s_log  s_rank  s_logha
+H        1.00  0.54  0.32  0.27   0.30    0.30     0.17
+E        0.54  1.00  0.43  0.45   0.18    0.18     0.20
+V        0.32  0.43  1.00  0.22   0.22    0.22     0.30
+F        0.27  0.45  0.22  1.00   0.18    0.18     0.10
+s_log    0.30  0.18  0.22  0.18   1.00    1.00     0.86
+s_rank   0.30  0.18  0.22  0.18   1.00    1.00     0.86
+s_logha  0.17  0.20  0.30  0.10   0.86    0.86     1.00
+
+VIF of the primary design (all rows; blocks and log10 share standardised on all rows):
+H        1.8
+E        1.9
+V        1.1
+F        1.2
+s_log    1.2
+H:s      1.7
+E:s      2.0
+V:s      1.1
+F:s      1.2
+
+VIF of the primary design (excluding Black Summer; blocks and log10 share standardised on all rows):
+H        2.3
+E        2.1
+V        1.4
+F        1.3
+s_log    1.1
+H:s      2.2
+E:s      2.6
+V:s      1.3
+F:s      1.4
+
+Block means, Black Summer rows vs others (X side only):
+           H      E      V      F
+agrn                             
+False  0.724  0.731  0.616  0.555
+True   0.757  0.757  0.565  0.560

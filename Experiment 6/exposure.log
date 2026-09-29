@@ -1,0 +1,11 @@
+{'boundary_mbs': 109871, 'boundary_mbs_without_counts': 0, 'mbs_with_people_or_dwellings': 84582} {'mbs_cut_by_council_lines': 4112, 'mbs_outside_all_councils': 0, 'persons_outside_all_councils': 0.0} 88948
+BFPL Cat 1-2 polygons 172597
+                           count           min          mean            max
+region_id                  129.0  10050.000000  14476.891473   19399.000000
+dwellings_mb               129.0    607.000006  23745.364341  144386.000037
+residents_mb               129.0   1034.000014  57877.961240  345940.997458
+dwellings_in_bfpl12        129.0      0.000000    978.561542    9915.281522
+residents_in_bfpl12        129.0      0.000000   2274.481177   23947.849414
+dwellings_in_bfpl12_share  129.0      0.000000      0.063268       0.299798
+residents_in_bfpl12_share  129.0      0.000000      0.063548       0.281545
+uv run --no-sync --with geopandas --with shapely --with pyarrow --with pyogri  114.97s user 4.07s system 94% cpu 2:05.37 total

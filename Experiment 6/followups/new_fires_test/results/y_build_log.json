@@ -1,0 +1,50 @@
+{
+ "nsw2013_income": {
+  "comparison_n": 79,
+  "median_change": 5.6000000000000005,
+  "councils_in_table": 128,
+  "in_group_frame": 128
+ },
+ "nsw2013_business": {
+  "comparison_n": 99,
+  "median_change": 0.9678337603188157,
+  "councils_in_table": 153,
+  "in_group_frame": 152
+ },
+ "nsw2013_cash_event": {
+  "comparison_n": 99,
+  "median_change": 4.117100000000001,
+  "councils_in_table": 152,
+  "in_group_frame": 152
+ },
+ "nsw2013_cash_plus1": {
+  "comparison_n": 93,
+  "median_change": 5.1649,
+  "councils_in_table": 150,
+  "in_group_frame": 152
+ },
+ "nsw2013_service_share_plus1": {
+  "comparison_n": 93,
+  "median_change": 1.3484729991288837,
+  "councils_in_table": 150,
+  "in_group_frame": 152
+ },
+ "nsw2013_renewals_plus1": {
+  "comparison_n": 93,
+  "median_change": 9.91000000000001,
+  "councils_in_table": 150,
+  "in_group_frame": 152
+ },
+ "vic2009_income": {
+  "comparison_n": 50,
+  "median_change": 0.8463132466255567,
+  "councils_in_table": 80,
+  "in_group_frame": 79
+ },
+ "vic2009_business": {
+  "comparison_n": 50,
+  "median_change": -0.9972885320185597,
+  "councils_in_table": 562,
+  "in_group_frame": 79
+ }
+}

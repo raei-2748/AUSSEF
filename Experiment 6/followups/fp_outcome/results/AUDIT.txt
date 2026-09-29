@@ -1,0 +1,126 @@
+== 0. rebuild check: max |rebuilt FP - master FP| = 5.55e-17 over 199 rows with FP
+   component cash: max |rebuilt - master rank| = 5.55e-17
+   component svc: max |rebuilt - master rank| = 5.55e-17
+   component ren: max |rebuilt - master rank| = 5.55e-17
+
+== 1. coverage (rows out of the subset size)
+                             component all rows fires >= 5% of council Black Summer (AGRN 871) excluding Black Summer
+old cash drawdown (event and/or plus1)  199/218                  38/38                   50/50                149/168
+            cash: event only available   38/218                   3/38                    0/50                 38/168
+        old services crowd-out (plus1)  193/218                  36/38                   46/50                147/168
+            old renewals ratio (plus1)  199/218                  38/38                   50/50                149/168
+             operating ratio event (t)  198/218                  38/38                   49/50                149/168
+           operating ratio plus1 (t+1)  160/218                  35/38                   49/50                111/168
+          own-source revenue event (t)  199/218                  38/38                   50/50                149/168
+        own-source revenue plus1 (t+1)  161/218                  35/38                   50/50                111/168
+                old FP (>=1 component)  199/218                  38/38                   50/50                149/168
+old FP: number of components present per row -> 3: 193, 2: 6, 1: 0, 0: 19
+rows with both cash-cover windows: 161; event only: 38; plus1 only: 0
+
+coverage by fire financial year (FY start year; FY2019 = Jul 2019-Jun 2020, Black Summer):
+      rows  FP  cash_event  cash_plus1  service_plus1  renewals_plus1  oper_event  oper_plus1  osr_event  osr_plus1
+fy                                                                                                                 
+2014     1   1           1           1              1               1           1           1          1          1
+2015     3   3           3           3              3               3           3           3          3          3
+2016    16  14          14          14             14              14          14          14         14         14
+2017    35  33          33          33             33              33          33          33         33         33
+2018    27  27          27          27             27              27          27          27         27         27
+2019    57  57          57          57             53              57          56          56         57         57
+2022    26  26          26          26             24              26          26          26         26         26
+2023    38  38          38           0             38              38          38           0         38          0
+2024    15   0           0           0              0               0           0           0          0          0
+
+== 2. noise: size of the excess change relative to normal movement in unburned councils
+unburned = no fire >= 100 ha inside the council in the financial years the change spans (same rule as the dataset).
+z = excess / robust SD (1.4826 x MAD) of the unburned excess in the SAME fire year and window; signed so + = more pressure.
+      component                window   unit  n_fire_rows  unburned_robust_sd  fire_median_excess  fire_robust_sd  fire_over_unburned_spread  fire_median_z_pressure  fire_share_abs_z_gt1  unburned_share_abs_z_gt1  fire_share_abs_z_gt2  unburned_share_abs_z_gt2  fire_share_inside_unburned_p10_p90
+     cash_cover   event (FY t vs t-1) months          199                2.22               -0.09            2.22                       1.00                    0.05                  0.38                      0.36                  0.17                      0.13                                0.78
+     cash_cover plus1 (FY t+1 vs t-1) months          161                3.09               -1.12            2.59                       0.84                    0.38                  0.24                      0.34                  0.07                      0.12                                0.85
+  service_share   event (FY t vs t-1)     pp          212                2.92               -0.32            3.30                       1.13                    0.10                  0.34                      0.34                  0.11                      0.14                                0.81
+  service_share plus1 (FY t+1 vs t-1)     pp          193                3.87               -0.26            3.77                       0.97                    0.07                  0.31                      0.33                  0.06                      0.12                                0.87
+ renewals_ratio   event (FY t vs t-1)     pp          214               38.68               -1.47           42.65                       1.10                   -0.05                  0.36                      0.36                  0.14                      0.15                                0.76
+ renewals_ratio plus1 (FY t+1 vs t-1)     pp          199               42.91               -9.93           37.06                       0.86                   -0.19                  0.33                      0.33                  0.13                      0.14                                0.78
+operating_ratio   event (FY t vs t-1)     pp          198                5.57                0.57            5.12                       0.92                   -0.12                  0.34                      0.32                  0.12                      0.12                                0.80
+operating_ratio plus1 (FY t+1 vs t-1)     pp          160                7.00                1.23            5.54                       0.79                   -0.20                  0.37                      0.34                  0.08                      0.09                                0.80
+ own_source_rev   event (FY t vs t-1)      %          199                6.30                0.65            5.89                       0.94                   -0.11                  0.34                      0.34                  0.14                      0.14                                0.78
+ own_source_rev plus1 (FY t+1 vs t-1)      %          161                8.72                1.42            7.88                       0.90                   -0.15                  0.35                      0.32                  0.08                      0.11                                0.77
+reading: fire_over_unburned_spread near 1 = fire rows vary no more than unburned councils do; fire_median_z_pressure near 0 = no typical shift; share inside p10-p90 would be 0.80 if fire rows were drawn from the unburned distribution.
+
+same, fires >= 5% of the council only:
+      component                window  n_fire_rows  fire_median_z_pressure  fire_over_unburned_spread  fire_share_inside_unburned_p10_p90
+     cash_cover   event (FY t vs t-1)           38                    0.11                       1.00                                0.82
+     cash_cover plus1 (FY t+1 vs t-1)           35                    0.46                       1.27                                0.80
+  service_share   event (FY t vs t-1)           38                    0.47                       0.96                                0.87
+  service_share plus1 (FY t+1 vs t-1)           36                    0.30                       1.14                                0.83
+ renewals_ratio   event (FY t vs t-1)           38                   -0.02                       0.80                                0.84
+ renewals_ratio plus1 (FY t+1 vs t-1)           38                   -0.06                       1.42                                0.76
+operating_ratio   event (FY t vs t-1)           38                   -0.21                       0.83                                0.76
+operating_ratio plus1 (FY t+1 vs t-1)           35                   -0.14                       0.72                                0.86
+ own_source_rev   event (FY t vs t-1)           38                   -0.60                       0.65                                0.84
+ own_source_rev plus1 (FY t+1 vs t-1)           35                   -0.58                       0.72                                0.91
+
+rural check: unburned robust SD of the plus1 excess, low- vs high-population-density councils
+      component  robust_sd_small_councils  robust_sd_large_councils
+     cash_cover                      2.90                      3.21
+  service_share                      3.68                      4.18
+ renewals_ratio                     53.13                     36.75
+operating_ratio                      8.23                      6.11
+ own_source_rev                     10.24                      7.27
+(small = at or below the median council population; small councils have the noisier ratios)
+
+placebo drift among unburned councils: median excess of small (<= median population) minus large councils, in units of the unburned robust SD, by window (positive = small councils show MORE pressure than the state median)
+      component                window  median_gap_in_sd  max_abs_gap_in_sd  worst_fy  gap_in_worst_fy_sd
+     cash_cover   event (FY t vs t-1)             -0.22               0.50      2017               -0.50
+     cash_cover plus1 (FY t+1 vs t-1)             -0.26               0.38      2021               -0.38
+  service_share   event (FY t vs t-1)             -0.02               0.95      2023                0.95
+  service_share plus1 (FY t+1 vs t-1)             -0.05               0.41      2018               -0.41
+ renewals_ratio   event (FY t vs t-1)              0.14               0.49      2015                0.49
+ renewals_ratio plus1 (FY t+1 vs t-1)              0.23               0.75      2014                0.75
+operating_ratio   event (FY t vs t-1)             -0.38               1.16      2017                1.16
+operating_ratio plus1 (FY t+1 vs t-1)             -0.18               1.34      2017                1.34
+ own_source_rev   event (FY t vs t-1)              0.07               1.72      2018                1.72
+ own_source_rev plus1 (FY t+1 vs t-1)              0.07               1.21      2016               -1.21
+
+persistence / mean reversion among unburned council-years (no fire in FY x-1, x or x+1):
+      component  n_pairs  autocorr_next_year_change  n_level  rho_start_level_vs_change
+     cash_cover      452                      -0.08      629                      -0.14
+  service_share      433                      -0.24      609                      -0.13
+ renewals_ratio      438                      -0.32      613                      -0.38
+operating_ratio      535                      -0.22      729                      -0.41
+ own_source_rev      535                      -0.26      729                      -0.02
+autocorr < 0 = a rise this year tends to be followed by a fall (noise / mean reversion); rho_start_level < 0 = councils that start high fall more, so the excess change partly reflects where the ratio started.
+
+== 3. agreement between the three old FP components (higher = more pressure for all three)
+                subset  n_complete cash_drawdown vs services_crowd_out cash_drawdown vs renewals_rise services_crowd_out vs renewals_rise  mean_pairwise_rho  std_alpha  first_PC_share
+              all rows         193                       -0.21 (n=193)                  +0.04 (n=199)                       +0.06 (n=193)              -0.04      -0.13            0.40
+fires >= 5% of council          36                        -0.16 (n=36)                   +0.36 (n=38)                        +0.12 (n=36)               0.06       0.16            0.44
+excluding Black Summer         147                       -0.26 (n=147)                  -0.02 (n=149)                       +0.09 (n=147)              -0.07      -0.25            0.43
+Spearman of each component rank with old FP (all rows): cash_drawdown +0.50, services_crowd_out +0.51, renewals_rise +0.65
+
+placebo agreement in unburned council-years (plus1 window), Spearman:
+                    cash_drawdown  services_crowd_out  renewals_rise
+cash_drawdown                1.00                0.08           0.07
+services_crowd_out           0.08                1.00          -0.06
+renewals_rise                0.07               -0.06           1.00
+(n complete = 576); if the placebo correlation is as large as in fire rows, the co-movement is structural (accounting), not a fire effect
+
+== 3b. agreement between the candidate replacement components (higher = more pressure; ranks over the 218 rows)
+                subset  n_complete  cash_vs_operating  cash_vs_own_source  operating_vs_own_source  mean_pairwise_rho  std_alpha
+              all rows         198               0.26               -0.05                     0.29               0.17       0.38
+fires >= 5% of council          38               0.32               -0.07                     0.41               0.22       0.46
+excluding Black Summer         149               0.27                0.01                     0.25               0.18       0.39
+rows with the candidate component present (of 218): cash_drawdown 199, operating_shock 198, own_source_shortfall 199
+rows with >= 2 of the 3 candidate components: 199; all 3: 198
+
+== 4. mechanics in unburned council-years (plus1 window, excess changes): Spearman
+                      d_cash_cover  d_service_share  d_roads_share  d_renewals_ratio  d_operating_ratio  d_grants_per_capita  d_own_source_rev_pct
+d_cash_cover                  1.00             0.08          -0.04             -0.07               0.14                 0.03                 -0.09
+d_service_share               0.08             1.00          -0.13              0.06               0.03                 0.01                 -0.14
+d_roads_share                -0.04            -0.13           1.00              0.02              -0.03                 0.10                 -0.05
+d_renewals_ratio             -0.07             0.06           0.02              1.00               0.13                 0.14                  0.05
+d_operating_ratio             0.14             0.03          -0.03              0.13               1.00                 0.15                  0.17
+d_grants_per_capita           0.03             0.01           0.10              0.14               0.15                 1.00                  0.01
+d_own_source_rev_pct         -0.09            -0.14          -0.05              0.05               0.17                 0.01                  1.00
+(pairwise complete; n up to 746)
+
+renewals ratio excess (plus1) in fire rows: quantiles {0.0: -749.0, 0.05: -107.0, 0.25: -35.0, 0.5: -10.0, 0.75: 16.0, 0.95: 90.0, 1.0: 266.0}; share with |excess| > 100 pp: 0.10

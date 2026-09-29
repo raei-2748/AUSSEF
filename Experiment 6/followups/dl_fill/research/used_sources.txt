@@ -1,0 +1,12 @@
+SOURCES ALREADY USED BY THE AUSSEF DATASET (do not just re-report these; a NEW source or a new fact from them is what we want)
+- 2019/2020 NSW Bushfires Coronial Inquiry Vol 1 (coroners.nsw.gov.au) ; Final Report of the NSW Bushfire Inquiry (31 Jul 2020)
+- NSW RFS Annual Reports 2015/16 ... 2024/25 (only text-mined for named fires / season boxes)
+- NSW RFS Bush Fire Bulletins: Vol 37(2), 37(3), 38(1), 38(3), 39(1), 40(1), 41(1), 42(1), 45(2), 46(1)   (NOT yet read: 37(1), 38(2), 39(2), 39(3), 40(2), 40(3), 41(2), 41(3), 42(2-3), 43(1-3), 44(1-3), 45(1), 45(3), 46(2), 46(3), 47(x))
+- NSW RFS media releases (rfs.nsw.gov.au/news-and-media/media-releases): Tathra, Carwoola, Sept/Oct/Nov 2019 damage assessments, "initial assessment of fire affected areas" updates 1-9, end-of-season releases
+- NSW RFS Building Impact Assessment report Oct 2019 (rfs_191015_BIA_assessment_complete.pdf)
+- AIDR Major Incidents Reports 2016-17 ... 2024-25 and AIDR Knowledge Hub pages (Tathra 2018, Sir Ivan 2017, Carwoola 2017, Kingiman 2018, Hudson Nov 2023, Black Summer)
+- National Bushfire Recovery Agency NSW LGA profiles (31 Dec 2020); REDS fire impact addenda (Regional NSW, May 2020)
+- NSW Legislative Assembly Hansard items: 9 Nov 2016, 16 Nov 2016, 14 Sep 2017, 7 Feb 2018, 18 Sep 2018
+- ABC News items for Cowra 2023, Bega/Coolagolite 2023, Tenterfield 2023, Kempsey Willi Willi 2023, Weston 2023, Kurri Kurri 2016, Royal National Park 2018
+- Various council annual reports / recovery plans for Black Summer (2019-20) only
+- ICA Historical Catastrophe list (insured loss, catastrophe level only)

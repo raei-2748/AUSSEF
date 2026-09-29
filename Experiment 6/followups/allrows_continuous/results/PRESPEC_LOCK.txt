@@ -1,0 +1,6 @@
+locked_at: 2026-09-29T15:20:00+10:00
+version: v2 (amends v1; v1 lock kept in results/PRESPEC_LOCK_v1.txt)
+v1 lock file sha256: 3a131a9036e88964cd1c6f88e16930c9493cdc656d6f1ca503e8b641068748eb
+allrows_continuous.py header sha256: 2c8e5895a3729d9c2ceb9031cd61f6f32d5776bbe2967184c46a4b1cf86c73a0
+sanity_check.py header sha256: bd3208af71fc6af746fa500a28733ad343101e96616b1bf2c6f33a2e9be7c9ae
+arc_lib.py sha256 (informational): 98fe1f34cf8cd8ba961db848153dfbf17f66cfad9454490d539b337d9ec0b65a

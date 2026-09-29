@@ -1,0 +1,149 @@
+frozen-header sha256: 84281b6ad8b1df64e7ce65eff81ad3a9fc66b6c96da56487a39bba60a421412b
+rows: 218; rows with old FP and all four new series (common set): 198
+
+===== A. response to damage: Spearman (95% council-cluster bootstrap CI), n rows / n councils =====
+
+-- all rows
+   n rows/councils: burned_share 198/69, DL 86/55
+target                             DL          burned_share
+series                                                     
+old_FP           +0.22 [-0.00, +0.43]  +0.11 [-0.04, +0.26]
+A_liquidity      +0.16 [-0.08, +0.38]  +0.10 [-0.03, +0.23]
+B_result_shock   +0.00 [-0.21, +0.23]  -0.03 [-0.17, +0.10]
+C_composite      -0.03 [-0.25, +0.23]  +0.00 [-0.12, +0.14]
+own_source_only  -0.22 [-0.41, +0.00]  -0.05 [-0.20, +0.11]
+   paired difference (new minus old FP), same rows:
+target                            DL          burned_share
+series                                                    
+A_liquidity     -0.06 [-0.30, +0.16]  -0.01 [-0.13, +0.10]
+B_result_shock  -0.22 [-0.49, +0.06]  -0.15 [-0.33, +0.04]
+C_composite     -0.25 [-0.54, +0.03]  -0.11 [-0.27, +0.06]
+
+-- fires >= 5% of council
+   n rows/councils: burned_share 38/34, DL 37/34
+target                             DL          burned_share
+series                                                     
+old_FP           +0.21 [-0.14, +0.51]  +0.30 [-0.02, +0.57]
+A_liquidity      +0.39 [+0.03, +0.69]  +0.35 [-0.01, +0.62]
+B_result_shock   +0.14 [-0.22, +0.48]  +0.03 [-0.32, +0.36]
+C_composite      +0.19 [-0.17, +0.52]  +0.05 [-0.33, +0.37]
+own_source_only  -0.14 [-0.48, +0.21]  -0.28 [-0.60, +0.06]
+   paired difference (new minus old FP), same rows:
+target                            DL          burned_share
+series                                                    
+A_liquidity     +0.18 [-0.12, +0.47]  +0.04 [-0.25, +0.33]
+B_result_shock  -0.07 [-0.52, +0.44]  -0.27 [-0.60, +0.07]
+C_composite     -0.02 [-0.46, +0.41]  -0.25 [-0.62, +0.10]
+
+-- excluding Black Summer
+   n rows/councils: burned_share 149/54, DL 37/23
+target                             DL          burned_share
+series                                                     
+old_FP           +0.20 [-0.12, +0.49]  +0.01 [-0.17, +0.19]
+A_liquidity      -0.08 [-0.41, +0.26]  -0.05 [-0.20, +0.10]
+B_result_shock   -0.10 [-0.42, +0.21]  -0.04 [-0.20, +0.11]
+C_composite      -0.18 [-0.51, +0.17]  -0.01 [-0.17, +0.15]
+own_source_only  -0.29 [-0.55, +0.03]  +0.08 [-0.11, +0.27]
+   paired difference (new minus old FP), same rows:
+target                            DL          burned_share
+series                                                    
+A_liquidity     -0.28 [-0.68, +0.15]  -0.07 [-0.24, +0.12]
+B_result_shock  -0.30 [-0.67, +0.07]  -0.05 [-0.26, +0.17]
+C_composite     -0.38 [-0.79, +0.04]  -0.02 [-0.23, +0.20]
+
+-- fires >= 5%, excl. Black Summer (descriptive)
+   n rows/councils: burned_share 8/7, DL 7/6
+target                      DL   burned_share
+series                                       
+old_FP           +0.22 [no CI]  +0.43 [no CI]
+A_liquidity      -0.04 [no CI]  +0.69 [no CI]
+B_result_shock   +0.13 [no CI]  +0.41 [no CI]
+C_composite      -0.04 [no CI]  +0.43 [no CI]
+own_source_only  -0.09 [no CI]  +0.14 [no CI]
+
+===== B. relation to the pre-fire blocks (F fiscal, V vulnerability): Spearman (95% council-cluster bootstrap CI), n rows / n councils =====
+
+-- all rows
+   n rows/councils: F_block 198/69, V_block 198/69
+target                        F_block               V_block
+series                                                     
+old_FP           -0.00 [-0.18, +0.17]  -0.13 [-0.29, +0.05]
+A_liquidity      -0.06 [-0.19, +0.08]  -0.14 [-0.27, +0.02]
+B_result_shock   +0.00 [-0.16, +0.17]  -0.08 [-0.25, +0.09]
+C_composite      -0.05 [-0.20, +0.11]  -0.15 [-0.28, +0.01]
+own_source_only  -0.06 [-0.25, +0.14]  -0.14 [-0.29, +0.02]
+   paired difference (new minus old FP), same rows:
+target                       F_block               V_block
+series                                                    
+A_liquidity     -0.06 [-0.20, +0.09]  -0.00 [-0.16, +0.17]
+B_result_shock  +0.00 [-0.24, +0.25]  +0.05 [-0.20, +0.28]
+C_composite     -0.05 [-0.23, +0.15]  -0.02 [-0.22, +0.18]
+
+-- fires >= 5% of council
+   n rows/councils: F_block 38/34, V_block 38/34
+target                        F_block               V_block
+series                                                     
+old_FP           -0.07 [-0.37, +0.23]  -0.27 [-0.56, +0.06]
+A_liquidity      -0.11 [-0.41, +0.21]  -0.15 [-0.47, +0.19]
+B_result_shock   -0.20 [-0.49, +0.10]  -0.26 [-0.51, +0.05]
+C_composite      -0.18 [-0.46, +0.13]  -0.27 [-0.53, +0.04]
+own_source_only  -0.10 [-0.42, +0.24]  -0.25 [-0.50, +0.07]
+   paired difference (new minus old FP), same rows:
+target                       F_block               V_block
+series                                                    
+A_liquidity     -0.04 [-0.32, +0.25]  +0.12 [-0.14, +0.36]
+B_result_shock  -0.13 [-0.47, +0.21]  +0.01 [-0.35, +0.40]
+C_composite     -0.11 [-0.47, +0.25]  +0.00 [-0.32, +0.34]
+
+-- excluding Black Summer
+   n rows/councils: F_block 149/54, V_block 149/54
+target                        F_block               V_block
+series                                                     
+old_FP           -0.01 [-0.23, +0.20]  -0.07 [-0.26, +0.12]
+A_liquidity      -0.13 [-0.30, +0.07]  -0.15 [-0.30, +0.03]
+B_result_shock   +0.07 [-0.12, +0.26]  -0.03 [-0.23, +0.16]
+C_composite      -0.02 [-0.19, +0.18]  -0.12 [-0.28, +0.04]
+own_source_only  +0.02 [-0.22, +0.26]  -0.12 [-0.33, +0.07]
+   paired difference (new minus old FP), same rows:
+target                       F_block               V_block
+series                                                    
+A_liquidity     -0.12 [-0.29, +0.09]  -0.08 [-0.29, +0.15]
+B_result_shock  +0.08 [-0.22, +0.38]  +0.03 [-0.26, +0.31]
+C_composite     -0.01 [-0.24, +0.23]  -0.06 [-0.32, +0.19]
+
+-- fires >= 5%, excl. Black Summer (descriptive)
+   n rows/councils: F_block 8/7, V_block 8/7
+target                 F_block        V_block
+series                                       
+old_FP           +0.08 [no CI]  +0.28 [no CI]
+A_liquidity      +0.35 [no CI]  +0.11 [no CI]
+B_result_shock   +0.16 [no CI]  -0.33 [no CI]
+C_composite      +0.37 [no CI]  -0.23 [no CI]
+own_source_only  +0.40 [no CI]  -0.37 [no CI]
+
+===== VERDICTS by the frozen rule =====
+A_liquidity      damage response   : paired difference CI above 0 in 0/6 cells, below 0 in 0/6; own rho CI above 0 in 1/6, below 0 in 0/6  ->  NO CLEAR CHANGE vs old FP
+A_liquidity      pre-fire relation : paired difference CI above 0 in 0/6 cells, below 0 in 0/6; own rho CI above 0 in 0/6, below 0 in 0/6  ->  NO CLEAR CHANGE vs old FP
+B_result_shock   damage response   : paired difference CI above 0 in 0/6 cells, below 0 in 0/6; own rho CI above 0 in 0/6, below 0 in 0/6  ->  NO CLEAR CHANGE vs old FP
+B_result_shock   pre-fire relation : paired difference CI above 0 in 0/6 cells, below 0 in 0/6; own rho CI above 0 in 0/6, below 0 in 0/6  ->  NO CLEAR CHANGE vs old FP
+C_composite      damage response   : paired difference CI above 0 in 0/6 cells, below 0 in 0/6; own rho CI above 0 in 0/6, below 0 in 0/6  ->  NO CLEAR CHANGE vs old FP
+C_composite      pre-fire relation : paired difference CI above 0 in 0/6 cells, below 0 in 0/6; own rho CI above 0 in 0/6, below 0 in 0/6  ->  NO CLEAR CHANGE vs old FP
+old_FP damage: own rho CI above 0 in 0/6 cells, below 0 in 0/6
+old_FP prefire: own rho CI above 0 in 0/6 cells, below 0 in 0/6
+
+===== descriptive: Spearman between the FP series (common rows) =====
+                 old_FP  A_liquidity  B_result_shock  C_composite  own_source_only
+old_FP             1.00         0.50            0.13         0.25            -0.09
+A_liquidity        0.50         1.00            0.26         0.59            -0.05
+B_result_shock     0.13         0.26            1.00         0.77             0.29
+C_composite        0.25         0.59            0.77         1.00             0.61
+own_source_only   -0.09        -0.05            0.29         0.61             1.00
+
+===== sensitivity: each series on its own full coverage (all rows, no CI) =====
+target             DL  F_block  V_block  burned_share  n_rows
+series                                                       
+old_FP           0.21    -0.00    -0.13          0.11     199
+A_liquidity      0.14    -0.06    -0.14          0.10     199
+B_result_shock   0.00     0.00    -0.08         -0.03     198
+C_composite     -0.04    -0.06    -0.15          0.00     199
+own_source_only -0.23    -0.06    -0.14         -0.05     199

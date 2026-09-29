@@ -1,0 +1,71 @@
+{
+ "ref_seifa_irsd": {
+  "n": 128,
+  "median": 972.0
+ },
+ "ref_median_income": {
+  "n": 129,
+  "median": 43054.0
+ },
+ "ref_unemp_rate": {
+  "n": 122,
+  "median": 5.9625
+ },
+ "ref_unrestricted_current_ratio": {
+  "n": 111,
+  "median": 3.2371
+ },
+ "ref_operating_ratio": {
+  "n": 111,
+  "median": 0.59
+ },
+ "ref_infra_backlog_ratio": {
+  "n": 111,
+  "median": 2.88
+ },
+ "placement_selfcheck_max_abs_diff": {
+  "seifa_irsd": 0.003875968992248069,
+  "median_income": 0.0038461538461538325,
+  "unemp_rate": 0.006530721044915366,
+  "unrestricted_current_ratio": 0.004464285714285698,
+  "operating_ratio": 0.004464285714285698,
+  "infra_backlog_ratio": 0.004464285714285698
+ },
+ "pia_fy2012_13_nsw_council_median_income": 40026.0,
+ "pia_fy2012_13_nsw_council_n": 128,
+ "salm_jun13_nsw_median_rate": 5.15,
+ "f_item_comparability_30pct_rule": {
+  "unrestricted_current_ratio": {
+   "n_common": 110,
+   "median_fy2012_13": 3.16465,
+   "median_original_snapshot": 3.2504,
+   "ratio": 0.9736186315530396,
+   "kept": true
+  },
+  "operating_ratio": {
+   "n_common": 110,
+   "median_fy2012_13": -3.7800000000000002,
+   "median_original_snapshot": 0.5700000000000001,
+   "ratio": -6.63157894736842,
+   "kept": false
+  },
+  "infra_backlog_ratio": {
+   "n_common": 110,
+   "median_fy2012_13": 6.7700000000000005,
+   "median_original_snapshot": 2.855,
+   "ratio": 2.371278458844133,
+   "kept": false
+  }
+ },
+ "f_dropped_by_documentation": [
+  "cash_cover (definition break FY2012-13 to FY2013-14)",
+  "own_source_pct (definition break)",
+  "debt_service_ratio (not published for FY2012-13)"
+ ],
+ "f_items_kept": [
+  "unrestricted_current_ratio"
+ ],
+ "F_used_for_NSW_2013": false,
+ "episa_fy2007_08_nsw_lga_median_of_average_total_income": 37115.0,
+ "episa_nsw_lga_n": 153
+}

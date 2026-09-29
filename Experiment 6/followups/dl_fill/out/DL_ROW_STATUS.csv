@@ -1,0 +1,219 @@
+agrn,declaration_name,region_id,region_name,year,first_fire_start,share,burn_ha,size_bin,DL_present,homes_destroyed,homes_damaged,homes_per_1000,dwellings_census,basis,ica_council_value,black_summer
+1052,NSW Bushfires 6 March 2023,10470,Bathurst Regional,2023,2023-03-04,0.004792807120447399,1829.828816050353,0.1-1%,False,,,,17518,,,False
+1052,NSW Bushfires 6 March 2023,10950,Bogan,2023,2023-03-04,0.004732879950427148,6909.957209509117,0.1-1%,False,,,,1184,,,False
+1052,NSW Bushfires 6 March 2023,11200,Brewarrina,2023,2023-03-14,1.107593487351616e-05,21.2237391893989,<0.1%,False,,,,598,,,False
+1052,NSW Bushfires 6 March 2023,11400,Cabonne,2023,2023-02-16,0.000307639646704027,185.2713503272554,<0.1%,False,,,,5480,,,False
+1052,NSW Bushfires 6 March 2023,12150,Coonamble,2023,2023-03-01,6.854271635238211e-05,67.96732423855458,<0.1%,False,,,,1567,,,False
+1052,NSW Bushfires 6 March 2023,12350,Cowra,2023,2023-02-16,0.001680122050403072,471.9096740987633,0.1-1%,False,,,,5813,,,False
+1052,NSW Bushfires 6 March 2023,12390,Dubbo Regional,2023,2023-03-06,0.0026277378838545,1979.875704212276,0.1-1%,False,,,,20900,,,False
+1052,NSW Bushfires 6 March 2023,15270,Mid-Western Regional,2023,2023-03-04,0.01957179815236999,17129.74445680838,1-2%,False,,,,11339,,,False
+1052,NSW Bushfires 6 March 2023,17620,Upper Hunter Shire,2023,2023-03-07,0.0006324238061523683,512.0159357086635,<0.1%,False,,,,6355,,,False
+1052,NSW Bushfires 6 March 2023,17900,Walgett,2023,2023-03-03,0.001958920471903689,4370.009310232525,0.1-1%,False,,,,2079,,,False
+1052,NSW Bushfires 6 March 2023,17950,Warren,2023,2023-03-13,7.955048702307265e-06,8.554674180927444,<0.1%,False,,,,1124,,,False
+1053,Gwydir and Narrabri NSW Bushfires – 18 January 2023,13660,Gwydir,2023,2023-01-14,0.00318324121636712,2947.571353539605,0.1-1%,False,,,,2244,,,False
+1053,Gwydir and Narrabri NSW Bushfires – 18 January 2023,15750,Narrabri,2023,2023-01-14,0.0002363939581746113,307.666587636063,<0.1%,False,,,,5291,,,False
+1054,"Gwydir, Moree Plains and Narrabri NSW Bushfires – 1 March 2023",13660,Gwydir,2023,2023-03-07,5.185366776565384e-06,4.801470428823748,<0.1%,False,,,,2244,,,False
+1054,"Gwydir, Moree Plains and Narrabri NSW Bushfires – 1 March 2023",15300,Moree Plains,2023,2023-03-09,0.0001570230500717721,281.1137076697601,<0.1%,False,,,,4953,,,False
+1054,"Gwydir, Moree Plains and Narrabri NSW Bushfires – 1 March 2023",15750,Narrabri,2023,2023-02-28,0.003941086014091642,5129.320964456186,0.1-1%,False,,,,5291,,,False
+1055,Western and North West NSW Bushfires – 17 February 2023,10850,Blayney,2023,2023-02-17,3.241748418216945e-05,4.942522000589211,<0.1%,False,,,,3040,,,False
+1055,Western and North West NSW Bushfires – 17 February 2023,11400,Cabonne,2023,2023-02-14,0.0003222279136845276,194.0569147087265,<0.1%,False,,,,5480,,,False
+1055,Western and North West NSW Bushfires – 17 February 2023,12350,Cowra,2023,2023-02-16,0.001862363956449227,523.0974544559989,0.1-1%,True,1.0,,0.1720282126268708,5813,council figure,,False
+1055,Western and North West NSW Bushfires – 17 February 2023,14920,Liverpool Plains,2023,2023-02-06,0.002756503944099442,1400.921405355989,0.1-1%,False,,,,3306,,,False
+1055,Western and North West NSW Bushfires – 17 February 2023,17620,Upper Hunter Shire,2023,2023-02-20,0.0006679520586826415,540.7799248033377,<0.1%,False,,,,6355,,,False
+1056,Upper Lachlan Bushfires – 16 March 2023,11750,Cobar,2023,2023-03-09,0.002544276707151754,11595.63044784256,0.1-1%,False,,,,1940,,,False
+1056,Upper Lachlan Bushfires – 16 March 2023,17640,Upper Lachlan Shire,2023,2023-03-16,0.007150362371007829,5096.346201656359,0.1-1%,True,1.0,3.0,0.236630383341221,4226,council figure,,False
+1065,Cootamundra Gundagai Bushfires from 25 January 2023,12160,Cootamundra-Gundagai Regional,2023,2023-01-25,0.001671277029990264,665.4051113168514,0.1-1%,False,,,,5101,,,False
+1066,Upper Lachlan and Yass Valley Bushfires from 11 February 2023,17640,Upper Lachlan Shire,2023,2023-02-10,0.001687122885560074,1202.479239991287,0.1-1%,False,,,,4226,,,False
+1066,Upper Lachlan and Yass Valley Bushfires from 11 February 2023,18710,Yass Valley,2023,2023-02-11,0.005603603783709902,2238.649237718554,0.1-1%,False,,,,6460,,,False
+1070,Bega Valley NSW Bushfire from 3 October 2023,10550,Bega Valley,2023,2023-10-03,0.01373255876007791,8621.988802747594,1-2%,True,2.0,2.0,0.113986093696569,17546,council figure,,False
+1071,North Eastern NSW Bushfires from 21 August 2023,10180,Armidale Regional,2023,2023-08-27,0.003087386016132839,2411.075770226048,0.1-1%,False,,,,12055,,,False
+1071,North Eastern NSW Bushfires from 21 August 2023,11730,Clarence Valley,2023,2023-08-12,0.01717368836117913,17909.89072079419,1-2%,False,,,,24141,,,False
+1071,North Eastern NSW Bushfires from 21 August 2023,14350,Kempsey,2023,2023-08-15,0.01950813985872751,6585.305028016897,1-2%,False,,,,13104,,,False
+1071,North Eastern NSW Bushfires from 21 August 2023,15700,Nambucca Valley,2023,2023-08-21,0.00244731972325123,364.9793382764834,0.1-1%,False,,,,9156,,,False
+1075,Far North NSW Bushfires from 13 October 2023,11730,Clarence Valley,2023,2023-09-30,0.02401373270257992,25043.15435662386,2-5%,True,2.0,,0.08284660950250611,24141,council figure,,False
+1075,Far North NSW Bushfires from 13 October 2023,14220,Inverell,2023,2023-10-11,0.01621140212431898,15246.42878816641,1-2%,False,,,,7414,,,False
+1075,Far North NSW Bushfires from 13 October 2023,14550,Kyogle,2023,2023-10-11,0.007464207399327613,2675.308452272473,0.1-1%,False,,,,4295,,,False
+1075,Far North NSW Bushfires from 13 October 2023,17400,Tenterfield,2023,2023-10-16,0.0661611804120241,48458.4810052292,5-10%,True,1.0,2.0,0.278473962684489,3591,one fire in the council (lower bound),,False
+1076,Mid North NSW Bushfires from 16 October 2023,14350,Kempsey,2023,2023-10-14,0.1032084942955096,34839.78592219208,>=10%,True,4.0,,0.3052503052503053,13104,council figure,,False
+1076,Mid North NSW Bushfires from 16 October 2023,15240,Mid-Coast,2023,2023-09-18,0.005982960981283817,6015.187183506474,0.1-1%,True,1.0,,0.02111219017860913,47366,one fire in the council (lower bound),,False
+1076,Mid North NSW Bushfires from 16 October 2023,16380,Port Macquarie-Hastings,2023,2023-10-10,0.004315799312177146,1589.246270286746,0.1-1%,False,,,,38174,,,False
+1081,North Western NSW Bushfires from 14 November 2023,17900,Walgett,2023,2023-11-09,0.0096757570631069,21584.92345951761,0.1-1%,False,,,,2079,,,False
+1083,Mid-Western NSW Bushfires – 2 October 2023,15270,Mid-Western Regional,2023,2023-10-02,0.002199228010623145,1924.821292910683,0.1-1%,False,,,,11339,,,False
+1084,Snowy Monaro NSW Bushfires – 2 October 2023,17040,Snowy Monaro Regional,2023,2023-09-18,0.002300675394755665,3488.926013991059,0.1-1%,False,,,,10589,,,False
+1089,Mid Coast NSW Bushfires – 20 September 2023,15240,Mid-Coast,2023,2023-09-09,0.006267117775774654,6300.874540264473,0.1-1%,False,,,,47366,,,False
+1090,Lower Hunter NSW Bushfires – 20 September 2023,11720,Cessnock,2023,2023-09-14,0.003250724173084511,638.819084047233,0.1-1%,False,,,,24664,,,False
+1090,Lower Hunter NSW Bushfires – 20 September 2023,12700,Dungog,2023,2023-09-12,0.0107154276223032,2410.969393395557,1-2%,False,,,,3998,,,False
+1090,Lower Hunter NSW Bushfires – 20 September 2023,16400,Port Stephens,2023,2023-09-24,0.0001180863234320857,10.13695157159029,<0.1%,False,,,,34100,,,False
+1091,Hunter NSW Bushfires – 22 October - 5 November 2023,15650,Muswellbrook,2023,2023-10-22,0.006535385256845889,2225.222934840931,0.1-1%,False,,,,6802,,,False
+1091,Hunter NSW Bushfires – 22 October - 5 November 2023,17620,Upper Hunter Shire,2023,2023-10-22,0.001651940038070588,1337.425340568904,0.1-1%,True,0.0,,0.0,6355,one fire in the council (lower bound),,False
+1092,Cessnock NSW Bushfires - 14 December 2023,11720,Cessnock,2023,2023-12-11,0.00440636546826479,865.9210079159411,0.1-1%,True,5.0,,0.2027246188777165,24664,one fire in the council (lower bound),,False
+1093,Narrabri NSW Bushfires - 8 December 2023,15750,Narrabri,2023,2023-12-08,0.0957145870789371,124572.4747830469,5-10%,True,0.0,,0.0,5291,one fire in the council (lower bound),,False
+1099,Singleton NSW Bushfires 11 September – 18 October 2023,17000,Singleton,2023,2023-08-29,0.002918589286018095,1427.983083200163,0.1-1%,False,,,,9255,,,False
+1112,Armidale NSW Bushfires 09 – 24 December 2023,10180,Armidale Regional,2023,2023-12-08,0.01049029364551827,8192.332510123313,1-2%,False,,,,12055,,,False
+1114,Inverell and Tenterfield NSW Bushfires 7 – 24 December 2023,14220,Inverell,2023,2023-12-03,0.01534535084419544,14431.9286562193,1-2%,False,,,,7414,,,False
+1114,Inverell and Tenterfield NSW Bushfires 7 – 24 December 2023,17400,Tenterfield,2023,2023-12-07,0.007397092681195156,5417.857918394585,0.1-1%,False,,,,3591,,,False
+1121,"Clarence Valley NSW Bushfires, 21 January – 13 February 2024",11730,Clarence Valley,2024,2024-01-21,0.004704102015430495,4905.757648792141,0.1-1%,False,,,,24141,,,False
+1131,Upper Hunter NSW Bushfire 10 – 17 August 2023,17620,Upper Hunter Shire,2023,2023-08-10,0.0025235742698306,2043.108163430224,0.1-1%,False,,,,6355,,,False
+1132,Snowy Monaro NSW Bushfire 20 September – 4 October 2023,17040,Snowy Monaro Regional,2023,2023-09-14,0.002704669143833687,4101.574066759028,0.1-1%,False,,,,10589,,,False
+1133,Lake Macquarie NSW Bushfire 1 – 18 October 2023,14650,Lake Macquarie,2023,2023-09-27,0.002112175841390275,137.0040259236311,0.1-1%,False,,,,86059,,,False
+1134,Tamworth NSW Bushfire 26 October – 4 November 2023,17310,Tamworth Regional,2023,2023-10-26,0.0008557374030369648,845.8408427578674,<0.1%,False,,,,25914,,,False
+1135,Byron NSW Bushfire 14 October – 5 November 2023,11350,Byron,2023,2023-10-14,0.0137973318399936,780.6567607864367,1-2%,False,,,,15220,,,False
+1136,Lithgow NSW Bushfire 11 – 17 November 2023,14870,Lithgow,2023,2023-11-10,9.325495946753584e-05,42.07902597126413,<0.1%,False,,,,9585,,,False
+1137,Parkes NSW Bushfire 19 – 27 November 2023,16200,Parkes,2023,2023-11-19,0.000936049116959,557.6619043067849,<0.1%,False,,,,6178,,,False
+1138,Richmond Valley NSW Bushfire 4 – 15 December 2023,16610,Richmond Valley,2023,2023-12-01,0.001695643494560416,516.726125510781,0.1-1%,False,,,,9675,,,False
+1139,Mid-Western NSW Bushfire 6 – 16 December 2023,15270,Mid-Western Regional,2023,2023-12-06,0.0001310112474022767,114.6644356077257,<0.1%,False,,,,11339,,,False
+1140,Singleton NSW Bushfire 8 – 18 December 2023,17000,Singleton,2023,2023-12-07,0.0004668570770338734,228.4199464003116,<0.1%,False,,,,9255,,,False
+1156,Tenterfield NSW Bushfire 2 September 2024 – 16 September 2024,17400,Tenterfield,2024,2024-08-31,0.002982300194812836,2184.328278943098,0.1-1%,False,,,,3591,,,False
+1189,Singleton and Muswellbrook NSW Bushfires from 27 December 2024 to 18 January 2025,15650,Muswellbrook,2024,2024-12-27,0.008251632845033729,2809.585347309394,0.1-1%,False,,,,6802,,,False
+1189,Singleton and Muswellbrook NSW Bushfires from 27 December 2024 to 18 January 2025,17000,Singleton,2024,2024-12-24,0.004579027692667482,2240.388571957958,0.1-1%,False,,,,9255,,,False
+1190,Yass Valley NSW Bushfire from 27 December 2024 to 7 January 2025,18710,Yass Valley,2024,2024-12-27,0.0002730873163034946,109.0988471117048,<0.1%,False,,,,6460,,,False
+1191,Singleton NSW Bushfire from 16 December to 24 December 2024,17000,Singleton,2024,2024-12-16,0.004432417382793715,2168.656299340701,0.1-1%,False,,,,9255,,,False
+1192,Tamworth and Uralla NSW Bushfires from 27 December 2024 to 9 January 2025,17310,Tamworth Regional,2024,2024-12-27,0.003547436300449169,3506.410377006659,0.1-1%,False,,,,25914,,,False
+1192,Tamworth and Uralla NSW Bushfires from 27 December 2024 to 9 January 2025,17650,Uralla,2024,2024-12-28,0.002159522791100641,696.7770901882238,0.1-1%,False,,,,2586,,,False
+1193,Bathurst and Lithgow NSW Bushfire from 23 December 2024 to 11 January 2025,10470,Bathurst Regional,2024,2024-12-23,0.001896510098721514,724.0618579800716,0.1-1%,False,,,,17518,,,False
+1193,Bathurst and Lithgow NSW Bushfire from 23 December 2024 to 11 January 2025,14870,Lithgow,2024,2024-12-27,0.006030068618951827,2720.921390928437,0.1-1%,False,,,,9585,,,False
+1196,Mid-Western NSW Bushfires from 27 December 2024 to 8 January 2025,15270,Mid-Western Regional,2024,2024-12-27,0.0001629023209523731,142.5763288386064,<0.1%,False,,,,11339,,,False
+1197,Hawkesbury NSW Bushfire from 5 January to 16 January 2025,13800,Hawkesbury,2025,2025-01-05,0.0016764349750176,465.2338068413552,0.1-1%,False,,,,24485,,,False
+1199,NSW Narrabri and Gwydir Bushfire from 27 January to 10 February 2025,13660,Gwydir,2025,2025-01-26,0.0006412644569312125,593.7887250188346,<0.1%,False,,,,2244,,,False
+1199,NSW Narrabri and Gwydir Bushfire from 27 January to 10 February 2025,15750,Narrabri,2025,2025-01-20,2.449643249801433e-05,31.88209146341318,<0.1%,False,,,,5291,,,False
+1203,NSW Warrumbungle and Narrabri Bushfires from 26 February to 13 March 2025,15750,Narrabri,2025,2025-02-18,0.0003376841615067759,439.4957234600932,<0.1%,True,0.0,0.0,0.0,5291,one fire in the council (lower bound),,False
+1203,NSW Warrumbungle and Narrabri Bushfires from 26 February to 13 March 2025,18020,Warrumbungle Shire,2025,2025-02-25,0.004977016835405817,6157.624952966208,0.1-1%,True,0.0,0.0,0.0,4115,one fire in the council (lower bound),,False
+770,Cessnock Bushfire: 12 September 2017 onwards,11720,Cessnock,2017,2017-09-03,0.009780061126096872,1921.937807651818,0.1-1%,True,0.0,,0.0,21415,one fire in the council (lower bound),,False
+771,Kempsey Bushfire: 27 August 2017 onwards,14350,Kempsey,2017,2017-08-08,0.03106839732882531,10487.66692383561,2-5%,False,,,,12423,,,False
+772,Mid-Coast and Port Macquarie-Hastings Bushfires: 30 August 2017 onwards,15240,Mid-Coast,2017,2017-09-05,0.003959671742705361,3980.999841403289,0.1-1%,False,,,,44645,,,False
+772,Mid-Coast and Port Macquarie-Hastings Bushfires: 30 August 2017 onwards,16380,Port Macquarie-Hastings,2017,2017-08-16,0.006682243900929217,2460.663814170934,0.1-1%,False,,,,34422,,,False
+776,Tenterfield Bushfires: 8 September 2017 onwards,17400,Tenterfield,2017,2017-09-06,0.01700737228499191,12456.72192800492,1-2%,False,,,,3322,,,False
+792,Singleton Bushfires: 18 December 2017 onwards,17000,Singleton,2017,2017-12-18,0.0002252936810640138,110.2298178276154,<0.1%,False,,,,8706,,,False
+818,Shoalhaven bushfires: 11 August 2018 onwards,16950,Shoalhaven,2018,2018-07-29,0.005138392466085267,2346.807172333723,0.1-1%,False,,1.0,,51639,,,False
+819,Cessnock and Port Stephens bushfires: 15 August 2018 onwards,11720,Cessnock,2018,2018-07-23,0.003694574349991707,726.0427143427831,0.1-1%,False,,,,21415,,,False
+819,Cessnock and Port Stephens bushfires: 15 August 2018 onwards,16400,Port Stephens,2018,2018-08-17,0.0488412822196487,4192.710029112182,2-5%,True,0.0,,0.0,31090,one fire in the council (lower bound),,False
+820,Bega Valley and Eurobodalla bushfires: 15 August 2018 onwards,10550,Bega Valley,2018,2018-08-13,0.03133414388858202,19673.14631388495,2-5%,True,4.0,,0.2458512599877074,16270,council figure,,False
+820,Bega Valley and Eurobodalla bushfires: 15 August 2018 onwards,12750,Eurobodalla,2018,2018-08-15,0.001256971874934924,430.9112644009942,0.1-1%,False,,,,21960,,,False
+823,"Richmond Valley, Lismore and Kyogle bushfires: 12 August 2018 onwards",14550,Kyogle,2018,2018-08-18,0.0004568849822809394,163.7559340758447,<0.1%,False,,,,4134,,,False
+823,"Richmond Valley, Lismore and Kyogle bushfires: 12 August 2018 onwards",16610,Richmond Valley,2018,2018-07-23,0.04078056516921887,12427.36666264364,2-5%,False,,,,9390,,,False
+824,Clarence Valley and Glen Innes Severn bushfires: 14 August 2018 onwards,11730,Clarence Valley,2018,2018-07-26,0.03443268759748316,35908.7494267205,2-5%,False,,,,22680,,,False
+824,Clarence Valley and Glen Innes Severn bushfires: 14 August 2018 onwards,13010,Glen Innes Severn,2018,2018-08-11,0.0030259654254919,1658.222093449167,0.1-1%,False,,,,4032,,,False
+841,Tamworth (Rockview) Bushfire: 30 October 2018 onwards,17310,Tamworth Regional,2018,2018-10-30,0.0013556194541166,1339.941782910717,0.1-1%,False,,,,24329,,,False
+842,Port Stephens and Cessnock Bushfires: 22 November 2018 onwards,11720,Cessnock,2019,2019-01-02,0.0005630419518996945,110.6467128065882,<0.1%,False,,,,21415,,,False
+842,Port Stephens and Cessnock Bushfires: 22 November 2018 onwards,16400,Port Stephens,2018,2018-11-21,0.02452877869888296,2105.637931252069,2-5%,False,,,,31090,,,False
+843,Northern NSW Bushfires: 11 February 2019 onwards,10180,Armidale Regional,2019,2019-02-09,8.539368894958602e-06,6.668769414666684,<0.1%,False,,,,11862,,,False
+843,Northern NSW Bushfires: 11 February 2019 onwards,14220,Inverell,2019,2019-02-09,0.0250122591438754,23523.42042618214,2-5%,True,14.0,,2.069475240206947,6765,council figure,,False
+843,Northern NSW Bushfires: 11 February 2019 onwards,17400,Tenterfield,2019,2019-02-12,0.0457622566985581,33517.68262254976,2-5%,True,18.0,18.0,5.418422636965683,3322,one fire in the council (lower bound),,False
+847,Armidale (Melrose) Bushfire: 1 December 2018 onwards,10180,Armidale Regional,2018,2018-12-01,0.004374868610659235,3416.527654774827,0.1-1%,False,,,,11862,,,False
+851,Glen Innes Severn (Highland Creek) Bushfire: 25 December 2018 onwards,13010,Glen Innes Severn,2018,2018-12-25,0.008811906819293336,4828.904669587147,0.1-1%,False,,,,4032,,,False
+853,Parkes and Cabonne (Curembenya) Bushfire: 5 January 2019 onwards,11400,Cabonne,2019,2019-01-03,0.0003889760527763181,234.254977584735,<0.1%,True,0.0,,0.0,5384,one fire in the council (lower bound),,False
+853,Parkes and Cabonne (Curembenya) Bushfire: 5 January 2019 onwards,16200,Parkes,2019,2019-01-05,0.0040674443753682,2423.226233468171,0.1-1%,True,0.0,,0.0,6189,council figure,,False
+855,Tamworth (Halls Creek Road) Bushfire: 3 January 2019 onwards,17310,Tamworth Regional,2019,2019-01-03,0.0026489304405218,2618.295692423791,0.1-1%,False,,,,24329,,,False
+860,Snowy Valleys Bushfires: 17 January 2019 onwards,17080,Snowy Valleys,2019,2019-01-17,0.00930924997485504,8340.083974860485,0.1-1%,False,,,,6424,,,False
+862,Tamworth Regional and Upper Hunter Bushfires: 11 February 2019 onwards,17310,Tamworth Regional,2019,2019-01-16,0.0001872196951745903,185.0545087609389,<0.1%,False,,,,24329,,,False
+862,Tamworth Regional and Upper Hunter Bushfires: 11 February 2019 onwards,17620,Upper Hunter Shire,2019,2019-02-18,3.026732481957707e-05,24.50469525044724,<0.1%,False,,,,6029,,,False
+864,Tenterfield Bushfires: 9 March 2019 onwards,17400,Tenterfield,2019,2019-03-09,0.009132911007454543,6689.224584885912,0.1-1%,False,,,,3322,,,False
+866,Newcastle (Kooragang Island) Bushfires: 5 January 2019 onwards,15900,Newcastle,2019,2019-01-04,0.005608695617164045,104.7286493462795,0.1-1%,False,,,,66471,,,False
+867,Singleton and Muswellbrook Bushfires: 11 February 2019 onwards,15650,Muswellbrook,2019,2019-02-04,0.0001443641020583,49.15430357091219,<0.1%,False,,,,6831,,,False
+867,Singleton and Muswellbrook Bushfires: 11 February 2019 onwards,17000,Singleton,2019,2019-02-10,7.226120795193512e-06,3.535536261347265,<0.1%,False,,,,8706,,,False
+871,NSW Bushfires: 31 August 2019 onwards,10180,Armidale Regional,2019,2019-08-08,0.2591907107430886,202413.4459619936,>=10%,True,12.0,3.0,1.011633788568538,11862,council figure,,True
+871,NSW Bushfires: 31 August 2019 onwards,10250,Ballina,2019,2019-10-17,0.0183895654643258,891.8372851581736,1-2%,True,0.0,0.0,0.0,17770,council figure,,True
+871,NSW Bushfires: 31 August 2019 onwards,10550,Bega Valley,2019,2019-12-26,0.5563786352982462,349322.3985012266,>=10%,True,467.0,134.0,28.70313460356484,16270,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,10600,Bellingen,2019,2019-08-10,0.1125189368476572,18007.91096710564,>=10%,True,0.0,0.0,0.0,5636,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,10900,Blue Mountains,2019,2019-10-23,0.4694112665318844,67179.52115117606,>=10%,True,22.0,10.0,0.670180034727511,32827,council figure,,True
+871,NSW Bushfires: 31 August 2019 onwards,11350,Byron,2019,2019-11-07,0.0398639943413809,2255.515563113805,2-5%,True,0.0,0.0,0.0,13423,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,11650,Central Coast (NSW),2019,2019-09-22,0.1709942966559003,28744.24215449187,>=10%,True,4.0,7.0,0.02892974411641329,138266,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,11720,Cessnock,2019,2019-10-21,0.2952386689445115,58019.10159959285,>=10%,True,21.0,13.0,0.9806210600046695,21415,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,11730,Clarence Valley,2019,2019-08-27,0.5049486855844519,526594.8460360342,>=10%,True,168.0,58.0,7.407407407407407,22680,council figure,,True
+871,NSW Bushfires: 31 August 2019 onwards,11800,Coffs Harbour,2019,2019-08-24,0.03739548551320533,4389.270805046905,2-5%,True,17.0,7.0,0.5671582037766064,29974,council figure,,True
+871,NSW Bushfires: 31 August 2019 onwards,12160,Cootamundra-Gundagai Regional,2019,2019-12-27,0.0063896693999211,2543.993965115986,0.1-1%,True,0.0,0.0,0.0,5037,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,12700,Dungog,2019,2019-11-22,0.039580135344538,8905.523723898063,2-5%,True,0.0,0.0,0.0,3783,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,12750,Eurobodalla,2019,2019-11-25,0.762478657047281,261390.6076490449,>=10%,True,510.0,274.0,23.224043715847,21960,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,13010,Glen Innes Severn,2019,2019-08-30,0.2897558327869573,158785.5299288376,>=10%,True,75.0,17.0,18.60119047619047,4032,council figure,13500000.0,True
+871,NSW Bushfires: 31 August 2019 onwards,13310,Goulburn Mulwaree,2019,2019-11-25,0.03207630104513928,10328.82426389122,2-5%,True,1.0,2.0,0.07766387076731904,12876,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,13340,Greater Hume Shire,2019,2019-12-28,0.0546290336891299,31408.34834293623,5-10%,True,8.0,4.0,1.853138753764188,4317,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,13660,Gwydir,2019,2019-10-16,0.005299158276594535,4906.837425216618,0.1-1%,True,0.0,0.0,0.0,2347,council figure,,True
+871,NSW Bushfires: 31 August 2019 onwards,13800,Hawkesbury,2019,2019-10-23,0.7327689242656404,203353.4740394917,>=10%,True,19.0,13.0,0.8324205914567361,22825,council figure,,True
+871,NSW Bushfires: 31 August 2019 onwards,14220,Inverell,2019,2019-10-16,0.01097432593446408,10321.08620678401,1-2%,True,1.0,0.0,0.147819660014782,6765,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,14350,Kempsey,2019,2019-08-04,0.4684943064591288,158148.236288261,>=10%,True,68.0,24.0,5.473718103517669,12423,council figure,,True
+871,NSW Bushfires: 31 August 2019 onwards,14500,Ku-ring-gai,2019,2019-11-11,0.0001852490677544389,1.582199320256556,<0.1%,True,0.0,0.0,0.0,41266,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,14550,Kyogle,2019,2019-09-07,0.05910980632450299,21186.0357050596,5-10%,True,6.0,2.0,1.451378809869376,4134,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,14650,Lake Macquarie,2019,2019-10-25,0.003555106031383386,230.598148762237,0.1-1%,True,0.0,0.0,0.0,80105,council figure,,True
+871,NSW Bushfires: 31 August 2019 onwards,14850,Lismore,2019,2019-11-07,0.023613784336061,3040.756926743997,2-5%,True,2.0,0.0,0.1129752019431735,17703,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,14870,Lithgow,2019,2019-09-05,0.5195941563650227,234454.1901582429,>=10%,True,54.0,21.0,6.058566139347022,8913,council figure,,True
+871,NSW Bushfires: 31 August 2019 onwards,15240,Mid-Coast,2019,2019-08-07,0.2051108716765093,206215.6665179474,>=10%,True,125.0,67.0,2.79986560645089,44645,council figure,,True
+871,NSW Bushfires: 31 August 2019 onwards,15270,Mid-Western Regional,2019,2019-09-12,0.08492358015410204,74327.3160223604,5-10%,True,10.0,3.0,0.959140610013428,10426,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,15650,Muswellbrook,2019,2019-10-23,0.2612394585450191,88949.00786925455,>=10%,True,0.0,0.0,0.0,6831,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,15700,Nambucca Valley,2019,2019-10-16,0.2388780721453784,35624.91646353125,>=10%,True,64.0,19.0,7.301768397033657,8765,council figure,,True
+871,NSW Bushfires: 31 August 2019 onwards,15750,Narrabri,2019,2019-10-16,0.009815506894364568,12774.87603924635,0.1-1%,True,0.0,0.0,0.0,5362,council figure,,True
+871,NSW Bushfires: 31 August 2019 onwards,16100,Oberon,2019,2019-10-28,0.1906219192339689,69101.34164533415,>=10%,True,4.0,2.0,1.682085786375105,2378,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,16350,Penrith,2019,2019-10-26,0.0003284410543062959,13.29207844039726,<0.1%,True,0.0,0.0,0.0,67638,council figure,,True
+871,NSW Bushfires: 31 August 2019 onwards,16380,Port Macquarie-Hastings,2019,2019-07-17,0.3891209157097166,143289.5552481679,>=10%,True,26.0,11.0,0.7553308930335251,34422,council figure,,True
+871,NSW Bushfires: 31 August 2019 onwards,16490,Queanbeyan-Palerang Regional,2019,2019-11-25,0.2200383152326854,117038.5449010018,>=10%,True,57.0,20.0,2.536715620827771,22470,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,16610,Richmond Valley,2019,2019-10-03,0.4374127479022951,133296.0585156208,>=10%,True,62.0,25.0,6.602768903088392,9390,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,16950,Shoalhaven,2019,2019-11-25,0.6961964017655052,317966.8971959457,>=10%,True,285.0,168.0,5.519084412943705,51639,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,17000,Singleton,2019,2019-09-25,0.3671688087217654,179645.2998868969,>=10%,True,1.0,6.0,0.1148633126579371,8706,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,17040,Snowy Monaro Regional,2019,2019-12-26,0.1189940814370643,180452.0303833618,>=10%,True,31.0,15.0,3.128469068523565,9909,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,17080,Snowy Valleys,2019,2019-12-20,0.4575993276488825,409959.6454859123,>=10%,True,193.0,49.0,30.04358655043587,6424,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,17150,Sutherland Shire,2019,2019-10-25,0.0001261919904776144,4.209519989872755,<0.1%,True,0.0,0.0,0.0,81640,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,17310,Tamworth Regional,2019,2019-10-16,0.04689845449885858,46356.07621750229,2-5%,True,0.0,0.0,0.0,24329,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,17400,Tenterfield,2019,2019-09-05,0.3049052750504803,223321.9901370217,>=10%,True,54.0,23.0,16.25526791089705,3322,council figure,,True
+871,NSW Bushfires: 31 August 2019 onwards,17550,Tweed,2019,2019-11-07,0.009905556604093197,1295.434131515111,0.1-1%,True,1.0,0.0,0.02544658761260115,39298,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,17620,Upper Hunter Shire,2019,2019-08-24,0.02510844617201956,20328.02123495391,2-5%,True,0.0,0.0,0.0,6029,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,17640,Upper Lachlan Shire,2019,2019-11-25,0.0321556306024138,22918.59032864331,2-5%,True,3.0,1.0,0.7431260837255388,4037,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,17650,Uralla,2019,2019-11-20,0.02011199592196867,6489.201250449913,2-5%,True,0.0,0.0,0.0,2582,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,17750,Wagga Wagga,2019,2019-12-27,0.0174968087838924,8441.315801363065,1-2%,True,0.0,0.0,0.0,24929,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,17850,Walcha,2019,2019-09-06,0.3768723807749921,235960.713403108,>=10%,True,22.0,1.0,15.24601524601525,1443,council figure,,True
+871,NSW Bushfires: 31 August 2019 onwards,18350,Wingecarribee,2019,2019-11-25,0.2312123110852941,62180.88635125917,>=10%,True,68.0,18.0,3.309646646549207,20546,council figure,2319164486.0,True
+871,NSW Bushfires: 31 August 2019 onwards,18400,Wollondilly,2019,2019-09-30,0.5976070516086865,152714.5438081298,>=10%,True,19.0,18.0,1.1839481555334,16048,council figure,2319164486.0,True
+880,NSW North Coast Bushfires: Commencing 18 July 2019 onwards,11730,Clarence Valley,2019,2019-07-12,0.07926979585679156,82667.93663637328,5-10%,False,,,,22680,,,False
+880,NSW North Coast Bushfires: Commencing 18 July 2019 onwards,14350,Kempsey,2019,2019-07-14,0.02831006026552461,9556.543246054869,2-5%,True,1.0,,0.08049585446349512,12423,one fire in the council (lower bound),,False
+880,NSW North Coast Bushfires: Commencing 18 July 2019 onwards,14550,Kyogle,2019,2019-08-07,0.0018224474324086,653.1984923388513,0.1-1%,False,,,,4134,,,False
+880,NSW North Coast Bushfires: Commencing 18 July 2019 onwards,15240,Mid-Coast,2019,2019-07-25,0.002954650095324601,2970.56481577269,0.1-1%,False,,,,44645,,,False
+880,NSW North Coast Bushfires: Commencing 18 July 2019 onwards,15700,Nambucca Valley,2019,2019-08-16,1.182784682453549e-05,1.763937774962792,<0.1%,False,,,,8765,,,False
+880,NSW North Coast Bushfires: Commencing 18 July 2019 onwards,16380,Port Macquarie-Hastings,2019,2019-07-17,0.006116737212332708,2252.42211184289,0.1-1%,False,,,,34422,,,False
+880,NSW North Coast Bushfires: Commencing 18 July 2019 onwards,16610,Richmond Valley,2019,2019-08-08,0.02378652594054071,7248.645973075039,2-5%,True,2.0,1.0,0.2129925452609158,9390,one fire in the council (lower bound),,False
+NSW1718-05,"Mid-Coast, Port Macquarie-Hastings, Dungog and Upper Hunter Bushfires: 23 September 2017 onwards",12700,Dungog,2017,2017-09-25,0.005676843997952933,1277.288934475954,0.1-1%,False,,,,3783,,,False
+NSW1718-05,"Mid-Coast, Port Macquarie-Hastings, Dungog and Upper Hunter Bushfires: 23 September 2017 onwards",15240,Mid-Coast,2017,2017-09-05,0.006597458425116145,6632.994513355302,0.1-1%,False,,,,44645,,,False
+NSW1718-05,"Mid-Coast, Port Macquarie-Hastings, Dungog and Upper Hunter Bushfires: 23 September 2017 onwards",16380,Port Macquarie-Hastings,2017,2017-09-24,0.007331312185376412,2699.676167527693,0.1-1%,True,6.0,2.0,0.1743071291615827,34422,one fire in the council (lower bound),,False
+NSW1718-05,"Mid-Coast, Port Macquarie-Hastings, Dungog and Upper Hunter Bushfires: 23 September 2017 onwards",17620,Upper Hunter Shire,2017,2017-10-29,0.0003627635464164584,293.6965921467176,<0.1%,False,,,,6029,,,False
+NSW1718-06,Kempsey and Port Macquarie-Hastings Bushfire: 5 December 2017 onwards,14350,Kempsey,2017,2017-12-05,0.008523253185095975,2877.169348863452,0.1-1%,False,,,,12423,,,False
+NSW1718-06,Kempsey and Port Macquarie-Hastings Bushfire: 5 December 2017 onwards,16380,Port Macquarie-Hastings,2017,2017-12-05,0.01980186274537473,7291.82110577352,1-2%,False,,,,34422,,,False
+NSW1718-08,Tamworth Bushfire: 25 December 2017 onwards,17310,Tamworth Regional,2017,2017-12-17,0.002930567411567811,2896.675545981441,0.1-1%,False,,,,24329,,,False
+NSW1718-09,"Tamworth, Uralla and Gwydir Bushfires: 2 January 2018 onwards",13660,Gwydir,2018,2018-01-18,0.003189973714938218,2953.805414541267,0.1-1%,False,,,,2347,,,False
+NSW1718-09,"Tamworth, Uralla and Gwydir Bushfires: 2 January 2018 onwards",17310,Tamworth Regional,2017,2017-12-17,0.01720122600753827,17002.29468882255,1-2%,False,,,,24329,,,False
+NSW1718-09,"Tamworth, Uralla and Gwydir Bushfires: 2 January 2018 onwards",17650,Uralla,2018,2018-01-18,0.003917008451233,1263.835585407967,0.1-1%,False,,,,2582,,,False
+NSW1718-10,Port Stephens Bushfire: 8 January 2018 onwards,16400,Port Stephens,2018,2018-01-08,0.02942484861056746,2525.934051440653,2-5%,True,0.0,,0.0,31090,one fire in the council (lower bound),,False
+NSW1718-11,"Singleton, Cessnock and Muswellbrook Bushfires: 13 January 2018 onwards",11720,Cessnock,2018,2018-01-26,0.0003491472379601926,68.61299417468774,<0.1%,False,,,,21415,,,False
+NSW1718-11,"Singleton, Cessnock and Muswellbrook Bushfires: 13 January 2018 onwards",15650,Muswellbrook,2018,2018-01-08,0.0001058190404578,36.0301568332311,<0.1%,False,,,,6831,,,False
+NSW1718-11,"Singleton, Cessnock and Muswellbrook Bushfires: 13 January 2018 onwards",17000,Singleton,2018,2018-01-22,0.04116141262633229,20139.11350685884,2-5%,False,,,,8706,,,False
+NSW1718-12,Narrabri and Warrumbungle Bushfires: 17 January 2018 onwards,15750,Narrabri,2018,2018-01-17,0.031892436410954,41507.98589662193,2-5%,False,,,,5362,,,False
+NSW1718-12,Narrabri and Warrumbungle Bushfires: 17 January 2018 onwards,18020,Warrumbungle Shire,2018,2018-01-17,0.01633484811789274,20209.67010963446,1-2%,False,,,,4280,,,False
+NSW1718-13,Upper Lachlan (Long Gully) Bushfire: 19 January 2018 onwards,17640,Upper Lachlan Shire,2018,2018-01-19,0.003492828118775905,2489.476811460262,0.1-1%,False,,,,4037,,,False
+NSW1718-14,Sutherland (Royal National Park) Bushfire: 20 January 2018 onwards,17150,Sutherland Shire,2018,2018-01-21,0.06811184865404443,2272.079134112535,5-10%,True,0.0,,0.0,81640,one fire in the council (lower bound),,False
+NSW1718-15,Upper Hunter Bushfires: 23 January 2018 onwards,17620,Upper Hunter Shire,2018,2018-01-02,0.003056424692395523,2474.508602579118,0.1-1%,False,,,,6029,,,False
+NSW1718-16,Muswellbrook and Mid-Western Bushfires: 23 January 2018 onwards,15270,Mid-Western Regional,2018,2018-01-23,0.0009102540479721512,796.677909262622,<0.1%,False,,,,10426,,,False
+NSW1718-16,Muswellbrook and Mid-Western Bushfires: 23 January 2018 onwards,15650,Muswellbrook,2018,2018-01-23,0.00147634826325235,502.6794727611102,0.1-1%,False,,,,6831,,,False
+NSW1718-17,NSW Central West Bushfires: 9 February 2018 onwards,10470,Bathurst Regional,2018,2018-02-09,0.0007318238134062,279.4004157458302,<0.1%,False,,,,16443,,,False
+NSW1718-17,NSW Central West Bushfires: 9 February 2018 onwards,11400,Cabonne,2018,2018-02-09,0.004609491995279675,2775.997227397631,0.1-1%,True,0.0,,0.0,5384,one fire in the council (lower bound),,False
+NSW1718-18,Lithgow Bushfire: 12 February 2018 onwards,14870,Lithgow,2018,2018-02-12,0.0006239542383343873,281.5441318045336,<0.1%,False,,,,8913,,,False
+NSW1718-19,Narrabri and Gwydir (Bobbiwaa Creek) Bushfire: 12 February 2018 onwards,13660,Gwydir,2018,2018-02-11,0.00319063476739665,2954.417526271802,0.1-1%,False,,,,2347,,,False
+NSW1718-19,Narrabri and Gwydir (Bobbiwaa Creek) Bushfire: 12 February 2018 onwards,15750,Narrabri,2018,2018-02-11,0.0013562483415136,1765.156362043605,0.1-1%,False,,,,5362,,,False
+NSW1718-20,Bega Bushfire (Tathra / Reedy Swamp): 18 March 2018 onwards,10550,Bega Valley,2018,2018-03-18,0.002223702882475941,1396.152143843956,0.1-1%,True,65.0,48.0,3.995082974800246,16270,council figure,82489235.0,False
+NSW1718-21,Liverpool and Sutherland Bushfire: 14 April 2018 onwards,14900,Liverpool,2018,2018-04-14,0.07645769536170537,2337.618342565736,5-10%,True,0.0,,0.0,61741,council figure,,False
+NSW1718-21,Liverpool and Sutherland Bushfire: 14 April 2018 onwards,17150,Sutherland Shire,2018,2018-04-14,0.05197663107671097,1733.839578054791,5-10%,True,0.0,,0.0,81640,council figure,,False
+RAA-raa_2015_p15_r01,"Bushfire (NSW RAA annual report, onset 2015-03-01)",15750,Narrabri,2015,2015-03-04,0.0001920995605412482,250.0174570218324,<0.1%,True,0.0,0.0,0.0,5362,one fire in the council (lower bound),,False
+RAA-raa_2015_p15_r05,"Bushfire (NSW RAA annual report, onset 2015-08-02)",10900,Blue Mountains,2015,2015-07-31,0.004128169804091,590.8006271740015,0.1-1%,True,0.0,1.0,0.0,32827,council figure,,False
+RAA-raa_2015_p15_r09,"Bushfire (NSW RAA annual report, onset 2015-11-26)",16950,Shoalhaven,2015,2015-12-10,2.943249721514963e-07,0.1344241336567783,<0.1%,False,,,,51639,,,False
+RAA-raa_2015_p15_r11,"Bushfire (NSW RAA annual report, onset 2015-12-11)",13800,Hawkesbury,2015,2015-12-09,0.01964959656139383,5453.033817227415,1-2%,True,0.0,,0.0,22825,one fire in the council (lower bound),,False
+RAA-raa_2016_p13_r06,"Bushfire (NSW RAA annual report, onset 2016-11-05)",14350,Kempsey,2016,2016-11-05,0.01467071046141391,4952.348305156552,1-2%,True,0.0,,0.0,12423,one fire in the council (lower bound),1000000.0,False
+RAA-raa_2016_p13_r07,"Bushfire (NSW RAA annual report, onset 2016-11-05)",17400,Tenterfield,2016,2016-11-05,0.0103010844578864,7544.830706270684,1-2%,False,,,,3322,,1000000.0,False
+RAA-raa_2016_p13_r08,"Bushfire (NSW RAA annual report, onset 2016-11-05)",11720,Cessnock,2016,2016-11-05,0.005773560165588773,1134.596545351647,0.1-1%,True,0.0,2.0,0.0,21415,one fire in the council (lower bound),1000000.0,False
+RAA-raa_2016_p13_r08,"Bushfire (NSW RAA annual report, onset 2016-11-05)",12700,Dungog,2016,2016-11-04,0.0017797845502939,400.4512212527551,0.1-1%,True,0.0,,0.0,3783,one fire in the council (lower bound),1000000.0,False
+RAA-raa_2016_p13_r08,"Bushfire (NSW RAA annual report, onset 2016-11-05)",15240,Mid-Coast,2016,2016-11-04,0.002396645833331316,2409.554958682845,0.1-1%,True,0.0,,0.0,44645,one fire in the council (lower bound),1000000.0,False
+RAA-raa_2016_p13_r08,"Bushfire (NSW RAA annual report, onset 2016-11-05)",16400,Port Stephens,2016,2016-11-04,0.0826089231696552,7091.44487873892,5-10%,True,0.0,,0.0,31090,one fire in the council (lower bound),1000000.0,False
+RAA-raa_2016_p13_r12,"Bushfire (NSW RAA annual report, onset 2016-11-13)",16350,Penrith,2016,2016-11-13,0.0067521322341081,273.2602094621257,0.1-1%,False,,,,67638,,,False
+RAA-raa_2016_p13_r16,"Bushfire (NSW RAA annual report, onset 2016-12-13)",11720,Cessnock,2016,2016-12-13,0.006075937411196543,1194.018490983105,0.1-1%,False,,,,21415,,,False
+RAA-raa_2016_p13_r17,"Bushfire (NSW RAA annual report, onset 2017-01-12)",15270,Mid-Western Regional,2017,2017-01-11,0.001410355526210784,1234.37967064432,0.1-1%,False,,,,10426,,33500000.0,False
+RAA-raa_2016_p13_r22,"Bushfire (NSW RAA annual report, onset 2017-01-18)",11720,Cessnock,2017,2017-01-14,0.003797306662697526,746.2312503152244,0.1-1%,True,0.0,,0.0,21415,council figure,,False
+RAA-raa_2016_p13_r23,"Bushfire (NSW RAA annual report, onset 2017-02-11)",14350,Kempsey,2017,2017-02-16,0.001142815346154,385.7767936677925,0.1-1%,True,2.0,,0.1609917089269902,12423,council figure,33500000.0,False
+RAA-raa_2016_p13_r23,"Bushfire (NSW RAA annual report, onset 2017-02-11)",15240,Mid-Coast,2017,2017-02-04,0.01839891498352685,18498.01761127037,1-2%,False,,,,44645,,,False
+RAA-raa_2016_p13_r23,"Bushfire (NSW RAA annual report, onset 2017-02-11)",15270,Mid-Western Regional,2017,2017-02-11,0.0089121483618037,7800.142981771827,0.1-1%,True,1.0,,0.0959140610013428,10426,council figure,33500000.0,False
+RAA-raa_2016_p13_r23,"Bushfire (NSW RAA annual report, onset 2017-02-11)",17620,Upper Hunter Shire,2017,2017-02-11,0.0173444281676853,14042.20323652446,1-2%,False,,,,6029,,33500000.0,False
+RAA-raa_2016_p13_r23,"Bushfire (NSW RAA annual report, onset 2017-02-11)",18020,Warrumbungle Shire,2017,2017-02-11,0.03237797443090353,40058.41850160706,2-5%,True,35.0,11.0,8.177570093457943,4280,council figure,33500000.0,False
+RAA-raa_2016_p13_r26,"Bushfire (NSW RAA annual report, onset 2017-02-19)",17000,Singleton,2017,2017-02-11,0.004912135041206714,2403.368563998096,0.1-1%,False,,,,8706,,,False

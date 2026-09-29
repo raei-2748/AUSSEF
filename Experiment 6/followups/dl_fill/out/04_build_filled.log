@@ -1,0 +1,13 @@
+DL_fill_flag
+original_sourced                90
+reported_new                     3
+inferred_zero_season            42
+reported_weak                    3
+estimated_area_share             2
+estimated_zero_season_budget    27
+estimated_zero_small_fire       41
+missing                         10
+DL_v0_original rows with DL: 90 of 218
+DL_v1_reported rows with DL: 93 of 218
+DL_v2_inferred rows with DL: 135 of 218
+DL_v3_estimated rows with DL: 208 of 218

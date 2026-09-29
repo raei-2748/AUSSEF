@@ -1,0 +1,56 @@
+nulls done 0s; ICC of real T* by council = 0.325
+int done 2s
+thr/main done 3s
+         model block   sample        rule  mde_g_80pct_power  power_at_largest_rho_pct  largest_implied_g
+0   M1_primary     H      all  unadjusted           0.256598                      91.9           0.288673
+1   M1_primary     H      all        Holm                NaN                      77.9           0.288673
+2   M1_primary     H  excl_BS  unadjusted                NaN                      57.0           0.288673
+3   M1_primary     H  excl_BS        Holm                NaN                      35.4           0.288673
+4   M1_primary     E      all  unadjusted           0.300729                      87.0           0.321207
+5   M1_primary     E      all        Holm                NaN                      70.3           0.321207
+6   M1_primary     E  excl_BS  unadjusted                NaN                      52.8           0.321207
+7   M1_primary     E  excl_BS        Holm                NaN                      30.4           0.321207
+8   M1_primary     V      all  unadjusted           0.205364                      99.0           0.289457
+9   M1_primary     V      all        Holm           0.248724                      96.0           0.289457
+10  M1_primary     V  excl_BS  unadjusted                NaN                      60.1           0.289457
+11  M1_primary     V  excl_BS        Holm                NaN                      39.2           0.289457
+12  M1_primary     F      all  unadjusted           0.236059                      97.7           0.316102
+13  M1_primary     F      all        Holm           0.285191                      91.5           0.316102
+14  M1_primary     F  excl_BS  unadjusted           0.311111                      81.8           0.316102
+15  M1_primary     F  excl_BS        Holm                NaN                      61.7           0.316102
+16  M1_noevent     H      all  unadjusted           0.221316                      96.8           0.288673
+17  M1_noevent     H      all        Holm           0.267432                      88.3           0.288673
+18  M1_noevent     H  excl_BS  unadjusted                NaN                      65.1           0.288673
+19  M1_noevent     H  excl_BS        Holm                NaN                      43.2           0.288673
+20  M1_noevent     E      all  unadjusted           0.238144                      97.3           0.321207
+21  M1_noevent     E      all        Holm           0.298093                      86.8           0.321207
+22  M1_noevent     E  excl_BS  unadjusted                NaN                      63.8           0.321207
+23  M1_noevent     E  excl_BS        Holm                NaN                      40.3           0.321207
+24  M1_noevent     V      all  unadjusted           0.181320                      99.4           0.289457
+25  M1_noevent     V      all        Holm           0.232986                      97.5           0.289457
+26  M1_noevent     V  excl_BS  unadjusted           0.286423                      81.0           0.289457
+27  M1_noevent     V  excl_BS        Holm                NaN                      59.6           0.289457
+28  M1_noevent     F      all  unadjusted           0.268733                      95.6           0.316102
+29  M1_noevent     F      all        Holm           0.304325                      85.6           0.316102
+30  M1_noevent     F  excl_BS  unadjusted                NaN                      70.9           0.316102
+31  M1_noevent     F  excl_BS        Holm                NaN                      49.3           0.316102
+
+NULL false-alarm rates, M1_primary (two-sided %, nominal 5):
+term                  b_E  b_F  b_H  b_V  g_E  g_F  g_H  g_V  omnibus_g
+scenario     sample                                                    
+null_council all      4.0  5.1  4.1  5.1  3.9  3.9  2.9  3.5        5.2
+             excl_BS  3.4  5.4  3.7  5.0  2.4  2.9  2.6  2.6        4.0
+null_full    all      4.8  4.7  4.0  3.9  3.2  4.0  2.9  3.6        6.1
+             excl_BS  2.6  4.4  3.6  3.7  3.2  3.2  3.8  4.0        5.6
+null_stratum all      3.7  3.8  3.6  4.0  3.6  3.4  3.3  4.0        5.3
+             excl_BS  3.4  3.6  3.4  3.4  2.8  3.2  3.5  3.5        5.1
+
+NULL false-alarm rates, M1_noevent (for comparison):
+term                  b_E  b_F   b_H  b_V  g_E  g_F  g_H  g_V  omnibus_g
+scenario     sample                                                     
+null_council all      3.9  5.2   4.7  5.5  3.8  4.4  3.1  3.6        5.2
+             excl_BS  3.9  5.0   3.6  5.3  3.1  3.1  3.2  3.1        4.4
+null_full    all      5.3  5.0   4.6  3.6  3.3  4.2  3.6  4.0        6.6
+             excl_BS  2.6  5.1   3.6  4.1  2.9  3.4  4.2  4.4        6.4
+null_stratum all      4.5  3.8  20.6  3.7  7.7  3.8  5.9  4.4       17.5
+             excl_BS  3.1  3.5  11.1  2.6  3.2  2.9  3.8  4.6        9.4

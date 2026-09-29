@@ -1,0 +1,10 @@
+component,all rows,fires >= 5% of council,Black Summer (AGRN 871),excluding Black Summer
+old cash drawdown (event and/or plus1),199/218,38/38,50/50,149/168
+  cash: event only available,38/218,3/38,0/50,38/168
+old services crowd-out (plus1),193/218,36/38,46/50,147/168
+old renewals ratio (plus1),199/218,38/38,50/50,149/168
+operating ratio event (t),198/218,38/38,49/50,149/168
+operating ratio plus1 (t+1),160/218,35/38,49/50,111/168
+own-source revenue event (t),199/218,38/38,50/50,149/168
+own-source revenue plus1 (t+1),161/218,35/38,50/50,111/168
+old FP (>=1 component),199/218,38/38,50/50,149/168

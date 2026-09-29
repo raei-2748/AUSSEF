@@ -6,7 +6,14 @@ No Y is used to build the score. Y, the indicators and the master sheet are unch
 
 ## Findings log (2026-09-29)
 
-A pre-fire council score built from BFPL, forest, exposure, vulnerability and council-finance inputs finds which councils later get a big fire (AUC about 0.95); this is the well-studied part and works as a sanity check. On the under-studied impact side, council vulnerability (SEIFA, income, unemployment) is associated with heavier impact (Spearman +0.25 on all rows, +0.58 on fires burning 5% or more of a council; intervals exclude zero), while pre-fire council finances show no link to impact or to FP. The power check shows the fiscal null is informative on all 218 rows (94% power at rho 0.3) but not on the large fires alone (18%), so it cannot yet be read as "finances don't matter". None of this is proven: the large-fire evidence is mostly Black Summer, many tests were run, and the hazard + vulnerability structure was chosen after seeing the results, so it needs more real large fires (other years or states) as a fresh test.
+**Status: promising, unconfirmed.**
+
+- **Where fires happen (well-studied, works as a sanity check):** a pre-fire council score built from BFPL land, forest, exposure, vulnerability and council-finance inputs finds the councils that later get a big fire (AUC about 0.95).
+- **Who is hurt (the under-studied part):** on the 2015-25 NSW fires, council vulnerability (SEIFA, income, unemployment) is associated with heavier impact (Spearman +0.25 on all rows, +0.58 on fires burning 5% or more of a council; intervals exclude zero). Real housing exposure (share of homes inside BFPL land, a post-hoc fix) lifts the whole score to +0.58 on large fires.
+- **Not confirmed on fresh fires:** on two independent earlier fires (NSW Oct 2013, Victoria Black Saturday 2009; 26 council rows, rule frozen in advance) the score's correlation with impact was +0.00 [-0.40, +0.40]: verdict "cannot tell". The test could detect a true correlation of 0.4 only 52% of the time. About 45-50 comparable council rows from independent fires are needed to settle it.
+- **Council finances:** no link to impact or to the fiscal-pressure pillar (FP). The fiscal null is informative on all 218 rows (94% power at rho 0.3), not on the large fires alone (18%). It is not explained by overlap with vulnerability or by disaster grants masking damage. A better fiscal measure built from NSW's own official benchmarks also shows nothing, and the FP outcome itself is mostly ordinary budget movement, so finances cannot be judged until the outcome is better defined.
+- **Model and fire size:** a random forest does not beat the fixed score (Black Summer hold-out: fixed +0.61, best RF +0.44). Using all rows with burned share as a continuous term finds no effect that grows with fire size (vulnerability matters about equally at every size, about +0.25 SD of Y per SD of V), so the +0.58 on large fires mostly reflects Black Summer councils having a less spread-out Y.
+- **Caveats:** most large-fire evidence is Black Summer; many tests were run; the exposure fix and the hazard + vulnerability structure were chosen after seeing results; the cross-validation on large-fire subsets is biased against fitted models (shuffled-Y check failed), so those RF comparisons are unreliable. Details are in the sections below and in the follow-ups section.
 
 ## What was built
 
@@ -124,6 +131,117 @@ What this says:
 
 Limits: the fake Y keeps real Y's spread and clustering but not council persistence over time; the bootstrap clusters by council, not by fire (same as the real analysis).
 
+## Exposure v2: real housing locations (`build_exposure_bfpl.py`)
+
+v1 exposure was a population count with an even-density guess, and it pointed the wrong way on Y (-0.33). v2 uses the **share of a council's dwellings
+and residents that sit inside BFPL Category 1-2 land**, from 2016 Census Mesh Block counts split at council lines and weighted by the area inside BFPL
+(same allocation rule and 2016 vintage as the dataset's other people-in-fire columns). Checks: council dwellings match the census within 2-32% (median 7%; the MB counts are
+randomly adjusted by the ABS); Blue Mountains 19%, Kempsey 20%, Kyogle 30%, Waverley/Woollahra/Sydney 0%. v1 result files are byte-identical; v2 files carry a `_v2` suffix.
+
+**This fix was made after seeing E's negative sign, so treat it as a labelled v2 choice, not a confirmed result.**
+
+| Spearman with Y (95% CI) | v1 score | **v2 score** | E block v1 | **E block v2** |
+|---|---|---|---|---|
+| all 218 rows | -0.07 [-0.25, +0.11] | **+0.12** [-0.09, +0.30] | -0.33 [-0.50, -0.15] | **+0.14** [-0.08, +0.32] |
+| fires >= 2% burned (62 rows) | +0.18 [-0.04, +0.38] | **+0.36** [+0.10, +0.58] | -0.26 | +0.34 [+0.00, +0.58] |
+| fires >= 5% burned (38 rows) | +0.34 [+0.01, +0.62] | **+0.58** [+0.25, +0.82] | -0.33 | +0.45 [+0.08, +0.74] |
+| DL, all rows | +0.28 [+0.05, +0.48] | **+0.43** [+0.22, +0.61] | -0.13 | +0.41 [+0.15, +0.62] |
+
+- Exposure now points the right way. Councils with more of their housing in bush-prone land had heavier direct loss (homes destroyed) and, on large fires, heavier indirect loss (IL +0.47 [+0.10, +0.74]).
+- It also finds which councils get hit: E v2 alone AUC 0.88-0.94 (v1 0.70); the v2 multiplicative score reaches 0.94-0.96 (v1 0.92).
+- Still true: excluding Black Summer the v2 score on Y is +0.01 [-0.22, +0.23] (DL +0.48 survives); FP is unrelated (-0.14 on >=5% fires).
+- The v2 score on >=5% fires (+0.58) now equals the vulnerability block alone (+0.58). Exposure v2 and BFPL share are correlated (0.76), so part of the gain is hazard information by another route.
+- Files: `results/*_v2.csv`, `COUNCIL_EXPOSURE_BFPL.csv`.
+
+## RF on the pre-fire inputs (`rf_score_model.py`)
+
+Question: does a random forest on the pre-fire inputs beat the fixed equal-weight score? Feature set A = the four v2 block scores; B = 15 item-level inputs (BFPL Cat 1 and 1-2, forest,
+dwellings/residents in BFPL, log population, SEIFA, income, unemployment, six council-finance ratios). Nothing known only after ignition. 5-fold cross-validation grouped by council
+(no council in both train and test, asserted), 5 repeats with different splits, RF settings chosen by inner grouped CV, 200 trees. Compared with the fixed score, the V block alone, ridge on the blocks, and
+a "not pre-fire" reference that adds the fire's burned share.
+
+**Sanity check failed on the large-fire subset.** With Y shuffled (no real signal), every fitted model still scored negative on fires burning >= 5% (-0.14 to -0.48; raw -0.16 to -0.52). This is the
+known negative bias of cross-validated correlations in small samples (a held-out group with high Y leaves a lower training mean). Centring predictions on each fold's training mean did not remove it.
+On all 218 rows the shuffled check is fine (-0.16 to +0.21). **So the fitted-model numbers on >=5%, >=2% and >=5,000 ha subsets are biased downward against the RF and ridge and cannot be compared fairly with the fixed score there.**
+The fixed score has no fitted step, so it is not affected. Run 1 (uncentred) is kept as `*_uncentered_run1.csv`.
+
+Spearman with Y, out-of-fold (centred), all rows and gain over the fixed score (95% CI, cluster bootstrap):
+
+| Model | Y, all rows | gain over fixed score | DL | IL | FP | SL |
+|---|---|---|---|---|---|---|
+| Fixed equal-weight score (v2) | +0.12 | - | +0.43 | +0.09 | -0.08 | +0.02 |
+| Ridge on blocks | +0.21 | +0.09 [-0.08, +0.27] | +0.50 | +0.34 | -0.05 | +0.14 |
+| RF, blocks (A) | +0.04 | -0.08 [-0.29, +0.14] | +0.56 | +0.20 | -0.04 | +0.06 |
+| RF, 15 items (B) | +0.23 [+0.01, +0.44] | +0.11 [-0.06, +0.29] | +0.44 | +0.29 | -0.09 | +0.05 |
+| RF B + burned share (not pre-fire) | +0.30 | - | +0.74 | +0.35 | +0.09 | +0.14 |
+
+- **The RF does not clearly beat the fixed score.** Gains over the fixed score are small and their intervals include zero, except ridge and RF-B on IL (+0.25 [+0.04, +0.46], +0.20 [+0.01, +0.44]), one of 15 comparisons
+  and not adjusted for testing many.
+- **Black Summer hold-out (the clean test, no fold artifact):** train on 34 rows from other councils and fires, test on the 50 Black Summer rows. Fixed score +0.61 [+0.35, +0.78]; RF-B +0.44 [+0.19, +0.64]; RF-A +0.25; ridge +0.10.
+  Models fitted on small fires do not transfer to Black Summer better than the hand-built score.
+- **Only two inputs matter to the RF** (permutation importance, Y): log population and SEIFA. BFPL, forest, dwellings-in-BFPL and all six council-finance ratios are at zero, consistent with the earlier fiscal null.
+- **Training on the >=2% fires only** (Bowen's "more representative large fires" idea) gave RF-A +0.63 [+0.35, +0.82] and RF-B +0.53 on >=5% fires vs +0.58 for the fixed score. Not reliable: the sanity check was not run for this variant and the subset shares the bias above.
+- The burned share adds most to DL (+0.44 -> +0.74 for RF-B on direct loss), as expected, but it is not known before a fire.
+- Files: `results/RF_*.csv`, `results/rf_importance.png`.
+
+## Why the fiscal block shows nothing (`fiscal_diagnostics.py` -> `results/FISCAL_DIAGNOSTICS.txt`)
+
+Descriptive Spearman correlations, not significance-tested. Four candidate explanations were checked or considered:
+
+1. **Not just vulnerability in disguise.** Fiscal (F) and vulnerability (V) blocks correlate 0.27 across all councils and 0.10 among the 69 councils that had a fire. F vs Y is +0.03 raw and -0.02 after removing V;
+   V vs Y is +0.25 raw and +0.25 after removing F. They are separate things.
+2. **The six fiscal ratios barely agree with each other** (mean off-diagonal |rho| 0.18; only cash cover and the unrestricted current ratio move together, 0.58), so an equal-weight average blends unrelated
+   ratios. This is not the whole story: the item-level RF found zero importance for all six.
+3. **Disaster money flows to hit councils but does not hide the damage.** The year after a fire, councils with >=5% burned had a median grants-per-resident rise of +$320 (vs comparison councils) against +$102 for
+   councils <2% burned, and total revenue up 16.4% vs 11.8%; councils with more home loss got bigger jumps (rho +0.25 to +0.28 with DL). But controlling for the revenue jump barely changes how FP responds to damage
+   (FP vs DL +0.20 -> +0.14; FP vs burned share on >=5% fires +0.30 -> +0.27), so masking does not explain the null. FP does rise weakly with damage; it is pre-fire finances (F) that do not predict FP.
+   Black Summer reported damage vs funding exists for only 2 councils (Bega Valley funding 39% of damage, Eurobodalla 68%), too few to conclude anything.
+4. **Not enough large fires** (power check: 18% power at rho 0.3 on >=5% fires) and **it may simply be true.**
+
+Reading for now: "pre-fire finances do not predict damage in these data, and we cannot say why", not "finances do not matter".
+
+## Dealing with the two limits: too few large fires, rough measures (proposals; several were then run, see the follow-ups section)
+
+**Too few large fires**
+- *Use every row, not a cut.* Model Y on the pre-fire inputs with burned share as a continuous term (and its interaction with the block), so 218 rows inform the answer instead of 38. This removes the arbitrary threshold and is cheap.
+- *Add real large fires.* Earlier NSW fires (e.g. 2013) and other states (Victoria 2009 and 2019-20, SA, TAS, QLD). This is the biggest lever and the biggest effort: it needs comparable council-level Y and finance data per state.
+- *Do not simulate fires to fill the gap:* simulated fires add no information about how councils are actually hurt (see the power-check discussion).
+
+**Rough measures**
+- *Fiscal:* replace the equal average of six unrelated ratios with a measure fixed in advance from a documented standard (NSW OLG's own performance benchmarks, e.g. operating ratio > 0, own-source revenue > 60%, unrestricted current ratio > 1.5,
+  debt service cover > 2, cash expense cover > 3 months; count how many a council meets), averaged over several pre-fire years instead of one snapshot. Keep pre-fire capacity separate from post-fire recovery funding.
+- *FP outcome:* it is built from three noisy change ratios; decide its composition in advance and treat grants as recovery funding, not a loss.
+- *DL:* missing for 128 of 218 rows. Fill from RFS or Department house-damage assessments where they exist.
+- *Face-validity check:* confirm the fiscal measure flags councils known to be in financial difficulty before using it.
+Whichever version is chosen must be fixed before it is tested on any new fires.
+
+## Follow-up sessions (2026-09-29): what each found
+
+Six separate sessions ran after the proposals above. Each fixed its design in advance, wrote a `FINDINGS.md` in `followups/<name>/`, and left this report, the workbook and the DuckDB untouched (workbook and DuckDB SHA-256 checked before and after in the fresh-test session). Nothing changed the main conclusion.
+
+| Follow-up | Question | Result |
+|---|---|---|
+| `allrows_continuous` | Does the score's link to impact grow with fire size, using all 218 rows and burned share as a continuous term? | No. All four interaction intervals include 0 (omnibus p = 0.31). Vulnerability is about +0.25 SD per SD at every size. Method false-alarm rate 2.4-6.1% on shuffled Y. One documented pre-fit amendment. |
+| `fiscal_benchmarks` | Does meeting NSW OLG's own benchmarks (8 benchmarks, 3 pre-fire years) predict impact? | No: +0.10 [-0.10, +0.28] on all rows, +0.13 [-0.25, +0.46] on fires burning 5% or more. Benchmark thresholds verified against official documents (they also include asset maintenance > 100%). Moderate face validity (rho +0.41 with 2013 TCorp ratings, 4 of 5 councils with documented trouble in the weakest third). |
+| `fp_outcome` | Is the fiscal-pressure outcome (FP) well built? | Mostly normal budget movement (76-87% of fire rows sit inside the unburned 10th-90th percentile band); its three ingredients do not agree (mean pairwise rho -0.04); the renewals-ratio ingredient is arguably scored backwards. Three literature-based alternatives frozen in advance; none clearly better (0 of 36 paired comparisons excluded zero). |
+| `dl_fill` | Can the missing direct loss (DL, 128 of 218 rows) be filled? | Only 3 rows from stated figures; 42 more are zeros inferred from RFS statewide season totals; 27 flagged estimates. Coverage 90 to 93 reported, 135 with inferred zeros. Conclusions hold: risk score vs DL +0.43 before, +0.42 [+0.25, +0.54] after (reported + inferred). |
+| `more_fires_scoping` | Which extra real large fires could be added? | Measured burned share from local outlines. Best value: NSW Oct 2013 (5 councils at 5% or more), South Australia (8 councils at 5% or more). Victoria's Black Saturday adds most (9 councils) but only a partial Y. Victorian, SA and Qld 2019 fires belong to the same season as Black Summer, so they add rows, not independent events. Council finance ratios are defined differently in every state. |
+| `new_fires_test` | Fresh test on two independent fires, frozen in advance | **Cannot tell** (details below). |
+
+### Fresh test on NSW Oct 2013 and Victoria Black Saturday 2009 (`followups/new_fires_test/`)
+
+- **Design (frozen and hash-locked before any outcome):** the v2 equal-weight score, with new councils placed in the original 129-council NSW distribution; the outcome built like the master (each indicator ranked against the existing 218-row distribution); pooled Spearman with a council-cluster bootstrap. Replicated only if the lower bound is above 0; not replicated only if the upper bound is below +0.30.
+- **Rows:** 26 council rows (NSW 13, Victoria 13); 14 at 5% or more burned.
+- **Result:** pooled **+0.00 [-0.40, +0.40]** (NSW -0.07, Victoria +0.10): cannot tell. Power on these rows: 33% at rho 0.3, 52% at 0.4, 79% at 0.5.
+- **What could be built:** NSW 2013 got hazard, exposure and vulnerability (the finance block was dropped by the frozen comparability rule); Victoria got vulnerability only (no BFPL equivalent, no comparable finances). No social-loss pillar in the frozen run. Homes destroyed: 13 of 28 rows, of which several NSW zeros are inferred.
+- **Descriptive only (37 tests were run):** DL vs score -0.60 [-0.92, -0.04] on 11 rows (6 inferred zeros, Victoria only 2 councils); indirect loss +0.49 [+0.12, +0.75]. Neither is a verdict.
+- **Stage 2 (exploratory, on rows already seen):** adding a social-loss pillar for NSW 2013 from two small DSS files (small cells counted as 10; low confidence) moved the pooled estimate to +0.12 [-0.27, +0.48]. Verdict unchanged. Victorian house loss per council was not found for 11 of 13 councils; the Victorian NV2005 vegetation layer was not downloaded (size unknown, offered through an order portal).
+- **Source conflicts found:** RFS statewide total 216 vs the sum of its listed October 2013 fires 222; Murrindindi 1,397 vs 1,242 vs 538 homes; Churchill 145 vs 247 vs 133; statewide Black Saturday 2,029 vs 2,133.
+- **New rows are kept separate** in `fire_event_dataset/data/extra_fires/extra_fire_rows.csv` (git-ignored), not in the master workbook, until the question is settled.
+
+### What would settle it
+About 45-50 comparable council rows from independent fires (about 30 if the true correlation is 0.5, about 85 if 0.3); the number of independent fires matters more than rows. Next candidates: South Australia, then other states. Victorian rows would need a hazard layer and council-level house-loss counts.
+
 ## Limits to keep in view
 
 1. **Black Summer drives the severity signal.** Excluding it, `risk_add` on Y is -0.19 [-0.39, +0.02] and the exploratory H+V is +0.03; only DL (+0.56) survives.
@@ -138,4 +256,6 @@ Limits: the fake Y keeps real Y's spread and clustering but not council persiste
 
 `fetch_bfpl.py` (download) -> `build_council_hazard.py` (BFPL, forest shares per council; `results/COUNCIL_HAZARD.csv`) ->
 `build_and_validate_score.py` (score and every table in `results/`) -> `make_figures.py` (`risk_map.png`, `score_vs_Y.png`).
-Seeds fixed (`SEED = 20260929`, 2,000 bootstrap draws).
+`build_exposure_bfpl.py` -> `build_and_validate_score.py v2` -> `rf_score_model.py` (about 35 min). Seeds fixed (`SEED = 20260929`, 2,000 bootstrap draws; RF seed 20260930).
+
+Follow-up folders (each with its own `FINDINGS.md`): `followups/allrows_continuous/`, `followups/fiscal_benchmarks/`, `followups/fp_outcome/`, `followups/dl_fill/`, `followups/more_fires_scoping/`, `followups/new_fires_test/` (with `stage2/`). Reports for the fresh test locked with SHA-256 files (`*.lock`).

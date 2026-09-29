@@ -1,0 +1,31 @@
+event,source_objectid,fire_name,ignition_date,area_ha,fire_type
+NSW_2013_oct,31704,Hank Street,2013-10-13T00:00:00Z,6014.0,Bushfire
+NSW_2013_oct,31706,Mt Tangory,2013-10-13T00:00:00Z,1486.0,Bushfire
+NSW_2013_oct,31709,Hungerford Creek,2013-10-14T00:00:00Z,48554.0,Bushfire
+NSW_2013_oct,31714,Wirritin,2013-10-16T00:00:00Z,9309.0,Bushfire
+NSW_2013_oct,31716,State Mine,2013-10-16T00:00:00Z,54429.0,Bushfire
+NSW_2013_oct,31721,Hall Road Balmoral,2013-10-17T00:00:00Z,15721.0,Bushfire
+NSW_2013_oct,31724,Mount York Road,2013-10-17T00:00:00Z,9376.0,Bushfire
+NSW_2013_oct,31726,Ruttleys Road Fire,2013-10-17T00:00:00Z,2873.0,Bushfire
+NSW_2013_oct,31727,"Linksview Road, Springwood",2013-10-17T00:00:00Z,3603.0,Bushfire
+NSW_2013_oct,31733,Sheas Nob Fire,2013-10-20T00:00:00Z,2837.0,Bushfire
+NSW_2013_oct,31738,Howes Swamp,2013-10-23T00:00:00Z,45804.0,Bushfire
+NSW_2013_oct,31840,Broadmeadows,2013-10-29T00:00:00Z,1906.0,Bushfire
+NSW_2013_oct,31886,Broadmeadows,2013-10-29T00:00:00Z,3101.0,Bushfire
+NSW_2013_oct,31887,Big Scrub Creek,2013-10-29T00:00:00Z,11309.0,Bushfire
+NSW_2013_oct,31909,Mount Gundahl,2013-10-30T00:00:00Z,3027.0,Bushfire
+NSW_2013_oct,31912,Sportsmans Creek Trail Fire,2013-10-31T00:00:00Z,12471.0,Bushfire
+VIC_2009_black_saturday,86160,,2009-02-04T00:00:00Z,26126.0,Bushfire
+VIC_2009_black_saturday,86168,,2009-02-06T00:00:00Z,14316.0,Bushfire
+VIC_2009_black_saturday,86171,,2009-02-07T00:00:00Z,1006.0,Bushfire
+VIC_2009_black_saturday,86207,,2009-02-07T00:00:00Z,7083.0,Bushfire
+VIC_2009_black_saturday,86227,,2009-02-07T00:00:00Z,68931.0,Bushfire
+VIC_2009_black_saturday,86228,,2009-02-07T00:00:00Z,16320.0,Bushfire
+VIC_2009_black_saturday,86230,Churchill - Jeeralang,2009-02-07T00:00:00Z,1891.0,Bushfire
+VIC_2009_black_saturday,86265,Churchill - Jeeralang,2009-02-07T00:00:00Z,20804.0,Bushfire
+VIC_2009_black_saturday,86270,,2009-02-07T00:00:00Z,54553.0,Bushfire
+VIC_2009_black_saturday,86274,,2009-02-07T00:00:00Z,116586.0,Bushfire
+VIC_2009_black_saturday,86293,,2009-02-07T00:00:00Z,32300.0,Bushfire
+VIC_2009_black_saturday,86298,Horsham - Vectis,2009-02-07T00:00:00Z,1783.0,Bushfire
+VIC_2009_black_saturday,86328,,2009-02-07T00:00:00Z,1767.0,Bushfire
+VIC_2009_black_saturday,86345,,2009-02-08T00:00:00Z,24341.0,Bushfire

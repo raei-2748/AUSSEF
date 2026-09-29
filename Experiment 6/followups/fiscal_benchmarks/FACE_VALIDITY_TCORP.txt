@@ -1,0 +1,55 @@
+== TCorp 2013 FSR vs benchmark share (OLG raw FY2013-14 + FY2014-15), single-council IPART pages
+IPART pages with a TCorp rating and one council: 129; matched to OLG data: 128
+Spearman(TCorp FSR ordinal, benchmark share) = +0.41 (p=1.72e-06, n=128)
+           count   mean  median
+fsr                            
+Very Weak      3  0.271   0.250
+Weak          23  0.535   0.500
+Moderate      71  0.583   0.562
+Sound         29  0.705   0.750
+Strong         2  0.531   0.531
+AUC for spotting TCorp Weak/Very Weak (26 councils) vs others (102) by LOW benchmark share: 0.71 (0.5 = no signal); one-sided p=0.000499
+
+TCorp Weak / Very Weak councils and their benchmark share:
+                           name       fsr  outlook  bench_share  years
+           GWYDIR SHIRE COUNCIL Very Weak  Neutral        0.250    1.0
+       GLOUCESTER SHIRE COUNCIL Very Weak Negative        0.250    2.0
+     GREATER TAREE CITY COUNCIL Very Weak Negative        0.312    2.0
+            BLAND SHIRE COUNCIL      Weak  Neutral        0.375    2.0
+          KEMPSEY SHIRE COUNCIL      Weak Negative        0.375    2.0
+     COFFS HARBOUR CITY COUNCIL      Weak Negative        0.438    2.0
+        CLARENCE VALLEY COUNCIL      Weak Negative        0.438    2.0
+      WOLLONDILLY SHIRE COUNCIL      Weak  Neutral        0.438    2.0
+        GILGANDRA SHIRE COUNCIL      Weak  Neutral        0.500    2.0
+            URANA SHIRE COUNCIL      Weak  Neutral        0.500    2.0
+           DUNGOG SHIRE COUNCIL      Weak Negative        0.500    2.0
+                 KYOGLE COUNCIL      Weak Negative        0.500    2.0
+         NAMBUCCA SHIRE COUNCIL      Weak Negative        0.500    2.0
+    BLUE MOUNTAINS CITY COUNCIL      Weak  Neutral        0.500    2.0
+            BYRON SHIRE COUNCIL      Weak Negative        0.500    2.0
+     COOMA-MONARO SHIRE COUNCIL      Weak  Neutral        0.562    2.0
+           PENRITH CITY COUNCIL      Weak  Neutral        0.562    2.0
+PORT MACQUARIE-HASTINGS COUNCIL      Weak Negative        0.562    2.0
+      TENTERFIELD SHIRE COUNCIL      Weak Negative        0.562    2.0
+     WARRUMBUNGLE SHIRE COUNCIL      Weak Negative        0.562    2.0
+             WELLINGTON COUNCIL      Weak  Neutral        0.562    2.0
+ LIVERPOOL PLAINS SHIRE COUNCIL      Weak Negative        0.625    2.0
+           WAKOOL SHIRE COUNCIL      Weak Negative        0.625    2.0
+       MOSMAN MUNICIPAL COUNCIL      Weak Positive        0.625    2.0
+           WALCHA SHIRE COUNCIL      Weak Negative        0.688    2.0
+       CARRATHOOL SHIRE COUNCIL      Weak  Neutral        0.812    2.0
+
+lowest 12 benchmark shares among matched councils:
+                      name       fsr  outlook  bench_share
+  GLOUCESTER SHIRE COUNCIL Very Weak Negative        0.250
+      GWYDIR SHIRE COUNCIL Very Weak  Neutral        0.250
+     LACHLAN SHIRE COUNCIL  Moderate Negative        0.250
+GREATER TAREE CITY COUNCIL Very Weak Negative        0.312
+       JUNEE SHIRE COUNCIL  Moderate  Neutral        0.312
+     KEMPSEY SHIRE COUNCIL      Weak Negative        0.375
+       BLAND SHIRE COUNCIL      Weak  Neutral        0.375
+    BLACKTOWN CITY COUNCIL  Moderate  Neutral        0.375
+       YASS VALLEY COUNCIL  Moderate Negative        0.375
+            CAMDEN COUNCIL  Moderate  Neutral        0.375
+       GUYRA SHIRE COUNCIL  Moderate Negative        0.438
+      WEDDIN SHIRE COUNCIL  Moderate Negative        0.438

@@ -1,0 +1,69 @@
+FAKE Y: code test only
+                        test     scope           score                 target   n  spearman  ci_low  ci_high         note
+0                    PRIMARY    pooled  risk_add_avail                  Y_new  26     0.240  -0.205    0.637             
+1                    DL_only    pooled  risk_add_avail                     DL  26     0.134  -0.310    0.523             
+2                     pillar    pooled  risk_add_avail                     IL  26    -0.057  -0.431    0.339             
+3                     pillar    pooled  risk_add_avail                     FP  26    -0.397  -0.720    0.044             
+4           primary_by_event  NSW_2013  risk_add_avail                  Y_new  13     0.247  -0.406    0.709             
+5                    DL_only  NSW_2013  risk_add_avail                     DL  13     0.170  -0.504    0.711             
+6                     pillar  NSW_2013  risk_add_avail                     IL  13     0.005  -0.528    0.528             
+7                     pillar  NSW_2013  risk_add_avail                     FP  13    -0.571  -0.877    0.015             
+8           primary_by_event  VIC_2009  risk_add_avail                  Y_new  13     0.192  -0.450    0.764             
+9                    DL_only  VIC_2009  risk_add_avail                     DL  13    -0.027  -0.623    0.576             
+10                    pillar  VIC_2009  risk_add_avail                     IL  13    -0.066  -0.673    0.547             
+11                    pillar  VIC_2009  risk_add_avail                     FP  13    -0.242  -0.707    0.311             
+12            secondary_S1_V    pooled            S1_V                  Y_new  26     0.195  -0.240    0.576             
+13         secondary_S1_V_DL    pooled            S1_V                     DL  26    -0.013  -0.420    0.395             
+14           secondary_S2_HV    pooled           S2_HV                  Y_new  13     0.412  -0.326    0.881             
+15            secondary_S1_V  NSW_2013            S1_V                  Y_new  13     0.181  -0.531    0.685             
+16         secondary_S1_V_DL  NSW_2013            S1_V                     DL  13     0.038  -0.548    0.641             
+17           secondary_S2_HV  NSW_2013           S2_HV                  Y_new  13     0.412  -0.316    0.872             
+18            secondary_S1_V  VIC_2009            S1_V                  Y_new  13     0.192  -0.449    0.770             
+19         secondary_S1_V_DL  VIC_2009            S1_V                     DL  13    -0.027  -0.625    0.588             
+20       sens_a_share_ge5pct    pooled  risk_add_avail                  Y_new  14     0.451  -0.152    0.879  descriptive
+21  sens_a_share_ge5pct_S1_V    pooled            S1_V                  Y_new  14     0.437  -0.147    0.839  descriptive
+22        sens_b_ge2_pillars    pooled  risk_add_avail       Y_new_ge2pillars  26    -0.055  -0.408    0.337  descriptive
+23              sens_c_no_FP    pooled  risk_add_avail             Y_new_noFP  26    -0.109  -0.513    0.321  descriptive
+24   sens_d_DL_reported_only    pooled  risk_add_avail       DL_reported_only  26     0.223  -0.218    0.576  descriptive
+25    sens_f_vic_IL_biz_only    pooled  risk_add_avail  Y_new_vic_IL_biz_only  26     0.104  -0.293    0.443  descriptive
+26       sens_a_share_ge5pct  NSW_2013  risk_add_avail                  Y_new   5       NaN     NaN      NaN  descriptive
+27  sens_a_share_ge5pct_S1_V  NSW_2013            S1_V                  Y_new   5       NaN     NaN      NaN  descriptive
+28        sens_b_ge2_pillars  NSW_2013  risk_add_avail       Y_new_ge2pillars  13     0.165  -0.392    0.639  descriptive
+29              sens_c_no_FP  NSW_2013  risk_add_avail             Y_new_noFP  13     0.005  -0.538    0.518  descriptive
+30   sens_d_DL_reported_only  NSW_2013  risk_add_avail       DL_reported_only  13     0.115  -0.441    0.585  descriptive
+31       sens_a_share_ge5pct  VIC_2009  risk_add_avail                  Y_new   9     0.467  -0.316    0.940  descriptive
+32  sens_a_share_ge5pct_S1_V  VIC_2009            S1_V                  Y_new   9     0.467  -0.281    0.945  descriptive
+33        sens_b_ge2_pillars  VIC_2009  risk_add_avail       Y_new_ge2pillars  13     0.467  -0.193    0.887  descriptive
+34              sens_c_no_FP  VIC_2009  risk_add_avail             Y_new_noFP  13     0.214  -0.451    0.728  descriptive
+35   sens_d_DL_reported_only  VIC_2009  risk_add_avail       DL_reported_only  13     0.698   0.244    0.886  descriptive
+36    sens_f_vic_IL_biz_only  VIC_2009  risk_add_avail  Y_new_vic_IL_biz_only  13     0.258  -0.466    0.698  descriptive
+VERDICT: CANNOT TELL
+                 rows_set   n  planted_rho  power_lo_gt0  chance_hi_lt_030
+0     pooled primary rows  26          0.0         0.019             0.313
+1     pooled primary rows  26          0.1         0.074             0.126
+2     pooled primary rows  26          0.2         0.144             0.057
+3     pooled primary rows  26          0.3         0.333             0.021
+4     pooled primary rows  26          0.4         0.519             0.004
+5     pooled primary rows  26          0.5         0.785             0.000
+6     pooled primary rows  26          0.6         0.931             0.000
+7   rows with share >= 5%  14          0.0         0.020             0.161
+8   rows with share >= 5%  14          0.1         0.048             0.079
+9   rows with share >= 5%  14          0.2         0.100             0.035
+10  rows with share >= 5%  14          0.3         0.183             0.014
+11  rows with share >= 5%  14          0.4         0.272             0.005
+12  rows with share >= 5%  14          0.5         0.472             0.002
+13  rows with share >= 5%  14          0.6         0.639             0.000
+14               NSW rows  13          0.0         0.038             0.128
+15               NSW rows  13          0.1         0.043             0.070
+16               NSW rows  13          0.2         0.059             0.044
+17               NSW rows  13          0.3         0.174             0.013
+18               NSW rows  13          0.4         0.269             0.006
+19               NSW rows  13          0.5         0.443             0.002
+20               NSW rows  13          0.6         0.620             0.000
+21               VIC rows  13          0.0         0.022             0.127
+22               VIC rows  13          0.1         0.051             0.079
+23               VIC rows  13          0.2         0.081             0.040
+24               VIC rows  13          0.3         0.157             0.025
+25               VIC rows  13          0.4         0.252             0.009
+26               VIC rows  13          0.5         0.434             0.000
+27               VIC rows  13          0.6         0.594             0.000

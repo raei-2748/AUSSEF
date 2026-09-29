@@ -1,0 +1,76 @@
+{
+ "placement_selfcheck_max_abs_diff": {
+  "seifa_irsd": 0.003875968992248069,
+  "median_income": 0.0038461538461538325,
+  "unemp_rate": 0.006530721044915366,
+  "unrestricted_current_ratio": 0.004464285714285698,
+  "operating_ratio": 0.004464285714285698,
+  "infra_backlog_ratio": 0.004464285714285698
+ },
+ "pia_fy2012_13_nsw_council_median_income": 40026.0,
+ "pia_fy2012_13_nsw_council_n": 128,
+ "salm_jun13_nsw_median_rate": 5.15,
+ "f_item_comparability_30pct_rule": {
+  "unrestricted_current_ratio": {
+   "n_common": 110,
+   "median_fy2012_13": 3.16465,
+   "median_original_snapshot": 3.2504,
+   "ratio": 0.9736186315530396,
+   "kept": true
+  },
+  "operating_ratio": {
+   "n_common": 110,
+   "median_fy2012_13": -3.7800000000000002,
+   "median_original_snapshot": 0.5700000000000001,
+   "ratio": -6.63157894736842,
+   "kept": false
+  },
+  "infra_backlog_ratio": {
+   "n_common": 110,
+   "median_fy2012_13": 6.7700000000000005,
+   "median_original_snapshot": 2.855,
+   "ratio": 2.371278458844133,
+   "kept": false
+  }
+ },
+ "f_dropped_by_documentation": [
+  "cash_cover (definition break FY2012-13 to FY2013-14)",
+  "own_source_pct (definition break)",
+  "debt_service_ratio (not published for FY2012-13)"
+ ],
+ "f_items_kept": [
+  "unrestricted_current_ratio"
+ ],
+ "F_used_for_NSW_2013": false,
+ "episa_fy2007_08_nsw_lga_median_of_average_total_income": 37115.0,
+ "episa_nsw_lga_n": 153
+}
+                      event          region_name  share_burned      H      E      V   F  blocks_n  risk_add_avail
+0              NSW_2013_oct       Hawkesbury (C)         0.182  0.979  0.876  0.412 NaN         3           0.756
+1              NSW_2013_oct   Blue Mountains (C)         0.141  0.997  0.934  0.334 NaN         3           0.755
+2              NSW_2013_oct     Muswellbrook (A)         0.135  0.811  0.678  0.301 NaN         3           0.597
+3              NSW_2013_oct          Lithgow (C)         0.083  0.871  0.787  0.725 NaN         3           0.794
+4              NSW_2013_oct    Port Stephens (A)         0.070  0.680  0.636  0.451 NaN         3           0.589
+5              NSW_2013_oct      Wollondilly (A)         0.030  0.964  0.860  0.183 NaN         3           0.669
+6              NSW_2013_oct    Wingecarribee (A)         0.026  0.850  0.736  0.387 NaN         3           0.658
+7              NSW_2013_oct  Clarence Valley (A)         0.024  0.938  0.876  0.879 NaN         3           0.898
+8              NSW_2013_oct            Wyong (A)         0.022    NaN    NaN    NaN NaN         0             NaN
+9              NSW_2013_oct            Guyra (A)         0.020    NaN    NaN    NaN NaN         0             NaN
+10             NSW_2013_oct         Cessnock (C)         0.019  0.946  0.771  0.610 NaN         3           0.776
+11             NSW_2013_oct   Lake Macquarie (C)         0.019  0.845  0.531  0.397 NaN         3           0.591
+12             NSW_2013_oct       Shoalhaven (C)         0.017  0.972  0.779  0.819 NaN         3           0.857
+13             NSW_2013_oct       Wollongong (C)         0.014  0.889  0.422  0.506 NaN         3           0.606
+14             NSW_2013_oct        Singleton (A)         0.011  0.855  0.895  0.136 NaN         3           0.629
+15  VIC_2009_black_saturday      Murrindindi (S)         0.403    NaN    NaN  0.513 NaN         1           0.513
+16  VIC_2009_black_saturday        Nillumbik (S)         0.232    NaN    NaN  0.073 NaN         1           0.073
+17  VIC_2009_black_saturday     Yarra Ranges (S)         0.188    NaN    NaN  0.270 NaN         1           0.270
+18  VIC_2009_black_saturday       Whittlesea (C)         0.172    NaN    NaN  0.409 NaN         1           0.409
+19  VIC_2009_black_saturday         Mitchell (S)         0.126    NaN    NaN  0.328 NaN         1           0.328
+20  VIC_2009_black_saturday          Latrobe (C)         0.109    NaN    NaN  0.468 NaN         1           0.468
+21  VIC_2009_black_saturday  South Gippsland (S)         0.074    NaN    NaN  0.490 NaN         1           0.490
+22  VIC_2009_black_saturday           Alpine (S)         0.073    NaN    NaN  0.597 NaN         1           0.597
+23  VIC_2009_black_saturday          Baw Baw (S)         0.055    NaN    NaN  0.366 NaN         1           0.366
+24  VIC_2009_black_saturday         Cardinia (S)         0.044    NaN    NaN  0.262 NaN         1           0.262
+25  VIC_2009_black_saturday  Mount Alexander (S)         0.021    NaN    NaN  0.621 NaN         1           0.621
+26  VIC_2009_black_saturday           Indigo (S)         0.021    NaN    NaN  0.386 NaN         1           0.386
+27  VIC_2009_black_saturday       Wellington (S)         0.012    NaN    NaN  0.421 NaN         1           0.421

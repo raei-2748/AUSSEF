@@ -1,0 +1,13 @@
+Y all 5s
+Y excl_BS 7s
+DL all 9s
+DL excl_BS 10s
+IL all 13s
+IL excl_BS 15s
+FP all 18s
+FP excl_BS 20s
+SL all 23s
+SL excl_BS 25s
+NOTE FP all C4: 1 leave-one-council-out refits failed (zero difference used)
+NOTE FP excl_BS C4: 1 leave-one-council-out refits failed (zero difference used)
+done, 1628 coefficient rows

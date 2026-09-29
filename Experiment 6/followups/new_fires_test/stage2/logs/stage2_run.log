@@ -1,0 +1,48 @@
+                       test     scope           score                  target   n  spearman  ci_low  ci_high         note
+0       PRIMARY_EXPLORATORY    pooled  risk_add_avail                  Y_new2  26     0.125  -0.268    0.484             
+1                   DL_only    pooled  risk_add_avail                     DL2  11    -0.601  -0.917   -0.040             
+2                    pillar    pooled  risk_add_avail                      IL  26     0.491   0.124    0.748             
+3                    pillar    pooled  risk_add_avail                      FP  13    -0.049  -0.659    0.662             
+4                    pillar    pooled  risk_add_avail                     SL2  13     0.298  -0.308    0.778             
+5          primary_by_event  NSW_2013  risk_add_avail                  Y_new2  13     0.247  -0.335    0.625             
+6                   DL_only  NSW_2013  risk_add_avail                     DL2   9    -0.287  -0.814    0.435             
+7                    pillar  NSW_2013  risk_add_avail                      IL  13     0.049  -0.452    0.592             
+8                    pillar  NSW_2013  risk_add_avail                      FP  13    -0.049  -0.668    0.645             
+9                    pillar  NSW_2013  risk_add_avail                     SL2  13     0.298  -0.320    0.774             
+10         primary_by_event  VIC_2009  risk_add_avail                  Y_new2  13     0.099  -0.489    0.629             
+11                  DL_only  VIC_2009  risk_add_avail                     DL2   2       NaN     NaN      NaN             
+12                   pillar  VIC_2009  risk_add_avail                      IL  13     0.401  -0.173    0.782             
+13                   pillar  VIC_2009  risk_add_avail                      FP   0       NaN     NaN      NaN             
+14                   pillar  VIC_2009  risk_add_avail                     SL2   0       NaN     NaN      NaN             
+15           secondary_S1_V    pooled            S1_V                  Y_new2  26     0.205  -0.174    0.552             
+16        secondary_S1_V_DL    pooled            S1_V                     DL2  11    -0.303  -0.853    0.384             
+17          secondary_S2_HV    pooled           S2_HV                  Y_new2  13     0.203  -0.332    0.716             
+18      sens_a_share_ge5pct    pooled  risk_add_avail                  Y_new2  14     0.279  -0.315    0.712  descriptive
+19       sens_b_ge2_pillars    pooled  risk_add_avail       Y_new2_ge2pillars  15    -0.100  -0.573    0.429  descriptive
+20             sens_c_no_FP    pooled  risk_add_avail             Y_new2_noFP  26     0.172  -0.231    0.509  descriptive
+21  sens_d_DL_reported_only    pooled  risk_add_avail       DL2_reported_only   5       NaN     NaN      NaN  descriptive
+22   sens_f_vic_IL_biz_only    pooled  risk_add_avail  Y_new2_vic_IL_biz_only  26    -0.272  -0.608    0.139  descriptive
+23           secondary_S1_V  NSW_2013            S1_V                  Y_new2  13     0.236  -0.347    0.799             
+24        secondary_S1_V_DL  NSW_2013            S1_V                     DL2   9    -0.287  -0.918    0.439             
+25          secondary_S2_HV  NSW_2013           S2_HV                  Y_new2  13     0.203  -0.320    0.731             
+26      sens_a_share_ge5pct  NSW_2013  risk_add_avail                  Y_new2   5       NaN     NaN      NaN  descriptive
+27       sens_b_ge2_pillars  NSW_2013  risk_add_avail       Y_new2_ge2pillars  13     0.247  -0.315    0.633  descriptive
+28             sens_c_no_FP  NSW_2013  risk_add_avail             Y_new2_noFP  13     0.159  -0.387    0.589  descriptive
+29  sens_d_DL_reported_only  NSW_2013  risk_add_avail       DL2_reported_only   3       NaN     NaN      NaN  descriptive
+30           secondary_S1_V  VIC_2009            S1_V                  Y_new2  13     0.099  -0.514    0.626             
+31        secondary_S1_V_DL  VIC_2009            S1_V                     DL2   2       NaN     NaN      NaN             
+32      sens_a_share_ge5pct  VIC_2009  risk_add_avail                  Y_new2   9    -0.033  -0.829    0.684  descriptive
+33       sens_b_ge2_pillars  VIC_2009  risk_add_avail       Y_new2_ge2pillars   2       NaN     NaN      NaN  descriptive
+34             sens_c_no_FP  VIC_2009  risk_add_avail             Y_new2_noFP  13     0.099  -0.482    0.627  descriptive
+35  sens_d_DL_reported_only  VIC_2009  risk_add_avail       DL2_reported_only   2       NaN     NaN      NaN  descriptive
+36   sens_f_vic_IL_biz_only  VIC_2009  risk_add_avail  Y_new2_vic_IL_biz_only  13    -0.259  -0.759    0.345  descriptive
+STAGE-2 (EXPLORATORY) VERDICT: CANNOT TELL
+                rows_set   n  planted_rho  power_lo_gt0  chance_hi_lt_030
+0    pooled primary rows  26          0.0         0.019             0.313
+1    pooled primary rows  26          0.1         0.074             0.126
+2    pooled primary rows  26          0.2         0.144             0.057
+3    pooled primary rows  26          0.3         0.333             0.021
+4    pooled primary rows  26          0.4         0.519             0.004
+5    pooled primary rows  26          0.5         0.785             0.000
+6    pooled primary rows  26          0.6         0.931             0.000
+7  rows with share >= 5%  14          0.0         0.020             0.161

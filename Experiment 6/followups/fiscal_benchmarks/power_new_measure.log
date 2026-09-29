@@ -1,0 +1,7 @@
+{'all rows': 207, 'fires >= 5% burned': 38, 'all rows excl. Black Summer': 157, '>= 5% excl. Black Summer': 8}
+0.0 {'all rows': 1, 'fires >= 5% burned': 5, 'all rows excl. Black Summer': 2, '>= 5% excl. Black Summer': 2} 26 s
+0.1 {'all rows': 26, 'fires >= 5% burned': 11, 'all rows excl. Black Summer': 20, '>= 5% excl. Black Summer': 7} 52 s
+0.2 {'all rows': 80, 'fires >= 5% burned': 29, 'all rows excl. Black Summer': 63, '>= 5% excl. Black Summer': 8} 78 s
+0.3 {'all rows': 100, 'fires >= 5% burned': 47, 'all rows excl. Black Summer': 95, '>= 5% excl. Black Summer': 9} 104 s
+0.4 {'all rows': 100, 'fires >= 5% burned': 78, 'all rows excl. Black Summer': 100, '>= 5% excl. Black Summer': 18} 130 s
+0.5 {'all rows': 100, 'fires >= 5% burned': 93, 'all rows excl. Black Summer': 100, '>= 5% excl. Black Summer': 29} 155 s

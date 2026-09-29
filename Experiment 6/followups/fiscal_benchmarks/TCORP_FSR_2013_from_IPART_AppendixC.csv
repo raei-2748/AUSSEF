@@ -1,0 +1,140 @@
+page,name,fit,tcorp,n_tcorp,sustain
+3,ALBURY CITY COUNCIL,FIT,Moderate/Neutral,1,Satisfies
+5,ARMIDALE DUMARESQ COUNCIL,NOT FIT,Moderate/Neutral,1,Does not satisfy
+7,ASHFIELD CITY COUNCIL,NOT FIT,Sound/Neutral,1,Satisfies
+9,"AUBURN, BURWOOD & CITY OF CANADA BAY COUNCILS",FIT,Sound/Negative,1,Satisfies
+11,BALLINA SHIRE COUNCIL,FIT,Moderate/Neutral,1,Satisfies
+13,BANKSTOWN CITY COUNCIL,FIT,Moderate/Positive,1,Satisfies
+15,BATHURST REGIONAL COUNCIL,FIT,Moderate/Negative,1,Satisfies
+17,BEGA VALLEY SHIRE COUNCIL,FIT,Sound/Neutral,1,Satisfies
+19,BELLINGEN SHIRE COUNCIL,NOT FIT,Moderate/Negative,1,Does not satisfy
+21,BERRIGAN SHIRE COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies
+23,BLACKTOWN CITY COUNCIL,NOT FIT,Moderate/Neutral,1,Does not satisfy
+25,BLAND SHIRE COUNCIL,NOT FIT,Weak/Neutral,1,Satisfies
+27,BLAYNEY SHIRE COUNCIL,NOT FIT,Moderate/Positive,1,Satisfies
+29,BLUE MOUNTAINS CITY COUNCIL,FIT,Weak/Neutral,1,Satisfies
+31,BOGAN SHIRE COUNCIL,FIT,Moderate/Neutral,1,Satisfies
+33,BOMBALA SHIRE COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies
+37,THE COUNCIL OF THE CITY OF BOTANY BAY,NOT FIT,Moderate/Neutral,1,Satisfies
+41,BYRON SHIRE COUNCIL,FIT,Weak/Negative,1,Satisfies
+43,CABONNE COUNCIL,NOT FIT,Sound/Neutral,1,Satisfies
+45,CAMDEN COUNCIL,FIT,Moderate/Neutral,1,Satisfies
+47,CAMPBELLTOWN CITY COUNCIL,NOT FIT,Moderate/Negative,1,Does not satisfy
+51,CANTERBURY CITY COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies
+53,CARRATHOOL SHIRE COUNCIL,FIT,Weak/Neutral,1,Satisfies
+55,CESSNOCK CITY COUNCIL,FIT,Moderate/Negative,1,Satisfies
+57,CLARENCE VALLEY COUNCIL,NOT FIT,Weak/Negative,1,Does not satisfy
+59,COFFS HARBOUR CITY COUNCIL,FIT,Weak/Negative,1,Satisfies
+61,CONARGO SHIRE COUNCIL,NOT FIT,Sound/Neutral,1,Satisfies
+63,COOLAMON SHIRE COUNCIL,FIT,Sound/Negative,1,Satisfies
+65,COOMA-MONARO SHIRE COUNCIL,NOT FIT,Weak/Neutral,1,Does not satisfy
+67,COONAMBLE SHIRE COUNCIL,FIT,Sound/Negative,1,Satisfies
+69,COOTAMUNDRA SHIRE COUNCIL AND HARDEN SHIRE COUNCIL,FIT,Moderate/Negative,1,Satisfies
+71,COROWA SHIRE COUNCIL,NOT FIT,Moderate/Negative,1,Satisfies
+73,COWRA SHIRE COUNCIL,FIT,,0,Satisfies
+75,DENILIQUIN COUNCIL,NOT FIT,Moderate/Negative,1,Satisfies
+77,DUBBO CITY COUNCIL,FIT,Moderate/Neutral,1,Satisfies
+79,DUNGOG SHIRE COUNCIL,NOT FIT,Weak/Negative,1,Does not satisfy
+81,EUROBODALLA SHIRE COUNCIL,FIT,Moderate/Neutral,1,Satisfies
+83,FAIRFIELD CITY COUNCIL,NOT FIT,Sound/Neutral,1,Satisfies
+85,FORBES SHIRE COUNCIL,NOT FIT,Sound/Negative,1,Satisfies
+87,GILGANDRA SHIRE COUNCIL,FIT,Weak/Neutral,1,Satisfies
+89,GLEN INNES SEVERN SHIRE COUNCIL,FIT,Moderate/Neutral,1,Satisfies
+90,GLOUCESTER SHIRE COUNCIL,NOT FIT,Very Weak/Negative,1,Does not satisfy
+93,GOSFORD CITY COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies
+95,GOULBURN MULWAREE COUNCIL,NOT FIT,Moderate/Negative,1,Does not satisfy
+97,GREAT LAKES COUNCIL,FIT,Moderate/Neutral,1,Satisfies
+99,GREATER HUME SHIRE COUNCIL,FIT,Moderate/Negative,1,Satisfies
+101,GREATER TAREE CITY COUNCIL,NOT FIT,Very Weak/Negative,1,Does not satisfy
+103,GRIFFITH CITY COUNCIL,NOT FIT,Sound/Negative,1,Satisfies
+105,GUNDAGAI SHIRE COUNCIL,NOT FIT,Moderate/Negative,1,Does not satisfy
+107,GUNNEDAH SHIRE COUNCIL,FIT,Sound/Negative,1,Satisfies
+109,GUYRA SHIRE COUNCIL,NOT FIT,Moderate/Negative,1,Does not satisfy
+111,GWYDIR SHIRE COUNCIL,NOT FIT,Very Weak/Neutral,1,Does not satisfy
+115,HAWKESBURY CITY COUNCIL,NOT FIT,Moderate/Negative,1,Does not satisfy
+117,HAY SHIRE COUNCIL,NOT FIT,Moderate/Negative,1,Does not satisfy
+119,THE HILLS SHIRE COUNCIL,FIT,Sound/Positive,1,Satisfies
+121,HOLROYD CITY COUNCIL,NOT FIT,,0,Satisfies
+123,HORNSBY SHIRE COUNCIL,NOT FIT,Sound/Neutral,1,Satisfies
+125,HUNTER’S HILL COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies
+127,HURSTVILLE CITY COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies
+129,INVERELL SHIRE COUNCIL,FIT,Moderate/Neutral,1,Satisfies
+131,JERILDERIE SHIRE COUNCIL,NOT FIT,Moderate/Negative,1,Does not satisfy
+133,JUNEE SHIRE COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies
+135,KEMPSEY SHIRE COUNCIL,NOT FIT,Weak/Negative,1,Does not satisfy
+137,KIAMA MUNICIPAL COUNCIL,NOT FIT,Moderate/Neutral,1,Does not satisfy
+139,KOGARAH CITY COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies
+141,KU-RING-GAI COUNCIL,NOT FIT,Sound/Neutral,1,Satisfies
+143,KYOGLE COUNCIL,NOT FIT,Weak/Negative,1,Satisfies
+145,LACHLAN SHIRE COUNCIL,NOT FIT,Moderate/Negative,1,Satisfies
+147,LAKE MACQUARIE COUNCIL,NOT FIT,Sound/Negative,1,Satisfies
+149,LANE COVE COUNCIL,NOT FIT,Sound/Negative,1,Satisfies
+151,LEETON SHIRE COUNCIL,FIT,Moderate/Negative,1,Satisfies
+153,LEICHHARDT MUNICIPAL COUNCIL,NOT FIT,Sound/Neutral,1,Satisfies
+155,LISMORE CITY COUNCIL,FIT,Moderate/Negative,1,Satisfies
+157,LITHGOW CITY COUNCIL,NOT FIT,Sound/Negative,1,Does not satisfy
+159,LIVERPOOL CITY COUNCIL,NOT FIT,Sound/Negative,1,Satisfies
+161,LIVERPOOL PLAINS SHIRE COUNCIL,NOT FIT,Weak/Negative,1,Satisfies
+163,LOCKHART SHIRE COUNCIL,FIT,Sound/Neutral,1,Satisfies
+165,MAITLAND CITY COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies
+167,MANLY COUNCIL,NOT FIT,Sound/Neutral,1,Satisfies
+169,MARRICKVILLE COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies
+171,MID-WESTERN REGIONAL COUNCIL,NOT FIT,Sound/Negative,1,Does not satisfy
+173,MOREE PLAINS SHIRE COUNCIL,FIT,Moderate/Neutral,1,Satisfies
+175,MOSMAN MUNICIPAL COUNCIL,NOT FIT,Weak/Positive,1,Satisfies
+177,MURRAY SHIRE COUNCIL,NOT FIT,,0,Satisfies
+179,MURRUMBIDGEE SHIRE COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies
+181,MUSWELLBROOK SHIRE COUNCIL,FIT,Moderate/Neutral,1,Satisfies
+183,NAMBUCCA SHIRE COUNCIL,FIT,Weak/Negative,1,Satisfies
+185,NARRABRI SHIRE COUNCIL,FIT,Moderate/Negative,1,Satisfies
+187,NARRANDERA SHIRE COUNCIL,NOT FIT,Moderate/Negative,1,Satisfies
+189,NARROMINE SHIRE COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies
+191,NEWCASTLE CITY COUNCIL,NOT FIT,Moderate/Negative,1,Satisfies
+193,NORTH SYDNEY COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies
+195,OBERON COUNCIL,NOT FIT,Sound/Negative,1,Satisfies
+197,ORANGE CITY COUNCIL,NOT FIT,Sound/Negative,1,Satisfies
+199,PALERANG COUNCIL,NOT FIT,Moderate/Negative,1,Satisfies
+201,PARKES SHIRE COUNCIL,FIT,,0,Satisfies
+203,PARRAMATTA CITY COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies
+205,PENRITH CITY COUNCIL,FIT,Weak/Neutral,1,Satisfies
+207,PITTWATER COUNCIL,NOT FIT,Sound/Neutral,1,Satisfies
+209,PORT MACQUARIE-HASTINGS COUNCIL,FIT,Weak/Negative,1,Satisfies
+211,PORT STEPHENS COUNCIL,FIT,Moderate/Neutral,1,Satisfies
+213,QUEANBEYAN COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies
+215,RANDWICK CITY COUNCIL AND WAVERLEY COUNCIL,FIT,Moderate/Positive,1,Satisfies
+217,RICHMOND VALLEY COUNCIL,FIT,Moderate/Neutral,1,Satisfies
+219,ROCKDALE CITY COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies
+221,CITY OF RYDE COUNCIL,NOT FIT,Sound/Negative,1,Satisfies
+223,SHELLHARBOUR CITY COUNCIL,NOT FIT,Moderate/Negative,1,Does not satisfy
+225,SHOALHAVEN CITY COUNCIL,FIT,Sound/Negative,1,Satisfies
+227,SINGLETON COUNCIL,FIT,Moderate/Neutral,1,Satisfies
+229,SNOWY RIVER SHIRE COUNCIL,NOT FIT,Moderate/Negative,1,Does not satisfy
+231,STRATHFIELD MUNICIPAL COUNCIL,NOT FIT,Moderate/Negative,1,Satisfies
+233,SUTHERLAND SHIRE COUNCIL,FIT,Moderate/Neutral,1,Satisfies
+235,THE COUNCIL OF THE CITY OF SYDNEY,NOT FIT,Strong/Positive,1,Satisfies
+237,TAMWORTH REGIONAL COUNCIL,FIT,Moderate/Neutral,1,Satisfies
+239,TEMORA SHIRE COUNCIL,NOT FIT,Sound/Neutral,1,Satisfies
+241,TENTERFIELD SHIRE COUNCIL,NOT FIT,Weak/Negative,1,Does not satisfy
+243,TUMBARUMBA SHIRE COUNCIL,FIT,Strong/Negative,1,Satisfies
+245,TUMUT SHIRE COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies
+247,TWEED SHIRE COUNCIL,NOT FIT,Moderate/Neutral,1,Does not satisfy
+249,UPPER HUNTER SHIRE COUNCIL,FIT,,0,Satisfies
+251,UPPER LACHLAN SHIRE COUNCIL,NOT FIT,Sound/Neutral,1,Satisfies
+253,URALLA SHIRE COUNCIL,NOT FIT,Moderate/Negative,1,Satisfies
+255,URANA SHIRE COUNCIL,NOT FIT,Weak/Neutral,1,Satisfies
+257,WAGGA WAGGA CITY COUNCIL,FIT,Moderate/Negative,1,Satisfies
+259,WAKOOL SHIRE COUNCIL,FIT,Weak/Negative,1,Satisfies
+261,WALCHA SHIRE COUNCIL,NOT FIT,Weak/Negative,1,Satisfies
+263,WARREN SHIRE COUNCIL,FIT,Moderate/Neutral,1,Satisfies
+265,WARRINGAH COUNCIL,NOT FIT,Sound/Positive,1,Satisfies
+267,WARRUMBUNGLE SHIRE COUNCIL,NOT FIT,Weak/Negative,1,Does not satisfy
+271,WEDDIN SHIRE COUNCIL,NOT FIT,Moderate/Negative,1,Does not satisfy
+273,WELLINGTON COUNCIL,NOT FIT,Weak/Neutral,1,Satisfies
+275,WILLOUGHBY CITY COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies
+277,WINGECARRIBEE SHIRE COUNCIL,FIT,Moderate/Neutral,1,Satisfies
+279,WOLLONDILLY SHIRE COUNCIL,FIT,Weak/Neutral,1,Satisfies
+281,WOLLONGONG CITY COUNCIL,FIT,Moderate/Neutral,1,Satisfies
+283,WOOLLAHRA MUNICIPAL COUNCIL,NOT FIT,,0,Satisfies
+285,WYONG SHIRE COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies
+287,YASS VALLEY COUNCIL,NOT FIT,Moderate/Negative,1,Does not satisfy
+289,YOUNG SHIRE COUNCIL AND BOOROWA COUNCIL,FIT,Sound/Negative,1,Satisfies

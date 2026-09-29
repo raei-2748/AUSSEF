@@ -1,0 +1,2 @@
+FP all C4: 1 leave-one-council-out refits failed (zero difference used)
+FP excl_BS C4: 1 leave-one-council-out refits failed (zero difference used)

@@ -1,0 +1,27 @@
+{
+ "fake_y": false,
+ "verdict": "CANNOT TELL",
+ "primary": {
+  "n": 26,
+  "spearman": 0.004444444444444444,
+  "ci_low": -0.40066941297631314,
+  "ci_high": 0.40393461533267655
+ },
+ "per_event_estimates": {
+  "NSW_2013": -0.06593406593406594,
+  "VIC_2009": 0.09890109890109891
+ },
+ "locks_verified": [
+  "PRESPEC.lock",
+  "PRESPEC_AMENDMENT_1.lock",
+  "SCORES.lock",
+  "Y.lock"
+ ],
+ "rows_in_analysis": 26,
+ "rows_with_y": 26,
+ "rows_by_event": {
+  "NSW_2013_oct": 13,
+  "VIC_2009_black_saturday": 13
+ },
+ "rule": "REPLICATED lo>0; NOT REPLICATED hi<0.30; else CANNOT TELL"
+}

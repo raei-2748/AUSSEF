@@ -1,0 +1,29 @@
+rows_set,n,planted_rho,power_lo_gt0,chance_hi_lt_030
+pooled primary rows,26,0.0,0.019,0.313
+pooled primary rows,26,0.1,0.074,0.126
+pooled primary rows,26,0.2,0.144,0.057
+pooled primary rows,26,0.3,0.333,0.021
+pooled primary rows,26,0.4,0.519,0.004
+pooled primary rows,26,0.5,0.785,0.0
+pooled primary rows,26,0.6,0.931,0.0
+rows with share >= 5%,14,0.0,0.02,0.161
+rows with share >= 5%,14,0.1,0.048,0.079
+rows with share >= 5%,14,0.2,0.1,0.035
+rows with share >= 5%,14,0.3,0.183,0.014
+rows with share >= 5%,14,0.4,0.272,0.005
+rows with share >= 5%,14,0.5,0.472,0.002
+rows with share >= 5%,14,0.6,0.639,0.0
+NSW rows,13,0.0,0.038,0.128
+NSW rows,13,0.1,0.043,0.07
+NSW rows,13,0.2,0.059,0.044
+NSW rows,13,0.3,0.174,0.013
+NSW rows,13,0.4,0.269,0.006
+NSW rows,13,0.5,0.443,0.002
+NSW rows,13,0.6,0.62,0.0
+VIC rows,13,0.0,0.022,0.127
+VIC rows,13,0.1,0.051,0.079
+VIC rows,13,0.2,0.081,0.04
+VIC rows,13,0.3,0.157,0.025
+VIC rows,13,0.4,0.252,0.009
+VIC rows,13,0.5,0.434,0.0
+VIC rows,13,0.6,0.594,0.0

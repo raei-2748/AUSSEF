@@ -1,0 +1,114 @@
+rows 218 DL present 90 missing 128
+declared events 96 | events with >=1 DL row 29 | events with no DL row 67
+councils 69 | councils with >=1 DL row 56
+
+-- basis of the present values
+basis
+council figure                           66
+one fire in the council (lower bound)    24
+Name: count, dtype: int64
+present with homes_destroyed == 0: 38
+present with homes_destroyed > 0: 52
+
+-- by year of fire start
+      rows  with_DL  events  median_share  max_share            ha  missing  pct_missing
+year                                                                                    
+2015     4        3       4        0.0022     0.0196  6.293986e+03        1         25.0
+2016     8        5       5        0.0064     0.0826  2.500051e+04        3         38.0
+2017    22        6      13        0.0070     0.0324  1.575584e+05       16         73.0
+2018    34        8      22        0.0038     0.0765  1.999833e+05       26         76.0
+2019    71       56      11        0.0374     0.7625  5.298671e+06       15         21.0
+2023    63       10      32        0.0027     0.1032  4.395783e+05       53         84.0
+2024    11        0       8        0.0035     0.0083  2.220856e+04       11        100.0
+2025     5        2       3        0.0006     0.0050  7.688025e+03        3         60.0
+
+-- by share of council burned
+          rows  with_DL  events  median_share  max_share            ha  missing  pct_missing
+size_bin                                                                                    
+<0.1%       43        6      30        0.0002     0.0009  8.158806e+03       37         86.0
+0.1-1%      92       23      65        0.0039     0.0099  2.644546e+05       69         75.0
+1-2%        21        6      17        0.0170     0.0198  2.184144e+05       15         71.0
+2-5%        24       18      14        0.0320     0.0488  4.129280e+05        6         25.0
+5-10%       10        9       7        0.0723     0.0957  3.960556e+05        1         10.0
+>=10%       28       28       2        0.3360     0.7625  4.856970e+06        0          0.0
+
+-- by Black Summer (871) vs other
+              rows  with_DL  events  median_share  max_share            ha  missing  pct_missing
+black_summer                                                                                    
+False          168       40      95        0.0037     0.1032  1.041493e+06      128         76.0
+True            50       50       1        0.1450     0.7625  5.115489e+06        0          0.0
+
+-- councils with most missing rows
+    region_id              region_name  rows  with_DL  max_share         tot_ha  missing
+51      17000                Singleton     9        1   0.367169  208366.995213        8
+55      17310        Tamworth Regional     8        1   0.046898   74750.589656        7
+58      17620       Upper Hunter Shire     9        2   0.025108   41596.263726        7
+37      15270     Mid-Western Regional     8        2   0.084924  103470.323098        6
+56      17400              Tenterfield     8        3   0.304905  339591.117181        5
+36      15240                Mid-Coast     8        3   0.205111  253023.859982        5
+41      15750                 Narrabri     9        4   0.095715  186778.875905        5
+39      15650             Muswellbrook     6        1   0.261239   94571.680085        5
+12      11720                 Cessnock    10        5   0.295239   65425.928207        5
+25      13660                   Gwydir     6        1   0.005299   14361.221915        5
+13      11730          Clarence Valley     6        2   0.504949  693030.334825        4
+0       10180        Armidale Regional     5        1   0.259191  216440.050667        4
+46      16380  Port Macquarie-Hastings     6        2   0.389121  159583.384718        4
+33      14870                  Lithgow     4        1   0.519594  237498.734707        3
+28      14350                  Kempsey     8        5   0.468494  227832.831856        3
+30      14550                   Kyogle     4        1   0.059110   24678.298584        3
+2       10470        Bathurst Regional     3        0   0.004793    2833.291090        3
+50      16950               Shoalhaven     3        1   0.696196  320313.838792        2
+52      17040    Snowy Monaro Regional     3        1   0.118994  188042.530464        2
+22      13010        Glen Innes Severn     3        1   0.289756  165272.656692        2
+49      16610          Richmond Valley     4        2   0.437413  153488.797277        2
+27      14220                 Inverell     4        2   0.025012   63522.864077        2
+40      15700          Nambucca Valley     3        1   0.238878   35991.659740        2
+59      17640      Upper Lachlan Shire     4        2   0.032156   31706.892582        2
+63      17900                  Walgett     2        0   0.009676   25954.932770        2
+councils with rows but no DL at all: 13 of 69
+
+share >= 2%: rows 62, DL present 55, missing 7
+
+share >= 5%: rows 38, DL present 37, missing 1
+
+share >= 10%: rows 28, DL present 28, missing 0
+
+missing rows >= 5% burned:
+    agrn                                            declaration_name      region_name  year    share       burn_ha
+162  880  NSW North Coast Bushfires: Commencing 18 July 2019 onwards  Clarence Valley  2019  0.07927  82667.936636
+
+share burned, DL present median 0.0321 vs missing median 0.0030; MWU p=9.4e-17
+burn_ha, DL present median 9231 vs missing median 1797; MWU p=3.1e-11
+
+-- events ranked by missing rows
+                    agrn                                                                                  declaration_name  rows  with_DL  year  max_share             ha  missing
+0                   1052                                                                        NSW Bushfires 6 March 2023    11        0  2023   0.019572   33486.358195       11
+66                   880                                        NSW North Coast Bushfires: Commencing 18 July 2019 onwards     7        2  2019   0.079270  105351.075213        5
+8                   1071                                                   North Eastern NSW Bushfires from 21 August 2023     4        0  2023   0.019508   27271.250857        4
+3                   1055                                           Western and North West NSW Bushfires – 17 February 2023     5        1  2023   0.002757    2663.798221        4
+70            NSW1718-09                                     Tamworth, Uralla and Gwydir Bushfires: 2 January 2018 onwards     3        0  2017   0.017201   21219.935689        3
+72            NSW1718-11                           Singleton, Cessnock and Muswellbrook Bushfires: 13 January 2018 onwards     3        0  2018   0.041161   20243.756658        3
+67            NSW1718-05  Mid-Coast, Port Macquarie-Hastings, Dungog and Upper Hunter Bushfires: 23 September 2017 onwards     4        1  2017   0.007331   10903.656208        3
+2                   1054                                    Gwydir, Moree Plains and Narrabri NSW Bushfires – 1 March 2023     3        0  2023   0.003941    5415.236143        3
+15                  1090                                                    Lower Hunter NSW Bushfires – 20 September 2023     3        0  2023   0.010715    3059.925429        3
+9                   1075                                                      Far North NSW Bushfires from 13 October 2023     4        2  2023   0.066161   91423.372602        2
+94  RAA-raa_2016_p13_r23                                                Bushfire (NSW RAA annual report, onset 2017-02-11)     5        3  2017   0.032378   80784.559125        2
+73            NSW1718-12                                      Narrabri and Warrumbungle Bushfires: 17 January 2018 onwards     2        0  2018   0.031892   61717.656006        2
+52                   824                           Clarence Valley and Glen Innes Severn bushfires: 14 August 2018 onwards     2        0  2018   0.034433   37566.971520        2
+21                  1114                                       Inverell and Tenterfield NSW Bushfires 7 – 24 December 2023     2        0  2023   0.015345   19849.786575        2
+51                   823                             Richmond Valley, Lismore and Kyogle bushfires: 12 August 2018 onwards     2        0  2018   0.040781   12591.122597        2
+68            NSW1718-06                             Kempsey and Port Macquarie-Hastings Bushfire: 5 December 2017 onwards     2        0  2017   0.019802   10168.990455        2
+45                   772                           Mid-Coast and Port Macquarie-Hastings Bushfires: 30 August 2017 onwards     2        0  2017   0.006682    6441.663656        2
+34                  1189                 Singleton and Muswellbrook NSW Bushfires from 27 December 2024 to 18 January 2025     2        0  2024   0.008252    5049.973919        2
+80            NSW1718-19                           Narrabri and Gwydir (Bobbiwaa Creek) Bushfire: 12 February 2018 onwards     2        0  2018   0.003191    4719.573888        2
+37                  1192                         Tamworth and Uralla NSW Bushfires from 27 December 2024 to 9 January 2025     2        0  2024   0.003547    4203.187467        2
+38                  1193                        Bathurst and Lithgow NSW Bushfire from 23 December 2024 to 11 January 2025     2        0  2024   0.006030    3444.983249        2
+6                   1066                                     Upper Lachlan and Yass Valley Bushfires from 11 February 2023     2        0  2023   0.005604    3441.128478        2
+1                   1053                                               Gwydir and Narrabri NSW Bushfires – 18 January 2023     2        0  2023   0.003183    3255.237941        2
+54                   842                                    Port Stephens and Cessnock Bushfires: 22 November 2018 onwards     2        0  2018   0.024529    2216.284644        2
+77            NSW1718-16                                   Muswellbrook and Mid-Western Bushfires: 23 January 2018 onwards     2        0  2018   0.001476    1299.357382        2
+41                  1199                              NSW Narrabri and Gwydir Bushfire from 27 January to 10 February 2025     2        0  2025   0.000641     625.670816        2
+61                   862                            Tamworth Regional and Upper Hunter Bushfires: 11 February 2019 onwards     2        0  2019   0.000187     209.559204        2
+64                   867                                    Singleton and Muswellbrook Bushfires: 11 February 2019 onwards     2        0  2019   0.000144      52.689840        2
+55                   843                                                  Northern NSW Bushfires: 11 February 2019 onwards     3        2  2019   0.045762   57047.771818        1
+10                  1076                                                      Mid North NSW Bushfires from 16 October 2023     3        2  2023   0.103208   42444.219376        1

@@ -1,0 +1,129 @@
+page,name,fit,tcorp,n_tcorp,sustain,fsr,outlook,key,met,meas,years,bench_share,fsr_ord
+3,ALBURY CITY COUNCIL,FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,albury,12.0,16.0,2.0,0.75,4
+5,ARMIDALE DUMARESQ COUNCIL,NOT FIT,Moderate/Neutral,1,Does not satisfy,Moderate,Neutral,armidale dumaresq,10.0,16.0,2.0,0.625,4
+7,ASHFIELD CITY COUNCIL,NOT FIT,Sound/Neutral,1,Satisfies,Sound,Neutral,ashfield,8.0,16.0,2.0,0.5,5
+11,BALLINA SHIRE COUNCIL,FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,ballina,8.0,16.0,2.0,0.5,4
+13,BANKSTOWN CITY COUNCIL,FIT,Moderate/Positive,1,Satisfies,Moderate,Positive,bankstown,9.0,16.0,2.0,0.5625,4
+15,BATHURST REGIONAL COUNCIL,FIT,Moderate/Negative,1,Satisfies,Moderate,Negative,bathurst,8.0,16.0,2.0,0.5,4
+17,BEGA VALLEY SHIRE COUNCIL,FIT,Sound/Neutral,1,Satisfies,Sound,Neutral,bega valley,7.0,16.0,2.0,0.4375,5
+19,BELLINGEN SHIRE COUNCIL,NOT FIT,Moderate/Negative,1,Does not satisfy,Moderate,Negative,bellingen,7.0,16.0,2.0,0.4375,4
+21,BERRIGAN SHIRE COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,berrigan,12.0,16.0,2.0,0.75,4
+23,BLACKTOWN CITY COUNCIL,NOT FIT,Moderate/Neutral,1,Does not satisfy,Moderate,Neutral,blacktown,6.0,16.0,2.0,0.375,4
+25,BLAND SHIRE COUNCIL,NOT FIT,Weak/Neutral,1,Satisfies,Weak,Neutral,bland,6.0,16.0,2.0,0.375,3
+27,BLAYNEY SHIRE COUNCIL,NOT FIT,Moderate/Positive,1,Satisfies,Moderate,Positive,blayney,11.0,16.0,2.0,0.6875,4
+29,BLUE MOUNTAINS CITY COUNCIL,FIT,Weak/Neutral,1,Satisfies,Weak,Neutral,blue mountains,8.0,16.0,2.0,0.5,3
+31,BOGAN SHIRE COUNCIL,FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,bogan,10.0,16.0,2.0,0.625,4
+33,BOMBALA SHIRE COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,bombala,7.0,16.0,2.0,0.4375,4
+37,THE COUNCIL OF THE CITY OF BOTANY BAY,NOT FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,botany bay,7.0,16.0,2.0,0.4375,4
+41,BYRON SHIRE COUNCIL,FIT,Weak/Negative,1,Satisfies,Weak,Negative,byron,8.0,16.0,2.0,0.5,3
+43,CABONNE COUNCIL,NOT FIT,Sound/Neutral,1,Satisfies,Sound,Neutral,cabonne,13.0,16.0,2.0,0.8125,5
+45,CAMDEN COUNCIL,FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,camden,6.0,16.0,2.0,0.375,4
+47,CAMPBELLTOWN CITY COUNCIL,NOT FIT,Moderate/Negative,1,Does not satisfy,Moderate,Negative,campbelltown,10.0,16.0,2.0,0.625,4
+51,CANTERBURY CITY COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,canterbury,9.0,16.0,2.0,0.5625,4
+53,CARRATHOOL SHIRE COUNCIL,FIT,Weak/Neutral,1,Satisfies,Weak,Neutral,carrathool,13.0,16.0,2.0,0.8125,3
+55,CESSNOCK CITY COUNCIL,FIT,Moderate/Negative,1,Satisfies,Moderate,Negative,cessnock,12.0,16.0,2.0,0.75,4
+57,CLARENCE VALLEY COUNCIL,NOT FIT,Weak/Negative,1,Does not satisfy,Weak,Negative,clarence valley,7.0,16.0,2.0,0.4375,3
+59,COFFS HARBOUR CITY COUNCIL,FIT,Weak/Negative,1,Satisfies,Weak,Negative,coffs harbour,7.0,16.0,2.0,0.4375,3
+61,CONARGO SHIRE COUNCIL,NOT FIT,Sound/Neutral,1,Satisfies,Sound,Neutral,conargo,11.0,16.0,2.0,0.6875,5
+63,COOLAMON SHIRE COUNCIL,FIT,Sound/Negative,1,Satisfies,Sound,Negative,coolamon,10.0,16.0,2.0,0.625,5
+65,COOMA-MONARO SHIRE COUNCIL,NOT FIT,Weak/Neutral,1,Does not satisfy,Weak,Neutral,cooma monaro,9.0,16.0,2.0,0.5625,3
+67,COONAMBLE SHIRE COUNCIL,FIT,Sound/Negative,1,Satisfies,Sound,Negative,coonamble,12.0,16.0,2.0,0.75,5
+71,COROWA SHIRE COUNCIL,NOT FIT,Moderate/Negative,1,Satisfies,Moderate,Negative,corowa,10.0,16.0,2.0,0.625,4
+75,DENILIQUIN COUNCIL,NOT FIT,Moderate/Negative,1,Satisfies,Moderate,Negative,deniliquin,11.0,16.0,2.0,0.6875,4
+77,DUBBO CITY COUNCIL,FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,dubbo,12.0,16.0,2.0,0.75,4
+79,DUNGOG SHIRE COUNCIL,NOT FIT,Weak/Negative,1,Does not satisfy,Weak,Negative,dungog,8.0,16.0,2.0,0.5,3
+81,EUROBODALLA SHIRE COUNCIL,FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,eurobodalla,8.0,16.0,2.0,0.5,4
+83,FAIRFIELD CITY COUNCIL,NOT FIT,Sound/Neutral,1,Satisfies,Sound,Neutral,fairfield,8.0,16.0,2.0,0.5,5
+85,FORBES SHIRE COUNCIL,NOT FIT,Sound/Negative,1,Satisfies,Sound,Negative,forbes,10.0,16.0,2.0,0.625,5
+87,GILGANDRA SHIRE COUNCIL,FIT,Weak/Neutral,1,Satisfies,Weak,Neutral,gilgandra,8.0,16.0,2.0,0.5,3
+89,GLEN INNES SEVERN SHIRE COUNCIL,FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,glen innes severn,9.0,16.0,2.0,0.5625,4
+90,GLOUCESTER SHIRE COUNCIL,NOT FIT,Very Weak/Negative,1,Does not satisfy,Very Weak,Negative,gloucester,4.0,16.0,2.0,0.25,2
+93,GOSFORD CITY COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,gosford,8.0,16.0,2.0,0.5,4
+95,GOULBURN MULWAREE COUNCIL,NOT FIT,Moderate/Negative,1,Does not satisfy,Moderate,Negative,goulburn mulwaree,9.0,16.0,2.0,0.5625,4
+97,GREAT LAKES COUNCIL,FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,great lakes,10.0,16.0,2.0,0.625,4
+99,GREATER HUME SHIRE COUNCIL,FIT,Moderate/Negative,1,Satisfies,Moderate,Negative,greater hume,8.0,16.0,2.0,0.5,4
+101,GREATER TAREE CITY COUNCIL,NOT FIT,Very Weak/Negative,1,Does not satisfy,Very Weak,Negative,greater taree,5.0,16.0,2.0,0.3125,2
+103,GRIFFITH CITY COUNCIL,NOT FIT,Sound/Negative,1,Satisfies,Sound,Negative,griffith,15.0,16.0,2.0,0.9375,5
+105,GUNDAGAI SHIRE COUNCIL,NOT FIT,Moderate/Negative,1,Does not satisfy,Moderate,Negative,gundagai,10.0,16.0,2.0,0.625,4
+107,GUNNEDAH SHIRE COUNCIL,FIT,Sound/Negative,1,Satisfies,Sound,Negative,gunnedah,12.0,16.0,2.0,0.75,5
+109,GUYRA SHIRE COUNCIL,NOT FIT,Moderate/Negative,1,Does not satisfy,Moderate,Negative,guyra,7.0,16.0,2.0,0.4375,4
+111,GWYDIR SHIRE COUNCIL,NOT FIT,Very Weak/Neutral,1,Does not satisfy,Very Weak,Neutral,gwydir,2.0,8.0,1.0,0.25,2
+115,HAWKESBURY CITY COUNCIL,NOT FIT,Moderate/Negative,1,Does not satisfy,Moderate,Negative,hawkesbury,8.0,16.0,2.0,0.5,4
+117,HAY SHIRE COUNCIL,NOT FIT,Moderate/Negative,1,Does not satisfy,Moderate,Negative,hay,8.0,16.0,2.0,0.5,4
+119,THE HILLS SHIRE COUNCIL,FIT,Sound/Positive,1,Satisfies,Sound,Positive,hills,12.0,16.0,2.0,0.75,5
+123,HORNSBY SHIRE COUNCIL,NOT FIT,Sound/Neutral,1,Satisfies,Sound,Neutral,hornsby,12.0,16.0,2.0,0.75,5
+127,HURSTVILLE CITY COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,hurstville,12.0,16.0,2.0,0.75,4
+129,INVERELL SHIRE COUNCIL,FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,inverell,13.0,16.0,2.0,0.8125,4
+131,JERILDERIE SHIRE COUNCIL,NOT FIT,Moderate/Negative,1,Does not satisfy,Moderate,Negative,jerilderie,9.0,16.0,2.0,0.5625,4
+133,JUNEE SHIRE COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,junee,5.0,16.0,2.0,0.3125,4
+135,KEMPSEY SHIRE COUNCIL,NOT FIT,Weak/Negative,1,Does not satisfy,Weak,Negative,kempsey,6.0,16.0,2.0,0.375,3
+137,KIAMA MUNICIPAL COUNCIL,NOT FIT,Moderate/Neutral,1,Does not satisfy,Moderate,Neutral,kiama,8.0,16.0,2.0,0.5,4
+139,KOGARAH CITY COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,kogarah,13.0,16.0,2.0,0.8125,4
+141,KU-RING-GAI COUNCIL,NOT FIT,Sound/Neutral,1,Satisfies,Sound,Neutral,ku ring gai,12.0,16.0,2.0,0.75,5
+143,KYOGLE COUNCIL,NOT FIT,Weak/Negative,1,Satisfies,Weak,Negative,kyogle,8.0,16.0,2.0,0.5,3
+145,LACHLAN SHIRE COUNCIL,NOT FIT,Moderate/Negative,1,Satisfies,Moderate,Negative,lachlan,4.0,16.0,2.0,0.25,4
+147,LAKE MACQUARIE COUNCIL,NOT FIT,Sound/Negative,1,Satisfies,Sound,Negative,lake macquarie,11.0,16.0,2.0,0.6875,5
+149,LANE COVE COUNCIL,NOT FIT,Sound/Negative,1,Satisfies,Sound,Negative,lane cove,13.0,16.0,2.0,0.8125,5
+151,LEETON SHIRE COUNCIL,FIT,Moderate/Negative,1,Satisfies,Moderate,Negative,leeton,10.0,16.0,2.0,0.625,4
+153,LEICHHARDT MUNICIPAL COUNCIL,NOT FIT,Sound/Neutral,1,Satisfies,Sound,Neutral,leichhardt,13.0,16.0,2.0,0.8125,5
+155,LISMORE CITY COUNCIL,FIT,Moderate/Negative,1,Satisfies,Moderate,Negative,lismore,8.0,16.0,2.0,0.5,4
+157,LITHGOW CITY COUNCIL,NOT FIT,Sound/Negative,1,Does not satisfy,Sound,Negative,lithgow,10.0,16.0,2.0,0.625,5
+159,LIVERPOOL CITY COUNCIL,NOT FIT,Sound/Negative,1,Satisfies,Sound,Negative,liverpool,8.0,16.0,2.0,0.5,5
+161,LIVERPOOL PLAINS SHIRE COUNCIL,NOT FIT,Weak/Negative,1,Satisfies,Weak,Negative,liverpool plains,10.0,16.0,2.0,0.625,3
+163,LOCKHART SHIRE COUNCIL,FIT,Sound/Neutral,1,Satisfies,Sound,Neutral,lockhart,13.0,16.0,2.0,0.8125,5
+165,MAITLAND CITY COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,maitland,8.0,16.0,2.0,0.5,4
+167,MANLY COUNCIL,NOT FIT,Sound/Neutral,1,Satisfies,Sound,Neutral,manly,15.0,16.0,2.0,0.9375,5
+169,MARRICKVILLE COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,marrickville,10.0,16.0,2.0,0.625,4
+171,MID-WESTERN REGIONAL COUNCIL,NOT FIT,Sound/Negative,1,Does not satisfy,Sound,Negative,mid western,9.0,16.0,2.0,0.5625,5
+173,MOREE PLAINS SHIRE COUNCIL,FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,moree plains,13.0,16.0,2.0,0.8125,4
+175,MOSMAN MUNICIPAL COUNCIL,NOT FIT,Weak/Positive,1,Satisfies,Weak,Positive,mosman,10.0,16.0,2.0,0.625,3
+179,MURRUMBIDGEE SHIRE COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,murrumbidgee,10.0,16.0,2.0,0.625,4
+181,MUSWELLBROOK SHIRE COUNCIL,FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,muswellbrook,9.0,16.0,2.0,0.5625,4
+183,NAMBUCCA SHIRE COUNCIL,FIT,Weak/Negative,1,Satisfies,Weak,Negative,nambucca valley,8.0,16.0,2.0,0.5,3
+185,NARRABRI SHIRE COUNCIL,FIT,Moderate/Negative,1,Satisfies,Moderate,Negative,narrabri,10.0,16.0,2.0,0.625,4
+187,NARRANDERA SHIRE COUNCIL,NOT FIT,Moderate/Negative,1,Satisfies,Moderate,Negative,narrandera,8.0,16.0,2.0,0.5,4
+189,NARROMINE SHIRE COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,narromine,11.0,16.0,2.0,0.6875,4
+191,NEWCASTLE CITY COUNCIL,NOT FIT,Moderate/Negative,1,Satisfies,Moderate,Negative,newcastle,9.0,16.0,2.0,0.5625,4
+193,NORTH SYDNEY COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,north sydney,12.0,16.0,2.0,0.75,4
+195,OBERON COUNCIL,NOT FIT,Sound/Negative,1,Satisfies,Sound,Negative,oberon,13.0,16.0,2.0,0.8125,5
+197,ORANGE CITY COUNCIL,NOT FIT,Sound/Negative,1,Satisfies,Sound,Negative,orange,9.0,16.0,2.0,0.5625,5
+199,PALERANG COUNCIL,NOT FIT,Moderate/Negative,1,Satisfies,Moderate,Negative,palerang,11.0,16.0,2.0,0.6875,4
+203,PARRAMATTA CITY COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,parramatta,8.0,16.0,2.0,0.5,4
+205,PENRITH CITY COUNCIL,FIT,Weak/Neutral,1,Satisfies,Weak,Neutral,penrith,9.0,16.0,2.0,0.5625,3
+207,PITTWATER COUNCIL,NOT FIT,Sound/Neutral,1,Satisfies,Sound,Neutral,pittwater,14.0,16.0,2.0,0.875,5
+209,PORT MACQUARIE-HASTINGS COUNCIL,FIT,Weak/Negative,1,Satisfies,Weak,Negative,port macquarie hastings,9.0,16.0,2.0,0.5625,3
+211,PORT STEPHENS COUNCIL,FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,port stephens,9.0,16.0,2.0,0.5625,4
+213,QUEANBEYAN COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,queanbeyan,10.0,16.0,2.0,0.625,4
+217,RICHMOND VALLEY COUNCIL,FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,richmond valley,12.0,16.0,2.0,0.75,4
+219,ROCKDALE CITY COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,rockdale,10.0,16.0,2.0,0.625,4
+221,CITY OF RYDE COUNCIL,NOT FIT,Sound/Negative,1,Satisfies,Sound,Negative,ryde,11.0,16.0,2.0,0.6875,5
+223,SHELLHARBOUR CITY COUNCIL,NOT FIT,Moderate/Negative,1,Does not satisfy,Moderate,Negative,shellharbour,8.0,16.0,2.0,0.5,4
+225,SHOALHAVEN CITY COUNCIL,FIT,Sound/Negative,1,Satisfies,Sound,Negative,shoalhaven,9.0,16.0,2.0,0.5625,5
+227,SINGLETON COUNCIL,FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,singleton,8.0,16.0,2.0,0.5,4
+229,SNOWY RIVER SHIRE COUNCIL,NOT FIT,Moderate/Negative,1,Does not satisfy,Moderate,Negative,snowy river,8.0,16.0,2.0,0.5,4
+231,STRATHFIELD MUNICIPAL COUNCIL,NOT FIT,Moderate/Negative,1,Satisfies,Moderate,Negative,strathfield,7.0,16.0,2.0,0.4375,4
+233,SUTHERLAND SHIRE COUNCIL,FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,sutherland,13.0,16.0,2.0,0.8125,4
+235,THE COUNCIL OF THE CITY OF SYDNEY,NOT FIT,Strong/Positive,1,Satisfies,Strong,Positive,sydney,7.0,16.0,2.0,0.4375,6
+237,TAMWORTH REGIONAL COUNCIL,FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,tamworth,11.0,16.0,2.0,0.6875,4
+239,TEMORA SHIRE COUNCIL,NOT FIT,Sound/Neutral,1,Satisfies,Sound,Neutral,temora,9.0,16.0,2.0,0.5625,5
+241,TENTERFIELD SHIRE COUNCIL,NOT FIT,Weak/Negative,1,Does not satisfy,Weak,Negative,tenterfield,9.0,16.0,2.0,0.5625,3
+243,TUMBARUMBA SHIRE COUNCIL,FIT,Strong/Negative,1,Satisfies,Strong,Negative,tumbarumba,10.0,16.0,2.0,0.625,6
+245,TUMUT SHIRE COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,tumut,9.0,16.0,2.0,0.5625,4
+247,TWEED SHIRE COUNCIL,NOT FIT,Moderate/Neutral,1,Does not satisfy,Moderate,Neutral,tweed,8.0,16.0,2.0,0.5,4
+251,UPPER LACHLAN SHIRE COUNCIL,NOT FIT,Sound/Neutral,1,Satisfies,Sound,Neutral,upper lachlan,13.0,16.0,2.0,0.8125,5
+253,URALLA SHIRE COUNCIL,NOT FIT,Moderate/Negative,1,Satisfies,Moderate,Negative,uralla,9.0,16.0,2.0,0.5625,4
+255,URANA SHIRE COUNCIL,NOT FIT,Weak/Neutral,1,Satisfies,Weak,Neutral,urana,8.0,16.0,2.0,0.5,3
+257,WAGGA WAGGA CITY COUNCIL,FIT,Moderate/Negative,1,Satisfies,Moderate,Negative,wagga wagga,9.0,16.0,2.0,0.5625,4
+259,WAKOOL SHIRE COUNCIL,FIT,Weak/Negative,1,Satisfies,Weak,Negative,wakool,10.0,16.0,2.0,0.625,3
+261,WALCHA SHIRE COUNCIL,NOT FIT,Weak/Negative,1,Satisfies,Weak,Negative,walcha,11.0,16.0,2.0,0.6875,3
+263,WARREN SHIRE COUNCIL,FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,warren,13.0,16.0,2.0,0.8125,4
+265,WARRINGAH COUNCIL,NOT FIT,Sound/Positive,1,Satisfies,Sound,Positive,warringah,15.0,16.0,2.0,0.9375,5
+267,WARRUMBUNGLE SHIRE COUNCIL,NOT FIT,Weak/Negative,1,Does not satisfy,Weak,Negative,warrumbungle,9.0,16.0,2.0,0.5625,3
+271,WEDDIN SHIRE COUNCIL,NOT FIT,Moderate/Negative,1,Does not satisfy,Moderate,Negative,weddin,7.0,16.0,2.0,0.4375,4
+273,WELLINGTON COUNCIL,NOT FIT,Weak/Neutral,1,Satisfies,Weak,Neutral,wellington,9.0,16.0,2.0,0.5625,3
+275,WILLOUGHBY CITY COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,willoughby,11.0,16.0,2.0,0.6875,4
+277,WINGECARRIBEE SHIRE COUNCIL,FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,wingecarribee,8.0,16.0,2.0,0.5,4
+279,WOLLONDILLY SHIRE COUNCIL,FIT,Weak/Neutral,1,Satisfies,Weak,Neutral,wollondilly,7.0,16.0,2.0,0.4375,3
+281,WOLLONGONG CITY COUNCIL,FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,wollongong,9.0,16.0,2.0,0.5625,4
+285,WYONG SHIRE COUNCIL,NOT FIT,Moderate/Neutral,1,Satisfies,Moderate,Neutral,wyong,14.0,16.0,2.0,0.875,4
+287,YASS VALLEY COUNCIL,NOT FIT,Moderate/Negative,1,Does not satisfy,Moderate,Negative,yass valley,6.0,16.0,2.0,0.375,4

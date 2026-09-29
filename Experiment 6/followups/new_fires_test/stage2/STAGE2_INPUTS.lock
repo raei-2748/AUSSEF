@@ -1,0 +1,6 @@
+locked_at: 2026-09-29T20:49:57+10:00
+purpose: stage-2 inputs and script fixed before the single exploratory run (re-locked once after a column-name fix; no result had been produced)
+build_sl.py sha256: 6398b72d31a08f3730ea133761778bfaf52898af68445dd9aab6efe7b39c6c38
+run_stage2.py sha256: 3d6ae0202423efb14dafc4ac11eeaf5508643cbe233f76a5e50d839f7458825b
+results_stage2/SL_nsw2013.csv sha256: 866beb7751248cc613ce772111d87ba5a88860f28e69f8f6812f4b8c71fb6df7
+inputs_dl/dl_stage2_additions.csv sha256: 843a63bdb9dfc9ffdc5fc0d4345a3639b4f5d7069019e57cf712ebe31e7532a4

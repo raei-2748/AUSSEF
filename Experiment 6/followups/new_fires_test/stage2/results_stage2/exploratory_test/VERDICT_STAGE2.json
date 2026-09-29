@@ -1,0 +1,19 @@
+{
+ "stage": "2 (exploratory, rows already seen)",
+ "verdict": "CANNOT TELL",
+ "primary": {
+  "n": 26,
+  "spearman": 0.12478632478632476,
+  "ci_low": -0.2681615358254561,
+  "ci_high": 0.4841937161584492
+ },
+ "frozen_stage1": {
+  "verdict": "CANNOT TELL"
+ },
+ "rows_pillars": {
+  "1": 11,
+  "4": 9,
+  "3": 4,
+  "2": 2
+ }
+}

@@ -1,0 +1,11 @@
+locked_at: 2026-09-29T19:49:52+10:00
+purpose: X side frozen before any Y (income change, business change, finance change, homes destroyed) was computed for a new-fire council
+results/roster.csv sha256: e4aae16248beba9e14f1a8ccfe41868e20a6f15d54bdc7a321081c3fc79941a0
+results/event_polygons.csv sha256: e1d1495eced3557170e82a0e2193aa3c8b9e9764258be4fc276a04c6f98d8c00
+results/comparison_groups.csv sha256: bdb4ed18f5b882b99b617ff61502ab28f93dc9789f1db7acb26585192706f112
+results/SCORES_new_rows.csv sha256: 133a6070b88e7f55b37cc77664e7d58556ca6435190af45a0ada3332bd50b3af
+results/SCORE_ITEMS_new_rows.csv sha256: f81461eb70f8c9ed0105bf57990fce386036c059e2841d59c910b4c4d42a6866
+results/score_build_log.json sha256: 75045b72f310f7d01a91a3f403679691fc9530087793558d5c591066774b024e
+build_rows.py sha256: 0ddc0f1ee4cc23c59b979d5047a734b5419e4d1c7a1fd78afe48dbeace571ae3
+build_scores.py sha256: 4d019b68359e6ee884a01efa4323827839cb5e2f25572f37da6d8eb6923f6659
+nf_lib.py sha256: a123b6bf2ab036c0fc848863b3a0b8819e7f019e94a05cedf650baf1c6c1c695

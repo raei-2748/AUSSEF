@@ -1,0 +1,66 @@
+event,region_id,region_name,block,item,raw,pct
+NSW_2013_oct,13800,Hawkesbury (C),V,seifa_irsd,1020.3374373,0.23255813953488372
+NSW_2013_oct,13800,Hawkesbury (C),V,median_income,45415.0,0.23076923076923078
+NSW_2013_oct,13800,Hawkesbury (C),V,unemp_rate,6.8,0.7723577235772358
+NSW_2013_oct,10900,Blue Mountains (C),V,seifa_irsd,1038.6495389,0.20155038759689922
+NSW_2013_oct,10900,Blue Mountains (C),V,median_income,44920.0,0.23846153846153847
+NSW_2013_oct,10900,Blue Mountains (C),V,unemp_rate,5.5,0.5609756097560976
+NSW_2013_oct,15650,Muswellbrook (A),V,seifa_irsd,968.17923964,0.5193798449612403
+NSW_2013_oct,15650,Muswellbrook (A),V,median_income,50688.0,0.1076923076923077
+NSW_2013_oct,15650,Muswellbrook (A),V,unemp_rate,4.1,0.2764227642276423
+NSW_2013_oct,14870,Lithgow (C),V,seifa_irsd,924.2346721,0.8372093023255814
+NSW_2013_oct,14870,Lithgow (C),V,median_income,41938.0,0.36923076923076925
+NSW_2013_oct,14870,Lithgow (C),V,unemp_rate,10.2,0.967479674796748
+NSW_2013_oct,16400,Port Stephens (A),V,seifa_irsd,979.94752748,0.43410852713178294
+NSW_2013_oct,16400,Port Stephens (A),V,median_income,40862.0,0.4230769230769231
+NSW_2013_oct,16400,Port Stephens (A),V,unemp_rate,5.1,0.4959349593495935
+NSW_2013_oct,18400,Wollondilly (A),V,seifa_irsd,1033.5848222,0.20930232558139536
+NSW_2013_oct,18400,Wollondilly (A),V,median_income,47406.0,0.17692307692307693
+NSW_2013_oct,18400,Wollondilly (A),V,unemp_rate,3.3,0.16260162601626016
+NSW_2013_oct,18350,Wingecarribee (A),V,seifa_irsd,1023.7661873,0.23255813953488372
+NSW_2013_oct,18350,Wingecarribee (A),V,median_income,38798.0,0.5538461538461539
+NSW_2013_oct,18350,Wingecarribee (A),V,unemp_rate,4.7,0.37398373983739835
+NSW_2013_oct,11730,Clarence Valley (A),V,seifa_irsd,919.3549393,0.8604651162790697
+NSW_2013_oct,11730,Clarence Valley (A),V,median_income,32312.0,0.9153846153846154
+NSW_2013_oct,11730,Clarence Valley (A),V,unemp_rate,7.6,0.8617886178861789
+NSW_2013_oct,11720,Cessnock (C),V,seifa_irsd,936.44706706,0.7751937984496124
+NSW_2013_oct,11720,Cessnock (C),V,median_income,43384.0,0.3076923076923077
+NSW_2013_oct,11720,Cessnock (C),V,unemp_rate,6.5,0.7479674796747967
+NSW_2013_oct,14650,Lake Macquarie (C),V,seifa_irsd,994.80605154,0.3178294573643411
+NSW_2013_oct,14650,Lake Macquarie (C),V,median_income,44589.0,0.25384615384615383
+NSW_2013_oct,14650,Lake Macquarie (C),V,unemp_rate,5.7,0.6178861788617886
+NSW_2013_oct,16950,Shoalhaven (C),V,seifa_irsd,954.58943921,0.6511627906976745
+NSW_2013_oct,16950,Shoalhaven (C),V,median_income,35768.0,0.8153846153846154
+NSW_2013_oct,16950,Shoalhaven (C),V,unemp_rate,11.5,0.991869918699187
+NSW_2013_oct,18450,Wollongong (C),V,seifa_irsd,979.59345954,0.43410852713178294
+NSW_2013_oct,18450,Wollongong (C),V,median_income,44856.0,0.24615384615384617
+NSW_2013_oct,18450,Wollongong (C),V,unemp_rate,7.1,0.8373983739837398
+NSW_2013_oct,17000,Singleton (A),V,seifa_irsd,1013.0170134,0.24031007751937986
+NSW_2013_oct,17000,Singleton (A),V,median_income,53475.0,0.06923076923076923
+NSW_2013_oct,17000,Singleton (A),V,unemp_rate,2.7,0.0975609756097561
+VIC_2009_black_saturday,25620,Murrindindi (S),V,seifa_irsd,1006.04,0.2558139534883721
+VIC_2009_black_saturday,25620,Murrindindi (S),V,median_income,33636.0,0.7692307692307693
+VIC_2009_black_saturday,25710,Nillumbik (S),V,seifa_irsd,1104.4,0.05426356589147287
+VIC_2009_black_saturday,25710,Nillumbik (S),V,median_income,48569.0,0.09230769230769231
+VIC_2009_black_saturday,27450,Yarra Ranges (S),V,seifa_irsd,1038.76,0.20155038759689922
+VIC_2009_black_saturday,27450,Yarra Ranges (S),V,median_income,39966.0,0.3384615384615385
+VIC_2009_black_saturday,27070,Whittlesea (C),V,seifa_irsd,978.39,0.43410852713178294
+VIC_2009_black_saturday,27070,Whittlesea (C),V,median_income,38546.0,0.38461538461538464
+VIC_2009_black_saturday,24850,Mitchell (S),V,seifa_irsd,999.8,0.2713178294573643
+VIC_2009_black_saturday,24850,Mitchell (S),V,median_income,38533.0,0.38461538461538464
+VIC_2009_black_saturday,23810,Latrobe (C),V,seifa_irsd,950.74,0.7054263565891473
+VIC_2009_black_saturday,23810,Latrobe (C),V,median_income,41705.0,0.23076923076923078
+VIC_2009_black_saturday,26170,South Gippsland (S),V,seifa_irsd,1001.22,0.2713178294573643
+VIC_2009_black_saturday,26170,South Gippsland (S),V,median_income,35028.0,0.7076923076923077
+VIC_2009_black_saturday,20110,Alpine (S),V,seifa_irsd,989.39,0.3333333333333333
+VIC_2009_black_saturday,20110,Alpine (S),V,median_income,32571.0,0.8615384615384616
+VIC_2009_black_saturday,20830,Baw Baw (S),V,seifa_irsd,1000.77,0.2713178294573643
+VIC_2009_black_saturday,20830,Baw Baw (S),V,median_income,37563.0,0.46153846153846156
+VIC_2009_black_saturday,21450,Cardinia (S),V,seifa_irsd,1027.16,0.21705426356589147
+VIC_2009_black_saturday,21450,Cardinia (S),V,median_income,40325.0,0.3076923076923077
+VIC_2009_black_saturday,25430,Mount Alexander (S),V,seifa_irsd,980.88,0.4186046511627907
+VIC_2009_black_saturday,25430,Mount Alexander (S),V,median_income,33108.0,0.823076923076923
+VIC_2009_black_saturday,23350,Indigo (S),V,seifa_irsd,1016.24,0.24031007751937986
+VIC_2009_black_saturday,23350,Indigo (S),V,median_income,36642.0,0.5307692307692308
+VIC_2009_black_saturday,26810,Wellington (S),V,seifa_irsd,978.19,0.43410852713178294
+VIC_2009_black_saturday,26810,Wellington (S),V,median_income,38353.0,0.4076923076923077

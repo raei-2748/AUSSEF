@@ -1,0 +1,34 @@
+== 1. overlap of fiscal (F) and vulnerability (V) blocks
+F vs V, all 129 councils: 0.27; 69 councils with a fire: 0.10
+all rows (n=218): F vs Y raw +0.03, controlling V -0.02; V vs Y controlling F +0.25
+>= 5% burned (n=38): F vs Y raw +0.00, controlling V -0.20; V vs Y controlling F +0.60
+
+== 2. do the six fiscal ratios agree?
+                            cash_cover_months  own_source_pct  debt_service_ratio_pct  operating_ratio_pct  infra_backlog_ratio_pct  unrestricted_current_ratio
+cash_cover_months                        1.00           -0.17                   -0.17                 0.20                    -0.04                        0.58
+own_source_pct                          -0.17            1.00                    0.25                 0.18                    -0.09                       -0.02
+debt_service_ratio_pct                  -0.17            0.25                    1.00                -0.05                     0.12                       -0.40
+operating_ratio_pct                      0.20            0.18                   -0.05                 1.00                    -0.18                        0.11
+infra_backlog_ratio_pct                 -0.04           -0.09                    0.12                -0.18                     1.00                       -0.18
+unrestricted_current_ratio               0.58           -0.02                   -0.40                 0.11                    -0.18                        1.00
+mean off-diagonal |rho| = 0.18
+
+== 3. disaster money
+total_revenue_change_event_pct: vs burned share (np.float64(-0.09), 213), vs DL (np.float64(0.2), 88), vs Y (np.float64(0.07), 213)
+total_revenue_change_plus1_pct: vs burned share (np.float64(-0.05), 198), vs DL (np.float64(0.28), 86), vs Y (np.float64(0.08), 198)
+grants_per_capita_change_plus1_excess: vs burned share (np.float64(0.02), 199), vs DL (np.float64(0.25), 87), vs Y (np.float64(0.16), 199)
+own_source_revenue_change_plus1_pct: vs burned share (np.float64(-0.27), 160), vs DL (np.float64(0.09), 78), vs Y (np.float64(0.09), 160)
+median by group
+                                          >=5% burned  <2% burned
+FP_total_revenue_change_event_pct                4.28        5.57
+FP_total_revenue_change_plus1_pct               16.39       11.82
+FP_grants_per_capita_change_plus1_excess       319.83      102.07
+FP_own_source_revenue_change_plus1_pct           7.51       11.48
+n big 38, small 156
+FP vs DL raw +0.20, controlling revenue change +0.14 (n=86)
+FP vs burned share raw +0.11, controlling +0.12 (n=198)
+  >= 5% burned only: raw +0.30, controlling +0.27 (n=38)
+Black Summer councils with reported damage AND funding: 2
+     region_name  FP_reported_audit_lg2020_damage_estimate_aud  FP_reported_audit_lg2020_funding_received_aud  funding_to_damage
+114  Bega Valley                                    20500000.0                                      7950000.0               0.39
+124  Eurobodalla                                    10000000.0                                      6800000.0               0.68

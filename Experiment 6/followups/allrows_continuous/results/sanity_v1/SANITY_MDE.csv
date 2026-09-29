@@ -1,0 +1,17 @@
+block,sample,rule,mde_g_80pct_power
+H,all,unadjusted,0.1845053390115684
+H,all,Holm,0.24025006600587417
+H,excl_BS,unadjusted,
+H,excl_BS,Holm,
+E,all,unadjusted,0.18995052623298264
+E,all,Holm,0.24853741745934116
+E,excl_BS,unadjusted,0.3079968645540775
+E,excl_BS,Holm,
+V,all,unadjusted,0.15963081607237084
+V,all,Holm,0.19051198976738393
+V,excl_BS,unadjusted,0.2343816075721155
+V,excl_BS,Holm,0.2794065490443943
+F,all,unadjusted,0.23846324660138135
+F,all,Holm,0.2799544752156091
+F,excl_BS,unadjusted,0.29312336485377616
+F,excl_BS,Holm,
