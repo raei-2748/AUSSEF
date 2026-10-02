@@ -24,8 +24,9 @@ and live on OneDrive (`Extracurriculars/AUSSEF/06 Finished Experiments`); they a
 
 - **Master workbook (live)**: `data/master_workbook/nsw_bushfires_2015_2025_XY.xlsx` (sha256 123423ea...ec3); every
   script reads it here. Do not edit it.
-- **OneDrive `Extracurriculars/AUSSEF/`**: ARCHIVE ONLY, for material we no longer use (finished experiments, raw
-  downloads, council PDFs already extracted, old dataset versions). Start with `00 README - What is where.md` there.
+- **OneDrive `Extracurriculars/AUSSEF/`**: Ray's own documents (01 competition info, 02 notes and Bowen updates,
+  03 literature, 04 presentations) plus the ARCHIVE of data and experiments we no longer use (05 Data Archive,
+  06 Finished Experiments). Nothing the scripts read lives there. Start with `00 README - What is where.md`.
 - **Google Drive `Application Folder - Ray/Extracurriculars/AUSSEF/`**: Google Docs/Sheets/Slides (Logbook, Notes,
   Syllabus, Bibliography sheet) plus the original copies of files now also on OneDrive.
 - **What moved where and when**: `docs/storage/` (`MOVED_FILES.txt`, `data_archive_moves_2026-10-02.csv`).
