@@ -1,42 +1,50 @@
 # AUSSEF
 
-Research on disasters, local-government finance and infrastructure in New South Wales.
+Research on how NSW bushfires (2015-2025) affect councils and communities: Bowen's composite impact
+Y = DL + IL + FP + SL, the X variables, random forest + importance, severity tiers and a pre-fire council risk map.
+Report due 11 Nov 2026.
 
 ## Start here
 
-- [Canonical data model](data/README.md)
-- [Research stack setup](docs/research-stack.md)
-- [Experiment 1 — fiscal forecasting](Experiment%201/README.md)
-- [Experiment 2 — longer matched history](Experiment%202/README.md)
-- [Experiment 3 — crowd-out measurement](Experiment%203/README.md)
-- [Experiment 4 — quarterly budget revisions](Experiment%204/README.md)
+| Folder | What it is | Read first |
+|---|---|---|
+| `fire_event_dataset/` | The 96-fire x council panel (218 rows) and how it was built | [README](fire_event_dataset/README.md) |
+| `Experiment 5/` | Panel random forest within councils, tested by time | [REPORT](Experiment%205/REPORT.md) |
+| `Experiment 6/` | Pre-fire council risk score (Bush Fire Prone Land), tested on the 96 fires; follow-ups incl. NSW 2013, Victoria 2009 and SA fresh tests | [REPORT](Experiment%206/REPORT.md) |
+| `Experiment 7/` | What fires measurably do to councils (Days 1-11): housing loss predictable, socioeconomic effects mostly below detection; rapid post-fire estimate | [README](Experiment%207/README.md) |
+| `Experiment 8/` | Mechanism review: 55 ways fires affect people and councils, from 141 sources, sorted into DL/IL/FP/SL | [MECHANISMS](Experiment%208/MECHANISMS.md) |
+| `Experiment 9/` | Bowen's pipeline: random forest on the composite Y, by pillar | [FINDINGS](Experiment%209/FINDINGS.md) |
+| `Experiment 10/` | Council recovery costs from audited financial statements (and stopped quarterly budget reviews) | [HANDOFF](Experiment%2010/HANDOFF.md) |
+| `bibliography/` | Every source used or searched, with link checks | [README](bibliography/README.md) |
 
-Each experiment retains its notebook, code, audits and results. Cleaned structured data is consolidated in the canonical DuckDB model under `data/`.
+Experiments 1-4 (fiscal forecasting, matched history, crowd-out, budget revisions) and the exit-road pilot are finished
+and live on OneDrive (`Extracurriculars/AUSSEF/06 Finished Experiments`); they are also in git history.
 
-## Repository map
+## Where everything else is
+
+- **OneDrive `Extracurriculars/AUSSEF/`**: notes and updates for Bowen, literature, presentations, the **master workbook**
+  (`05 Data Archive/Master Workbook (read by the analysis scripts)/`; scripts read it there), council PDFs and raw
+  downloads. Start with `00 README - What is where.md` there.
+- **Google Drive `Application Folder - Ray/Extracurriculars/AUSSEF/`**: Google Docs/Sheets/Slides (Logbook, Notes,
+  Syllabus, Bibliography sheet) plus the original copies of files now also on OneDrive.
+- **What moved where and when**: `docs/storage/` (`MOVED_FILES.txt`, `data_archive_moves_2026-10-02.csv`).
+
+## Other folders
 
 ```text
-data/                canonical DuckDB model and build receipt
-schemas/             Pandera validation schemas for canonical tables
-scripts/             reproducible export, setup and verification scripts
-docs/                concise stack and workflow documentation
-NSW Data Panel.csv   frozen source panel
-Experiment 1/        first forecasting test
-Experiment 2/        extended panel and exposure construction
-Experiment 3/        outcome-measurement feasibility study
-Experiment 4/        current budget-reallocation pilot
-generated/           generated graph index and cache
+data/                canonical DuckDB model (aussef.duckdb) and build receipt
+NSW Data Panel.csv   OLG council time-series panel (frozen source)
+docs/                stack notes, literature notes, Y composition, storage logs
+schemas/, scripts/   validation schemas and setup/export scripts
+graphify-out/        code knowledge graph (tooling)
+aussef_duckdb/, generated/, _site/, reports/   older database store, graph cache, site build
 ```
 
-The `code/` folders contain scripts. `data/` contains source or derived tables. `results/` contains saved outputs. `audit/`, `archive/` and `related/` contain supporting or historical material.
+The environment is declared in `pyproject.toml` and locked by `uv.lock`.
 
-The reproducible environment is declared in `pyproject.toml` and locked by
-`uv.lock`. Parquet/GeoParquet derivatives are generated from
-`data/aussef.duckdb`; source files and saved results remain untouched.
+## Research rules
 
-## Research boundaries
-
-- No data or evidence files are deleted during organisation changes.
-- Missing is kept distinct from zero, unavailable and not applicable.
-- Saved results are descriptive unless a README explicitly says otherwise.
-- The current research position is a measurement-first pilot; no unsupported causal or predictive claim is promoted to a result.
+- Every new statistical test is fixed in a hash-locked PRESPEC first; later changes are labelled deviations.
+- Every source is logged in `bibliography/parts/`. No Australian Community Media sources.
+- Missing is kept distinct from zero; "not detected" is reported with its bound, never as "no effect".
+- No data or evidence files are deleted; moved files are logged in `docs/storage/`.
