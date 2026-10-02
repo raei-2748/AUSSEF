@@ -21,11 +21,9 @@ import pandas as pd
 HERE = Path(__file__).resolve().parent
 INPUTS = HERE / 'inputs'
 RESULTS = HERE / 'results'
-MAIN = Path('/Users/ray/Research/AUSSEF')
+MAIN = Path('/Users/ray/Research/AUSSEF - Local')
 ROWS_V2 = MAIN / 'Experiment 6/results/ROWS_WITH_SCORE_v2.csv'
-WORKBOOK = Path.home() / ('Library/CloudStorage/GoogleDrive-raywang886@gmail.com/My Drive/'
-                          'Application Folder - Ray/3. Extracurriculars/AUSSEF/Data/'
-                          'nsw_bushfires_2015_2025_XY.xlsx')
+WORKBOOK = Path('/Users/ray/Library/CloudStorage/OneDrive-KnoxGrammarSchool/Extracurriculars/AUSSEF/05 Data Archive/Master Workbook (read by the analysis scripts)/nsw_bushfires_2015_2025_XY.xlsx')
 COMPARE_HA = 100
 SEED = 20260929          # same seed and 2,000 cluster-bootstrap draws as Experiment 6
 N_BOOT = 2000

@@ -18,7 +18,7 @@ import pandas as pd
 from scipy.stats import rankdata
 
 HERE = Path(__file__).resolve().parent
-ROWS = Path('/Users/ray/Research/AUSSEF/Experiment 6/results/ROWS_WITH_SCORE_v2.csv')
+ROWS = Path('/Users/ray/Research/AUSSEF - Local/Experiment 6/results/ROWS_WITH_SCORE_v2.csv')
 SEED = 20260930
 N_SIM = 300
 N_BOOT = 200

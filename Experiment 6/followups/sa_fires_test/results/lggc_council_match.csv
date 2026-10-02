@@ -1,0 +1,12 @@
+event,lga_code,lga_name,key,lggc_matches,lggc_name
+SA_2015_pinery,43650,Light (RegC),light,1,Light
+SA_2015_pinery,43920,Mallala (DC),adelaide plains,1,Mallala
+SA_2015_pinery,48130,Wakefield (DC),wakefield,1,Wakefield
+SA_2015_pinery,41140,Clare and Gilbert Valleys (DC),clare and gilbert valleys,1,Clare & Gilbert Valleys
+SA_2015_sampson_flat,40120,Adelaide Hills (DC),adelaide hills,1,Adelaide Hills
+SA_2015_sampson_flat,45680,Playford (C),playford,1,Playford
+SA_2015_sampson_flat,47700,Tea Tree Gully (C),tea tree gully,1,Tea Tree Gully
+SA_2019_20_kangaroo_island,42750,Kangaroo Island (DC),kangaroo island,1,Kangaroo Island
+SA_2019_20_keilira,43360,Kingston (DC) (SA),kingston,1,Kingston
+SA_2019_cudlee_creek,40120,Adelaide Hills (DC),adelaide hills,1,Adelaide Hills
+SA_2019_cudlee_creek,44550,Mount Barker (DC),mount barker,1,Mount Barker

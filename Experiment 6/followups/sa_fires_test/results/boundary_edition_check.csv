@@ -1,0 +1,294 @@
+from_edition,to_edition,code,name,in_from,in_to,area_change
+2015,2016,40070,Adelaide (C),True,True,-2.978977521328474e-07
+2015,2016,40120,Adelaide Hills (DC),True,True,1.0293992679377695e-05
+2015,2016,40220,Alexandrina (DC),True,True,-0.0002460998056713626
+2015,2016,40250,Anangu Pitjantjatjara (AC),True,True,0.00031833977908202193
+2015,2016,40310,Barossa (DC),True,True,-7.415659658116525e-06
+2015,2016,40430,Barunga West (DC),True,True,-3.588200281345877e-08
+2015,2016,40520,Berri and Barmera (DC),True,True,-0.07859076731506842
+2015,2016,40700,Burnside (C),True,True,5.817895147863794e-07
+2015,2016,40910,Campbelltown (C),True,True,9.612734779285148e-07
+2015,2016,41010,Ceduna (DC),True,True,3.713377289216169e-05
+2015,2016,41060,Charles Sturt (C),True,True,5.500923911050393e-06
+2015,2016,41140,Clare and Gilbert Valleys (DC),True,True,8.903779114000088e-08
+2015,2016,41190,Cleve (DC),True,True,-2.5400355152527254e-09
+2015,2016,41330,Coober Pedy (DC),True,True,-5.855183471403791e-08
+2015,2016,41560,Copper Coast (DC),True,True,-7.884154440418456e-09
+2015,2016,41750,Elliston (DC),True,True,0.0005029170968553487
+2015,2016,41830,Flinders Ranges (DC),True,True,-0.013549924055251572
+2015,2016,41960,Franklin Harbour (DC),True,True,3.0830143105120555e-08
+2015,2016,42030,Gawler (T),True,True,0.0011652949920086808
+2015,2016,42110,Goyder (DC),True,True,-0.00013033792878702766
+2015,2016,42250,Grant (DC),True,True,5.174235476745892e-06
+2015,2016,42600,Holdfast Bay (C),True,True,1.6610997979338293e-05
+2015,2016,42750,Kangaroo Island (DC),True,True,2.8338857319676336e-05
+2015,2016,43080,Karoonda East Murray (DC),True,True,5.953757042931329e-09
+2015,2016,43220,Kimba (DC),True,True,0.43001569152562924
+2015,2016,43360,Kingston (DC),True,True,2.561624496522086e-06
+2015,2016,43650,Light (RegC),True,True,7.492306204337496e-07
+2015,2016,43710,Lower Eyre Peninsula (DC),True,True,2.121863526083345e-05
+2015,2016,43790,Loxton Waikerie (DC),True,True,-0.029423923641101135
+2015,2016,43920,Mallala (DC),True,True,7.775477577087742e-05
+2015,2016,44000,Maralinga Tjarutja (AC),True,True,-0.00033009656574856105
+2015,2016,44060,Marion (C),True,True,9.994118999046009e-08
+2015,2016,44210,Mid Murray (DC),True,True,3.961605250046851e-05
+2015,2016,44340,Mitcham (C),True,True,1.5373325501499835e-08
+2015,2016,44550,Mount Barker (DC),True,True,-1.314939219621003e-05
+2015,2016,44620,Mount Gambier (C),True,True,-4.265577963069589e-06
+2015,2016,44830,Mount Remarkable (DC),True,True,1.8839310689244826e-07
+2015,2016,45040,Murray Bridge (RC),True,True,8.260738759702235e-10
+2015,2016,45090,Naracoorte and Lucindale (DC),True,True,1.9966792663694832e-09
+2015,2016,45120,Northern Areas (DC),True,True,1.4777246093444774e-10
+2015,2016,45290,Norwood Payneham St Peters (C),True,True,-1.3895886663561896e-08
+2015,2016,45340,Onkaparinga (C),True,True,1.334029553490268e-09
+2015,2016,45400,Orroroo/Carrieton (DC),True,True,-1.5291370614178845e-08
+2015,2016,45540,Peterborough (DC),True,True,4.0993064295502535e-05
+2015,2016,45680,Playford (C),True,True,0.0007864521730065466
+2015,2016,45890,Port Adelaide Enfield (C),True,True,8.38549296338087e-05
+2015,2016,46090,Port Augusta (C),True,True,0.03776670088420486
+2015,2016,46300,Port Lincoln (C),True,True,2.68388214479387e-05
+2015,2016,46450,Port Pirie City and Dists (M),True,True,2.285852536143551e-07
+2015,2016,46510,Prospect (C),True,True,9.147058555036836e-07
+2015,2016,46670,Renmark Paringa (DC),True,True,1.3926005903996952e-08
+2015,2016,46860,Robe (DC),True,True,9.944150267027219e-05
+2015,2016,46970,Roxby Downs (M),True,True,0.005172868529516483
+2015,2016,47140,Salisbury (C),True,True,0.011408169157991477
+2015,2016,47290,Southern Mallee (DC),True,True,2.1859545284996784e-09
+2015,2016,47490,Streaky Bay (DC),True,True,-0.003868793222526423
+2015,2016,47630,Tatiara (DC),True,True,9.943470313800162e-07
+2015,2016,47700,Tea Tree Gully (C),True,True,-5.439567711817972e-07
+2015,2016,47800,The Coorong (DC),True,True,0.00011394190874280952
+2015,2016,47910,Tumby Bay (DC),True,True,7.241921708533994e-06
+2015,2016,47980,Unley (C),True,True,-8.742655189797333e-07
+2015,2016,48050,Victor Harbor (C),True,True,9.888956153281114e-06
+2015,2016,48130,Wakefield (DC),True,True,-1.3995577807790482e-07
+2015,2016,48260,Walkerville (M),True,True,-8.26297047862301e-06
+2015,2016,48340,Wattle Range (DC),True,True,-4.911345749869511e-06
+2015,2016,48410,West Torrens (C),True,True,-6.106058266674985e-06
+2015,2016,48540,Whyalla (C),True,True,0.001887581521809567
+2015,2016,48640,Wudinna (DC),True,True,-0.05907460160045408
+2015,2016,48750,Yankalilla (DC),True,True,2.1860643739657348e-08
+2015,2016,48830,Yorke Peninsula (DC),True,True,2.0031549530230564e-08
+2015,2016,49399,Unincorporated SA,True,True,-0.001594023482346385
+2015,2016,49499,No usual address (SA),True,True,
+2015,2016,49799,Migratory - Offshore - Shipping (SA),False,True,
+2016,2018,40070,Adelaide (C),True,True,0.0
+2016,2018,40120,Adelaide Hills (DC),True,True,0.0
+2016,2018,40150,Adelaide Plains (DC),False,True,
+2016,2018,40220,Alexandrina (DC),True,True,0.0
+2016,2018,40250,Anangu Pitjantjatjara (AC),True,True,0.0
+2016,2018,40310,Barossa (DC),True,True,0.0
+2016,2018,40430,Barunga West (DC),True,True,0.0
+2016,2018,40520,Berri and Barmera (DC),True,True,0.0
+2016,2018,40700,Burnside (C),True,True,0.0
+2016,2018,40910,Campbelltown (C) (SA),True,True,0.0
+2016,2018,41010,Ceduna (DC),True,True,0.0
+2016,2018,41060,Charles Sturt (C),True,True,0.0
+2016,2018,41140,Clare and Gilbert Valleys (DC),True,True,0.0
+2016,2018,41190,Cleve (DC),True,True,0.0
+2016,2018,41330,Coober Pedy (DC),True,True,0.0
+2016,2018,41560,Copper Coast (DC),True,True,0.0
+2016,2018,41750,Elliston (DC),True,True,0.0
+2016,2018,41830,Flinders Ranges (DC),True,True,0.0
+2016,2018,41960,Franklin Harbour (DC),True,True,0.0
+2016,2018,42030,Gawler (T),True,True,0.0
+2016,2018,42110,Goyder (DC),True,True,0.0
+2016,2018,42250,Grant (DC),True,True,0.0
+2016,2018,42600,Holdfast Bay (C),True,True,0.0
+2016,2018,42750,Kangaroo Island (DC),True,True,0.0
+2016,2018,43080,Karoonda East Murray (DC),True,True,0.0
+2016,2018,43220,Kimba (DC),True,True,0.0
+2016,2018,43360,Kingston (DC) (SA),True,True,0.0
+2016,2018,43650,Light (RegC),True,True,0.0
+2016,2018,43710,Lower Eyre Peninsula (DC),True,True,0.0
+2016,2018,43790,Loxton Waikerie (DC),True,True,0.0
+2016,2018,43920,Mallala (DC),True,False,
+2016,2018,44000,Maralinga Tjarutja (AC),True,True,0.0
+2016,2018,44060,Marion (C),True,True,0.0
+2016,2018,44210,Mid Murray (DC),True,True,0.0
+2016,2018,44340,Mitcham (C),True,True,0.0
+2016,2018,44550,Mount Barker (DC),True,True,0.0
+2016,2018,44620,Mount Gambier (C),True,True,0.0
+2016,2018,44830,Mount Remarkable (DC),True,True,0.0
+2016,2018,45040,Murray Bridge (RC),True,True,0.0
+2016,2018,45090,Naracoorte and Lucindale (DC),True,True,0.0
+2016,2018,45120,Northern Areas (DC),True,True,0.0
+2016,2018,45290,Norwood Payneham St Peters (C),True,True,0.0
+2016,2018,45340,Onkaparinga (C),True,True,0.0
+2016,2018,45400,Orroroo/Carrieton (DC),True,True,0.0
+2016,2018,45540,Peterborough (DC),True,True,0.0
+2016,2018,45680,Playford (C),True,True,0.0
+2016,2018,45890,Port Adelaide Enfield (C),True,True,0.0
+2016,2018,46090,Port Augusta (C),True,True,0.0
+2016,2018,46300,Port Lincoln (C),True,True,0.0
+2016,2018,46450,Port Pirie City and Dists (M),True,True,0.0
+2016,2018,46510,Prospect (C),True,True,0.0
+2016,2018,46670,Renmark Paringa (DC),True,True,0.0
+2016,2018,46860,Robe (DC),True,True,0.0
+2016,2018,46970,Roxby Downs (M),True,True,0.0
+2016,2018,47140,Salisbury (C),True,True,0.0
+2016,2018,47290,Southern Mallee (DC),True,True,0.0
+2016,2018,47490,Streaky Bay (DC),True,True,0.0
+2016,2018,47630,Tatiara (DC),True,True,0.0
+2016,2018,47700,Tea Tree Gully (C),True,True,0.0
+2016,2018,47800,The Coorong (DC),True,True,-2.19731749784291e-06
+2016,2018,47910,Tumby Bay (DC),True,True,0.0
+2016,2018,47980,Unley (C),True,True,0.0
+2016,2018,48050,Victor Harbor (C),True,True,0.0
+2016,2018,48130,Wakefield (DC),True,True,0.0
+2016,2018,48260,Walkerville (M),True,True,0.0
+2016,2018,48340,Wattle Range (DC),True,True,0.0
+2016,2018,48410,West Torrens (C),True,True,0.0
+2016,2018,48540,Whyalla (C),True,True,-0.00025207659989923137
+2016,2018,48640,Wudinna (DC),True,True,0.0
+2016,2018,48750,Yankalilla (DC),True,True,0.0
+2016,2018,48830,Yorke Peninsula (DC),True,True,0.0
+2016,2018,49399,Unincorporated SA,True,True,4.6512915408136735e-07
+2016,2018,49499,No usual address (SA),True,True,
+2016,2018,49799,Migratory - Offshore - Shipping (SA),True,True,
+2018,2020,40070,Adelaide (C),True,True,0.0
+2018,2020,40120,Adelaide Hills (DC),True,True,0.0
+2018,2020,40150,Adelaide Plains (DC),True,True,0.0
+2018,2020,40220,Alexandrina (DC),True,True,0.0
+2018,2020,40250,Anangu Pitjantjatjara (AC),True,True,0.0
+2018,2020,40310,Barossa (DC),True,True,0.0
+2018,2020,40430,Barunga West (DC),True,True,0.0
+2018,2020,40520,Berri and Barmera (DC),True,True,0.0
+2018,2020,40700,Burnside (C),True,True,0.0
+2018,2020,40910,Campbelltown (C) (SA),True,True,0.0
+2018,2020,41010,Ceduna (DC),True,True,0.0
+2018,2020,41060,Charles Sturt (C),True,True,0.0
+2018,2020,41140,Clare and Gilbert Valleys (DC),True,True,0.0
+2018,2020,41190,Cleve (DC),True,True,0.0
+2018,2020,41330,Coober Pedy (DC),True,True,0.0
+2018,2020,41560,Copper Coast (DC),True,True,0.0
+2018,2020,41750,Elliston (DC),True,True,0.0
+2018,2020,41830,Flinders Ranges (DC),True,True,0.0
+2018,2020,41960,Franklin Harbour (DC),True,True,0.0
+2018,2020,42030,Gawler (T),True,True,0.0
+2018,2020,42110,Goyder (DC),True,True,0.0
+2018,2020,42250,Grant (DC),True,True,0.0
+2018,2020,42600,Holdfast Bay (C),True,True,0.0
+2018,2020,42750,Kangaroo Island (DC),True,True,0.0
+2018,2020,43080,Karoonda East Murray (DC),True,True,0.0
+2018,2020,43220,Kimba (DC),True,True,0.0
+2018,2020,43360,Kingston (DC) (SA),True,True,0.0
+2018,2020,43650,Light (RegC),True,True,0.0
+2018,2020,43710,Lower Eyre Peninsula (DC),True,True,0.0
+2018,2020,43790,Loxton Waikerie (DC),True,True,0.0
+2018,2020,44000,Maralinga Tjarutja (AC),True,True,0.0
+2018,2020,44060,Marion (C),True,True,0.0
+2018,2020,44210,Mid Murray (DC),True,True,0.0
+2018,2020,44340,Mitcham (C),True,True,0.0
+2018,2020,44550,Mount Barker (DC),True,True,0.0
+2018,2020,44620,Mount Gambier (C),True,True,0.0
+2018,2020,44830,Mount Remarkable (DC),True,True,0.0
+2018,2020,45040,Murray Bridge (RC),True,True,0.0
+2018,2020,45090,Naracoorte and Lucindale (DC),True,True,0.0
+2018,2020,45120,Northern Areas (DC),True,True,0.0
+2018,2020,45290,Norwood Payneham St Peters (C),True,True,0.0
+2018,2020,45340,Onkaparinga (C),True,True,0.0
+2018,2020,45400,Orroroo/Carrieton (DC),True,True,0.0
+2018,2020,45540,Peterborough (DC),True,True,0.0
+2018,2020,45680,Playford (C),True,True,0.0
+2018,2020,45890,Port Adelaide Enfield (C),True,True,0.0
+2018,2020,46090,Port Augusta (C),True,True,0.0
+2018,2020,46300,Port Lincoln (C),True,True,0.0
+2018,2020,46450,Port Pirie City and Dists (M),True,True,0.0
+2018,2020,46510,Prospect (C),True,True,0.0
+2018,2020,46670,Renmark Paringa (DC),True,True,0.0
+2018,2020,46860,Robe (DC),True,True,0.0
+2018,2020,46970,Roxby Downs (M),True,True,0.0
+2018,2020,47140,Salisbury (C),True,True,0.0
+2018,2020,47290,Southern Mallee (DC),True,True,0.0
+2018,2020,47490,Streaky Bay (DC),True,True,0.0
+2018,2020,47630,Tatiara (DC),True,True,0.0
+2018,2020,47700,Tea Tree Gully (C),True,True,0.0
+2018,2020,47800,The Coorong (DC),True,True,0.0
+2018,2020,47910,Tumby Bay (DC),True,True,0.0
+2018,2020,47980,Unley (C),True,True,0.0
+2018,2020,48050,Victor Harbor (C),True,True,0.0
+2018,2020,48130,Wakefield (DC),True,True,0.0
+2018,2020,48260,Walkerville (M),True,True,0.0
+2018,2020,48340,Wattle Range (DC),True,True,0.0
+2018,2020,48410,West Torrens (C),True,True,0.0
+2018,2020,48540,Whyalla (C),True,True,0.0
+2018,2020,48640,Wudinna (DC),True,True,0.0
+2018,2020,48750,Yankalilla (DC),True,True,0.0
+2018,2020,48830,Yorke Peninsula (DC),True,True,0.0
+2018,2020,49399,Unincorporated SA,True,True,0.0
+2018,2020,49499,No usual address (SA),True,True,
+2018,2020,49799,Migratory - Offshore - Shipping (SA),True,True,
+2020,2021,40070,Adelaide (C),True,True,-1.6476550568356174e-08
+2020,2021,40120,Adelaide Hills (DC),True,True,-2.6438415900997825e-09
+2020,2021,40150,Adelaide Plains (DC),True,True,-2.3649545655146653e-09
+2020,2021,40220,Alexandrina (DC),True,True,8.413696406250892e-10
+2020,2021,40250,Anangu Pitjantjatjara (AC),True,True,-4.820828526996834e-05
+2020,2021,40310,Barossa (DC),True,True,6.0648543964703094e-09
+2020,2021,40430,Barunga West (DC),True,True,-1.7746575320387592e-09
+2020,2021,40520,Berri and Barmera (DC),True,True,5.819768222892208e-09
+2020,2021,40700,Burnside (C),True,True,-1.581404285300181e-08
+2020,2021,40910,Campbelltown (C) (SA),True,True,-4.278075227404088e-09
+2020,2021,41010,Ceduna (DC),True,True,-2.952603828099143e-09
+2020,2021,41060,Charles Sturt (C),True,True,1.6016057813317275e-08
+2020,2021,41140,Clare and Gilbert Valleys (DC),True,True,1.1590646220582812e-09
+2020,2021,41190,Cleve (DC),True,True,4.836657740980854e-10
+2020,2021,41330,Coober Pedy (DC),True,True,-5.9528374674044926e-08
+2020,2021,41560,Copper Coast (DC),True,True,8.221372915784286e-09
+2020,2021,41750,Elliston (DC),True,True,-2.8098667836928826e-10
+2020,2021,41830,Flinders Ranges (DC),True,True,4.198724257165054e-09
+2020,2021,41960,Franklin Harbour (DC),True,True,-9.65529101115692e-10
+2020,2021,42030,Gawler (T),True,True,-2.9811701995896556e-08
+2020,2021,42110,Goyder (DC),True,True,-8.933346284933918e-10
+2020,2021,42250,Grant (DC),True,True,-0.00010057180142186706
+2020,2021,42600,Holdfast Bay (C),True,True,1.975163654854839e-08
+2020,2021,42750,Kangaroo Island (DC),True,True,1.62566125938568e-06
+2020,2021,43080,Karoonda East Murray (DC),True,True,1.719085540585752e-09
+2020,2021,43220,Kimba (DC),True,True,1.0079250767347503e-09
+2020,2021,43360,Kingston (DC) (SA),True,True,6.186726686507882e-10
+2020,2021,43650,Light (RegC),True,True,-4.3242024405643065e-09
+2020,2021,43710,Lower Eyre Peninsula (DC),True,True,2.2124446524829366e-05
+2020,2021,43790,Loxton Waikerie (DC),True,True,-6.672511311922591e-06
+2020,2021,44000,Maralinga Tjarutja (AC),True,True,0.02981786908034545
+2020,2021,44060,Marion (C),True,True,1.4596338360206573e-08
+2020,2021,44210,Mid Murray (DC),True,True,-2.0044328419288604e-09
+2020,2021,44340,Mitcham (C),True,True,-5.9108509198324555e-09
+2020,2021,44550,Mount Barker (DC),True,True,-2.8551335740090167e-09
+2020,2021,44620,Mount Gambier (C),True,True,-3.057794295546756e-08
+2020,2021,44830,Mount Remarkable (DC),True,True,-2.0894421748351988e-09
+2020,2021,45040,Murray Bridge (RC),True,True,4.5046855134955877e-10
+2020,2021,45090,Naracoorte and Lucindale (DC),True,True,-9.114779442642718e-05
+2020,2021,45120,Northern Areas (DC),True,True,-2.5569288908400267e-09
+2020,2021,45290,Norwood Payneham St Peters (C),True,True,4.922938856566361e-08
+2020,2021,45340,Onkaparinga (C),True,True,9.294358616074305e-10
+2020,2021,45400,Orroroo/Carrieton (DC),True,True,3.886423183274701e-09
+2020,2021,45540,Peterborough (DC),True,True,-1.016851158830434e-09
+2020,2021,45680,Playford (C),True,True,7.187748840564723e-09
+2020,2021,45890,Port Adelaide Enfield (C),True,True,-5.05911823545091e-09
+2020,2021,46090,Port Augusta (C),True,True,-0.03144315845091805
+2020,2021,46300,Port Lincoln (C),True,True,2.359254014372425e-08
+2020,2021,46450,Port Pirie City and Dists (M),True,True,1.1296605872956889e-09
+2020,2021,46510,Prospect (C),True,True,4.445235068928355e-08
+2020,2021,46670,Renmark Paringa (DC),True,True,0.0006294607346757353
+2020,2021,46860,Robe (DC),True,True,-2.0278541068563527e-09
+2020,2021,46970,Roxby Downs (M),True,True,1.4812227201010941e-05
+2020,2021,47140,Salisbury (C),True,True,-1.143380612411704e-09
+2020,2021,47290,Southern Mallee (DC),True,True,-1.2397645043904504e-06
+2020,2021,47490,Streaky Bay (DC),True,True,4.279792076289368e-09
+2020,2021,47630,Tatiara (DC),True,True,3.959338609860197e-06
+2020,2021,47700,Tea Tree Gully (C),True,True,-6.641223126990781e-09
+2020,2021,47800,The Coorong (DC),True,True,-1.959385653726997e-09
+2020,2021,47910,Tumby Bay (DC),True,True,1.7904146685232547e-06
+2020,2021,47980,Unley (C),True,True,1.249189129914896e-08
+2020,2021,48050,Victor Harbor (C),True,True,3.1154367974295383e-09
+2020,2021,48130,Wakefield (DC),True,True,-6.635006988275904e-10
+2020,2021,48260,Walkerville (M),True,True,-1.2603867916016753e-07
+2020,2021,48340,Wattle Range (DC),True,True,-2.8817714235573888e-05
+2020,2021,48410,West Torrens (C),True,True,0.001313771545579101
+2020,2021,48540,Whyalla (C),True,True,6.098093807693772e-09
+2020,2021,48640,Wudinna (DC),True,True,-4.157200139687234e-10
+2020,2021,48750,Yankalilla (DC),True,True,1.2742098487450448e-09
+2020,2021,48830,Yorke Peninsula (DC),True,True,5.391874912330508e-06
+2020,2021,49399,Unincorporated SA,True,True,-0.004921205821350361
+2020,2021,49499,No usual address (SA),True,True,
+2020,2021,49799,Migratory - Offshore - Shipping (SA),True,True,

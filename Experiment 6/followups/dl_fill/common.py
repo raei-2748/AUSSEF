@@ -5,12 +5,10 @@ import numpy as np
 import pandas as pd
 
 HERE = Path(__file__).resolve().parent
-MAIN = Path('/Users/ray/Research/AUSSEF')            # main checkout holds Experiment 6 results and fire_event_dataset
+MAIN = Path('/Users/ray/Research/AUSSEF - Local')            # main checkout holds Experiment 6 results and fire_event_dataset
 E6_RESULTS = MAIN / 'Experiment 6' / 'results'
 FED = MAIN / 'fire_event_dataset'
-WORKBOOK = Path.home() / ('Library/CloudStorage/GoogleDrive-raywang886@gmail.com/My Drive/'
-                          'Application Folder - Ray/3. Extracurriculars/AUSSEF/Data/'
-                          'nsw_bushfires_2015_2025_XY.xlsx')
+WORKBOOK = Path('/Users/ray/Library/CloudStorage/OneDrive-KnoxGrammarSchool/Extracurriculars/AUSSEF/05 Data Archive/Master Workbook (read by the analysis scripts)/nsw_bushfires_2015_2025_XY.xlsx')
 OUT = HERE / 'out'
 OUT.mkdir(exist_ok=True)
 

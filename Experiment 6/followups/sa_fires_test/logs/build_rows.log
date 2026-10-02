@@ -1,0 +1,58 @@
+                         event lga_code                        lga_name  lga_area_km2  burned_km2   share code_lga2018
+0               SA_2015_pinery    43650                    Light (RegC)     1276.8445    378.9939  0.2968        43650
+1               SA_2015_pinery    43920                    Mallala (DC)      932.4188    128.3164  0.1376        40150
+2               SA_2015_pinery    48130                  Wakefield (DC)     3468.4881    183.7366  0.0530        48130
+3               SA_2015_pinery    41140  Clare and Gilbert Valleys (DC)     1892.4456     94.0035  0.0497        41140
+4         SA_2015_sampson_flat    40120             Adelaide Hills (DC)      794.4870     93.2458  0.1174        40120
+5         SA_2015_sampson_flat    45680                    Playford (C)      344.9323     19.0253  0.0552        45680
+6         SA_2015_sampson_flat    47700              Tea Tree Gully (C)       95.2081      3.0269  0.0318        47700
+7   SA_2019_20_kangaroo_island    42750            Kangaroo Island (DC)     4400.8557   2012.3722  0.4573        42750
+8           SA_2019_20_keilira    43360              Kingston (DC) (SA)     3339.7952    227.1700  0.0680        43360
+9         SA_2019_cudlee_creek    40120             Adelaide Hills (DC)      794.4952    145.6296  0.1833        40120
+10        SA_2019_cudlee_creek    44550               Mount Barker (DC)      594.6416     68.8315  0.1158        44550
+SA codes missing in an edition or with area change > 1% between editions:
+    from_edition to_edition   code                                  name  in_from  in_to  area_change
+6           2015       2016  40520                Berri and Barmera (DC)     True   True    -0.078591
+16          2015       2016  41830                  Flinders Ranges (DC)     True   True    -0.013550
+24          2015       2016  43220                            Kimba (DC)     True   True     0.430016
+28          2015       2016  43790                  Loxton Waikerie (DC)     True   True    -0.029424
+46          2015       2016  46090                      Port Augusta (C)     True   True     0.037767
+53          2015       2016  47140                         Salisbury (C)     True   True     0.011408
+67          2015       2016  48640                          Wudinna (DC)     True   True    -0.059075
+72          2015       2016  49799  Migratory - Offshore - Shipping (SA)    False   True          NaN
+75          2016       2018  40150                  Adelaide Plains (DC)    False   True          NaN
+103         2016       2018  43920                          Mallala (DC)     True  False          NaN
+250         2020       2021  44000               Maralinga Tjarutja (AC)     True   True     0.029818
+266         2020       2021  46090                      Port Augusta (C)     True   True    -0.031443
+                                                             councils  with_fire  n_polygons
+event                      window               lga_vintage                                 
+SA_2015_pinery             FY2015-16            2015               72         13          46
+                                                2018               73         13          46
+                           FY2015-16..FY2016-17 2015               72         20          85
+                                                2018               73         20          85
+                           SL_5Q                2015               72         18          54
+                                                2018               73         18          54
+SA_2015_sampson_flat       FY2014-15            2015               72         14          64
+                                                2018               73         14          64
+                           FY2014-15..FY2015-16 2015               72         22         110
+                                                2018               73         22         110
+                           SL_5Q                2015               72         14          66
+                                                2018               73         14          66
+SA_2019_20_kangaroo_island FY2019-20            2015               72         20          76
+                                                2018               73         20          76
+                           FY2019-20..FY2020-21 2015               72         24         133
+                                                2018               73         24         133
+                           SL_5Q                2015               72         22         108
+                                                2018               73         22         108
+SA_2019_20_keilira         FY2019-20            2015               72         20          76
+                                                2018               73         20          76
+                           FY2019-20..FY2020-21 2015               72         24         133
+                                                2018               73         24         133
+                           SL_5Q                2015               72         22         108
+                                                2018               73         22         108
+SA_2019_cudlee_creek       FY2019-20            2015               72         20          76
+                                                2018               73         20          76
+                           FY2019-20..FY2020-21 2015               72         24         133
+                                                2018               73         24         133
+                           SL_5Q                2015               72         22         108
+                                                2018               73         22         108

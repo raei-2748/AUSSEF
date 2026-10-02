@@ -1,0 +1,4 @@
+workbook: 123423eaed7174987f72c63cc40ad334e26c636b2e28358f94cf4fcd60c32ec3
+duckdb: ce294c7ef50964b334a13d83b627f0732e35d2237c70ddf7ce3a26b06f1cba59
+out_tree: 7b0feec36ee0891f5143f2000ad51ad08142f3fa009cc319b9cf747e8d4bf69c
+workbook_path: /Users/ray/Library/CloudStorage/GoogleDrive-raywang886@gmail.com/My Drive/Application Folder - Ray/3. Extracurriculars/AUSSEF/Data/nsw_bushfires_2015_2025_XY.xlsx

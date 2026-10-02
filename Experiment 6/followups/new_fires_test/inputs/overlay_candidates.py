@@ -11,7 +11,7 @@ share of each LGA inside the outline. This is an overlay of GA outlines on ABS L
 figure, and the polygon selection is the scoper's choice (see EVENTS). Output: overlay_candidates.csv and
 overlay_summary.csv next to this file.
 
-Run: /Users/ray/Research/AUSSEF/.venv/bin/python overlay_candidates.py
+Run: /Users/ray/Research/AUSSEF - Local/.venv/bin/python overlay_candidates.py
 """
 import re
 import warnings
@@ -29,7 +29,7 @@ P1 = Path("/Users/ray/.codex/.chatgpt-projects/g-p-6a5b3606787c8191a3404241c6dbb
 GA_ZIP = P1 / "ga_original.zip"
 GA_ATTR = P1 / "fire_attributes.csv"
 GDB = f"/vsizip/{GA_ZIP}/Bushfire_Boundaries_Historical.gdb"
-ERP = Path("/Users/ray/Research/AUSSEF/fire_event_dataset/data/abs/32180DS0004_2001-25.xlsx")
+ERP = Path("/Users/ray/Research/AUSSEF - Local/fire_event_dataset/data/abs/32180DS0004_2001-25.xlsx")
 CRS = 3577
 
 LGA_FILES = {  # vintage -> (shapefile, code col, name col)

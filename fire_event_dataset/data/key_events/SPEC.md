@@ -39,8 +39,8 @@ main_fires, towns_affected, summary, key_sources`
 - `key_sources`: up to 3 URLs.
 
 ## Rules
-- Write only inside `/Users/ray/Research/AUSSEF/fire_event_dataset/data/key_events/`.
-- Never write to `/Users/ray/Research/AUSSEF/data/aussef.duckdb`; no git commits; no Google Sheets; send no personal data.
+- Write only inside `/Users/ray/Research/AUSSEF - Local/fire_event_dataset/data/key_events/`.
+- Never write to `/Users/ray/Research/AUSSEF - Local/data/aussef.duckdb`; no git commits; no Google Sheets; send no personal data.
 - Spend effort where impact is: events with many councils / large burned area / known losses first. It is fine to
   record "no news coverage found" in the summary for small events.
 - Report back: events covered, facts per type, events with no coverage, real AGRNs found, conflicts, and any caveats.

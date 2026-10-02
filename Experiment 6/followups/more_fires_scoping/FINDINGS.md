@@ -14,7 +14,7 @@ Labels used throughout: **[M]** measured here by overlaying files already on you
 
 ## 2. What is already on your disk (not on the download list)
 
-Paths: `D` = `/Users/ray/Research/AUSSEF/fire_event_dataset/data/`, `P1` = `/Users/ray/.codex/.chatgpt-projects/g-p-6a5b3606787c8191a3404241c6dbb6c0/dataset_phase1/raw/`.
+Paths: `D` = `/Users/ray/Research/AUSSEF - Local/fire_event_dataset/data/`, `P1` = `/Users/ray/.codex/.chatgpt-projects/g-p-6a5b3606787c8191a3404241c6dbb6c0/dataset_phase1/raw/`.
 
 | Item | Coverage on disk | Note |
 |---|---|---|

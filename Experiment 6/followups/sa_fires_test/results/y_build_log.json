@@ -1,0 +1,390 @@
+{
+ "SA_2015_sampson_flat_income": {
+  "comparison_n": 57,
+  "median_change": 4.395604395604396,
+  "councils_in_table": 69
+ },
+ "SA_2015_pinery_income": {
+  "comparison_n": 58,
+  "median_change": -0.503326385161701,
+  "councils_in_table": 69
+ },
+ "SA_2019_cudlee_creek_income": {
+  "comparison_n": 51,
+  "median_change": 4.6452308102249305,
+  "councils_in_table": 71
+ },
+ "SA_2019_20_kangaroo_island_income": {
+  "comparison_n": 51,
+  "median_change": 4.6452308102249305,
+  "councils_in_table": 71
+ },
+ "SA_2019_20_keilira_income": {
+  "comparison_n": 51,
+  "median_change": 4.6452308102249305,
+  "councils_in_table": 71
+ },
+ "SA_2015_pinery_business": {
+  "comparison_n": 58,
+  "median_change": 0.4627155974303766,
+  "councils_in_table": 70
+ },
+ "SA_2015_pinery_business_councils_with_totals": 72,
+ "SA_2019_cudlee_creek_business": {
+  "comparison_n": 50,
+  "median_change": 0.7440850177718736,
+  "councils_in_table": 70
+ },
+ "SA_2019_cudlee_creek_business_councils_with_totals": 72,
+ "SA_2019_20_kangaroo_island_business": {
+  "comparison_n": 50,
+  "median_change": 0.7440850177718736,
+  "councils_in_table": 70
+ },
+ "SA_2019_20_kangaroo_island_business_councils_with_totals": 72,
+ "SA_2019_20_keilira_business": {
+  "comparison_n": 50,
+  "median_change": 0.7440850177718736,
+  "councils_in_table": 70
+ },
+ "SA_2019_20_keilira_business_councils_with_totals": 72,
+ "report9_total_vs_report3_total_max_rel_diff": 0.0,
+ "comparison_councils_without_lggc_match": [
+  "anangu pitjantjatjara",
+  "maralinga tjarutja"
+ ],
+ "master_iqr": {
+  "FP_cash_cover_excess_signed": 3.2019999999999986,
+  "FP_services_crowd_out_excess_signed": 5.124607392631692,
+  "FP_renewals_excess_signed": 50.98500000000001
+ },
+ "SA_2015_sampson_flat_cash_event": {
+  "comparison_n": 57,
+  "median_change": 0.6720684402599058,
+  "councils_in_table": 68
+ },
+ "SA_2015_sampson_flat_cash_plus1": {
+  "comparison_n": 49,
+  "median_change": -0.12924265722413164,
+  "councils_in_table": 68
+ },
+ "SA_2015_sampson_flat_service_share_plus1": {
+  "comparison_n": 49,
+  "median_change": 1.3260527914924438,
+  "councils_in_table": 68
+ },
+ "SA_2015_sampson_flat_asr_plus1": {
+  "comparison_n": 36,
+  "median_change": 0.0,
+  "councils_in_table": 50
+ },
+ "SA_2015_pinery_cash_event": {
+  "comparison_n": 58,
+  "median_change": -0.5659373829523133,
+  "councils_in_table": 68
+ },
+ "SA_2015_pinery_cash_plus1": {
+  "comparison_n": 49,
+  "median_change": -0.0036270653585285806,
+  "councils_in_table": 66
+ },
+ "SA_2015_pinery_service_share_plus1": {
+  "comparison_n": 49,
+  "median_change": 2.571205118664352,
+  "councils_in_table": 66
+ },
+ "SA_2015_pinery_asr_plus1": {
+  "comparison_n": 29,
+  "median_change": -12.0,
+  "councils_in_table": 36
+ },
+ "SA_2019_cudlee_creek_cash_event": {
+  "comparison_n": 49,
+  "median_change": -0.10799263092820749,
+  "councils_in_table": 68
+ },
+ "SA_2019_cudlee_creek_cash_plus1": {
+  "comparison_n": 45,
+  "median_change": -0.09735112891464048,
+  "councils_in_table": 68
+ },
+ "SA_2019_cudlee_creek_service_share_plus1": {
+  "comparison_n": 45,
+  "median_change": 0.12273137710470827,
+  "councils_in_table": 68
+ },
+ "SA_2019_cudlee_creek_asr_plus1": {
+  "comparison_n": 0,
+  "median_change": NaN,
+  "councils_in_table": 0
+ },
+ "SA_2019_20_kangaroo_island_cash_event": {
+  "comparison_n": 49,
+  "median_change": -0.10799263092820749,
+  "councils_in_table": 68
+ },
+ "SA_2019_20_kangaroo_island_cash_plus1": {
+  "comparison_n": 45,
+  "median_change": -0.09735112891464048,
+  "councils_in_table": 68
+ },
+ "SA_2019_20_kangaroo_island_service_share_plus1": {
+  "comparison_n": 45,
+  "median_change": 0.12273137710470827,
+  "councils_in_table": 68
+ },
+ "SA_2019_20_kangaroo_island_asr_plus1": {
+  "comparison_n": 0,
+  "median_change": NaN,
+  "councils_in_table": 0
+ },
+ "SA_2019_20_keilira_cash_event": {
+  "comparison_n": 49,
+  "median_change": -0.10799263092820749,
+  "councils_in_table": 68
+ },
+ "SA_2019_20_keilira_cash_plus1": {
+  "comparison_n": 45,
+  "median_change": -0.09735112891464048,
+  "councils_in_table": 68
+ },
+ "SA_2019_20_keilira_service_share_plus1": {
+  "comparison_n": 45,
+  "median_change": 0.12273137710470827,
+  "councils_in_table": 68
+ },
+ "SA_2019_20_keilira_asr_plus1": {
+  "comparison_n": 0,
+  "median_change": NaN,
+  "councils_in_table": 0
+ },
+ "fp_scale_check": {
+  "SA_2015_sampson_flat": {
+   "cash": {
+    "sa_iqr": 1.9769747120159473,
+    "master_iqr": 3.2019999999999986,
+    "ratio": 0.6174187108107271,
+    "kept": true,
+    "reason": "",
+    "n_group": 49
+   },
+   "serv": {
+    "sa_iqr": 5.624740042622491,
+    "master_iqr": 5.124607392631692,
+    "ratio": 1.0975943348772248,
+    "kept": true,
+    "reason": "",
+    "n_group": 49
+   },
+   "renew": {
+    "sa_iqr": 43.25,
+    "master_iqr": 50.98500000000001,
+    "ratio": 0.8482887123663821,
+    "kept": true,
+    "reason": "",
+    "n_group": 36
+   }
+  },
+  "SA_2015_pinery": {
+   "cash": {
+    "sa_iqr": 2.19478134018677,
+    "master_iqr": 3.2019999999999986,
+    "ratio": 0.6854407683281609,
+    "kept": true,
+    "reason": "",
+    "n_group": 51
+   },
+   "serv": {
+    "sa_iqr": 6.835249814709407,
+    "master_iqr": 5.124607392631692,
+    "ratio": 1.3338094591475098,
+    "kept": true,
+    "reason": "",
+    "n_group": 49
+   },
+   "renew": {
+    "sa_iqr": 52.0,
+    "master_iqr": 50.98500000000001,
+    "ratio": 1.0199078160243207,
+    "kept": true,
+    "reason": "",
+    "n_group": 29
+   }
+  },
+  "SA_2019_cudlee_creek": {
+   "cash": {
+    "sa_iqr": 2.185152431956023,
+    "master_iqr": 3.2019999999999986,
+    "ratio": 0.6824336139775216,
+    "kept": true,
+    "reason": "",
+    "n_group": 45
+   },
+   "serv": {
+    "sa_iqr": 5.187463338887273,
+    "master_iqr": 5.124607392631692,
+    "ratio": 1.0122655144950143,
+    "kept": true,
+    "reason": "",
+    "n_group": 45
+   },
+   "renew": {
+    "sa_iqr": NaN,
+    "master_iqr": 50.98500000000001,
+    "ratio": NaN,
+    "kept": false,
+    "reason": "ratio definition changed (Asset Renewal Funding Ratio from FY2018-19; Amendment 1 A2.2)",
+    "n_group": 0
+   }
+  },
+  "SA_2019_20_kangaroo_island": {
+   "cash": {
+    "sa_iqr": 2.185152431956023,
+    "master_iqr": 3.2019999999999986,
+    "ratio": 0.6824336139775216,
+    "kept": true,
+    "reason": "",
+    "n_group": 45
+   },
+   "serv": {
+    "sa_iqr": 5.187463338887273,
+    "master_iqr": 5.124607392631692,
+    "ratio": 1.0122655144950143,
+    "kept": true,
+    "reason": "",
+    "n_group": 45
+   },
+   "renew": {
+    "sa_iqr": NaN,
+    "master_iqr": 50.98500000000001,
+    "ratio": NaN,
+    "kept": false,
+    "reason": "ratio definition changed (Asset Renewal Funding Ratio from FY2018-19; Amendment 1 A2.2)",
+    "n_group": 0
+   }
+  },
+  "SA_2019_20_keilira": {
+   "cash": {
+    "sa_iqr": 2.185152431956023,
+    "master_iqr": 3.2019999999999986,
+    "ratio": 0.6824336139775216,
+    "kept": true,
+    "reason": "",
+    "n_group": 45
+   },
+   "serv": {
+    "sa_iqr": 5.187463338887273,
+    "master_iqr": 5.124607392631692,
+    "ratio": 1.0122655144950143,
+    "kept": true,
+    "reason": "",
+    "n_group": 45
+   },
+   "renew": {
+    "sa_iqr": NaN,
+    "master_iqr": 50.98500000000001,
+    "ratio": NaN,
+    "kept": false,
+    "reason": "ratio definition changed (Asset Renewal Funding Ratio from FY2018-19; Amendment 1 A2.2)",
+    "n_group": 0
+   }
+  }
+ },
+ "SA_2015_sampson_flat_sl": {
+  "comparison_n": 57,
+  "median_change": 1.8719580681392736,
+  "councils_in_table": 71
+ },
+ "SA_2015_sampson_flat_sl_components": [
+  "newstart",
+  "sickness",
+  "partner",
+  "widow",
+  "widowb",
+  "wife_age",
+  "wife_dsp",
+  "youth_other",
+  "pp_single",
+  "pp_partnered",
+  "dsp",
+  "carer",
+  "special"
+ ],
+ "SA_2015_pinery_sl": {
+  "comparison_n": 53,
+  "median_change": -0.8121827411167513,
+  "councils_in_table": 71
+ },
+ "SA_2015_pinery_sl_components": [
+  "newstart",
+  "sickness",
+  "partner",
+  "widow",
+  "widowb",
+  "wife_age",
+  "wife_dsp",
+  "youth_other",
+  "pp_single",
+  "pp_partnered",
+  "dsp",
+  "carer",
+  "special"
+ ],
+ "SA_2019_cudlee_creek_sl": {
+  "comparison_n": 49,
+  "median_change": 4.167421634354049,
+  "councils_in_table": 71
+ },
+ "SA_2019_cudlee_creek_sl_components": [
+  "newstart",
+  "sickness",
+  "partner",
+  "widow",
+  "wife_age",
+  "wife_dsp",
+  "youth_other",
+  "pp_single",
+  "pp_partnered",
+  "dsp",
+  "carer",
+  "special"
+ ],
+ "SA_2019_20_kangaroo_island_sl": {
+  "comparison_n": 49,
+  "median_change": 4.167421634354049,
+  "councils_in_table": 71
+ },
+ "SA_2019_20_kangaroo_island_sl_components": [
+  "newstart",
+  "sickness",
+  "partner",
+  "widow",
+  "wife_age",
+  "wife_dsp",
+  "youth_other",
+  "pp_single",
+  "pp_partnered",
+  "dsp",
+  "carer",
+  "special"
+ ],
+ "SA_2019_20_keilira_sl": {
+  "comparison_n": 49,
+  "median_change": 4.167421634354049,
+  "councils_in_table": 71
+ },
+ "SA_2019_20_keilira_sl_components": [
+  "newstart",
+  "sickness",
+  "partner",
+  "widow",
+  "wife_age",
+  "wife_dsp",
+  "youth_other",
+  "pp_single",
+  "pp_partnered",
+  "dsp",
+  "carer",
+  "special"
+ ]
+}

@@ -20,7 +20,7 @@ import pandas as pd
 from scipy.stats import rankdata, spearmanr
 
 HERE = Path(__file__).resolve().parent
-ROWS = Path('/Users/ray/Research/AUSSEF/Experiment 6/results/ROWS_WITH_SCORE_v2.csv')
+ROWS = Path('/Users/ray/Research/AUSSEF - Local/Experiment 6/results/ROWS_WITH_SCORE_v2.csv')
 SEED = 20260929
 N_BOOT = 2000
 TARGETS = ['Y', 'DL', 'IL', 'FP', 'SL']

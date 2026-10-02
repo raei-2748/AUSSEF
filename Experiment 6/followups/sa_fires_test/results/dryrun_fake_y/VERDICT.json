@@ -1,0 +1,33 @@
+{
+ "fake_y": true,
+ "verdict": "CANNOT TELL",
+ "primary": {
+  "n": 37,
+  "spearman": 0.27927927927927926,
+  "ci_low": -0.0718642671660202,
+  "ci_high": 0.5994376005468319
+ },
+ "sa_alone": {
+  "n": 11,
+  "spearman": 0.2545454545454546,
+  "ci_low": -0.4161520401795001,
+  "ci_high": 0.8076923076923078
+ },
+ "locks_verified": [
+  "PRESPEC.lock",
+  "PRESPEC_AMENDMENT_1.lock",
+  "SCORES.lock"
+ ],
+ "rows_in_analysis": 37,
+ "rows_with_y": 37,
+ "rows_by_event": {
+  "NSW_2013_oct": 13,
+  "SA_2015_pinery": 4,
+  "SA_2015_sampson_flat": 3,
+  "SA_2019_20_kangaroo_island": 1,
+  "SA_2019_20_keilira": 1,
+  "SA_2019_cudlee_creek": 2,
+  "VIC_2009_black_saturday": 13
+ },
+ "rule": "REPLICATED lo>0; NOT REPLICATED hi<0.30; else CANNOT TELL"
+}

@@ -17,10 +17,10 @@ from scipy.stats import mannwhitneyu, spearmanr
 from bench_common import BENCH, year_table
 
 HERE = Path(__file__).resolve().parent
-sys.path.insert(0, '/Users/ray/Research/AUSSEF/fire_event_dataset/src')
+sys.path.insert(0, '/Users/ray/Research/AUSSEF - Local/fire_event_dataset/src')
 from olg import norm_name  # noqa: E402
 
-OLG_WIDE = Path('/Users/ray/Research/AUSSEF/fire_event_dataset/data/olg/olg_wide.parquet')
+OLG_WIDE = Path('/Users/ray/Research/AUSSEF - Local/fire_event_dataset/data/olg/olg_wide.parquet')
 COLMAP = {'operating_performance': 'operating_performance_ratio_pct', 'own_source_revenue': 'own_source_revenue_pct',
           'unrestricted_current': 'unrestricted_current_ratio', 'debt_service_cover': 'debt_service_cover_ratio',
           'cash_expense_cover': 'cash_expense_cover_ratio_months',

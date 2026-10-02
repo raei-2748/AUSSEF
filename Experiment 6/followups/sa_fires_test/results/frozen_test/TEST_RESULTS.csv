@@ -1,0 +1,59 @@
+test,scope,score,target,n,spearman,ci_low,ci_high,note
+PRIMARY,pooled,risk_add_avail,Y_new,37,-0.09317211948790896,-0.4166742006738552,0.26010866970086505,
+primary_other_scope,SA_all,risk_add_avail,Y_new,11,-0.28181818181818186,-0.7194295031264709,0.7018633540372671,
+primary_other_scope,stage1_only(reproduction check),risk_add_avail,Y_new,26,0.004444444444444444,-0.41255877251937967,0.3908641794677295,
+primary_other_scope,pooled_without_SA_2019_20,risk_add_avail,Y_new,33,0.04679144385026738,-0.30261686188515546,0.36637438101002157,
+primary_other_scope,SA_2015_events_only,risk_add_avail,Y_new,7,0.1785714285714286,-0.75,1.0,
+primary_other_scope,event:SA_2015_sampson_flat,risk_add_avail,Y_new,3,,,,
+primary_other_scope,event:SA_2015_pinery,risk_add_avail,Y_new,4,,,,
+primary_other_scope,event:SA_2019_cudlee_creek,risk_add_avail,Y_new,2,,,,
+primary_other_scope,event:SA_2019_20_kangaroo_island,risk_add_avail,Y_new,1,,,,
+primary_other_scope,event:SA_2019_20_keilira,risk_add_avail,Y_new,1,,,,
+pillar,pooled,risk_add_avail,DL,16,-0.5772526999297433,-0.8548219020247422,-0.14120843694224586,
+pillar,pooled,risk_add_avail,IL,37,0.24419155998103362,-0.11637127717887812,0.557939851602044,
+pillar,pooled,risk_add_avail,FP,24,-0.1452173913043478,-0.5251617720258834,0.29817044332423615,
+pillar,pooled,risk_add_avail,SL,11,0.04555820475782052,-0.6981334956380603,0.7749999999999999,
+secondary_S1_V,pooled,S1_V,Y_new,37,0.259601706970128,-0.08765964164131186,0.547952958360593,
+secondary_S2_HV,pooled,S2_HV,Y_new,21,0.10909090909090909,-0.33538627722087794,0.5034382427213305,
+secondary_S1_V_DL,pooled,S1_V,DL,16,-0.23120330651636317,-0.7459368212168451,0.35999020275164634,
+pillar,SA_all,risk_add_avail,DL,5,,,,
+pillar,SA_all,risk_add_avail,IL,11,-0.09090909090909091,-0.8039215686274508,0.6981132075471699,
+pillar,SA_all,risk_add_avail,FP,11,-0.11818181818181818,-0.7232704402515724,0.61950411230031,
+pillar,SA_all,risk_add_avail,SL,11,0.04555820475782052,-0.7063649477100612,0.7763975155279503,
+secondary_S1_V,SA_all,S1_V,Y_new,11,0.6454545454545455,-0.18749999999999997,0.8894009216589861,
+secondary_S2_HV,SA_all,S2_HV,Y_new,8,-0.07142857142857144,-0.8823529411764706,0.6800000000000002,
+secondary_S1_V_DL,SA_all,S1_V,DL,5,,,,
+pillar,pooled_without_SA_2019_20,risk_add_avail,DL,15,-0.5815015769277548,-0.8537706520976306,-0.1445279028746711,
+pillar,pooled_without_SA_2019_20,risk_add_avail,IL,33,0.4331550802139038,0.11129128115537791,0.6712522743940416,
+pillar,pooled_without_SA_2019_20,risk_add_avail,FP,20,-0.2781954887218045,-0.656827221995278,0.21222162282876897,
+pillar,pooled_without_SA_2019_20,risk_add_avail,SL,7,0.42857142857142866,-0.411764705882353,1.0,
+secondary_S1_V,pooled_without_SA_2019_20,S1_V,Y_new,33,0.2620320855614973,-0.08538781570916881,0.562924465167911,
+secondary_S2_HV,pooled_without_SA_2019_20,S2_HV,Y_new,18,0.16821465428276572,-0.28382570582255795,0.5824896167579564,
+secondary_S1_V_DL,pooled_without_SA_2019_20,S1_V,DL,15,-0.23444666752325355,-0.75932451836863,0.35763322566223443,
+pillar,SA_2015_events_only,risk_add_avail,DL,4,,,,
+pillar,SA_2015_events_only,risk_add_avail,IL,7,0.10714285714285716,-0.7647058823529412,1.0,
+pillar,SA_2015_events_only,risk_add_avail,FP,7,-0.3571428571428572,-1.0,0.6470588235294117,
+pillar,SA_2015_events_only,risk_add_avail,SL,7,0.42857142857142866,-0.6078431372549018,1.0,
+secondary_S1_V,SA_2015_events_only,S1_V,Y_new,7,0.7500000000000002,-0.043478260869565216,1.0,
+secondary_S2_HV,SA_2015_events_only,S2_HV,Y_new,5,,,,
+secondary_S1_V_DL,SA_2015_events_only,S1_V,DL,4,,,,
+sens_a_share_ge5pct,pooled,risk_add_avail,Y_new,23,-0.0899209486166008,-0.5002375258709353,0.39013899643797406,descriptive
+sens_a_share_ge5pct_S1_V,pooled,S1_V,Y_new,23,0.2727272727272727,-0.19935830624561293,0.6375706044486777,descriptive
+sens_b_ge2_pillars,pooled,risk_add_avail,Y_new_ge2pillars,26,-0.27794871794871795,-0.6170506260975693,0.1230867634468681,descriptive
+sens_c_no_FP,pooled,risk_add_avail,Y_new_noFP,37,-0.030109056424845897,-0.3577485561923837,0.31631750622975624,descriptive
+sens_d_DL_reported_only,pooled,risk_add_avail,DL_reported_only,10,-0.13981827504641486,-0.8000009070911859,0.5941097303628732,descriptive
+sens_a_share_ge5pct,SA_all,risk_add_avail,Y_new,9,-0.5833333333333334,-0.9240506329113927,0.26315789473684215,descriptive
+sens_a_share_ge5pct_S1_V,SA_all,S1_V,Y_new,9,0.6666666666666667,-0.2658227848101266,0.8823529411764705,descriptive
+sens_b_ge2_pillars,SA_all,risk_add_avail,Y_new_ge2pillars,11,-0.28181818181818186,-0.7169944568809294,0.6981132075471699,descriptive
+sens_c_no_FP,SA_all,risk_add_avail,Y_new_noFP,11,-0.23636363636363636,-0.7948717948717947,0.7088978611959839,descriptive
+sens_d_DL_reported_only,SA_all,risk_add_avail,DL_reported_only,5,,,,descriptive
+sens_a_share_ge5pct,pooled_without_SA_2019_20,risk_add_avail,Y_new,19,0.16666666666666666,-0.3404045758008358,0.6106292931356982,descriptive
+sens_a_share_ge5pct_S1_V,pooled_without_SA_2019_20,S1_V,Y_new,19,0.28421052631578947,-0.16372358517305452,0.6675655111543961,descriptive
+sens_b_ge2_pillars,pooled_without_SA_2019_20,risk_add_avail,Y_new_ge2pillars,22,-0.1360813099943535,-0.5536591208998366,0.30081166168861256,descriptive
+sens_c_no_FP,pooled_without_SA_2019_20,risk_add_avail,Y_new_noFP,33,0.11764705882352942,-0.2440606069990307,0.4455080571016665,descriptive
+sens_d_DL_reported_only,pooled_without_SA_2019_20,risk_add_avail,DL_reported_only,9,-0.17573375583870182,-0.8219949365267863,0.6095308450060489,descriptive
+sens_f_leave_out,pooled minus SA_2015_sampson_flat,risk_add_avail,Y_new,34,-0.09243697478991594,-0.43314562227890113,0.24989536819564837,descriptive
+sens_f_leave_out,pooled minus SA_2015_pinery,risk_add_avail,Y_new,33,-0.14204545454545453,-0.46588441008650827,0.21850984865251363,descriptive
+sens_f_leave_out,pooled minus SA_2019_cudlee_creek,risk_add_avail,Y_new,35,-0.036414565826330535,-0.373052576504401,0.3031703045301718,descriptive
+sens_f_leave_out,pooled minus SA_2019_20_kangaroo_island,risk_add_avail,Y_new,36,-0.03552123552123552,-0.38146570686083753,0.2994026765414014,descriptive
+sens_f_leave_out,pooled minus SA_2019_20_keilira,risk_add_avail,Y_new,36,-0.08262548262548262,-0.4157865677948374,0.2711207011084117,descriptive

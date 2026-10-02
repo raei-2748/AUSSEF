@@ -4,7 +4,7 @@ Scoping note for Experiment 6 (more real fires, other years and states). Written
 Author: scoping agent A7. Nothing was downloaded except web pages and JSON catalogue metadata; sizes below are from HTTP HEAD requests (`Content-Length`) unless marked "size unknown". Local files were only read.
 
 Conventions
-- "on disk" = a file I inspected under `/Users/ray/Research/AUSSEF/fire_event_dataset/data/` (call it DATA) or `/Users/ray/.codex/.chatgpt-projects/g-p-6a5b3606787c8191a3404241c6dbb6c0/dataset_phase1/raw/` (call it P1).
+- "on disk" = a file I inspected under `/Users/ray/Research/AUSSEF - Local/fire_event_dataset/data/` (call it DATA) or `/Users/ray/.codex/.chatgpt-projects/g-p-6a5b3606787c8191a3404241c6dbb6c0/dataset_phase1/raw/` (call it P1).
 - FY = July-June. "Fire FY" = the FY containing the ignition month; "pre-fire FY" = the FY before it.
 - "Source states" = what a page or file says. "Inference" = my reading. "Unverified" = I could not open the evidence (the shared WebSearch budget ran out part-way, so some follow-up checks were impossible; each such case is listed in section 12).
 

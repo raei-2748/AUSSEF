@@ -1,0 +1,87 @@
+                        test                                    scope           score            target   n  spearman  ci_low  ci_high         note
+0                    PRIMARY                                   pooled  risk_add_avail             Y_new  37    -0.093  -0.417    0.260             
+1        primary_other_scope                                   SA_all  risk_add_avail             Y_new  11    -0.282  -0.719    0.702             
+2        primary_other_scope          stage1_only(reproduction check)  risk_add_avail             Y_new  26     0.004  -0.413    0.391             
+3        primary_other_scope                pooled_without_SA_2019_20  risk_add_avail             Y_new  33     0.047  -0.303    0.366             
+4        primary_other_scope                      SA_2015_events_only  risk_add_avail             Y_new   7     0.179  -0.750    1.000             
+5        primary_other_scope               event:SA_2015_sampson_flat  risk_add_avail             Y_new   3       NaN     NaN      NaN             
+6        primary_other_scope                     event:SA_2015_pinery  risk_add_avail             Y_new   4       NaN     NaN      NaN             
+7        primary_other_scope               event:SA_2019_cudlee_creek  risk_add_avail             Y_new   2       NaN     NaN      NaN             
+8        primary_other_scope         event:SA_2019_20_kangaroo_island  risk_add_avail             Y_new   1       NaN     NaN      NaN             
+9        primary_other_scope                 event:SA_2019_20_keilira  risk_add_avail             Y_new   1       NaN     NaN      NaN             
+10                    pillar                                   pooled  risk_add_avail                DL  16    -0.577  -0.855   -0.141             
+11                    pillar                                   pooled  risk_add_avail                IL  37     0.244  -0.116    0.558             
+12                    pillar                                   pooled  risk_add_avail                FP  24    -0.145  -0.525    0.298             
+13                    pillar                                   pooled  risk_add_avail                SL  11     0.046  -0.698    0.775             
+14            secondary_S1_V                                   pooled            S1_V             Y_new  37     0.260  -0.088    0.548             
+15           secondary_S2_HV                                   pooled           S2_HV             Y_new  21     0.109  -0.335    0.503             
+16         secondary_S1_V_DL                                   pooled            S1_V                DL  16    -0.231  -0.746    0.360             
+17                    pillar                                   SA_all  risk_add_avail                DL   5       NaN     NaN      NaN             
+18                    pillar                                   SA_all  risk_add_avail                IL  11    -0.091  -0.804    0.698             
+19                    pillar                                   SA_all  risk_add_avail                FP  11    -0.118  -0.723    0.620             
+20                    pillar                                   SA_all  risk_add_avail                SL  11     0.046  -0.706    0.776             
+21            secondary_S1_V                                   SA_all            S1_V             Y_new  11     0.645  -0.187    0.889             
+22           secondary_S2_HV                                   SA_all           S2_HV             Y_new   8    -0.071  -0.882    0.680             
+23         secondary_S1_V_DL                                   SA_all            S1_V                DL   5       NaN     NaN      NaN             
+24                    pillar                pooled_without_SA_2019_20  risk_add_avail                DL  15    -0.582  -0.854   -0.145             
+25                    pillar                pooled_without_SA_2019_20  risk_add_avail                IL  33     0.433   0.111    0.671             
+26                    pillar                pooled_without_SA_2019_20  risk_add_avail                FP  20    -0.278  -0.657    0.212             
+27                    pillar                pooled_without_SA_2019_20  risk_add_avail                SL   7     0.429  -0.412    1.000             
+28            secondary_S1_V                pooled_without_SA_2019_20            S1_V             Y_new  33     0.262  -0.085    0.563             
+29           secondary_S2_HV                pooled_without_SA_2019_20           S2_HV             Y_new  18     0.168  -0.284    0.582             
+30         secondary_S1_V_DL                pooled_without_SA_2019_20            S1_V                DL  15    -0.234  -0.759    0.358             
+31                    pillar                      SA_2015_events_only  risk_add_avail                DL   4       NaN     NaN      NaN             
+32                    pillar                      SA_2015_events_only  risk_add_avail                IL   7     0.107  -0.765    1.000             
+33                    pillar                      SA_2015_events_only  risk_add_avail                FP   7    -0.357  -1.000    0.647             
+34                    pillar                      SA_2015_events_only  risk_add_avail                SL   7     0.429  -0.608    1.000             
+35            secondary_S1_V                      SA_2015_events_only            S1_V             Y_new   7     0.750  -0.043    1.000             
+36           secondary_S2_HV                      SA_2015_events_only           S2_HV             Y_new   5       NaN     NaN      NaN             
+37         secondary_S1_V_DL                      SA_2015_events_only            S1_V                DL   4       NaN     NaN      NaN             
+38       sens_a_share_ge5pct                                   pooled  risk_add_avail             Y_new  23    -0.090  -0.500    0.390  descriptive
+39  sens_a_share_ge5pct_S1_V                                   pooled            S1_V             Y_new  23     0.273  -0.199    0.638  descriptive
+40        sens_b_ge2_pillars                                   pooled  risk_add_avail  Y_new_ge2pillars  26    -0.278  -0.617    0.123  descriptive
+41              sens_c_no_FP                                   pooled  risk_add_avail        Y_new_noFP  37    -0.030  -0.358    0.316  descriptive
+42   sens_d_DL_reported_only                                   pooled  risk_add_avail  DL_reported_only  10    -0.140  -0.800    0.594  descriptive
+43       sens_a_share_ge5pct                                   SA_all  risk_add_avail             Y_new   9    -0.583  -0.924    0.263  descriptive
+44  sens_a_share_ge5pct_S1_V                                   SA_all            S1_V             Y_new   9     0.667  -0.266    0.882  descriptive
+45        sens_b_ge2_pillars                                   SA_all  risk_add_avail  Y_new_ge2pillars  11    -0.282  -0.717    0.698  descriptive
+46              sens_c_no_FP                                   SA_all  risk_add_avail        Y_new_noFP  11    -0.236  -0.795    0.709  descriptive
+47   sens_d_DL_reported_only                                   SA_all  risk_add_avail  DL_reported_only   5       NaN     NaN      NaN  descriptive
+48       sens_a_share_ge5pct                pooled_without_SA_2019_20  risk_add_avail             Y_new  19     0.167  -0.340    0.611  descriptive
+49  sens_a_share_ge5pct_S1_V                pooled_without_SA_2019_20            S1_V             Y_new  19     0.284  -0.164    0.668  descriptive
+50        sens_b_ge2_pillars                pooled_without_SA_2019_20  risk_add_avail  Y_new_ge2pillars  22    -0.136  -0.554    0.301  descriptive
+51              sens_c_no_FP                pooled_without_SA_2019_20  risk_add_avail        Y_new_noFP  33     0.118  -0.244    0.446  descriptive
+52   sens_d_DL_reported_only                pooled_without_SA_2019_20  risk_add_avail  DL_reported_only   9    -0.176  -0.822    0.610  descriptive
+53          sens_f_leave_out        pooled minus SA_2015_sampson_flat  risk_add_avail             Y_new  34    -0.092  -0.433    0.250  descriptive
+54          sens_f_leave_out              pooled minus SA_2015_pinery  risk_add_avail             Y_new  33    -0.142  -0.466    0.219  descriptive
+55          sens_f_leave_out        pooled minus SA_2019_cudlee_creek  risk_add_avail             Y_new  35    -0.036  -0.373    0.303  descriptive
+56          sens_f_leave_out  pooled minus SA_2019_20_kangaroo_island  risk_add_avail             Y_new  36    -0.036  -0.381    0.299  descriptive
+57          sens_f_leave_out          pooled minus SA_2019_20_keilira  risk_add_avail             Y_new  36    -0.083  -0.416    0.271  descriptive
+VERDICT: NOT REPLICATED
+                     rows_set   n  planted_rho  power_lo_gt0  chance_hi_lt_030
+0         pooled primary rows  37          0.0         0.022             0.401
+1         pooled primary rows  37          0.1         0.080             0.210
+2         pooled primary rows  37          0.2         0.199             0.074
+3         pooled primary rows  37          0.3         0.403             0.023
+4         pooled primary rows  37          0.4         0.671             0.003
+5         pooled primary rows  37          0.5         0.912             0.000
+6         pooled primary rows  37          0.6         0.989             0.000
+7                     SA rows  11          0.0         0.026             0.110
+8                     SA rows  11          0.1         0.041             0.062
+9                     SA rows  11          0.2         0.095             0.028
+10                    SA rows  11          0.3         0.153             0.021
+11                    SA rows  11          0.4         0.225             0.004
+12                    SA rows  11          0.5         0.349             0.000
+13                    SA rows  11          0.6         0.520             0.000
+14  pooled without SA 2019-20  33          0.0         0.026             0.368
+15  pooled without SA 2019-20  33          0.1         0.096             0.168
+16  pooled without SA 2019-20  33          0.2         0.181             0.074
+17  pooled without SA 2019-20  33          0.3         0.402             0.012
+18  pooled without SA 2019-20  33          0.4         0.643             0.003
+19  pooled without SA 2019-20  33          0.5         0.870             0.000
+20  pooled without SA 2019-20  33          0.6         0.973             0.000
+   true_rho  rows_needed_for_80pct_power  pooled_rows_now  further_rows_needed
+0       0.3                           85               37                   48
+1       0.4                           47               37                   10
+2       0.5                           30               37                    0
+python3 run_frozen_test.py  55.12s user 1.52s system 101% cpu 55.822 total

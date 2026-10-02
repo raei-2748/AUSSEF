@@ -1,0 +1,9 @@
+locked_at: 2026-09-30T00:21:34+10:00
+purpose: Y-side inputs and test script frozen before the single frozen test run; the score table is locked earlier in SCORES.lock
+results/Y_indicators_new_rows.csv sha256: 0295658f06dc7f25fc414ff623d90f1c68e598e6c930c5c297280e2d3410be46
+results/sa_fire_rows.csv sha256: 04b31f07bf31a481979d46dd232b69ebea7202061734111afae5651c7e79f757
+results/y_build_log.json sha256: 30a62ce870ca56d5a31f9161e855880dd105f1bfea667dcc4529f8712a9a683c
+inputs_dl/dl_homes_sourced.csv sha256: 9ac925178f7f966ef0f1f081e54ac5a3318442f6660f373e7d5d71088bc9d213
+inputs/master_reference_indicators.csv sha256: d5535d70f8188f94cc552ceb5e181ddeb1ea05a9fd75923fff938f53d54c504a
+build_y.py sha256: 63db11b2ba35f815b713f2aa91db2ce67ba16519595a3ee2e6ec8b9e787ba178
+run_frozen_test.py sha256: ac66f1d3cc41b7577186f2b8381e5db72d8d95d7a911d3493d3e4cd7c447ee90

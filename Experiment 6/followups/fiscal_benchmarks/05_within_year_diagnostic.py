@@ -10,7 +10,7 @@ import pandas as pd
 from scipy.stats import spearmanr
 
 HERE = Path(__file__).resolve().parent
-ROWS = Path('/Users/ray/Research/AUSSEF/Experiment 6/results/ROWS_WITH_SCORE_v2.csv')
+ROWS = Path('/Users/ray/Research/AUSSEF - Local/Experiment 6/results/ROWS_WITH_SCORE_v2.csv')
 rng = np.random.default_rng(20260929)
 m = pd.read_csv(HERE / 'BENCHMARK_MEASURE_ROWS.csv', dtype={'agrn': str})
 r = pd.read_csv(ROWS, dtype={'agrn': str}).rename(columns={'F': 'F_old'})

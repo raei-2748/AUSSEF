@@ -11,10 +11,8 @@ import pandas as pd
 from bench_common import (BENCH, MIN_YEARS, N_PRE, OLD_F_ITEMS, pct, window_measure, year_table)
 
 HERE = Path(__file__).resolve().parent
-WORKBOOK = Path.home() / ('Library/CloudStorage/GoogleDrive-raywang886@gmail.com/My Drive/'
-                          'Application Folder - Ray/3. Extracurriculars/AUSSEF/Data/'
-                          'nsw_bushfires_2015_2025_XY.xlsx')
-OLG_WIDE = Path('/Users/ray/Research/AUSSEF/fire_event_dataset/data/olg/olg_wide.parquet')
+WORKBOOK = Path('/Users/ray/Library/CloudStorage/OneDrive-KnoxGrammarSchool/Extracurriculars/AUSSEF/05 Data Archive/Master Workbook (read by the analysis scripts)/nsw_bushfires_2015_2025_XY.xlsx')
+OLG_WIDE = Path('/Users/ray/Research/AUSSEF - Local/fire_event_dataset/data/olg/olg_wide.parquet')
 
 
 def check_year_convention(ly):

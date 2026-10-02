@@ -1,0 +1,66 @@
+event,region_id,region_name,block,item,raw,pct
+SA_2015_pinery,43650,Light (RegC),H,h1,,0.08461538461538462
+SA_2015_pinery,43650,Light (RegC),H,h2,,0.36153846153846153
+SA_2015_pinery,43650,Light (RegC),E,e1,,0.5538461538461539
+SA_2015_pinery,43650,Light (RegC),E,e2,,0.5615384615384615
+SA_2015_pinery,43650,Light (RegC),V,seifa_irsd,1025.7260044,0.23255813953488372
+SA_2015_pinery,43650,Light (RegC),V,median_income,47099.0,0.2923076923076923
+SA_2015_pinery,43650,Light (RegC),V,unemp_rate,4.3,0.17886178861788618
+SA_2015_pinery,43920,Mallala (DC),H,h1,,0.1076923076923077
+SA_2015_pinery,43920,Mallala (DC),H,h2,,0.34615384615384615
+SA_2015_pinery,43920,Mallala (DC),E,e1,,0.8384615384615385
+SA_2015_pinery,43920,Mallala (DC),E,e2,,0.7307692307692307
+SA_2015_pinery,43920,Mallala (DC),V,seifa_irsd,980.39242217,0.4186046511627907
+SA_2015_pinery,43920,Mallala (DC),V,median_income,46277.0,0.3384615384615385
+SA_2015_pinery,43920,Mallala (DC),V,unemp_rate,4.7,0.24390243902439024
+SA_2015_pinery,48130,Wakefield (DC),V,seifa_irsd,941.66022384,0.751937984496124
+SA_2015_pinery,48130,Wakefield (DC),V,median_income,42798.0,0.5153846153846153
+SA_2015_pinery,48130,Wakefield (DC),V,unemp_rate,6.4,0.5528455284552846
+SA_2015_pinery,41140,Clare and Gilbert Valleys (DC),V,seifa_irsd,1002.1856622,0.2713178294573643
+SA_2015_pinery,41140,Clare and Gilbert Valleys (DC),V,median_income,41878.0,0.5538461538461539
+SA_2015_pinery,41140,Clare and Gilbert Valleys (DC),V,unemp_rate,4.3,0.17886178861788618
+SA_2015_sampson_flat,40120,Adelaide Hills (DC),H,h1,,0.8846153846153846
+SA_2015_sampson_flat,40120,Adelaide Hills (DC),H,h2,,1.0
+SA_2015_sampson_flat,40120,Adelaide Hills (DC),E,e1,,1.0
+SA_2015_sampson_flat,40120,Adelaide Hills (DC),E,e2,,1.0
+SA_2015_sampson_flat,40120,Adelaide Hills (DC),V,seifa_irsd,1081.0772608,0.10077519379844961
+SA_2015_sampson_flat,40120,Adelaide Hills (DC),V,median_income,48035.0,0.19230769230769232
+SA_2015_sampson_flat,40120,Adelaide Hills (DC),V,unemp_rate,3.2,0.12195121951219512
+SA_2015_sampson_flat,45680,Playford (C),H,h1,,0.6461538461538462
+SA_2015_sampson_flat,45680,Playford (C),H,h2,,0.6384615384615384
+SA_2015_sampson_flat,45680,Playford (C),E,e1,,0.43846153846153846
+SA_2015_sampson_flat,45680,Playford (C),E,e2,,0.45384615384615384
+SA_2015_sampson_flat,45680,Playford (C),V,seifa_irsd,871.26407577,0.9612403100775194
+SA_2015_sampson_flat,45680,Playford (C),V,median_income,42542.0,0.4076923076923077
+SA_2015_sampson_flat,45680,Playford (C),V,unemp_rate,14.2,1.0
+SA_2015_sampson_flat,47700,Tea Tree Gully (C),H,h1,,0.3769230769230769
+SA_2015_sampson_flat,47700,Tea Tree Gully (C),H,h2,,0.6461538461538462
+SA_2015_sampson_flat,47700,Tea Tree Gully (C),E,e1,,0.2230769230769231
+SA_2015_sampson_flat,47700,Tea Tree Gully (C),E,e2,,0.2230769230769231
+SA_2015_sampson_flat,47700,Tea Tree Gully (C),V,seifa_irsd,1037.484973,0.20155038759689922
+SA_2015_sampson_flat,47700,Tea Tree Gully (C),V,median_income,46575.0,0.23076923076923078
+SA_2015_sampson_flat,47700,Tea Tree Gully (C),V,unemp_rate,4.0,0.17886178861788618
+SA_2019_20_kangaroo_island,42750,Kangaroo Island (DC),H,h1,,0.6923076923076923
+SA_2019_20_kangaroo_island,42750,Kangaroo Island (DC),H,h2,,1.0
+SA_2019_20_kangaroo_island,42750,Kangaroo Island (DC),E,e1,,1.0
+SA_2019_20_kangaroo_island,42750,Kangaroo Island (DC),E,e2,,1.0
+SA_2019_20_kangaroo_island,42750,Kangaroo Island (DC),V,seifa_irsd,970.0,0.5116279069767442
+SA_2019_20_kangaroo_island,42750,Kangaroo Island (DC),V,median_income,36035.0,0.9153846153846154
+SA_2019_20_kangaroo_island,42750,Kangaroo Island (DC),V,unemp_rate,3.4,0.3008130081300813
+SA_2019_20_keilira,43360,Kingston (DC) (SA),V,seifa_irsd,973.0,0.49612403100775193
+SA_2019_20_keilira,43360,Kingston (DC) (SA),V,median_income,45493.0,0.4153846153846154
+SA_2019_20_keilira,43360,Kingston (DC) (SA),V,unemp_rate,,
+SA_2019_cudlee_creek,40120,Adelaide Hills (DC),H,h1,,0.8846153846153846
+SA_2019_cudlee_creek,40120,Adelaide Hills (DC),H,h2,,1.0
+SA_2019_cudlee_creek,40120,Adelaide Hills (DC),E,e1,,1.0
+SA_2019_cudlee_creek,40120,Adelaide Hills (DC),E,e2,,1.0
+SA_2019_cudlee_creek,40120,Adelaide Hills (DC),V,seifa_irsd,1080.0,0.10465116279069768
+SA_2019_cudlee_creek,40120,Adelaide Hills (DC),V,median_income,52784.0,0.16923076923076924
+SA_2019_cudlee_creek,40120,Adelaide Hills (DC),V,unemp_rate,3.7,0.3333333333333333
+SA_2019_cudlee_creek,44550,Mount Barker (DC),H,h1,,1.0
+SA_2019_cudlee_creek,44550,Mount Barker (DC),H,h2,,1.0
+SA_2019_cudlee_creek,44550,Mount Barker (DC),E,e1,,1.0
+SA_2019_cudlee_creek,44550,Mount Barker (DC),E,e2,,1.0
+SA_2019_cudlee_creek,44550,Mount Barker (DC),V,seifa_irsd,1033.0,0.20930232558139536
+SA_2019_cudlee_creek,44550,Mount Barker (DC),V,median_income,49371.0,0.25384615384615383
+SA_2019_cudlee_creek,44550,Mount Barker (DC),V,unemp_rate,6.5,0.9024390243902439

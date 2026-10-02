@@ -1,0 +1,7 @@
+event,source_objectid,fire_name,ignition_date,area_ha,fire_type
+SA_2015_sampson_flat,57707,Sampson Flat,2015-01-02T00:00:00Z,11530.0,Bushfire
+SA_2015_pinery,57775,Pinery,2015-11-25T00:00:00Z,78505.0,Bushfire
+SA_2019_cudlee_creek,58304,Cudlee Creek,2019-12-20T00:00:00Z,22549.0,Bushfire
+SA_2019_20_kangaroo_island,58309,KI Complex,2019-12-21T00:00:00Z,16312.0,Bushfire
+SA_2019_20_kangaroo_island,58316,Ravine,2019-12-30T00:00:00Z,184941.0,Bushfire
+SA_2019_20_keilira,58318,Keilira,2019-12-30T00:00:00Z,22854.0,Bushfire

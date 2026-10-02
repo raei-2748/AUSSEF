@@ -16,9 +16,7 @@ from scipy.stats import rankdata, spearmanr
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / 'results'
-WORKBOOK = Path.home() / ('Library/CloudStorage/GoogleDrive-raywang886@gmail.com/My Drive/'
-                          'Application Folder - Ray/3. Extracurriculars/AUSSEF/Data/'
-                          'nsw_bushfires_2015_2025_XY.xlsx')
+WORKBOOK = Path('/Users/ray/Library/CloudStorage/OneDrive-KnoxGrammarSchool/Extracurriculars/AUSSEF/05 Data Archive/Master Workbook (read by the analysis scripts)/nsw_bushfires_2015_2025_XY.xlsx')
 FISCAL = ['fiscal_cash_cover_months_fy', 'fiscal_own_source_pct_fy', 'fiscal_debt_service_ratio_pct_fy',
           'fiscal_operating_ratio_pct_fy', 'fiscal_infra_backlog_ratio_pct_fy',
           'fiscal_unrestricted_current_ratio_fy']

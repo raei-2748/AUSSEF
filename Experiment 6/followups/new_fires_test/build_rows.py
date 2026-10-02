@@ -4,7 +4,7 @@ Reads only files already on disk (GA outlines, ABS LGA 2015 / 2018 / 2021 layers
 (inputs/overlay_candidates.py: load_ga, load_lga) so the polygon selection and shares are identical to the scoping table.
 
 Outputs (results/): event_polygons.csv, roster.csv, comparison_groups.csv, boundary_2021_check.csv
-Run: /Users/ray/Research/AUSSEF/.venv/bin/python build_rows.py
+Run: /Users/ray/Research/AUSSEF - Local/.venv/bin/python build_rows.py
 """
 import sys
 import warnings
