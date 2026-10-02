@@ -25,7 +25,7 @@ from scipy.stats import rankdata, spearmanr
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / 'results'
-WORKBOOK = Path('/Users/ray/Library/CloudStorage/OneDrive-KnoxGrammarSchool/Extracurriculars/AUSSEF/05 Data Archive/Master Workbook (read by the analysis scripts)/nsw_bushfires_2015_2025_XY.xlsx')
+WORKBOOK = Path('/Users/ray/Research/AUSSEF - Local/data/master_workbook/nsw_bushfires_2015_2025_XY.xlsx')
 EXPOSURE = sys.argv[1] if len(sys.argv) > 1 else 'v1'      # 'v2' = share of dwellings/residents inside BFPL Cat 1-2
 assert EXPOSURE in ('v1', 'v2')
 SUF = '' if EXPOSURE == 'v1' else '_v2'                     # v1 result files are never overwritten

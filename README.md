@@ -22,9 +22,10 @@ and live on OneDrive (`Extracurriculars/AUSSEF/06 Finished Experiments`); they a
 
 ## Where everything else is
 
-- **OneDrive `Extracurriculars/AUSSEF/`**: notes and updates for Bowen, literature, presentations, the **master workbook**
-  (`05 Data Archive/Master Workbook (read by the analysis scripts)/`; scripts read it there), council PDFs and raw
-  downloads. Start with `00 README - What is where.md` there.
+- **Master workbook (live)**: `data/master_workbook/nsw_bushfires_2015_2025_XY.xlsx` (sha256 123423ea...ec3); every
+  script reads it here. Do not edit it.
+- **OneDrive `Extracurriculars/AUSSEF/`**: ARCHIVE ONLY, for material we no longer use (finished experiments, raw
+  downloads, council PDFs already extracted, old dataset versions). Start with `00 README - What is where.md` there.
 - **Google Drive `Application Folder - Ray/Extracurriculars/AUSSEF/`**: Google Docs/Sheets/Slides (Logbook, Notes,
   Syllabus, Bibliography sheet) plus the original copies of files now also on OneDrive.
 - **What moved where and when**: `docs/storage/` (`MOVED_FILES.txt`, `data_archive_moves_2026-10-02.csv`).
@@ -32,7 +33,7 @@ and live on OneDrive (`Extracurriculars/AUSSEF/06 Finished Experiments`); they a
 ## Other folders
 
 ```text
-data/                canonical DuckDB model (aussef.duckdb) and build receipt
+data/                master workbook (data/master_workbook/), canonical DuckDB model (aussef.duckdb) and build receipt
 NSW Data Panel.csv   OLG council time-series panel (frozen source)
 docs/                stack notes, literature notes, Y composition, storage logs
 schemas/, scripts/   validation schemas and setup/export scripts

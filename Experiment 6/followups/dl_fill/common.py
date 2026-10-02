@@ -8,7 +8,7 @@ HERE = Path(__file__).resolve().parent
 MAIN = Path('/Users/ray/Research/AUSSEF - Local')            # main checkout holds Experiment 6 results and fire_event_dataset
 E6_RESULTS = MAIN / 'Experiment 6' / 'results'
 FED = MAIN / 'fire_event_dataset'
-WORKBOOK = Path('/Users/ray/Library/CloudStorage/OneDrive-KnoxGrammarSchool/Extracurriculars/AUSSEF/05 Data Archive/Master Workbook (read by the analysis scripts)/nsw_bushfires_2015_2025_XY.xlsx')
+WORKBOOK = Path('/Users/ray/Research/AUSSEF - Local/data/master_workbook/nsw_bushfires_2015_2025_XY.xlsx')
 OUT = HERE / 'out'
 OUT.mkdir(exist_ok=True)
 

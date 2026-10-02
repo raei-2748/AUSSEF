@@ -11,7 +11,7 @@ import pandas as pd
 from bench_common import (BENCH, MIN_YEARS, N_PRE, OLD_F_ITEMS, pct, window_measure, year_table)
 
 HERE = Path(__file__).resolve().parent
-WORKBOOK = Path('/Users/ray/Library/CloudStorage/OneDrive-KnoxGrammarSchool/Extracurriculars/AUSSEF/05 Data Archive/Master Workbook (read by the analysis scripts)/nsw_bushfires_2015_2025_XY.xlsx')
+WORKBOOK = Path('/Users/ray/Research/AUSSEF - Local/data/master_workbook/nsw_bushfires_2015_2025_XY.xlsx')
 OLG_WIDE = Path('/Users/ray/Research/AUSSEF - Local/fire_event_dataset/data/olg/olg_wide.parquet')
 
 

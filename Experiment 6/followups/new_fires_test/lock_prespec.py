@@ -14,7 +14,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 MAIN = Path('/Users/ray/Research/AUSSEF - Local')
-WORKBOOK = Path('/Users/ray/Library/CloudStorage/OneDrive-KnoxGrammarSchool/Extracurriculars/AUSSEF/05 Data Archive/Master Workbook (read by the analysis scripts)/nsw_bushfires_2015_2025_XY.xlsx')
+WORKBOOK = Path('/Users/ray/Research/AUSSEF - Local/data/master_workbook/nsw_bushfires_2015_2025_XY.xlsx')
 DUCK = MAIN / 'data/aussef.duckdb'
 OUTDIR = MAIN / 'fire_event_dataset/out'
 RAW = MAIN / 'fire_event_dataset/data/raw/extra_fires'

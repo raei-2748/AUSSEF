@@ -26,3 +26,6 @@ aussef_duckdb/source_tables/evidence_master_expanded.csv
 
 /.quarto/
 **/*.quarto_ipynb
+
+# Live master workbook (kept local, not versioned in git)
+data/master_workbook/*.xlsx

@@ -14,7 +14,7 @@ EXTRA = FED / 'data/extra_fires'                      # git-ignored data folder;
 P1 = Path('/Users/ray/.codex/.chatgpt-projects/g-p-6a5b3606787c8191a3404241c6dbb6c0/dataset_phase1')
 RES = HERE / 'results'
 INP = HERE / 'inputs'
-WORKBOOK = Path('/Users/ray/Library/CloudStorage/OneDrive-KnoxGrammarSchool/Extracurriculars/AUSSEF/05 Data Archive/Master Workbook (read by the analysis scripts)/nsw_bushfires_2015_2025_XY.xlsx')
+WORKBOOK = Path('/Users/ray/Research/AUSSEF - Local/data/master_workbook/nsw_bushfires_2015_2025_XY.xlsx')
 
 
 def place(v, ref, higher_is_worse=True):
