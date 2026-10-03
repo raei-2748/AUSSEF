@@ -1,0 +1,288 @@
+[
+ {
+  "batch": "01",
+  "councils": [
+   {
+    "region_id": "10050",
+    "name": "Albury"
+   },
+   {
+    "region_id": "12380",
+    "name": "Cumberland"
+   },
+   {
+    "region_id": "13910",
+    "name": "Hilltops"
+   },
+   {
+    "region_id": "15050",
+    "name": "Maitland"
+   },
+   {
+    "region_id": "16550",
+    "name": "Randwick"
+   },
+   {
+    "region_id": "18100",
+    "name": "Weddin"
+   }
+  ]
+ },
+ {
+  "batch": "02",
+  "councils": [
+   {
+    "region_id": "10300",
+    "name": "Balranald"
+   },
+   {
+    "region_id": "11500",
+    "name": "Campbelltown (NSW)"
+   },
+   {
+    "region_id": "12900",
+    "name": "Forbes"
+   },
+   {
+    "region_id": "14300",
+    "name": "Junee"
+   },
+   {
+    "region_id": "15800",
+    "name": "Narrandera"
+   },
+   {
+    "region_id": "17200",
+    "name": "Sydney"
+   }
+  ]
+ },
+ {
+  "batch": "03",
+  "councils": [
+   {
+    "region_id": "10500",
+    "name": "Bayside (NSW)"
+   },
+   {
+    "region_id": "11520",
+    "name": "Canada Bay"
+   },
+   {
+    "region_id": "12930",
+    "name": "Georges River"
+   },
+   {
+    "region_id": "14400",
+    "name": "Kiama"
+   },
+   {
+    "region_id": "15850",
+    "name": "Narromine"
+   },
+   {
+    "region_id": "17350",
+    "name": "Temora"
+   }
+  ]
+ },
+ {
+  "batch": "04",
+  "councils": [
+   {
+    "region_id": "10650",
+    "name": "Berrigan"
+   },
+   {
+    "region_id": "11570",
+    "name": "Canterbury-Bankstown"
+   },
+   {
+    "region_id": "12950",
+    "name": "Gilgandra"
+   },
+   {
+    "region_id": "14600",
+    "name": "Lachlan"
+   },
+   {
+    "region_id": "15950",
+    "name": "North Sydney"
+   },
+   {
+    "region_id": "17420",
+    "name": "The Hills Shire"
+   }
+  ]
+ },
+ {
+  "batch": "05",
+  "councils": [
+   {
+    "region_id": "10750",
+    "name": "Blacktown"
+   },
+   {
+    "region_id": "11600",
+    "name": "Carrathool"
+   },
+   {
+    "region_id": "13450",
+    "name": "Griffith"
+   },
+   {
+    "region_id": "14700",
+    "name": "Lane Cove"
+   },
+   {
+    "region_id": "15990",
+    "name": "Northern Beaches"
+   },
+   {
+    "region_id": "18050",
+    "name": "Waverley"
+   }
+  ]
+ },
+ {
+  "batch": "06",
+  "councils": [
+   {
+    "region_id": "10800",
+    "name": "Bland"
+   },
+   {
+    "region_id": "11700",
+    "name": "Central Darling"
+   },
+   {
+    "region_id": "13550",
+    "name": "Gunnedah"
+   },
+   {
+    "region_id": "14750",
+    "name": "Leeton"
+   },
+   {
+    "region_id": "16150",
+    "name": "Orange"
+   },
+   {
+    "region_id": "18200",
+    "name": "Wentworth"
+   }
+  ]
+ },
+ {
+  "batch": "07",
+  "councils": [
+   {
+    "region_id": "11150",
+    "name": "Bourke"
+   },
+   {
+    "region_id": "12000",
+    "name": "Coolamon"
+   },
+   {
+    "region_id": "13850",
+    "name": "Hay"
+   },
+   {
+    "region_id": "14950",
+    "name": "Lockhart"
+   },
+   {
+    "region_id": "16260",
+    "name": "Parramatta"
+   },
+   {
+    "region_id": "18250",
+    "name": "Willoughby"
+   }
+  ]
+ },
+ {
+  "batch": "08",
+  "councils": [
+   {
+    "region_id": "11250",
+    "name": "Broken Hill"
+   },
+   {
+    "region_id": "12730",
+    "name": "Edward River"
+   },
+   {
+    "region_id": "14000",
+    "name": "Hornsby"
+   },
+   {
+    "region_id": "15350",
+    "name": "Mosman"
+   },
+   {
+    "region_id": "16700",
+    "name": "Ryde"
+   },
+   {
+    "region_id": "18450",
+    "name": "Wollongong"
+   }
+  ]
+ },
+ {
+  "batch": "09",
+  "councils": [
+   {
+    "region_id": "11300",
+    "name": "Burwood"
+   },
+   {
+    "region_id": "12850",
+    "name": "Fairfield"
+   },
+   {
+    "region_id": "14100",
+    "name": "Hunters Hill"
+   },
+   {
+    "region_id": "15520",
+    "name": "Murray River"
+   },
+   {
+    "region_id": "16900",
+    "name": "Shellharbour"
+   },
+   {
+    "region_id": "18500",
+    "name": "Woollahra"
+   }
+  ]
+ },
+ {
+  "batch": "10",
+  "councils": [
+   {
+    "region_id": "11450",
+    "name": "Camden"
+   },
+   {
+    "region_id": "12870",
+    "name": "Federation"
+   },
+   {
+    "region_id": "14170",
+    "name": "Inner West"
+   },
+   {
+    "region_id": "15560",
+    "name": "Murrumbidgee"
+   },
+   {
+    "region_id": "17100",
+    "name": "Strathfield"
+   }
+  ]
+ }
+]

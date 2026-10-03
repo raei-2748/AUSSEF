@@ -1,0 +1,37 @@
+129 councils; duplicate keys inside council list: []
+
+## traffic_lga_all_stations: 153 source names, 44 unmatched, councils matched 109/129
+UNMATCHED source names: Armidale Dumaresq (n=4); Ashfield (n=4); Auburn (n=12); Bankstown (n=29); Bombala (n=6); Boorowa (n=5); Botany Bay (n=17); Canterbury (n=9); Conargo (n=7); Cooma-Monaro (n=6); Cootamundra (n=11); Corowa (n=16); Deniliquin (n=8); Gloucester (n=2); Gosford (n=36); Great Lakes (n=12); Greater Taree (n=13); Gundagai (n=12); Guyra (n=5); Harden (n=7); Holroyd (n=14); Hurstville (n=5); Jerilderie (n=11); Kogarah (n=3); Leichhardt (n=10); Manly (n=3); Marrickville (n=12); Murray (n=10); NULL (n=2); Nambucca (n=4); Palerang (n=13); Pittwater (n=6); Queanbeyan (n=9); Rockdale (n=16); Snowy River (n=17); Tumbarumba (n=8); Tumut (n=14); Unincorporated Far West (n=3); Urana (n=5); Wakool (n=15); Warringah (n=16); Wellington (n=4); Wyong (n=16); Young (n=7)
+Councils (of 129) with no match (20): Armidale Regional; Bayside (NSW); Canterbury-Bankstown; Central Coast (NSW); Cootamundra-Gundagai Regional; Cumberland; Edward River; Federation; Georges River; Hilltops; Inner West; Lachlan; Mid-Coast; Murray River; Nambucca Valley; Northern Beaches; Queanbeyan-Palerang Regional; Snowy Monaro Regional; Snowy Valleys; Unincorporated NSW
+FIRE councils (of 69) with no match (8): Armidale Regional; Central Coast (NSW); Cootamundra-Gundagai Regional; Mid-Coast; Nambucca Valley; Queanbeyan-Palerang Regional; Snowy Monaro Regional; Snowy Valleys
+Several source names -> one council: 
+
+## traffic_lga_permanent_stations: 103 source names, 29 unmatched, councils matched 74/129
+UNMATCHED source names: Ashfield (n=4); Auburn (n=7); Bankstown (n=16); Bombala (n=1); Botany Bay (n=4); Canterbury (n=6); Cooma-Monaro (n=4); Corowa (n=1); Gosford (n=13); Great Lakes (n=1); Greater Taree (n=3); Gundagai (n=3); Guyra (n=1); Holroyd (n=9); Hurstville (n=1); Jerilderie (n=2); Kogarah (n=3); Leichhardt (n=7); Manly (n=2); Marrickville (n=4); NULL (n=2); Nambucca (n=1); Palerang (n=2); Pittwater (n=2); Rockdale (n=7); Snowy River (n=4); Warringah (n=12); Wellington (n=1); Wyong (n=4)
+Councils (of 129) with no match (55): Armidale Regional; Bayside (NSW); Bellingen; Berrigan; Blayney; Bourke; Brewarrina; Canterbury-Bankstown; Carrathool; Central Coast (NSW); Central Darling; Coffs Harbour; Coolamon; Coonamble; Cootamundra-Gundagai Regional; Cowra; Cumberland; Dungog; Edward River; Federation; Georges River; Greater Hume Shire; Griffith; Gwydir; Hay; Hilltops; Inner West; Junee; Kyogle; Lachlan; Leeton; Lismore; Lockhart; Mid-Coast; Mid-Western Regional; Murray River; Murrumbidgee; Nambucca Valley; Narrabri; Northern Beaches; Oberon; Orange; Parkes; Queanbeyan-Palerang Regional; Snowy Monaro Regional; Snowy Valleys; Temora; Tenterfield; Unincorporated NSW; Uralla; Wagga Wagga; Walcha; Walgett; Warren; Wentworth
+FIRE councils (of 69) with no match (29): Armidale Regional; Bellingen; Blayney; Brewarrina; Central Coast (NSW); Coffs Harbour; Coonamble; Cootamundra-Gundagai Regional; Cowra; Dungog; Greater Hume Shire; Gwydir; Kyogle; Lismore; Mid-Coast; Mid-Western Regional; Nambucca Valley; Narrabri; Oberon; Parkes; Queanbeyan-Palerang Regional; Snowy Monaro Regional; Snowy Valleys; Tenterfield; Uralla; Wagga Wagga; Walcha; Walgett; Warren
+Several source names -> one council: 
+traffic: 0 station rows with lga NULL; permanent stations total 742, with matched lga 405
+
+## bocsar: 131 source names, 3 unmatched, councils matched 128/129
+UNMATCHED source names: In Custody; Lord Howe Island; Unincorporated Far West
+Councils (of 129) with no match (1): Unincorporated NSW
+FIRE councils (of 69) with no match (0): 
+Several source names -> one council: 
+
+## olg_all_years: 169 source names, 41 unmatched, councils matched 128/129
+UNMATCHED source names: armidale dumaresq; ashfield; auburn; bankstown; bombala; boorowa; botany bay; canterbury; conargo; cooma monaro; cootamundra; corowa; deniliquin; gloucester; gosford; great lakes; greater taree; gundagai; guyra; harden; holroyd; hurstville; jerilderie; kogarah; leichhardt; manly; marrickville; murray; palerang; pittwater; queanbeyan; rockdale; snowy river; tumbarumba; tumut; urana; wakool; warringah; wellington; wyong; young
+Councils (of 129) with no match (1): Unincorporated NSW
+FIRE councils (of 69) with no match (0): 
+Several source names -> one council: 
+
+## olg_fy2016plus: 128 source names, 0 unmatched, councils matched 128/129
+UNMATCHED source names: 
+Councils (of 129) with no match (1): Unincorporated NSW
+FIRE councils (of 69) with no match (0): 
+Several source names -> one council: 
+OLG collisions within one FY: {}
+OLG councils not covering all 12 FYs 2013-2024: Armidale Regional 2016-2024 (9); Bayside (NSW) 2016-2024 (9); Canterbury-Bankstown 2016-2024 (9); Central Coast (NSW) 2016-2024 (9); Cootamundra-Gundagai Regional 2016-2024 (9); Cumberland 2016-2024 (9); Dubbo Regional 2013-2024 (11); Edward River 2016-2024 (9); Federation 2016-2024 (9); Georges River 2016-2024 (9); Hilltops 2016-2024 (9); Inner West 2016-2024 (9); Mid-Coast 2016-2024 (9); Murray River 2016-2024 (9); Murrumbidgee 2013-2024 (11); Northern Beaches 2016-2024 (9); Parramatta 2013-2024 (11); Queanbeyan-Palerang Regional 2016-2024 (9); Snowy Monaro Regional 2016-2024 (9); Snowy Valleys 2016-2024 (9)
+
+## rent (region_id direct): 128 ids; not in 129 councils: []; councils missing: ['Unincorporated NSW']; fire councils missing: []
+rent id/name disagreements: [['12160', 'Gundagai', 'Cootamundra-Gundagai Regional', False], ['12390', 'Western Plains Regional', 'Dubbo Regional', False], ['15700', 'Nambucca', 'Nambucca Valley', False]]

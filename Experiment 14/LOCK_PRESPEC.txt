@@ -1,0 +1,2 @@
+locked 2026-10-02 22:35:25 (before any v4 value is computed)
+11e76f290ac5698bfada59e13bb7603dda1b00ea227d5b8400f64fcebbe5d4dd  PRESPEC.md

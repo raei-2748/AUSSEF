@@ -1,0 +1,193 @@
+      setting sample check  primary  model_slope  measured_lo  measured_hi     verdict                           measured_source
+unconstrained      B    M1     True     1.020547        -0.35         0.59  overstates         Exp 7 Day 6, council, all seasons
+unconstrained      B   M1b    False     3.812700        -0.29         0.12  overstates Exp 13 SA2 unemployment B (placebo fails)
+unconstrained      B    M2     True    -0.952473        -3.10         0.80      inside              Exp 13 ATO postcode income B
+unconstrained      B   M2b    False    -0.952473        -2.60        -0.70      inside                   Exp 13 SA2 PIA income B
+unconstrained      B    M3     True    -8.198336        -1.20         8.60  overstates                 Exp 13 CABEE businesses B
+  constrained      B    M1     True     0.030177        -0.35         0.59      inside         Exp 7 Day 6, council, all seasons
+  constrained      B   M1b    False     0.013773        -0.29         0.12      inside Exp 13 SA2 unemployment B (placebo fails)
+  constrained      B    M2     True     0.290627        -3.10         0.80      inside              Exp 13 ATO postcode income B
+  constrained      B   M2b    False     0.290627        -2.60        -0.70 understates                   Exp 13 SA2 PIA income B
+  constrained      B    M3     True    -0.367814        -1.20         8.60      inside                 Exp 13 CABEE businesses B
+ P_calibrated      B    M1     True     0.139022        -0.35         0.59      inside         Exp 7 Day 6, council, all seasons
+ P_calibrated      B   M1b    False     0.412992        -0.29         0.12  overstates Exp 13 SA2 unemployment B (placebo fails)
+ P_calibrated      B    M2     True     0.178771        -3.10         0.80      inside              Exp 13 ATO postcode income B
+ P_calibrated      B   M2b    False     0.178771        -2.60        -0.70 understates                   Exp 13 SA2 PIA income B
+ P_calibrated      B    M3     True    -1.346369        -1.20         8.60  overstates                 Exp 13 CABEE businesses B
+{
+ "n_rows": 218,
+ "n_rows_with_model": 88,
+ "rows_with_model_by_season": {
+  "2014": 1,
+  "2015": 3,
+  "2016": 8,
+  "2017": 4,
+  "2018": 19,
+  "2019": 36,
+  "2022": 7,
+  "2023": 8,
+  "2024": 2
+ },
+ "missing_reasons": {
+  "has model": 88,
+  "no TRA visitor spend": 68,
+  "no homes-destroyed count (no rebuild offset)": 62
+ },
+ "settings": {
+  "unconstrained": {
+   "d": 6,
+   "r": "1km",
+   "b": 0.66,
+   "delta": 0.3,
+   "typ": 2
+  },
+  "constrained": {
+   "d": 1,
+   "r": "inside",
+   "b": 0.66,
+   "delta": 0.3,
+   "typ": 2
+  },
+  "P_calibrated": {
+   "d": 1,
+   "r": "1km",
+   "b": 0.66,
+   "delta": 0.3,
+   "typ": 2
+  }
+ },
+ "totals": {
+  "unconstrained": {
+   "setting": {
+    "d": 6,
+    "r": "1km",
+    "b": 0.66,
+    "delta": 0.3,
+    "typ": 2
+   },
+   "rows_with_model": 88,
+   "all_rows": {
+    "output_loss_net_Am": 681.1339795042328,
+    "output_loss_gross_Am": 1070.749932876336,
+    "offset_in_24m_Am": 332.1310608,
+    "direct_tourism_Am": 670.638825982431,
+    "direct_bi_Am": 294.6030611873663,
+    "jobs_year1": 6350.167384571966,
+    "labour_income_loss_Am": 280.0874760851242
+   },
+   "black_summer": {
+    "output_loss_net_Am": 282.6129884795922,
+    "output_loss_gross_Am": 649.46266267405,
+    "offset_in_24m_Am": 312.4976976,
+    "direct_tourism_Am": 425.9484059586967,
+    "direct_bi_Am": 160.21362767745177,
+    "labour_income_loss_Am": 162.1401583588609,
+    "labour_income_loss_gross_Am": 202.98758911856683,
+    "rows": 36
+   }
+  },
+  "constrained": {
+   "setting": {
+    "d": 1,
+    "r": "inside",
+    "b": 0.66,
+    "delta": 0.3,
+    "typ": 2
+   },
+   "rows_with_model": 88,
+   "all_rows": {
+    "output_loss_net_Am": -317.6557522175617,
+    "output_loss_gross_Am": 71.96020115454152,
+    "offset_in_24m_Am": 332.1310608,
+    "direct_tourism_Am": 15.682923155107998,
+    "direct_bi_Am": 49.10051019789437,
+    "jobs_year1": 103.54030750906581,
+    "labour_income_loss_Am": -24.58997134663392
+   },
+   "black_summer": {
+    "output_loss_net_Am": -322.2881490983994,
+    "output_loss_gross_Am": 44.56152509605842,
+    "offset_in_24m_Am": 312.4976976,
+    "direct_tourism_Am": 13.41969244215056,
+    "direct_bi_Am": 26.702271279575292,
+    "labour_income_loss_Am": -28.036385582107318,
+    "labour_income_loss_gross_Am": 12.811045177598611,
+    "rows": 36
+   }
+  },
+  "P_calibrated": {
+   "setting": {
+    "d": 1,
+    "r": "1km",
+    "b": 0.66,
+    "delta": 0.3,
+    "typ": 2
+   },
+   "rows_with_model": 88,
+   "all_rows": {
+    "output_loss_net_Am": -211.15763122604722,
+    "output_loss_gross_Am": 178.458322146056,
+    "offset_in_24m_Am": 332.1310608,
+    "direct_tourism_Am": 111.77313766373847,
+    "direct_bi_Am": 49.10051019789437,
+    "jobs_year1": 900.1966953103909,
+    "labour_income_loss_Am": 10.544854270962976
+   },
+   "black_summer": {
+    "output_loss_net_Am": -258.60589708211614,
+    "output_loss_gross_Am": 108.24377711234165,
+    "offset_in_24m_Am": 312.4976976,
+    "direct_tourism_Am": 70.9914009931161,
+    "direct_bi_Am": 26.702271279575292,
+    "labour_income_loss_Am": -7.016165906611456,
+    "labour_income_loss_gross_Am": 33.831264853094474,
+    "rows": 36
+   }
+  }
+ },
+ "constrained_primary_inside": 3,
+ "same_pick_as_pilot": true,
+ "out_of_sample_P_calibrated_on_B_checks": {
+  "M1": "inside",
+  "M1b": "overstates",
+  "M2": "inside",
+  "M2b": "understates",
+  "M3": "overstates"
+ },
+ "il_model_nontrivial": true,
+ "il_model_tied_rows": 4,
+ "n_settings": 1620,
+ "n_settings_3_primary_inside": 177,
+ "n_settings_2plus_primary_inside": 481,
+ "spearman": {
+  "ILmodel_vs_DL": [
+   -0.8938786458818798,
+   88
+  ],
+  "ILmodel_vs_ILmeasured": [
+   -0.22203212858895094,
+   83
+  ],
+  "ILmodel_vs_share": [
+   -0.4436343143640749,
+   88
+  ],
+  "ILmodel_vs_gross": [
+   -0.37891863332159215,
+   88
+  ],
+  "ILgross_vs_DL": [
+   0.7001112770041383,
+   88
+  ],
+  "ILgross_vs_ILmeasured": [
+   -0.08177424193233038,
+   83
+  ]
+ },
+ "jobs_year1_per_home_destroyed": {
+  "constrained": 0.04250423132556068,
+  "unconstrained": 2.6068010609901338,
+  "exp12_income_support_per_home_upper": 4.48
+ }
+}

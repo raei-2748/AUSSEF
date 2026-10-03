@@ -1,0 +1,85 @@
+region_id,region_name,bs,homes,tier,group,batch
+10550,Bega Valley,True,538.0,1,fire,1
+12750,Eurobodalla,True,510.00000000000006,1,fire,1
+16950,Shoalhaven,True,285.0,1,fire,1
+17080,Snowy Valleys,True,193.0,1,fire,1
+11730,Clarence Valley,True,170.0,1,fire,1
+15240,Mid-Coast,True,127.0,1,fire,2
+14350,Kempsey,True,75.0,1,fire,2
+13010,Glen Innes Severn,True,74.99999999999999,1,fire,2
+17400,Tenterfield,True,73.0,1,fire,2
+18350,Wingecarribee,True,68.0,1,fire,2
+15700,Nambucca Valley,True,64.0,1,fire,3
+16610,Richmond Valley,True,64.0,1,fire,3
+16490,Queanbeyan-Palerang Regional,True,57.00000000000001,1,fire,3
+14870,Lithgow,True,54.00000000000001,1,fire,3
+16380,Port Macquarie-Hastings,True,32.0,1,fire,3
+17040,Snowy Monaro Regional,True,31.0,1,fire,4
+11720,Cessnock,True,26.0,1,fire,4
+10900,Blue Mountains,True,22.000000000000004,1,fire,4
+17850,Walcha,True,22.0,1,fire,4
+13800,Hawkesbury,True,19.0,1,fire,4
+18400,Wollondilly,True,18.999999999999996,1,fire,5
+11800,Coffs Harbour,True,17.0,1,fire,5
+14220,Inverell,True,15.0,1,fire,5
+10180,Armidale Regional,True,12.000000000000004,1,fire,5
+15270,Mid-Western Regional,True,11.0,1,fire,5
+13340,Greater Hume Shire,True,7.999999999999999,1,fire,6
+14550,Kyogle,True,6.0,1,fire,6
+16100,Oberon,True,4.0,1,fire,6
+17640,Upper Lachlan Shire,True,4.0,1,fire,6
+11650,Central Coast (NSW),True,3.999999999999987,1,fire,6
+14850,Lismore,True,1.999999999999999,1,fire,7
+17000,Singleton,True,0.9999999999999996,1,fire,7
+13310,Goulburn Mulwaree,True,0.9999999999999994,1,fire,7
+17550,Tweed,True,0.999999999999998,1,fire,7
+10250,Ballina,True,0.0,1,fire,7
+10600,Bellingen,True,0.0,1,fire,8
+11350,Byron,True,0.0,1,fire,8
+12160,Cootamundra-Gundagai Regional,True,0.0,1,fire,8
+12700,Dungog,True,0.0,1,fire,8
+13660,Gwydir,True,0.0,1,fire,8
+14500,Ku-ring-gai,True,0.0,1,fire,9
+14650,Lake Macquarie,True,0.0,1,fire,9
+15650,Muswellbrook,True,0.0,1,fire,9
+15750,Narrabri,True,0.0,1,fire,9
+16350,Penrith,True,0.0,1,fire,9
+17150,Sutherland Shire,True,0.0,1,fire,10
+17310,Tamworth Regional,True,0.0,1,fire,10
+17620,Upper Hunter Shire,True,0.0,1,fire,10
+17650,Uralla,True,0.0,1,fire,10
+17750,Wagga Wagga,True,0.0,1,fire,10
+18020,Warrumbungle Shire,False,34.99999999999999,2,fire,11
+12350,Cowra,False,2.0,2,fire,11
+10470,Bathurst Regional,False,0.0,3,fire,11
+10850,Blayney,False,0.0,3,fire,11
+10950,Bogan,False,0.0,3,fire,11
+11200,Brewarrina,False,0.0,3,fire,12
+11400,Cabonne,False,0.0,3,fire,12
+11750,Cobar,False,0.0,3,fire,12
+12150,Coonamble,False,0.0,3,fire,12
+12390,Dubbo Regional,False,0.0,3,fire,12
+14900,Liverpool,False,0.0,3,fire,13
+14920,Liverpool Plains,False,0.0,3,fire,13
+15300,Moree Plains,False,0.0,3,fire,13
+15900,Newcastle,False,0.0,3,fire,13
+16200,Parkes,False,0.0,3,fire,13
+16400,Port Stephens,False,0.0,3,fire,14
+17900,Walgett,False,0.0,3,fire,14
+17950,Warren,False,0.0,3,fire,14
+18710,Yass Valley,False,0.0,3,fire,14
+10050,Albury,False,0.0,4,comparison,14
+12900,Forbes,False,0.0,4,comparison,15
+12950,Gilgandra,False,0.0,4,comparison,15
+13450,Griffith,False,0.0,4,comparison,15
+13550,Gunnedah,False,0.0,4,comparison,15
+13910,Hilltops,False,0.0,4,comparison,15
+14300,Junee,False,0.0,4,comparison,16
+14400,Kiama,False,0.0,4,comparison,16
+15050,Maitland,False,0.0,4,comparison,16
+15520,Murray River,False,0.0,4,comparison,16
+15850,Narromine,False,0.0,4,comparison,16
+16150,Orange,False,0.0,4,comparison,17
+16900,Shellharbour,False,0.0,4,comparison,17
+17350,Temora,False,0.0,4,comparison,17
+18450,Wollongong,False,0.0,4,comparison,17

@@ -1,0 +1,48 @@
+Downloading pyfixest (2.7MiB)
+ Downloaded pyfixest
+Installed 61 packages in 1.73s
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 6 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+income P Y1_log_taxable_income primary {'main_per10': np.float64(0.794), 'main_lo': np.float64(-2.689), 'main_hi': np.float64(4.402), 'placebo_per10': np.float64(0.922), 'placebo_lo': np.float64(-1.652), 'placebo_hi': np.float64(3.562)} 5355 255
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 26 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+income P Y1_log_taxable_income R_dose {'main_per10': np.float64(0.072), 'main_lo': np.float64(-0.574), 'main_hi': np.float64(0.722), 'placebo_per10': np.float64(-0.464), 'placebo_lo': np.float64(-1.698), 'placebo_hi': np.float64(0.786)} 5355 345
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 6 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+income P Y1_log_taxable_income binary_H10 {'main_per10': np.float64(-0.067), 'main_lo': np.float64(-0.279), 'main_hi': np.float64(0.145), 'placebo_per10': np.float64(0.249), 'placebo_lo': np.float64(-0.225), 'placebo_hi': np.float64(0.726)} 5355 3
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 6 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+income P Y2_log_wage_earners primary {'main_per10': np.float64(0.985), 'main_lo': np.float64(-0.753), 'main_hi': np.float64(2.752), 'placebo_per10': np.float64(0.842), 'placebo_lo': np.float64(-0.909), 'placebo_hi': np.float64(2.624)} 5373 255
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 26 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+income P Y2_log_wage_earners R_dose {'main_per10': np.float64(0.059), 'main_lo': np.float64(-0.543), 'main_hi': np.float64(0.665), 'placebo_per10': np.float64(-0.439), 'placebo_lo': np.float64(-1.715), 'placebo_hi': np.float64(0.853)} 5373 345
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 6 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+income P Y2_log_wage_earners binary_H10 {'main_per10': np.float64(0.101), 'main_lo': np.float64(-0.018), 'main_hi': np.float64(0.22), 'placebo_per10': np.float64(0.173), 'placebo_lo': np.float64(-0.203), 'placebo_hi': np.float64(0.551)} 5373 3
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 6 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+income P Y3_log_individuals primary {'main_per10': np.float64(0.405), 'main_lo': np.float64(-0.873), 'main_hi': np.float64(1.698), 'placebo_per10': np.float64(1.113), 'placebo_lo': np.float64(-0.209), 'placebo_hi': np.float64(2.452)} 5373 255
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 6 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+income P Y4_log_wage_income primary {'main_per10': np.float64(-0.044), 'main_lo': np.float64(-1.494), 'main_hi': np.float64(1.427), 'placebo_per10': np.float64(0.804), 'placebo_lo': np.float64(-0.874), 'placebo_hi': np.float64(2.511)} 5373 255
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 6 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+income P Y5_log_income_per_person primary {'main_per10': np.float64(0.421), 'main_lo': np.float64(-2.432), 'main_hi': np.float64(3.357), 'placebo_per10': np.float64(-0.226), 'placebo_lo': np.float64(-3.333), 'placebo_hi': np.float64(2.981)} 5355 255
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 6 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+income P Y6_asinh_business_income primary {'main_per10': np.float64(-6.54), 'main_lo': np.float64(-11.933), 'main_hi': np.float64(-0.817), 'placebo_per10': np.float64(6.276), 'placebo_lo': np.float64(-6.515), 'placebo_hi': np.float64(20.817)} 5373 255
+income B Y1_log_taxable_income primary {'main_per10': np.float64(-1.176), 'main_lo': np.float64(-3.096), 'main_hi': np.float64(0.783), 'placebo_per10': np.float64(0.985), 'placebo_lo': np.float64(-0.408), 'placebo_hi': np.float64(2.397)} 5337 146
+income B Y1_log_taxable_income R_dose {'main_per10': np.float64(-0.188), 'main_lo': np.float64(-0.714), 'main_hi': np.float64(0.34), 'placebo_per10': np.float64(0.225), 'placebo_lo': np.float64(-0.133), 'placebo_hi': np.float64(0.585)} 5337 181
+income B Y1_log_taxable_income binary_H10 {'main_per10': np.float64(-0.242), 'main_lo': np.float64(-0.584), 'main_hi': np.float64(0.102), 'placebo_per10': np.float64(0.229), 'placebo_lo': np.float64(-0.005), 'placebo_hi': np.float64(0.464)} 5337 15
+income B Y1_log_taxable_income GCCSA_fe {'main_per10': np.float64(-0.545), 'main_lo': np.float64(-2.742), 'main_hi': np.float64(1.702), 'placebo_per10': np.float64(1.714), 'placebo_lo': np.float64(-0.333), 'placebo_hi': np.float64(3.804)} 5337 146
+income B Y1_log_taxable_income S_dose {'main_per10': np.float64(-2.873), 'main_lo': np.float64(-8.048), 'main_hi': np.float64(2.594), 'placebo_per10': np.float64(0.18), 'placebo_lo': np.float64(-4.717), 'placebo_hi': np.float64(5.329)} 5337 128
+income B Y2_log_wage_earners primary {'main_per10': np.float64(-0.695), 'main_lo': np.float64(-2.288), 'main_hi': np.float64(0.924), 'placebo_per10': np.float64(0.464), 'placebo_lo': np.float64(-0.724), 'placebo_hi': np.float64(1.667)} 5391 147
+income B Y2_log_wage_earners R_dose {'main_per10': np.float64(-0.106), 'main_lo': np.float64(-0.656), 'main_hi': np.float64(0.446), 'placebo_per10': np.float64(-0.033), 'placebo_lo': np.float64(-0.275), 'placebo_hi': np.float64(0.21)} 5391 182
+income B Y2_log_wage_earners binary_H10 {'main_per10': np.float64(-0.039), 'main_lo': np.float64(-0.358), 'main_hi': np.float64(0.281), 'placebo_per10': np.float64(0.173), 'placebo_lo': np.float64(-0.067), 'placebo_hi': np.float64(0.413)} 5391 15
+income B Y2_log_wage_earners GCCSA_fe {'main_per10': np.float64(-0.673), 'main_lo': np.float64(-2.554), 'main_hi': np.float64(1.245), 'placebo_per10': np.float64(0.538), 'placebo_lo': np.float64(-0.959), 'placebo_hi': np.float64(2.057)} 5391 147
+income B Y2_log_wage_earners S_dose {'main_per10': np.float64(-0.795), 'main_lo': np.float64(-5.378), 'main_hi': np.float64(4.009), 'placebo_per10': np.float64(-1.637), 'placebo_lo': np.float64(-3.779), 'placebo_hi': np.float64(0.552)} 5391 129
+income B Y3_log_individuals primary {'main_per10': np.float64(-0.278), 'main_lo': np.float64(-1.539), 'main_hi': np.float64(0.998), 'placebo_per10': np.float64(0.134), 'placebo_lo': np.float64(-0.49), 'placebo_hi': np.float64(0.762)} 5391 147
+income B Y4_log_wage_income primary {'main_per10': np.float64(-1.49), 'main_lo': np.float64(-3.361), 'main_hi': np.float64(0.416), 'placebo_per10': np.float64(0.535), 'placebo_lo': np.float64(-0.378), 'placebo_hi': np.float64(1.458)} 5391 147
+income B Y5_log_income_per_person primary {'main_per10': np.float64(-0.842), 'main_lo': np.float64(-2.478), 'main_hi': np.float64(0.822), 'placebo_per10': np.float64(0.863), 'placebo_lo': np.float64(-0.659), 'placebo_hi': np.float64(2.409)} 5337 146
+income B Y6_asinh_business_income primary {'main_per10': np.float64(1.838), 'main_lo': np.float64(-7.991), 'main_hi': np.float64(12.718), 'placebo_per10': np.float64(-1.722), 'placebo_lo': np.float64(-6.055), 'placebo_hi': np.float64(2.811)} 5391 147
+exit 0

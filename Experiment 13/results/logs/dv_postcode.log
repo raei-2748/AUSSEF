@@ -1,0 +1,26 @@
+Downloading pyfixest (2.7MiB)
+ Downloaded pyfixest
+Installed 61 packages in 1.57s
+/Users/ray/.cache/uv/archive-v0/tRQENXnWNUe-vksxgfbS0/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 10 observations removed because of separation.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/tRQENXnWNUe-vksxgfbS0/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 6 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/tRQENXnWNUe-vksxgfbS0/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 14 observations removed because of separation.
+  warnings.warn(
+dv_postcode P dv_assault primary {'main_per10': np.float64(-5.621), 'main_lo': np.float64(-14.476), 'main_hi': np.float64(4.151), 'placebo_per10': np.float64(0.615), 'placebo_lo': np.float64(-7.886), 'placebo_hi': np.float64(9.899)} 6120 284
+/Users/ray/.cache/uv/archive-v0/tRQENXnWNUe-vksxgfbS0/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 120 observations removed because of separation.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/tRQENXnWNUe-vksxgfbS0/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 6 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/tRQENXnWNUe-vksxgfbS0/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 108 observations removed because of separation.
+  warnings.warn(
+dv_postcode P avo_breach primary {'main_per10': np.float64(20.176), 'main_lo': np.float64(-6.211), 'main_hi': np.float64(53.987), 'placebo_per10': np.float64(-12.509), 'placebo_lo': np.float64(-30.68), 'placebo_hi': np.float64(10.424)} 6010 284
+/Users/ray/.cache/uv/archive-v0/tRQENXnWNUe-vksxgfbS0/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 10 observations removed because of separation.
+  warnings.warn(
+dv_postcode B dv_assault primary {'main_per10': np.float64(-6.984), 'main_lo': np.float64(-13.824), 'main_hi': np.float64(0.399), 'placebo_per10': np.float64(-2.739), 'placebo_lo': np.float64(-10.48), 'placebo_hi': np.float64(5.671)} 6743 151
+/Users/ray/.cache/uv/archive-v0/tRQENXnWNUe-vksxgfbS0/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 44 observations removed because of separation.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/tRQENXnWNUe-vksxgfbS0/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 100 observations removed because of separation.
+  warnings.warn(
+dv_postcode B avo_breach primary {'main_per10': np.float64(0.564), 'main_lo': np.float64(-9.486), 'main_hi': np.float64(11.729), 'placebo_per10': np.float64(3.606), 'placebo_lo': np.float64(-4.46), 'placebo_hi': np.float64(12.352)} 6699 151
+exit 0

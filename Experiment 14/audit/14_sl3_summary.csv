@@ -1,0 +1,5 @@
+full_24_post_months,far_growth_adjust,n_mine,n_built,only_mine,only_built,max_abs_diff,n_differ
+True,True,26,27,0,1,1.1102230246251565e-16,0
+True,False,26,27,0,1,0.261904761904762,8
+False,True,26,27,0,1,1.1102230246251565e-16,0
+False,False,26,27,0,1,0.261904761904762,8

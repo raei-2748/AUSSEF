@@ -1,0 +1,29 @@
+0 sc 0.019 null mean 0.001 sd 0.016
+0 ta 0.031 null mean -0.002 sd 0.044
+1 sc -0.0 null mean 0.001 sd 0.02
+1 ta 0.067 null mean -0.013 sd 0.026
+2 sc 0.029 null mean 0.001 sd 0.023
+2 ta 0.068 null mean -0.006 sd 0.046
+3 sc 0.026 null mean 0.001 sd 0.014
+3 ta 0.026 null mean 0.011 sd 0.048
+4 sc -0.011 null mean 0.0 sd 0.016
+4 ta -0.038 null mean 0.0 sd 0.034
+5 sc -0.019 null mean 0.001 sd 0.013
+5 ta 0.038 null mean -0.001 sd 0.038
+6 sc 0.004 null mean -0.001 sd 0.015
+6 ta 0.032 null mean -0.005 sd 0.057
+7 sc -0.007 null mean 0.001 sd 0.013
+7 ta 0.0 null mean -0.002 sd 0.045
+8 sc -0.016 null mean -0.001 sd 0.017
+8 ta 0.009 null mean 0.005 sd 0.04
+9 sc -0.009 null mean 0.002 sd 0.015
+9 ta -0.029 null mean -0.0 sd 0.042
+10 sc 0.013 null mean -0.003 sd 0.02
+10 ta 0.047 null mean 0.0 sd 0.03
+11 sc -0.006 null mean 0.001 sd 0.019
+11 ta -0.083 null mean 0.028 sd 0.054
+         d              nm              ns        
+      mean     std    mean     std    mean     std
+g                                                 
+sc  0.0019  0.0164  0.0003  0.0014  0.0167  0.0031
+ta  0.0139  0.0450  0.0011  0.0102  0.0421  0.0093

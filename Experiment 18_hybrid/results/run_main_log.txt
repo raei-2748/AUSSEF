@@ -1,0 +1,63 @@
+Y_v4 PRE done 7s
+Y_v4 PRE+FIRE done 16s
+DL PRE done 24s
+DL PRE+FIRE done 32s
+IL PRE done 39s
+IL PRE+FIRE done 46s
+FP PRE done 53s
+FP PRE+FIRE done 62s
+SL PRE done 69s
+SL PRE+FIRE done 79s
+Y_hybrid PRE done 87s
+Y_hybrid PRE+FIRE done 96s
+IL_model PRE done 103s
+IL_model PRE+FIRE done 111s
+Y_v4 PRE+FIRE-guard done 114s
+IL PRE+FIRE-guard done 117s
+Y_hybrid PRE+FIRE-guard done 120s
+IL_model PRE+FIRE-guard done 123s
+IL_model_gross PRE+FIRE done 132s
+Y_hybrid_gross PRE+FIRE done 141s
+{
+ "y_v4_reproduced_max_abs_diff": 5.551115123125783e-17,
+ "spearman": {
+  "IL_model_vs_DL": [
+   -0.8938786458818798,
+   88
+  ],
+  "IL_model_vs_IL_measured": [
+   -0.22203212858895094,
+   83
+  ],
+  "IL_model_gross_vs_DL": [
+   0.7001112770041383,
+   88
+  ],
+  "IL_model_vs_IL_model_gross": [
+   -0.37891863332159215,
+   88
+  ],
+  "Y_hybrid_vs_Y_measured": [
+   0.732661265685531,
+   218
+  ],
+  "Y_hybrid_gross_vs_Y_measured": [
+   0.8070000981666214,
+   218
+  ]
+ },
+ "rows": {
+  "Y_hybrid": 218,
+  "IL_model": 88,
+  "IL_measured": 177
+ },
+ "max_abs_diff_vs_exp14_rho": 9.80118763926896e-17,
+ "max_abs_diff_vs_exp14_rho_lo": 9.71445146547012e-17
+}
+                                    comparison  rows      diff        lo        hi
+Y_hybrid: rho(full X) - rho(overlap X removed)   218  0.245135  0.126277  0.391242
+IL_model: rho(full X) - rho(overlap X removed)    88 -0.009081 -0.125274  0.129923
+    Y_v4: rho(full X) - rho(overlap X removed)   218  0.214080  0.119575  0.337318
+      IL: rho(full X) - rho(overlap X removed)   177 -0.048078 -0.162284  0.059165
+     rho(Y_hybrid) - rho(Y_measured), PRE+FIRE   218 -0.238959 -0.396175 -0.078689
+          rho(Y_hybrid) - rho(Y_measured), PRE   218 -0.247758 -0.488868 -0.013131

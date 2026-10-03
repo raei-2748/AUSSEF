@@ -1,0 +1,90 @@
+{
+  "common": {
+    "total_income": {
+      "sigma": 0.09656531858917057,
+      "n_clean": 825,
+      "n_windows": 825,
+      "councils": 127
+    },
+    "biz_count": {
+      "sigma": 0.06732601069479786,
+      "n_clean": 964,
+      "n_windows": 964,
+      "councils": 127
+    },
+    "cash_cover": {
+      "sigma": 3.6177806601385947,
+      "n_clean": 832,
+      "n_windows": 659,
+      "councils": 127
+    },
+    "services_share": {
+      "sigma": 4.7648427209703375,
+      "n_clean": 887,
+      "n_windows": 887,
+      "councils": 127
+    },
+    "renewals_ratio": {
+      "sigma": 110.00552487319628,
+      "n_clean": 895,
+      "n_windows": 895,
+      "councils": 127
+    },
+    "income_support": {
+      "sigma": 7.660090337012512,
+      "n_clean": 3478,
+      "n_windows": 3478,
+      "councils": 127
+    },
+    "night_lights": {
+      "sigma": 0.12856851770873712,
+      "n_clean": 4086,
+      "n_windows": 4086,
+      "councils": 128
+    }
+  },
+  "group": {
+    "total_income": {
+      "sigma": 0.08057247392094279,
+      "n_clean": 825,
+      "n_windows": 825,
+      "councils": 127
+    },
+    "biz_count": {
+      "sigma": 0.0654240786957172,
+      "n_clean": 964,
+      "n_windows": 964,
+      "councils": 127
+    },
+    "cash_cover": {
+      "sigma": 3.676307205924659,
+      "n_clean": 832,
+      "n_windows": 659,
+      "councils": 127
+    },
+    "services_share": {
+      "sigma": 4.834785996258818,
+      "n_clean": 887,
+      "n_windows": 887,
+      "councils": 127
+    },
+    "renewals_ratio": {
+      "sigma": 110.77057922886523,
+      "n_clean": 895,
+      "n_windows": 895,
+      "councils": 127
+    },
+    "income_support": {
+      "sigma": 7.155024116980234,
+      "n_clean": 3478,
+      "n_windows": 3478,
+      "councils": 127
+    },
+    "night_lights": {
+      "sigma": 0.07570582976020086,
+      "n_clean": 4086,
+      "n_windows": 4086,
+      "councils": 128
+    }
+  }
+}

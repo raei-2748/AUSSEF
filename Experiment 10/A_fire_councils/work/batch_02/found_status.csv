@@ -1,0 +1,55 @@
+region_id,council,fy,status,local_path,url,reason
+10900,Blue Mountains,2015-16,missing,,,standalone Annual Financial Statements PDF not found by search; council annual report PDF holds only summary statements (deleted); council pages return 403
+10900,Blue Mountains,2016-17,missing,,,standalone Annual Financial Statements PDF not found by search; council annual report PDF holds only summary statements (deleted); council pages return 403
+10900,Blue Mountains,2017-18,missing,,,standalone Annual Financial Statements PDF not found by search; council annual report PDF holds only summary statements (deleted); council pages return 403
+10900,Blue Mountains,2018-19,missing,,,standalone Annual Financial Statements PDF not found by search; council annual report PDF holds only summary statements (deleted); council pages return 403
+10900,Blue Mountains,2019-20,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/10900/10900_2019-20_gpfs.pdf,https://www.bmcc.nsw.gov.au/sites/default/files/docs/AnnualFinancialStatements_19-20.pdf,
+10900,Blue Mountains,2020-21,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/10900/10900_2020-21_gpfs.pdf,https://www.bmcc.nsw.gov.au/sites/default/files/docs/Final_Annual_Financial_Statements-2021.pdf,
+10900,Blue Mountains,2021-22,missing,,,standalone Annual Financial Statements PDF not found by search; council annual report PDF holds only summary statements (deleted); council pages return 403
+10900,Blue Mountains,2022-23,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/10900/10900_2022-23_gpfs.pdf,https://www.bmcc.nsw.gov.au/sites/default/files/docs/BMCC%20Annual%20Financial%20Statements%202022-2023.PDF,
+10900,Blue Mountains,2023-24,missing,,,standalone Annual Financial Statements PDF not found by search; council annual report PDF holds only summary statements (deleted); council pages return 403
+10950,Bogan,2015-16,missing,,,Bogan website was rebuilt; all old statement/annual report links return 404 and the new site lists only the 2024-25 annual report
+10950,Bogan,2016-17,missing,,,Bogan website was rebuilt; all old statement/annual report links return 404 and the new site lists only the 2024-25 annual report
+10950,Bogan,2017-18,missing,,,Bogan website was rebuilt; all old statement/annual report links return 404 and the new site lists only the 2024-25 annual report
+10950,Bogan,2018-19,missing,,,Bogan website was rebuilt; all old statement/annual report links return 404 and the new site lists only the 2024-25 annual report
+10950,Bogan,2019-20,missing,,,Bogan website was rebuilt; all old statement/annual report links return 404 and the new site lists only the 2024-25 annual report
+10950,Bogan,2020-21,missing,,,Bogan website was rebuilt; all old statement/annual report links return 404 and the new site lists only the 2024-25 annual report
+10950,Bogan,2021-22,missing,,,Bogan website was rebuilt; all old statement/annual report links return 404 and the new site lists only the 2024-25 annual report
+10950,Bogan,2022-23,missing,,,Bogan website was rebuilt; all old statement/annual report links return 404 and the new site lists only the 2024-25 annual report
+10950,Bogan,2023-24,missing,,,Bogan website was rebuilt; all old statement/annual report links return 404 and the new site lists only the 2024-25 annual report
+11200,Brewarrina,2015-16,missing,,,not on council publications page (lists 2020-21 onward only); older annual report found did not contain audited statements
+11200,Brewarrina,2016-17,missing,,,not on council publications page (lists 2020-21 onward only); older annual report found did not contain audited statements
+11200,Brewarrina,2017-18,missing,,,not on council publications page (lists 2020-21 onward only); older annual report found did not contain audited statements
+11200,Brewarrina,2018-19,missing,,,not on council publications page (lists 2020-21 onward only); older annual report found did not contain audited statements
+11200,Brewarrina,2019-20,missing,,,not on council publications page (lists 2020-21 onward only); older annual report found did not contain audited statements
+11200,Brewarrina,2020-21,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/11200/11200_2020-21_gpfs.pdf,https://brewarrina.nsw.gov.au/wp-content/uploads/2024/09/Annual_Financial_Statements-2021_Audited.pdf,
+11200,Brewarrina,2021-22,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/11200/11200_2021-22_gpfs.pdf,https://brewarrina.nsw.gov.au/wp-content/uploads/2024/09/3.1-Brewarrina-Shire-Council-Financial-Statements-2021-22.pdf,
+11200,Brewarrina,2022-23,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/11200/11200_2022-23_gpfs.pdf,https://brewarrina.nsw.gov.au/wp-content/uploads/2024/09/ar_fs2022-23.pdf,
+11200,Brewarrina,2023-24,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/11200/11200_2023-24_gpfs.pdf,https://brewarrina.nsw.gov.au/wp-content/uploads/2024/11/Brewarrina-Shire-Council-Financial-Statements-2023-24-audited.pdf,
+11350,Byron,2015-16,missing,,,Byron site blocked automated download (HTTP 403); statement URL found via search but not downloaded
+11350,Byron,2016-17,missing,,,Byron site blocked automated download (HTTP 403); statement URL found via search but not downloaded
+11350,Byron,2017-18,missing,,,Byron site blocked automated download (HTTP 403); statement URL found via search but not downloaded
+11350,Byron,2018-19,missing,,,Byron site blocked automated download (HTTP 403); statement URL found via search but not downloaded
+11350,Byron,2019-20,missing,,,Byron site blocked automated download (HTTP 403); statement URL found via search but not downloaded
+11350,Byron,2020-21,missing,,,Byron site blocked automated download (HTTP 403); statement URL found via search but not downloaded
+11350,Byron,2021-22,missing,,,Byron site blocked automated download (HTTP 403); statement URL found via search but not downloaded
+11350,Byron,2022-23,missing,,,Byron site blocked automated download (HTTP 403); statement URL found via search but not downloaded
+11350,Byron,2023-24,missing,,,Byron site blocked automated download (HTTP 403); statement URL found via search but not downloaded
+11400,Cabonne,2015-16,missing,,,Cabonne site blocked automated download (HTTP 403); statement URL found via search but not downloaded
+11400,Cabonne,2016-17,missing,,,Cabonne site blocked automated download (HTTP 403); statement URL found via search but not downloaded
+11400,Cabonne,2017-18,missing,,,Cabonne site blocked automated download (HTTP 403); statement URL found via search but not downloaded
+11400,Cabonne,2018-19,missing,,,Cabonne site blocked automated download (HTTP 403); statement URL found via search but not downloaded
+11400,Cabonne,2019-20,missing,,,Cabonne site blocked automated download (HTTP 403); statement URL found via search but not downloaded
+11400,Cabonne,2020-21,missing,,,Cabonne site blocked automated download (HTTP 403); statement URL found via search but not downloaded
+11400,Cabonne,2021-22,missing,,,Cabonne site blocked automated download (HTTP 403); statement URL found via search but not downloaded
+11400,Cabonne,2022-23,missing,,,Cabonne site blocked automated download (HTTP 403); statement URL found via search but not downloaded
+11400,Cabonne,2023-24,missing,,,Cabonne site blocked automated download (HTTP 403); statement URL found via search but not downloaded
+11650,Central Coast (NSW),2015-16,missing,,,FY2015-16 for the new council is inside the 13 May 2016 to 30 Jun 2017 statement
+11650,Central Coast (NSW),2016-17,partial_period,fire_event_dataset/data/raw/council_pdfs/financial_statements/11650/11650_2016-17_gpfs.pdf,https://cdn.centralcoast.nsw.gov.au/sites/default/files/reports/annual-report-2016-17-audited-financial-statements.pdf,period 13 May 2016 to 30 Jun 2017 (amalgamation); covers partial FY2015-16 plus FY2016-17
+11650,Central Coast (NSW),2017-18,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/11650/11650_2017-18_gpfs.pdf,https://cdn.centralcoast.nsw.gov.au/sites/default/files/documents/annual-reports/2017-2018/financials/2017-18consolidatedfinancialstatements.pdf,
+11650,Central Coast (NSW),2018-19,missing,,,statement PDF link not found; council pages return 403 and annual report PDFs found held no audited statements
+11650,Central Coast (NSW),2019-20,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/11650/11650_2019-20_gpfs.pdf,https://cdn.centralcoast.nsw.gov.au/sites/default/files/2023-11/attachment_1_-_consolidated_financial_report_300620.pdf,
+11650,Central Coast (NSW),2020-21,missing,,,statement PDF link not found; council pages return 403 and annual report PDFs found held no audited statements
+11650,Central Coast (NSW),2021-22,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/11650/11650_2021-22_gpfs.pdf,https://cdn.centralcoast.nsw.gov.au/sites/default/files/2023-05/annual_financial_statements_2021-22_-_consolidated_-_final.pdf,
+11650,Central Coast (NSW),2022-23,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/11650/11650_2022-23_annual_report.pdf,https://cdn.centralcoast.nsw.gov.au/sites/default/files/2024-01/annual_report_2022-23_and_financial_statements_-_final.pdf,statements inside annual report (consolidated FS from about p.82)
+11650,Central Coast (NSW),2023-24,missing,,,statement PDF link not found; council pages return 403 and annual report PDFs found held no audited statements

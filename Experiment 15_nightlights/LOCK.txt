@@ -1,0 +1,3 @@
+PRESPEC.md sha256 b5f70635f9ef02ed44a99661194a187ccc1d078ab18fc61d7d233b608102208b
+locked 2026-10-02T12:47:13Z
+note: no avg_rade9 (radiance) value had been read when this was locked; only n_cf, census, outlines, hotspot cache.

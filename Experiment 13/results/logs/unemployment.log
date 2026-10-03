@@ -1,0 +1,17 @@
+Downloading pyfixest (2.7MiB)
+ Downloaded pyfixest
+Installed 61 packages in 1.61s
+/Users/ray/.cache/uv/archive-v0/qrQwFTcJN4vnMlYCzkaYz/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 2 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+unemployment P rate primary {'main_per10': 0.112, 'main_lo': np.float64(-0.829), 'main_hi': np.float64(1.054), 'placebo_per10': 0.533, 'placebo_lo': np.float64(-0.295), 'placebo_hi': np.float64(1.36)} 3947 181
+/Users/ray/.cache/uv/archive-v0/qrQwFTcJN4vnMlYCzkaYz/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 24 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+unemployment P rate R_dose {'main_per10': -0.012, 'main_lo': np.float64(-0.053), 'main_hi': np.float64(0.029), 'placebo_per10': 0.024, 'placebo_lo': np.float64(-0.072), 'placebo_hi': np.float64(0.121)} 3947 248
+/Users/ray/.cache/uv/archive-v0/qrQwFTcJN4vnMlYCzkaYz/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 2 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+unemployment P rate binary_H10 {'main_per10': 0.019, 'main_lo': np.float64(0.013), 'main_hi': np.float64(0.026), 'placebo_per10': 0.009, 'placebo_lo': np.float64(0.002), 'placebo_hi': np.float64(0.016)} 3947 1
+unemployment B rate primary {'main_per10': -0.087, 'main_lo': np.float64(-0.294), 'main_hi': np.float64(0.119), 'placebo_per10': -0.195, 'placebo_lo': np.float64(-0.361), 'placebo_hi': np.float64(-0.029)} 5440 114
+unemployment B rate R_dose {'main_per10': -0.043, 'main_lo': np.float64(-0.097), 'main_hi': np.float64(0.01), 'placebo_per10': -0.026, 'placebo_lo': np.float64(-0.091), 'placebo_hi': np.float64(0.038)} 5440 143
+unemployment B rate binary_H10 {'main_per10': -0.0, 'main_lo': np.float64(-0.037), 'main_hi': np.float64(0.037), 'placebo_per10': -0.036, 'placebo_lo': np.float64(-0.068), 'placebo_hi': np.float64(-0.005)} 5440 15
+unemployment B rate GCCSA_fe {'main_per10': -0.029, 'main_lo': np.float64(-0.348), 'main_hi': np.float64(0.29), 'placebo_per10': 0.098, 'placebo_lo': np.float64(-0.336), 'placebo_hi': np.float64(0.531)} 5440 114
+exit 0

@@ -1,0 +1,41 @@
+unreadable (no data): BA_LGA2016.csv
+unreadable (no data): BA_LGA2017.csv
+approval region codes not in the 129 councils: [10130, 14200, 19499, 19799]
+councils with no approvals: []
+duplicate council-months: 0 | months: 2018-07 - 2026-07
+council month counts (min/max): 24 97
+   full_24_post_months  far_growth_adjust  n_mine  n_built  only_mine  only_built  max_abs_diff  n_differ
+0                 True               True      26       27          0           1  1.110223e-16         0
+1                 True              False      26       27          0           1  2.619048e-01         8
+2                False               True      26       27          0           1  1.110223e-16         0
+3                False              False      26       27          0           1  2.619048e-01         8
+     agrn                   region_name     F  homes_v2   g_far  n_far  SL3_mine  SL3_built  SL3_mine_no_growth_adj
+47   1092                      Cessnock  2023       5.0  0.0128   61.0    1.0000     1.0000                  1.0000
+99    843                   Tenterfield  2018      18.0     NaN    NaN       NaN     0.5014                     NaN
+114   871                   Bega Valley  2019     467.0  0.0000   39.0    1.0000     1.0000                  1.0000
+116   871                Blue Mountains  2019      22.0 -0.0631   40.0    1.0000     1.0000                  1.0000
+119   871                      Cessnock  2019      21.0 -0.0631   40.0    0.0000     0.0000                  0.0000
+120   871               Clarence Valley  2019     168.0 -0.1667   40.0    0.5179     0.5179                  0.7798
+121   871                 Coffs Harbour  2019      17.0 -0.1667   40.0    1.0000     1.0000                  1.0000
+124   871                   Eurobodalla  2019     510.0 -0.0269   40.0    0.8750     0.8750                  0.8980
+125   871             Glen Innes Severn  2019      75.0 -0.1667   40.0    0.9067     0.9067                  0.9600
+127   871            Greater Hume Shire  2019       8.0  0.0000   39.0    0.0000     0.0000                  0.0000
+129   871                    Hawkesbury  2019      19.0 -0.0631   40.0    0.0000     0.0000                  0.0000
+131   871                       Kempsey  2019      68.0 -0.1667   40.0    0.0000     0.0000                  0.0000
+133   871                        Kyogle  2019       6.0 -0.0965   40.0    1.0000     1.0000                  1.0000
+136   871                       Lithgow  2019      54.0 -0.0965   40.0    0.9541     0.9541                  1.0000
+137   871                     Mid-Coast  2019     125.0 -0.1667   40.0    0.0000     0.0000                  0.0000
+138   871          Mid-Western Regional  2019      10.0 -0.0965   40.0    0.0000     0.0000                  0.0000
+140   871               Nambucca Valley  2019      64.0 -0.0631   40.0    0.0000     0.0000                  0.0000
+144   871       Port Macquarie-Hastings  2019      26.0 -0.1268   40.0    1.0000     1.0000                  1.0000
+145   871  Queanbeyan-Palerang Regional  2019      57.0 -0.0269   40.0    1.0000     1.0000                  1.0000
+146   871               Richmond Valley  2019      62.0 -0.0631   40.0    0.4122     0.4122                  0.5323
+147   871                    Shoalhaven  2019     285.0 -0.0269   40.0    0.0000     0.0000                  0.0877
+149   871         Snowy Monaro Regional  2019      31.0  0.0000   39.0    0.2581     0.2581                  0.2581
+150   871                 Snowy Valleys  2019     193.0  0.0000   39.0    0.7358     0.7358                  0.7358
+153   871                   Tenterfield  2019      54.0 -0.0965   40.0    0.5481     0.5481                  0.6481
+159   871                        Walcha  2019      22.0 -0.0965   40.0    0.8461     0.8461                  0.8636
+160   871                 Wingecarribee  2019      68.0 -0.0269   40.0    1.0000     1.0000                  1.0000
+161   871                   Wollondilly  2019      19.0 -0.0965   40.0    0.0000     0.0000                  0.0000
+rows with >=5 homes: 32 | of which pre-window starts before 2018-07: 5
+SL3 = 1 (no extra rebuilding): 8 | SL3 = 0: 9

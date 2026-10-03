@@ -1,0 +1,55 @@
+region_id,council,fy,status,local_path,url,reason
+16490,Queanbeyan-Palerang Regional,2015-16,missing,,,"partial-period FY2015-16 (amalgamation, 13 May-30 Jun 2016): QPRC published it combined with FY2016-17 in one statement, which could not be downloaded (403)"
+16490,Queanbeyan-Palerang Regional,2016-17,missing,,,site returned 403 to the guarded downloader (www.qprc.nsw.gov.au file host blocks automated download); no alternate official link found
+16490,Queanbeyan-Palerang Regional,2017-18,missing,,,site returned 403 to the guarded downloader (www.qprc.nsw.gov.au file host blocks automated download); no alternate official link found
+16490,Queanbeyan-Palerang Regional,2018-19,missing,,,site returned 403 to the guarded downloader (www.qprc.nsw.gov.au file host blocks automated download); no alternate official link found
+16490,Queanbeyan-Palerang Regional,2019-20,missing,,,site returned 403 to the guarded downloader (www.qprc.nsw.gov.au file host blocks automated download); no alternate official link found
+16490,Queanbeyan-Palerang Regional,2020-21,missing,,,site returned 403 to the guarded downloader (www.qprc.nsw.gov.au file host blocks automated download); no alternate official link found
+16490,Queanbeyan-Palerang Regional,2021-22,missing,,,site returned 403 to the guarded downloader (www.qprc.nsw.gov.au file host blocks automated download); no alternate official link found
+16490,Queanbeyan-Palerang Regional,2022-23,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/16490/16490_2022-23_gpfs.pdf,https://yourvoice.qprc.nsw.gov.au/download_file/1200/723,
+16490,Queanbeyan-Palerang Regional,2023-24,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/16490/16490_2023-24_gpfs.pdf,https://yourvoice.qprc.nsw.gov.au/download_file/1264/745,
+16610,Richmond Valley,2015-16,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/16610/16610_2015-16_gpfs.pdf,https://richmondvalley.nsw.gov.au/wp-content/uploads/2018/09/253358_2015-2016_Financial_Statements.pdf,
+16610,Richmond Valley,2016-17,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/16610/16610_2016-17_gpfs.pdf,https://richmondvalley.nsw.gov.au/wp-content/uploads/2018/09/278824_2016-2017_Richmond_Valley_Council_Financial_Statements.pdf,
+16610,Richmond Valley,2017-18,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/16610/16610_2017-18_gpfs.pdf,https://richmondvalley.nsw.gov.au/wp-content/uploads/2019/02/2017-2018-Financial-Statements.pdf,
+16610,Richmond Valley,2018-19,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/16610/16610_2018-19_gpfs.pdf,https://richmondvalley.nsw.gov.au/wp-content/uploads/2019/10/Richmond-Valley-Council-Financial-Statements-2018-2019.pdf,
+16610,Richmond Valley,2019-20,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/16610/16610_2019-20_gpfs.pdf,https://richmondvalley.nsw.gov.au/wp-content/uploads/2020/10/Richmond-Valley-Council-Financial-Statements-2019-20.pdf,
+16610,Richmond Valley,2020-21,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/16610/16610_2020-21_gpfs.pdf,https://richmondvalley.nsw.gov.au/wp-content/uploads/2021/11/Richmond-Valley-Council-Financial-Statements-2020-2021.pdf,
+16610,Richmond Valley,2021-22,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/16610/16610_2021-22_gpfs.pdf,https://richmondvalley.nsw.gov.au/wp-content/uploads/2022/10/Annual_Financial_Statements-2022.pdf,
+16610,Richmond Valley,2022-23,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/16610/16610_2022-23_gpfs.pdf,https://richmondvalley.nsw.gov.au/wp-content/uploads/2023/10/FINAL-Annual_Financial_Statements-2023.pdf,
+16610,Richmond Valley,2023-24,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/16610/16610_2023-24_gpfs.pdf,https://richmondvalley.nsw.gov.au/wp-content/uploads/2024/10/Richmond-Valley-Council-Financial-Statements-for-the-year-ended-30-June-2024.pdf,
+16950,Shoalhaven,2015-16,missing,,,council financial statements pages (www.shoalhaven.nsw.gov.au) return 403 to automated access and show no direct PDF links; only FY2024-25 link surfaced (out of range)
+16950,Shoalhaven,2016-17,missing,,,council financial statements pages (www.shoalhaven.nsw.gov.au) return 403 to automated access and show no direct PDF links; only FY2024-25 link surfaced (out of range)
+16950,Shoalhaven,2017-18,missing,,,council financial statements pages (www.shoalhaven.nsw.gov.au) return 403 to automated access and show no direct PDF links; only FY2024-25 link surfaced (out of range)
+16950,Shoalhaven,2018-19,missing,,,council financial statements pages (www.shoalhaven.nsw.gov.au) return 403 to automated access and show no direct PDF links; only FY2024-25 link surfaced (out of range)
+16950,Shoalhaven,2019-20,missing,,,council financial statements pages (www.shoalhaven.nsw.gov.au) return 403 to automated access and show no direct PDF links; only FY2024-25 link surfaced (out of range)
+16950,Shoalhaven,2020-21,missing,,,council financial statements pages (www.shoalhaven.nsw.gov.au) return 403 to automated access and show no direct PDF links; only FY2024-25 link surfaced (out of range)
+16950,Shoalhaven,2021-22,missing,,,council financial statements pages (www.shoalhaven.nsw.gov.au) return 403 to automated access and show no direct PDF links; only FY2024-25 link surfaced (out of range)
+16950,Shoalhaven,2022-23,missing,,,council financial statements pages (www.shoalhaven.nsw.gov.au) return 403 to automated access and show no direct PDF links; only FY2024-25 link surfaced (out of range)
+16950,Shoalhaven,2023-24,missing,,,council financial statements pages (www.shoalhaven.nsw.gov.au) return 403 to automated access and show no direct PDF links; only FY2024-25 link surfaced (out of range)
+17000,Singleton,2015-16,missing,,,council site blocks automated access (403); only FY2018-19 statement found on docs.singleton.nsw.gov.au (FY2016-17 and FY2017-18 appear as comparatives inside it)
+17000,Singleton,2016-17,missing,,,council site blocks automated access (403); only FY2018-19 statement found on docs.singleton.nsw.gov.au (FY2016-17 and FY2017-18 appear as comparatives inside it)
+17000,Singleton,2017-18,missing,,,council site blocks automated access (403); only FY2018-19 statement found on docs.singleton.nsw.gov.au (FY2016-17 and FY2017-18 appear as comparatives inside it)
+17000,Singleton,2018-19,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/17000/17000_2018-19_gpfs.pdf,https://docs.singleton.nsw.gov.au/default.aspx?DocID=OnXhpZJeVhA%3D,
+17000,Singleton,2019-20,missing,,,council site blocks automated access (403); only FY2018-19 statement found on docs.singleton.nsw.gov.au (FY2016-17 and FY2017-18 appear as comparatives inside it)
+17000,Singleton,2020-21,missing,,,council site blocks automated access (403); only FY2018-19 statement found on docs.singleton.nsw.gov.au (FY2016-17 and FY2017-18 appear as comparatives inside it)
+17000,Singleton,2021-22,missing,,,council site blocks automated access (403); only FY2018-19 statement found on docs.singleton.nsw.gov.au (FY2016-17 and FY2017-18 appear as comparatives inside it)
+17000,Singleton,2022-23,missing,,,council site blocks automated access (403); only FY2018-19 statement found on docs.singleton.nsw.gov.au (FY2016-17 and FY2017-18 appear as comparatives inside it)
+17000,Singleton,2023-24,missing,,,council site blocks automated access (403); only FY2018-19 statement found on docs.singleton.nsw.gov.au (FY2016-17 and FY2017-18 appear as comparatives inside it)
+17040,Snowy Monaro Regional,2015-16,missing,,,partial-period FY2015-16 (amalgamation): no standalone statement link found; may be combined in FY2016-17 file which returned 403
+17040,Snowy Monaro Regional,2016-17,missing,,,site returned 403 to the guarded downloader (council files host blocks automated download)
+17040,Snowy Monaro Regional,2017-18,missing,,,site returned 403 to the guarded downloader (council files host blocks automated download)
+17040,Snowy Monaro Regional,2018-19,missing,,,site returned 403 to the guarded downloader (council files host blocks automated download)
+17040,Snowy Monaro Regional,2019-20,missing,,,site returned 403 to the guarded downloader (council files host blocks automated download)
+17040,Snowy Monaro Regional,2020-21,missing,,,site returned 403 to the guarded downloader (council files host blocks automated download)
+17040,Snowy Monaro Regional,2021-22,missing,,,site returned 403 to the guarded downloader (council files host blocks automated download)
+17040,Snowy Monaro Regional,2022-23,missing,,,site returned 403 to the guarded downloader (council files host blocks automated download)
+17040,Snowy Monaro Regional,2023-24,missing,,,site returned 403 to the guarded downloader (council files host blocks automated download)
+17080,Snowy Valleys,2015-16,missing,,,partial-period FY2015-16 (amalgamation): no standalone statement link found in searches
+17080,Snowy Valleys,2016-17,missing,,,site returned 403 to the guarded downloader (council files host blocks automated download)
+17080,Snowy Valleys,2017-18,missing,,,site returned 403 to the guarded downloader (council files host blocks automated download)
+17080,Snowy Valleys,2018-19,missing,,,site returned 403 to the guarded downloader (council files host blocks automated download)
+17080,Snowy Valleys,2019-20,missing,,,site returned 403 to the guarded downloader (council files host blocks automated download)
+17080,Snowy Valleys,2020-21,missing,,,site returned 403 to the guarded downloader (council files host blocks automated download)
+17080,Snowy Valleys,2021-22,missing,,,site returned 403 to the guarded downloader (council files host blocks automated download)
+17080,Snowy Valleys,2022-23,missing,,,no link for FY2022-23 found in searches; council files host also returns 403
+17080,Snowy Valleys,2023-24,missing,,,site returned 403 to the guarded downloader (council files host blocks automated download)

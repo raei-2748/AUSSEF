@@ -1,0 +1,3 @@
+POST-HOC (not in prespec): V2 restricted to fires with >= 200 control pixels
+n_big=8 n_none=8 diff=-0.068 95% CI [-0.131, -0.003]
+dropped: Crestwood Dr, Port Macquarie, BROWN ST, BOGGABILLA, CESSNOCK RD, ABERMAIN, Whitehall HR

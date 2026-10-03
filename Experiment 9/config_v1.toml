@@ -1,0 +1,124 @@
+# Experiment 9 config: the ONLY place pillar indicators, weights, X variables and model settings live.
+#
+# To add a new IL / FP / SL indicator later (e.g. from the Experiment 8 mechanism review):
+#   1. Put its values in a CSV keyed by agrn + region_id (one row per master row).
+#   2. Add one [[indicator]] block below with source = "csv", path = that file, and its column(s).
+#   3. Bump [meta].version, write a short addendum to PRESPEC.md (labelled as a deviation / new version),
+#      re-run lock.py, then run the pipeline. No code changes needed.
+#
+# Each indicator becomes a 0-1 percentile rank across the master rows (1 = worst), after multiplying by `sign`
+# (+1 = higher raw value is worse, -1 = lower is worse). If `columns` has several entries, their row mean is ranked.
+# A pillar = mean of its indicators' ranks (over the ones present for that row).
+# Y = weighted mean of the pillars present for that row (weights re-normalised over present pillars),
+# the same rule the workbook uses.
+
+[meta]
+version = "1"
+seed = 20261002
+
+[sources]
+dl_filled = "../Experiment 6/followups/dl_fill/DL_FILLED.csv"
+council_items = "../Experiment 6/results/COUNCIL_ITEMS_v2.csv"
+affected = "../fire_event_dataset/data/enrich/affected_pop_event_council.parquet"
+# master workbook: path and reader come from ../Experiment 7/build_y2.py load()
+
+# ---------------------------------------------------------------- Y_comp pillar indicators (main Y)
+[[indicator]]
+pillar = "DL"
+name = "homes_destroyed_per_1000_dwellings_v2"
+source = "dl_filled"
+columns = ["homes_per_1000_v2_inferred"]
+sign = 1
+
+[[indicator]]
+pillar = "IL"
+name = "total_income_fall_excess"
+source = "master"
+columns = ["IL_total_income_change_excess_pct"]
+sign = -1
+
+[[indicator]]
+pillar = "IL"
+name = "biz_count_fall_excess"
+source = "master"
+columns = ["IL_biz_count_change_excess_pct"]
+sign = -1
+
+[[indicator]]
+pillar = "FP"
+name = "cash_cover_drawdown_excess_t_t1"
+source = "master"
+columns = ["FP_cash_cover_change_event_excess", "FP_cash_cover_change_plus1_excess"]
+sign = -1
+
+[[indicator]]
+pillar = "FP"
+name = "services_crowd_out_excess_t1"
+source = "master"
+columns = ["FP_service_share_change_plus1_excess"]
+sign = -1
+
+[[indicator]]
+pillar = "FP"
+name = "renewals_ratio_rise_excess_t1"
+source = "master"
+columns = ["FP_renewals_ratio_change_plus1_excess"]
+sign = 1
+
+[[indicator]]
+pillar = "SL"
+name = "income_support_rise_excess"
+source = "master"
+columns = ["SL_vulnerable_loss_excess"]
+sign = 1
+
+# Template for a future indicator (keep commented out until the data exist):
+# [[indicator]]
+# pillar = "SL"
+# name = "dv_incidents_excess_bocsar"
+# source = "csv"
+# path = "inputs/new_indicator.csv"      # relative to this folder; must have agrn, region_id columns
+# columns = ["dv_excess_rate"]
+# sign = 1
+
+# Template for a council x financial-year indicator (e.g. Experiment 10 FP from audited financial statements:
+# FP gross = operating + capital recovery spending; FP burden = gross minus disaster-specific grants):
+# [[indicator]]
+# pillar = "FP"
+# name = "fp_burden_per_capita_excess"
+# source = "council_fy"
+# path = "inputs/exp10_fp_council_fy.csv"   # columns: region_id, fy, value column(s)
+# fy_col = "fy"
+# fy_label = "start"        # "start": 2019 = Jul 2019-Jun 2020 (same as the master F); "end": 2020 = that FY
+# fy_offset = [0, 1]        # fire FY and the FY after, averaged
+# columns = ["fp_burden_per_capita_excess"]
+# sign = 1
+
+# ---------------------------------------------------------------- weights (order DL, IL, FP, SL)
+[weights]
+main = "equal"
+equal = [0.25, 0.25, 0.25, 0.25]
+class_note = [0.35, 0.25, 0.30, 0.10]   # Ray's class note
+deck = [0.30, 0.25, 0.25, 0.20]         # mentor policy deck
+# "entropy" weights are computed from the data (rows with all four pillars); see PRESPEC.md
+
+# ---------------------------------------------------------------- X sets
+[x]
+pre = ["H", "E2", "V", "F"]
+fire = ["log_share", "peak_ffdi", "severity_high_extreme", "log_homes_in_fire_per_1000", "log_homes_within_1km_per_1000"]
+
+# ---------------------------------------------------------------- models and validation
+[rf]
+n_estimators = 500
+max_features = 0.3333    # p/3 for regression (Bowen, 27 Sep)
+min_samples_leaf = 5
+
+[ridge]
+alphas = [0.001, 0.00316, 0.01, 0.0316, 0.1, 0.316, 1.0, 3.16, 10.0, 31.6, 100.0, 316.0, 1000.0]
+
+[validation]
+council_folds = 5
+n_boot = 2000
+perm_repeats = 30
+shuffle_main = 200
+shuffle_pillar = 100

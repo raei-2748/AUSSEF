@@ -1,0 +1,7 @@
+locked 2026-10-02 22:59:43 (v4, post-v3; before any model is fitted)
+11e76f290ac5698bfada59e13bb7603dda1b00ea227d5b8400f64fcebbe5d4dd  Experiment 14/PRESPEC.md
+14003f245c5838d20287e0cc3f121b75ca1098e04d07d9932b283591acdd437c  Experiment 14/config.toml
+5e809119d2546e49d278f55e1a5e9b57d958f418b21d9db182acc988210554f4  Experiment 14/inputs/v4_indicators.csv
+3ed7ccce3d7558ce6eaaf09f9ff007ed6a94f379fb0cc73a25cbe17820dc3ed4  Experiment 14/inputs/FAR_SETS.csv
+98ed0f2b325513b19f763ad0af75a597e80f31d2d166a9084fc84bc010987bdf  Experiment 9/results/ANALYSIS_TABLE.csv
+1e1e2c13e6b95d496706269dd5fe42f314275bacaabdc65ea6eafb6f267f8466  Experiment 14/results/ANALYSIS_TABLE.csv

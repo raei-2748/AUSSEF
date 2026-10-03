@@ -1,0 +1,55 @@
+region_id,council,fy,status,local_path,url,reason
+14550,Kyogle,2015-16,missing,,,not on council site: current site (migrated 2026) lists only annual reports/statements from 2022-23 onward; old wp-content links return 404
+14550,Kyogle,2016-17,missing,,,not on council site: current site (migrated 2026) lists only annual reports/statements from 2022-23 onward; old wp-content links return 404
+14550,Kyogle,2017-18,missing,,,not on council site: current site (migrated 2026) lists only annual reports/statements from 2022-23 onward; old wp-content links return 404
+14550,Kyogle,2018-19,missing,,,not on council site: current site (migrated 2026) lists only annual reports/statements from 2022-23 onward; old wp-content links return 404
+14550,Kyogle,2019-20,missing,,,not on council site: current site (migrated 2026) lists only annual reports/statements from 2022-23 onward; old wp-content links return 404
+14550,Kyogle,2020-21,missing,,,not on council site: current site (migrated 2026) lists only annual reports/statements from 2022-23 onward; old wp-content links return 404
+14550,Kyogle,2021-22,missing,,,not on council site: current site (migrated 2026) lists only annual reports/statements from 2022-23 onward; old wp-content links return 404
+14550,Kyogle,2022-23,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/14550/14550_2022-23_gpfs.pdf,https://www.kyogle.nsw.gov.au/sites/default/files/2026-08/Kyogle-Council-Annual_Financial_Statements-2023.pdf,
+14550,Kyogle,2023-24,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/14550/14550_2023-24_gpfs.pdf,https://www.kyogle.nsw.gov.au/sites/default/files/2026-08/Kyogle-Council-Financial-Statements-2023-24.pdf,
+14650,Lake Macquarie,2015-16,missing,,,site returned 403 Access Denied to the guarded downloader (bot protection); no workaround attempted
+14650,Lake Macquarie,2016-17,missing,,,site returned 403 Access Denied to the guarded downloader (bot protection); no workaround attempted
+14650,Lake Macquarie,2017-18,missing,,,site returned 403 Access Denied to the guarded downloader (bot protection); no workaround attempted
+14650,Lake Macquarie,2018-19,missing,,,site returned 403 Access Denied to the guarded downloader (bot protection); no workaround attempted
+14650,Lake Macquarie,2019-20,missing,,,site returned 403 Access Denied to the guarded downloader (bot protection); no workaround attempted
+14650,Lake Macquarie,2020-21,missing,,,site returned 403 Access Denied to the guarded downloader (bot protection); no workaround attempted
+14650,Lake Macquarie,2021-22,missing,,,site returned 403 Access Denied to the guarded downloader (bot protection); no workaround attempted
+14650,Lake Macquarie,2022-23,missing,,,site returned 403 Access Denied to the guarded downloader (bot protection); no workaround attempted
+14650,Lake Macquarie,2023-24,missing,,,site returned 403 Access Denied to the guarded downloader (bot protection); no workaround attempted
+14850,Lismore,2015-16,missing,,,council site (lismore.nsw.gov.au) returned 403; not on Your Say Lismore portal
+14850,Lismore,2016-17,missing,,,council site returned 403; not on Your Say Lismore portal
+14850,Lismore,2017-18,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/14850/14850_2017-18_gpfs.pdf,https://yoursay.lismore.nsw.gov.au/40719/widgets/221558/documents/90720/download,
+14850,Lismore,2018-19,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/14850/14850_2018-19_gpfs.pdf,https://yoursay.lismore.nsw.gov.au/51519/widgets/269952/documents/122801/download,
+14850,Lismore,2019-20,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/14850/14850_2019-20_gpfs.pdf,https://yoursay.lismore.nsw.gov.au/63792/widgets/319307/documents/188560/download,
+14850,Lismore,2020-21,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/14850/14850_2020-21_gpfs.pdf,https://yoursay.lismore.nsw.gov.au/73415/widgets/355767/documents/218287/download,
+14850,Lismore,2021-22,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/14850/14850_2021-22_gpfs.pdf,https://yoursay.lismore.nsw.gov.au/83201/widgets/394564/documents/250844/download,
+14850,Lismore,2022-23,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/14850/14850_2022-23_gpfs.pdf,https://yoursay.lismore.nsw.gov.au/91037/widgets/425577/documents/276614/download,
+14850,Lismore,2023-24,missing,,,council site returned 403; Your Say Lismore 2023-24 page has no document attached
+14870,Lithgow,2015-16,missing,,,site returned 403 Access Denied to the guarded downloader (bot protection); no workaround attempted
+14870,Lithgow,2016-17,missing,,,site returned 403 Access Denied to the guarded downloader (bot protection); no workaround attempted
+14870,Lithgow,2017-18,missing,,,site returned 403 Access Denied to the guarded downloader (bot protection); no workaround attempted
+14870,Lithgow,2018-19,missing,,,site returned 403 Access Denied to the guarded downloader (bot protection); no workaround attempted
+14870,Lithgow,2019-20,missing,,,site returned 403 Access Denied to the guarded downloader (bot protection); no workaround attempted
+14870,Lithgow,2020-21,missing,,,site returned 403 Access Denied to the guarded downloader (bot protection); no workaround attempted
+14870,Lithgow,2021-22,missing,,,site returned 403 Access Denied to the guarded downloader (bot protection); no workaround attempted
+14870,Lithgow,2022-23,missing,,,site returned 403 Access Denied to the guarded downloader (bot protection); no workaround attempted
+14870,Lithgow,2023-24,missing,,,site returned 403 Access Denied to the guarded downloader (bot protection); no workaround attempted
+14900,Liverpool,2015-16,missing,,,site returned 403 (Cloudflare challenge) to the guarded downloader; no workaround attempted
+14900,Liverpool,2016-17,missing,,,site returned 403 (Cloudflare challenge) to the guarded downloader; no workaround attempted
+14900,Liverpool,2017-18,missing,,,site returned 403 (Cloudflare challenge) to the guarded downloader; no workaround attempted
+14900,Liverpool,2018-19,missing,,,site returned 403 (Cloudflare challenge) to the guarded downloader; no workaround attempted
+14900,Liverpool,2019-20,missing,,,site returned 403 (Cloudflare challenge) to the guarded downloader; no workaround attempted
+14900,Liverpool,2020-21,missing,,,site returned 403 (Cloudflare challenge) to the guarded downloader; no workaround attempted
+14900,Liverpool,2021-22,missing,,,site returned 403 (Cloudflare challenge) to the guarded downloader; no workaround attempted
+14900,Liverpool,2022-23,missing,,,site returned 403 (Cloudflare challenge) to the guarded downloader; no workaround attempted
+14900,Liverpool,2023-24,missing,,,site returned 403 (Cloudflare challenge) to the guarded downloader; no workaround attempted
+14920,Liverpool Plains,2015-16,missing,,,site returned 403 Access Denied to the guarded downloader (bot protection); no workaround attempted
+14920,Liverpool Plains,2016-17,missing,,,site returned 403 Access Denied to the guarded downloader (bot protection); no workaround attempted
+14920,Liverpool Plains,2017-18,missing,,,site returned 403 Access Denied to the guarded downloader (bot protection); no workaround attempted
+14920,Liverpool Plains,2018-19,missing,,,site returned 403 Access Denied to the guarded downloader (bot protection); no workaround attempted
+14920,Liverpool Plains,2019-20,missing,,,site returned 403 Access Denied to the guarded downloader (bot protection); no workaround attempted
+14920,Liverpool Plains,2020-21,missing,,,site returned 403 Access Denied to the guarded downloader (bot protection); no workaround attempted
+14920,Liverpool Plains,2021-22,missing,,,site returned 403 Access Denied to the guarded downloader (bot protection); no workaround attempted
+14920,Liverpool Plains,2022-23,missing,,,site returned 403 Access Denied to the guarded downloader (bot protection); no workaround attempted
+14920,Liverpool Plains,2023-24,missing,,,site returned 403 Access Denied to the guarded downloader (bot protection); no workaround attempted

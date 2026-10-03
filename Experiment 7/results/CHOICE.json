@@ -1,0 +1,5 @@
+{
+  "chosen": "V1",
+  "rule": "highest rho(S, share) among V2 variants passing placebo; V1 if none beats it",
+  "v1_rho": -0.0020171927603942845
+}

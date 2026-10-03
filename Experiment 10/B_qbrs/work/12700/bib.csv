@@ -1,0 +1,3 @@
+source_id,title,author_or_publisher,year,source_type,url,doi,accessed_date,local_path,bytes,sha256,used_in,what_it_was_used_for,pages_or_table,quote_or_value,notes
+exp10B_12700_wb464174b43,Dungog Shire Council website (QBRS search),Dungog Shire Council,,government_page,https://www.dungog.nsw.gov.au/,,2026-10-02,,,,"searched, not used",searched for QBRS,,,WebSearch budget exhausted and WebFetch hit session limit 2026-10-02; page not viewed
+exp10B_12700_wb464174b43,Dungog Shire Council homepage (curl),Dungog Shire Council,,government_page,https://www.dungog.nsw.gov.au/,,2026-10-02,,,,"searched, not used",searched for QBRS,,,HTTP 403 on 2026-10-02; no workaround attempted

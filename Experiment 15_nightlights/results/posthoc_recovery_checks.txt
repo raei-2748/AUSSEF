@@ -1,0 +1,17 @@
+POST-HOC (not in prespec). Added after the independent audit, 2 Oct 2026.
+
+South Coast inside: D 2025-01 = -0.131, 2025-02 = +0.296 (jump +0.427)
+South Coast ring_0_1km: D 2025-01 = -0.177, 2025-02 = +0.280 (jump +0.457)
+South Coast ring_1_5km: D 2025-01 = -0.032, 2025-02 = +0.373 (jump +0.404)
+Council group: D 2025-01 = -0.023, 2025-02 = +0.370
+Q3 rule with all months: 2025-01
+Q3 rule with 2025-02 left out: None
+Months after E with 3-month mean >= -0.05: 18 of 60
+South Coast inside early baseline >= 1 nW: 19 px, gap -11.6% (ratio of sums, no interval)
+South Coast inside early baseline < 1 nW: 86 px, gap -6.8% (ratio of sums, no interval)
+South Coast inside later baseline >= 1 nW: 19 px, gap -14.8% (ratio of sums, no interval)
+South Coast inside later baseline < 1 nW: 86 px, gap +1.0% (ratio of sums, no interval)
+South Coast ring_0_1km early baseline >= 1 nW: 104 px, gap -15.4% (ratio of sums, no interval)
+South Coast ring_0_1km early baseline < 1 nW: 182 px, gap -3.2% (ratio of sums, no interval)
+South Coast ring_0_1km later baseline >= 1 nW: 104 px, gap -15.9% (ratio of sums, no interval)
+South Coast ring_0_1km later baseline < 1 nW: 182 px, gap -0.7% (ratio of sums, no interval)

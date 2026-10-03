@@ -1,0 +1,14 @@
+{
+ "IL1_traffic_rows": 98,
+ "IL2_income_rows": 112,
+ "IL3_business_rows": 167,
+ "FP2_fire_grant_rows": 61,
+ "FP3_capex_rows": 64,
+ "SL2_bocsar_lgas_matched": 128,
+ "SL2_dv_rows": 216,
+ "SL3_rebuild_rows": 27,
+ "x23_2016": "2016Census_G33_NSW_LGA.csv: O_OR_Total / Total_Total, 132 councils",
+ "x23_2021": "2021Census_G37_NSW_LGA.csv: O_OR_Total / Total_Total, 131 councils",
+ "X23_fallback_2021_rows": 6,
+ "X23_rows": 218
+}

@@ -1,0 +1,24 @@
+Y_comp done 17s
+Y_v1 done 34s
+DL done 52s
+IL done 68s
+FP done 85s
+SL done 101s
+Y_comp_w_class_note done 118s
+Y_comp_w_deck done 135s
+Y_comp_w_entropy done 152s
+Y_comp_drop_DL done 169s
+Y_comp_drop_IL done 186s
+Y_comp_drop_FP done 202s
+Y_comp_drop_SL done 220s
+Y_comp_complete done 236s
+Y_comp_cfgv1 done 253s
+IL_cfgv1 done 271s
+FP_cfgv1 done 287s
+SL_cfgv1 done 302s
+shuffle Y_comp PRE+FIRE p=0.005 768s
+shuffle Y_comp PRE p=0.602 1237s
+shuffle DL PRE+FIRE p=0.010 1471s
+shuffle IL PRE+FIRE p=0.267 1680s
+shuffle FP PRE+FIRE p=0.950 1885s
+shuffle SL PRE+FIRE p=0.010 2113s

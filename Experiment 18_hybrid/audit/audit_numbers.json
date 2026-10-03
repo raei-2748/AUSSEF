@@ -1,0 +1,157 @@
+{
+ "n_industries": 115,
+ "A_from_T5_vs_T6_max_abs_diff": 9.79019607843173e-07,
+ "A_colsum_max": 0.7622089599999996,
+ "national_typeI_accom_own_inverse": 1.8501832940972907,
+ "national_typeI_accom_ABS_Table7": 1.8501832400000005,
+ "national_L_vs_Table7_max_abs_diff": 1.574130507886462e-08,
+ "multipliers_delta0.3": {
+  "Bega Valley (South Coast, Black Summer)": {
+   "jobs": 12681.0,
+   "lq_accom_food": 1.5035782538524216,
+   "lambda_": 0.21185529865305064,
+   "typeI_accom": 1.0680595499294,
+   "typeII_accom": 1.0774953176814113,
+   "typeI_tourism_bundle": 1.0721148110038592,
+   "typeII_tourism_bundle": 1.0852176987258664,
+   "typeII_construction": 1.1706787613909233
+  },
+  "Blue Mountains": {
+   "jobs": 34626.0,
+   "lq_accom_food": 1.0250837909799164,
+   "lambda_": 0.28607035826510885,
+   "typeI_accom": 1.1151254175268517,
+   "typeII_accom": 1.1400323767699427,
+   "typeI_tourism_bundle": 1.1213574361350545,
+   "typeII_tourism_bundle": 1.1539040062631947,
+   "typeII_construction": 1.23869858207695
+  },
+  "Armidale Regional (2021 Census fallback)": {
+   "jobs": 12379.0,
+   "lq_accom_food": 1.1436288592286346,
+   "lambda_": 0.20490044862908027,
+   "typeI_accom": 1.0786923181566925,
+   "typeII_accom": 1.0878617865015319,
+   "typeI_tourism_bundle": 1.0738492678481872,
+   "typeII_tourism_bundle": 1.086231975288152,
+   "typeII_construction": 1.1510171941860021
+  }
+ },
+ "five_rows": [
+  {
+   "row": 114,
+   "council": "Bega Valley",
+   "season": 2019,
+   "tra_spend_m": 389.1734507064815,
+   "unconstrained_loss_m_audit": -51.499742399334366,
+   "unconstrained_il_share_audit": -0.006945730483694553,
+   "unconstrained_y_unemp_audit": 1.0901428562179656,
+   "unconstrained_loss_m_original": -51.4997,
+   "unconstrained_il_share_original": -0.00694573,
+   "unconstrained_y_unemp_original": 1.09014,
+   "constrained_loss_m_audit": -72.8735104417731,
+   "constrained_il_share_audit": -0.009828394072429358,
+   "constrained_y_unemp_audit": -0.18670350086860027,
+   "constrained_loss_m_original": -72.8735,
+   "constrained_il_share_original": -0.00982839,
+   "constrained_y_unemp_original": -0.186704
+  },
+  {
+   "row": 124,
+   "council": "Eurobodalla",
+   "season": 2019,
+   "tra_spend_m": 356.157001655147,
+   "unconstrained_loss_m_audit": 172.56887469308066,
+   "unconstrained_il_share_audit": 0.024334821652754454,
+   "unconstrained_y_unemp_audit": 10.014732919274536,
+   "unconstrained_loss_m_original": 172.569,
+   "unconstrained_il_share_original": 0.0243348,
+   "unconstrained_y_unemp_original": 10.0147,
+   "constrained_loss_m_audit": -51.00764531474594,
+   "constrained_il_share_audit": -0.00719284954409608,
+   "constrained_y_unemp_audit": 0.5615110958084292,
+   "constrained_loss_m_original": -51.0076,
+   "constrained_il_share_original": -0.00719285,
+   "constrained_y_unemp_original": 0.561511
+  },
+  {
+   "row": 116,
+   "council": "Blue Mountains",
+   "season": 2019,
+   "tra_spend_m": 522.4654939781526,
+   "unconstrained_loss_m_audit": 47.096316355241086,
+   "unconstrained_il_share_audit": 0.00227571928424584,
+   "unconstrained_y_unemp_audit": 0.9597179034561799,
+   "unconstrained_loss_m_original": 47.0963,
+   "unconstrained_il_share_original": 0.00227572,
+   "unconstrained_y_unemp_original": 0.959718,
+   "constrained_loss_m_audit": -1.690343719927845,
+   "constrained_il_share_audit": -8.167831580347288e-05,
+   "constrained_y_unemp_audit": 0.019544530373392818,
+   "constrained_loss_m_original": -1.69034,
+   "constrained_il_share_original": -8.16783e-05,
+   "constrained_y_unemp_original": 0.0195445
+  },
+  {
+   "row": 112,
+   "council": "Armidale Regional",
+   "season": 2019,
+   "tra_spend_m": 169.81622999955317,
+   "unconstrained_loss_m_audit": -0.7238226711535682,
+   "unconstrained_il_share_audit": -0.00010973294421488023,
+   "unconstrained_y_unemp_audit": 0.06369854294353385,
+   "unconstrained_loss_m_original": -0.723823,
+   "unconstrained_il_share_original": -0.000109733,
+   "unconstrained_y_unemp_original": 0.0636985,
+   "constrained_loss_m_audit": -1.789272480061735,
+   "constrained_il_share_audit": -0.0002712572361500104,
+   "constrained_y_unemp_audit": -0.00162587488567081,
+   "constrained_loss_m_original": -1.78927,
+   "constrained_il_share_original": -0.000271257,
+   "constrained_y_unemp_original": -0.00162587
+  },
+  {
+   "row": 5,
+   "council": "Cowra",
+   "season": 2022,
+   "tra_spend_m": 48.72153290597944,
+   "unconstrained_loss_m_audit": -0.07701869457502244,
+   "unconstrained_il_share_audit": -2.579032068860677e-05,
+   "unconstrained_y_unemp_audit": 0.01065568406463659,
+   "unconstrained_loss_m_original": -0.0770187,
+   "unconstrained_il_share_original": -2.57903e-05,
+   "unconstrained_y_unemp_original": 0.0106557,
+   "constrained_loss_m_audit": -0.15276425146752926,
+   "constrained_il_share_audit": -5.115432112738323e-05,
+   "constrained_y_unemp_audit": -0.0010477494344213495,
+   "constrained_loss_m_original": -0.152764,
+   "constrained_il_share_original": -5.11543e-05,
+   "constrained_y_unemp_original": -0.00104775
+  }
+ ],
+ "Y_v4_equals_mean_of_present_pillars_max_diff": 2.220446049250313e-16,
+ "Y_hybrid_audit_vs_original_max_diff": 5.551115123125783e-17,
+ "rf_loso_PRE+FIRE": {
+  "Y_v4": {
+   "n": 218,
+   "seasons": 9,
+   "rho": 0.4318528585040883,
+   "rho_trainmean_baseline_note": "mean baseline has rho undefined/constant within fold"
+  },
+  "Y_hybrid_audit": {
+   "n": 218,
+   "seasons": 9,
+   "rho": 0.1928942829710568,
+   "rho_trainmean_baseline_note": "mean baseline has rho undefined/constant within fold"
+  }
+ },
+ "spearman_ILmodel_vs_DL_audit": -0.8938786458818798,
+ "overlap_X_present_in_X": [
+  "log_share",
+  "log_homes_in_fire_per_1000",
+  "log_homes_within_1km_per_1000"
+ ],
+ "orig_vs_audit_A_max_diff": 0.0,
+ "orig_vs_audit_h_max_diff": 0.0,
+ "orig_vs_audit_w_max_diff": 0.0
+}

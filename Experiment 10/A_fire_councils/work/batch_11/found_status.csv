@@ -1,0 +1,55 @@
+region_id,council,fy,status,local_path,url,reason
+17650,Uralla,2015-16,missing,,,council website (www.uralla.nsw.gov.au) blocks automated download: HTTP 403 on every PDF link (links found on Council reporting and performance page); not worked around
+17650,Uralla,2016-17,missing,,,council website (www.uralla.nsw.gov.au) blocks automated download: HTTP 403 on every PDF link (links found on Council reporting and performance page); not worked around
+17650,Uralla,2017-18,missing,,,council website (www.uralla.nsw.gov.au) blocks automated download: HTTP 403 on every PDF link (links found on Council reporting and performance page); not worked around
+17650,Uralla,2018-19,missing,,,council website (www.uralla.nsw.gov.au) blocks automated download: HTTP 403 on every PDF link (links found on Council reporting and performance page); not worked around
+17650,Uralla,2019-20,missing,,,council website (www.uralla.nsw.gov.au) blocks automated download: HTTP 403 on every PDF link (links found on Council reporting and performance page); not worked around
+17650,Uralla,2020-21,missing,,,council website (www.uralla.nsw.gov.au) blocks automated download: HTTP 403 on every PDF link (links found on Council reporting and performance page); not worked around
+17650,Uralla,2021-22,missing,,,council website (www.uralla.nsw.gov.au) blocks automated download: HTTP 403 on every PDF link (links found on Council reporting and performance page); not worked around
+17650,Uralla,2022-23,missing,,,council website (www.uralla.nsw.gov.au) blocks automated download: HTTP 403 on every PDF link (links found on Council reporting and performance page); not worked around
+17650,Uralla,2023-24,missing,,,council website (www.uralla.nsw.gov.au) blocks automated download: HTTP 403 on every PDF link (links found on Council reporting and performance page); not worked around
+17750,Wagga Wagga,2015-16,missing,,,council website (wagga.nsw.gov.au) blocks automated download: HTTP 403 on PDF links; not worked around
+17750,Wagga Wagga,2016-17,missing,,,council website (wagga.nsw.gov.au) blocks automated download: HTTP 403 on PDF links; not worked around
+17750,Wagga Wagga,2017-18,missing,,,council website (wagga.nsw.gov.au) blocks automated download: HTTP 403 on PDF links; not worked around
+17750,Wagga Wagga,2018-19,missing,,,council website (wagga.nsw.gov.au) blocks automated download: HTTP 403 on PDF links; not worked around
+17750,Wagga Wagga,2019-20,missing,,,council website (wagga.nsw.gov.au) blocks automated download: HTTP 403 on PDF links; not worked around
+17750,Wagga Wagga,2020-21,missing,,,council website (wagga.nsw.gov.au) blocks automated download: HTTP 403 on PDF links; not worked around
+17750,Wagga Wagga,2021-22,missing,,,council website (wagga.nsw.gov.au) blocks automated download: HTTP 403 on PDF links; not worked around
+17750,Wagga Wagga,2022-23,missing,,,council website (wagga.nsw.gov.au) blocks automated download: HTTP 403 on PDF links; not worked around
+17750,Wagga Wagga,2023-24,missing,,,council website (wagga.nsw.gov.au) blocks automated download: HTTP 403 on PDF links; not worked around
+17850,Walcha,2015-16,missing,,,listed on council Financial Statements page but linked page returns 404 (not published online)
+17850,Walcha,2016-17,missing,,,listed on council Financial Statements page but linked page returns 404 (not published online)
+17850,Walcha,2017-18,missing,,,listed on council Financial Statements page but linked page returns 404 (not published online)
+17850,Walcha,2018-19,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/17850/17850_2018-19_gpfs.pdf,https://walcha.nsw.gov.au/wp-content/uploads/2022/12/WC-GPFS-20182019.pdf,
+17850,Walcha,2019-20,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/17850/17850_2019-20_gpfs.pdf,https://walcha.nsw.gov.au/wp-content/uploads/2022/12/Annual-Financial-Statements-GPFS-2019-2020.pdf,
+17850,Walcha,2020-21,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/17850/17850_2020-21_gpfs.pdf,https://walcha.nsw.gov.au/wp-content/uploads/2022/12/2020-2021-Annual-Report-Appendix-C-GPFS.pdf,
+17850,Walcha,2021-22,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/17850/17850_2021-22_gpfs.pdf,https://walcha.nsw.gov.au/wp-content/uploads/2023/05/Annual_Financial_Statements-GPFS-2022.pdf,
+17850,Walcha,2022-23,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/17850/17850_2022-23_gpfs.pdf,https://walcha.nsw.gov.au/wp-content/uploads/2023/12/WC-20222023-AR-Appendix-B-GPFS-2023.pdf,
+17850,Walcha,2023-24,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/17850/17850_2023-24_gpfs.pdf,https://walcha.nsw.gov.au/wp-content/uploads/2024/10/Annual_Financial_Statements-GPFS-2024.pdf,
+17900,Walgett,2015-16,missing,,,"not on current council website (annual reports / financial statements list starts 2018-19 / 2019-20); old links now return an HTML page, not a PDF"
+17900,Walgett,2016-17,missing,,,"not on current council website (annual reports / financial statements list starts 2018-19 / 2019-20); old links now return an HTML page, not a PDF"
+17900,Walgett,2017-18,missing,,,"not on current council website (annual reports / financial statements list starts 2018-19 / 2019-20); old links now return an HTML page, not a PDF"
+17900,Walgett,2018-19,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/17900/17900_2018-19_annual_report.pdf,https://www.walgett.nsw.gov.au/assets/files/a0b33c2fa17f205e-1775604055055_5996ee48.pdf,"statements are inside Annual Report 2018-19 (doc_type annual_report), GPFS at PDF pages ~48-125"
+17900,Walgett,2019-20,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/17900/17900_2019-20_gpfs.pdf,https://www.walgett.nsw.gov.au/assets/files/c66333cc8e02e36f-1776850967875_92d8b159.pdf,
+17900,Walgett,2020-21,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/17900/17900_2020-21_gpfs.pdf,https://www.walgett.nsw.gov.au/assets/files/3bccd477e4ff932c-1776850895486_f705586e.pdf,
+17900,Walgett,2021-22,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/17900/17900_2021-22_gpfs.pdf,https://www.walgett.nsw.gov.au/assets/files/6b9035bb0176e503-1776850842707_cadac591.pdf,
+17900,Walgett,2022-23,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/17900/17900_2022-23_gpfs.pdf,https://www.walgett.nsw.gov.au/assets/files/2af8150811059fd5-1776850668149_213454a8.pdf,
+17900,Walgett,2023-24,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/17900/17900_2023-24_gpfs.pdf,https://www.walgett.nsw.gov.au/assets/files/9b64bedcbe800e7c-1776850628648_a754df79.pdf,
+17950,Warren,2015-16,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/17950/17950_2015-16_gpfs.pdf,https://www.warren.nsw.gov.au/__media_downloads/19%20General%20Purpose%20Financial%20Statements%202015-2016.pdf?downloadable=1,
+17950,Warren,2016-17,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/17950/17950_2016-17_gpfs.pdf,https://www.warren.nsw.gov.au/__media_downloads/22%20General%20Purpose%20Financial%20Statements%202016-2017.pdf?downloadable=1,
+17950,Warren,2017-18,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/17950/17950_2017-18_gpfs.pdf,https://www.warren.nsw.gov.au/__media_downloads/General%20Purpose%20Financial%20Statements%202017-2018.pdf?downloadable=1,
+17950,Warren,2018-19,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/17950/17950_2018-19_gpfs.pdf,https://www.warren.nsw.gov.au/__media_downloads/Annual_Financial_Statements-GPFS-2019%20-%20Final.pdf?downloadable=1,
+17950,Warren,2019-20,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/17950/17950_2019-20_gpfs.pdf,https://www.warren.nsw.gov.au/__media_downloads/Financial%20Reports/GPFS-2019-20.pdf?downloadable=1,
+17950,Warren,2020-21,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/17950/17950_2020-21_gpfs.pdf,https://www.warren.nsw.gov.au/__media_downloads/Financial%20Reports/GPFS%20-%202020-21.pdf?downloadable=1,
+17950,Warren,2021-22,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/17950/17950_2021-22_gpfs_2.pdf,https://www.warren.nsw.gov.au/__media_downloads/Financial%20Reports/GPFS-2022.pdf?downloadable=1,
+17950,Warren,2022-23,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/17950/17950_2022-23_gpfs.pdf,https://www.warren.nsw.gov.au/__media_downloads/Financial%20Reports/Warren%20Shire%20Council%20-%20Financial%20Statements-GPFS-2023.pdf?downloadable=1,
+17950,Warren,2023-24,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/17950/17950_2023-24_gpfs.pdf,https://www.warren.nsw.gov.au/__media_downloads/Financial%20Reports/GPFS-2024.pdf?downloadable=1,
+18020,Warrumbungle Shire,2015-16,missing,,,council website (warrumbungle.nsw.gov.au) blocks automated download: HTTP 403 on PDF links; not worked around
+18020,Warrumbungle Shire,2016-17,missing,,,council website (warrumbungle.nsw.gov.au) blocks automated download: HTTP 403 on PDF links; not worked around
+18020,Warrumbungle Shire,2017-18,missing,,,council website (warrumbungle.nsw.gov.au) blocks automated download: HTTP 403 on PDF links; not worked around
+18020,Warrumbungle Shire,2018-19,missing,,,council website (warrumbungle.nsw.gov.au) blocks automated download: HTTP 403 on PDF links; not worked around
+18020,Warrumbungle Shire,2019-20,missing,,,council website (warrumbungle.nsw.gov.au) blocks automated download: HTTP 403 on PDF links; not worked around
+18020,Warrumbungle Shire,2020-21,missing,,,council website (warrumbungle.nsw.gov.au) blocks automated download: HTTP 403 on PDF links; not worked around
+18020,Warrumbungle Shire,2021-22,missing,,,council website (warrumbungle.nsw.gov.au) blocks automated download: HTTP 403 on PDF links; not worked around
+18020,Warrumbungle Shire,2022-23,missing,,,council website (warrumbungle.nsw.gov.au) blocks automated download: HTTP 403 on PDF links; not worked around
+18020,Warrumbungle Shire,2023-24,missing,,,council website (warrumbungle.nsw.gov.au) blocks automated download: HTTP 403 on PDF links; not worked around

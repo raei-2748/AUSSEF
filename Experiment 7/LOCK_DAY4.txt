@@ -1,0 +1,2 @@
+PRESPEC_DAY4.md sha256 506d9b9a1a0d5fa83c07b30d04eae40c4c68d22e26c51eb369612da079775553
+locked 2026-10-01T00:26:20Z before any Day 4 number

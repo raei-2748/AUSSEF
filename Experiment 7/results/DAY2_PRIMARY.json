@@ -1,0 +1,22 @@
+{
+  "target": "homes_per_1000_v2_inferred",
+  "rows": 135,
+  "councils": 68,
+  "seasons": 9,
+  "positives": 54,
+  "cv_rho_M0": 0.5631056392767022,
+  "cv_rho_M1": 0.5692312027103296,
+  "cv_rho_M2": 0.5616183172199761,
+  "cv_rho_M3": 0.5150954341456055,
+  "cv_deviance_M0": 16465.34014697356,
+  "cv_deviance_M1": 9955.349864378513,
+  "cv_deviance_M2": 10593.624603485494,
+  "cv_deviance_M3": 10842.388380535704,
+  "M1_minus_M0": 0.006125563433627357,
+  "M1_minus_M0_ci_low": -0.093074378285643,
+  "M1_minus_M0_ci_high": 0.09894854646003724,
+  "M2_minus_M1": -0.007612885490353438,
+  "M2_minus_M1_ci_low": -0.0473363510389851,
+  "M2_minus_M1_ci_high": 0.030345464970767975,
+  "verdict": "Not confirmed"
+}

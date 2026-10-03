@@ -1,0 +1,12 @@
+-- Goulburn Mulwaree 2017-18
+FAILED: FAILED curl_rc=0 head=b'<HTML'  http 403
+-- Goulburn Mulwaree 2018-19
+FAILED: FAILED curl_rc=0 head=b'<HTML'  http 403
+-- Goulburn Mulwaree 2019-20
+FAILED: FAILED curl_rc=0 head=b'<HTML'  http 403
+-- Goulburn Mulwaree 2021-22
+FAILED: FAILED curl_rc=0 head=b'<HTML'  http 403
+-- Goulburn Mulwaree 2022-23
+FAILED: FAILED curl_rc=0 head=b'<HTML'  http 403
+-- Goulburn Mulwaree 2023-24
+FAILED: FAILED curl_rc=0 head=b'<HTML'  http 403

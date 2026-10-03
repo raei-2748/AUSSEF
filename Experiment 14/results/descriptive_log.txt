@@ -1,0 +1,48 @@
+                                       item version   n  rho_homes_in_fire  rho_log_share
+ ind_DL1_homes_destroyed_per_1000_dwellings      v4 135               0.78           0.67
+     ind_IL2_income_affected_sa2_excess_far      v4 112              -0.12          -0.08
+   ind_IL3_business_affected_sa2_excess_far      v4 167               0.07          -0.12
+ind_FP1_grants_per_resident_rise_excess_far      v4 199               0.25           0.10
+   ind_FP2_fire_grant_share_jump_excess_far      v4  51               0.52           0.43
+        ind_FP3_capex_share_jump_excess_far      v4  52               0.22           0.21
+     ind_FP4_cash_cover_drawdown_excess_far      v4 199               0.03           0.02
+         ind_SL1_rent_rise_year2_excess_far      v4 183               0.26           0.35
+  ind_SL2_domestic_violence_rise_excess_far      v4 216               0.03          -0.04
+         ind_SL3_rebuild_gap_trend_adjusted      v4  29              -0.10          -0.12
+          ind_SL4_deaths_per_100k_residents      v4 140               0.48           0.41
+   v3_homes_destroyed_per_1000_dwellings_v2      v3 135               0.78           0.67
+         v3_IL1_tourism_traffic_fall_excess      v3  98               0.25           0.14
+          v3_IL2_income_affected_sa2_excess      v3 112              -0.09          -0.07
+        v3_IL3_business_affected_sa2_excess      v3 167               0.10          -0.08
+       v3_FP1_grants_per_capita_rise_excess      v3 199               0.15           0.02
+              v3_FP2_fire_grant_jump_excess      v3  61               0.41           0.37
+                   v3_FP3_capex_jump_excess      v3  64              -0.11          -0.13
+     v3_FP4_cash_cover_drawdown_excess_t_t1      v3 199               0.07           0.10
+                    v3_SL1_rent_rise_excess      v3 196              -0.09          -0.04
+       v3_SL2_domestic_violence_rise_excess      v3 216               0.02          -0.04
+                         v3_SL3_rebuild_gap      v3  27              -0.11          -0.09
+                                         DL      v4 135               0.78           0.67
+                                         IL      v4 177              -0.06          -0.20
+                                         FP      v4 199               0.24           0.12
+                                         SL      v4 218               0.20           0.18
+                                       Y_v4      v4 218               0.40           0.23
+                                   Y_v4_mag      v4 218               0.26           0.12
+                                    Y_v4_H0      v4 217               0.41           0.26
+                                   Y_v4_H12      v4 218               0.18           0.04
+                                    Y_v4_H3      v4 196               0.22           0.22
+                                       Y_v3      v3 218               0.34           0.18
+                                    Y_v1cfg      v1 218               0.31           0.20
+   a                    b   rho   n
+Y_v4                 Y_v3 0.781 218
+Y_v4              Y_v1cfg 0.451 218
+Y_v3              Y_v1cfg 0.352 218
+Y_v4             Y_v4_mag 0.928 218
+  FP                FP_v3 0.680 199
+  SL                SL_v3 0.748 218
+  IL                IL_v3 0.912 177
+Y_v4             Y_v4_olg 0.888 218
+Y_v4 Y_v4_resident_deaths 0.999 218
+payments: panel rows with any AGDRP/DRA record: 1 | NSW LGA names unmatched: ['No usual address (NSW)']
+agrn region_id region_name  season  population_pre  eligible_allowance  eligible_payment  granted_allowance  granted_payment suppressed_allowance suppressed_payment  AGDRP_eligible_per_1000
+ 880     14550      Kyogle    2019          8870.0                 NaN              38.0                NaN          44400.0                  NaN              False                     4.28
+injuries recorded rows 10 total 48.0

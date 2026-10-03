@@ -1,0 +1,12 @@
+rent duplicated (region_id, quarter): 0
+  indicator  min_post_quarters  n_mine  n_built  n_both  only_mine  only_built  max_abs_diff  n_differ
+0  SL1_main                  1     183      183     183          0           0  2.692291e-15         0
+1  SL1_main                  2     178      183     178          0           5  3.570210e-03        89
+2    SL1_h3                  1     166      166     166          0           0  1.849215e-15         0
+3    SL1_h3                  2     163      166     163          0           3  1.534419e-02       104
+differing SL1_main rows:
+ Empty DataFrame
+Columns: [agrn, region_id, region_name, F, first_fire_start, SL1_main_mine, SL1_main_built, SL1_main_own, SL1_main_nfar, SL1_h3_mine, SL1_h3_built, SL1_h3_own, SL1_h3_nfar]
+Index: []
+SL1_main n by F: {2014: 0, 2015: 0, 2016: 0, 2017: 21, 2018: 27, 2019: 57, 2022: 25, 2023: 38, 2024: 15}
+min FAR with value (rows with value): 38

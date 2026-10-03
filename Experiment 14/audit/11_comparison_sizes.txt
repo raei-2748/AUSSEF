@@ -1,0 +1,26 @@
+FP1_main: min / median FAR councils with a value (rows with a value): 42 60
+FP1_main FAR-with-value by F: {2014: 99, 2015: 87, 2016: 69, 2017: 49, 2018: 65, 2019: 42, 2022: 77, 2023: 60, 2024: 0}
+SL1_main: min FAR councils with a value: 38
+   indicator  n_main  n_olg
+0        IL2     112     63
+1        IL3     167     84
+2   FP1_main     199    169
+3     FP1_h0     214    184
+4    FP1_h12     199    169
+5     FP1_h3     134    104
+6   FP4_main     199    169
+7     FP4_h0     199    169
+8    FP4_h12     161    131
+9   FP2_main      51     27
+10    FP2_h0      61     36
+11   FP2_h12      51     27
+12    FP2_h3      28     15
+13  FP3_main      52     27
+14    FP3_h0      64     38
+15   FP3_h12      52     27
+16    FP3_h3      29     15
+17  SL1_main     183    153
+18    SL1_h3     166    136
+19       SL2     216    186
+20       SL3      27     12
+OLG classes: {'Large Rural': 42, 'Regional Town/City': 37, 'Metropolitan': 25, 'Rural': 15, 'Metropolitan Fringe': 9}

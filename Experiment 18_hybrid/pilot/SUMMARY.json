@@ -1,0 +1,107 @@
+{
+ "n_rows": 57,
+ "n_rows_with_model": 36,
+ "missing_reasons": {
+  "no_tra_spend": 17,
+  "no_homes_v2": 5,
+  "no_census": 0
+ },
+ "totals": {
+  "unconstrained": {
+   "setting": {
+    "d": 6,
+    "r": "1km",
+    "b": 0.66,
+    "delta": 0.3,
+    "typ": 2
+   },
+   "rows_with_model": 36,
+   "output_loss_net_Am": 282.6129884795922,
+   "job_years_net": 3608.1369128524475,
+   "jobs_year1": 3965.712166552338,
+   "labour_income_loss_Am": 162.1401583588609,
+   "direct_tourism_Am": 425.9484059586967,
+   "direct_bi_Am": 160.21362767745177,
+   "offset_in_24m_Am": 312.4976976,
+   "output_loss_gross_Am": 649.46266267405,
+   "job_years_gross": 4144.499793402284
+  },
+  "constrained": {
+   "setting": {
+    "d": 1,
+    "r": "inside",
+    "b": 0.66,
+    "delta": 0.3,
+    "typ": 2
+   },
+   "rows_with_model": 36,
+   "output_loss_net_Am": -322.2881490983994,
+   "job_years_net": -322.59824931032915,
+   "jobs_year1": 34.97700438956127,
+   "labour_income_loss_Am": -28.036385582107318,
+   "direct_tourism_Am": 13.41969244215056,
+   "direct_bi_Am": 26.702271279575292,
+   "offset_in_24m_Am": 312.4976976,
+   "output_loss_gross_Am": 44.56152509605842,
+   "job_years_gross": 213.76463123950657
+  },
+  "P_calibrated": {
+   "setting": {
+    "d": 1,
+    "r": "1km",
+    "b": 0.66,
+    "delta": 0.3,
+    "typ": 2
+   },
+   "rows_with_model": 36,
+   "output_loss_net_Am": -258.60589708211614,
+   "job_years_net": 154.38708501721138,
+   "jobs_year1": 511.9623387171019,
+   "labour_income_loss_Am": -7.016165906611456,
+   "direct_tourism_Am": 70.9914009931161,
+   "direct_bi_Am": 26.702271279575292,
+   "offset_in_24m_Am": 312.4976976,
+   "output_loss_gross_Am": 108.24377711234165,
+   "job_years_gross": 690.7499655670472
+  }
+ },
+ "out_of_sample_P_calibrated_on_B_checks": {
+  "M1": "inside",
+  "M1b": "overstates",
+  "M2": "inside",
+  "M2b": "understates",
+  "M3": "overstates"
+ },
+ "il_model_nontrivial": true,
+ "il_model_tied_rows": 0,
+ "descriptives": {
+  "spearman_ILmodel_DL": [
+   -0.9850041951070378,
+   36
+  ],
+  "spearman_ILmodel_ILmeasured": [
+   -0.1610869885533242,
+   35
+  ],
+  "spearman_ILmodel_share": [
+   -0.7225225225225227,
+   36
+  ],
+  "spearman_ILmodel_vs_gross": [
+   -0.7794079794079793,
+   36
+  ],
+  "jobs_year1_per_home_destroyed_constrained": 0.015260473119354832,
+  "jobs_year1_per_home_destroyed_unconstrained": 1.7302409103631493,
+  "exp12_income_support_per_home_upper": 4.48
+ },
+ "gate": {
+  "primary_inside": 3,
+  "params_in_bounds": true,
+  "nontrivial": true,
+  "proceed": true
+ },
+ "n_settings_searched": 1620,
+ "n_settings_with_2plus_primary_inside": 475,
+ "n_settings_with_3_primary_inside": 177
+}

@@ -1,0 +1,2 @@
+PRESPEC_DAY7.md sha256 23728d9ffb202dca1cf22723e6d14a87f12c066589b29919a3a7f9faf7cc5f00
+locked 2026-10-01T04:36:50Z before downloads

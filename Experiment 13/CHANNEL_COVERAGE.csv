@@ -1,0 +1,56 @@
+rank,name,pillar,n_sources,time_scale,status_now,how_to_test,exp13_status
+1,Underinsurance turns loss into household debt and stalled rebuilds,Moderator,11,1-2 years,entered as X23 proxy (Exp 9 v3),,
+2,Peak-season tourism shutdown in fire regions,IL,10,months,"tested - not detected (traffic withdrawn after audit, Exp 11/12)",,"Exp 13: accommodation & food businesses (SA2) BS +3.6% [-1.2,+8.6], P +8.6% [-6.4,+26.0] - not detected"
+3,Fire exposure -> long-lasting mental ill-health,SL,9,3+ years,not tested,"download: AIHW Medicare mental-health services by SA3, annual (coarse)",gap: only SA3 annual (AIHW); far coarser than fire footprints - not tested (coarse_gaps/GAPS.md)
+4,"Recovery grants slow, opaque and politically allocated",FP,8,1-2 years,"tested - DETECTED (council grants, Exp 11)",,
+5,Housing stock loss -> rents up and overcrowding,SL,8,1-2 years,"tested - suggestive (rents in and next to burned councils, Exp 12; COVID confound; pre-COVID test spun off)",,
+6,Slow rebuilding -> long-term displacement,SL,8,3+ years,tested - no rebuilding surge in hardest-hit councils (Exp 11),,
+7,Domestic and family violence rises,SL,8,1-2 years,"tested - not detected (council monthly, Exp 9/11/12)","download: BOCSAR suburb-level monthly (SuburbData.zip, 12.5 MB) - DV in burned suburbs; also AVO breaches (on hand)","Exp 13: suburb DV assault not detected (P -2.3% [-11.2,+7.5]; BS -0.5% [-3.2,+2.4] per 10pp homes inside fire); AVO breaches pre-COVID +13.4% [+2.0,+26.1] secondary only"
+8,Public payments and charity cushion the loss,FP,8,months,tested - detected,download: Location-based Disaster Assistance Payments by LGA (small),
+9,Smoke health burden and health-system cost,SL,7,days-weeks,not tested,on-hand? no: NSW HealthStats ED by Local Health District monthly (small download) or AQ station PM2.5 (download),gap: NSW HealthStats by health district only - not tested (coarse_gaps/GAPS.md)
+10,"Small business closure (cash-flow failure, anchor facility lost)",IL,6,1-2 years,tested - not detected,on hand: CABEE SA2 by industry (done); could add exits/entries by industry,"Exp 13: SA2 counts by industry, same-SA4 comparison: not detected (all industries BS -0.4% [-2.1,+1.3]); entries/exits not published below state"
+11,Rebuilding and health sectors gain (sectoral winners),IL,6,1-2 years,tested - not detected,,"Exp 13: construction BS +1.3% [-1.3,+4.0] per 10pp - not detected"
+12,Premiums and insurance taxes push people out of cover,Moderator,6,3+ years,not tested,,
+13,Who benefits from aid (targeting and regressivity),FP,6,1-2 years,partly tested,,
+14,"Power, telecom and road outages stop trade",IL,5,days-weeks,not tested,not feasible (outage data in PDFs),
+15,Who pays / opportunity cost of recovery spending,FP,5,3+ years,not tested,,
+16,Council budget gap (lost revenue plus extra spending),FP,5,3+ years,tested - capital spending not significant (Exp 11),,
+17,Tourism and supply-chain spillover to unburned places,IL,5,months,not tested,,
+18,"Financial hardship, debt stress and poverty",SL,5,1-2 years,tested - welfare spillover was a pre-trend (Exp 12),,
+19,Financial loss itself causes distress (incl. people outside burnt areas),SL,5,1-2 years,not tested,,
+20,Grant eligibility gaps exclude indirectly hit businesses and households,Moderator,5,months,not tested,,
+21,"Farm capital destroyed (livestock, fencing, pasture, orchards, equipment)",DL,4,1-2 years,partly tested,,
+22,"Local employment and earnings fall, concentrated in land- and visitor-based sectors",IL,4,1-2 years,tested - detected,download: newer ABS Personal Income (to 2022-23) to extend income to year 3-4; SALM SA2 unemployment on hand (done to 5 yrs),"Exp 13: postcode (ATO) & SA2 (PIA to 2022-23): BS total income -1.2% [-3.1,+0.8] postcode, -1.6% [-2.6,-0.7] SA2 (secondary); year 3 -2.7% [-5.0,-0.3]; pre-COVID +0.8% [-2.7,+4.4]; suggestive, not separable from COVID"
+23,Delayed learning and child wellbeing harm,SL,4,3+ years,not tested,restricted: school NAPLAN (ACARA data request) - not feasible in time,
+24,Pre-existing disadvantage amplifies loss,Moderator,4,3+ years,partly tested,,
+25,Volunteer firefighting and recovery work costs lost income,IL,4,months,not tested,,
+26,"Homes and buildings destroyed (direct loss base, partly insured)",DL,3,days-weeks,tested - detected,,
+27,Turnover loss in undamaged businesses -> fewer hours for casual staff,IL,3,months,partly tested,"download: ABS Labour Force by SA4, monthly (hours / underemployment only at state level - check)","gap: hours/underemployment only at state level (ABS LF Detailed); SALM SA2 unemployment not detected (BS -0.09 pts [-0.29,+0.12], placebo fails slightly)"
+28,Household income falls in severely burned communities,SL,3,3+ years,partly tested,same as 22,"Exp 13: same as 22; income per person BS -0.8% [-2.5,+0.8]; severity dose -2.9% [-8.1,+2.6]"
+29,Responder trauma,SL,3,1-2 years,not tested,,
+30,"Multi-year lag in farm income (replanting, herd rebuild, delayed claims)",IL,2,3+ years,partly tested,,"Exp 13: agriculture businesses BS +1.7% [-0.3,+3.7] (placebo fails); pre-COVID postcode business income -6.5% [-11.9,-0.8] secondary only"
+31,Forestry supply shock -> mill jobs lost,IL,2,3+ years,not tested,on hand partly: CABEE forestry/wood-product SA2 counts,
+32,Smoke -> missed work and lower productivity far from fires,IL,2,days-weeks,not tested,not feasible at council level,
+33,Evacuation keeps workers away from jobs,IL,2,days-weeks,not tested,,
+34,Moving away after the fire costs income,SL,2,1-2 years,partly tested,"on hand: SA2 population (done, Exp 7 Day 10); Census 2021 5-year migration via TableBuilder (account needed)",
+35,Lower life satisfaction (wellbeing cost),SL,2,1-2 years,not tested,,
+36,Unpaid recovery work falls on women,SL,2,1-2 years,not tested,Census only (2016 vs 2021),
+37,School closures and displacement disrupt schooling,SL,2,months,not tested,,
+38,Social ties protect recovery,Moderator,2,3+ years,not tested,,
+39,Hidden fiscal cost through ordinary transfers and flow-on costs,FP,2,3+ years,tested - not detected,,
+40,Property values and the rate base,SL,2,3+ years,partly tested,download: NSW Valuer General property sales (weekly bulk files) - house prices in burned suburbs,not done: Valuer General files not downloaded (decision 3 Oct 2026; measurement frozen)
+41,Housing loss drives workers out -> local labour shortage,IL,2,1-2 years,partly tested,,"Exp 13: wage earners BS -0.7% [-2.3,+0.9] postcode - not detected"
+42,Smoke taint on grapes and wine,IL,1,months,not tested,,
+43,Cost shifting between governments and onto private owners,FP,1,3+ years,partly tested,,
+44,Tourism dependence and peak-season timing set exposure,X,1,months,partly tested,,
+45,Compounding disasters slow recovery,X,1,1-2 years,partly tested,,
+46,Deaths and injuries,DL,0,,not tested,,
+47,Public infrastructure and council assets damaged,DL,0,,not tested,,
+48,Destroyed homes owned by non-residents (holiday homes),X,0,,not tested,,
+49,Insurance payouts as a local money inflow,Moderator,0,,not tested,,
+50,Concurrent drought amplifies and confounds farm loss,X,0,,not tested,,
+51,Government-funded clean-up and debris removal,FP,0,,not tested,,
+52,"Park, forest and road closures extend tourism loss",IL,0,,not tested,,
+53,Aboriginal cultural and Country loss,SL,0,,not tested,,
+54,Bank hardship deferrals hide financial stress,Moderator,0,,not tested,,
+55,Capital recovery spending and disaster grants / DRFA reimbursement,FP,0,,"tested - DETECTED (fire-related grants, Exp 10/11)",,

@@ -1,0 +1,55 @@
+region_id,council,fy,status,local_path,url,reason
+15900,Newcastle,2015-16,missing,,,not found on council site; only 2018-19 onward and a dead 2016-17 link (404) are listed; 2017-18 annual report PDF held no statements (deleted)
+15900,Newcastle,2016-17,missing,,,not found on council site; only 2018-19 onward and a dead 2016-17 link (404) are listed; 2017-18 annual report PDF held no statements (deleted)
+15900,Newcastle,2017-18,missing,,,not found on council site; only 2018-19 onward and a dead 2016-17 link (404) are listed; 2017-18 annual report PDF held no statements (deleted)
+15900,Newcastle,2018-19,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/15900/15900_2018-19_gpfs.pdf,https://ncc.nsw.gov.au/getmedia/37c02ebe-fef8-4aa5-910e-8f5816dacb7b/City-of-Newcastle-Annual-Financial-Statements-2018-19.pdf,
+15900,Newcastle,2019-20,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/15900/15900_2019-20_gpfs.pdf,https://ncc.nsw.gov.au/getmedia/ddb5f981-ba8a-441c-965c-c95a07f50f44/City-of-Newcastle-Annual-Financial-Statements-2019-20.pdf,
+15900,Newcastle,2020-21,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/15900/15900_2020-21_gpfs.pdf,https://ncc.nsw.gov.au/getmedia/24c293d7-0677-497d-a24a-dd72221bbf39/City-of-Newcastle-Annual-Financial-Statements-2020-2021.pdf,
+15900,Newcastle,2021-22,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/15900/15900_2021-22_gpfs.pdf,https://ncc.nsw.gov.au/getmedia/4378df63-452b-43b2-bf48-f9a4a225b8a1/City-of-Newcastle-Annual-Financial-Statements-2021-2022.pdf,
+15900,Newcastle,2022-23,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/15900/15900_2022-23_gpfs.pdf,https://ncc.nsw.gov.au/getmedia/681bf977-f8b1-4aa0-84c2-ba8348ff8c50/Annual-Financial-Statements-2023.pdf,
+15900,Newcastle,2023-24,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/15900/15900_2023-24_gpfs.pdf,https://ncc.nsw.gov.au/getmedia/e7f35dd5-c928-47d8-a705-4da1ddbc7ec9/Annual-Financial-Statements-2024-(Final)-Newcastle-City-Council.pdf,
+16100,Oberon,2015-16,missing,,,council website returns 403 (access denied) for PDFs/pages; only the 2023-24 copy on the Have Your Say site was reachable
+16100,Oberon,2016-17,missing,,,council website returns 403 (access denied) for PDFs/pages; only the 2023-24 copy on the Have Your Say site was reachable
+16100,Oberon,2017-18,missing,,,council website returns 403 (access denied) for PDFs/pages; only the 2023-24 copy on the Have Your Say site was reachable
+16100,Oberon,2018-19,missing,,,council website returns 403 (access denied) for PDFs/pages; only the 2023-24 copy on the Have Your Say site was reachable
+16100,Oberon,2019-20,missing,,,council website returns 403 (access denied) for PDFs/pages; only the 2023-24 copy on the Have Your Say site was reachable
+16100,Oberon,2020-21,missing,,,council website returns 403 (access denied) for PDFs/pages; only the 2023-24 copy on the Have Your Say site was reachable
+16100,Oberon,2021-22,missing,,,council website returns 403 (access denied) for PDFs/pages; only the 2023-24 copy on the Have Your Say site was reachable
+16100,Oberon,2022-23,missing,,,council website returns 403 (access denied) for PDFs/pages; only the 2023-24 copy on the Have Your Say site was reachable
+16100,Oberon,2023-24,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/16100/16100_2023-24_gpfs.pdf,https://haveyoursay.oberon.nsw.gov.au/97400/widgets/450639/documents/298420/download,
+16200,Parkes,2015-16,missing,,,council website returns 403 (access denied) to automated download; not retrieved
+16200,Parkes,2016-17,missing,,,council website returns 403 (access denied) to automated download; not retrieved
+16200,Parkes,2017-18,missing,,,council website returns 403 (access denied) to automated download; not retrieved
+16200,Parkes,2018-19,missing,,,council website returns 403 (access denied) to automated download; not retrieved
+16200,Parkes,2019-20,missing,,,council website returns 403 (access denied) to automated download; not retrieved
+16200,Parkes,2020-21,missing,,,council website returns 403 (access denied) to automated download; not retrieved
+16200,Parkes,2021-22,missing,,,council website returns 403 (access denied) to automated download; not retrieved
+16200,Parkes,2022-23,missing,,,council website returns 403 (access denied) to automated download; not retrieved
+16200,Parkes,2023-24,missing,,,council website returns 403 (access denied) to automated download; not retrieved
+16350,Penrith,2015-16,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/16350/16350_2015-16_gpfs.pdf,https://www.penrithcity.nsw.gov.au/images/documents/resources-documents/documents/Financial_Statements_2016.pdf,
+16350,Penrith,2016-17,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/16350/16350_2016-17_gpfs.pdf,https://www.penrithcity.nsw.gov.au/images/documents/resources-documents/documents/Financial_Statements_2017.pdf,
+16350,Penrith,2017-18,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/16350/16350_2017-18_gpfs.pdf,https://www.penrithcity.nsw.gov.au/images/documents/resources-documents/documents/Financial_Statements_2018.pdf,
+16350,Penrith,2018-19,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/16350/16350_2018-19_gpfs.pdf,https://www.penrithcity.nsw.gov.au/images/financial_statements_penrith_council_final_version.pdf,
+16350,Penrith,2019-20,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/16350/16350_2019-20_gpfs.pdf,https://www.penrithcity.nsw.gov.au/images/penrith_city_council_-_financial_statements_2019-20_final_v2.pdf,
+16350,Penrith,2020-21,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/16350/16350_2020-21_gpfs.pdf,https://www.penrithcity.nsw.gov.au/images/documents/2021_financial_statements_final.pdf,
+16350,Penrith,2021-22,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/16350/16350_2021-22_gpfs.pdf,https://www.penrithcity.nsw.gov.au/images/documents/resources-documents/documents/financial_statements_2021-22.pdf,
+16350,Penrith,2022-23,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/16350/16350_2022-23_gpfs.pdf,https://www.penrithcity.nsw.gov.au/images/documents/building-development/development/penrith_city_council_-_financial_statements_-_2022-23.pdf,
+16350,Penrith,2023-24,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/16350/16350_2023-24_gpfs.pdf,https://penrithcity.nsw.gov.au/images/documents/resources-documents/documents/financial_statements_2023-24.pdf,
+16380,Port Macquarie-Hastings,2015-16,missing,,,council website returns 403 (access denied) to automated download; not retrieved
+16380,Port Macquarie-Hastings,2016-17,missing,,,council website returns 403 (access denied) to automated download; not retrieved
+16380,Port Macquarie-Hastings,2017-18,missing,,,council website returns 403 (access denied) to automated download; not retrieved
+16380,Port Macquarie-Hastings,2018-19,missing,,,council website returns 403 (access denied) to automated download; not retrieved
+16380,Port Macquarie-Hastings,2019-20,missing,,,council website returns 403 (access denied) to automated download; not retrieved
+16380,Port Macquarie-Hastings,2020-21,missing,,,council website returns 403 (access denied) to automated download; not retrieved
+16380,Port Macquarie-Hastings,2021-22,missing,,,council website returns 403 (access denied) to automated download; not retrieved
+16380,Port Macquarie-Hastings,2022-23,missing,,,council website returns 403 (access denied) to automated download; not retrieved
+16380,Port Macquarie-Hastings,2023-24,missing,,,council website returns 403 (access denied) to automated download; not retrieved
+16400,Port Stephens,2015-16,missing,,,council website blocks automated access (Cloudflare 403 challenge); not retrieved
+16400,Port Stephens,2016-17,missing,,,council website blocks automated access (Cloudflare 403 challenge); not retrieved
+16400,Port Stephens,2017-18,missing,,,council website blocks automated access (Cloudflare 403 challenge); not retrieved
+16400,Port Stephens,2018-19,missing,,,council website blocks automated access (Cloudflare 403 challenge); not retrieved
+16400,Port Stephens,2019-20,missing,,,council website blocks automated access (Cloudflare 403 challenge); not retrieved
+16400,Port Stephens,2020-21,missing,,,council website blocks automated access (Cloudflare 403 challenge); not retrieved
+16400,Port Stephens,2021-22,missing,,,council website blocks automated access (Cloudflare 403 challenge); not retrieved
+16400,Port Stephens,2022-23,missing,,,council website blocks automated access (Cloudflare 403 challenge); not retrieved
+16400,Port Stephens,2023-24,missing,,,council website blocks automated access (Cloudflare 403 challenge); not retrieved

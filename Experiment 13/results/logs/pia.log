@@ -1,0 +1,30 @@
+Downloading pyfixest (2.7MiB)
+ Downloaded pyfixest
+Installed 61 packages in 1.59s
+/Users/ray/.cache/uv/archive-v0/-dtRSKjicIILuV0-Yfzbm/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 1 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/-dtRSKjicIILuV0-Yfzbm/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 1 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/-dtRSKjicIILuV0-Yfzbm/lib/python3.13/site-packages/pyfixest/estimation/models/feols_.py:2513: UserWarning: 
+            1 variables dropped due to multicollinearity.
+            The following variables are dropped: ['fbs1'].
+            
+  warnings.warn(
+pia B log_sum primary {'main_per10': np.float64(-1.646), 'main_lo': np.float64(-2.6), 'main_hi': np.float64(-0.682), 'placebo_per10': np.float64(0.739), 'placebo_lo': np.float64(-0.873), 'placebo_hi': np.float64(2.377)} 3809 119
+/Users/ray/.cache/uv/archive-v0/-dtRSKjicIILuV0-Yfzbm/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 1 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/-dtRSKjicIILuV0-Yfzbm/lib/python3.13/site-packages/pyfixest/estimation/models/feols_.py:2513: UserWarning: 
+            1 variables dropped due to multicollinearity.
+            The following variables are dropped: ['fbs1'].
+            
+  warnings.warn(
+pia B log_earners primary {'main_per10': np.float64(-0.856), 'main_lo': np.float64(-2.217), 'main_hi': np.float64(0.523), 'placebo_per10': np.float64(0.847), 'placebo_lo': np.float64(-0.58), 'placebo_hi': np.float64(2.295)} 3810 119
+/Users/ray/.cache/uv/archive-v0/-dtRSKjicIILuV0-Yfzbm/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 1 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/-dtRSKjicIILuV0-Yfzbm/lib/python3.13/site-packages/pyfixest/estimation/models/feols_.py:2513: UserWarning: 
+            1 variables dropped due to multicollinearity.
+            The following variables are dropped: ['fbs1'].
+            
+  warnings.warn(
+pia B log_median primary {'main_per10': np.float64(0.401), 'main_lo': np.float64(-2.787), 'main_hi': np.float64(3.693), 'placebo_per10': np.float64(1.576), 'placebo_lo': np.float64(-3.338), 'placebo_hi': np.float64(6.74)} 3810 119
+exit 0

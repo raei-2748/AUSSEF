@@ -1,0 +1,2 @@
+locked 2026-10-02 21:01:10 (before any value is computed)
+03872e396d88aed4d354fbcfe0bfe88f1201829189ac5d22694f2ae6f86dd817  PRESPEC.md

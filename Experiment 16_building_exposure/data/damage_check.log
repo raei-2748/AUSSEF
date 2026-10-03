@@ -1,0 +1,156 @@
+                       sample                  damage          exposure               role  rows  rows_with_loss  total_destroyed    rho     lo     hi
+0                 all seasons         homes_destroyed          homes_in  matched (primary)   135              54           2647.0  0.761  0.664  0.832
+1                 all seasons         homes_destroyed        burned_km2        area burned   135              54           2647.0  0.696  0.599  0.778
+2                 all seasons         homes_destroyed         homes_1km              other   135              54           2647.0  0.558  0.403  0.706
+3                 all seasons         homes_destroyed       osm_home_in              other   135              54           2647.0  0.521  0.379  0.648
+4                 all seasons         homes_destroyed      osm_home_1km              other   135              54           2647.0  0.507  0.350  0.657
+5                 all seasons    facilities_destroyed     nonres_mb_1km  matched (primary)    54              26            287.0  0.616  0.414  0.796
+6                 all seasons    facilities_destroyed        burned_km2        area burned    54              26            287.0  0.711  0.528  0.832
+7                 all seasons    facilities_destroyed         homes_1km   homes, same zone    54              26            287.0  0.658  0.482  0.795
+8                 all seasons    facilities_destroyed      nonres_mb_in              other    54              26            287.0  0.599  0.382  0.762
+9                 all seasons    facilities_destroyed     nonres_osm_in              other    54              26            287.0  0.755  0.564  0.873
+10                all seasons    facilities_destroyed    nonres_osm_1km              other    54              26            287.0  0.727  0.557  0.846
+11                all seasons    facilities_destroyed  workplace_mb_1km              other    54              26            287.0  0.462  0.200  0.676
+12                all seasons    facilities_destroyed     public_mb_1km              other    54              26            287.0  0.592  0.376  0.794
+13                all seasons    facilities_destroyed          homes_in              other    54              26            287.0  0.792  0.657  0.873
+14                all seasons  outbuildings_destroyed     farm_homes_in  matched (primary)    65              52           5773.0  0.756  0.606  0.852
+15                all seasons  outbuildings_destroyed        burned_km2        area burned    65              52           5773.0  0.748  0.615  0.840
+16                all seasons  outbuildings_destroyed          homes_in   homes, same zone    65              52           5773.0  0.864  0.774  0.918
+17                all seasons  outbuildings_destroyed    farm_homes_1km              other    65              52           5773.0  0.760  0.630  0.851
+18                all seasons  outbuildings_destroyed       farm_km2_in              other    65              52           5773.0  0.557  0.359  0.706
+19                all seasons  outbuildings_destroyed       farm_osm_in              other    65              52           5773.0  0.717  0.595  0.820
+20                all seasons  outbuildings_destroyed      farm_osm_1km              other    65              52           5773.0  0.609  0.456  0.732
+21                all seasons  outbuildings_destroyed         homes_1km              other    65              52           5773.0  0.651  0.479  0.777
+22  Black Summer 2019-20 only         homes_destroyed          homes_in  matched (primary)    52              36           2483.0  0.885  0.806  0.929
+23  Black Summer 2019-20 only         homes_destroyed        burned_km2        area burned    52              36           2483.0  0.816  0.693  0.891
+24  Black Summer 2019-20 only         homes_destroyed         homes_1km              other    52              36           2483.0  0.676  0.485  0.803
+25  Black Summer 2019-20 only         homes_destroyed       osm_home_in              other    52              36           2483.0  0.601  0.427  0.750
+26  Black Summer 2019-20 only         homes_destroyed      osm_home_1km              other    52              36           2483.0  0.616  0.418  0.761
+27  Black Summer 2019-20 only    facilities_destroyed     nonres_mb_1km  matched (primary)    50              24            284.0  0.632  0.391  0.806
+28  Black Summer 2019-20 only    facilities_destroyed        burned_km2        area burned    50              24            284.0  0.730  0.571  0.840
+29  Black Summer 2019-20 only    facilities_destroyed         homes_1km   homes, same zone    50              24            284.0  0.673  0.480  0.801
+30  Black Summer 2019-20 only    facilities_destroyed      nonres_mb_in              other    50              24            284.0  0.619  0.362  0.792
+31  Black Summer 2019-20 only    facilities_destroyed     nonres_osm_in              other    50              24            284.0  0.776  0.611  0.890
+32  Black Summer 2019-20 only    facilities_destroyed    nonres_osm_1km              other    50              24            284.0  0.750  0.586  0.857
+33  Black Summer 2019-20 only    facilities_destroyed  workplace_mb_1km              other    50              24            284.0  0.478  0.189  0.696
+34  Black Summer 2019-20 only    facilities_destroyed     public_mb_1km              other    50              24            284.0  0.602  0.347  0.797
+35  Black Summer 2019-20 only    facilities_destroyed          homes_in              other    50              24            284.0  0.793  0.647  0.877
+36  Black Summer 2019-20 only  outbuildings_destroyed     farm_homes_in  matched (primary)    52              39           5462.0  0.787  0.634  0.886
+37  Black Summer 2019-20 only  outbuildings_destroyed        burned_km2        area burned    52              39           5462.0  0.795  0.677  0.878
+38  Black Summer 2019-20 only  outbuildings_destroyed          homes_in   homes, same zone    52              39           5462.0  0.912  0.843  0.943
+39  Black Summer 2019-20 only  outbuildings_destroyed    farm_homes_1km              other    52              39           5462.0  0.801  0.653  0.883
+40  Black Summer 2019-20 only  outbuildings_destroyed       farm_km2_in              other    52              39           5462.0  0.585  0.375  0.748
+41  Black Summer 2019-20 only  outbuildings_destroyed       farm_osm_in              other    52              39           5462.0  0.786  0.666  0.865
+42  Black Summer 2019-20 only  outbuildings_destroyed      farm_osm_1km              other    52              39           5462.0  0.679  0.507  0.804
+43  Black Summer 2019-20 only  outbuildings_destroyed         homes_1km              other    52              39           5462.0  0.711  0.526  0.833
+{
+ "homes_destroyed": {
+  "rows": 135,
+  "rho": 0.7613661782999731,
+  "rho_ci": [
+   0.6644693415431383,
+   0.832016841818162
+  ],
+  "minus_area": 0.0656753195242109,
+  "minus_area_ci": [
+   -0.02205825889345712,
+   0.13879525485018088
+  ],
+  "verdict": "Not better than area burned"
+ },
+ "facilities_destroyed": {
+  "rows": 54,
+  "rho": 0.6159395302554361,
+  "rho_ci": [
+   0.4141344333898344,
+   0.7958944325338673
+  ],
+  "minus_area": -0.09512130552439291,
+  "minus_area_ci": [
+   -0.2970505609174751,
+   0.12709640200859162
+  ],
+  "minus_homes": -0.042166905033822255,
+  "minus_homes_ci": [
+   -0.1644108313697008,
+   0.07176598641541711
+  ],
+  "verdict": "Not better than area burned"
+ },
+ "outbuildings_destroyed": {
+  "rows": 65,
+  "rho": 0.7560802638082562,
+  "rho_ci": [
+   0.6058945463639356,
+   0.8520281051210954
+  ],
+  "minus_area": 0.007897064349330796,
+  "minus_area_ci": [
+   -0.10767922064415883,
+   0.1314608190690182
+  ],
+  "minus_homes": -0.10837103951944793,
+  "minus_homes_ci": [
+   -0.2273628945421405,
+   -0.01843612295595725
+  ],
+  "verdict": "Not better than area burned"
+ }
+}
+{
+ "homes_destroyed": {
+  "rows": 52,
+  "rho": 0.8851251707462481,
+  "rho_ci": [
+   0.8055522906650229,
+   0.9294431421506797
+  ],
+  "minus_area": 0.06864387233294755,
+  "minus_area_ci": [
+   -0.012215020568197853,
+   0.17781182335756945
+  ],
+  "verdict": "Not better than area burned"
+ },
+ "facilities_destroyed": {
+  "rows": 50,
+  "rho": 0.6323692787984534,
+  "rho_ci": [
+   0.39149732740652443,
+   0.8055728317264256
+  ],
+  "minus_area": -0.09764290412347076,
+  "minus_area_ci": [
+   -0.3351454728530236,
+   0.11968613428211212
+  ],
+  "minus_homes": -0.04027629047297232,
+  "minus_homes_ci": [
+   -0.1745285663445469,
+   0.08133286592400214
+  ],
+  "verdict": "Not better than area burned"
+ },
+ "outbuildings_destroyed": {
+  "rows": 52,
+  "rho": 0.7866602410457386,
+  "rho_ci": [
+   0.6342230903189263,
+   0.8857269129462721
+  ],
+  "minus_area": -0.00866711914087337,
+  "minus_area_ci": [
+   -0.12651473870667262,
+   0.11143869896560803
+  ],
+  "minus_homes": -0.12581615487890585,
+  "minus_homes_ci": [
+   -0.26043813736329446,
+   -0.025411064061043084
+  ],
+  "verdict": "Not better than area burned"
+ }
+}
+homes_destroyed rows 135 seasons {2019: 52, 2018: 27, 2022: 24, 2023: 9, 2016: 9, 2017: 8, 2015: 3, 2024: 2, 2014: 1} scope {}
+facilities_destroyed rows 54 seasons {2019: 50, 2024: 2, 2023: 1, 2016: 1} scope {'council_total': 51, 'fire_in_council': 3}
+outbuildings_destroyed rows 65 seasons {2019: 52, 2023: 5, 2018: 3, 2016: 3, 2022: 2} scope {'council_total': 60, 'fire_in_council': 5}

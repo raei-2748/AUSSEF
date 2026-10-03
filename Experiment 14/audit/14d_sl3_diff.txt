@@ -1,0 +1,10 @@
+rows only in auditor (relaxed pre gate):
+ Empty DataFrame
+Columns: [agrn, region_name, F, first_fire_start, homes_v2, SL3_mine, g_far, n_far]
+Index: []
+Tenterfield 843: [{'SL3_mine': 0.5013625175808722, 'SL3_built': 0.5013625175808722}, {'SL3_mine': nan, 'SL3_built': nan}]
+ABS code fix changes 0 rows, max 0.0
+rows gained when ABS codes 10130/14200 are mapped:
+     agrn        region_name     F first_fire_start  homes_v2  SL3_mine  SL3_mine_no_growth_adj     g_far
+98   843           Inverell  2018       2019-02-09      14.0   0.63079                0.938776 -0.066190
+112  871  Armidale Regional  2019       2019-08-08      12.0   0.00000                0.000000 -0.166667

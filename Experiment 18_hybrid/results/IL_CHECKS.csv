@@ -1,0 +1,28 @@
+setting,sample,check,primary,model_slope,measured_lo,measured_hi,verdict,measured_source
+unconstrained,B,M1,True,1.021,-0.35,0.59,overstates,"Exp 7 Day 6, council, all seasons"
+unconstrained,B,M1b,False,3.813,-0.29,0.12,overstates,Exp 13 SA2 unemployment B (placebo fails)
+unconstrained,B,M2,True,-0.9525,-3.1,0.8,inside,Exp 13 ATO postcode income B
+unconstrained,B,M2b,False,-0.9525,-2.6,-0.7,inside,Exp 13 SA2 PIA income B
+unconstrained,B,M3,True,-8.198,-1.2,8.6,overstates,Exp 13 CABEE businesses B
+unconstrained,P,M1,True,1.021,-0.35,0.59,overstates,"Exp 7 Day 6, council, all seasons"
+unconstrained,P,M1b,False,3.934,-0.83,1.05,overstates,Exp 13 SA2 unemployment P
+unconstrained,P,M2,True,-1.155,-2.7,4.4,inside,Exp 13 ATO postcode income P
+unconstrained,P,M3,True,-8.21,-6.4,26,overstates,Exp 13 CABEE businesses P
+constrained,B,M1,True,0.03018,-0.35,0.59,inside,"Exp 7 Day 6, council, all seasons"
+constrained,B,M1b,False,0.01377,-0.29,0.12,inside,Exp 13 SA2 unemployment B (placebo fails)
+constrained,B,M2,True,0.2906,-3.1,0.8,inside,Exp 13 ATO postcode income B
+constrained,B,M2b,False,0.2906,-2.6,-0.7,understates,Exp 13 SA2 PIA income B
+constrained,B,M3,True,-0.3678,-1.2,8.6,inside,Exp 13 CABEE businesses B
+constrained,P,M1,True,0.03018,-0.35,0.59,inside,"Exp 7 Day 6, council, all seasons"
+constrained,P,M1b,False,0.1455,-0.83,1.05,inside,Exp 13 SA2 unemployment P
+constrained,P,M2,True,0.1469,-2.7,4.4,inside,Exp 13 ATO postcode income P
+constrained,P,M3,True,-0.4244,-6.4,26,inside,Exp 13 CABEE businesses P
+P_calibrated,B,M1,True,0.139,-0.35,0.59,inside,"Exp 7 Day 6, council, all seasons"
+P_calibrated,B,M1b,False,0.413,-0.29,0.12,overstates,Exp 13 SA2 unemployment B (placebo fails)
+P_calibrated,B,M2,True,0.1788,-3.1,0.8,inside,Exp 13 ATO postcode income B
+P_calibrated,B,M2b,False,0.1788,-2.6,-0.7,understates,Exp 13 SA2 PIA income B
+P_calibrated,B,M3,True,-1.346,-1.2,8.6,overstates,Exp 13 CABEE businesses B
+P_calibrated,P,M1,True,0.139,-0.35,0.59,inside,"Exp 7 Day 6, council, all seasons"
+P_calibrated,P,M1b,False,0.5062,-0.83,1.05,inside,Exp 13 SA2 unemployment P
+P_calibrated,P,M2,True,0.04559,-2.7,4.4,inside,Exp 13 ATO postcode income P
+P_calibrated,P,M3,True,-1.354,-6.4,26,inside,Exp 13 CABEE businesses P

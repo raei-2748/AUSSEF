@@ -1,0 +1,16 @@
+F=2015 (2015-16) scope=season_zero rows=2 fire starts 2015-07-31..2015-12-10
+   REF: NSW RFS Annual Report 2015/16 - Summary Review of Operations | https://www.rfs.nsw.gov.au/resources/publications/annual-reports/general/nsw-rural-fire-service-2015-16-annual-report/3-NSW-RFS-Annual-Report-2015-16-Summary-Review-of-Operations.pdf | PDF p.6 (printed p.28), Fire season overview 2015/16 | "Human lives lost 1 firefighter fatality"
+F=2016 (2016-17) scope=season_zero rows=11 fire starts 2016-11-04..2017-02-11
+   REF: NSW RFS Annual Report 2016/17 | https://www.rfs.nsw.gov.au/__data/assets/pdf_file/0008/73673/NSW-RFS-Annual-Report-2016-17.pdf | p.28, Summary review of operations - Fire season overview 2016/17 | "Human lives lost 2 (1 firefighter, 1 civilian fatality)"
+F=2017 (2017-18) scope=statewide_zero rows=32 fire starts 2017-08-08..2018-02-12
+   REF: NSW RFS Annual Report 2017/18 | https://www.rfs.nsw.gov.au/__data/assets/pdf_file/0003/92262/NSW-RFS-Annual-Report-2017-18-web.pdf | p.28, Summary review of operations - Fire season overview 2017/18 | "Human lives lost 0"
+F=2018 (2018-19) scope=statewide_zero rows=24 fire starts 2018-07-23..2019-03-09
+   REF: Final Report of the NSW Bushfire Inquiry (31 July 2020) | https://www.nsw.gov.au/sites/default/files/noindex/2023-06/Final-Report-of-the-NSW-Bushfire-Inquiry.pdf | Section 2.1, Table 2-2 (Area burnt, homes destroyed and lives lost), report p.27 (PDF p.57) | "2018-19 288,000 37 0"
+F=2019 (2019-20) scope=season_zero rows=43 fire starts 2019-07-12..2019-12-27
+   REF: 2019/2020 NSW Bushfires Coronial Inquiry, Volume 1 (NSW State Coroner, 2023) | https://coroners.nsw.gov.au/documents/reports/bushfires/2019-20-NSW-Bushfires-Coronial-Inquiry-Vol1.pdf | Part 1 Introduction, para 25, p.15 | "Twenty-five deaths were reported to the Coroner in connection with the 2019/2020 bushfire season."
+rows with deaths recorded but no population:
+                      agrn  ... X_council_council_population_pre
+206  RAA-raa_2016_p13_r08  ...                              NaN
+213  RAA-raa_2016_p13_r23  ...                              NaN
+
+[2 rows x 5 columns]

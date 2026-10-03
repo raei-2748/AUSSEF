@@ -1,0 +1,8 @@
+FP2_main rows 51 | min / max comparison councils with a value: 12 15
+FP2_h0 rows 61 | min / max comparison councils with a value: 12 19
+FP2_h12 rows 51 | min / max comparison councils with a value: 12 15
+FP2_h3 rows 28 | min / max comparison councils with a value: 12 15
+FP3_main rows 52 | min / max comparison councils with a value: 12 15
+FP3_h0 rows 64 | min / max comparison councils with a value: 12 19
+FP3_h12 rows 52 | min / max comparison councils with a value: 12 15
+FP3_h3 rows 29 | min / max comparison councils with a value: 12 15

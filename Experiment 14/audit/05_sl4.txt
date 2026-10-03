@@ -1,0 +1,54 @@
+non-numeric population values: ['N/A'] | rows with no population: 3
+SL4 n mine 140 n built 140 only mine 0 only built 0 max abs diff 3.552713678800501e-15
+SL4_resident n mine 140 n built 140 only mine 0 only built 0 max abs diff 3.552713678800501e-15
+population_pre built vs master max diff: 0.0
+deaths recorded: 142 | >0: 17 | total deaths: 29.0 | responders recorded: 142 total 9.0
+rows with responders recorded but deaths blank: 0
+                              rows  recorded  gt0  total
+info_SL_deaths_sourced_scope                            
+(blank)                         76         0    0    0.0
+council_total                   26        26   16   27.0
+fire_in_council                  4         4    1    2.0
+season_zero                     56        56    0    0.0
+statewide_zero                  56        56    0    0.0
+zero scopes by season:
+ F     info_SL_deaths_sourced_scope
+2015  season_zero                      2
+2016  season_zero                     11
+2017  statewide_zero                  32
+2018  statewide_zero                  24
+2019  season_zero                     43
+blank-scope rows by F: {2014: 1, 2022: 26, 2023: 34, 2024: 15}
+deaths>0 rows:
+      agrn            region_name     F  deaths  resp info_SL_deaths_sourced_scope info_SL_deaths_sourced_ref_type info_SL_deaths_type                                                                                                                                                                                                                  info_SL_deaths_type_basis  info_reported_deaths
+33   1075                 Kyogle  2023     1.0   1.0                council_total                        official           responder                                                                                              RFS Annual Report 2023/24 p.27: 'Senior Deputy Captain John Holmes of Mallanganee Brigade died while fighting the Bean Creek fire at Kyogle.'                   1.0
+35   1076                Kempsey  2023     1.0   0.0                council_total                        official            civilian                                                                                     RFS Bush Fire Bulletin Vol 45 No 2 p.3: 'a member of the public also lost his life while defending his family farm from the Willi Willi Rd in Temagog'                   1.0
+38   1081                Walgett  2023     1.0   1.0                council_total                        official           responder                                                                                                                           AIDR Hudson fire 2023: RFS volunteer firefighter struck by a falling tree while responding (Captain Leo Fransen)                   1.0
+85    818             Shoalhaven  2018     1.0   1.0                council_total                        official           responder                                                                                                                                     AIDR Kingiman bushfire 2018: pilot of a firefighting water-bombing helicopter that crashed at the fire                   1.0
+114   871            Bega Valley  2019     4.0   0.0                council_total                        official            resident                                                                                                                                                                                      Coronial Inquiry Vol 1 p.35 para 15: 'four residents'                   4.0
+120   871        Clarence Valley  2019     2.0   0.0              fire_in_council                        official            civilian                                                        RFS Bush Fire Bulletin 42(1) p.6: Long Gully Road fire claimed two lives near Coongbar (at their property); Coroner lists them under Tenterfield LGA, council attribution uncertain                   NaN
+124   871            Eurobodalla  2019     3.0   0.0                council_total                        official            resident                                                                                                                                                                                     Coronial Inquiry Vol 1 p.36 para 19: 'three residents'                   3.0
+125   871      Glen Innes Severn  2019     2.0   0.0                council_total                        official            resident  NSW RFS Bush Fire Bulletin Vol 42 No 1 (2020), "Spring fires torment northern NSW" Incidents, p.9 (PDF p.11), Kangawalla fire paragraph: 'The town lost its school, more than half of its buildings and two of its residents.' (Wytaliba)                   NaN
+127   871     Greater Hume Shire  2019     1.0   1.0                council_total                        official           responder                                                                                                                                                          Coronial Inquiry Vol 1 p.36 para 24: Samuel McPaul, RFS firefighter, died on duty                   NaN
+131   871                Kempsey  2019     1.0   0.0                council_total                        official            resident                                                                                                                                                            Kempsey Shire Council Annual Report 2019-20: 'one of our Willawarrin residents'                   NaN
+137   871              Mid-Coast  2019     1.0   0.0                council_total                        official             unknown                                                                                                                                                        MidCoast Council Annual Report 2019-20 p.19: 'one life tragically lost' (no detail)                   NaN
+140   871        Nambucca Valley  2019     1.0   0.0                council_total                        official            resident                                                                                                                                                             Nambucca Valley Council Annual Report 2019-20 p.3: 'the death of one resident'                   NaN
+147   871             Shoalhaven  2019     3.0   0.0                council_total                        official            resident                                                                                                                                                                          Coronial Inquiry Vol 1 p.37 para 29: 'three Shoalhaven residents'                   3.0
+149   871  Snowy Monaro Regional  2019     3.0   3.0                council_total                        official           responder                                                                                                                                                       Coronial Inquiry Vol 1 p.38 para 34: three US Coulson Aviation C-130 air-tanker crew                   NaN
+150   871          Snowy Valleys  2019     1.0   0.0                council_total                        official             unknown                                                                                                                                 Coronial Inquiry Vol 1 p.38 para 39: 'took the life of David Harrison' (residency not stated in the quote)                   1.0
+159   871                 Walcha  2019     1.0   0.0                council_total                        official            resident                                                                                                                                                               Coronial Inquiry Vol 1 p.186 para 39: Russell Bratby, resident of Yarrowitch                   NaN
+161   871            Wollondilly  2019     2.0   2.0                council_total                        official           responder                                                                                                                                   Activate Wollondilly 2021 p.14: two RFS volunteers from Horsley Park killed when their truck rolled over                   NaN
+example season_zero / statewide_zero refs:
+         F info_SL_deaths_sourced_scope info_SL_deaths_sourced_ref_type info_SL_deaths_type_basis
+79   2017               statewide_zero                        official                       NaN
+86   2018               statewide_zero                        official                       NaN
+112  2019                  season_zero                        official                       NaN
+199  2015                  season_zero                        official                       NaN
+202  2016                  season_zero                        official                       NaN
+distinct refs for zero scopes: 5
+   NSW RFS Annual Report 2017/18 | https://www.rfs.nsw.gov.au/__data/assets/pdf_file/0003/92262/NSW-RFS-Annual-Report-2017-18-web.pdf | p.28, Summary review of operations - Fire season overview 2017/18 | "Human lives lost 0
+   Final Report of the NSW Bushfire Inquiry (31 July 2020) | https://www.nsw.gov.au/sites/default/files/noindex/2023-06/Final-Report-of-the-NSW-Bushfire-Inquiry.pdf | Section 2.1, Table 2-2 (Area burnt, homes destroyed and 
+   2019/2020 NSW Bushfires Coronial Inquiry, Volume 1 (NSW State Coroner, 2023) | https://coroners.nsw.gov.au/documents/reports/bushfires/2019-20-NSW-Bushfires-Coronial-Inquiry-Vol1.pdf | Part 1 Introduction, para 25, p.15 
+   NSW RFS Annual Report 2015/16 - Summary Review of Operations | https://www.rfs.nsw.gov.au/resources/publications/annual-reports/general/nsw-rural-fire-service-2015-16-annual-report/3-NSW-RFS-Annual-Report-2015-16-Summary
+   NSW RFS Annual Report 2016/17 | https://www.rfs.nsw.gov.au/__data/assets/pdf_file/0008/73673/NSW-RFS-Annual-Report-2016-17.pdf | p.28, Summary review of operations - Fire season overview 2016/17 | "Human lives lost 2 (1 
+zero-scope rows in seasons that have a death elsewhere: {(2018, 'statewide_zero'): 24, (2019, 'season_zero'): 43}

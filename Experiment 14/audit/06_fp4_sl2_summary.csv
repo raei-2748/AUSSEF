@@ -1,0 +1,8 @@
+indicator,variant,n_mine,n_built,n_both,only_mine,only_built,max_abs_diff,n_differ
+FP4_main,namesakes_kept,199,199,199,0,0,8.881784197001252e-16,0
+FP4_h0,namesakes_kept,199,199,199,0,0,1.7763568394002505e-15,0
+FP4_h12,namesakes_kept,161,161,161,0,0,1.7763568394002505e-15,0
+FP4_main,namesakes_dropped,199,199,199,0,0,0.08320000000000154,15
+FP4_h0,namesakes_dropped,199,199,199,0,0,0.01994999999999969,1
+FP4_h12,namesakes_dropped,161,161,161,0,0,0.28499999999999925,14
+SL2,min12post,216,216,216,0,0,9.71445146547012e-17,0

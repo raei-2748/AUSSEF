@@ -1,0 +1,40 @@
+-- Dungog 2015-16
+FAILED: FAILED curl_rc=0 head=b'<HTML'  http 403
+-- Dungog 2016-17
+FAILED: FAILED curl_rc=0 head=b'<HTML'  http 403
+-- Dungog 2017-18
+FAILED: FAILED curl_rc=0 head=b'<HTML'  http 403
+-- Dungog 2018-19
+FAILED: FAILED curl_rc=0 head=b'<HTML'  http 403
+-- Dungog 2019-20
+FAILED: FAILED curl_rc=0 head=b'<HTML'  http 403
+-- Dungog 2020-21
+FAILED: FAILED curl_rc=0 head=b'<HTML'  http 403
+-- Dungog 2021-22
+FAILED: FAILED curl_rc=0 head=b'<HTML'  http 403
+-- Dungog 2022-23
+FAILED: FAILED curl_rc=0 head=b'<HTML'  http 403
+-- Dungog 2023-24
+FAILED: FAILED curl_rc=0 head=b'<HTML'  http 403
+-- Eurobodalla 2016-17
+FAILED: FAILED curl_rc=0 head=b'<!DOC'  http 403
+-- Eurobodalla 2017-18
+FAILED: FAILED curl_rc=0 head=b'<!DOC'  http 403
+-- Eurobodalla 2020-21
+FAILED: FAILED curl_rc=0 head=b'<!DOC'  http 403
+-- Eurobodalla 2021-22
+FAILED: FAILED curl_rc=0 head=b'<!DOC'  http 403
+-- Eurobodalla 2022-23
+FAILED: FAILED curl_rc=0 head=b'<!DOC'  http 403
+-- Eurobodalla 2023-24
+FAILED: FAILED curl_rc=0 head=b'<!DOC'  http 403
+-- Glen Innes Severn 2019-20
+FAILED: FAILED curl_rc=0 head=b'<HTML'  http 403
+-- Glen Innes Severn 2020-21
+FAILED: FAILED curl_rc=0 head=b'<HTML'  http 403
+-- Glen Innes Severn 2021-22
+FAILED: FAILED curl_rc=0 head=b'<HTML'  http 403
+-- Glen Innes Severn 2022-23
+FAILED: FAILED curl_rc=0 head=b'<HTML'  http 403
+-- Glen Innes Severn 2023-24
+FAILED: FAILED curl_rc=0 head=b'<HTML'  http 403

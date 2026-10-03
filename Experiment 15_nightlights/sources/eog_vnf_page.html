@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>VIIRS Nightfire</title>
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="">
+    <meta name="description" content="Earth Observation Group is the pioneer of nocturnal remote sensing. VIIRS Nightfire (VNF) is the only heat anomaly product which provides subpixel attributes and temperature for each detection.">
+    <link rel="icon" type="image/png" sizes="300x300" href="../assets/img/favicon.png">
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i">
+    <link rel="stylesheet" href="../assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/Carousel_Image_Slider-1.css">
+    <link rel="stylesheet" href="../assets/css/Carousel_Image_Slider.css">
+    <link rel="stylesheet" href="../assets/css/dh-card-image-left-dark.css">
+    <link rel="stylesheet" href="../assets/css/dropdown-search-bs4.css">
+    <link rel="stylesheet" href="../assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="stylesheet" href="../assets/css/iframe.css">
+    <link rel="stylesheet" href="../assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="../assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="../assets/css/sidebar.css">
+    <link rel="stylesheet" href="../assets/css/Simple-Slider.css">
+    <link rel="stylesheet" href="../assets/css/Ultimate-Testimonial-Slider-BS4-Updated.css">
+    <link rel="stylesheet" href="../assets/css/untitled.css">
+</head>
+
+<body data-spy="scroll" data-target="#sbar">
+    <!-- Start: 1 Row 1 Column -->
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col" style="margin-top: 85px;"></div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12">
+                    <!-- Start: Navigation Clean -->
+                    <nav class="navbar navbar-light navbar-expand-md fixed-top navigation-clean" style="background: rgb(255,255,255);">
+                        <div class="container-fluid"><a class="navbar-brand" href="https://payneinstitute.mines.edu/eog"><img src="../assets/img/eog_logo_text_banner.500px.png" style="width: 275px;"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbar-2"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                            <div class="collapse navbar-collapse" id="navbar-2">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item"><a class="nav-link" href="https://payneinstitute.mines.edu/" title="Payne Insttitute for Public Policy">Payne Institute</a></li>
+                                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">Nighttime Light</a>
+                                        <div class="dropdown-menu" id="nighttime_light-2"><a class="dropdown-item" id="viirs-2" href="/products/vnl/">VIIRS</a><a class="dropdown-item" id="dmsp-2" href="/products/dmsp/">DMSP</a></div>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="/products/vbd" title="VIIRS Boat Detection">VBD</a></li>
+                                    <li class="nav-item dropdown" id="vnf"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">VNF</a>
+                                        <div class="dropdown-menu"><a class="dropdown-item" id="vnf" href="/products/vnf">VNF (V2.0/V3.0/V3.5)</a><a class="dropdown-item" id="vnf_v40" href="/products/vnf/vnf_v40.html" style="color: var(--red);">VNF V4.0</a><a class="dropdown-item" id="subscriber_page" href="/products/vnf/subscribers">Subscriber Portal</a><a class="dropdown-item" id="Annual-Global-Gas-Flare-Analysis-1" href="/products/vnf/global_gas_flare.html">Annual Global Gas Flare Analysis</a></div>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="/products/special_topics/" title="VIIRS Nightfire">Special Topics</a></li>
+                                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">Resources</a>
+                                        <div class="dropdown-menu" id="resources-2"><a class="dropdown-item" id="logo-2" href="/products/logo/">Logo</a><a class="dropdown-item" id="logo-3" href="/products/trip_the_light">Trip the Light</a><a class="dropdown-item" id="artist-3" href="/products/artist">For Artist</a><a class="dropdown-item" id="artist-4" href="/products/faq">FAQ</a></div>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tooltip" data-bss-tooltip="" href="../news/" title="Bulletin"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-newspaper">
+                                                <path d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z"></path>
+                                                <path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"></path>
+                                            </svg></a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tooltip" data-bss-tooltip="" href="mailto:eog@mines.edu" title="Mail EOG" target="_blank"><i class="fa fa-envelope-o"></i></a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tooltip" data-bss-tooltip="" href="https://twitter.com/eogatpayne" title="EOG Twitter" target="_blank"><i class="fa fa-twitter" data-toggle="tooltip" data-bss-tooltip="" title="EOG Twitter feed"></i></a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tooltip" data-bss-tooltip="" href="../register/" title="Accounts"><i class="fa fa-user" data-toggle="tooltip" data-bss-tooltip="" title="EOG Twitter feed"></i></a></li>
+                                </ul>
+                            </div>
+                            <header></header>
+                        </div>
+                    </nav><!-- End: Navigation Clean -->
+                </div>
+                <div class="col">
+                    <div class="jumbotron border rounded-0 box" style="background: url(&quot;../assets/img/gas_flare.jpg&quot;) center / cover no-repeat;margin-top: 0px;">
+                        <h1 class="jumbotron h1" style="text-shadow: 0px 0px 6px var(--gray);color: var(--white);">VIIRS Nightfire</h1>
+                        <p id="quote" class="jumbotron h3" style="text-shadow: 0px 0px 15px var(--gray-dark);color: var(--white);padding-top: 60px;">“From there we came outside and saw the stars.”<br><br>- Dante Alighieri, Inferno 1321 A.D.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="change_service">
+                <div class="col">
+                    <div class="alert alert-danger" role="alert" id="license">
+                        <h4 class="alert-heading text-center" id="licensing">VNF License Update</h4>
+                        <p>Effective January 10, 2025, all VIIRS Nightfire data is available through a VIIRS Nightfire Data Use License. By accessing the data, you agree to comply with the terms of the license. Please refer to the full license agreements for detailed conditions and to submit a license application <a href="https://payneinstitute.mines.edu/viirs-nightfire-licensing/" class="alert-link" style="text-decoration: underline" target="_blank">here</a>.</p>
+                        <p>A full listing of the data products and services available to subscribers, with associated links can be found at the VNF Portal page <a class="alert-link" href="subscribers/index.html" style="text-decoration: underline">here</a>.</p>
+                    </div>
+                    <div class="alert alert-success text-center" role="alert"><span style="font-size: 20px;">EOG has now officially launched <span style="color: rgb(255, 0, 0);">VNF Version 4.0</span>! Check out&nbsp;<a class="alert-link" href="./vnf_v40.html"><span style="text-decoration: underline;">HERE</span></a> for more information</span></div>
+                </div>
+            </div>
+        </div>
+    </div><!-- End: 1 Row 1 Column -->
+    <!-- Start: Sidebar -->
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-10 col-lg-9 col-xl-8 offset-md-1 offset-lg-0 offset-xl-1 text-left">
+                    <div id="introduction">
+                        <h1 id="introduction" class="anchor">Introduction</h1>
+                        <p style="color: var(--gray);">VIIRS is unique in the recording of near-infrared and short-wave infrared data at night. This includes the M7, M8, and M10 spectral bands. Nighttime M11 data became available in December 2017. With sunlight eliminated, combustion sources are readily detected, particularly in the M10 and M11 bands. The recorded signal can be fully attributed to the combustion source. In our analysis we use data from all of the VIIRS bands collecting data at night. The data from M10, M11, M12 and M13 bands are used to detect combustion sources. To eliminate noise, confirmation is sought in the Day/Night Band (DNB), M7 and M8. Plank curve fitting is performed to estimate the temperature of background and hot sources.<br></p>
+                    </div>
+                    <div id="data_format">
+                        <h1 id="data_format" class="anchor">Data Format</h1>
+                        <p id="legacy_text" style="color: var(--gray-dark);">Nightly VNF data are available in CSV and KMZ format. For KMZ files, it is recommended to use&nbsp;<a href="https://www.google.com/earth/versions/" style="color: var(--blue);" target="_blank"><span style="text-decoration: underline;">Google Earth</span></a>&nbsp;to browse the content.&nbsp;<br><br>The CSV files are compressed in GZIP format. Follow instructions below to decompress them.<br><strong><em>Windows:</em></strong><br>&nbsp; Use&nbsp;<a href="https://www.7-zip.org/" style="color: var(--blue);" target="_blank"><span style="text-decoration: underline;">7-zip</span></a>&nbsp;to unpack .gz file.<br><br><strong><em>Mac OS/Linux:</em></strong><br>&nbsp; Double click on the .gz file to unpack. Or use the command&nbsp;<code>gunzip &lt;file.gz&gt;</code>&nbsp;in command line interface (CLI) to un-compress and extract the GeoTIFF files.<br><br></p>
+                        <h4>Access</h4>
+                        <p>Nightly data is available in <a href="#download" style="color: var(--blue);"><span style="text-decoration: underline;">Download</span></a>&nbsp;section.</p>
+                        <h4>Readme</h4>
+                        <p>There are two types of VNF CSV files, i.e. complete (CSV) and easy (ezCSV). VNF ezCSV, for example v30-ez, has a subset of columns which are useful for most users.<br><br>CSV Readme (<span style="color: rgb(255, 0, 0);">v40</span>) is available&nbsp;<a href="VNF_readme_v40_r20231219.xlsx" style="color: var(--blue);" target="_blank"><span style="text-decoration: underline;">HERE</span></a>.<br>CSV Readme (v35-ez) is available <a href="vnf_readme_v35-ez_r20220517.xlsx" style="color: var(--blue);" target="_blank"><span style="text-decoration: underline;">HERE</span></a>.<br>CSV Readme (v30) is available&nbsp;<a href="vnf_readme_v30_r20211012.xlsx" style="color: var(--blue);" target="_blank"><span style="text-decoration: underline;">HERE</span></a>.<br>CSV Readme (v30-ez) is available&nbsp;<a href="vnf_readme_v30-ez_r20220419.xlsx" style="color: var(--blue);" target="_blank"><span style="text-decoration: underline;">HERE</span></a>.<br>CSV Readme (v21) is available&nbsp;<a href="vnf_readme_v21_r20210312.xlsx" style="color: var(--blue);" target="_blank"><span style="text-decoration: underline;">HERE</span></a>.<br>CSV Readme (v21-ez) is available&nbsp;<a href="vnf_readme_v21-ez_r20210312.xlsx" style="color: var(--blue);" target="_blank"><span style="text-decoration: underline;">HERE</span></a>.</p>
+                        <h4>Sample files</h4>
+                        <p>Users can download sample files below to evaluate their format and content.<br>V30 Full CSV sample file is available&nbsp;<a href="VNF_npp_d20210101_noaa_v30.csv.gz" target="_blank" style="color: var(--blue);"><span style="text-decoration: underline;">HERE</span></a><br>V30 ezCSV sample file is available&nbsp;<a href="VNF_npp_d20210101_noaa_v30-ez.csv.gz" target="_blank" style="color: var(--blue);"><span style="text-decoration: underline;">HERE</span></a></p>
+                        <h4>Why ezCSV?</h4>
+                        <p>Easy CSV (ezCSV) provides all core columns most users find useful, while removing smaller detections to make it match what is shown in the KMZ file. Full CSV contains more columns (see readme for details) and more detections. The ezCSV is a subset of the full CSV, with detections filtered for top-hat or local maximum detections and are free of bow-tie effect.<br><br>See maps below for comparison of records in full CSV (left) and ezCSV (righ).<br>Move the slider bar in the middle to compare the content from different flavors of VNF CSVs.</p>
+                        <h5>Large gas flare near Basra, Iraq (7/21/2021)</h5><!-- Start: iframe --><iframe src="https://eogdata.mines.edu/products/vnf/csv_compare/basra/" width="100%" height="360" style="border: none;overflow: hidden;" scrolling="no" frameborder="0" allowTransparency="true"></iframe><!-- End: iframe -->
+                        <h5>Tamarack Fire near Lake Tahoe, USA (7/21/2021)</h5><!-- Start: iframe --><iframe src="https://eogdata.mines.edu/products/vnf/csv_compare/tamarack/" width="100%" height="360" style="border: none;overflow: hidden;" scrolling="no" frameborder="0" allowTransparency="true"></iframe><!-- End: iframe -->
+                        <p></p>
+                        <h4>KMZ Placemark</h4>
+                        <p>Each VNF detection is given a placemark according to its temperature.</p>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>KMZ Placemark</th>
+                                        <th>Definition</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a class="d-inline-block" href="https://www.google.com/"><img src="http://maps.google.com/mapfiles/marker_white.png"></a></td>
+                                        <td>Non-confirming detection</td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="http://maps.google.com/mapfiles/ms/micons/purple.png"></td>
+                                        <td>400K &lt; T &lt; 1000K</td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="http://maps.google.com/mapfiles/ms/micons/blue.png"></td>
+                                        <td>1000K &lt; T &lt; 1200K</td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="http://maps.google.com/mapfiles/ms/micons/green.png"></td>
+                                        <td>1200K &lt; T &lt; 1400K</td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="http://maps.google.com/mapfiles/ms/micons/yellow.png"></td>
+                                        <td>1400K &lt; T &lt; 1600K</td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="http://maps.google.com/mapfiles/ms/micons/red.png"></td>
+                                        <td>1600K &lt; T &lt; 2500K</td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="http://maps.google.com/mapfiles/ms/micons/orange-dot.png"></td>
+                                        <td>2500K &lt; T</td>
+                                    </tr>
+                                    <tr></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="availability">
+                        <h1 id="availability" class="anchor">Availability</h1>
+                        <p id="legacy_text-1" style="color: var(--gray-dark);">Currently EOG is producing VNF V30 with imagery from both NPP and NOAA-20 (J01) satellites.<br></p>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Version</th>
+                                        <th>Type</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>V21</td>
+                                        <td>KMZ</td>
+                                    </tr>
+                                    <tr>
+                                        <td>V21</td>
+                                        <td>CSV</td>
+                                    </tr>
+                                    <tr>
+                                        <td>V21</td>
+                                        <td>ezCSV</td>
+                                    </tr>
+                                    <tr>
+                                        <td>V30</td>
+                                        <td>KMZ</td>
+                                    </tr>
+                                    <tr>
+                                        <td>V30</td>
+                                        <td>CSV</td>
+                                    </tr>
+                                    <tr>
+                                        <td>V30</td>
+                                        <td>ezCSV</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span style="color: rgb(255, 0, 0);">V40</span></td>
+                                        <td>KMZ</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span style="color: rgb(255, 0, 0);">V40</span></td>
+                                        <td>CSV</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="new_vnl">
+                        <h1 id="download" class="anchor">Download</h1>
+                        <p id="new_text" style="color: var(--gray-dark);">VIIRS Nightfire algorithm had experience multiple upgrades. Currently we are archiving V2.1 derived from two sources, i.e. NOAA GRAVITE and NOAA CLASS. The operational one is V3.0.<br></p>
+                        <div>
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-toggle="tab" href="#v40" style="color: var(--red);">V4.0 (NEW!)</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-toggle="tab" href="#v35">V3.5 (Experimental)</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-toggle="tab" href="#v30">V3.0</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-toggle="tab" href="#v30_nrp">V3.0 (NRP)</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-toggle="tab" href="#v21_gravite">V2.1 (GRAVITE)</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-toggle="tab" href="#v21_class">V2.1 (CLASS)</a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane" role="tabpanel" id="v40">
+                                    <h3 class="subanchor">Nightfire V4.0 (New!)&nbsp;<a class="btn btn-primary" role="button" href="/wwwdata/viirs_products/vnf/v40/rearrange/?C=N;O=D" target="_blank">Data Repository</a></h3><!-- Start: iframe --><iframe src="https://eogdata.mines.edu/wwwdata/iframes/vnf_v40.html" width="100%" height="360" style="border: none;overflow: hidden;" scrolling="yes" frameborder="0" allowTransparency="true"></iframe><!-- End: iframe -->
+                                </div>
+                                <div class="tab-pane" role="tabpanel" id="v35">
+                                    <h3 class="subanchor">Nightfire V3.5&nbsp;<a class="btn btn-primary" role="button" href="/wwwdata/viirs_products/vnf/v35/rearrange/?C=N;O=D" target="_blank">Data Repository</a></h3><!-- Start: iframe --><iframe src="https://eogdata.mines.edu/wwwdata/iframes/vnf_v35.html" width="100%" height="360" style="border: none;overflow: hidden;" scrolling="yes" frameborder="0" allowTransparency="true"></iframe><!-- End: iframe -->
+                                </div>
+                                <div class="tab-pane" role="tabpanel" id="v30">
+                                    <h3 class="subanchor">Nightfire V3.0&nbsp;<a class="btn btn-primary" role="button" href="/wwwdata/viirs_products/vnf/v30/rearrange/?C=N;O=D" target="_blank">Data Repository</a></h3><!-- Start: iframe --><iframe src="https://eogdata.mines.edu/wwwdata/iframes/vnf_v30.html" width="100%" height="360" style="border: none;overflow: hidden;" scrolling="yes" frameborder="0" allowTransparency="true"></iframe><!-- End: iframe -->
+                                </div>
+                                <div class="tab-pane active" role="tabpanel" id="v30_nrp">
+                                    <h3 class="subanchor">Nightfire V3.0 (NRP)&nbsp;<a class="btn btn-primary" role="button" href="/wwwdata/viirs_products/vnf/v30_nrp/rearrange/?C=N;O=D" target="_blank">Data Repository</a></h3><!-- Start: iframe --><iframe src="https://eogdata.mines.edu/wwwdata/iframes/vnf_v30_nrp.html" width="100%" height="360" style="border: none;overflow: hidden;" scrolling="yes" frameborder="0" allowTransparency="true"></iframe><!-- End: iframe -->
+                                </div>
+                                <div class="tab-pane" role="tabpanel" id="v21_gravite">
+                                    <h3 class="subanchor">Nightfire V2.1 (GRAVITE)</h3><!-- Start: iframe --><iframe src="/wwwdata/iframes/vnf_v21_gravite.html" width="100%" height="360" style="border: none;overflow: hidden;" scrolling="yes" frameborder="0" allowTransparency="true"></iframe><!-- End: iframe -->
+                                </div>
+                                <div class="tab-pane" role="tabpanel" id="v21_class">
+                                    <h3 class="subanchor">Nightfire V2.1 (CLASS)<br></h3><!-- Start: iframe --><iframe src="/wwwdata/iframes/vnf_v21_class.html" width="100%" height="360" style="border: none;overflow: hidden;" scrolling="yes" frameborder="0" allowTransparency="true"></iframe><!-- End: iframe -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="daily_vnl">
+                        <h1 id="special_studies" class="anchor">Special Studies</h1>
+                        <h2>Annual Global Gas Flare Analysis</h2>
+                        <p>EOG have developed a set of methods for the global survey of natural gas flaring using VIIRS data. The original development was conducted with data from 2012. This has now been expanded to 2019.&nbsp;<br></p><a class="btn btn-primary" role="button" href="global_gas_flare.html" target="_blank" style="margin: 10px;">Visit Page</a>
+                        <div class="card" style="border-style: none;">
+                            <!-- Start: Responsive Left Image Card -->
+                            <div class="row" style="margin: 30px;padding: 5px;">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4" style="background: url(&quot;../assets/img/flare_web_app_thumbnail.png&quot;);">
+                                    <div style="background: url(&quot;../assets/img/flare_web_app_thumbnail.png&quot;) center / cover no-repeat;"></div>
+                                </div>
+                                <div class="w-100 d-sm-block d-md-none d-lg-none d-xl-none"></div>
+                                <div class="col">
+                                    <div class="card">
+                                        <div class="card-body" style="height: 218.781px;">
+                                            <h4 class="card-title">Gas Flare Global Catalog 2020<br></h4>
+                                            <h6 class="text-muted card-subtitle mb-2">A web map application<br></h6>
+                                            <p class="card-text">Explore gas flares identified in 2020 and their historical records around the globe.<br></p><a class="card-link" href="https://eogdata.mines.edu/global_flare_data/app/" target="_blank" style="color: var(--blue);"><span style="text-decoration: underline;">Take me to the map</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- End: Responsive Left Image Card -->
+                        </div>
+                        <h2>Legacy DMSP Global Gas Flare Analysis</h2>
+                        <p>Prior to VIIRS, EOG had used DMSP-OLS to estimate the global gas flaring volume.<br></p><a class="btn btn-primary" role="button" href="https://eogdata.mines.edu/dmsp/gas_flares.html" target="_blank" style="margin: 10px;">Visit Page</a>
+                    </div>
+                    <div id="movie-1">
+                        <h1 id="temporal_loop" class="anchor" style="padding-top: 50px;">Temporal Loops</h1>
+                        <p id="movie_text" style="color: var(--gray-dark);">Check out the movie loops EOG made for different regions of interest showcasing changes of VNF over time.</p>
+                    </div>
+                    <div id="vnf-1">
+                        <h1 id="vnf_movie" class="anchor" style="font-size: 25px;padding-top: 10px;">VIIRS Night Fire Movie Loops</h1>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Permian Basin Monthly from 2012 to 2022 (with number of detections)</td>
+                                        <td style="padding: 5px;width: 129.625px;"><a class="btn btn-primary" role="button" href="https://eogdata.mines.edu/movie_loops/permian_vnf_movie_loop/permian_vnf_monthly.html" target="_blank">Open</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="credit">
+                        <h1 id="credit" class="anchor" style="padding-top: 50px;">Credit</h1>
+                        <p id="credit_text" style="color: var(--gray-dark);">When using the data please credit the product generation to the Earth Observation Group, Payne Institute for Public Policy, with proper citations as below.</p>
+                        <ul style="color: var(--gray-dark);">
+                            <li style="color: var(--gray-dark);">Elvidge, Christopher D., Mikhail Zhizhin, Feng-Chi Hsu, and Kimberly E. Baugh. “VIIRS nightfire: Satellite pyrometry at night.”&nbsp;<em>Remote Sensing</em>&nbsp;5, no. 9 (2013): 4423-4449.<br></li>
+                        </ul>
+                    </div>
+                    <div id="usecase">
+                        <h1 id="partners" class="anchor">Partners</h1>
+                        <div class="card-columns">
+                            <div class="card"><img class="card-img-top w-100 d-block" src="../assets/img/NASA-Logo-Large.png" style="padding: 20px;">
+                                <div class="card-body">
+                                    <h4 class="card-title">NASA</h4>
+                                    <p class="card-text">National Aeronautics and Space Administration</p>
+                                </div>
+                            </div>
+                            <div class="card"><img class="card-img-top w-100 d-block" src="../assets/img/noaa.webp" style="padding: 20px;">
+                                <div class="card-body">
+                                    <h4 class="card-title">NOAA</h4>
+                                    <p class="card-text">National Oceanic and Atmospheric Administration</p>
+                                </div>
+                            </div>
+                            <div class="card"><img class="card-img-top w-100 d-block" src="../assets/img/ogci.webp" style="padding: 20px;">
+                                <div class="card-body">
+                                    <h4 class="card-title">OGCI</h4>
+                                    <p class="card-text">Oil and Gas Climate Initiative</p>
+                                </div>
+                            </div>
+                            <div class="card"><img class="card-img-top w-100 d-block" src="../assets/img/skytruth-logo.png" style="padding: 20px;">
+                                <div class="card-body">
+                                    <h4 class="card-title">SkyTruth</h4>
+                                    <p class="card-text">Satellite-Detected Natural Gas Flaring<br></p><a class="btn btn-primary" role="button" href="https://skytruth.org/flaring/" target="_blank">Link</a>
+                                </div>
+                            </div>
+                            <div class="card"><img class="card-img-top w-100 d-block" src="../assets/img/world-bank-group-logo.svg" style="padding: 20px;">
+                                <div class="card-body">
+                                    <h4 class="card-title">The World Bank</h4>
+                                    <p class="card-text">Global Gas Flaring Reduction Partnership (GGFR)<br></p><a class="btn btn-primary" role="button" href="https://www.worldbank.org/en/programs/gasflaringreduction" target="_blank">Link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xl-2 offset-xl-0">
+                    <!-- Start: Navigation Clean -->
+                    <nav class="navbar navbar-light navbar-expand-md sticky-top navigation-clean sidebar" id="sbar" style="margin-right: -29px;">
+                        <div class="container">
+                            <div class="collapse navbar-collapse" id="sbar">
+                                <ul class="navbar-nav flex-column ml-auto" id="sbar">
+                                    <li class="nav-item"><a class="nav-link active" href="#introduction">Introduction</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#data_format">Data Format</a></li>
+                                    <li class="nav-item"><a class="nav-link spy" href="#availability">Availability</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#download">Download</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#special_studies">Special Studies</a></li>
+                                    <li class="nav-item"></li>
+                                    <li class="nav-item"></li>
+                                    <li class="nav-item"></li>
+                                    <li class="nav-item"></li>
+                                    <li class="nav-item"><a class="nav-link" href="#temporal_loop">Temporal Loops</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#credit">Credit</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#partners">Partners</a></li>
+                                    <li class="nav-item"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav><!-- End: Navigation Clean -->
+                </div>
+            </div>
+        </div>
+    </div><!-- End: Sidebar -->
+    <!-- Start: Footer Basic -->
+    <div class="footer-basic">
+        <footer>
+            <!-- Start: Links -->
+            <ul class="list-inline">
+                <li class="list-inline-item"></li>
+            </ul><!-- End: Links -->
+            <!-- Start: Copyright -->
+            <p class="copyright">Earth Observation Group © 2021</p><!-- End: Copyright -->
+        </footer>
+    </div><!-- End: Footer Basic -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/js/bs-init.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="../assets/js/dropdown-search-bs4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="../assets/js/Simple-Slider.js"></script>
+    <script src="../assets/js/Ultimate-Testimonial-Slider-BS4-Updated.js"></script>
+</body>
+
+</html>

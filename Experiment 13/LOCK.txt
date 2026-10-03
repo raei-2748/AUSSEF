@@ -1,0 +1,6 @@
+Experiment 13 lock, 2026-10-02T22:34:20. SHA-256 of PRESPEC.md (first line) and of the code as frozen with it.
+840d4f42fca1bc18d1b7d18e16dedf99294df971194e290eb1b9d2dd1ef7298c  PRESPEC.md
+b8ac9ee6b649600dce948b4d55e32b9ced491c315405d6b91624fdd312945831  e13lib.py
+61fa0f086e46759da95a4ee5d7b6490b8e2ca19487ca6d444418d2c0e4c6b56f  run_channels.py
+898d40ab8b6ff3a89c1548a1fc74a4538ab9be742d1b4e2fe49ae081e38209e1  income_ato/build_ato.py
+ff756a702f39110f33007ba3173bc6de67ac0aed266c45896d37e5046a59d2e0  exposure/build_exposure.py

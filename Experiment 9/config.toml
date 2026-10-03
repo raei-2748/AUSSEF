@@ -1,0 +1,134 @@
+# Experiment 9 config: the ONLY place pillar indicators, weights, X variables and model settings live.
+#
+# To add a new IL / FP / SL indicator later (e.g. from the Experiment 8 mechanism review):
+#   1. Put its values in a CSV keyed by agrn + region_id (one row per master row).
+#   2. Add one [[indicator]] block below with source = "csv", path = that file, and its column(s).
+#   3. Bump [meta].version, write a short addendum to PRESPEC.md (labelled as a deviation / new version),
+#      re-run lock.py, then run the pipeline. No code changes needed.
+#
+# Each indicator becomes a 0-1 percentile rank across the master rows (1 = worst), after multiplying by `sign`
+# (+1 = higher raw value is worse, -1 = lower is worse). If `columns` has several entries, their row mean is ranked.
+# A pillar = mean of its indicators' ranks (over the ones present for that row).
+# Y = weighted mean of the pillars present for that row (weights re-normalised over present pillars),
+# the same rule the workbook uses.
+
+[meta]
+version = "3"
+seed = 20261002
+
+[sources]
+dl_filled = "../Experiment 6/followups/dl_fill/DL_FILLED.csv"
+council_items = "../Experiment 6/results/COUNCIL_ITEMS_v2.csv"
+affected = "../fire_event_dataset/data/enrich/affected_pop_event_council.parquet"
+v3 = "inputs/v3_indicators.csv"
+# master workbook: path and reader come from ../Experiment 7/build_y2.py load()
+
+# ---------------------------------------------------------------- Y_comp pillar indicators (main Y) — v3
+# v3 (PRESPEC Addendum v3): fire-matched indicators chosen from the Experiment 8 mechanism ranking.
+# v1 indicator blocks are kept in config_v1.toml.
+
+[[indicator]]
+pillar = "DL"
+name = "homes_destroyed_per_1000_dwellings_v2"
+source = "dl_filled"
+columns = ["homes_per_1000_v2_inferred"]
+sign = 1
+
+[[indicator]]
+pillar = "IL"
+name = "IL1_tourism_traffic_fall_excess"
+source = "v3"
+columns = ["IL1_traffic_excess"]
+sign = -1
+
+[[indicator]]
+pillar = "IL"
+name = "IL2_income_affected_sa2_excess"
+source = "v3"
+columns = ["IL2_income_affected_excess"]
+sign = -1
+
+[[indicator]]
+pillar = "IL"
+name = "IL3_business_affected_sa2_excess"
+source = "v3"
+columns = ["IL3_business_affected_excess"]
+sign = -1
+
+[[indicator]]
+pillar = "FP"
+name = "FP1_grants_per_capita_rise_excess"
+source = "master"
+columns = ["FP_grants_per_capita_change_plus1_excess"]
+sign = 1
+
+[[indicator]]
+pillar = "FP"
+name = "FP2_fire_grant_jump_excess"
+source = "v3"
+columns = ["FP2_fire_grant_jump_excess"]
+sign = 1
+
+[[indicator]]
+pillar = "FP"
+name = "FP3_capex_jump_excess"
+source = "v3"
+columns = ["FP3_capex_jump_excess"]
+sign = 1
+
+[[indicator]]
+pillar = "FP"
+name = "FP4_cash_cover_drawdown_excess_t_t1"
+source = "master"
+columns = ["FP_cash_cover_change_event_excess", "FP_cash_cover_change_plus1_excess"]
+sign = -1
+
+[[indicator]]
+pillar = "SL"
+name = "SL1_rent_rise_excess"
+source = "master"
+columns = ["SL_rent_change_excess_pct"]
+sign = 1
+
+[[indicator]]
+pillar = "SL"
+name = "SL2_domestic_violence_rise_excess"
+source = "v3"
+columns = ["SL2_dv_excess"]
+sign = 1
+
+[[indicator]]
+pillar = "SL"
+name = "SL3_rebuild_gap"
+source = "v3"
+columns = ["SL3_rebuild_gap"]
+sign = 1
+
+# ---------------------------------------------------------------- weights (order DL, IL, FP, SL)
+[weights]
+main = "equal"
+equal = [0.25, 0.25, 0.25, 0.25]
+class_note = [0.35, 0.25, 0.30, 0.10]   # Ray's class note
+deck = [0.30, 0.25, 0.25, 0.20]         # mentor policy deck
+# "entropy" weights are computed from the data (rows with all four pillars); see PRESPEC.md
+
+# ---------------------------------------------------------------- X sets
+[x]
+pre = ["H", "E2", "V", "F", "X23"]
+fire = ["log_share", "peak_ffdi", "severity_high_extreme", "log_homes_in_fire_per_1000", "log_homes_within_1km_per_1000"]
+
+# ---------------------------------------------------------------- models and validation
+[rf]
+n_estimators = 500
+max_features = 0.3333    # p/3 for regression (Bowen, 27 Sep)
+min_samples_leaf = 5
+
+[ridge]
+alphas = [0.001, 0.00316, 0.01, 0.0316, 0.1, 0.316, 1.0, 3.16, 10.0, 31.6, 100.0, 316.0, 1000.0]
+
+[validation]
+council_folds = 5
+n_boot = 2000
+perm_repeats = 30
+shuffle_main = 200
+shuffle_pillar = 100

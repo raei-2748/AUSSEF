@@ -1,0 +1,33 @@
+DL_FILLED join: rows 218 missing 83 | max diff vs ANALYSIS_TABLE: 0.0 | NaN mismatch: 0
+         item    n  n_built  nan_mismatch  max_abs_diff
+0         DL1  135      135             0  1.110223e-16
+1         IL2  112      112             0  1.110223e-16
+2         IL3  167      167             0  1.110223e-16
+3         FP1  199      199             0  1.110223e-16
+4         FP2   51       51             0  1.110223e-16
+5         FP3   52       52             0  1.110223e-16
+6         FP4  199      199             0  1.110223e-16
+7         SL1  183      183             0  1.110223e-16
+8         SL2  216      216             0  1.110223e-16
+9         SL3   27       27             0  8.326673e-17
+10        SL4  140      140             0  1.110223e-16
+11  pillar DL  135      135             0  1.110223e-16
+12  pillar IL  177      177             0  1.110223e-16
+13  pillar FP  199      199             0  1.110223e-16
+14  pillar SL  218      218             0  8.326673e-17
+15       Y_v4  218      218             0  5.551115e-17
+pillars present per row: {1: 13, 2: 25, 3: 54, 4: 126}
+Y_v4 describe: {'count': 218.0, 'mean': 0.501, 'std': 0.134, 'min': 0.181, '25%': 0.413, '50%': 0.492, '75%': 0.589, 'max': 0.871}
+10 example rows:
+                      agrn          region_name  mine_Y_v4  built_Y_v4
+0                    1052    Bathurst Regional   0.437031    0.437031
+22                   1056  Upper Lachlan Shire   0.583522    0.583522
+44                   1090        Port Stephens   0.548819    0.548819
+66                   1189            Singleton   0.689303    0.689303
+88                    820          Bega Valley   0.574715    0.574715
+110                   867         Muswellbrook   0.582307    0.582307
+132                   871          Ku-ring-gai   0.435653    0.435653
+154                   871                Tweed   0.478921    0.478921
+176            NSW1718-09               Gwydir   0.575131    0.575131
+198  RAA-raa_2015_p15_r01             Narrabri   0.459647    0.459647
+Spearman Y_v4 vs log_homes_in_fire_per_1000: 0.402

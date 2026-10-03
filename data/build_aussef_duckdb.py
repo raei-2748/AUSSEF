@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """Build the canonical AUSSEF DuckDB database.
 
-The builder reads only cleaned, structured CSV inputs declared in ``INPUTS``.
-It never edits or copies raw source files.  The database is rebuilt atomically
-at ``data/aussef.duckdb`` and contains normalized master tables plus
-experiment views.  Stable entity identifiers are deterministic hashes of the
-exact source labels/identifiers that were observed; no fuzzy council,
-disaster, or project merge is inferred here.
+Every declared CSV input is retained twice for deliberately different uses:
+``raw`` contains a text-preserving landing copy and ``master`` contains the
+cleaned, typed research model.  Original PDFs, HTML files and downloads remain
+external files, but the registered local evidence files are hash-verified on
+every build.  The database is rebuilt atomically at ``data/aussef.duckdb`` and
+experiment products remain views over ``master``.  Stable entity identifiers
+are deterministic hashes of exact observed labels/identifiers; no fuzzy
+council, disaster, or project merge is inferred here.
 
 The standalone DuckDB CLI is used instead of the Python duckdb package so the
 build can run in the current macOS workspace.
@@ -83,6 +85,41 @@ INPUTS: tuple[InputSpec, ...] = (
     InputSpec("legacy_payment_timing", "aussef_duckdb/source_tables/payment_timing_evidence.csv", "legacy_master", "payment timing evidence"),
     InputSpec("legacy_treatment", "aussef_duckdb/source_tables/treatment_roster.csv", "legacy_master", "provisional treatment roster"),
 )
+
+# These source and audit datasets are retained verbatim in ``raw`` but are not
+# promoted into ``master``.  Promotion requires an explicit data contract and
+# validation; merely landing a file must never imply that it is model-ready.
+RAW_ONLY_INPUTS: tuple[InputSpec, ...] = (
+    InputSpec("e4ba_budget_events", "Experiment 4B-A/data/budget_events.csv", "raw_only", "Experiment 4B-A budget-event evidence"),
+    InputSpec("e4ba_contract_events", "Experiment 4B-A/data/contract_events.csv", "raw_only", "Experiment 4B-A contract-event evidence"),
+    InputSpec("e4ba_data_inventory_files", "Experiment 4B-A/data/data_inventory_files.csv", "raw_only", "Experiment 4B-A file inventory"),
+    InputSpec("e4ba_data_inventory_tables", "Experiment 4B-A/data/data_inventory_tables.csv", "raw_only", "Experiment 4B-A table inventory"),
+    InputSpec("e4ba_disaster_exposure", "Experiment 4B-A/data/disaster_exposure.csv", "raw_only", "Experiment 4B-A disaster exposure evidence"),
+    InputSpec("e4ba_frozen_cohort", "Experiment 4B-A/data/frozen_northern_rivers_cohort.csv", "raw_only", "Experiment 4B-A frozen project cohort"),
+    InputSpec("e4ba_identity_links", "Experiment 4B-A/data/identity_links.csv", "raw_only", "Experiment 4B-A project identity links"),
+    InputSpec("e4ba_project_audit_ledger", "Experiment 4B-A/data/project_audit_ledger.csv", "raw_only", "Experiment 4B-A project audit ledger"),
+    InputSpec("e4ba_project_mentions", "Experiment 4B-A/data/project_mentions.csv", "raw_only", "Experiment 4B-A project mentions"),
+    InputSpec("e4ba_schedule_events", "Experiment 4B-A/data/schedule_events.csv", "raw_only", "Experiment 4B-A schedule-event evidence"),
+    InputSpec("e4ba_search_log", "Experiment 4B-A/data/search_log.csv", "raw_only", "Experiment 4B-A search log"),
+    InputSpec("e4ba_source_documents", "Experiment 4B-A/data/source_documents.csv", "raw_only", "Experiment 4B-A source-document register"),
+    InputSpec("e4ba_staging_source_files", "Experiment 4B-A/data/staging_source_files.csv", "raw_only", "Experiment 4B-A staging file register"),
+    InputSpec("e4ba_staging_structured_rows", "Experiment 4B-A/data/staging_structured_rows.csv", "raw_only", "Experiment 4B-A staging structured-row register"),
+    InputSpec("e4ba_status_events", "Experiment 4B-A/data/status_events.csv", "raw_only", "Experiment 4B-A status-event evidence"),
+    InputSpec("manual_global_mobility", "data/Manual/Global_Mobility_Report.csv", "raw_only", "Google COVID-19 Community Mobility source extract"),
+    InputSpec("manual_traffic_volume_viewer", "data/Manual/Traffic_Volume_Viewer_-_Data_for_All_Years.csv", "raw_only", "NSW Traffic Volume Viewer all-years extract"),
+    InputSpec("manual_traffic_hourly_sample_0", "data/Manual/road_traffic_counts_hourly_sample_0.csv", "raw_only", "NSW hourly road-traffic sample extract"),
+    InputSpec("manual_traffic_station_reference", "data/Manual/road_traffic_counts_station_reference.csv", "raw_only", "NSW road-traffic station reference"),
+    InputSpec("manual_traffic_hourly_permanent_0", "data/Manual/road_traffic_counts_hourly_permanent/road_traffic_counts_hourly_permanent0.csv", "raw_only", "NSW permanent hourly road-traffic extract part 0"),
+    InputSpec("manual_traffic_hourly_permanent_1", "data/Manual/road_traffic_counts_hourly_permanent/road_traffic_counts_hourly_permanent1.csv", "raw_only", "NSW permanent hourly road-traffic extract part 1"),
+    InputSpec("manual_traffic_hourly_permanent_2", "data/Manual/road_traffic_counts_hourly_permanent/road_traffic_counts_hourly_permanent2.csv", "raw_only", "NSW permanent hourly road-traffic extract part 2"),
+    InputSpec("manual_traffic_hourly_permanent_3", "data/Manual/road_traffic_counts_hourly_permanent/road_traffic_counts_hourly_permanent3.csv", "raw_only", "NSW permanent hourly road-traffic extract part 3"),
+    InputSpec("manual_traffic_hourly_permanent_4", "data/Manual/road_traffic_counts_hourly_permanent/road_traffic_counts_hourly_permanent4.csv", "raw_only", "NSW permanent hourly road-traffic extract part 4"),
+)
+
+ALL_INPUTS: tuple[InputSpec, ...] = INPUTS + RAW_ONLY_INPUTS
+
+DATASET_EXTENSIONS = frozenset({".csv", ".tsv", ".xlsx", ".xls", ".parquet", ".json", ".geojson", ".sqlite", ".duckdb", ".pbf"})
+INVENTORY_EXCLUDED_PARTS = frozenset({".git", ".venv", ".quarto", ".vscode", ".dvc", "__pycache__", ".ipynb_checkpoints", "_freeze"})
 
 MASTER_TABLES = (
     "councils",
@@ -168,6 +205,98 @@ def csv_profile(path: Path, root: Path) -> dict[str, object]:
     }
 
 
+def repository_dataset_inventory(
+    project_root: Path,
+    database: Path,
+    profiles: dict[str, dict[str, object]],
+    source_file_audit: dict[str, object],
+) -> list[dict[str, object]]:
+    """Catalog structured repository files without promoting derived outputs.
+
+    The inventory is deliberately broader than the canonical inputs.  It makes
+    omissions visible while keeping snapshots, model outputs and historical
+    stores out of the source-preserving landing layer.
+    """
+
+    declared = {spec.relative_path: spec for spec in ALL_INPUTS}
+    registered = {str(row["relative_path"]) for row in source_file_audit["files"]}
+    database_relative = None
+    try:
+        database_relative = str(database.relative_to(project_root))
+    except ValueError:
+        pass
+
+    rows: list[dict[str, object]] = []
+    for path in sorted(project_root.rglob("*")):
+        if not path.is_file() or path.suffix.lower() not in DATASET_EXTENSIONS:
+            continue
+        if any(part in INVENTORY_EXCLUDED_PARTS for part in path.relative_to(project_root).parts):
+            continue
+        relative_path = str(path.relative_to(project_root))
+        if relative_path == database_relative or relative_path.endswith(".building"):
+            continue
+
+        spec = declared.get(relative_path)
+        path_lower = "/" + relative_path.lower()
+        if spec is not None:
+            inclusion_status = "loaded_raw_and_master_source" if spec in INPUTS else "loaded_raw_only"
+            dataset_class = "canonical_input" if spec in INPUTS else "source_or_audit_input"
+            raw_table_name = spec.stage_name
+            row_count = int(profiles[spec.stage_name]["rows"])
+            sha256 = str(profiles[spec.stage_name]["sha256"])
+            note = spec.description
+        elif relative_path in registered:
+            inclusion_status = "registered_external_evidence"
+            dataset_class = "source_evidence"
+            raw_table_name = None
+            row_count = None
+            sha256 = sha256_file(path)
+            note = "registered and hash-verified; exact file bytes embedded in archive"
+        elif "/snapshot/" in path_lower or "/backups/" in path_lower or path.suffix.lower() in {".sqlite", ".duckdb"}:
+            inclusion_status = "catalogued_not_loaded"
+            dataset_class = "historical_snapshot_or_store"
+            raw_table_name = None
+            row_count = None
+            sha256 = sha256_file(path)
+            note = "historical snapshot/store embedded in archive, not promoted as a canonical input"
+        elif "/results/" in path_lower or "/audit/" in path_lower or "/checks/" in path_lower or path_lower.startswith("/generated/") or "/parquet/" in path_lower or "/graphify-out/" in path_lower:
+            inclusion_status = "catalogued_not_loaded"
+            dataset_class = "derived_or_audit_output"
+            raw_table_name = None
+            row_count = None
+            sha256 = sha256_file(path)
+            note = "derived/audit output embedded in archive without promoting it into raw"
+        elif path_lower.startswith("/data/manual/"):
+            inclusion_status = "catalogued_not_loaded"
+            dataset_class = "external_source_non_csv"
+            raw_table_name = None
+            row_count = None
+            sha256 = sha256_file(path)
+            note = "external source format embedded in archive; use a validated format-specific loader before analysis"
+        else:
+            inclusion_status = "catalogued_not_loaded"
+            dataset_class = "unpromoted_structured_file"
+            raw_table_name = None
+            row_count = None
+            sha256 = sha256_file(path)
+            note = "structured file embedded in archive but has no approved canonical data contract"
+
+        rows.append(
+            {
+                "relative_path": relative_path,
+                "file_format": path.suffix.lower().lstrip("."),
+                "byte_size": path.stat().st_size,
+                "dataset_class": dataset_class,
+                "inclusion_status": inclusion_status,
+                "raw_table_name": raw_table_name,
+                "row_count_if_profiled": row_count,
+                "sha256_if_verified": sha256,
+                "note": note,
+            }
+        )
+    return rows
+
+
 def find_duckdb(explicit: str | None) -> Path:
     candidates: list[Path] = []
     if explicit:
@@ -216,7 +345,7 @@ def values_sql(rows: Iterable[Iterable[object]]) -> str:
 
 def input_manifest_sql(profiles: dict[str, dict[str, object]]) -> str:
     rows = []
-    for spec in INPUTS:
+    for spec in ALL_INPUTS:
         profile = profiles[spec.stage_name]
         input_key = "input_" + str(profile["sha256"])
         rows.append(
@@ -238,6 +367,41 @@ def input_manifest_sql(profiles: dict[str, dict[str, object]]) -> str:
     )
 
 
+def registered_source_file_audit(project_root: Path) -> dict[str, object]:
+    """Verify every local evidence file named by the Experiment 4 registry."""
+
+    registry = project_root / "Experiment 4/data/sources.csv"
+    rows: list[dict[str, object]] = []
+    with registry.open("r", encoding="utf-8-sig", newline="") as handle:
+        for record in csv.DictReader(handle):
+            relative_path = (record.get("local_file") or "").strip()
+            expected_sha256 = (record.get("sha256") or "").strip()
+            if not relative_path:
+                continue
+            path = project_root / relative_path
+            exists = path.is_file()
+            actual_sha256 = sha256_file(path) if exists else None
+            rows.append(
+                {
+                    "source_id": record.get("source_id"),
+                    "relative_path": relative_path,
+                    "expected_sha256": expected_sha256 or None,
+                    "actual_sha256": actual_sha256,
+                    "byte_size": path.stat().st_size if exists else None,
+                    "exists": exists,
+                    "hash_matches": bool(exists and expected_sha256 and actual_sha256 == expected_sha256),
+                }
+            )
+    return {
+        "registered_local_files": len(rows),
+        "existing_local_files": sum(bool(row["exists"]) for row in rows),
+        "hash_verified_files": sum(bool(row["hash_matches"]) for row in rows),
+        "missing_files": [row["relative_path"] for row in rows if not row["exists"]],
+        "hash_mismatches": [row["relative_path"] for row in rows if row["exists"] and not row["hash_matches"]],
+        "files": rows,
+    }
+
+
 def input_key(profiles: dict[str, dict[str, object]], stage_name: str) -> str:
     return "input_" + str(profiles[stage_name]["sha256"])
 
@@ -246,7 +410,12 @@ def source_row_key_sql(key: str, alias: str = "s") -> str:
     return f"{sql_string(key)} || ':row:' || CAST({alias}.source_row_number AS VARCHAR)"
 
 
-def build_sql(profiles: dict[str, dict[str, object]]) -> str:
+def build_sql(
+    profiles: dict[str, dict[str, object]],
+    source_file_audit: dict[str, object],
+    dataset_inventory: list[dict[str, object]],
+    project_root: Path = PROJECT_ROOT,
+) -> str:
     e4_councils = input_key(profiles, "e4_councils")
     e4_sources = input_key(profiles, "e4_sources")
     e4_fiscal = input_key(profiles, "e4_fiscal_annual")
@@ -292,11 +461,15 @@ def build_sql(profiles: dict[str, dict[str, object]]) -> str:
         "DROP SCHEMA IF EXISTS provenance CASCADE;",
         "DROP SCHEMA IF EXISTS experiments CASCADE;",
         "DROP SCHEMA IF EXISTS metadata CASCADE;",
+        "DROP SCHEMA IF EXISTS archive CASCADE;",
+        "DROP SCHEMA IF EXISTS raw CASCADE;",
         "DROP SCHEMA IF EXISTS stage CASCADE;",
+        "CREATE SCHEMA raw;",
         "CREATE SCHEMA master;",
         "CREATE SCHEMA provenance;",
         "CREATE SCHEMA experiments;",
         "CREATE SCHEMA metadata;",
+        "CREATE SCHEMA archive;",
         "CREATE SCHEMA stage;",
         "CREATE OR REPLACE MACRO norm_name(v) AS regexp_replace(lower(trim(coalesce(CAST(v AS VARCHAR), ''))), '[^a-z0-9]+', '_', 'g');",
         "CREATE OR REPLACE MACRO council_id_for(v) AS CASE WHEN nullif(norm_name(v), '') IS NULL THEN NULL ELSE 'council_' || md5(norm_name(v)) END;",
@@ -304,8 +477,21 @@ def build_sql(profiles: dict[str, dict[str, object]]) -> str:
         input_manifest_sql(profiles),
     ]
 
+    for spec in ALL_INPUTS:
+        path = project_root / spec.relative_path
+        source_key = input_key(profiles, spec.stage_name)
+        statements.append(
+            "CREATE OR REPLACE TABLE raw."
+            + sql_identifier(spec.stage_name)
+            + " AS SELECT row_number() OVER ()::BIGINT AS source_row_number, "
+            + sql_string(source_key)
+            + "::VARCHAR AS source_key, * FROM read_csv_auto("
+            + sql_string(path)
+            + ", header=true, sample_size=-1, all_varchar=true, nullstr='__AUSSEF_NO_NULL_SENTINEL__', ignore_errors=false);"
+        )
+
     for spec in INPUTS:
-        path = PROJECT_ROOT / spec.relative_path
+        path = project_root / spec.relative_path
         statements.append(
             "CREATE OR REPLACE TABLE stage."
             + sql_identifier(spec.stage_name)
@@ -313,6 +499,117 @@ def build_sql(profiles: dict[str, dict[str, object]]) -> str:
             + sql_string(path)
             + ", header=true, sample_size=-1, ignore_errors=false);"
         )
+
+    raw_manifest_selects = []
+    for spec in ALL_INPUTS:
+        profile = profiles[spec.stage_name]
+        raw_manifest_selects.append(
+            "SELECT "
+            + sql_string(spec.stage_name)
+            + " AS table_name, "
+            + sql_string(spec.relative_path)
+            + " AS relative_path, "
+            + sql_string(profile["sha256"])
+            + " AS source_sha256, "
+            + str(profile["rows"])
+            + "::BIGINT AS source_row_count, "
+            + str(len(profile["columns"]))
+            + "::BIGINT AS source_column_count, (SELECT count(*) FROM raw."
+            + sql_identifier(spec.stage_name)
+            + ")::BIGINT AS stored_row_count, 'all source columns retained as VARCHAR; source_row_number and source_key added' AS preservation_policy"
+        )
+    statements.append(
+        "CREATE OR REPLACE TABLE raw.table_manifest AS\n"
+        + "\nUNION ALL\n".join(raw_manifest_selects)
+        + ";"
+    )
+    source_file_rows = [
+        (
+            row["source_id"],
+            row["relative_path"],
+            row["expected_sha256"],
+            row["actual_sha256"],
+            row["byte_size"],
+            row["exists"],
+            row["hash_matches"],
+        )
+        for row in source_file_audit["files"]
+    ]
+    statements.append(
+        "CREATE OR REPLACE TABLE raw.registered_source_files AS SELECT * FROM (VALUES\n"
+        + values_sql(source_file_rows)
+        + ") AS f(source_id, relative_path, expected_sha256, actual_sha256, byte_size, file_exists, hash_matches);"
+    )
+
+    inventory_rows = [
+        (
+            row["relative_path"],
+            row["file_format"],
+            row["byte_size"],
+            row["dataset_class"],
+            row["inclusion_status"],
+            row["raw_table_name"],
+            row["row_count_if_profiled"],
+            row["sha256_if_verified"],
+            row["note"],
+        )
+        for row in dataset_inventory
+    ]
+    statements.append(
+        "CREATE OR REPLACE TABLE metadata.dataset_inventory AS SELECT "
+        "CAST(relative_path AS VARCHAR) AS relative_path, CAST(file_format AS VARCHAR) AS file_format, "
+        "CAST(byte_size AS HUGEINT) AS byte_size, CAST(dataset_class AS VARCHAR) AS dataset_class, "
+        "CAST(inclusion_status AS VARCHAR) AS inclusion_status, CAST(raw_table_name AS VARCHAR) AS raw_table_name, "
+        "CAST(row_count_if_profiled AS HUGEINT) AS row_count_if_profiled, CAST(sha256_if_verified AS VARCHAR) AS sha256_if_verified, "
+        "CAST(note AS VARCHAR) AS note FROM (VALUES\n"
+        + values_sql(inventory_rows)
+        + ") AS d(relative_path, file_format, byte_size, dataset_class, inclusion_status, raw_table_name, row_count_if_profiled, sha256_if_verified, note);"
+    )
+
+    archived_paths = [
+        str(project_root / str(row["relative_path"]))
+        for row in dataset_inventory
+        if row["inclusion_status"] not in {"loaded_raw_and_master_source", "loaded_raw_only"}
+    ]
+    if archived_paths:
+        statements.append(
+            "CREATE OR REPLACE TABLE archive.structured_file_blobs AS SELECT "
+            + "replace(filename, "
+            + sql_string(str(project_root) + "/")
+            + ", '')::VARCHAR AS relative_path, content, size::UBIGINT AS byte_size, "
+            + "last_modified, sha256(content)::VARCHAR AS embedded_sha256 FROM read_blob(["
+            + ", ".join(sql_string(path) for path in archived_paths)
+            + "]) ORDER BY relative_path;"
+        )
+    else:
+        statements.append(
+            "CREATE OR REPLACE TABLE archive.structured_file_blobs(relative_path VARCHAR, content BLOB, byte_size UBIGINT, last_modified TIMESTAMP WITH TIME ZONE, embedded_sha256 VARCHAR);"
+        )
+    statements.append(
+        """
+        CREATE OR REPLACE TABLE archive.structured_file_manifest AS
+        SELECT
+            i.relative_path,
+            i.file_format,
+            i.byte_size AS source_byte_size,
+            i.dataset_class,
+            i.inclusion_status,
+            i.raw_table_name,
+            i.row_count_if_profiled,
+            i.sha256_if_verified AS source_sha256,
+            b.byte_size AS embedded_byte_size,
+            b.embedded_sha256,
+            CASE
+                WHEN i.inclusion_status IN ('loaded_raw_and_master_source', 'loaded_raw_only') THEN 'queryable_raw_table'
+                WHEN b.relative_path IS NOT NULL THEN 'embedded_exact_blob'
+                ELSE 'missing'
+            END AS preservation_status,
+            i.note
+        FROM metadata.dataset_inventory i
+        LEFT JOIN archive.structured_file_blobs b USING (relative_path)
+        ORDER BY i.relative_path;
+        """.strip()
+    )
 
     # Every input file receives a stable source key. Document sources from the
     # Experiment 4 register receive their own stable key and are not confused
@@ -323,7 +620,7 @@ def build_sql(profiles: dict[str, dict[str, object]]) -> str:
         SELECT
             input_key AS source_key,
             input_name AS source_id,
-            'cleaned_input_csv' AS source_type,
+            CASE WHEN role = 'raw_only' THEN 'raw_source_csv' ELSE 'cleaned_input_csv' END AS source_type,
             relative_path AS local_file,
             CAST(NULL AS VARCHAR) AS source_url,
             sha256,
@@ -1188,6 +1485,27 @@ def build_sql(profiles: dict[str, dict[str, object]]) -> str:
             + sql_identifier(name)
             + ")::BIGINT AS row_count"
         )
+    for spec in ALL_INPUTS:
+        manifest_selects.append(
+            "SELECT "
+            + sql_string(spec.stage_name)
+            + " AS object_name, 'raw' AS schema_name, 'raw_landing' AS object_kind, "
+            + "(SELECT COUNT(*) FROM information_schema.columns WHERE table_schema = 'raw' AND table_name = "
+            + sql_string(spec.stage_name)
+            + ")::BIGINT AS column_count, (SELECT COUNT(*) FROM raw."
+            + sql_identifier(spec.stage_name)
+            + ")::BIGINT AS row_count"
+        )
+    manifest_selects.append(
+        "SELECT 'structured_file_blobs' AS object_name, 'archive' AS schema_name, 'exact_file_archive' AS object_kind, "
+        "(SELECT COUNT(*) FROM information_schema.columns WHERE table_schema = 'archive' AND table_name = 'structured_file_blobs')::BIGINT AS column_count, "
+        "(SELECT COUNT(*) FROM archive.structured_file_blobs)::BIGINT AS row_count"
+    )
+    manifest_selects.append(
+        "SELECT 'structured_file_manifest' AS object_name, 'archive' AS schema_name, 'archive_manifest' AS object_kind, "
+        "(SELECT COUNT(*) FROM information_schema.columns WHERE table_schema = 'archive' AND table_name = 'structured_file_manifest')::BIGINT AS column_count, "
+        "(SELECT COUNT(*) FROM archive.structured_file_manifest)::BIGINT AS row_count"
+    )
     statements.append(
         "CREATE OR REPLACE TABLE metadata.object_manifest AS\n"
         + "\nUNION ALL\n".join(manifest_selects)
@@ -1200,7 +1518,7 @@ def build_sql(profiles: dict[str, dict[str, object]]) -> str:
             'canonical AUSSEF master database' AS database_role,
             'data/aussef.duckdb' AS database_path,
             'Stable IDs are deterministic hashes of exact observed source labels/identifiers; no fuzzy entity merge is performed.' AS identity_policy,
-            'Raw source files are not build inputs and are not modified.' AS raw_file_policy,
+            'Declared canonical and raw-only CSV inputs are retained in raw as all-VARCHAR landing tables; every other catalogued structured file is embedded byte-for-byte in archive.structured_file_blobs.' AS raw_file_policy,
             'Experiment outputs are views over master tables.' AS experiment_policy;
         DROP SCHEMA stage CASCADE;
         """.strip()
@@ -1208,7 +1526,13 @@ def build_sql(profiles: dict[str, dict[str, object]]) -> str:
     return "\n\n".join(statements) + "\n"
 
 
-def verify(duckdb_bin: Path, database: Path, profiles: dict[str, dict[str, object]]) -> dict[str, object]:
+def verify(
+    duckdb_bin: Path,
+    database: Path,
+    profiles: dict[str, dict[str, object]],
+    source_file_audit: dict[str, object],
+    dataset_inventory: list[dict[str, object]],
+) -> dict[str, object]:
     table_counts = {}
     for table_name in MASTER_TABLES:
         rows = run_csv_query(duckdb_bin, database, f"SELECT COUNT(*)::BIGINT AS row_count FROM master.{sql_identifier(table_name)};")
@@ -1247,12 +1571,96 @@ def verify(duckdb_bin: Path, database: Path, profiles: dict[str, dict[str, objec
         database,
         "SELECT COUNT(*)::BIGINT AS n FROM information_schema.schemata WHERE schema_name = 'stage';",
     )[0]
+    raw_schema_check = run_csv_query(
+        duckdb_bin,
+        database,
+        "SELECT COUNT(*)::BIGINT AS n FROM information_schema.schemata WHERE schema_name = 'raw';",
+    )[0]
+    archive_schema_check = run_csv_query(
+        duckdb_bin,
+        database,
+        "SELECT COUNT(*)::BIGINT AS n FROM information_schema.schemata WHERE schema_name = 'archive';",
+    )[0]
+    raw_manifest_rows = run_csv_query(
+        duckdb_bin,
+        database,
+        "SELECT table_name, source_row_count, stored_row_count FROM raw.table_manifest ORDER BY table_name;",
+    )
+    raw_counts_match = len(raw_manifest_rows) == len(ALL_INPUTS) and all(
+        int(row["source_row_count"]) == int(row["stored_row_count"]) for row in raw_manifest_rows
+    )
+    raw_type_rows = run_csv_query(
+        duckdb_bin,
+        database,
+        """
+        SELECT count(*)::BIGINT AS non_text_source_columns
+        FROM information_schema.columns
+        WHERE table_schema = 'raw'
+          AND table_name NOT IN ('table_manifest', 'registered_source_files')
+          AND column_name NOT IN ('source_row_number')
+          AND data_type <> 'VARCHAR';
+        """.strip(),
+    )[0]
+    raw_text_preserved = int(raw_type_rows["non_text_source_columns"]) == 0
+    registered_files_verified = (
+        not source_file_audit["missing_files"]
+        and not source_file_audit["hash_mismatches"]
+        and source_file_audit["registered_local_files"] == source_file_audit["hash_verified_files"]
+    )
     source_input_paths = [spec.relative_path for spec in INPUTS if "/raw/" in f"/{spec.relative_path}" or "/sources/" in f"/{spec.relative_path}"]
-    input_counts = {spec.stage_name: int(profiles[spec.stage_name]["rows"]) for spec in INPUTS}
+    input_counts = {spec.stage_name: int(profiles[spec.stage_name]["rows"]) for spec in ALL_INPUTS}
+    inventory_summary_rows = run_csv_query(
+        duckdb_bin,
+        database,
+        "SELECT dataset_class, inclusion_status, count(*)::BIGINT AS file_count, sum(byte_size)::HUGEINT AS byte_size FROM metadata.dataset_inventory GROUP BY 1, 2 ORDER BY 1, 2;",
+    )
+    inventory_declared_rows = run_csv_query(
+        duckdb_bin,
+        database,
+        "SELECT count(*)::BIGINT AS n FROM metadata.dataset_inventory WHERE inclusion_status IN ('loaded_raw_and_master_source', 'loaded_raw_only');",
+    )[0]
+    declared_inputs_catalogued = int(inventory_declared_rows["n"]) == len(ALL_INPUTS)
+    archive_audit = run_csv_query(
+        duckdb_bin,
+        database,
+        """
+        SELECT
+            count(*)::BIGINT AS catalogued_files,
+            sum(CASE WHEN preservation_status = 'queryable_raw_table' THEN 1 ELSE 0 END)::BIGINT AS queryable_raw_files,
+            sum(CASE WHEN preservation_status = 'embedded_exact_blob' THEN 1 ELSE 0 END)::BIGINT AS embedded_archive_files,
+            sum(CASE WHEN preservation_status = 'missing' THEN 1 ELSE 0 END)::BIGINT AS missing_files,
+            sum(CASE WHEN preservation_status = 'embedded_exact_blob' AND source_byte_size <> embedded_byte_size THEN 1 ELSE 0 END)::BIGINT AS size_mismatches,
+            sum(CASE WHEN preservation_status = 'embedded_exact_blob' AND source_sha256 <> embedded_sha256 THEN 1 ELSE 0 END)::BIGINT AS hash_mismatches,
+            sum(source_byte_size)::HUGEINT AS catalogued_source_bytes,
+            sum(coalesce(embedded_byte_size, 0))::HUGEINT AS embedded_archive_bytes
+        FROM archive.structured_file_manifest;
+        """.strip(),
+    )[0]
+    all_structured_files_preserved = (
+        int(archive_audit["catalogued_files"]) == len(dataset_inventory)
+        and int(archive_audit["queryable_raw_files"]) == len(ALL_INPUTS)
+        and int(archive_audit["embedded_archive_files"]) == len(dataset_inventory) - len(ALL_INPUTS)
+        and int(archive_audit["missing_files"]) == 0
+        and int(archive_audit["size_mismatches"]) == 0
+        and int(archive_audit["hash_mismatches"]) == 0
+    )
     all_unique = all(int(value) == 0 for value in uniqueness_rows.values())
     no_unresolved_keys = all(int(resolution_rows[key]) == 0 for key in ("fiscal_unresolved_councils", "exposure_unresolved_councils", "projects_unresolved_ids", "evidence_unresolved_ids"))
     views_present = all(count >= 0 for count in view_counts.values())
-    status = "PASS" if all_unique and no_unresolved_keys and not source_input_paths and int(stage_check["n"]) == 0 and views_present else "FAIL"
+    status = "PASS" if (
+        all_unique
+        and no_unresolved_keys
+        and not source_input_paths
+        and int(stage_check["n"]) == 0
+        and int(raw_schema_check["n"]) == 1
+        and int(archive_schema_check["n"]) == 1
+        and raw_counts_match
+        and raw_text_preserved
+        and registered_files_verified
+        and declared_inputs_catalogued
+        and all_structured_files_preserved
+        and views_present
+    ) else "FAIL"
     return {
         "status": status,
         "database": str(database),
@@ -1261,12 +1669,36 @@ def verify(duckdb_bin: Path, database: Path, profiles: dict[str, dict[str, objec
         "input_row_counts": input_counts,
         "master_table_row_counts": table_counts,
         "experiment_view_row_counts": view_counts,
+        "raw_table_row_counts": {row["table_name"]: int(row["stored_row_count"]) for row in raw_manifest_rows},
+        "dataset_inventory": {
+            "structured_files_catalogued": len(dataset_inventory),
+            "summary": [
+                {
+                    "dataset_class": row["dataset_class"],
+                    "inclusion_status": row["inclusion_status"],
+                    "file_count": int(row["file_count"]),
+                    "byte_size": int(row["byte_size"]),
+                }
+                for row in inventory_summary_rows
+            ],
+        },
+        "archive_file_audit": {key: int(value) for key, value in archive_audit.items()},
+        "registered_source_file_audit": {
+            key: value for key, value in source_file_audit.items() if key != "files"
+        },
         "integrity_checks": {
             "stable_entity_keys_unique": all_unique,
             "stable_key_duplicates": {key: int(value) for key, value in uniqueness_rows.items()},
             "required_master_keys_resolved": no_unresolved_keys,
             "resolution_counts": {key: int(value) for key, value in resolution_rows.items()},
             "stage_schema_removed": int(stage_check["n"]) == 0,
+            "raw_schema_present": int(raw_schema_check["n"]) == 1,
+            "archive_schema_present": int(archive_schema_check["n"]) == 1,
+            "raw_table_counts_match_sources": raw_counts_match,
+            "raw_source_columns_are_varchar": raw_text_preserved,
+            "registered_source_files_hash_verified": registered_files_verified,
+            "declared_inputs_catalogued": declared_inputs_catalogued,
+            "all_structured_files_preserved": all_structured_files_preserved,
             "no_raw_or_download_source_inputs": not source_input_paths,
             "disallowed_input_paths": source_input_paths,
         },
@@ -1287,21 +1719,24 @@ def main() -> int:
     duckdb_bin = find_duckdb(args.duckdb)
 
     profiles: dict[str, dict[str, object]] = {}
-    for spec in INPUTS:
+    for spec in ALL_INPUTS:
         path = project_root / spec.relative_path
         if not path.is_file():
-            raise FileNotFoundError(f"Required cleaned input is missing: {path}")
-        if "/raw/" in f"/{spec.relative_path}" or "/sources/" in f"/{spec.relative_path}":
+            raise FileNotFoundError(f"Required declared input is missing: {path}")
+        if spec in INPUTS and ("/raw/" in f"/{spec.relative_path}" or "/sources/" in f"/{spec.relative_path}"):
             raise ValueError(f"Raw/download source path is not an allowed input: {spec.relative_path}")
         profiles[spec.stage_name] = csv_profile(path, project_root)
+
+    source_file_audit = registered_source_file_audit(project_root)
+    dataset_inventory = repository_dataset_inventory(project_root, database, profiles, source_file_audit)
 
     database.parent.mkdir(parents=True, exist_ok=True)
     checks_dir.mkdir(parents=True, exist_ok=True)
     temporary_database = database.with_name("." + database.name + ".building")
     if temporary_database.exists():
         temporary_database.unlink()
-    run_duckdb(duckdb_bin, temporary_database, build_sql(profiles))
-    verification = verify(duckdb_bin, temporary_database, profiles)
+    run_duckdb(duckdb_bin, temporary_database, build_sql(profiles, source_file_audit, dataset_inventory, project_root))
+    verification = verify(duckdb_bin, temporary_database, profiles, source_file_audit, dataset_inventory)
     if verification["status"] != "PASS":
         temporary_database.unlink(missing_ok=True)
         raise RuntimeError("Canonical DuckDB verification failed: " + json.dumps(verification["integrity_checks"], sort_keys=True))

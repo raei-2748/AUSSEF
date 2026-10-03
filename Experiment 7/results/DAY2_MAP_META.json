@@ -1,0 +1,12 @@
+{
+  "likelihood_coef_H": 3.408354642760458,
+  "likelihood_auc_in_sample": null,
+  "likelihood_auc_loo": 0.9455108359133126,
+  "positives": 34,
+  "consequence_model": "M1",
+  "consequence_params": {
+    "const": -5.3634376442663125,
+    "log_share": 0.9290300548602092,
+    "E2": 0.6714100424445036
+  }
+}

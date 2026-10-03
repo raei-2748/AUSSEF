@@ -1,0 +1,42 @@
+{
+  "homes_destroyed: rho(homes_in) - rho(area burned)": {
+    "diff": 0.0656753195242109,
+    "ci": [
+      -0.018317129844708936,
+      0.1404473221878008
+    ],
+    "rows": 135
+  },
+  "facilities_destroyed: rho(homes_in) - rho(area burned)": {
+    "diff": 0.080556756885519,
+    "ci": [
+      -0.029800431990249843,
+      0.2067201473603959
+    ],
+    "rows": 54
+  },
+  "facilities_destroyed: rho(nonres_osm_in) - rho(area burned)": {
+    "diff": 0.04368919650673775,
+    "ci": [
+      -0.09403263455586319,
+      0.1956448501134936
+    ],
+    "rows": 54
+  },
+  "outbuildings_destroyed: rho(homes_in) - rho(area burned)": {
+    "diff": 0.11626810386877873,
+    "ci": [
+      0.03565123258776896,
+      0.21221226576295982
+    ],
+    "rows": 65
+  },
+  "outbuildings_destroyed: rho(farm_osm_in) - rho(area burned)": {
+    "diff": -0.030763296492062442,
+    "ci": [
+      -0.15077193978109807,
+      0.1012949141401655
+    ],
+    "rows": 65
+  }
+}

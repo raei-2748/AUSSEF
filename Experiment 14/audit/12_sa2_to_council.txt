@@ -1,0 +1,3 @@
+NSW mesh blocks: 112738 | without LGA: 0 | without count: 0
+SA2s: 644 | assigned to id outside the 129: [19499, 19799] | SA2s with 0 residents: 3
+SA2s whose top council holds < 60% of residents: 13

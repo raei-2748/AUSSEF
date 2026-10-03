@@ -1,0 +1,36 @@
+OLG unmatched names: 41 | unmatched with data FY2016+: 0 []
+OLG: council-FY-metric with >1 source name mapped: 0
+OLG councils matched per FY:
+ fy_start
+2013    111
+2014    111
+2015    108
+2016    128
+2017    128
+2018    128
+2019    128
+2020    128
+2021    128
+2022    128
+2023    128
+2024    128
+pre-2016 entities sharing a key with a post-merger council:
+                              min   max
+council_name                          
+Dubbo City Council          2013  2014
+Murrumbidgee Shire Council  2013  2014
+Parramatta City Council     2013  2014
+councils never matched in OLG: ['Unincorporated NSW']
+OLG groups: rows 128 matched 128 unmatched [] councils without group: ['Unincorporated NSW'] dupe ids: 0
+BOCSAR unmatched: ['Lord Howe Island', 'Unincorporated Far West', 'In Custody']
+BOCSAR two names -> one council: {}
+councils without BOCSAR: ['Unincorporated NSW']
+rent rows with no region_id: 0 []
+rent ids not in 129: [] | councils absent: ['Unincorporated NSW']
+adjacency ids not in 129: [] | councils absent: []
+fires.csv ids not in 129: [] | councils absent: ['Bayside (NSW)', 'Broken Hill', 'Burwood', 'Canada Bay', 'Cumberland', 'Hunters Hill', 'Inner West', 'North Sydney', 'Strathfield', 'Sydney', 'Waverley', 'Willoughby']
+adjacency pairs listed one way only: 0 of 636
+master ids not in 129: []
+master duplicated (agrn, region_id): 0 | duplicated (region_id, F): 51
+master F (info_fire_fy) != FY of first_fire_start: 0
+rent ids where file name differs from council name: [(12160, ['Gundagai', 'Cootamundra-Gundagai Regional'], 'Cootamundra-Gundagai Regional'), (12390, ['Western Plains Regional', 'Dubbo Regional'], 'Dubbo Regional'), (13010, ['Glen Innes Severn', 'Glen Innes'], 'Glen Innes Severn')]

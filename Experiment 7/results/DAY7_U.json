@@ -1,0 +1,149 @@
+{
+  "dataset": "U: DEWR SALM unsmoothed SA2 unemployment rate (%), ASGS 2021",
+  "source_file": "/Users/ray/Research/AUSSEF - Local/fire_event_dataset/data/raw/sa2/U_salm_unsmoothed/salm_unsmoothed_sa2_asgs2021_mar2026.csv",
+  "units": "percentage points of unemployment rate per 10 pp of residents within 1 km",
+  "worse_direction": "up",
+  "period_range": "2016Q1..2025Q2",
+  "panel_rows": 19189,
+  "sa2s": 623,
+  "code_match": {
+    "sa2_info_n": 640,
+    "sa2_info_codes_in_salm_file": 623,
+    "sa2_info_codes_with_any_rate": 623,
+    "sa2_info_codes_with_rate_in_window": 623,
+    "match_rate_any_rate": 0.9734375,
+    "dose_sa2s_in_salm_with_rate": 415,
+    "dose_sa2s_total": 424
+  },
+  "main": {
+    "n_obs": 19189,
+    "n_sa2": 623,
+    "n_clusters": 90,
+    "n_treated_sa2": 408,
+    "primary": {
+      "est": -0.002484423343633525,
+      "se": 0.019033734978870516,
+      "ci_low": -0.039790543902219734,
+      "ci_high": 0.034821697214952686
+    },
+    "placebo": {
+      "est": 0.03790186002255071,
+      "se": 0.01866037606855861,
+      "ci_low": 0.0013275229281758325,
+      "ci_high": 0.07447619711692557
+    },
+    "coefs_per10pp": {
+      "b0": -0.044637959165079955,
+      "b1": 0.0193876975049418,
+      "b2": 0.01492746095810817,
+      "b3": 0.04561603212702,
+      "b4": -0.04771534814315764,
+      "l1": 0.03560692458857161,
+      "l2": 0.04681503660701544,
+      "l3": 0.08630484449158704,
+      "l4": -0.01711936559697128
+    },
+    "ses_per10pp": {
+      "b0": 0.02646308609177452,
+      "b1": 0.031887189302775676,
+      "b2": 0.029767846093936103,
+      "b3": 0.044085650817097394,
+      "b4": 0.0413112179759256,
+      "l1": 0.03108455162209486,
+      "l2": 0.03517799549094007,
+      "l3": 0.030917493848602696,
+      "l4": 0.03206052793798766
+    }
+  },
+  "verdict": "Not detected",
+  "bound_in_worse_direction": 0.034821697214952686,
+  "heavy": {
+    "definition": "sample = SA2s with any fire-quarter dose >= 25% plus SA2s with zero dose in every quarter; same model",
+    "n_obs": 8768,
+    "n_sa2": 317,
+    "n_clusters": 76,
+    "n_treated_sa2": 109,
+    "primary": {
+      "est": -0.003147565601769001,
+      "se": 0.021338873051796617,
+      "ci_low": -0.04497175678329037,
+      "ci_high": 0.03867662557975237
+    },
+    "placebo": {
+      "est": 0.033508194760492035,
+      "se": 0.021472929163908715,
+      "ci_low": -0.008578746400769041,
+      "ci_high": 0.07559513592175311
+    },
+    "coefs_per10pp": {
+      "b0": -0.03620654035092325,
+      "b1": 0.00200931825834854,
+      "b2": 0.004634276816445367,
+      "b3": 0.041738837941227125,
+      "b4": -0.027913720673942783,
+      "l1": 0.029265640162718844,
+      "l2": 0.040312374658478006,
+      "l3": 0.06467595872475426,
+      "l4": -0.00022119450398296365
+    },
+    "ses_per10pp": {
+      "b0": 0.02556036869237477,
+      "b1": 0.026237126199671598,
+      "b2": 0.03143113734027961,
+      "b3": 0.04740624601861033,
+      "b4": 0.04853959236716471,
+      "l1": 0.029651876592081256,
+      "l2": 0.03569099675413522,
+      "l3": 0.034040839637564345,
+      "l4": 0.030368643565085385
+    },
+    "verdict": "Not detected"
+  },
+  "black_summer": {
+    "definition": "dose kept only for fire quarters 2019Q3-2020Q1 (other quarters set to 0); full sample; same model",
+    "n_obs": 19189,
+    "n_sa2": 623,
+    "n_clusters": 90,
+    "n_treated_sa2": 138,
+    "primary": {
+      "est": 0.03725257348722855,
+      "se": 0.054991296869434984,
+      "ci_low": -0.07053036837686402,
+      "ci_high": 0.14503551535132111
+    },
+    "placebo": {
+      "est": 0.14139598183736254,
+      "se": 0.04017324984271091,
+      "ci_low": 0.06265641214564917,
+      "ci_high": 0.22013555152907593
+    },
+    "coefs_per10pp": {
+      "b0": -0.02585052866618015,
+      "b1": 0.13123985325535545,
+      "b2": 0.11336369610477584,
+      "b3": 0.04930281971514459,
+      "b4": -0.08179297297295295,
+      "l1": 0.1881981703293182,
+      "l2": 0.17240011695273927,
+      "l3": 0.1509191847665448,
+      "l4": 0.054066455300847915
+    },
+    "ses_per10pp": {
+      "b0": 0.05513819342886905,
+      "b1": 0.06641252195570124,
+      "b2": 0.08788836174712089,
+      "b3": 0.12787904645067386,
+      "b4": 0.060347642396696446,
+      "l1": 0.08310245492722151,
+      "l2": 0.10562072595534476,
+      "l3": 0.05691221145549888,
+      "l4": 0.09066638165796521
+    },
+    "verdict": "Not detected"
+  },
+  "notes": [
+    "DEWR flags March quarter 2025 unsmoothed estimates in some SA4s (mutual-obligation suspensions) as to be viewed with caution; kept in sample as pre-specified.",
+    "Leads for 2024Q3..2025Q2 reach beyond the dose panel end (2025Q2); later fires counted as 0.",
+    "Primary and placebo are averages of the 5 lag / 4 lead coefficients, scaled to 10 pp of residents; CIs are normal (1.96) with CR1 small-sample correction."
+  ]
+}

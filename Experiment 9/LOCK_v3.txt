@@ -1,0 +1,2 @@
+locked 2026-10-02 17:34:37 (v3 addendum, before indicator build)
+ab8c96a04643c34e6b57b2cb404708eae5067572f6f1e690105480a4e38d4351  PRESPEC.md

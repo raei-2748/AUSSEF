@@ -1,0 +1,10 @@
+line,low,mid,high,share_of_block_mid
+loss_households_uninsured,114.9,292.9,481.2,0.12
+loss_insurers,1880.0,1886.8,1893.5,0.772
+loss_commonwealth_cleanup,90.0,132.5,401.5,0.054
+loss_nsw_cleanup,90.0,132.5,401.5,0.054
+loss_account,2174.9,2444.6,3177.7,1.0
+rec_commonwealth,660.4,692.5,700.4,0.735
+rec_nsw,250.3,250.3,242.4,0.265
+rec_household_payments,233.8,265.9,265.9,0.282
+recovery_money,910.7,942.8,942.8,1.0

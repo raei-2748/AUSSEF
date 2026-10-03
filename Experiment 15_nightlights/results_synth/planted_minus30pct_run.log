@@ -1,0 +1,386 @@
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:51: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  fires["end_use"] = fires.end.fillna(fires.start + pd.Timedelta(days=60))
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:237: RuntimeWarning: overflow encountered in multiply
+  Es[i] = np.where(ok, sub[1] * np.nan_to_num(R), 0).sum(0)
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:237: RuntimeWarning: overflow encountered in multiply
+  Es[i] = np.where(ok, sub[1] * np.nan_to_num(R), 0).sum(0)
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:237: RuntimeWarning: overflow encountered in multiply
+  Es[i] = np.where(ok, sub[1] * np.nan_to_num(R), 0).sum(0)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:237: RuntimeWarning: overflow encountered in multiply
+  Es[i] = np.where(ok, sub[1] * np.nan_to_num(R), 0).sum(0)
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:237: RuntimeWarning: overflow encountered in multiply
+  Es[i] = np.where(ok, sub[1] * np.nan_to_num(R), 0).sum(0)
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:237: RuntimeWarning: overflow encountered in multiply
+  Es[i] = np.where(ok, sub[1] * np.nan_to_num(R), 0).sum(0)
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:237: RuntimeWarning: overflow encountered in multiply
+  Es[i] = np.where(ok, sub[1] * np.nan_to_num(R), 0).sum(0)
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:237: RuntimeWarning: overflow encountered in multiply
+  Es[i] = np.where(ok, sub[1] * np.nan_to_num(R), 0).sum(0)
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:237: RuntimeWarning: overflow encountered in multiply
+  Es[i] = np.where(ok, sub[1] * np.nan_to_num(R), 0).sum(0)
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:237: RuntimeWarning: overflow encountered in multiply
+  Es[i] = np.where(ok, sub[1] * np.nan_to_num(R), 0).sum(0)
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:237: RuntimeWarning: overflow encountered in multiply
+  Es[i] = np.where(ok, sub[1] * np.nan_to_num(R), 0).sum(0)
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:237: RuntimeWarning: overflow encountered in multiply
+  Es[i] = np.where(ok, sub[1] * np.nan_to_num(R), 0).sum(0)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:237: RuntimeWarning: overflow encountered in multiply
+  Es[i] = np.where(ok, sub[1] * np.nan_to_num(R), 0).sum(0)
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:237: RuntimeWarning: overflow encountered in multiply
+  Es[i] = np.where(ok, sub[1] * np.nan_to_num(R), 0).sum(0)
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:237: RuntimeWarning: overflow encountered in multiply
+  Es[i] = np.where(ok, sub[1] * np.nan_to_num(R), 0).sum(0)
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:237: RuntimeWarning: overflow encountered in multiply
+  Es[i] = np.where(ok, sub[1] * np.nan_to_num(R), 0).sum(0)
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:237: RuntimeWarning: overflow encountered in multiply
+  Es[i] = np.where(ok, sub[1] * np.nan_to_num(R), 0).sum(0)
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+/Users/ray/.cache/uv/archive-v0/X3F-OmCM_lC3LcW_cx2C2/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:237: RuntimeWarning: overflow encountered in multiply
+  Es[i] = np.where(ok, sub[1] * np.nan_to_num(R), 0).sum(0)
+/Users/ray/Research/AUSSEF - Local/.claude/worktrees/quirky-lamport-88ae45/Experiment 15_nightlights/src/analysis.py:123: RuntimeWarning: Mean of empty slice
+  b[:, c] = np.nanmean(v, axis=1)
+{
+ "south_coast": {
+  "S": "2019-11",
+  "E": "2020-03",
+  "n_ctrl_px": 1429,
+  "n_ctrl_blocks": 159,
+  "n_treated_blocks": 126,
+  "rings": {
+   "inside": 105,
+   "ring_0_1km": 286,
+   "ring_1_5km": 602
+  },
+  "ring_size_as_share_of_control_pool": {
+   "inside": 0.0734779566130161,
+   "ring_0_1km": 0.2001399580125962,
+   "ring_1_5km": 0.4212736179146256
+  },
+  "dwell_inside": 2448.7855390595387,
+  "recovery_inside": "2020-11",
+  "gradient_early": {
+   "D": -0.34731529725560695,
+   "lo": -0.41059742460585,
+   "hi": -0.2988183121244232
+  },
+  "placebo_pre": {
+   "inside": {
+    "D": -0.014358330448854737,
+    "lo": -0.03824723673687577,
+    "hi": 0.00546408648784209
+   },
+   "ring_0_1km": {
+    "D": -0.003474820195014147,
+    "lo": -0.015420677299184605,
+    "hi": 0.008800166895408326
+   },
+   "ring_1_5km": {
+    "D": -0.011127674319095253,
+    "lo": -0.012108219240716476,
+    "hi": 0.0018253761780072358
+   }
+  },
+  "random_placebo_early_inside": {
+   "share_of_random_groups_below_real": 0.0,
+   "p2_5": -0.031591894193102994,
+   "p97_5": 0.036726113248314984
+  }
+ },
+ "tathra": {
+  "S": "2018-03",
+  "E": "2018-04",
+  "n_ctrl_px": 397,
+  "n_ctrl_blocks": 67,
+  "n_treated_blocks": 12,
+  "rings": {
+   "inside": 9,
+   "ring_0_1km": 18,
+   "ring_1_5km": 40
+  },
+  "ring_size_as_share_of_control_pool": {
+   "inside": 0.022670025188916875,
+   "ring_0_1km": 0.04534005037783375,
+   "ring_1_5km": 0.10075566750629723
+  },
+  "dwell_inside": 452.00575396825394,
+  "recovery_inside": "2019-04",
+  "gradient_early": {
+   "D": 0.06620167488202496,
+   "lo": 0.022535981734117694,
+   "hi": 0.1420224702148199
+  },
+  "placebo_pre": {
+   "inside": {
+    "D": 0.029862570397416972,
+    "lo": -0.028164767333614407,
+    "hi": 0.08355123724664584
+   },
+   "ring_0_1km": {
+    "D": -0.01702868247932054,
+    "lo": -0.054942237142652256,
+    "hi": 0.009427771275631207
+   },
+   "ring_1_5km": {
+    "D": 0.01772744190357991,
+    "lo": -0.0027805690530446694,
+    "hi": 0.052680843804985264
+   }
+  },
+  "random_placebo_early_inside": {
+   "share_of_random_groups_below_real": 0.983,
+   "p2_5": -0.07762642035635964,
+   "p97_5": 0.060341775340962994
+  }
+ },
+ "south_coast_councils": {
+  "pixels": 1628,
+  "n_ctrl_px": 1305,
+  "note": "group larger than the control pool: pseudo-town interval invalid, use boot_lo/boot_hi (deviation, see FINDINGS)",
+  "dwell": 81320.04588644847
+ },
+ "pooled": {
+  "fires": 22,
+  "V1": {
+   "n": 10,
+   "rho": -0.4666666666666666,
+   "lo": -0.9006917969586635,
+   "hi": 0.2775100147585915
+  },
+  "V2": {
+   "n_big": 8,
+   "n_none": 12,
+   "diff": -0.09489606349265525,
+   "lo": -0.21832348590255232,
+   "hi": 0.01587652329729955
+  }
+ }
+}
+                   group        ring  window      D     lo     hi  boot_lo  boot_hi  months  px_months  pixels
+0            south_coast      inside  during  0.009 -0.036  0.061   -0.042    0.054       5      105.0     105
+1            south_coast      inside   early -0.357 -0.402 -0.328   -0.380   -0.335       6      630.0     105
+2            south_coast      inside    y1_2  0.013 -0.008  0.026   -0.013    0.038      11     1143.0     105
+3            south_coast      inside    y2_3 -0.002 -0.030  0.021   -0.021    0.017      10     1030.0     105
+4            south_coast      inside   later -0.001 -0.035  0.028   -0.017    0.012      33     2998.0     105
+5            south_coast  ring_0_1km  during  0.032  0.010  0.047   -0.015    0.078       5      286.0     286
+6            south_coast  ring_0_1km   early -0.015 -0.052  0.017   -0.042    0.014       6     1706.0     286
+7            south_coast  ring_0_1km    y1_2  0.004 -0.012  0.015   -0.011    0.021      11     2974.0     286
+8            south_coast  ring_0_1km    y2_3 -0.008 -0.031  0.003   -0.023    0.007      10     2683.0     286
+9            south_coast  ring_0_1km   later  0.006 -0.006  0.024   -0.010    0.018      33     8508.0     286
+10           south_coast  ring_1_5km  during -0.007 -0.021  0.015   -0.051    0.033       5     2146.0     602
+11           south_coast  ring_1_5km   early -0.009 -0.034  0.023   -0.028    0.005       6     3558.0     602
+12           south_coast  ring_1_5km    y1_2  0.011  0.007  0.023   -0.016    0.031      11     5920.0     602
+13           south_coast  ring_1_5km    y2_3 -0.015 -0.025 -0.006   -0.034    0.005      10     5157.0     602
+14           south_coast  ring_1_5km   later  0.001 -0.010  0.015   -0.010    0.011      33    15589.0     602
+15                tathra      inside  during    NaN    NaN    NaN      NaN      NaN       2        0.0       9
+16                tathra      inside   early  0.067  0.033  0.124    0.053    0.080       6       54.0       9
+17                tathra      inside    y1_2 -0.014 -0.077  0.061   -0.026   -0.000      12      108.0       9
+18                tathra      inside    y2_3  0.064  0.049  0.147    0.050    0.077      12      108.0       9
+19                tathra      inside   later  0.033 -0.035  0.143    0.013    0.038      53      471.0       9
+20                tathra  ring_0_1km  during    NaN    NaN    NaN      NaN      NaN       2        0.0      18
+21                tathra  ring_0_1km   early  0.032  0.030  0.083   -0.048    0.162       6      108.0      18
+22                tathra  ring_0_1km    y1_2  0.041  0.019  0.049   -0.027    0.072      12      216.0      18
+23                tathra  ring_0_1km    y2_3  0.015  0.016  0.057   -0.036    0.031      12      216.0      18
+24                tathra  ring_0_1km   later  0.025  0.002  0.039   -0.069    0.043      53      939.0      18
+25                tathra  ring_1_5km  during -0.002 -0.055  0.077   -0.085    0.089       2       51.0      40
+26                tathra  ring_1_5km   early  0.001 -0.038  0.024   -0.028    0.023       6      240.0      40
+27                tathra  ring_1_5km    y1_2 -0.006 -0.034  0.017   -0.023    0.012      12      480.0      40
+28                tathra  ring_1_5km    y2_3 -0.024 -0.072  0.003   -0.059    0.016      12      479.0      40
+29                tathra  ring_1_5km   later -0.004 -0.026  0.020   -0.025    0.014      53     2087.0      40
+30  south_coast_councils     council  during -0.002    NaN    NaN   -0.027    0.020       5     5691.0    1628
+31  south_coast_councils     council   early -0.025    NaN    NaN   -0.041   -0.009       6     9673.0    1628
+32  south_coast_councils     council    y1_2  0.004    NaN    NaN   -0.009    0.016      11    16459.0    1628
+33  south_coast_councils     council    y2_3 -0.004    NaN    NaN   -0.019    0.009      10    14582.0    1628
+34  south_coast_councils     council   later  0.004    NaN    NaN   -0.006    0.012      33    42536.0    1628

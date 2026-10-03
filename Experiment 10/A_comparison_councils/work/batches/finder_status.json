@@ -1,0 +1,3954 @@
+[
+ {
+  "region_id": "10050",
+  "name": "Albury",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "not_found",
+    "notes": "2nd pass: Albury financial-reports listing goes 2013-14 then 2016-17; no 2015-16 GPFS. FY2015-16 values are in prior-year column of 2016-17 GPFS."
+   },
+   {
+    "fy": "2016-17",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/10050/10050_FY2016-17_gpfs_c0476eb8_DocumentViewer_aspx.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "GPFS verified p1"
+   },
+   {
+    "fy": "2017-18",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/10050/10050_FY2017-18_gpfs_1ebca2b6_DocumentViewer_aspx.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "GPFS verified p1"
+   },
+   {
+    "fy": "2018-19",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/10050/10050_FY2018-19_gpfs_03dc0e6e_DocumentViewer_aspx.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "GPFS verified p1"
+   },
+   {
+    "fy": "2019-20",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/10050/10050_FY2019-20_gpfs_836ab559_DocumentViewer_aspx.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "Scanned PDF, no text layer (needs OCR); verified by OCR of p1 and p3"
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/10050/10050_FY2020-21_gpfs_6babafd1_DocumentViewer_aspx.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "GPFS verified p1"
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/10050/10050_FY2021-22_gpfs_b6248045_RecordURI.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "GPFS verified; income statement p4"
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/10050/10050_FY2022-23_gpfs_9909d24d_RecordURI.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "GPFS verified; income statement p4"
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/10050/10050_FY2023-24_gpfs_8d0641eb_RecordURI.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "GPFS verified; income statement p4"
+   }
+  ]
+ },
+ {
+  "region_id": "12380",
+  "name": "Cumberland",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "predecessor_only",
+    "local_paths": [],
+    "doc_kind": "gpfs",
+    "notes": "Cumberland proclaimed May 2016; FY2015-16 GPFS belong to predecessor councils."
+   },
+   {
+    "fy": "2016-17",
+    "status": "not_found",
+    "local_paths": [],
+    "doc_kind": "gpfs",
+    "notes": "No standalone GPFS found; listing page returns 403 to automated fetch (not circumvented); URL guesses failed. 2017-18 GPFS prior-year column covers it."
+   },
+   {
+    "fy": "2017-18",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/12380/12380_FY2017-18_gpfs_a547e84a_cumberland_council_financial_statements_2017_2018.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "GPFS verified p1-3"
+   },
+   {
+    "fy": "2018-19",
+    "status": "not_found",
+    "local_paths": [],
+    "doc_kind": "gpfs",
+    "notes": "Listing page 403. 2018-19 annual report downloaded but only a financial summary, discarded. 2019-20 GPFS prior-year column covers it."
+   },
+   {
+    "fy": "2019-20",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/12380/12380_FY2019-20_gpfs_4154df34_cumberland_city_council_2020_annual_financial_statements.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "GPFS verified (year ended 30 June 2020 on p3; cash flow p5)"
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/12380/12380_FY2020-21_gpfs_059338a8_annual_financial_statements_2020_2021.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "GPFS verified"
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/12380/12380_FY2021-22_gpfs_2866f78b_cumberland_city_council_2022_annual_financial_statements.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "GPFS verified"
+   },
+   {
+    "fy": "2022-23",
+    "status": "not_found",
+    "local_paths": [],
+    "doc_kind": "gpfs",
+    "notes": "Listing page 403. 2022-23 annual report holds only a summary, discarded. 2023-24 GPFS prior-year column covers it."
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/12380/12380_FY2023-24_gpfs_0065d612_annnual_financial_statements_cumberland_2023_2024.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "GPFS verified"
+   }
+  ]
+ },
+ {
+  "region_id": "13910",
+  "name": "Hilltops",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "predecessor_only",
+    "local_paths": [],
+    "doc_kind": "gpfs",
+    "notes": "Hilltops formed May 2016 from Boorowa, Harden and Young; FY2015-16 GPFS belong to predecessors."
+   },
+   {
+    "fy": "2016-17",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/13910/13910_FY2016-17_gpfs_5712c291_Annual_Financial_Statements_YE_1617_Hilltops_Council.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "Covers period 13 May 2016 to 30 June 2017 (not a full year)."
+   },
+   {
+    "fy": "2017-18",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/13910/13910_FY2017-18_gpfs_60a9cfec_Annual_Financial_Statements_2017_18_Hilltops_Council_2.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "GPFS verified"
+   },
+   {
+    "fy": "2018-19",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/13910/13910_FY2018-19_gpfs_71a71db2_Hilltops_Council_Annual_Financial_Statements_2019_3_in_1_1_M.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "GPFS verified"
+   },
+   {
+    "fy": "2019-20",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/13910/13910_FY2019-20_gpfs_43c5fbf0_Annual_Financial_Statements_2020.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "GPFS verified"
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/13910/13910_FY2020-21_gpfs_6a358d6b_Hilltops_Council_Financial_Statements_2020_2021.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "GPFS verified"
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/13910/13910_FY2021-22_gpfs_8b14f944_Annual_Financial_Statements_2021_2022.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "GPFS verified"
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/13910/13910_FY2022-23_gpfs_cc85be4a_Annual_Financial_Statements_2022_2023.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "GPFS verified"
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/13910/13910_FY2023-24_gpfs_8009d605_Annual_Financial_Statements_2023_2024.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "GPFS verified"
+   }
+  ]
+ },
+ {
+  "region_id": "15050",
+  "name": "Maitland",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "not_found",
+    "notes": "2nd pass: Council site lists only recent GPFS; guessed URL patterns 404; searches found none. Prior-year column of 2016-17 GPFS covers it."
+   },
+   {
+    "fy": "2016-17",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15050/15050_FY2016-17_gpfs_396b446a_financial_statements_2016_17_final.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "Scanned/image PDF, needs OCR; verified by OCR p1 and p3 (year ending 30 June 2017)."
+   },
+   {
+    "fy": "2017-18",
+    "status": "not_found",
+    "notes": "2nd pass: Not on council site or in search; URL patterns 404. Covered by prior-year column of 2018-19 GPFS."
+   },
+   {
+    "fy": "2018-19",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15050/15050_FY2018-19_gpfs_a862f9b6_financial_statements_2018_19.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "26 MB scanned PDF, needs OCR; verified by OCR p3."
+   },
+   {
+    "fy": "2019-20",
+    "status": "not_found",
+    "notes": "2nd pass: Not found by listing, search or URL patterns. Covered by 2020-21/2021-22 prior-year columns if those exist."
+   },
+   {
+    "fy": "2020-21",
+    "status": "not_found",
+    "notes": "2nd pass: Not found; 2021-22 GPFS prior-year column covers it."
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15050/15050_FY2021-22_gpfs_68ea9cb1_general_purpose_financial_report_2021_22.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "GPFS verified"
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15050/15050_FY2022-23_gpfs_1ac5a2b1_Maitland_20City_20Council_20_20Financial_20Statements_202022.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "Mostly image PDF, needs OCR; verified by OCR p3."
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15050/15050_FY2023-24_gpfs_81a02a32_Maitland_20City_20Council_20Financial_20Statements_202023_24.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "GPFS verified"
+   }
+  ]
+ },
+ {
+  "region_id": "16550",
+  "name": "Randwick",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "blocked",
+    "local_paths": [],
+    "doc_kind": "gpfs",
+    "notes": "www.randwick.nsw.gov.au returns a Cloudflare 403 to automated fetch (listing and PDFs, including dl.py); not circumvented. Year not located elsewhere."
+   },
+   {
+    "fy": "2016-17",
+    "status": "blocked",
+    "local_paths": [],
+    "doc_kind": "gpfs",
+    "notes": "Council site 403. Only a Draft 2016-17 statement appeared in search, not audited."
+   },
+   {
+    "fy": "2017-18",
+    "status": "blocked",
+    "local_paths": [],
+    "doc_kind": "gpfs",
+    "notes": "Council site 403; a yoursay page exists but PDF host not checked."
+   },
+   {
+    "fy": "2018-19",
+    "status": "non_official_host",
+    "local_paths": [],
+    "doc_kind": "gpfs",
+    "notes": "Audited GPFS linked from yoursay.randwick.nsw.gov.au/download_file/1828/750 but redirects to an Amazon S3 bucket (non-official); dl.py rejected it."
+   },
+   {
+    "fy": "2019-20",
+    "status": "blocked",
+    "local_paths": [],
+    "doc_kind": "gpfs",
+    "notes": "Council site 403; yoursay page exists but PDF host not checked."
+   },
+   {
+    "fy": "2020-21",
+    "status": "non_official_host",
+    "local_paths": [],
+    "doc_kind": "gpfs",
+    "notes": "Audited GPFS at yoursay.randwick.nsw.gov.au/download_file/2272/816 redirects to an Amazon S3 bucket (non-official); dl.py rejected it."
+   },
+   {
+    "fy": "2021-22",
+    "status": "blocked",
+    "local_paths": [],
+    "doc_kind": "gpfs",
+    "notes": "Council site 403; yoursay page exists but PDF host not checked."
+   },
+   {
+    "fy": "2022-23",
+    "status": "non_official_host",
+    "local_paths": [],
+    "doc_kind": "gpfs",
+    "notes": "Audited GPFS at yoursay.randwick.nsw.gov.au/download_file/2924/891 redirects to an Amazon S3 bucket (non-official); dl.py rejected it. www PDF also 403."
+   },
+   {
+    "fy": "2023-24",
+    "status": "non_official_host",
+    "local_paths": [],
+    "doc_kind": "gpfs",
+    "notes": "Audited GPFS at yoursay.randwick.nsw.gov.au/download_file/3068/910 redirects to an Amazon S3 bucket (non-official); dl.py rejected it."
+   }
+  ]
+ },
+ {
+  "region_id": "18100",
+  "name": "Weddin",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "not_found",
+    "notes": "2nd pass: Only the annual report is listed (no standalone FS); downloaded it, found it contains no financial statements, discarded via discard.py."
+   },
+   {
+    "fy": "2016-17",
+    "status": "not_found",
+    "notes": "2nd pass: Same as 2015-16; annual report has no financial statements; discarded."
+   },
+   {
+    "fy": "2017-18",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2018."
+   },
+   {
+    "fy": "2018-19",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2019."
+   },
+   {
+    "fy": "2019-20",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2020."
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2021."
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2022."
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2023."
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2024."
+   }
+  ]
+ },
+ {
+  "region_id": "15350",
+  "name": "Mosman",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15350/15350_FY2015-16_gpfs_15bb22a5_Mosman_20Council_20_20Financial_20Statements_20for_20the_20Y.pdf"
+    ],
+    "notes": "Cover confirms Mosman Council, year ended 30 June 2016. Page 1-3 text checked only for name/year."
+   },
+   {
+    "fy": "2016-17",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15350/15350_FY2016-17_gpfs_718c4505_Financial_20Statements_20for_20the_20Year_20Ended_2030_20Jun.pdf"
+    ],
+    "notes": "Year ended 30 June 2017 confirmed on cover."
+   },
+   {
+    "fy": "2017-18",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15350/15350_FY2017-18_gpfs_e12b03c3_Mosman_20Council_20_20Annual_20Financial_20Statements_20YE_2.pdf"
+    ],
+    "notes": "Year ended 30 June 2018 confirmed."
+   },
+   {
+    "fy": "2018-19",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15350/15350_FY2018-19_gpfs_77df9d3e_Mosman_20Council_20_20Financial_20Statements_202018_202019.pdf"
+    ],
+    "notes": "Year ended 30 June 2019 confirmed."
+   },
+   {
+    "fy": "2019-20",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15350/15350_FY2019-20_gpfs_403202ce_Annual_Financial_Statements_2020.pdf"
+    ],
+    "notes": "Year ended 30 June 2020 confirmed."
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15350/15350_FY2020-21_gpfs_09dab7e3_Annual_Financial_Statements_2021_20_283_29.pdf"
+    ],
+    "notes": "Year ended 30 June 2021 confirmed."
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15350/15350_FY2021-22_gpfs_3d5d9796_Annual_20Financial_20Statement_202022.pdf"
+    ],
+    "notes": "Year ended 30 June 2022 confirmed."
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15350/15350_FY2022-23_gpfs_51a96e36_Annual_Financial_Statements_20_28Audited_29_20GPFS_20_26_20S.pdf"
+    ],
+    "notes": "Year ended 30 June 2023 confirmed; file also includes special schedules."
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15350/15350_FY2023-24_gpfs_6d55732b_Annual_Financial_Statements_20GPFS_20_26_20SS_20_28Audited_2.pdf"
+    ],
+    "notes": "Year ended 30 June 2024 confirmed on page 2; file also includes special schedules."
+   }
+  ]
+ },
+ {
+  "region_id": "11250",
+  "name": "Broken Hill",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "brokenhill.nsw.gov.au returns 403 Access Denied (Akamai) to curl and to dl.py for pages and PDFs; no workaround attempted per SPEC. Search showed GPFS exist under /files/assets/public/v/*/documents/financial-statements/ (e.g. broken-hill-city-council-annual-financial-statements-2025.pdf) and annual reports under /ipampr-strategic-plans/. Listing page: https://www.brokenhill.nsw.gov.au/Council/Reports/Annual-Report"
+   },
+   {
+    "fy": "2016-17",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Site 403 to downloader; see 2015-16 note."
+   },
+   {
+    "fy": "2017-18",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Site 403 to downloader; see 2015-16 note."
+   },
+   {
+    "fy": "2018-19",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Site 403 to downloader; see 2015-16 note."
+   },
+   {
+    "fy": "2019-20",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Site 403 to downloader; see 2015-16 note."
+   },
+   {
+    "fy": "2020-21",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Site 403 to downloader; annual report 2020-21 URL known (annual-report-2020-2021-adopted-24-11-2021.pdf) but 403."
+   },
+   {
+    "fy": "2021-22",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Site 403 to downloader; see 2015-16 note."
+   },
+   {
+    "fy": "2022-23",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Site 403 to downloader; see 2015-16 note."
+   },
+   {
+    "fy": "2023-24",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Site 403 to downloader; see 2015-16 note."
+   }
+  ]
+ },
+ {
+  "region_id": "12730",
+  "name": "Edward River",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "predecessor_only",
+    "local_paths": [],
+    "notes": "Edward River formed May 2016; FY2015-16 GPFS belong to predecessor councils (Deniliquin/Conargo). Site also 403."
+   },
+   {
+    "fy": "2016-17",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "edwardriver.nsw.gov.au 403 to curl and dl.py (pages and PDFs). Listing: https://www.edwardriver.nsw.gov.au/Council/Council-Publications/Reports"
+   },
+   {
+    "fy": "2017-18",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403. Known URL: https://www.edwardriver.nsw.gov.au/files/assets/public/v/1/document-resources/council/financial-statements/2017-18-annual-financial-statements.pdf"
+   },
+   {
+    "fy": "2018-19",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403. Annual report 2018-19 URL: https://www.edwardriver.nsw.gov.au/files/assets/public/v/1/annual-report-2018-19.pdf"
+   },
+   {
+    "fy": "2019-20",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403 to downloader."
+   },
+   {
+    "fy": "2020-21",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403 to downloader."
+   },
+   {
+    "fy": "2021-22",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403 to downloader."
+   },
+   {
+    "fy": "2022-23",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403 to downloader."
+   },
+   {
+    "fy": "2023-24",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403. Known URL: https://www.edwardriver.nsw.gov.au/files/assets/public/v/1/1.-documents/publications/reports/annual-report/ar-2023-24/erc_finstatements2024_web.pdf"
+   }
+  ]
+ },
+ {
+  "region_id": "14000",
+  "name": "Hornsby",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "hornsby.nsw.gov.au PDFs 403 to dl.py/curl (Akamai); listing page readable via WebFetch only. URL: https://www.hornsby.nsw.gov.au/files/assets/public/v/1/documents/financial-statements/hsc3010-financial-2016.pdf"
+   },
+   {
+    "fy": "2016-17",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403. URL: .../documents/financial-statements/financial-report-2017-fa_lr.pdf"
+   },
+   {
+    "fy": "2017-18",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403. URL: .../documents/financial-statements/hsc4348-financial-report-2018-fa-reduced.pdf"
+   },
+   {
+    "fy": "2018-19",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403. URL: .../documents/financial-statements/hsc5214-financial-statement-report-fa-lr.pdf"
+   },
+   {
+    "fy": "2019-20",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403. URL: .../documents/financial-statements/final-financial-statements-2019_20.pdf"
+   },
+   {
+    "fy": "2020-21",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403. URL: .../documents/financial-statements/hsc6351-financial-statements-202021-lr-fa.pdf"
+   },
+   {
+    "fy": "2021-22",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403. URL: .../documents/financial-statements/hsc6844-financial-statements-2022-fa-lr.pdf"
+   },
+   {
+    "fy": "2022-23",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403 confirmed via dl.py. URL: .../documents/financial-statements/hsc7335-financial-statements-2023.pdf"
+   },
+   {
+    "fy": "2023-24",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403. URL: .../documents/financial-statements/hornsby-shire-council-financial-statements-2023-24-with-cover-pages.pdf (base https://www.hornsby.nsw.gov.au/files/assets/public/v/1)"
+   }
+  ]
+ },
+ {
+  "region_id": "16700",
+  "name": "Ryde",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "ryde.nsw.gov.au 403 to curl and dl.py. Listing: https://www.ryde.nsw.gov.au/Council/Plans-and-Publications/Financial-Reports (search says FY2016 statements exist)."
+   },
+   {
+    "fy": "2016-17",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403. Council meeting attachment 28 Nov 2017 item 6 may hold audited FS (council-meeting-28-nov-2017-item-6-attachment-1.pdf)."
+   },
+   {
+    "fy": "2017-18",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403 to downloader."
+   },
+   {
+    "fy": "2018-19",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403. URL: https://www.ryde.nsw.gov.au/files/assets/public/v/1/council-meetings/past/2019/council-meeting-26-november-2019-item-9-attachment-1-2018-2019-audited-financial-statements.pdf"
+   },
+   {
+    "fy": "2019-20",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403 to downloader."
+   },
+   {
+    "fy": "2020-21",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403 to downloader."
+   },
+   {
+    "fy": "2021-22",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403. Have-your-say page: https://www.ryde.nsw.gov.au/HaveyourSay/Past-Have-Your-Say/2021-2022-Financial-Statements"
+   },
+   {
+    "fy": "2022-23",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403. URL: https://www.ryde.nsw.gov.au/files/assets/public/v/1/council-meetings/2024/council-meeting-26-march-2024-item-4-att-1.pdf"
+   },
+   {
+    "fy": "2023-24",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403. Page: https://www.ryde.nsw.gov.au/HaveyourSay/Have-Your-Say/2023-2024-Financial-Statements"
+   }
+  ]
+ },
+ {
+  "region_id": "18450",
+  "name": "Wollongong",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "wollongong.nsw.gov.au behind Cloudflare challenge (403) for pages and PDFs; not bypassed per SPEC. Listing: https://wollongong.nsw.gov.au/council/council-documents/reports/financial-report"
+   },
+   {
+    "fy": "2016-17",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Cloudflare 403."
+   },
+   {
+    "fy": "2017-18",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Cloudflare 403."
+   },
+   {
+    "fy": "2018-19",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Cloudflare 403."
+   },
+   {
+    "fy": "2019-20",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Cloudflare 403."
+   },
+   {
+    "fy": "2020-21",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Cloudflare 403."
+   },
+   {
+    "fy": "2021-22",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403. URL: https://www.wollongong.nsw.gov.au/__data/assets/pdf_file/0027/177822/Annual-Financial-Statements-for-the-Year-Ended-30-June-2022.pdf"
+   },
+   {
+    "fy": "2022-23",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403. URL: https://wollongong.nsw.gov.au/__data/assets/pdf_file/0023/209219/Attachment-A-Financial-Report-2022-2023.pdf"
+   },
+   {
+    "fy": "2023-24",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403 confirmed via dl.py. URL: https://www.wollongong.nsw.gov.au/__data/assets/pdf_file/0020/264017/Wollongong-City-Council-Annual-Report-Attachment-A-Financial-Report-2023-2024.pdf"
+   }
+  ]
+ },
+ {
+  "region_id": "16900",
+  "name": "Shellharbour",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "not_found",
+    "notes": "2nd pass: No FY2015-16 report on council site or in search; FY2016-17 annual report prior-year column covers it."
+   },
+   {
+    "fy": "2016-17",
+    "status": "downloaded",
+    "notes": "2nd pass: Annual report 2016-17 incl. audited FS (FS from PDF page 115, cash flow p124; checked year ended 30 June 2017). Source cdn.shellharbour.nsw.gov.au (council business paper attachment)."
+   },
+   {
+    "fy": "2017-18",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/16900/16900_FY2017-18_gpfs_332c2dc2_Item_11_2_2_Att_1_Final_SCC_Audited_Financial_Statements_USC.pdf"
+    ],
+    "notes": "Standalone GPFS, council name and year ended 30 June 2018 confirmed on p1-3 (from Feb 2019 business paper attachment on cdn.shellharbour.nsw.gov.au)."
+   },
+   {
+    "fy": "2018-19",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/16900/16900_FY2018-19_gpfs_65fd8070_Audited_Financial_Statements_1819.pdf"
+    ],
+    "notes": "Standalone GPFS, year ended 30 June 2019 confirmed."
+   },
+   {
+    "fy": "2019-20",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/16900/16900_FY2019-20_gpfs_06e4957f_10_2_3_Attachment_1_2019_2020_Annual_Report_including_Audite.pdf"
+    ],
+    "notes": "Meeting attachment titled annual report including audited FS; GPFS for year ended 30 June 2020 confirmed on p1-3."
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "doc_kind": "annual_report",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/16900/16900_FY2020-21_annual_report_8fed8d2f_full_report_5_3.pdf"
+    ],
+    "notes": "No standalone GPFS found; full annual report 2020-21 (20 MB). GPFS year ended 30 June 2021 start at PDF page 111."
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/16900/16900_FY2021-22_gpfs_616075d8_Shellharbour_City_Council_Audited_Financial_Statements_for_y.pdf"
+    ],
+    "notes": "Standalone GPFS year ended 30 June 2022 confirmed."
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "doc_kind": "annual_report",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/16900/16900_FY2022-23_annual_report_76e4af8d_full_report_13.pdf"
+    ],
+    "notes": "No standalone GPFS found; full annual report 2022-23 (34 MB). GPFS year ended 30 June 2023 start at PDF page 116."
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/16900/16900_FY2023-24_gpfs_3494a67a_Audited_Financial_Statements_for_year_ending_30_June_2024.pdf"
+    ],
+    "notes": "Standalone GPFS year ended 30 June 2024 confirmed."
+   }
+  ]
+ },
+ {
+  "region_id": "12850",
+  "name": "Fairfield",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py got HTTP 403 (Akamai edge block on dl.py/browser-style User-Agent; plain curl default UA returns 200, not used as it is outside dl.py). URL: https://www.fairfieldcity.nsw.gov.au/files/assets/public/v/1/documents/your-council/ipr/2015_2016_financial_statements.pdf ; source page https://www.fairfieldcity.nsw.gov.au/Your-Council/Integrated-Planning-and-Reporting/Archived-Reports"
+   },
+   {
+    "fy": "2016-17",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py 403. URL: https://www.fairfieldcity.nsw.gov.au/files/assets/public/v/2/documents/your-council/ipr/2016_2017_financial_statements__including_auditors_opinions_.pdf"
+   },
+   {
+    "fy": "2017-18",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py 403. URL: https://www.fairfieldcity.nsw.gov.au/files/assets/public/v/2/documents/your-council/ipr/2017_2018_financial_statements__including_auditors_opinion_.pdf"
+   },
+   {
+    "fy": "2018-19",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py 403. URL: https://www.fairfieldcity.nsw.gov.au/files/assets/public/v/2/documents/your-council/ipr/2018_2019_financial_statements.pdf"
+   },
+   {
+    "fy": "2019-20",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py 403. URL: https://www.fairfieldcity.nsw.gov.au/files/assets/public/v/1/documents/your-council/ipr/audited-financial-statements-for-the-year-ended-30-june-2020.pdf"
+   },
+   {
+    "fy": "2020-21",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py 403. URL: https://www.fairfieldcity.nsw.gov.au/files/assets/public/v/3/documents/your-council/ipr/general-purpose-financial-statements-2020-2021-final-signed-21-10-20212.pdf"
+   },
+   {
+    "fy": "2021-22",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py 403. URL: https://www.fairfieldcity.nsw.gov.au/files/assets/public/v/3/documents/your-council/ipr/annual-report/2021-2022-audited-financial-statements.pdf"
+   },
+   {
+    "fy": "2022-23",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py 403. URL: https://www.fairfieldcity.nsw.gov.au/files/assets/public/v/1/documents/your-council/ipr/2022-2023-financial-statements.pdf"
+   },
+   {
+    "fy": "2023-24",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py 403. URL: https://www.fairfieldcity.nsw.gov.au/files/assets/public/v/1/documents/your-council/ipr/annual-report/2023-2024-annual-report-audited-financial-statements.pdf"
+   }
+  ]
+ },
+ {
+  "region_id": "14100",
+  "name": "Hunters Hill",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py 403 (Akamai UA block). Listed URL (unverified): https://www.huntershill.nsw.gov.au/files/assets/public/v/1/council/reports-and-publications/annual-reports-and-financial-statements/financial-statements/annual-financial-statement-2015-2016.pdf ; source page https://www.huntershill.nsw.gov.au/Council/Policies-and-Publications/Annual-Reports-and-Financial-Statements"
+   },
+   {
+    "fy": "2016-17",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py 403. Listed URL: .../financial-statements/annual-financial-statement-2016-2017.pdf (same v/1 path prefix as 2015-16)"
+   },
+   {
+    "fy": "2017-18",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py 403. Listed URL: .../financial-statements/annual-financial-statement-2017-2018.pdf (v/1 prefix)"
+   },
+   {
+    "fy": "2018-19",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py 403. Listed URL: .../financial-statements/annual-financial-statement-2018-2019.pdf (v/1 prefix)"
+   },
+   {
+    "fy": "2019-20",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py 403. Listed URL: .../financial-statements/annual-financial-statement-2019-2020.pdf (v/1 prefix)"
+   },
+   {
+    "fy": "2020-21",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py 403. Listed URL: .../financial-statements/annual-financial-statement-2020-2021.pdf (v/1 prefix)"
+   },
+   {
+    "fy": "2021-22",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py 403. Listed URL: .../financial-statements/annual-financial-statements-2021-2022.pdf (v/1 prefix)"
+   },
+   {
+    "fy": "2022-23",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py 403. URL: https://www.huntershill.nsw.gov.au/files/assets/public/v/3/council/reports-and-publications/annual-reports-and-financial-statements/financial-statements/annual_financial_statements-2023-3in1-final.pdf"
+   },
+   {
+    "fy": "2023-24",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py 403 (tested). URL: https://www.huntershill.nsw.gov.au/files/assets/public/v/2/council/reports-and-publications/annual-reports-and-financial-statements/financial-statements/annual-financial-statements-2023-2024.pdf"
+   }
+  ]
+ },
+ {
+  "region_id": "18500",
+  "name": "Woollahra",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py 403 (Akamai UA block). Annual report Part 4 financial information: https://www.woollahra.nsw.gov.au/files/assets/public/v/2/plans-policies-publications/integrated-planning-and-reporting/annual-report-2015-2016-part-4-financial-information.pdf ; source page https://www.woollahra.nsw.gov.au/Council/Vision-structure-and-financial-sustainability/Integrated-planning-and-reporting/Annual-report"
+   },
+   {
+    "fy": "2016-17",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py 403. Part 4: .../v/2/plans-policies-publications/integrated-planning-and-reporting/annual-report-2016-17-part-4-financial-information.pdf"
+   },
+   {
+    "fy": "2017-18",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py 403. Part 4: .../v/2/plans-policies-publications/integrated-planning-and-reporting/annual-report-2017-18-part-4-financial-information.pdf"
+   },
+   {
+    "fy": "2018-19",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py 403. Part 3: .../v/2/plans-policies-publications/integrated-planning-and-reporting/annual-report-2018-19-part-3-financial-statements.pdf"
+   },
+   {
+    "fy": "2019-20",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py 403. Part 3: .../v/1/plans-policies-publications/integrated-planning-and-reporting/annual-report-2019-20-part-3-financial-statements.pdf"
+   },
+   {
+    "fy": "2020-21",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py 403. Part 3: .../v/1/plans-policies-publications/integrated-planning-and-reporting/annual-report-2020-21-part-3-financial-statements.pdf"
+   },
+   {
+    "fy": "2021-22",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py 403. Part 3: .../v/1/plans-policies-publications/integrated-planning-and-reporting/annual-report-2021-22-part-3-financial-statements.pdf"
+   },
+   {
+    "fy": "2022-23",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py 403. Part 3: https://www.woollahra.nsw.gov.au/files/assets/public/v/1/plans-policies-publications/annual-report-2022-23-part-3-audited-financial-statements.pdf"
+   },
+   {
+    "fy": "2023-24",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py 403 (tested). Part 3: https://www.woollahra.nsw.gov.au/files/assets/public/v/1/council/documents/part-3-of-annual-report-2023-24-audited-financial-statements.pdf"
+   }
+  ]
+ },
+ {
+  "region_id": "15520",
+  "name": "Murray River",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "predecessor_only",
+    "local_paths": [],
+    "notes": "Murray River Council proclaimed May 2016; FY2015-16 statements belong to predecessor councils (Murray, Wakool). Not searched further."
+   },
+   {
+    "fy": "2016-17",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "murrayriver.nsw.gov.au returns 403 to curl, WebFetch and dl.py (Akamai). Listing page URL not readable; URL not found. Source page: https://www.murrayriver.nsw.gov.au/Council/Fees-forms-documents/Annual-Reporting/Annual-Financial-Statements"
+   },
+   {
+    "fy": "2017-18",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403 site-wide; URL unknown (2018 FS public exhibition news item exists: https://www.murrayriver.nsw.gov.au/council/news/public-exhibition/feedback-invited-councils-2018-financial-statements)"
+   },
+   {
+    "fy": "2018-19",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403 site-wide; URL unknown."
+   },
+   {
+    "fy": "2019-20",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403 site-wide; URL unknown."
+   },
+   {
+    "fy": "2020-21",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403 site-wide; URL unknown."
+   },
+   {
+    "fy": "2021-22",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403 site-wide; URL unknown."
+   },
+   {
+    "fy": "2022-23",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py not tested on this URL but site 403s. URL from search: https://www.murrayriver.nsw.gov.au/files/assets/public/v/1/public-notice-docs/2022-2023-murray-river-council-annual-financial-statements.pdf"
+   },
+   {
+    "fy": "2023-24",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py 403 (tested). URL: https://www.murrayriver.nsw.gov.au/files/assets/public/v/1/documents/ipampr-docs-and-budgets/mrc-annual_financial_statements-2023-2024.pdf"
+   }
+  ]
+ },
+ {
+  "region_id": "11300",
+  "name": "Burwood",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "burwood.nsw.gov.au returns 403 to curl and dl.py (Akamai). Reports page via WebFetch lists only annual reports 2023-24 and 2024-25; no URLs found for this year."
+   },
+   {
+    "fy": "2016-17",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403; URL unknown."
+   },
+   {
+    "fy": "2017-18",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403; URL unknown."
+   },
+   {
+    "fy": "2018-19",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Page exists (dl.py 403): https://www.burwood.nsw.gov.au/Our-Council/Policies-Plans-and-Reports/Reports/Annual-Financial-Statement-2018-2019 ; PDF link not read."
+   },
+   {
+    "fy": "2019-20",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403; URL unknown (search did not surface it)."
+   },
+   {
+    "fy": "2020-21",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403; URL unknown."
+   },
+   {
+    "fy": "2021-22",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403; URL unknown."
+   },
+   {
+    "fy": "2022-23",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403; URL unknown."
+   },
+   {
+    "fy": "2023-24",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403. Annual report 2023-24 (contains FS): https://www.burwood.nsw.gov.au/files/sharedassets/public/v/6/burwood-council-annual-report-2023-2024.pdf"
+   }
+  ]
+ },
+ {
+  "region_id": "10800",
+  "name": "Bland",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "downloaded",
+    "notes": "2nd pass: Standalone FS; p1-3 confirm Bland Shire Council, year ended 30 June 2016. Site now serves plain curl."
+   },
+   {
+    "fy": "2016-17",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2017."
+   },
+   {
+    "fy": "2017-18",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2018."
+   },
+   {
+    "fy": "2018-19",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2019."
+   },
+   {
+    "fy": "2019-20",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2020."
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2021."
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2022 (audited)."
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2023."
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2024."
+   }
+  ]
+ },
+ {
+  "region_id": "11700",
+  "name": "Central Darling",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "centraldarling.nsw.gov.au (Akamai) 403 to curl and dl.py; no workaround"
+   },
+   {
+    "fy": "2016-17",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "same site block"
+   },
+   {
+    "fy": "2017-18",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "same site block"
+   },
+   {
+    "fy": "2018-19",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "same site block"
+   },
+   {
+    "fy": "2019-20",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "same site block"
+   },
+   {
+    "fy": "2020-21",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "same site block"
+   },
+   {
+    "fy": "2021-22",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "same site block"
+   },
+   {
+    "fy": "2022-23",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "same site block"
+   },
+   {
+    "fy": "2023-24",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "same site block"
+   }
+  ]
+ },
+ {
+  "region_id": "13550",
+  "name": "Gunnedah",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/13550/13550_FY2015-16_gpfs_4f57669e_preview.pdf"
+    ],
+    "notes": "verified Gunnedah, year ended 30 June 2016"
+   },
+   {
+    "fy": "2016-17",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/13550/13550_FY2016-17_gpfs_dab6e135_preview.pdf"
+    ],
+    "notes": "verified p1-3 year ended 30 June 2017"
+   },
+   {
+    "fy": "2017-18",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/13550/13550_FY2017-18_gpfs_918fe0e1_preview.pdf"
+    ],
+    "notes": "verified year ended 30 June 2018"
+   },
+   {
+    "fy": "2018-19",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/13550/13550_FY2018-19_gpfs_fe8a24ed_preview.pdf"
+    ],
+    "notes": "verified year ended 30 June 2019"
+   },
+   {
+    "fy": "2019-20",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/13550/13550_FY2019-20_gpfs_cc0fb44c_preview.pdf"
+    ],
+    "notes": "verified year ended 30 June 2020"
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/13550/13550_FY2020-21_gpfs_0241453e_preview.pdf"
+    ],
+    "notes": "verified year ended 30 June 2021"
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/13550/13550_FY2021-22_gpfs_e150664a_preview.pdf"
+    ],
+    "notes": "verified year ended 30 June 2022"
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/13550/13550_FY2022-23_gpfs_1e7d4380_preview.pdf"
+    ],
+    "notes": "verified year ended 30 June 2023"
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/13550/13550_FY2023-24_gpfs_62f64ad0_preview.pdf"
+    ],
+    "notes": "verified year ended 30 June 2024"
+   }
+  ]
+ },
+ {
+  "region_id": "14750",
+  "name": "Leeton",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed Leeton Shire Council, year ended 30 June 2016."
+   },
+   {
+    "fy": "2016-17",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2017."
+   },
+   {
+    "fy": "2017-18",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2018."
+   },
+   {
+    "fy": "2018-19",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2019."
+   },
+   {
+    "fy": "2019-20",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2020 (124pp, 25MB, 13 empty pages)."
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2021 (14MB)."
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2022."
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "notes": "2nd pass: File named 2023-01-02-2024-final; confirmed year ended 30 June 2023."
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2024."
+   }
+  ]
+ },
+ {
+  "region_id": "16150",
+  "name": "Orange",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "downloaded",
+    "notes": "2nd pass: Annual report with GPFS appendix (PDF pages ~68-70+); no standalone GPFS on site"
+   },
+   {
+    "fy": "2016-17",
+    "status": "downloaded",
+    "notes": "2nd pass: Annual report with GPFS appendix (pages ~72+)"
+   },
+   {
+    "fy": "2017-18",
+    "status": "downloaded",
+    "notes": "2nd pass: Annual report with GPFS appendix (pages ~68+)"
+   },
+   {
+    "fy": "2018-19",
+    "status": "downloaded",
+    "notes": "2nd pass: Annual report with GPFS appendix (pages ~80+)"
+   },
+   {
+    "fy": "2019-20",
+    "status": "downloaded",
+    "notes": "2nd pass: Annual report with GPFS appendix (pages ~76+)"
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "notes": "2nd pass: Annual report with financials (pages ~126+)"
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "notes": "2nd pass: Annual report with GPFS appendix (pages ~90+)"
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "notes": "2nd pass: Annual report with GPFS appendix (pages ~111+)"
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "notes": "2nd pass: Standalone GPFS, verified"
+   }
+  ]
+ },
+ {
+  "region_id": "18200",
+  "name": "Wentworth",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/18200/18200_FY2015-16_gpfs_4529a649_Annual_Report_15_16_Financial_Statements.pdf"
+    ],
+    "notes": "verified year ended 30 June 2016"
+   },
+   {
+    "fy": "2016-17",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/18200/18200_FY2016-17_gpfs_25d68ddd_Annual_Report_16_17_Financial_Statements.pdf"
+    ],
+    "notes": "verified year ended 30 June 2017"
+   },
+   {
+    "fy": "2017-18",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/18200/18200_FY2017-18_gpfs_f78944c8_Annual_Report_17_18_Financial_Statements.pdf"
+    ],
+    "notes": "verified year ended 30 June 2018"
+   },
+   {
+    "fy": "2018-19",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/18200/18200_FY2018-19_gpfs_23bd3531_Annual_Report_18_19_Financial_Statements.pdf"
+    ],
+    "notes": "verified year ended 30 June 2019"
+   },
+   {
+    "fy": "2019-20",
+    "status": "downloaded",
+    "doc_kind": "annual_report",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/18200/18200_FY2019-20_annual_report_7763fb0a_2019_2020_Wentworth_Shire_Council_Annual_Report_and_Financia.pdf"
+    ],
+    "notes": "combined annual report and financial statements; FS for year ended 30 June 2020 at PDF pages ~29-33 incl. cash flow with IPPE purchase line; no standalone GPFS found"
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/18200/18200_FY2020-21_gpfs_5c92cc44_Annual_Financial_Statements_2021_Final.pdf"
+    ],
+    "notes": "verified year ended 30 June 2021"
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/18200/18200_FY2021-22_gpfs_a0ceef65_Wentworth_Shire_Council_Financial_Statements_2021_22.pdf"
+    ],
+    "notes": "verified year ended 30 June 2022"
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/18200/18200_FY2022-23_gpfs_6a4d1c2c_Annual_Financial_Statements_31_October_2023.pdf"
+    ],
+    "notes": "verified year ended 30 June 2023"
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/18200/18200_FY2023-24_gpfs_d4b2c10c_Wentworth_Shire_Council_Financial_Statements_2023_24.pdf"
+    ],
+    "notes": "verified year ended 30 June 2024"
+   }
+  ]
+ },
+ {
+  "region_id": "10650",
+  "name": "Berrigan",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2016."
+   },
+   {
+    "fy": "2016-17",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2017."
+   },
+   {
+    "fy": "2017-18",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2018."
+   },
+   {
+    "fy": "2018-19",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2019."
+   },
+   {
+    "fy": "2019-20",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2020."
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2021."
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2022."
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "notes": "2nd pass: Scanned PDF (114pp, no text layer); could not render for visual check. Taken from official listing, filename annual-financial-statements-2023; needs OCR/visual confirmation of council/year."
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2024."
+   }
+  ]
+ },
+ {
+  "region_id": "11570",
+  "name": "Canterbury-Bankstown",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "predecessor_only",
+    "local_paths": [],
+    "notes": "Council site lists only 'The former Bankstown City Council Annual Financial Statements 2015-16' (and former Canterbury City Council); predecessor councils only, not downloaded."
+   },
+   {
+    "fy": "2016-17",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11570/11570_FY2016-17_gpfs_929b808e_publish.pdf"
+    ],
+    "notes": "GPFS 2017 Canterbury-Bankstown (new council, may cover from proclamation May 2016). Source cbcity measuring-performance page via webdocs.bankstown.nsw.gov.au."
+   },
+   {
+    "fy": "2017-18",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11570/11570_FY2017-18_gpfs_9cc5c71c_publish.pdf"
+    ],
+    "notes": "Verified name and year ended 30 June 2018, income and cash flow statements present."
+   },
+   {
+    "fy": "2018-19",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11570/11570_FY2018-19_gpfs_6b37d891_publish.pdf"
+    ],
+    "notes": "Verified."
+   },
+   {
+    "fy": "2019-20",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11570/11570_FY2019-20_gpfs_0d4f5ca0_publish.pdf"
+    ],
+    "notes": "Cover says GPFS year ended 30 June 2020; page 2+ text has garbled font encoding (/gNN glyph codes), extraction may need OCR/glyph decode or Read tool with pages."
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11570/11570_FY2020-21_gpfs_15ed0c20_publish.pdf"
+    ],
+    "notes": "Verified; file is GPFS and SS combined."
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11570/11570_FY2021-22_gpfs_ec0bc175_publish.pdf"
+    ],
+    "notes": "Verified."
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11570/11570_FY2022-23_gpfs_f9e0227c_publish.pdf"
+    ],
+    "notes": "Verified."
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11570/11570_FY2023-24_annual_report_9195865f_publish.pdf"
+    ],
+    "doc_kind": "annual_report",
+    "notes": "Annual report 2023/24 including financial statements (GPFS cash flow at PDF p105); standalone GPFS only on haveyoursay S3 (non-official host). 27 MB."
+   }
+  ]
+ },
+ {
+  "region_id": "12950",
+  "name": "Gilgandra",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "not_found",
+    "notes": "2nd pass: Official site lists GPFS only from 2020-21; no earlier URL located"
+   },
+   {
+    "fy": "2016-17",
+    "status": "not_found",
+    "notes": "2nd pass: Same; no URL"
+   },
+   {
+    "fy": "2017-18",
+    "status": "not_found",
+    "notes": "2nd pass: Annual report downloaded but contains no financial statements; discarded"
+   },
+   {
+    "fy": "2018-19",
+    "status": "not_found",
+    "notes": "2nd pass: Annual report contains no financial statements; discarded"
+   },
+   {
+    "fy": "2019-20",
+    "status": "not_found",
+    "notes": "2nd pass: Annual report contains no financial statements (narrative only); discarded"
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "notes": "2nd pass: Standalone GPFS, verified (text extraction partial due to rotated pages)"
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "notes": "2nd pass: Standalone GPFS, verified"
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "notes": "2nd pass: Standalone GPFS, verified"
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "notes": "2nd pass: Standalone GPFS, verified"
+   }
+  ]
+ },
+ {
+  "region_id": "14600",
+  "name": "Lachlan",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "not_found",
+    "notes": "2nd pass: Site now readable by plain curl, but IPR page lists AFS only 2022-23 to 2024-25 and annual reports 2021-22 onward"
+   },
+   {
+    "fy": "2016-17",
+    "status": "not_found",
+    "notes": "2nd pass: Not on site"
+   },
+   {
+    "fy": "2017-18",
+    "status": "not_found",
+    "notes": "2nd pass: Not on site"
+   },
+   {
+    "fy": "2018-19",
+    "status": "not_found",
+    "notes": "2nd pass: Not on site"
+   },
+   {
+    "fy": "2019-20",
+    "status": "not_found",
+    "notes": "2nd pass: Not on site"
+   },
+   {
+    "fy": "2020-21",
+    "status": "not_found",
+    "notes": "2nd pass: Not on site; prior-year columns in the 2021-22 annual report (FS at PDF pages ~103+) are fallback"
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "notes": "2nd pass: Annual report with FS appendix (no standalone GPFS on site); FS pages 103+ verified year ended 30 June 2022"
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "notes": "2nd pass: Standalone Annual Financial Statements, verified year ended 30 June 2023"
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "notes": "2nd pass: Standalone AFS (link titled 2023-2024 Annual Financial Statements), verified year ended 30 June 2024; filename new_cover.pdf"
+   }
+  ]
+ },
+ {
+  "region_id": "15950",
+  "name": "North Sydney",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15950/15950_FY2015-16_gpfs_0a5ac398_financial_statement_2015_2016.pdf"
+    ],
+    "notes": "Verified year ended 30 June 2016."
+   },
+   {
+    "fy": "2016-17",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15950/15950_FY2016-17_gpfs_0e9a5236_financial_statement_2016_2017.pdf"
+    ],
+    "notes": "Verified."
+   },
+   {
+    "fy": "2017-18",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15950/15950_FY2017-18_gpfs_29b4a964_financial_statement_2017_2018.pdf"
+    ],
+    "notes": "Verified."
+   },
+   {
+    "fy": "2018-19",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15950/15950_FY2018-19_gpfs_5a0812ec_financial_statement_2018_2019.pdf"
+    ],
+    "notes": "Verified."
+   },
+   {
+    "fy": "2019-20",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15950/15950_FY2019-20_gpfs_bc063c22_financial_statement_2019_2020.pdf"
+    ],
+    "notes": "Verified."
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15950/15950_FY2020-21_gpfs_a0741625_financial_statement_2020_2021.pdf"
+    ],
+    "notes": "Verified."
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15950/15950_FY2021-22_gpfs_70a89fd7_financial_statements_2021_2022.pdf"
+    ],
+    "notes": "Verified."
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15950/15950_FY2022-23_gpfs_73203724_financial_statements_2022_2023.pdf"
+    ],
+    "notes": "Verified."
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15950/15950_FY2023-24_gpfs_d716e235_financial_statements_2023_2024.pdf"
+    ],
+    "notes": "Cover 'North Sydney Council Financial Statements 2023/24' on page 1; 'year ended' wording not in pages 1-3 but content is the 2023/24 statements."
+   }
+  ]
+ },
+ {
+  "region_id": "17420",
+  "name": "The Hills Shire",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "thehills.nsw.gov.au returns 403 to curl, WebFetch and dl.py; annual report archive listing unreadable."
+   },
+   {
+    "fy": "2016-17",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Site 403."
+   },
+   {
+    "fy": "2017-18",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Site 403."
+   },
+   {
+    "fy": "2018-19",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Known URL the_hills_shire_council_general_purpose_financial_statements_2018-2019.pdf; dl.py 403."
+   },
+   {
+    "fy": "2019-20",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Site 403."
+   },
+   {
+    "fy": "2020-21",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Site 403."
+   },
+   {
+    "fy": "2021-22",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Site 403."
+   },
+   {
+    "fy": "2022-23",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Known URL cms-docs/hys/2023-exhibitions/financial-statements-2022-2023.pdf on thehills.nsw.gov.au; 403."
+   },
+   {
+    "fy": "2023-24",
+    "status": "non_official_host",
+    "local_paths": [],
+    "notes": "Only copy found is on hillshaveyoursay.thehills.nsw.gov.au (Engagement HQ page, file served from non-.gov.au host); dl.py rejected as HTML."
+   }
+  ]
+ },
+ {
+  "region_id": "10300",
+  "name": "Balranald",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "balranald.nsw.gov.au returns HTTP 403 to curl and dl.py (listing pages and PDFs); recorded and not worked around. Search found a 2015-16 statement on the council site but URL not captured."
+   },
+   {
+    "fy": "2016-17",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Site 403. Annual report 2016-17 at https://balranald.nsw.gov.au/wp-content/uploads/2017/11/Balranald-Shire-Council-Annual-Report-2016-17.pdf (also 403); GPFS URL not known."
+   },
+   {
+    "fy": "2017-18",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Site 403; URL not captured."
+   },
+   {
+    "fy": "2018-19",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Site 403. Candidate: https://balranald.nsw.gov.au/wp-content/uploads/2019/12/Balranald-Shire-Council-Annual-Report-2018-2019-Attachment-Financial-Statements.pdf"
+   },
+   {
+    "fy": "2019-20",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Site 403; URL not captured."
+   },
+   {
+    "fy": "2020-21",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Site 403; URL not captured."
+   },
+   {
+    "fy": "2021-22",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Site 403. Candidate (audited OLG version): https://balranald.nsw.gov.au/wp-content/uploads/2022/11/Balranald_Annual_Financial_Statements-2022_OLG-compressed.pdf"
+   },
+   {
+    "fy": "2022-23",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py got 403. Candidate: https://balranald.nsw.gov.au/wp-content/uploads/2023/11/Balranald-Annual_Financial_Statements-2023-OLG.pdf"
+   },
+   {
+    "fy": "2023-24",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Site 403. Candidate: https://balranald.nsw.gov.au/wp-content/uploads/2024/11/Balranald-Annual_Financial_Statements-2024-OLG.pdf"
+   }
+  ]
+ },
+ {
+  "region_id": "11500",
+  "name": "Campbelltown (NSW)",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "not_found",
+    "local_paths": [],
+    "notes": "Financial-information page lists statements only from 2016-17 onward."
+   },
+   {
+    "fy": "2016-17",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py (UA 'Mozilla/5.0 ...') gets HTTP 403 from campbelltown.nsw.gov.au; plain curl UA gets 200 so it looks like a UA filter. URL: https://www.campbelltown.nsw.gov.au/files/sharedassets/public/v/1/council-and-councillors/documents/20162017financialstatements1.pdf (source page https://www.campbelltown.nsw.gov.au/Council-and-Councillors/Financial-information)"
+   },
+   {
+    "fy": "2017-18",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py 403 (logged as failed). URL: .../council-and-councillors/documents/20172018financialstatements.pdf"
+   },
+   {
+    "fy": "2018-19",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py 403 expected. URL: .../council-and-councillors/documents/2018-2019financialstatements.pdf"
+   },
+   {
+    "fy": "2019-20",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "URL: .../council-and-councillors/documents/2019to2020financialstatements.pdf"
+   },
+   {
+    "fy": "2020-21",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "URL: .../council-and-councillors/documents/2020-21-financial-statements.pdf"
+   },
+   {
+    "fy": "2021-22",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "URL: .../council-and-councillors/documents/2021-22-financial-statements.pdf"
+   },
+   {
+    "fy": "2022-23",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "URL: .../council-and-councillors/documents/2022-23-financial-statements-v4-redacted-reduced-size.pdf"
+   },
+   {
+    "fy": "2023-24",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "dl.py 403 (logged as failed). URL: .../council-and-councillors/documents/2023-24-financial-statements_final-reduced-size.pdf. Fix needed: dl.py User-Agent is blocked by this host (plain curl default UA works); I did not edit the shared tool."
+   }
+  ]
+ },
+ {
+  "region_id": "12900",
+  "name": "Forbes",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/12900/12900_FY2015-16_gpfs_09f00afb_Financial_Statements_2015_16_pdf_aspx.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "Verified title page: Forbes Shire Council, year ended 30 June 2016."
+   },
+   {
+    "fy": "2016-17",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/12900/12900_FY2016-17_gpfs_3f36abe6_Financial_Statements_2016_17_pdf_aspx.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "Verified 30 June 2017."
+   },
+   {
+    "fy": "2017-18",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/12900/12900_FY2017-18_gpfs_d398995c_Financial_Statements_2017_18_pdf_aspx.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "Verified 30 June 2018."
+   },
+   {
+    "fy": "2018-19",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/12900/12900_FY2018-19_gpfs_d38549e7_2018_19_20Financial_20Statements_pdf_aspx.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "Verified 30 June 2019 (first URL tried returned 404, a second URL from the same listing worked)."
+   },
+   {
+    "fy": "2019-20",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/12900/12900_FY2019-20_gpfs_84bae84a_Financial_20Statements_202020_20Final_pdf_aspx.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "Verified 30 June 2020."
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/12900/12900_FY2020-21_gpfs_f113f063_Annual_Financial_Statements_2021_pdf_aspx.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "Verified 30 June 2021."
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/12900/12900_FY2021-22_gpfs_67822fd7_Annual_Financial_Statements_2022_pdf_aspx.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "Verified 30 June 2022."
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/12900/12900_FY2022-23_gpfs_f8227522_Annual_20Financial_20Statements_202023_pdf_aspx.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "Verified 30 June 2023."
+   },
+   {
+    "fy": "2023-24",
+    "status": "not_found",
+    "notes": "2nd pass: Forbes extra-reports and reports pages list only 2025 AFS (Annual_Financial_Statements-2025.pdf, whose prior-year column covers FY2023-24) and the 2023-24 Annual Report, which contains no financial statements. The file 'Annual_Financial_Statements-2023 with audit reports' is FY2022-23, not downloaded. Guessed 2024 URLs return 404 and no other official source was found, so use the prior-year column of the FY2024-25 GPFS only if needed."
+   }
+  ]
+ },
+ {
+  "region_id": "14300",
+  "name": "Junee",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/14300/14300_FY2015-16_gpfs_c48b80b8_JSC_Financial_Statements_2015_16.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "Verified title page: year ended 30 June 2016."
+   },
+   {
+    "fy": "2016-17",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/14300/14300_FY2016-17_gpfs_131eaec7_Financial_Statements_2016_17.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "Verified 30 June 2017."
+   },
+   {
+    "fy": "2017-18",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/14300/14300_FY2017-18_gpfs_ae33ed0b_Annual_Financial_Statements_2017_18.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "Verified 30 June 2018."
+   },
+   {
+    "fy": "2018-19",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/14300/14300_FY2018-19_gpfs_450d0c76_Annual_Financial_Statements_2018_19.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "Verified 30 June 2019."
+   },
+   {
+    "fy": "2019-20",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/14300/14300_FY2019-20_gpfs_dff4a941_Annual_Financial_Statements_2019_2020.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "Verified 30 June 2020."
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/14300/14300_FY2020-21_gpfs_576fff9e_Annual_Financial_Statements_2021.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "Verified 30 June 2021."
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/14300/14300_FY2021-22_gpfs_05d0332e_Annual_Financial_Statements_2022Final.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "Verified 30 June 2022."
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/14300/14300_FY2022-23_gpfs_caba044b_Annual_Financial_Statement_2022_2023.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "Verified 30 June 2023."
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/14300/14300_FY2023-24_gpfs_53a51df6_Annual_Financial_Statements_2024.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "Verified 30 June 2024."
+   }
+  ]
+ },
+ {
+  "region_id": "15800",
+  "name": "Narrandera",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "not_found",
+    "notes": "2nd pass: Old /sites/default/files URLs now return the homepage; no GPFS link on the current site"
+   },
+   {
+    "fy": "2016-17",
+    "status": "not_found",
+    "notes": "2nd pass: No official GPFS URL located"
+   },
+   {
+    "fy": "2017-18",
+    "status": "not_found",
+    "notes": "2nd pass: No official GPFS URL located"
+   },
+   {
+    "fy": "2018-19",
+    "status": "not_found",
+    "notes": "2nd pass: Only referenced inside a Dec 2019 business paper; URL not located"
+   },
+   {
+    "fy": "2019-20",
+    "status": "not_found",
+    "notes": "2nd pass: Old page gone; no URL"
+   },
+   {
+    "fy": "2020-21",
+    "status": "not_found",
+    "notes": "2nd pass: No URL located"
+   },
+   {
+    "fy": "2021-22",
+    "status": "not_found",
+    "notes": "2nd pass: Previously known /sites/default/files/2022-10/... URL now serves the homepage HTML, not a PDF"
+   },
+   {
+    "fy": "2022-23",
+    "status": "not_found",
+    "notes": "2nd pass: No URL located"
+   },
+   {
+    "fy": "2023-24",
+    "status": "not_downloaded",
+    "notes": "2nd pass: GPFS is Attachment 1 in 2024-10-10-attachments-15-october-2024.pdf (https://www.narrandera.nsw.gov.au/files/assets/public/v/1/files/council/meetings/2024/2024-10-10-attachments-15-october-2024.pdf), 80 MB, over the 40 MB dl.py cap. Not downloaded"
+   }
+  ]
+ },
+ {
+  "region_id": "17200",
+  "name": "Sydney",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/17200/17200_FY2015-16_gpfs_58b5fb1e_annual_financial_report_2015_16.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "Verified year ended 30 June 2016, full statements incl. income statement p4."
+   },
+   {
+    "fy": "2016-17",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/17200/17200_FY2016-17_gpfs_6baa3375_financial_reports_2016_17.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "Verified 30 June 2017."
+   },
+   {
+    "fy": "2017-18",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/17200/17200_FY2017-18_gpfs_e75571ad_city_of_sydney_annual_report_general_purpose_financial_state.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "Verified 30 June 2018."
+   },
+   {
+    "fy": "2018-19",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/17200/17200_FY2018-19_gpfs_63a937d0_financial_statements_2018_19.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "Verified 30 June 2019."
+   },
+   {
+    "fy": "2019-20",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/17200/17200_FY2019-20_gpfs_5b4ef069_financial_statements_2019_20.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "Verified 30 June 2020."
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/17200/17200_FY2020-21_gpfs_8f45bae9_annual_report_final_financial_statements_2020_21.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "Verified 30 June 2021."
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/17200/17200_FY2021-22_gpfs_8bb537c3_annual_report_2021_22_financial_statements.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "Verified 30 June 2022 (text appears from page 3)."
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/17200/17200_FY2022-23_gpfs_086f182d_annual_report_financial_statements_2022_23.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "Verified 30 June 2023; rotated-text warnings from pdftext."
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/17200/17200_FY2023-24_gpfs_f9ff7744_financial_statements_2023_24.pdf"
+    ],
+    "doc_kind": "gpfs",
+    "notes": "Verified 30 June 2024; rotated-text warnings from pdftext."
+   }
+  ]
+ },
+ {
+  "region_id": "10750",
+  "name": "Blacktown",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "blacktown.nsw.gov.au returns HTTP 403 to automated requests (listing and PDFs, incl. dl.py); recorded and moved on per spec"
+   },
+   {
+    "fy": "2016-17",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "HTTP 403 on all blacktown.nsw.gov.au requests; dl.py attempt failed"
+   },
+   {
+    "fy": "2017-18",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "HTTP 403 on all blacktown.nsw.gov.au requests; dl.py attempt failed"
+   },
+   {
+    "fy": "2018-19",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "HTTP 403 on all blacktown.nsw.gov.au requests; dl.py attempt failed"
+   },
+   {
+    "fy": "2019-20",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "HTTP 403 on all blacktown.nsw.gov.au requests; dl.py attempt failed"
+   },
+   {
+    "fy": "2020-21",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "HTTP 403 on all blacktown.nsw.gov.au requests; dl.py attempt failed"
+   },
+   {
+    "fy": "2021-22",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "HTTP 403 on all blacktown.nsw.gov.au requests; dl.py attempt failed"
+   },
+   {
+    "fy": "2022-23",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "HTTP 403; known URL (via search) https://www.blacktown.nsw.gov.au/files/assets/public/v/1/finance/2022-to-2023-financial-statements.pdf"
+   },
+   {
+    "fy": "2023-24",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "HTTP 403 on all blacktown.nsw.gov.au requests; dl.py attempt failed"
+   }
+  ]
+ },
+ {
+  "region_id": "11600",
+  "name": "Carrathool",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "not_found",
+    "notes": "2nd pass: Council site lists annual reports only 2020-21 onward (re-checked annual report, IPR, agendas pages; agendas from 2023)"
+   },
+   {
+    "fy": "2016-17",
+    "status": "not_found",
+    "notes": "2nd pass: Same; not on site"
+   },
+   {
+    "fy": "2017-18",
+    "status": "not_found",
+    "notes": "2nd pass: Same; prior-year columns in 2018-19 annual report are fallback"
+   },
+   {
+    "fy": "2018-19",
+    "status": "downloaded",
+    "doc_kind": "annual_report",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11600/11600_FY2018-19_annual_report_72d6b82d_2018_19_Annual_Report.pdf"
+    ],
+    "notes": "Annual report containing full GPFS (statements PDF p40-43, year ended 30 June 2019 confirmed); no standalone GPFS on site"
+   },
+   {
+    "fy": "2019-20",
+    "status": "not_found",
+    "notes": "2nd pass: Not published on site; prior-year columns in 2020-21 annual report fallback"
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "doc_kind": "annual_report",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11600/11600_FY2020-21_annual_report_0730b31b_2020_21_Annual_Report.pdf"
+    ],
+    "notes": "Annual report containing full GPFS (statements around p45); 34 MB"
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "doc_kind": "annual_report",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11600/11600_FY2021-22_annual_report_001edb37_Annual_Report_2021_22_FINAL.pdf"
+    ],
+    "notes": "Annual report containing full GPFS (p41-52)"
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "doc_kind": "annual_report",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11600/11600_FY2022-23_annual_report_768de4c7_2022_2023_Final_Annual_Report.pdf"
+    ],
+    "notes": "Annual report containing full GPFS (p46-58)"
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "doc_kind": "annual_report",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11600/11600_FY2023-24_annual_report_9a655e3a_Combined_Master_Annual_Report_2023_2024.pdf"
+    ],
+    "notes": "Annual report containing full GPFS (p57-69)"
+   }
+  ]
+ },
+ {
+  "region_id": "13450",
+  "name": "Griffith",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "not_found",
+    "notes": "2nd pass: Not on council listing pages (only 2023-24 onward listed); URL-pattern guesses 404. Site now serves plain curl."
+   },
+   {
+    "fy": "2016-17",
+    "status": "not_found",
+    "notes": "2nd pass: Same; not found."
+   },
+   {
+    "fy": "2017-18",
+    "status": "not_found",
+    "notes": "2nd pass: Same; not found."
+   },
+   {
+    "fy": "2018-19",
+    "status": "downloaded",
+    "notes": "2nd pass: URL pattern 2018-2019-general-purpose-report.pdf; confirmed Griffith City Council, year ended 30 June 2019."
+   },
+   {
+    "fy": "2019-20",
+    "status": "already_have",
+    "notes": "2nd pass: Existing file kept."
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "notes": "2nd pass: Scanned PDF (93pp, no text layer); not visually verified; URL pattern 2020-2021-general-purpose-report.pdf."
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2022."
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "notes": "2nd pass: Confirmed year ended 30 June 2023."
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "notes": "2nd pass: gcc-annual-financial-statements-gpfs-2024.pdf from Finance-and-budget page; confirmed year ended 30 June 2024."
+   }
+  ]
+ },
+ {
+  "region_id": "14700",
+  "name": "Lane Cove",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "lanecove.nsw.gov.au returns HTTP 403 to automated requests; infocouncil host unreachable; recorded and moved on"
+   },
+   {
+    "fy": "2016-17",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "HTTP 403 on lanecove.nsw.gov.au"
+   },
+   {
+    "fy": "2017-18",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "HTTP 403 on lanecove.nsw.gov.au"
+   },
+   {
+    "fy": "2018-19",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "HTTP 403 on lanecove.nsw.gov.au"
+   },
+   {
+    "fy": "2019-20",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "HTTP 403 on lanecove.nsw.gov.au"
+   },
+   {
+    "fy": "2020-21",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "HTTP 403 on lanecove.nsw.gov.au"
+   },
+   {
+    "fy": "2021-22",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "HTTP 403 on lanecove.nsw.gov.au"
+   },
+   {
+    "fy": "2022-23",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "HTTP 403 on lanecove.nsw.gov.au"
+   },
+   {
+    "fy": "2023-24",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "HTTP 403 on lanecove.nsw.gov.au"
+   }
+  ]
+ },
+ {
+  "region_id": "15990",
+  "name": "Northern Beaches",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "predecessor_only",
+    "local_paths": [],
+    "notes": "Council formed May 2016; FY2015-16 GPFS belong to Manly, Pittwater and Warringah councils; not downloaded"
+   },
+   {
+    "fy": "2016-17",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15990/15990_FY2016-17_gpfs_a901218c_financial_statements_2016_17_feb23.pdf"
+    ],
+    "notes": "Period 13 May 2016 to 30 June 2017 (first period); council name confirmed"
+   },
+   {
+    "fy": "2017-18",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15990/15990_FY2017-18_gpfs_f178f69e_financial_statements_2017_18_feb23.pdf"
+    ],
+    "notes": "1 July 2017 to 30 June 2018 confirmed"
+   },
+   {
+    "fy": "2018-19",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15990/15990_FY2018-19_gpfs_a476f0d7_annual_report_201819_financial_reports.pdf"
+    ],
+    "notes": "Financial reports PDF from the annual report; 30 June 2019 confirmed"
+   },
+   {
+    "fy": "2019-20",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15990/15990_FY2019-20_gpfs_ba440ae2_financial_statements_2019_20_feb23.pdf"
+    ],
+    "notes": "1 July 2019 to 30 June 2020 confirmed"
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15990/15990_FY2020-21_gpfs_389e690b_financial_statement_2020_21_feb23.pdf"
+    ],
+    "notes": "1 July 2020 to 30 June 2021 confirmed; cash flow statement at p21"
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15990/15990_FY2021-22_gpfs_d4082523_financial_reports_2021_22_dec22.pdf"
+    ],
+    "notes": "Financial reports including commentary and statements; 30 June 2022 confirmed"
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15990/15990_FY2022-23_gpfs_99388b45_Financial_20Statements_201_20July_202022_20to_2030_20June_20.pdf"
+    ],
+    "notes": "1 July 2022 to 30 June 2023 confirmed"
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15990/15990_FY2023-24_gpfs_494d025b_financial_statements_202324.pdf"
+    ],
+    "notes": "Pages 1-3 are image-only; text confirms year ended 30 June 2024 and statements from p17 (110 pp)"
+   }
+  ]
+ },
+ {
+  "region_id": "18050",
+  "name": "Waverley",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "waverley.nsw.gov.au returns HTTP 403 to automated requests; recorded and moved on"
+   },
+   {
+    "fy": "2016-17",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "HTTP 403 on waverley.nsw.gov.au"
+   },
+   {
+    "fy": "2017-18",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "HTTP 403 on waverley.nsw.gov.au"
+   },
+   {
+    "fy": "2018-19",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "HTTP 403 on waverley.nsw.gov.au"
+   },
+   {
+    "fy": "2019-20",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "HTTP 403 on waverley.nsw.gov.au"
+   },
+   {
+    "fy": "2020-21",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "HTTP 403 on waverley.nsw.gov.au"
+   },
+   {
+    "fy": "2021-22",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "HTTP 403 on waverley.nsw.gov.au"
+   },
+   {
+    "fy": "2022-23",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "HTTP 403 on waverley.nsw.gov.au"
+   },
+   {
+    "fy": "2023-24",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "HTTP 403 on waverley.nsw.gov.au"
+   }
+  ]
+ },
+ {
+  "region_id": "10500",
+  "name": "Bayside",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "predecessor_only",
+    "local_paths": [],
+    "notes": "Bayside formed Sep 2016; FY2015-16 GPFS belong to Botany Bay and Rockdale councils; not published by Bayside."
+   },
+   {
+    "fy": "2016-17",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/10500/10500_FY2016-17_gpfs_afa322e6_Annual_20Financial_20Statements_202016_17_20_20Bayside_20Cou.pdf"
+    ],
+    "notes": "Period 10 Sep 2016 to 30 June 2017 (from proclamation)."
+   },
+   {
+    "fy": "2017-18",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/10500/10500_FY2017-18_gpfs_87fffe7e_Financial_20Reports_202017_2018.pdf"
+    ],
+    "notes": "Verified year ended 30 June 2018."
+   },
+   {
+    "fy": "2018-19",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/10500/10500_FY2018-19_gpfs_ff3d2622_Bayside_20Council_20_20Audited_20Financial_20Statements_20_2.pdf"
+    ],
+    "notes": "Verified year ended 30 June 2019."
+   },
+   {
+    "fy": "2019-20",
+    "status": "downloaded",
+    "doc_kind": "annual_report",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/10500/10500_FY2019-20_annual_report_508e853d_2020_20Annual_20Report.pdf"
+    ],
+    "notes": "No standalone GPFS found on site; 2020 Annual Report (10 MB) contains full GPFS at PDF pages ~134-146+ (cash flow at p141), year ended 30 June 2020."
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/10500/10500_FY2020-21_gpfs_a6b5f900_2020_2021_20Annual_20Financial_20Statements.pdf"
+    ],
+    "notes": "Verified year ended 30 June 2021."
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/10500/10500_FY2021-22_gpfs_d3ea8f7a_bayside_council_financial_statements_2021_22.pdf"
+    ],
+    "notes": "Verified year ended 30 June 2022."
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/10500/10500_FY2022-23_gpfs_c26a55b8_audited_annual_financial_statements_june_23.pdf"
+    ],
+    "notes": "Verified year ended 30 June 2023."
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/10500/10500_FY2023-24_gpfs_d555c5d6_General_20Purpose_20Financial_20Statements_20for_20the_20yea.pdf"
+    ],
+    "notes": "Verified year ended 30 June 2024."
+   }
+  ]
+ },
+ {
+  "region_id": "11520",
+  "name": "Canada Bay",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11520/11520_FY2015-16_gpfs_590bb5fe_City_of_Canada_Bay_Financial_Statements_2015_16.pdf"
+    ],
+    "notes": "Verified year ended 30 June 2016."
+   },
+   {
+    "fy": "2016-17",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11520/11520_FY2016-17_gpfs_28eac455_Annual_Financial_Statements_YE_1617_City_of_Canada_Bay_Counc.pdf"
+    ],
+    "notes": "Verified year ended 30 June 2017."
+   },
+   {
+    "fy": "2017-18",
+    "status": "downloaded",
+    "doc_kind": "annual_report",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11520/11520_FY2017-18_annual_report_e77753d2_Annual_Report_2017_18_web_final_20_1.pdf"
+    ],
+    "notes": "Annual Report 2017-18 (State of the Bay 2018) contains GPFS from PDF p140 (year ended 30 June 2018); some rotated-text pages, text extraction incomplete."
+   },
+   {
+    "fy": "2018-19",
+    "status": "non_official_host",
+    "local_paths": [],
+    "notes": "Annual report and Nov 2019 council agenda attachments (GPFS) are only linked on canadabay.t1cloud.com, a non-.gov.au host; not downloaded. No copy found on canadabay.nsw.gov.au."
+   },
+   {
+    "fy": "2019-20",
+    "status": "non_official_host",
+    "local_paths": [],
+    "notes": "Only on canadabay.t1cloud.com (Nov 2020 agenda Item 11 Attachment 1 'Financial Statements 2019-2020 (Post Audit)' and annual report); not downloaded."
+   },
+   {
+    "fy": "2020-21",
+    "status": "non_official_host",
+    "local_paths": [],
+    "notes": "Only on canadabay.t1cloud.com (1 Nov 2021 agenda Item 14 Attachment 1 Annual Financial Statements); not downloaded."
+   },
+   {
+    "fy": "2021-22",
+    "status": "not_found",
+    "local_paths": [],
+    "notes": "Nov 2022 attachment booklet (Attachment Book --15 Nov 22.pdf) linked from council-meetings page returns 404; annual report 2021-22 is on t1cloud only. Searched site and web."
+   },
+   {
+    "fy": "2022-23",
+    "status": "over_40mb",
+    "local_paths": [],
+    "notes": "Likely contained in 'Attachment Book 21 Nov 23.pdf' (Nov 2023 meeting, 41.8 MB, over 40 MB cap); not verified. Annual Report 2022-2023 only on t1cloud."
+   },
+   {
+    "fy": "2023-24",
+    "status": "not_found",
+    "local_paths": [],
+    "notes": "Annual Report 2023-2024 only on t1cloud (non-official). Only the FY2025 audited statements (Angus/Audited Annual_Financial_Statements-2025.pdf, outside range) found on official host."
+   }
+  ]
+ },
+ {
+  "region_id": "12930",
+  "name": "Georges River",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "predecessor_only",
+    "local_paths": [],
+    "notes": "Council published only former Kogarah City Council and former Hurstville City Council FY2015-16 statements (separate councils); not downloaded."
+   },
+   {
+    "fy": "2016-17",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/12930/12930_FY2016-17_gpfs_ace17646_Audited_Financial_Statements_and_Auditors_Reports_2016_17.pdf"
+    ],
+    "notes": "Period 13 May 2016 to 30 June 2017 (from proclamation)."
+   },
+   {
+    "fy": "2017-18",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/12930/12930_FY2017-18_gpfs_4c27f9c4_Annual_Financial_Statements_2017_2018.pdf"
+    ],
+    "notes": "Verified year ended 30 June 2018."
+   },
+   {
+    "fy": "2018-19",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/12930/12930_FY2018-19_gpfs_843cb1f5_Audited_Financial_Statements_and_Auditors_Report_2018_19.pdf"
+    ],
+    "notes": "Verified year ended 30 June 2019."
+   },
+   {
+    "fy": "2019-20",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/12930/12930_FY2019-20_gpfs_94fd025b_Audited_Financial_Statements_and_Auditors_Report_2019_20.pdf"
+    ],
+    "notes": "Verified year ended 30 June 2020."
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/12930/12930_FY2020-21_gpfs_ae18f99a_Audited_Financial_Statements_and_Auditors_Report_2020_21.pdf"
+    ],
+    "notes": "Verified year ended 30 June 2021."
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/12930/12930_FY2021-22_gpfs_b1b33994_Audited_Financial_Statements_and_Auditors_Report_2021_22.pdf"
+    ],
+    "notes": "Verified year ended 30 June 2022."
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/12930/12930_FY2022-23_gpfs_622642f1_Audited_Financial_Statements_and_Auditors_Report_2022_23.pdf"
+    ],
+    "notes": "Verified year ended 30 June 2023."
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/12930/12930_FY2023-24_gpfs_d6d95a69_Audited_Financial_Statements_and_Auditors_Report_2023_2024.pdf"
+    ],
+    "notes": "Verified year ended 30 June 2024."
+   }
+  ]
+ },
+ {
+  "region_id": "14400",
+  "name": "Kiama",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "downloaded",
+    "notes": "2nd pass: GPFS verified (cover page is a booklet title, page 2 shows year ended 30 June 2016)"
+   },
+   {
+    "fy": "2016-17",
+    "status": "downloaded",
+    "notes": "2nd pass: verified"
+   },
+   {
+    "fy": "2017-18",
+    "status": "downloaded",
+    "notes": "2nd pass: verified"
+   },
+   {
+    "fy": "2018-19",
+    "status": "downloaded",
+    "notes": "2nd pass: verified"
+   },
+   {
+    "fy": "2019-20",
+    "status": "downloaded",
+    "notes": "2nd pass: verified"
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "notes": "2nd pass: verified"
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "notes": "2nd pass: verified"
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "notes": "2nd pass: verified"
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "notes": "2nd pass: verified"
+   }
+  ]
+ },
+ {
+  "region_id": "15850",
+  "name": "Narromine",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15850/15850_FY2015-16_gpfs_b946578d_2015_2016_20Financial_20Statements.pdf"
+    ],
+    "notes": "Verified year ended 30 June 2016."
+   },
+   {
+    "fy": "2016-17",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15850/15850_FY2016-17_gpfs_8e96ab0e_Narromine_20Shire_20Council_20_20Financial_20Statements_20_2.pdf"
+    ],
+    "notes": "Verified year ended 30 June 2017."
+   },
+   {
+    "fy": "2017-18",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15850/15850_FY2017-18_gpfs_4a1a22dc_Annexure_2BOne_2B_2BFinancial_2BStatement_20_281_29_Redacted.pdf"
+    ],
+    "notes": "Annual report annexure containing GPFS, year ended 30 June 2018."
+   },
+   {
+    "fy": "2018-19",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15850/15850_FY2018-19_gpfs_f2c51e1e_2018_2019_20Financial_20Statements_Redacted.pdf"
+    ],
+    "notes": "Verified year ended 30 June 2019 (file labelled Redacted)."
+   },
+   {
+    "fy": "2019-20",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15850/15850_FY2019-20_gpfs_aaffb2dd_2019_2020_20NSC_20Annual_20Report_20_20Annexure_20One_20_20.pdf"
+    ],
+    "notes": "Annual report annexure with GPFS, year ended 30 June 2020."
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15850/15850_FY2020-21_gpfs_d2796a6e_2020_21_20NSC_20Annual_20Report_20_20Annexure_20One_20_20Fin.pdf"
+    ],
+    "notes": "Annual report annexure with GPFS, year ended 30 June 2021."
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15850/15850_FY2021-22_gpfs_98a9082a_2021_2022_20NSC_20Annual_20Report_20_20Annexure_201_20_20Fin.pdf"
+    ],
+    "notes": "Annual report annexure with GPFS, year ended 30 June 2022."
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15850/15850_FY2022-23_gpfs_2d38b0b4_2022_2023_20NSC_20Annual_20Report_20_20Annexure_201_20_20Fin.pdf"
+    ],
+    "notes": "Annual report annexure with GPFS, year ended 30 June 2023."
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/15850/15850_FY2023-24_gpfs_670b09ac_2023_2024_20NSC_20Annual_20Report_20_20Annexure_202_20_20Fin.pdf"
+    ],
+    "notes": "Annual report annexure 2 with GPFS, year ended 30 June 2024."
+   }
+  ]
+ },
+ {
+  "region_id": "17350",
+  "name": "Temora",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "downloaded",
+    "notes": "2nd pass: Standalone GPFS, name and year verified"
+   },
+   {
+    "fy": "2016-17",
+    "status": "downloaded",
+    "notes": "2nd pass: Standalone GPFS, verified"
+   },
+   {
+    "fy": "2017-18",
+    "status": "downloaded",
+    "notes": "2nd pass: Standalone GPFS, verified"
+   },
+   {
+    "fy": "2018-19",
+    "status": "downloaded",
+    "notes": "2nd pass: Standalone GPFS, verified"
+   },
+   {
+    "fy": "2019-20",
+    "status": "downloaded",
+    "notes": "2nd pass: Standalone GPFS, verified"
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "notes": "2nd pass: Standalone GPFS, verified"
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "notes": "2nd pass: Standalone GPFS, verified"
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "notes": "2nd pass: Standalone GPFS (on-exhibition copy), verified"
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "notes": "2nd pass: Standalone GPFS, verified"
+   }
+  ]
+ },
+ {
+  "region_id": "11450",
+  "name": "Camden",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11450/11450_FY2015-16_gpfs_a1e39cce_Financial_Statements_2015_16_FINAL.pdf"
+    ],
+    "notes": "Verified year ended 30 June 2016; cash flow p12."
+   },
+   {
+    "fy": "2016-17",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11450/11450_FY2016-17_gpfs_c93dd074_Camden_Council_Financial_Statements_Final.pdf"
+    ],
+    "notes": "Verified year ended 30 June 2017; cash flow p12."
+   },
+   {
+    "fy": "2017-18",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11450/11450_FY2017-18_gpfs_73caa61f_Financial_Statements_2017_18.pdf"
+    ],
+    "notes": "Verified; cash flow p12."
+   },
+   {
+    "fy": "2018-19",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11450/11450_FY2018-19_gpfs_b3661742_Financial_Statements_2018_19.pdf"
+    ],
+    "notes": "Verified; cash flow p12."
+   },
+   {
+    "fy": "2019-20",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11450/11450_FY2019-20_gpfs_93901044_Annual_Financial_Statements_2020.pdf"
+    ],
+    "notes": "Verified; cash flow p13."
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11450/11450_FY2020-21_gpfs_9b485405_Camden_Council_Financial_Statements_2020_21.pdf"
+    ],
+    "notes": "Verified; cash flow p15."
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11450/11450_FY2021-22_gpfs_3a96f6c6_Annual_Financial_Statements_2022.pdf"
+    ],
+    "notes": "Verified year ended 30 June 2022; cash flow p17."
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11450/11450_FY2022-23_gpfs_86b5f2d6_Camden_Council_Annual_Financial_Statements_2023.pdf"
+    ],
+    "notes": "Verified year ended 30 June 2023; cash flow p16."
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11450/11450_FY2023-24_gpfs_ded41177_Camden_Council_Financial_Statements_2023_24.pdf"
+    ],
+    "notes": "Verified year ended 30 June 2024; cash flow p24. Source: camden.nsw.gov.au archive page (the yourvoice download links redirect to non-official S3)."
+   }
+  ]
+ },
+ {
+  "region_id": "12870",
+  "name": "Federation",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "predecessor_only",
+    "local_paths": [],
+    "notes": "Federation site hosts only predecessor Corowa Shire FS 2015-16 (document-library/corporate-documents/other/corowa-final-financial-statements-2015-16.pdf) and Urana 2014-15; not downloaded (403 anyway)."
+   },
+   {
+    "fy": "2016-17",
+    "status": "downloaded",
+    "notes": "2nd pass: Plain curl works now. Verified Federation Council; period 13 May 2016 to 30 June 2017 (post-amalgamation, not a full year)"
+   },
+   {
+    "fy": "2017-18",
+    "status": "downloaded",
+    "notes": "2nd pass: Verified year ended 30 June 2018"
+   },
+   {
+    "fy": "2018-19",
+    "status": "downloaded",
+    "notes": "2nd pass: Verified year ended 30 June 2019"
+   },
+   {
+    "fy": "2019-20",
+    "status": "downloaded",
+    "notes": "2nd pass: Verified year ended 30 June 2020"
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "notes": "2nd pass: Verified year ended 30 June 2021"
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "notes": "2nd pass: Verified year ended 30 June 2022"
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "notes": "2nd pass: Verified year ended 30 June 2023"
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "notes": "2nd pass: Verified year ended 30 June 2024"
+   }
+  ]
+ },
+ {
+  "region_id": "14170",
+  "name": "Inner West",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "predecessor_only",
+    "local_paths": [],
+    "notes": "Inner West proclaimed May 2016; FY2015-16 FS belong to predecessor councils (Ashfield, Leichhardt, Marrickville). Its first GPFS covers 13 May 2016 to 30 June 2017."
+   },
+   {
+    "fy": "2016-17",
+    "status": "downloaded",
+    "doc_kind": "annual_report",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/14170/14170_FY2016-17_annual_report_bda84cd1_Annual_20Report_202016_17.pdf"
+    ],
+    "notes": "Annual report with GPFS section (PDF p55+); GPFS cover 'for the period 13 May 2016 to 30 June 2017'. Cash flow p63."
+   },
+   {
+    "fy": "2017-18",
+    "status": "downloaded",
+    "doc_kind": "annual_report",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/14170/14170_FY2017-18_annual_report_df04288a_Annual_20Report_202017_18.pdf"
+    ],
+    "notes": "Annual report including GPFS (year ended 30 June 2018 from ~p100); some rotated/scanned pages."
+   },
+   {
+    "fy": "2018-19",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/14170/14170_FY2018-19_annual_report_e86bcada_Annual_20Report_202018_19.pdf"
+    ],
+    "notes": "File named Annual Report but is the standalone Annual Financial Statements/GPFS for year ended 30 June 2019; cash flow p10."
+   },
+   {
+    "fy": "2019-20",
+    "status": "downloaded",
+    "doc_kind": "annual_report",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/14170/14170_FY2019-20_annual_report_63557a65_Annual_20Report_202019_20.pdf"
+    ],
+    "notes": "Annual report with GPFS year ended 30 June 2020 (~p100+)."
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "doc_kind": "annual_report",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/14170/14170_FY2020-21_annual_report_212bf60e_Annual_20Report_202020_21.pdf"
+    ],
+    "notes": "Annual report 2020-21; 137 pages, 78 empty text pages (scanned) so FS pages p121-122 etc. partly need visual reading."
+   },
+   {
+    "fy": "2021-22",
+    "status": "not_found",
+    "local_paths": [],
+    "notes": "Site's 'Annual Report 2021-22' link on innerwest.nsw.gov.au/annual-report actually serves the 2020-21 report (downloaded, verified, discarded). Old ArticleDocuments/1602/IWC_0236_AnnualReport_2022_R5_web_wFinancials.pdf.aspx returns 410 Gone; yoursay financial-statements-2021-2022 page 404 and yoursay downloads redirect to non-official S3. FY2021-22 values available as prior-year column in the 2022-23 report."
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "doc_kind": "annual_report",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/14170/14170_FY2022-23_annual_report_b2db4a05_Annual_20Report_202022_23.pdf"
+    ],
+    "notes": "Annual report with GPFS year ended 30 June 2023; cash flow p185."
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "doc_kind": "annual_report",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/14170/14170_FY2023-24_annual_report_9ad05113_Annual_20Report_202023_24.pdf"
+    ],
+    "notes": "Annual report with GPFS year ended 30 June 2024; cash flow p203. Standalone FS on yoursay redirects to non-official S3 so not allowed."
+   }
+  ]
+ },
+ {
+  "region_id": "15560",
+  "name": "Murrumbidgee",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "predecessor_only",
+    "local_paths": [],
+    "notes": "Murrumbidgee formed May 2016 (Murrumbidgee + Jerilderie); site 403 for all clients, nothing located."
+   },
+   {
+    "fy": "2016-17",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Murrumbidgee site returns 403 to dl.py, curl and WebFetch (including listing page); no URLs located."
+   },
+   {
+    "fy": "2017-18",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Same 403 block; not located."
+   },
+   {
+    "fy": "2018-19",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Same 403 block; not located."
+   },
+   {
+    "fy": "2019-20",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Annual report URL known (/files/assets/public/v/2/publications/ip-and-r/a-report-2019-20/annual-report-2019-2020-pdf.pdf) but 403 for every client."
+   },
+   {
+    "fy": "2020-21",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403 block; not located."
+   },
+   {
+    "fy": "2021-22",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "403 block; not located."
+   },
+   {
+    "fy": "2022-23",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Annual report URL known (/files/assets/public/v/1/publications/ip-and-r/a-report-2022-23/annual-report-2022-23-lr.pdf) but 403."
+   },
+   {
+    "fy": "2023-24",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Annual report URL known (/files/assets/public/v/2/publications/ip-and-r/a-report-2023-24/mc-annual-report-2023-2024-lr.pdf) but 403."
+   }
+  ]
+ },
+ {
+  "region_id": "17100",
+  "name": "Strathfield",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "URL https://www.strathfield.nsw.gov.au/files/assets/public/v/1/council/reports-and-registers/annual-financial-statements-2015-2016.pdf ; dl.py HTTP 403 (Akamai blocks its Mozilla-style UA; plain curl default UA returns 200 on Strathfield PDFs, so a UA change in dl.py may unblock). Not circumvented."
+   },
+   {
+    "fy": "2016-17",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "URL .../reports-and-registers/strathfield-municipal-council-financial-statements-2016-2017.pdf ; dl.py 403."
+   },
+   {
+    "fy": "2017-18",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "URL .../reports-and-registers/annual-financial-statements-2017-18-strathfield-council.pdf ; dl.py 403."
+   },
+   {
+    "fy": "2018-19",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "URL .../reports-and-registers/annual-financial-statements-2018-19-strathfield-municipal-council.pdf ; dl.py 403."
+   },
+   {
+    "fy": "2019-20",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "URL .../reports-and-registers/annual-financial-statements-2019-2020-strathfield-municipal-council.pdf ; dl.py 403."
+   },
+   {
+    "fy": "2020-21",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "URL .../reports-and-registers/annual-financial-statements-2020-2021-strathfield-municipal-council.pdf ; dl.py 403."
+   },
+   {
+    "fy": "2021-22",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "URL .../reports-and-registers/annual-financial-statements-2021-2022-strathfield-municipal-council-2.pdf ; dl.py 403."
+   },
+   {
+    "fy": "2022-23",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "URL .../reports-and-registers/annual-financial-statement-2022-2023.pdf ; dl.py 403."
+   },
+   {
+    "fy": "2023-24",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "URL .../reports-and-registers/annual-financial-statements-2023-2024.pdf ; dl.py 403."
+   }
+  ]
+ },
+ {
+  "region_id": "11150",
+  "name": "Bourke",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11150/11150_FY2015-16_gpfs_b7dfcbe6_Bourke_Shire_Council_General_Purpose_Financial_Statements_20.pdf"
+    ],
+    "notes": "Verified Bourke, 30 June 2016, full statements"
+   },
+   {
+    "fy": "2016-17",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11150/11150_FY2016-17_gpfs_ce38a14b_General_Purpose_Financial_Statements_2016_2017.pdf"
+    ],
+    "notes": "Verified 30 June 2017"
+   },
+   {
+    "fy": "2017-18",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11150/11150_FY2017-18_gpfs_f24fabcd_General_Purpose_Financial_Statement_2017_2018.pdf"
+    ],
+    "notes": "Verified 30 June 2018"
+   },
+   {
+    "fy": "2018-19",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11150/11150_FY2018-19_gpfs_1335d910_General_Purpose_Financial_Statement_2018_2019.pdf"
+    ],
+    "notes": "Verified 30 June 2019"
+   },
+   {
+    "fy": "2019-20",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11150/11150_FY2019-20_gpfs_0e5e67e7_Bourke_Shire_Council_Annual_Financial_Statements_2020_OLG.pdf"
+    ],
+    "notes": "Verified 30 June 2020"
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11150/11150_FY2020-21_gpfs_70943fb1_Bourke_Annual_Financial_Statements_2021_Final_OLG.pdf"
+    ],
+    "notes": "Verified 30 June 2021"
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11150/11150_FY2021-22_gpfs_0ed2ac74_Bourke_Annual_Financial_Statements_2022_OLG.pdf"
+    ],
+    "notes": "Verified 30 June 2022"
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11150/11150_FY2022-23_gpfs_fcaf558c_Annual_Financial_Statements_2022_2023.pdf"
+    ],
+    "notes": "Verified 30 June 2023"
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/11150/11150_FY2023-24_gpfs_4871b4df_Annual_Financial_Statements_2023_24.pdf"
+    ],
+    "notes": "Verified 30 June 2024"
+   }
+  ]
+ },
+ {
+  "region_id": "12000",
+  "name": "Coolamon",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "non_official_host",
+    "local_paths": [],
+    "notes": "Listing https://coolamon.nsw.gov.au/financial-statements links /s/Coolamon-Shire-Council-FY2016-Financial-Statements.pdf, which redirects to static1.squarespace.com; dl.py rejected"
+   },
+   {
+    "fy": "2016-17",
+    "status": "non_official_host",
+    "local_paths": [],
+    "notes": "/s/...FY2017-Financial-Statements.pdf redirects to static1.squarespace.com; rejected"
+   },
+   {
+    "fy": "2017-18",
+    "status": "non_official_host",
+    "local_paths": [],
+    "notes": "/s/...FY2018-Financial-Statements.pdf redirects to static1.squarespace.com; rejected"
+   },
+   {
+    "fy": "2018-19",
+    "status": "non_official_host",
+    "local_paths": [],
+    "notes": "/s/...FY2019-Financial-Statements.pdf redirects to static1.squarespace.com; rejected"
+   },
+   {
+    "fy": "2019-20",
+    "status": "non_official_host",
+    "local_paths": [],
+    "notes": "/s/...FY2020-Financial-Statements-2f7a.pdf redirects to static1.squarespace.com; rejected"
+   },
+   {
+    "fy": "2020-21",
+    "status": "non_official_host",
+    "local_paths": [],
+    "notes": "/s/...FY2021-Financial-Statements.pdf redirects to static1.squarespace.com; rejected"
+   },
+   {
+    "fy": "2021-22",
+    "status": "non_official_host",
+    "local_paths": [],
+    "notes": "/s/Coolamon-Shire-Council-Combined-Final-FY2022-Financial-Statements.pdf redirects to static1.squarespace.com; rejected"
+   },
+   {
+    "fy": "2022-23",
+    "status": "non_official_host",
+    "local_paths": [],
+    "notes": "/s/Coolamon-Shire-Council-Combined-FY2023-Financial-Statements.pdf redirects to static1.squarespace.com; rejected"
+   },
+   {
+    "fy": "2023-24",
+    "status": "non_official_host",
+    "local_paths": [],
+    "notes": "/s/Coolamon-Shire-Council-Combined-FY2024-Financial-Statement.pdf redirects to static1.squarespace.com; rejected"
+   }
+  ]
+ },
+ {
+  "region_id": "13850",
+  "name": "Hay",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "not_found",
+    "notes": "2nd pass: Only Annual Report 15-16 without FS (previously discarded); no GPFS on site"
+   },
+   {
+    "fy": "2016-17",
+    "status": "not_found",
+    "notes": "2nd pass: Only Annual Report 16-17 without FS; fallback is prior-year columns in FY2017-18 report"
+   },
+   {
+    "fy": "2017-18",
+    "status": "downloaded",
+    "doc_kind": "annual_report",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/13850/13850_FY2017-18_annual_report_3c42de6f_LinkClick_aspx.pdf"
+    ],
+    "notes": "Annual Report 2017-18 including financials; statements year ended 30 June 2018 at pdf pp69-70 onward"
+   },
+   {
+    "fy": "2018-19",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/13850/13850_FY2018-19_gpfs_3fa9c018_LinkClick_aspx.pdf"
+    ],
+    "notes": "Standalone FS, 30 June 2019 verified"
+   },
+   {
+    "fy": "2019-20",
+    "status": "downloaded",
+    "doc_kind": "annual_report",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/13850/13850_FY2019-20_annual_report_22431f4e_LinkClick_aspx.pdf"
+    ],
+    "notes": "Annual Report 2019-2020 inc financials; statements year ended 30 June 2020 from pdf p59"
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/13850/13850_FY2020-21_gpfs_9e2a99bc_LinkClick_aspx.pdf"
+    ],
+    "notes": "Verified 30 June 2021"
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/13850/13850_FY2021-22_gpfs_164935c8_LinkClick_aspx.pdf"
+    ],
+    "notes": "Verified 30 June 2022"
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/13850/13850_FY2022-23_gpfs_f01a1dd1_LinkClick_aspx.pdf"
+    ],
+    "notes": "Verified 30 June 2023"
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/13850/13850_FY2023-24_gpfs_e3a0da8e_LinkClick_aspx.pdf"
+    ],
+    "notes": "Verified 30 June 2024"
+   }
+  ]
+ },
+ {
+  "region_id": "14950",
+  "name": "Lockhart",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "not_found",
+    "notes": "2nd pass: Site has AFS only from 2022; business papers only from 2022"
+   },
+   {
+    "fy": "2016-17",
+    "status": "not_found",
+    "notes": "2nd pass: Not on site"
+   },
+   {
+    "fy": "2017-18",
+    "status": "not_found",
+    "notes": "2nd pass: Not on site"
+   },
+   {
+    "fy": "2018-19",
+    "status": "not_found",
+    "notes": "2nd pass: Not on site"
+   },
+   {
+    "fy": "2019-20",
+    "status": "not_found",
+    "notes": "2nd pass: Not on site; FY2020-21 GPFS prior-year comparatives are fallback"
+   },
+   {
+    "fy": "2020-21",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/14950/14950_FY2020-21_gpfs_0f5a4c37_Annual_Financial_Statements_2021_3_in_1_1.pdf"
+    ],
+    "notes": "Verified Lockhart, 30 June 2021"
+   },
+   {
+    "fy": "2021-22",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/14950/14950_FY2021-22_gpfs_a6816ef1_Annual_Financial_Statements_2022_3_in_1.pdf"
+    ],
+    "notes": "Verified 30 June 2022"
+   },
+   {
+    "fy": "2022-23",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/14950/14950_FY2022-23_gpfs_aad82969_Lockhart_Shire_Council_Financial_Statements_2022_23.pdf"
+    ],
+    "notes": "Verified 30 June 2023"
+   },
+   {
+    "fy": "2023-24",
+    "status": "downloaded",
+    "doc_kind": "gpfs",
+    "local_paths": [
+     "fire_event_dataset/data/raw/council_pdfs/financial_statements/14950/14950_FY2023-24_gpfs_525563a9_Annual_Financial_Statements_2024.pdf"
+    ],
+    "notes": "Verified 30 June 2024"
+   }
+  ]
+ },
+ {
+  "region_id": "16260",
+  "name": "Parramatta",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "predecessor_only",
+    "local_paths": [],
+    "notes": "Parramatta proclaimed May 2016; FY2015-16 GPFS belong to predecessor councils; council site 403"
+   },
+   {
+    "fy": "2016-17",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "cityofparramatta.nsw.gov.au/files/.../city-of-parramatta-annual-financial-statements-2016-2017.pdf returns HTTP 403 (site and PDFs blocked); may cover period from May 2016. Not downloaded."
+   },
+   {
+    "fy": "2017-18",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Council site HTTP 403; business papers GPFS attachment not located"
+   },
+   {
+    "fy": "2018-19",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Council site HTTP 403; business papers GPFS attachment not located"
+   },
+   {
+    "fy": "2019-20",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Council site HTTP 403; business papers GPFS attachment not located"
+   },
+   {
+    "fy": "2020-21",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Site PDF .../city-of-parramatta-annual-financial-statements-2020-2021.pdf 403. Also businesspapers.parracity.nsw.gov.au 25 Oct 2021 agenda lists GPFS attachment 9728_1 but attachment path returns an HTML error page (rejected by dl.py)"
+   },
+   {
+    "fy": "2021-22",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Council site 403; GPFS was a 31 Oct 2022 late-report attachment, agenda URL not found on business papers host"
+   },
+   {
+    "fy": "2022-23",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Council site 403; GPFS in 23 Oct 2023 agenda late report; only auditor's reports (Dec 2023 agenda attachments) reachable, not the GPFS"
+   },
+   {
+    "fy": "2023-24",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "cityofparramatta.nsw.gov.au/files/.../city-of-parramatta-annual-financial-statements-2023-2024.pdf HTTP 403 (dl.py FAILED)"
+   }
+  ]
+ },
+ {
+  "region_id": "18250",
+  "name": "Willoughby",
+  "years": [
+   {
+    "fy": "2015-16",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "willoughby.nsw.gov.au returns HTTP 403 for pages and PDFs (annual report 2015-16 found via search but not downloadable)"
+   },
+   {
+    "fy": "2016-17",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Site HTTP 403; no alternate official host found"
+   },
+   {
+    "fy": "2017-18",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Search found consolidated_financial_reports_for_the_year_ended_30_june_2018.pdf on willoughby.nsw.gov.au, HTTP 403"
+   },
+   {
+    "fy": "2018-19",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Site HTTP 403 (annual report 2018/19 PDF seen via search)"
+   },
+   {
+    "fy": "2019-20",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Site HTTP 403 (annual report 2019-20 PDF seen via search)"
+   },
+   {
+    "fy": "2020-21",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Site HTTP 403 (annual report 2020-21 PDF seen via search)"
+   },
+   {
+    "fy": "2021-22",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Annual Financial Statements 2021-2022 page found via search, HTTP 403"
+   },
+   {
+    "fy": "2022-23",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Site HTTP 403; not located via search"
+   },
+   {
+    "fy": "2023-24",
+    "status": "blocked",
+    "local_paths": [],
+    "notes": "Public notice page for AFS year ended 30-06-2024 found via search, HTTP 403"
+   }
+  ]
+ }
+]

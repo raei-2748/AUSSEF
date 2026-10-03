@@ -1,0 +1,2 @@
+locked 2026-10-02 19:35:49 (before any horizon value is computed)
+ffc4f72073a0eb452efcbf144074d5b5844e2ecce067ffb9a842debf08efc4ff  PRESPEC.md

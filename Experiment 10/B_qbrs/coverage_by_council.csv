@@ -1,0 +1,85 @@
+region_id,council,group,tier,quarters_with_doc,quarters_capex_orig_and_rev,quarters_opex_orig_and_rev,disaster_rows
+10180,Armidale Regional,fire,1,2,0,0,0
+10250,Ballina,fire,1,10,0,0,0
+10550,Bega Valley,fire,1,11,11,11,586
+10600,Bellingen,fire,1,0,0,0,0
+10900,Blue Mountains,fire,1,12,0,0,0
+11350,Byron,fire,1,0,0,0,0
+11650,Central Coast (NSW),fire,1,6,0,0,0
+11720,Cessnock,fire,1,1,0,0,0
+11730,Clarence Valley,fire,1,7,0,0,15
+11800,Coffs Harbour,fire,1,2,0,0,0
+12160,Cootamundra-Gundagai Regional,fire,1,0,0,0,0
+12700,Dungog,fire,1,0,0,0,0
+12750,Eurobodalla,fire,1,0,0,0,0
+13010,Glen Innes Severn,fire,1,0,0,0,0
+13310,Goulburn Mulwaree,fire,1,1,0,0,0
+13340,Greater Hume Shire,fire,1,12,0,0,0
+13660,Gwydir,fire,1,0,0,0,0
+13800,Hawkesbury,fire,1,0,0,0,0
+14220,Inverell,fire,1,0,0,0,0
+14350,Kempsey,fire,1,10,0,0,0
+14500,Ku-ring-gai,fire,1,0,0,0,0
+14550,Kyogle,fire,1,2,0,0,0
+14650,Lake Macquarie,fire,1,0,0,0,0
+14850,Lismore,fire,1,0,0,0,0
+14870,Lithgow,fire,1,0,0,0,0
+15240,Mid-Coast,fire,1,0,0,0,0
+15270,Mid-Western Regional,fire,1,11,0,0,0
+15650,Muswellbrook,fire,1,0,0,0,0
+15700,Nambucca Valley,fire,1,0,0,0,0
+15750,Narrabri,fire,1,0,0,0,0
+16100,Oberon,fire,1,7,0,0,0
+16350,Penrith,fire,1,6,0,0,0
+16380,Port Macquarie-Hastings,fire,1,12,0,0,0
+16490,Queanbeyan-Palerang Regional,fire,1,8,0,0,0
+16610,Richmond Valley,fire,1,12,0,0,0
+16950,Shoalhaven,fire,1,6,0,0,0
+17000,Singleton,fire,1,0,0,0,0
+17040,Snowy Monaro Regional,fire,1,0,0,0,0
+17080,Snowy Valleys,fire,1,12,12,12,177
+17150,Sutherland Shire,fire,1,0,0,0,0
+17310,Tamworth Regional,fire,1,0,0,0,0
+17400,Tenterfield,fire,1,12,0,0,0
+17550,Tweed,fire,1,1,0,0,0
+17620,Upper Hunter Shire,fire,1,0,0,0,0
+17640,Upper Lachlan Shire,fire,1,6,0,0,0
+17650,Uralla,fire,1,0,0,0,0
+17750,Wagga Wagga,fire,1,0,0,0,0
+17850,Walcha,fire,1,12,0,0,0
+18350,Wingecarribee,fire,1,1,0,0,0
+18400,Wollondilly,fire,1,8,0,0,0
+12350,Cowra,fire,2,0,0,0,0
+18020,Warrumbungle Shire,fire,2,0,0,0,0
+10470,Bathurst Regional,fire,3,0,0,0,0
+10850,Blayney,fire,3,0,0,0,0
+10950,Bogan,fire,3,0,0,0,0
+11200,Brewarrina,fire,3,0,0,0,0
+11400,Cabonne,fire,3,0,0,0,0
+11750,Cobar,fire,3,0,0,0,0
+12150,Coonamble,fire,3,2,0,0,0
+12390,Dubbo Regional,fire,3,0,0,0,0
+14900,Liverpool,fire,3,0,0,0,0
+14920,Liverpool Plains,fire,3,0,0,0,0
+15300,Moree Plains,fire,3,0,0,0,0
+15900,Newcastle,fire,3,0,0,0,0
+16200,Parkes,fire,3,0,0,0,0
+16400,Port Stephens,fire,3,0,0,0,0
+17900,Walgett,fire,3,0,0,0,0
+17950,Warren,fire,3,0,0,0,0
+18710,Yass Valley,fire,3,0,0,0,0
+10050,Albury,comparison,4,0,0,0,0
+12900,Forbes,comparison,4,0,0,0,0
+12950,Gilgandra,comparison,4,0,0,0,0
+13450,Griffith,comparison,4,0,0,0,0
+13550,Gunnedah,comparison,4,0,0,0,0
+13910,Hilltops,comparison,4,0,0,0,0
+14300,Junee,comparison,4,0,0,0,0
+14400,Kiama,comparison,4,0,0,0,0
+15050,Maitland,comparison,4,0,0,0,0
+15520,Murray River,comparison,4,0,0,0,0
+15850,Narromine,comparison,4,0,0,0,0
+16150,Orange,comparison,4,0,0,0,0
+16900,Shellharbour,comparison,4,0,0,0,0
+17350,Temora,comparison,4,0,0,0,0
+18450,Wollongong,comparison,4,0,0,0,0

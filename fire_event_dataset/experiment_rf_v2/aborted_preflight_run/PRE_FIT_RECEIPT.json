@@ -1,0 +1,95 @@
+{
+  "started_utc": "2026-09-28T04:43:57.067100+00:00",
+  "protocol_sha256": "1900d57f6837d85cf4ba4fd7e68e806da8f8a2bccb3e5ea5fa8e54425d08ac58",
+  "source_sha256": "123423eaed7174987f72c63cc40ad334e26c636b2e28358f94cf4fcd60c32ec3",
+  "runner_sha256": "de2a4d7808bbf55ee9a4b6c77a62d28d0307b3d53b4605be9667b91daa2a1713",
+  "split_sha256": "0a684d5be994ddf98f81a217cb6f5a7905e7202a6ca1174875f77389c4e613b1",
+  "versions": {
+    "python": "3.13.7 (main, Aug 14 2025, 11:12:11) [Clang 17.0.0 (clang-1700.3.19.1)]",
+    "sklearn": "1.9.1",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "seed": 20260928,
+  "rf_grid": [
+    {
+      "min_samples_leaf": 1,
+      "max_features": 0.33
+    },
+    {
+      "min_samples_leaf": 1,
+      "max_features": 0.7
+    },
+    {
+      "min_samples_leaf": 1,
+      "max_features": 1.0
+    },
+    {
+      "min_samples_leaf": 2,
+      "max_features": 0.33
+    },
+    {
+      "min_samples_leaf": 2,
+      "max_features": 0.7
+    },
+    {
+      "min_samples_leaf": 2,
+      "max_features": 1.0
+    },
+    {
+      "min_samples_leaf": 3,
+      "max_features": 0.33
+    },
+    {
+      "min_samples_leaf": 3,
+      "max_features": 0.7
+    },
+    {
+      "min_samples_leaf": 3,
+      "max_features": 1.0
+    },
+    {
+      "min_samples_leaf": 8,
+      "max_features": 0.33
+    },
+    {
+      "min_samples_leaf": 8,
+      "max_features": 0.7
+    },
+    {
+      "min_samples_leaf": 8,
+      "max_features": 1.0
+    },
+    {
+      "min_samples_leaf": 15,
+      "max_features": 0.33
+    },
+    {
+      "min_samples_leaf": 15,
+      "max_features": 0.7
+    },
+    {
+      "min_samples_leaf": 15,
+      "max_features": 1.0
+    }
+  ],
+  "ridge_grid": [
+    {
+      "alpha": 0.1
+    },
+    {
+      "alpha": 1
+    },
+    {
+      "alpha": 10
+    },
+    {
+      "alpha": 100
+    }
+  ],
+  "registry_sha256": "ff52e24cc23d6693f239145c17004e33e9211fb7696af9d0f0149dfb2d799a46",
+  "eligibility_code_sha256": "b5cd40b9cabdd6fc8d378344ec863fde87089e8c86d70b983f350b597bb592c0",
+  "status": "V2 amendment after seeing V1 results; reused holdout, not fresh confirmation"
+}

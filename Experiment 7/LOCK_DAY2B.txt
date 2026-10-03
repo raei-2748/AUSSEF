@@ -1,0 +1,2 @@
+PRESPEC_DAY2B.md sha256 2794bb323dcd4b94f3b03acee1c7d8e3819a717587c8873fae94f2beb110d5c5
+locked 2026-09-30T10:33:18Z before the prospective test was run

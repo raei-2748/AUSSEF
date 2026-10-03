@@ -1,0 +1,6 @@
+F,official_season_total,deaths_allocated_to_panel_rows,leftover,zero_rows,rule_ok
+2015,1,0.0,1.0,2,True
+2016,2,0.0,2.0,11,False
+2017,0,0.0,0.0,32,True
+2018,0,1.0,-1.0,24,True
+2019,25,25.0,0.0,43,True

@@ -1,0 +1,19 @@
+871 clean-up rows sum 265.0 vs assumption 265.0
+871 DRP rows sum 265.9 vs assumption 265.9
+871 insurer rows sum 1886.8 vs ICA NSW 1886.8
+871 payers sum 3387.4 = total 3387.4
+871 homes in panel 2480 (NSW official 2,476 in E17-015; 2,448 in key_events)
+871 insurer part of destroyed homes 561m vs NSW home-building claims implied by ICA (9,478 x $131,848 x 81% = 1012m, includes damaged homes; E17I-073, E17I-029)
+rows with negative other-insured (ICA smaller than modelled home claims): 0 []
+rows with homes unknown: 83; rows with homes > 0: 54
+non-Black Summer events with homes destroyed: 14, homes 167, total mid 127.8m
+871 low: households_uninsured 115m (3.7%), insurers 1880m (60.9%), commonwealth 750m (24.3%), nsw_state 340m (11.0%), total 3086m
+871 mid: households_uninsured 293m (8.6%), insurers 1887m (55.7%), commonwealth 825m (24.4%), nsw_state 383m (11.3%), total 3387m
+871 high: households_uninsured 481m (11.7%), insurers 1894m (46.0%), commonwealth 1102m (26.7%), nsw_state 644m (15.6%), total 4121m
+871 per home destroyed (mid, A$k): households_uninsured 118, insurers 761, commonwealth 333, nsw_state 154, total 1366
+household gap per destroyed home (FY2019-20 A$k): low 46 (17.8% of 260k), mid 118 (34.3% of 344k), high 194 (49.0% of 396k)
+871 councils with statements: 23; statement fire-grant rise FY F..F+2 49.7m vs council-paid programs (NBRA+BCRRF+EPA) 74.3m in the same councils
+871 loss account (A$m low/mid/high): loss_households_uninsured 114.9/292.9/481.2 (12.0%); loss_insurers 1880.0/1886.8/1893.5 (77.2%); loss_commonwealth_cleanup 90.0/132.5/401.5 (5.4%); loss_nsw_cleanup 90.0/132.5/401.5 (5.4%); loss_account 2174.9/2444.6/3177.7 (100.0%); rec_commonwealth 660.4/692.5/700.4 (73.5%); rec_nsw 250.3/250.3/242.4 (26.5%); rec_household_payments 233.8/265.9/265.9 (28.2%); recovery_money 910.7/942.8/942.8 (100.0%)
+871 household share of combined total by council (councils with homes): 2.0% to 9.8%, median 7.6%, n=34
+sensitivity rebuild high 430k (+25%, IAG): 871 household gap high 523m vs 481m; rebuild high 1066m
+871 statements: strict 49.7m, wide 80.9m; councils 23, with all 3 post years 13; capex change (not used) -465.5m

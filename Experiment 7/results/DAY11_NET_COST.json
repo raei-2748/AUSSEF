@@ -1,0 +1,197 @@
+{
+  "G": {
+    "per_10_homes_per_1000": {
+      "rows": 128,
+      "councils": 67,
+      "slope_per_10pp": 114.79125394479631,
+      "ci_low": -81.8791744822803,
+      "ci_high": 302.8979293064902,
+      "p_boot": 0.215,
+      "spearman": 0.17143958132906353
+    },
+    "pretrend": {
+      "rows": 122,
+      "councils": 67,
+      "slope_per_10pp": 50.986035735251114,
+      "ci_low": -94.1550548724614,
+      "ci_high": 195.84127952353023,
+      "p_boot": 0.369,
+      "spearman": -0.052184084885136685
+    },
+    "per_10pp_area": {
+      "rows": 205,
+      "councils": 68,
+      "slope_per_10pp": 37.02577522358178,
+      "ci_low": -7.645551856448609,
+      "ci_high": 75.32477034776525,
+      "p_boot": 0.092,
+      "spearman": 0.13799273296013545
+    },
+    "detected": false,
+    "mean_change_councils_ge5_homes_per_1000": [
+      172.72705800090574,
+      14
+    ],
+    "mean_change_councils_no_homes": [
+      84.76884432345655,
+      74
+    ],
+    "sd_level_aud": 2406.0678901655474
+  },
+  "R": {
+    "per_10_homes_per_1000": {
+      "rows": 128,
+      "councils": 67,
+      "slope_per_10pp": 55.66330731072256,
+      "ci_low": -295.04244153717354,
+      "ci_high": 385.97348181126176,
+      "p_boot": 0.724,
+      "spearman": 0.07706236018696248
+    },
+    "pretrend": {
+      "rows": 122,
+      "councils": 67,
+      "slope_per_10pp": -66.13599105400773,
+      "ci_low": -376.184581004804,
+      "ci_high": 205.56060899808153,
+      "p_boot": 0.653,
+      "spearman": 0.07714682586330472
+    },
+    "per_10pp_area": {
+      "rows": 205,
+      "councils": 68,
+      "slope_per_10pp": 24.977591771642288,
+      "ci_low": -32.94685160072307,
+      "ci_high": 82.86898779392777,
+      "p_boot": 0.391,
+      "spearman": 0.007950310387373611
+    },
+    "detected": false,
+    "mean_change_councils_ge5_homes_per_1000": [
+      11.597643152715007,
+      14
+    ],
+    "mean_change_councils_no_homes": [
+      -92.8501427643747,
+      74
+    ],
+    "sd_level_aud": 2339.6331910854183
+  },
+  "N": {
+    "per_10_homes_per_1000": {
+      "rows": 128,
+      "councils": 67,
+      "slope_per_10pp": 57.84186999540688,
+      "ci_low": -377.06304707802343,
+      "ci_high": 450.75081297288,
+      "p_boot": 0.753,
+      "spearman": 0.05615264676418085
+    },
+    "pretrend": {
+      "rows": 122,
+      "councils": 67,
+      "slope_per_10pp": 115.94426682907483,
+      "ci_low": -163.5310316904695,
+      "ci_high": 392.5981756450988,
+      "p_boot": 0.44,
+      "spearman": -0.11715844009676374
+    },
+    "per_10pp_area": {
+      "rows": 205,
+      "councils": 68,
+      "slope_per_10pp": 11.484225111301598,
+      "ci_low": -70.9149295080941,
+      "ci_high": 90.0508287491424,
+      "p_boot": 0.743,
+      "spearman": 0.09337766657429414
+    },
+    "detected": false,
+    "mean_change_councils_ge5_homes_per_1000": [
+      160.93963067341514,
+      14
+    ],
+    "mean_change_councils_no_homes": [
+      179.8865111149969,
+      74
+    ],
+    "sd_level_aud": 1294.3964933203745
+  },
+  "R_op": {
+    "per_10_homes_per_1000": {
+      "rows": 23,
+      "councils": 20,
+      "slope_per_10pp": -21687.629314611935,
+      "ci_low": -61117.42122239102,
+      "ci_high": 5099.474941395355,
+      "p_boot": 0.122,
+      "spearman": -0.12306270582459973
+    },
+    "pretrend": {
+      "rows": 23,
+      "councils": 20,
+      "slope_per_10pp": -23308.22175956791,
+      "ci_low": -57381.23964085724,
+      "ci_high": -383.0574216914232,
+      "p_boot": 0.044,
+      "spearman": -0.27815543097341033
+    },
+    "per_10pp_area": {
+      "rows": 59,
+      "councils": 38,
+      "slope_per_10pp": -303.4736163001704,
+      "ci_low": -3466.0988057088603,
+      "ci_high": 290.18876812137745,
+      "p_boot": 0.352,
+      "spearman": -0.14491779668636548
+    },
+    "detected": false,
+    "mean_change_councils_ge5_homes_per_1000": [
+      NaN,
+      0
+    ],
+    "mean_change_councils_no_homes": [
+      160.0036609333415,
+      14
+    ],
+    "sd_level_aud": 1698.1303568191297
+  },
+  "N_op": {
+    "per_10_homes_per_1000": {
+      "rows": 23,
+      "councils": 20,
+      "slope_per_10pp": -23631.513916560194,
+      "ci_low": -62105.4115936192,
+      "ci_high": 2662.2988013505505,
+      "p_boot": 0.093,
+      "spearman": -0.28433666277281944
+    },
+    "pretrend": {
+      "rows": 23,
+      "councils": 20,
+      "slope_per_10pp": -2468.1160877191064,
+      "ci_low": -18231.241404951288,
+      "ci_high": 13458.519748381983,
+      "p_boot": 0.807,
+      "spearman": 0.17925572218286442
+    },
+    "per_10pp_area": {
+      "rows": 59,
+      "councils": 38,
+      "slope_per_10pp": -557.4439538238904,
+      "ci_low": -4817.600904591127,
+      "ci_high": 181.41954467126683,
+      "p_boot": 0.152,
+      "spearman": -0.1700548086166346
+    },
+    "detected": false,
+    "mean_change_councils_ge5_homes_per_1000": [
+      NaN,
+      0
+    ],
+    "mean_change_councils_no_homes": [
+      432.7724688594506,
+      14
+    ],
+    "sd_level_aud": 1437.0446250380307
+  }
+}

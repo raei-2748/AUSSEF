@@ -1,0 +1,13 @@
+split,model,parameters,inner_group_mae,retained_features
+primary_recent_seasons,ridge,"{""alpha"": 100}",0.11174775008920518,211
+primary_recent_seasons,rf,"{""min_samples_leaf"": 15, ""max_features"": 0.33}",0.09220101679765155,211
+group_cv_1,ridge,"{""alpha"": 100}",0.10374239026505948,210
+group_cv_1,rf,"{""min_samples_leaf"": 3, ""max_features"": 0.33}",0.1003885102334191,210
+group_cv_2,ridge,"{""alpha"": 100}",0.14221442188357752,212
+group_cv_2,rf,"{""min_samples_leaf"": 8, ""max_features"": 0.33}",0.11147521692370556,212
+group_cv_3,ridge,"{""alpha"": 100}",0.11578024761128486,212
+group_cv_3,rf,"{""min_samples_leaf"": 3, ""max_features"": 0.33}",0.1159080705094579,212
+group_cv_4,ridge,"{""alpha"": 100}",0.09832370046536434,209
+group_cv_4,rf,"{""min_samples_leaf"": 3, ""max_features"": 0.7}",0.08905232188758917,209
+group_cv_5,ridge,"{""alpha"": 100}",0.1055057072366948,211
+group_cv_5,rf,"{""min_samples_leaf"": 3, ""max_features"": 0.7}",0.10435765323466438,211

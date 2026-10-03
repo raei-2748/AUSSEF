@@ -1,0 +1,17 @@
+FAILED: FAILED curl_rc=0 head=b'<HTML'  http 403
+FAILED: FAILED curl_rc=0 head=b'<HTML'  http 403
+FAILED: FAILED curl_rc=0 head=b'<HTML'  http 403
+FAILED: FAILED curl_rc=0 head=b'<HTML'  http 403
+FAILED: FAILED curl_rc=0 head=b'<HTML'  http 403
+FAILED: FAILED curl_rc=0 head=b'<HTML'  http 403
+FAILED: FAILED curl_rc=0 head=b'<HTML'  http 403
+FAILED: FAILED curl_rc=0 head=b'<HTML'  http 403
+FAILED: FAILED curl_rc=0 head=b'<HTML'  http 403
+OK fire_event_dataset/data/raw/council_pdfs/financial_statements/12390/12390_2016-17_gpfs.pdf 2404714 bytes sha256=0379e3a81a856d7320c1923303ec7a893ec4ab0658feda2013624301bc9fa88b
+OK fire_event_dataset/data/raw/council_pdfs/financial_statements/12390/12390_2017-18_gpfs.pdf 3036559 bytes sha256=1ca80eb0981aedc442dcea94745a28ed4312bfa86b3c4348614a0402ebf02dfd
+OK fire_event_dataset/data/raw/council_pdfs/financial_statements/12390/12390_2018-19_gpfs.pdf 5224896 bytes sha256=f95027b5bcaf2dc12e9f9b9c752170f2694d88c15b07f170dbda761d5d2034ea
+OK fire_event_dataset/data/raw/council_pdfs/financial_statements/12390/12390_2019-20_gpfs.pdf 6841185 bytes sha256=d42c0ee29172672a693c0878a83a8c48d5b46c80881bc247f3f61b9f2e8c277e
+OK fire_event_dataset/data/raw/council_pdfs/financial_statements/12390/12390_2020-21_gpfs.pdf 2637455 bytes sha256=69a7b9cb99774a63b845bdb85950265a870246ce0c1f82a3929c2642244aab9b
+OK fire_event_dataset/data/raw/council_pdfs/financial_statements/12390/12390_2021-22_gpfs.pdf 3891387 bytes sha256=d28778f441953f17b01e78b2797c8bac9e34b1e42b94ba1777d7a922516a6153
+OK fire_event_dataset/data/raw/council_pdfs/financial_statements/12390/12390_2022-23_gpfs.pdf 3665534 bytes sha256=b663ddc3a8a5fca8f1887de978a1df7d1cecd24550815fdc7c1c64209074212a
+OK fire_event_dataset/data/raw/council_pdfs/financial_statements/12390/12390_2023-24_gpfs.pdf 2677519 bytes sha256=3c2ee369960e0a78fece6716638bfa4628487445105948de65c3cc8deb0d66fe

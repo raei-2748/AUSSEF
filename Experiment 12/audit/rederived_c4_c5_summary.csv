@@ -1,0 +1,6 @@
+variant,n,rho
+C4 as prespec,199,0.21306984622758865
+C4 drop pre-2016 Dubbo/Murrumbidgee/Parramatta,199,0.21325717075435413
+C5 with has-lines rule,50,0.4448101084662747
+C5 literal prespec (no has-lines rule),51,0.4491838260289193
+C5 comparison excl. burned in F,50,0.4448101084662747

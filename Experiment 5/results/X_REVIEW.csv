@@ -1,0 +1,218 @@
+column,train_coverage,within_council_share,decision
+X_fire_burn_area_in_council_ha,1.0,0.678,keep
+X_fire_fires_n,1.0,0.532,keep
+X_fire_share_of_council_burned,1.0,0.718,keep
+X_fire_largest_fire_total_area_ha,1.0,0.72,keep
+X_fire_max_fire_duration_days,0.992,0.744,keep
+X_fire_duration_days_wmean,0.992,0.709,keep
+X_fire_max_ffdi,1.0,0.731,keep
+X_fire_ffdi_wmean,1.0,0.707,keep
+X_fire_min_spei3,1.0,0.685,keep
+X_fire_kbdi_at_start_max,1.0,0.659,keep
+X_fire_drought_factor_at_start_max,1.0,0.631,keep
+X_fire_max_temp_c,1.0,0.745,keep
+X_fire_min_rh_pct,1.0,0.622,keep
+X_fire_max_wind_kmh,1.0,0.674,keep
+X_fire_rain_during_fire_mm_min,1.0,0.49,keep
+X_fire_temp_max_wmean,1.0,0.778,keep
+X_fire_humidity_min_wmean,1.0,0.664,keep
+X_fire_wind_max_wmean,1.0,0.586,keep
+X_fire_hotspot_density_max,1.0,0.813,keep
+X_fire_hotspots_n,1.0,0.737,keep
+X_fire_hotspot_viirs_count_in_council,1.0,0.752,keep
+X_fire_severity_high_extreme_share,0.943,0.426,keep
+X_fire_severity_share_low_wmean,0.943,0.613,keep
+X_fire_severity_share_moderate_wmean,0.943,0.599,keep
+X_fire_severity_share_high_wmean,0.943,0.483,keep
+X_fire_severity_share_extreme_wmean,0.943,0.471,keep
+X_fire_ignition_causes,0.0,,drop: text/categorical (cannot be demeaned)
+X_env_mean_slope_deg,1.0,0.447,keep
+X_env_elevation_wmean,1.0,0.163,keep
+X_env_elevation_min,1.0,0.284,keep
+X_env_elevation_max,1.0,0.398,keep
+X_env_slope_p90_max,1.0,0.512,keep
+X_env_dominant_vegetation,0.0,,drop: text/categorical (cannot be demeaned)
+X_env_mean_canopy_pct,1.0,0.412,keep
+X_env_canopy_cover_wmean,1.0,0.324,keep
+X_env_canopy_cover_share_over_30pct_wmean,1.0,0.517,keep
+X_env_vegetation_forest_share_wmean,1.0,0.524,keep
+X_env_vegetation_cleared_share_wmean,1.0,0.498,keep
+X_env_vegetation_groups,0.0,,drop: text/categorical (cannot be demeaned)
+X_env_road_km_burned,0.451,0.31,drop: training coverage < 50%
+X_env_road_km_within_100m_sum,0.451,0.327,drop: training coverage < 50%
+X_socio_pop_in_fire,0.836,0.613,keep
+X_socio_pop_within_1km,0.836,0.566,keep
+X_socio_pop_within_5km,0.836,0.305,keep
+X_socio_pop_within_5km_all_councils,0.836,0.778,keep
+X_socio_dwellings_in_fire,0.836,0.59,keep
+X_socio_dwellings_within_1km,0.836,0.538,keep
+X_socio_dwellings_within_5km,0.836,0.291,keep
+X_socio_pop_density,1.0,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_population_pre,1.0,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_population_density_pre,1.0,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_SEIFA,0.557,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_seifa_irsd,0.566,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_income_proxy_aud,1.0,0.008,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_grp_reds_region_2020_aud_m,0.0,,drop: training coverage < 50%
+X_socio_nsw_sfd_sa_aud_m_qm1,1.0,0.727,keep
+X_socio_nsw_sfd_sa_aud_m_qp0,1.0,0.722,keep
+X_socio_nsw_sfd_sa_aud_m_qp1,1.0,0.716,keep
+X_socio_nsw_sfd_sa_aud_m_qp4,1.0,0.77,keep
+X_socio_nsw_sfd_chg_pct_qp1_vs_qm1,1.0,0.712,keep
+X_socio_nsw_sfd_yoy_pct_q0,1.0,0.789,keep
+X_socio_total_income_aud_pre,0.992,0.008,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_median_income_aud_pre,0.992,0.022,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_income_earners_pre,0.992,0.006,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_pia_emp_income_earners_pre,0.992,0.001,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_pia_emp_income_mean_pre,0.992,0.03,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_pia_emp_income_median_pre,0.992,0.063,keep
+X_socio_pia_emp_income_total_pre,0.992,0.004,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_pia_own_biz_income_earners_pre,0.992,0.001,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_pia_own_biz_income_main_source_pct_pre,0.992,0.145,keep
+X_socio_pia_own_biz_income_mean_pre,0.992,0.308,keep
+X_socio_pia_own_biz_income_median_pre,0.992,0.125,keep
+X_socio_pia_own_biz_income_total_pre,0.984,0.009,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_unemp_rate_pre,1.0,0.208,keep
+X_socio_labour_force_pre,1.0,0.001,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_unemployed_pre,1.0,0.055,keep
+X_socio_payroll_qm4,0.0,,drop: training coverage < 50%
+X_socio_payroll_qm1,0.0,,drop: training coverage < 50%
+X_socio_jobs_emp_A_agri_pre,0.992,0.027,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_jobs_emp_B_mining_pre,0.992,0.007,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_jobs_emp_C_manuf_pre,0.992,0.001,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_jobs_emp_D_utilities_pre,0.992,0.014,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_jobs_emp_E_constr_pre,0.992,0.007,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_jobs_emp_F_wholesale_pre,0.992,0.001,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_jobs_emp_G_retail_pre,0.992,0.001,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_jobs_emp_H_accom_food_pre,0.992,0.003,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_jobs_emp_I_transport_pre,0.992,0.002,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_jobs_emp_J_info_media_pre,0.975,0.002,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_jobs_emp_K_finance_pre,0.992,0.001,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_jobs_emp_L_real_estate_pre,0.992,0.002,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_jobs_emp_M_professional_pre,0.992,0.003,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_jobs_emp_N_admin_pre,0.992,0.007,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_jobs_emp_O_public_admin_pre,0.992,0.003,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_jobs_emp_P_education_pre,0.992,0.001,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_jobs_emp_Q_health_pre,0.992,0.007,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_jobs_emp_R_arts_rec_pre,0.992,0.006,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_jobs_emp_S_other_pre,0.992,0.003,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_jobs_emp_total_pre,0.992,0.002,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_jobs_female_pre,0.992,0.002,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_jobs_male_pre,0.992,0.001,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_jobs_total_pre,0.992,0.002,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_accom_food_biz_share_pre,0.992,0.027,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_ind_share_agri,0.77,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_ind_share_mining,0.77,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_ind_share_manufacturing,0.77,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_ind_share_utilities,0.77,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_ind_share_construction,0.77,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_ind_share_wholesale,0.77,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_ind_share_retail,0.77,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_ind_share_accom_food,0.77,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_ind_share_transport,0.77,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_ind_share_information_media,0.77,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_ind_share_finance_insurance,0.77,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_ind_share_rental_real_estate,0.77,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_ind_share_professional_services,0.77,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_ind_share_admin_support,0.77,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_ind_share_public_administration,0.77,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_ind_share_education,0.77,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_ind_share_health_social,0.77,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_ind_share_arts_recreation,0.77,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_ind_share_other_services,0.77,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_employed_persons_census,0.77,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_tra_tourism_biz_total_2017,0.574,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_biz_entries_total_pre,0.836,0.001,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_biz_entries_turnover_total_pre,0.836,0.001,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_biz_exits_total_pre,0.836,0.003,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_biz_exits_turnover_total_pre,0.836,0.004,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_insolv_biz_economic_conditions_pre,0.385,0.465,drop: training coverage < 50%
+X_socio_insolv_biz_pre,0.811,0.08,keep
+X_socio_insolv_nonbiz_pre,0.918,0.02,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_biz_total_pre,0.992,0.001,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_biz_A_agri_total_pre,0.992,0.004,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_biz_B_mining_total_pre,0.992,0.046,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_biz_C_manuf_total_pre,0.992,0.002,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_biz_D_utilities_total_pre,0.992,0.014,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_biz_E_constr_total_pre,0.992,0.003,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_biz_F_wholesale_total_pre,0.992,0.001,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_biz_G_retail_total_pre,0.992,0.001,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_biz_H_accom_food_total_pre,0.992,0.002,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_biz_I_transport_total_pre,0.992,0.019,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_biz_J_info_media_total_pre,0.992,0.009,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_biz_K_finance_total_pre,0.992,0.112,keep
+X_socio_biz_L_real_estate_total_pre,0.992,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_biz_M_professional_total_pre,0.992,0.002,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_biz_N_admin_total_pre,0.992,0.006,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_biz_O_public_admin_total_pre,0.992,0.012,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_biz_P_education_total_pre,0.992,0.006,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_biz_Q_health_total_pre,0.992,0.003,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_biz_R_arts_rec_total_pre,0.992,0.007,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_biz_S_other_total_pre,0.992,0.003,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_biz_X_unknown_total_pre,0.992,0.304,keep
+X_socio_insolv_total_pre,0.943,0.013,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_tra_avg_stay_dom_overnight_1417avg,0.574,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_tra_avg_stay_intl_1417avg,0.508,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_tra_avg_stay_total_1417avg,0.508,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_tra_nights_dom_overnight_1417avg,0.574,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_tra_nights_intl_1417avg,0.508,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_tra_nights_total_1417avg,0.508,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_tra_spend_dom_day_1417avg,0.525,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_tra_spend_dom_overnight_1417avg,0.574,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_tra_spend_intl_1417avg,0.508,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_tra_spend_total_1417avg,0.484,0.0,drop: training coverage < 50%
+X_socio_tra_visitors_dom_day_1417avg,0.525,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_tra_visitors_dom_overnight_1417avg,0.574,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_tra_visitors_intl_1417avg,0.508,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_tra_visitors_total_1417avg,0.484,0.0,drop: training coverage < 50%
+X_socio_ntl_mean_qm4,1.0,0.005,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_ntl_mean_qm1,1.0,0.01,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_ntl_mean_exfire_qm4,1.0,0.005,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_ntl_mean_exfire_qm1,1.0,0.007,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_income_support_pre,0.885,0.001,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_jobseeker_pre,0.885,0.001,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_dwellings_census,0.836,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_dwellings_occupied,0.836,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_dw_owned_mortgage_share_census,0.836,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_dw_owned_outright_share_census,0.836,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_dw_rented_share_census,0.836,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_dw_flat_apartment_share_census,0.836,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_socio_rent_median_weekly_pre,0.451,0.0,drop: training coverage < 50%
+X_socio_rent_new_bonds_lodged_pre,0.393,0.0,drop: training coverage < 50%
+X_socio_area_km2,1.0,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_council_historical_disaster_count,1.0,0.234,keep
+X_council_insurance_proxy_share,0.836,0.0,"drop: within-council share < 5% (a council trait, absorbed)"
+X_council_own_source_revenue_ratio,0.967,0.165,keep
+X_council_grants_pct_pre,0.959,0.165,keep
+X_council_own_source_pct_pre,0.959,0.166,keep
+X_council_total_revenue_incl_cap_aud_pre,0.959,0.012,"drop: within-council share < 5% (a council trait, absorbed)"
+X_council_grants_per_capita_aud_pre,0.959,0.146,keep
+X_council_olg_capital_grants_derived_aud_pre,0.0,,drop: training coverage < 50%
+X_council_net_op_result_pre_cap_aud_pre,0.0,,drop: training coverage < 50%
+X_council_operating_ratio_pct_pre,0.951,0.286,keep
+X_council_exp_community_aud_pre,0.959,0.025,"drop: within-council share < 5% (a council trait, absorbed)"
+X_council_exp_environment_aud_pre,0.959,0.022,"drop: within-council share < 5% (a council trait, absorbed)"
+X_council_exp_governance_aud_pre,0.959,0.044,"drop: within-council share < 5% (a council trait, absorbed)"
+X_council_exp_other_aud_pre,0.959,0.191,keep
+X_council_exp_public_order_aud_pre,0.959,0.013,"drop: within-council share < 5% (a council trait, absorbed)"
+X_council_exp_recreation_aud_pre,0.959,0.017,"drop: within-council share < 5% (a council trait, absorbed)"
+X_council_exp_roads_aud_pre,0.959,0.095,keep
+X_council_roads_share_pct_pre,0.959,0.242,keep
+X_council_service_share_pct_pre,0.959,0.049,"drop: within-council share < 5% (a council trait, absorbed)"
+X_council_total_expenses_aud_pre,0.852,0.009,"drop: within-council share < 5% (a council trait, absorbed)"
+X_council_total_expenses_cont_ops_aud_pre,0.959,0.007,"drop: within-council share < 5% (a council trait, absorbed)"
+X_council_cash_reserve,0.967,0.075,keep
+X_council_cash_cover_months_pre,0.959,0.067,keep
+X_council_unrestricted_current_ratio_pre,0.959,0.136,keep
+X_council_debt_burden,0.967,0.209,keep
+X_council_debt_service_cover_pre,0.959,0.118,keep
+X_council_debt_service_cover_ratio_pre,0.959,0.118,keep
+X_council_debt_service_ratio_pct_pre,0.959,0.205,keep
+X_council_renewals_ratio_pct_pre,0.959,0.192,keep
+X_council_infra_backlog_ratio_pct_pre,0.959,0.113,keep
+X_council_maintenance_gap_aud_pre,0.959,0.192,keep
+X_council_maintenance_ratio_pct_pre,0.959,0.192,keep
+X_council_road_km_pre,0.82,0.002,"drop: within-council share < 5% (a council trait, absorbed)"
+X_council_olg_asset_maint_actual_aud_pre,0.959,0.091,keep
+X_council_olg_asset_maint_required_aud_pre,0.959,0.089,keep
+X_council_council_population_pre,0.975,0.0,"drop: within-council share < 5% (a council trait, absorbed)"

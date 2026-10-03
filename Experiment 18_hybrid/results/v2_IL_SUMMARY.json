@@ -1,0 +1,104 @@
+{
+ "zero_job_industries_removed": [
+  "6700",
+  "6701"
+ ],
+ "v1_reproduction": {
+  "default_gross_bs_Am_recomputed": 649.46266267405,
+  "default_gross_bs_Am_file": 649.5
+ },
+ "n_settings": 1620,
+ "bs_rows_with_model": 36,
+ "income_consistent": {
+  "n": 531,
+  "min": 271.17813091043877,
+  "p05": 411.05652750664456,
+  "median": 959.9803063997613,
+  "p95": 2707.2815144041365,
+  "max": 3616.1967253332464,
+  "labour_income_median": 294.52055460503533,
+  "jobs_year1_median": 4100.356617739555,
+  "disruption_months_allowed": [
+   1,
+   2,
+   3,
+   6,
+   9,
+   12,
+   18,
+   24,
+   30
+  ]
+ },
+ "sensitivity_M2_only": {
+  "n": 1069,
+  "min": 39.89279084006517,
+  "p05": 56.292281275196494,
+  "median": 597.3641551403053,
+  "p95": 2565.971616898564,
+  "max": 3616.1967253332464,
+  "labour_income_median": 192.37817318425937,
+  "jobs_year1_median": 2473.7088260765277,
+  "disruption_months_allowed": [
+   1,
+   2,
+   3,
+   6,
+   9,
+   12,
+   18,
+   24,
+   30
+  ]
+ },
+ "default": {
+  "setting": {
+   "d": 6,
+   "r": "1km",
+   "b": 0.66,
+   "delta": 0.3,
+   "typ": 2
+  },
+  "income_slope_B": -0.9519559943957616,
+  "income_consistent": true,
+  "bs_gross_lost_trade_Am": 639.986870933174,
+  "bs_gross_labour_income_loss_Am": 202.93334154829586,
+  "bs_gross_jobs_year1": 4143.816121066983,
+  "bs_rebuild_offset_24m_Am": 312.4976976,
+  "bs_direct_tourism_Am": 425.9484059586967,
+  "bs_direct_bi_Am": 151.03878322434602,
+  "descriptive_checks_not_valid_tests": {
+   "M1": {
+    "slope": 1.020237022514093,
+    "verdict": "overstates",
+    "measured_lo": -0.35,
+    "measured_hi": 0.59
+   },
+   "M1b": {
+    "slope": 3.8116905629414615,
+    "verdict": "overstates",
+    "measured_lo": -0.29,
+    "measured_hi": 0.12
+   },
+   "M2": {
+    "slope": -0.9519559943957616,
+    "verdict": "inside",
+    "measured_lo": -3.1,
+    "measured_hi": 0.8
+   },
+   "M2b": {
+    "slope": -0.9519559943957616,
+    "verdict": "inside",
+    "measured_lo": -2.6,
+    "measured_hi": -0.7
+   },
+   "M3": {
+    "slope": -8.19827804300274,
+    "verdict": "overstates",
+    "measured_lo": -1.2,
+    "measured_hi": 8.6
+   }
+  }
+ },
+ "out_of_sample_share_also_inside_preCOVID_income": 0.5725047080979284
+}

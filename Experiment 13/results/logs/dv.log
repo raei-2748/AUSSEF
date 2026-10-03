@@ -1,0 +1,82 @@
+Downloading pyfixest (2.7MiB)
+ Downloaded pyfixest
+Installed 61 packages in 1.47s
+suburb match {'bocsar_suburbs': 4520, 'matched': 4348, 'last_month': '2026-06-01'}
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 990 observations removed because of separation.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 6 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 1060 observations removed because of separation.
+  warnings.warn(
+dv P dv_assault primary {'main_per10': np.float64(-2.303), 'main_lo': np.float64(-11.232), 'main_hi': np.float64(7.523), 'placebo_per10': np.float64(-4.836), 'placebo_lo': np.float64(-12.612), 'placebo_hi': np.float64(3.633)} 25440 618
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 990 observations removed because of separation.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 35 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 1096 observations removed because of separation.
+  warnings.warn(
+dv P dv_assault R_dose {'main_per10': np.float64(-0.682), 'main_lo': np.float64(-1.853), 'main_hi': np.float64(0.503), 'placebo_per10': np.float64(0.332), 'placebo_lo': np.float64(-0.889), 'placebo_hi': np.float64(1.567)} 25440 1075
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 990 observations removed because of separation.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 6 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 1060 observations removed because of separation.
+  warnings.warn(
+dv P dv_assault binary_H10 {'main_per10': np.float64(-1.717), 'main_lo': np.float64(-4.481), 'main_hi': np.float64(1.128), 'placebo_per10': np.float64(-2.277), 'placebo_lo': np.float64(-4.799), 'placebo_hi': np.float64(0.311)} 25440 50
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 3720 observations removed because of separation.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 6 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 3614 observations removed because of separation.
+  warnings.warn(
+dv P avo_breach primary {'main_per10': np.float64(13.381), 'main_lo': np.float64(1.952), 'main_hi': np.float64(26.09), 'placebo_per10': np.float64(0.225), 'placebo_lo': np.float64(-13.3), 'placebo_hi': np.float64(15.859)} 22710 618
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 2190 observations removed because of separation.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 6 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 2221 observations removed because of separation.
+  warnings.warn(
+dv P nondv_assault primary {'main_per10': np.float64(-2.0), 'main_lo': np.float64(-10.253), 'main_hi': np.float64(7.011), 'placebo_per10': np.float64(-0.73), 'placebo_lo': np.float64(-11.828), 'placebo_hi': np.float64(11.764)} 24240 618
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 360 observations removed because of separation.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 6 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 381 observations removed because of separation.
+  warnings.warn(
+dv P malicious_damage primary {'main_per10': np.float64(2.772), 'main_lo': np.float64(-5.069), 'main_hi': np.float64(11.262), 'placebo_per10': np.float64(5.232), 'placebo_lo': np.float64(-1.533), 'placebo_hi': np.float64(12.462)} 26070 618
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 693 observations removed because of separation.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 1225 observations removed because of separation.
+  warnings.warn(
+dv B dv_assault primary {'main_per10': np.float64(-0.455), 'main_lo': np.float64(-3.236), 'main_hi': np.float64(2.406), 'placebo_per10': np.float64(1.99), 'placebo_lo': np.float64(-1.484), 'placebo_hi': np.float64(5.587)} 28380 397
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 693 observations removed because of separation.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 1225 observations removed because of separation.
+  warnings.warn(
+dv B dv_assault R_dose {'main_per10': np.float64(0.369), 'main_lo': np.float64(-0.773), 'main_hi': np.float64(1.525), 'placebo_per10': np.float64(-0.085), 'placebo_lo': np.float64(-1.264), 'placebo_hi': np.float64(1.109)} 28380 529
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 693 observations removed because of separation.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 1225 observations removed because of separation.
+  warnings.warn(
+dv B dv_assault binary_H10 {'main_per10': np.float64(0.046), 'main_lo': np.float64(-1.165), 'main_hi': np.float64(1.271), 'placebo_per10': np.float64(0.752), 'placebo_lo': np.float64(-0.74), 'placebo_hi': np.float64(2.267)} 28380 155
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 693 observations removed because of separation.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 1225 observations removed because of separation.
+  warnings.warn(
+dv B dv_assault GCCSA_fe {'main_per10': np.float64(1.121), 'main_lo': np.float64(-1.835), 'main_hi': np.float64(4.166), 'placebo_per10': np.float64(1.696), 'placebo_lo': np.float64(-1.688), 'placebo_hi': np.float64(5.195)} 28380 397
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 2629 observations removed because of separation.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 3015 observations removed because of separation.
+  warnings.warn(
+dv B avo_breach primary {'main_per10': np.float64(-2.414), 'main_lo': np.float64(-9.279), 'main_hi': np.float64(4.971), 'placebo_per10': np.float64(3.215), 'placebo_lo': np.float64(-3.46), 'placebo_hi': np.float64(10.351)} 26444 397
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 1859 observations removed because of separation.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 2015 observations removed because of separation.
+  warnings.warn(
+dv B nondv_assault primary {'main_per10': np.float64(-0.459), 'main_lo': np.float64(-4.175), 'main_hi': np.float64(3.402), 'placebo_per10': np.float64(1.063), 'placebo_lo': np.float64(-3.514), 'placebo_hi': np.float64(5.857)} 27214 397
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 352 observations removed because of separation.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/Gn8J0XFi_pzYal1-ojAWD/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 615 observations removed because of separation.
+  warnings.warn(
+dv B malicious_damage primary {'main_per10': np.float64(-0.475), 'main_lo': np.float64(-4.4), 'main_hi': np.float64(3.611), 'placebo_per10': np.float64(3.723), 'placebo_lo': np.float64(-1.152), 'placebo_hi': np.float64(8.839)} 28721 397
+exit 0

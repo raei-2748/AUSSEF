@@ -1,0 +1,19 @@
+Installed 5 packages in 29ms
+/sessions/rcw-01pevw4gq1ko1ajgr6gtv41s/mnt/AUSSEF - Local/Experiment 19_fp_check/posthoc_noDL.py:9: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  print("n pillars present (IL,FP,SL) vs homes_in_fire:", round(spearmanr(Q[["IL","FP","SL"]].notna().sum(1), h, nan_policy="omit")[0],3))
+n pillars present (IL,FP,SL) vs homes_in_fire: 0.263
+DL1_homes_destroyed_per_1000_dwellings        n=135 rho_homes=+0.778  rho_with_Y_noDL=+0.285
+IL2_income_affected_sa2_excess_far            n=112 rho_homes=-0.120  rho_with_Y_noDL=+0.443
+IL3_business_affected_sa2_excess_far          n=167 rho_homes=+0.069  rho_with_Y_noDL=+0.574
+FP1_grants_per_resident_rise_excess_far       n=199 rho_homes=+0.249  rho_with_Y_noDL=+0.535
+FP2_fire_grant_share_jump_excess_far          n= 51 rho_homes=+0.523  rho_with_Y_noDL=+0.338
+FP3_capex_share_jump_excess_far               n= 52 rho_homes=+0.222  rho_with_Y_noDL=+0.198
+FP4_cash_cover_drawdown_excess_far            n=199 rho_homes=+0.035  rho_with_Y_noDL=+0.363
+SL1_rent_rise_year2_excess_far                n=183 rho_homes=+0.262  rho_with_Y_noDL=+0.278
+SL2_domestic_violence_rise_excess_far         n=216 rho_homes=+0.032  rho_with_Y_noDL=+0.502
+SL3_rebuild_gap_trend_adjusted                n= 29 rho_homes=-0.098  rho_with_Y_noDL=+0.186
+SL4_deaths_per_100k_residents                 n=140 rho_homes=+0.485  rho_with_Y_noDL=+0.269
+DL                                            n=135 rho_homes=+0.778  rho_with_Y_noDL=+0.285
+IL                                            n=177 rho_homes=-0.060  rho_with_Y_noDL=+0.621
+FP                                            n=199 rho_homes=+0.243  rho_with_Y_noDL=+0.658
+SL                                            n=218 rho_homes=+0.196  rho_with_Y_noDL=+0.576

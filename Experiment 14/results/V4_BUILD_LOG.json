@@ -1,0 +1,242 @@
+{
+ "olg_group_councils": 128,
+ "far_sets": [
+  {
+   "F": 2014,
+   "councils": 129,
+   "master": 1,
+   "neighbours": 7,
+   "burned_ge_0_5pct_not_master_not_neighbour": 1,
+   "far": 120
+  },
+  {
+   "F": 2015,
+   "councils": 129,
+   "master": 3,
+   "neighbours": 15,
+   "burned_ge_0_5pct_not_master_not_neighbour": 5,
+   "far": 106
+  },
+  {
+   "F": 2016,
+   "councils": 129,
+   "master": 11,
+   "neighbours": 29,
+   "burned_ge_0_5pct_not_master_not_neighbour": 3,
+   "far": 86
+  },
+  {
+   "F": 2017,
+   "councils": 129,
+   "master": 23,
+   "neighbours": 41,
+   "burned_ge_0_5pct_not_master_not_neighbour": 3,
+   "far": 62
+  },
+  {
+   "F": 2018,
+   "councils": 129,
+   "master": 20,
+   "neighbours": 40,
+   "burned_ge_0_5pct_not_master_not_neighbour": 1,
+   "far": 68
+  },
+  {
+   "F": 2019,
+   "councils": 129,
+   "master": 50,
+   "neighbours": 36,
+   "burned_ge_0_5pct_not_master_not_neighbour": 0,
+   "far": 43
+  },
+  {
+   "F": 2022,
+   "councils": 129,
+   "master": 20,
+   "neighbours": 31,
+   "burned_ge_0_5pct_not_master_not_neighbour": 0,
+   "far": 78
+  },
+  {
+   "F": 2023,
+   "councils": 129,
+   "master": 26,
+   "neighbours": 31,
+   "burned_ge_0_5pct_not_master_not_neighbour": 10,
+   "far": 62
+  },
+  {
+   "F": 2024,
+   "councils": 129,
+   "master": 13,
+   "neighbours": 32,
+   "burned_ge_0_5pct_not_master_not_neighbour": 4,
+   "far": 80
+  }
+ ],
+ "SL4_rows": 140,
+ "SL4_gt0": 17,
+ "population_pre_missing": 3,
+ "IL2_far_rows": 112,
+ "IL3_far_rows": 167,
+ "olg_names_unmatched": [
+  "armidale dumaresq",
+  "ashfield",
+  "auburn",
+  "bankstown",
+  "bombala",
+  "boorowa",
+  "botany bay",
+  "canterbury",
+  "conargo",
+  "cooma monaro",
+  "cootamundra",
+  "corowa",
+  "deniliquin",
+  "gloucester",
+  "gosford",
+  "great lakes",
+  "greater taree",
+  "gundagai",
+  "guyra",
+  "harden",
+  "holroyd",
+  "hurstville",
+  "jerilderie",
+  "kogarah",
+  "leichhardt",
+  "manly",
+  "marrickville",
+  "murray",
+  "palerang",
+  "pittwater",
+  "queanbeyan",
+  "rockdale",
+  "snowy river",
+  "tumbarumba",
+  "tumut",
+  "urana",
+  "wakool",
+  "warringah",
+  "wellington",
+  "wyong",
+  "young"
+ ],
+ "olg_councils_gpc": 128,
+ "olg_councils_cash": 128,
+ "FP1_main_rows": 199,
+ "FP1_h0_rows": 214,
+ "FP1_h12_rows": 199,
+ "FP1_h3_rows": 134,
+ "FP4_main_rows": 199,
+ "FP4_h0_rows": 199,
+ "FP4_h12_rows": 161,
+ "FP2_councils_without_fire_lines_set_missing": [
+  "13660",
+  "15900",
+  "16100",
+  "16490"
+ ],
+ "FP2_main_rows": 51,
+ "FP2_main_comparison_n_min_max": [
+  12,
+  15
+ ],
+ "FP2_h0_rows": 61,
+ "FP2_h0_comparison_n_min_max": [
+  12,
+  19
+ ],
+ "FP2_h12_rows": 51,
+ "FP2_h12_comparison_n_min_max": [
+  12,
+  15
+ ],
+ "FP2_h3_rows": 28,
+ "FP2_h3_comparison_n_min_max": [
+  12,
+  15
+ ],
+ "FP3_main_rows": 52,
+ "FP3_main_comparison_n_min_max": [
+  12,
+  15
+ ],
+ "FP3_h0_rows": 64,
+ "FP3_h0_comparison_n_min_max": [
+  12,
+  19
+ ],
+ "FP3_h12_rows": 52,
+ "FP3_h12_comparison_n_min_max": [
+  12,
+  15
+ ],
+ "FP3_h3_rows": 29,
+ "FP3_h3_comparison_n_min_max": [
+  12,
+  15
+ ],
+ "SL1_main_rows": 183,
+ "SL1_h3_rows": 166,
+ "bocsar_unmatched": [
+  "In Custody",
+  "Lord Howe Island",
+  "Unincorporated Far West"
+ ],
+ "SL2_rows": 216,
+ "SL3_far_rows": 29,
+ "IL2_olg_rows": 63,
+ "IL3_olg_rows": 84,
+ "FP1_main_olg_rows": 169,
+ "FP1_h0_olg_rows": 184,
+ "FP1_h12_olg_rows": 169,
+ "FP1_h3_olg_rows": 104,
+ "FP4_main_olg_rows": 169,
+ "FP4_h0_olg_rows": 169,
+ "FP4_h12_olg_rows": 131,
+ "FP2_main_olg_rows": 27,
+ "FP2_main_olg_comparison_n_min_max": [
+  0,
+  12
+ ],
+ "FP2_h0_olg_rows": 36,
+ "FP2_h0_olg_comparison_n_min_max": [
+  0,
+  14
+ ],
+ "FP2_h12_olg_rows": 27,
+ "FP2_h12_olg_comparison_n_min_max": [
+  0,
+  12
+ ],
+ "FP2_h3_olg_rows": 15,
+ "FP2_h3_olg_comparison_n_min_max": [
+  0,
+  12
+ ],
+ "FP3_main_olg_rows": 27,
+ "FP3_main_olg_comparison_n_min_max": [
+  0,
+  12
+ ],
+ "FP3_h0_olg_rows": 38,
+ "FP3_h0_olg_comparison_n_min_max": [
+  0,
+  14
+ ],
+ "FP3_h12_olg_rows": 27,
+ "FP3_h12_olg_comparison_n_min_max": [
+  0,
+  12
+ ],
+ "FP3_h3_olg_rows": 15,
+ "FP3_h3_olg_comparison_n_min_max": [
+  0,
+  12
+ ],
+ "SL1_main_olg_rows": 153,
+ "SL1_h3_olg_rows": 136,
+ "SL2_olg_rows": 186,
+ "SL3_olg_rows": 13
+}

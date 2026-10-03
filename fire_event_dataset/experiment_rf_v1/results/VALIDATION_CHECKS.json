@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "checks": {
+    "drive_and_snapshot_hash_unchanged": true,
+    "protocol_unchanged_since_before_fit": true,
+    "runner_unchanged_since_before_fit": true,
+    "splits_unchanged_since_before_fit": true,
+    "all_218_rows_preserved_with_unique_keys": true,
+    "Y_exactly_preserved_from_Drive_master": true,
+    "Y_is_available_pillar_mean": true,
+    "frozen_cutoffs_reproduce_workbook_class_from_Y": true,
+    "shared_declarations_fires_and_council_years_grouped": true,
+    "every_outer_split_has_disjoint_event_groups": true,
+    "every_outer_split_has_disjoint_rows": true,
+    "primary_is_139_old_vs_79_recent_rows": true,
+    "primary_temporal_embargo_satisfied": true,
+    "latest_training_t_plus1_FY_end_precedes_first_test_fire": true,
+    "every_row_has_one_grouped_out_of_fold_prediction": true,
+    "predictions_finite_and_in_Y_support": true,
+    "predicted_classes_come_only_from_continuous_prediction": true,
+    "only_codebook_X_columns_used_as_predictors": true,
+    "no_Y_components_classes_or_pillar_missingness_predictors": true,
+    "full_future_reference_growth_columns_excluded": true,
+    "constant_mean_baselines_use_training_groups_only": true,
+    "saved_model_reproduces_held_out_predictions": true,
+    "bootstrap_has_all_three_baseline_comparisons": true,
+    "reported_group_and_row_errors_match_saved_predictions": true,
+    "portable_model_loads_in_fresh_python_process": true
+  },
+  "passed": 25,
+  "total": 25
+}

@@ -1,0 +1,14 @@
+Y_v4 done 21s
+DL done 43s
+IL done 58s
+FP done 75s
+SL done 93s
+Y_v4_mag done 111s
+Y_v4_H0 done 130s
+Y_v4_H12 done 150s
+Y_v4_H3 done 171s
+Y_v4_olg done 195s
+Y_v4_resident_deaths done 216s
+shuffle Y_v4 PRE+FIRE p=0.005 730s
+/opt/anaconda3/lib/python3.13/multiprocessing/resource_tracker.py:324: UserWarning: resource_tracker: There appear to be 2 leaked semaphore objects to clean up at shutdown: {'/loky-29934-8o_3qnp3', '/loky-29934-gfg2z3y1'}
+  warnings.warn(

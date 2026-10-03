@@ -1,0 +1,26 @@
+region_id,council,olg_class,population,km_to_nearest_fire_council,status_at_scope_change,why_chosen,years_to_retry
+10050,Albury,Regional Town/City,50990,0.0,extracted,"already fully collected and extracted before the scope change (kept); Regional Town/City; borders a fire council; pop 50,990",2015-16
+13910,Hilltops,Large Rural,18776,0.0,extracted,"already fully collected and extracted before the scope change (kept); Large Rural; borders a fire council; pop 18,776",
+15050,Maitland,Regional Town/City,75695,0.0,extracted,"already fully collected and extracted before the scope change (kept); Regional Town/City; borders a fire council; pop 75,695",2015-16;2017-18;2019-20;2020-21
+16900,Shellharbour,Regional Town/City,68658,0.0,extracted,"already fully collected and extracted before the scope change (kept); Regional Town/City; borders a fire council; pop 68,658",2015-16;2016-17
+13550,Gunnedah,Large Rural,12468,0.0,extracted,"already fully collected and extracted before the scope change (kept); Large Rural; borders a fire council; pop 12,468",
+14300,Junee,Large Rural,6283,0.0,extracted,"already fully collected and extracted before the scope change (kept); Large Rural; borders a fire council; pop 6,283",
+15850,Narromine,Large Rural,6721,0.0,extracted,"already fully collected and extracted before the scope change (kept); Large Rural; borders a fire council; pop 6,721",
+18200,Wentworth,Large Rural,6877,108.5,extracted,"already fully collected and extracted before the scope change (kept); Large Rural; 108 km from nearest fire council; pop 6,877",
+12900,Forbes,Large Rural,9698,0.0,downloaded,"GPFS already downloaded before the scope change (kept); Large Rural; borders a fire council; pop 9,698",2023-24
+11150,Bourke,Rural,2870,0.0,downloaded,"GPFS already downloaded before the scope change (kept); Rural; borders a fire council; pop 2,870",
+11600,Carrathool,Rural,2800,0.0,downloaded,"GPFS already downloaded before the scope change (kept); Rural; borders a fire council; pop 2,800",2015-16;2016-17;2017-18;2019-20
+14950,Lockhart,Rural,3117,0.0,downloaded,"GPFS already downloaded before the scope change (kept); Rural; borders a fire council; pop 3,117",2015-16;2016-17;2017-18;2018-19;2019-20
+13850,Hay,Rural,3005,95.3,downloaded,"GPFS already downloaded before the scope change (kept); Rural; 95 km from nearest fire council; pop 3,005",2015-16;2016-17
+12870,Federation,Large Rural,12499,0.0,new,"added: Large Rural, borders a fire council, pop 12,499 (inside fire-council IQR 9.7k-56.5k or small rural like many fire councils)",2016-17;2017-18;2018-19;2019-20;2020-21;2021-22;2022-23;2023-24
+14600,Lachlan,Large Rural,6624,0.0,new,"added: Large Rural, borders a fire council, pop 6,624 (inside fire-council IQR 9.7k-56.5k or small rural like many fire councils)",2015-16;2016-17;2017-18;2018-19;2019-20;2020-21;2021-22;2022-23;2023-24
+15800,Narrandera,Large Rural,6015,0.0,new,"added: Large Rural, borders a fire council, pop 6,015 (inside fire-council IQR 9.7k-56.5k or small rural like many fire councils)",2015-16;2016-17;2017-18;2018-19;2019-20;2020-21;2021-22;2022-23;2023-24
+17350,Temora,Large Rural,6098,0.0,new,"added: Large Rural, borders a fire council, pop 6,098 (inside fire-council IQR 9.7k-56.5k or small rural like many fire councils)",2015-16;2016-17;2017-18;2018-19;2019-20;2020-21;2021-22;2022-23;2023-24
+14400,Kiama,Regional Town/City,21612,0.0,new,"added: Regional Town/City, borders a fire council, pop 21,612 (inside fire-council IQR 9.7k-56.5k or small rural like many fire councils)",2015-16;2016-17;2017-18;2018-19;2019-20;2020-21;2021-22;2022-23;2023-24
+16150,Orange,Regional Town/City,40619,0.0,new,"added: Regional Town/City, borders a fire council, pop 40,619 (inside fire-council IQR 9.7k-56.5k or small rural like many fire councils)",2015-16;2016-17;2017-18;2018-19;2019-20;2020-21;2021-22;2022-23;2023-24
+12950,Gilgandra,Rural,4382,0.0,new,"added: Rural, borders a fire council, pop 4,382 (inside fire-council IQR 9.7k-56.5k or small rural like many fire councils)",2015-16;2016-17;2017-18;2018-19;2019-20;2020-21;2021-22;2022-23;2023-24
+10800,Bland,Large Rural,6034,22.0,new,"added: Large Rural, 22 km from nearest fire council, pop 6,034 (inside fire-council IQR 9.7k-56.5k or small rural like many fire councils)",2015-16;2016-17;2017-18;2018-19;2019-20;2020-21;2021-22;2022-23;2023-24
+14750,Leeton,Large Rural,11408,35.9,new,"added: Large Rural, 36 km from nearest fire council, pop 11,408 (inside fire-council IQR 9.7k-56.5k or small rural like many fire councils)",2015-16;2016-17;2017-18;2018-19;2019-20;2020-21;2021-22;2022-23;2023-24
+10650,Berrigan,Large Rural,8519,48.3,new,"added: Large Rural, 48 km from nearest fire council, pop 8,519 (inside fire-council IQR 9.7k-56.5k or small rural like many fire councils)",2015-16;2016-17;2017-18;2018-19;2019-20;2020-21;2021-22;2022-23;2023-24
+13450,Griffith,Regional Town/City,25942,74.2,new,"added: Regional Town/City, 74 km from nearest fire council, pop 25,942 (inside fire-council IQR 9.7k-56.5k or small rural like many fire councils)",2015-16;2016-17;2017-18;2018-19;2019-20;2020-21;2021-22;2022-23;2023-24
+18100,Weddin,Rural,3706,0.1,new,"added: Rural, borders a fire council, pop 3,706 (inside fire-council IQR 9.7k-56.5k or small rural like many fire councils)",2015-16;2016-17;2017-18;2018-19;2019-20;2020-21;2021-22;2022-23;2023-24

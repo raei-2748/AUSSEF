@@ -1,0 +1,120 @@
+Downloading rasterio (22.4MiB)
+ Downloaded rasterio
+Installed 20 packages in 308ms
+{'boundary_mbs': 112735, 'boundary_mbs_without_counts': 0, 'mbs_with_people_or_dwellings': 87263}
+MBs: 112738 missing SA2/POA/SAL: 0 0 0
+/Users/ray/.cache/uv/archive-v0/5vmgFNpSn-3pPXrfioXI0/lib/python3.13/site-packages/pyogrio/raw.py:200: RuntimeWarning: organizePolygons() received a polygon with more than 100 parts. The processing may be really slow.  You can skip the processing by setting METHOD=SKIP, or only make it analyze counter-clock wise parts by setting METHOD=ONLY_CCW if you can assume that the outline of holes is counter-clock wise defined
+  return ogr_read(
+fy    src   
+2006  GA         591
+2007  GA         680
+2008  GA         301
+2009  GA         661
+2010  GA          58
+2011  GA          77
+2012  GA         396
+2013  GA         569
+2014  GA         243
+      master      61
+2015  master     193
+2016  master     260
+2017  master     460
+2018  master     286
+2019  master     425
+2020  master     450
+2021  master     400
+2022  master     925
+2023  master    1824
+2024  master     867
+2006 591 outlines; MBs touched (1 km): 3298
+2007 680 outlines; MBs touched (1 km): 1070
+2008 301 outlines; MBs touched (1 km): 1280
+2009 661 outlines; MBs touched (1 km): 1381
+2010 58 outlines; MBs touched (1 km): 399
+2011 77 outlines; MBs touched (1 km): 269
+2012 396 outlines; MBs touched (1 km): 1476
+2013 569 outlines; MBs touched (1 km): 2336
+2014 304 outlines; MBs touched (1 km): 712
+2015 193 outlines; MBs touched (1 km): 567
+2016 260 outlines; MBs touched (1 km): 1204
+2017 460 outlines; MBs touched (1 km): 1968
+2018 286 outlines; MBs touched (1 km): 912
+2019 425 outlines; MBs touched (1 km): 3993
+2020 450 outlines; MBs touched (1 km): 1960
+2021 400 outlines; MBs touched (1 km): 2271
+2022 925 outlines; MBs touched (1 km): 3262
+2023 1824 outlines; MBs touched (1 km): 9344
+2024 867 outlines; MBs touched (1 km): 3824
+FESM 2019-20: EPSG:3308 (9.993737715767, 9.993737715767) 255.0
+/Users/ray/Research/AUSSEF - Local/Experiment 13/exposure/build_exposure.py:183: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  summ = d.groupby('fy').apply(lambda x: pd.Series({'H>=1%': (x.H >= .01).sum(), 'H>=10%': (x.H >= .1).sum(),
+poa units: 624 
+       H>=1%  H>=10%  R>=10%  S>=1%    dw_in
+fy                                         
+2006   10.0     0.0    41.0    0.0   1277.0
+2007    4.0     0.0    14.0    0.0    357.0
+2008    0.0     0.0    19.0    0.0    101.0
+2009   14.0     0.0    18.0    0.0    914.0
+2010    0.0     0.0     5.0    0.0     11.0
+2011    0.0     0.0     1.0    0.0     31.0
+2012    2.0     0.0    15.0    0.0    486.0
+2013   12.0     2.0    29.0    0.0   3163.0
+2014    0.0     0.0     7.0    0.0    284.0
+2015    0.0     0.0     4.0    0.0     48.0
+2016    4.0     0.0    10.0    0.0    539.0
+2017    6.0     0.0    25.0    0.0    826.0
+2018    8.0     2.0    10.0    0.0    652.0
+2019   65.0    16.0    60.0   42.0  15149.0
+2020    0.0     0.0    17.0    0.0    110.0
+2021    1.0     0.0    27.0    0.0    103.0
+2022    1.0     0.0    39.0    0.0    345.0
+2023   19.0     1.0   129.0    0.0   1839.0
+2024    4.0     0.0    35.0    0.0    507.0
+/Users/ray/Research/AUSSEF - Local/Experiment 13/exposure/build_exposure.py:183: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  summ = d.groupby('fy').apply(lambda x: pd.Series({'H>=1%': (x.H >= .01).sum(), 'H>=10%': (x.H >= .1).sum(),
+sal units: 4544 
+       H>=1%  H>=10%  R>=10%  S>=1%    dw_in
+fy                                         
+2006  101.0    19.0   224.0    0.0   1277.0
+2007   76.0    14.0   123.0    0.0    357.0
+2008   34.0     2.0    92.0    0.0    101.0
+2009  149.0    44.0   197.0    0.0    914.0
+2010    3.0     0.0    23.0    0.0     11.0
+2011    2.0     0.0    11.0    0.0     31.0
+2012   71.0    18.0   128.0    0.0    486.0
+2013  125.0    45.0   195.0    0.0   3163.0
+2014   44.0    12.0    74.0    0.0    284.0
+2015   16.0     1.0    52.0    0.0     48.0
+2016   58.0    20.0   108.0    0.0    539.0
+2017   93.0    23.0   184.0    0.0    826.0
+2018   75.0    29.0    98.0    0.0    652.0
+2019  632.0   419.0   709.0  451.0  15149.0
+2020   29.0     5.0   109.0    0.0    110.0
+2021   23.0     1.0   145.0    0.0    103.0
+2022   67.0     9.0   202.0    0.0    345.0
+2023  229.0    48.0   673.0    0.0   1839.0
+2024   67.0     6.0   223.0    0.0    507.0
+/Users/ray/Research/AUSSEF - Local/Experiment 13/exposure/build_exposure.py:183: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  summ = d.groupby('fy').apply(lambda x: pd.Series({'H>=1%': (x.H >= .01).sum(), 'H>=10%': (x.H >= .1).sum(),
+sa2 units: 644 
+       H>=1%  H>=10%  R>=10%  S>=1%    dw_in
+fy                                         
+2006    5.0     1.0    54.0    0.0   1277.0
+2007    2.0     0.0    17.0    0.0    357.0
+2008    0.0     0.0    18.0    0.0    101.0
+2009    6.0     0.0    16.0    0.0    914.0
+2010    0.0     0.0     8.0    0.0     11.0
+2011    0.0     0.0     2.0    0.0     31.0
+2012    4.0     0.0    25.0    0.0    486.0
+2013   13.0     1.0    34.0    0.0   3163.0
+2014    1.0     0.0     8.0    0.0    284.0
+2015    0.0     0.0     8.0    0.0     48.0
+2016    3.0     0.0    11.0    0.0    539.0
+2017    6.0     1.0    32.0    0.0    826.0
+2018    6.0     0.0     9.0    0.0    652.0
+2019   54.0    19.0    61.0   39.0  15149.0
+2020    0.0     0.0    21.0    0.0    110.0
+2021    0.0     0.0    31.0    0.0    103.0
+2022    2.0     0.0    39.0    0.0    345.0
+2023   10.0     0.0   139.0    0.0   1839.0
+2024    1.0     0.0    49.0    0.0    507.0

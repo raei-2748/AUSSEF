@@ -1,0 +1,226 @@
+region_id,council,fy,finder_status,value_source,core_items_found,core_missing,disaster_lines,disaster_aud,finder_note
+10050,Albury,2015-16,not_found,prior-year column of next GPFS,5,,0,0.0,2nd pass: Albury financial-reports listing goes 2013-14 then 2016-17; no 2015-16 GPFS. FY2015-16 values are in prior-year column of 2016-17 GPFS.
+10050,Albury,2016-17,downloaded,current-year GPFS,5,,0,0.0,GPFS verified p1
+10050,Albury,2017-18,downloaded,current-year GPFS,5,,0,0.0,GPFS verified p1
+10050,Albury,2018-19,downloaded,current-year GPFS,5,,0,0.0,GPFS verified p1
+10050,Albury,2019-20,downloaded,current-year GPFS,5,,0,0.0,"Scanned PDF, no text layer (needs OCR); verified by OCR of p1 and p3"
+10050,Albury,2020-21,downloaded,current-year GPFS,5,,0,0.0,GPFS verified p1
+10050,Albury,2021-22,downloaded,current-year GPFS,5,,0,0.0,GPFS verified; income statement p4
+10050,Albury,2022-23,downloaded,current-year GPFS,5,,0,0.0,GPFS verified; income statement p4
+10050,Albury,2023-24,downloaded,current-year GPFS,5,,0,0.0,GPFS verified; income statement p4
+10650,Berrigan,2015-16,downloaded,current-year GPFS,5,,0,0.0,2nd pass: Confirmed year ended 30 June 2016.
+10650,Berrigan,2016-17,downloaded,current-year GPFS,5,,0,0.0,2nd pass: Confirmed year ended 30 June 2017.
+10650,Berrigan,2017-18,downloaded,current-year GPFS,5,,0,0.0,2nd pass: Confirmed year ended 30 June 2018.
+10650,Berrigan,2018-19,downloaded,current-year GPFS,5,,0,0.0,2nd pass: Confirmed year ended 30 June 2019.
+10650,Berrigan,2019-20,downloaded,current-year GPFS,5,,0,0.0,2nd pass: Confirmed year ended 30 June 2020.
+10650,Berrigan,2020-21,downloaded,current-year GPFS,5,,0,0.0,2nd pass: Confirmed year ended 30 June 2021.
+10650,Berrigan,2021-22,downloaded,current-year GPFS,5,,0,0.0,2nd pass: Confirmed year ended 30 June 2022.
+10650,Berrigan,2022-23,downloaded,current-year GPFS,5,,0,0.0,"2nd pass: Scanned PDF (114pp, no text layer); could not render for visual check. Taken from official listing, filename annual-financial-statements-2023; needs OCR/visual confirmation of council/year."
+10650,Berrigan,2023-24,downloaded,current-year GPFS,5,,0,0.0,2nd pass: Confirmed year ended 30 June 2024.
+10800,Bland,2015-16,downloaded,current-year GPFS,5,,1,44000.0,"2nd pass: Standalone FS; p1-3 confirm Bland Shire Council, year ended 30 June 2016. Site now serves plain curl."
+10800,Bland,2016-17,downloaded,current-year GPFS,5,,1,1041000.0,2nd pass: Confirmed year ended 30 June 2017.
+10800,Bland,2017-18,downloaded,current-year GPFS,5,,2,0.0,2nd pass: Confirmed year ended 30 June 2018.
+10800,Bland,2018-19,downloaded,current-year GPFS,5,,3,1069000.0,2nd pass: Confirmed year ended 30 June 2019.
+10800,Bland,2019-20,downloaded,current-year GPFS,5,,1,46000.0,2nd pass: Confirmed year ended 30 June 2020.
+10800,Bland,2020-21,downloaded,current-year GPFS,5,,1,10000.0,2nd pass: Confirmed year ended 30 June 2021.
+10800,Bland,2021-22,downloaded,current-year GPFS,5,,2,0.0,2nd pass: Confirmed year ended 30 June 2022 (audited).
+10800,Bland,2022-23,downloaded,current-year GPFS,5,,2,-1930000.0,2nd pass: Confirmed year ended 30 June 2023.
+10800,Bland,2023-24,downloaded,current-year GPFS,5,,2,369000.0,2nd pass: Confirmed year ended 30 June 2024.
+11150,Bourke,2015-16,downloaded,current-year GPFS,5,,0,0.0,"Verified Bourke, 30 June 2016, full statements"
+11150,Bourke,2016-17,downloaded,current-year GPFS,5,,0,0.0,Verified 30 June 2017
+11150,Bourke,2017-18,downloaded,current-year GPFS,5,,0,0.0,Verified 30 June 2018
+11150,Bourke,2018-19,downloaded,current-year GPFS,5,,0,0.0,Verified 30 June 2019
+11150,Bourke,2019-20,downloaded,current-year GPFS,5,,0,0.0,Verified 30 June 2020
+11150,Bourke,2020-21,downloaded,current-year GPFS,5,,1,643000.0,Verified 30 June 2021
+11150,Bourke,2021-22,downloaded,current-year GPFS,5,,1,444000.0,Verified 30 June 2022
+11150,Bourke,2022-23,downloaded,current-year GPFS,5,,0,0.0,Verified 30 June 2023
+11150,Bourke,2023-24,downloaded,current-year GPFS,5,,1,1106000.0,Verified 30 June 2024
+11600,Carrathool,2015-16,not_found,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,"2nd pass: Council site lists annual reports only 2020-21 onward (re-checked annual report, IPR, agendas pages; agendas from 2023)"
+11600,Carrathool,2016-17,not_found,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,2nd pass: Same; not on site
+11600,Carrathool,2017-18,not_found,prior-year column of next GPFS,5,,2,1723000.0,2nd pass: Same; prior-year columns in 2018-19 annual report are fallback
+11600,Carrathool,2018-19,downloaded,current-year GPFS,5,,2,725000.0,"Annual report containing full GPFS (statements PDF p40-43, year ended 30 June 2019 confirmed); no standalone GPFS on site"
+11600,Carrathool,2019-20,not_found,prior-year column of next GPFS,5,,1,0.0,2nd pass: Not published on site; prior-year columns in 2020-21 annual report fallback
+11600,Carrathool,2020-21,downloaded,current-year GPFS,5,,2,4345000.0,Annual report containing full GPFS (statements around p45); 34 MB
+11600,Carrathool,2021-22,downloaded,current-year GPFS,5,,1,7256000.0,Annual report containing full GPFS (p41-52)
+11600,Carrathool,2022-23,downloaded,current-year GPFS,5,,2,1501000.0,Annual report containing full GPFS (p46-58)
+11600,Carrathool,2023-24,downloaded,current-year GPFS,5,,3,1016000.0,Annual report containing full GPFS (p57-69)
+12870,Federation,2015-16,predecessor_only,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,Federation site hosts only predecessor Corowa Shire FS 2015-16 (document-library/corporate-documents/other/corowa-final-financial-statements-2015-16.pdf) and Urana 2014-15; not downloaded (403 anyway).
+12870,Federation,2016-17,downloaded,current-year GPFS,5,,3,-1770000.0,"2nd pass: Plain curl works now. Verified Federation Council; period 13 May 2016 to 30 June 2017 (post-amalgamation, not a full year)"
+12870,Federation,2017-18,downloaded,current-year GPFS,5,,3,1814000.0,2nd pass: Verified year ended 30 June 2018
+12870,Federation,2018-19,downloaded,current-year GPFS,5,,2,120000.0,2nd pass: Verified year ended 30 June 2019
+12870,Federation,2019-20,downloaded,current-year GPFS,5,,2,229000.0,2nd pass: Verified year ended 30 June 2020
+12870,Federation,2020-21,downloaded,current-year GPFS,5,,2,0.0,2nd pass: Verified year ended 30 June 2021
+12870,Federation,2021-22,downloaded,current-year GPFS,5,,4,57000.0,2nd pass: Verified year ended 30 June 2022
+12870,Federation,2022-23,downloaded,current-year GPFS,5,,4,9758000.0,2nd pass: Verified year ended 30 June 2023
+12870,Federation,2023-24,downloaded,current-year GPFS,5,,3,1027000.0,2nd pass: Verified year ended 30 June 2024
+12900,Forbes,2015-16,downloaded,current-year GPFS,5,,0,0.0,"Verified title page: Forbes Shire Council, year ended 30 June 2016."
+12900,Forbes,2016-17,downloaded,current-year GPFS,5,,1,1000000.0,Verified 30 June 2017.
+12900,Forbes,2017-18,downloaded,current-year GPFS,5,,2,11586000.0,Verified 30 June 2018.
+12900,Forbes,2018-19,downloaded,current-year GPFS,5,,1,1202000.0,"Verified 30 June 2019 (first URL tried returned 404, a second URL from the same listing worked)."
+12900,Forbes,2019-20,downloaded,current-year GPFS,5,,0,0.0,Verified 30 June 2020.
+12900,Forbes,2020-21,downloaded,current-year GPFS,5,,0,0.0,Verified 30 June 2021.
+12900,Forbes,2021-22,downloaded,current-year GPFS,5,,1,369000.0,Verified 30 June 2022.
+12900,Forbes,2022-23,downloaded,current-year GPFS,5,,1,6647000.0,Verified 30 June 2023.
+12900,Forbes,2023-24,not_found,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,"2nd pass: Forbes extra-reports and reports pages list only 2025 AFS (Annual_Financial_Statements-2025.pdf, whose prior-year column covers FY2023-24) and the 2023-24 Annual Report, which contains no financial statements. The file 'Annual_Financial_Statements-2023 with audit reports' is FY2022-23, not downloaded. Guessed 2024 URLs return 404 and no other official source was found, so use the prior-year column of the FY2024-25 GPFS only if needed."
+12950,Gilgandra,2015-16,not_found,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,2nd pass: Official site lists GPFS only from 2020-21; no earlier URL located
+12950,Gilgandra,2016-17,not_found,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,2nd pass: Same; no URL
+12950,Gilgandra,2017-18,not_found,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,2nd pass: Annual report downloaded but contains no financial statements; discarded
+12950,Gilgandra,2018-19,not_found,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,2nd pass: Annual report contains no financial statements; discarded
+12950,Gilgandra,2019-20,not_found,prior-year column of next GPFS,5,,0,0.0,2nd pass: Annual report contains no financial statements (narrative only); discarded
+12950,Gilgandra,2020-21,downloaded,current-year GPFS,5,,0,0.0,"2nd pass: Standalone GPFS, verified (text extraction partial due to rotated pages)"
+12950,Gilgandra,2021-22,downloaded,current-year GPFS,5,,0,0.0,"2nd pass: Standalone GPFS, verified"
+12950,Gilgandra,2022-23,downloaded,current-year GPFS,5,,0,0.0,"2nd pass: Standalone GPFS, verified"
+12950,Gilgandra,2023-24,downloaded,current-year GPFS,5,,0,0.0,"2nd pass: Standalone GPFS, verified"
+13450,Griffith,2015-16,not_found,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,2nd pass: Not on council listing pages (only 2023-24 onward listed); URL-pattern guesses 404. Site now serves plain curl.
+13450,Griffith,2016-17,not_found,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,2nd pass: Same; not found.
+13450,Griffith,2017-18,not_found,prior-year column of next GPFS,5,,0,0.0,2nd pass: Same; not found.
+13450,Griffith,2018-19,downloaded,current-year GPFS,5,,1,0.0,"2nd pass: URL pattern 2018-2019-general-purpose-report.pdf; confirmed Griffith City Council, year ended 30 June 2019."
+13450,Griffith,2019-20,already_have,current-year GPFS,5,,1,10000.0,2nd pass: Existing file kept.
+13450,Griffith,2020-21,downloaded,current-year GPFS,5,,1,0.0,"2nd pass: Scanned PDF (93pp, no text layer); not visually verified; URL pattern 2020-2021-general-purpose-report.pdf."
+13450,Griffith,2021-22,downloaded,current-year GPFS,5,,1,0.0,2nd pass: Confirmed year ended 30 June 2022.
+13450,Griffith,2022-23,downloaded,current-year GPFS,5,,2,1194000.0,2nd pass: Confirmed year ended 30 June 2023.
+13450,Griffith,2023-24,downloaded,current-year GPFS,5,,3,1420000.0,2nd pass: gcc-annual-financial-statements-gpfs-2024.pdf from Finance-and-budget page; confirmed year ended 30 June 2024.
+13550,Gunnedah,2015-16,downloaded,current-year GPFS,5,,0,0.0,"verified Gunnedah, year ended 30 June 2016"
+13550,Gunnedah,2016-17,downloaded,current-year GPFS,5,,0,0.0,verified p1-3 year ended 30 June 2017
+13550,Gunnedah,2017-18,downloaded,current-year GPFS,5,,0,0.0,verified year ended 30 June 2018
+13550,Gunnedah,2018-19,downloaded,current-year GPFS,5,,0,0.0,verified year ended 30 June 2019
+13550,Gunnedah,2019-20,downloaded,current-year GPFS,5,,0,0.0,verified year ended 30 June 2020
+13550,Gunnedah,2020-21,downloaded,current-year GPFS,5,,1,0.0,verified year ended 30 June 2021
+13550,Gunnedah,2021-22,downloaded,current-year GPFS,5,,1,47000.0,verified year ended 30 June 2022
+13550,Gunnedah,2022-23,downloaded,current-year GPFS,5,,4,9091000.0,verified year ended 30 June 2023
+13550,Gunnedah,2023-24,downloaded,current-year GPFS,5,,3,0.0,verified year ended 30 June 2024
+13850,Hay,2015-16,not_found,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,2nd pass: Only Annual Report 15-16 without FS (previously discarded); no GPFS on site
+13850,Hay,2016-17,not_found,prior-year column of next GPFS,5,,0,0.0,2nd pass: Only Annual Report 16-17 without FS; fallback is prior-year columns in FY2017-18 report
+13850,Hay,2017-18,downloaded,current-year GPFS,5,,0,0.0,Annual Report 2017-18 including financials; statements year ended 30 June 2018 at pdf pp69-70 onward
+13850,Hay,2018-19,downloaded,current-year GPFS,5,,0,0.0,"Standalone FS, 30 June 2019 verified"
+13850,Hay,2019-20,downloaded,current-year GPFS,5,,0,0.0,Annual Report 2019-2020 inc financials; statements year ended 30 June 2020 from pdf p59
+13850,Hay,2020-21,downloaded,current-year GPFS,5,,0,0.0,Verified 30 June 2021
+13850,Hay,2021-22,downloaded,current-year GPFS,5,,0,0.0,Verified 30 June 2022
+13850,Hay,2022-23,downloaded,current-year GPFS,5,,0,0.0,Verified 30 June 2023
+13850,Hay,2023-24,downloaded,current-year GPFS,5,,0,0.0,Verified 30 June 2024
+13910,Hilltops,2015-16,predecessor_only,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,"Hilltops formed May 2016 from Boorowa, Harden and Young; FY2015-16 GPFS belong to predecessors."
+13910,Hilltops,2016-17,downloaded,current-year GPFS,5,,1,2808000.0,Covers period 13 May 2016 to 30 June 2017 (not a full year).
+13910,Hilltops,2017-18,downloaded,current-year GPFS,5,,1,1441000.0,GPFS verified
+13910,Hilltops,2018-19,downloaded,current-year GPFS,5,,1,311000.0,GPFS verified
+13910,Hilltops,2019-20,downloaded,current-year GPFS,5,,0,0.0,GPFS verified
+13910,Hilltops,2020-21,downloaded,current-year GPFS,5,,1,495000.0,GPFS verified
+13910,Hilltops,2021-22,downloaded,current-year GPFS,5,,2,2649000.0,GPFS verified
+13910,Hilltops,2022-23,downloaded,current-year GPFS,5,,3,8004000.0,GPFS verified
+13910,Hilltops,2023-24,downloaded,current-year GPFS,5,,4,5085000.0,GPFS verified
+14300,Junee,2015-16,downloaded,current-year GPFS,5,,1,0.0,Verified title page: year ended 30 June 2016.
+14300,Junee,2016-17,downloaded,current-year GPFS,5,,1,0.0,Verified 30 June 2017.
+14300,Junee,2017-18,downloaded,current-year GPFS,5,,1,0.0,Verified 30 June 2018.
+14300,Junee,2018-19,downloaded,current-year GPFS,5,,0,0.0,Verified 30 June 2019.
+14300,Junee,2019-20,downloaded,current-year GPFS,5,,0,0.0,Verified 30 June 2020.
+14300,Junee,2020-21,downloaded,current-year GPFS,5,,0,0.0,Verified 30 June 2021.
+14300,Junee,2021-22,downloaded,current-year GPFS,5,,0,0.0,Verified 30 June 2022.
+14300,Junee,2022-23,downloaded,current-year GPFS,5,,0,0.0,Verified 30 June 2023.
+14300,Junee,2023-24,downloaded,current-year GPFS,5,,1,0.0,Verified 30 June 2024.
+14400,Kiama,2015-16,downloaded,current-year GPFS,5,,0,0.0,"2nd pass: GPFS verified (cover page is a booklet title, page 2 shows year ended 30 June 2016)"
+14400,Kiama,2016-17,downloaded,current-year GPFS,5,,0,0.0,2nd pass: verified
+14400,Kiama,2017-18,downloaded,current-year GPFS,5,,0,0.0,2nd pass: verified
+14400,Kiama,2018-19,downloaded,current-year GPFS,5,,0,0.0,2nd pass: verified
+14400,Kiama,2019-20,downloaded,current-year GPFS,5,,0,0.0,2nd pass: verified
+14400,Kiama,2020-21,downloaded,current-year GPFS,5,,0,0.0,2nd pass: verified
+14400,Kiama,2021-22,downloaded,current-year GPFS,5,,0,0.0,2nd pass: verified
+14400,Kiama,2022-23,downloaded,current-year GPFS,5,,2,0.0,2nd pass: verified
+14400,Kiama,2023-24,downloaded,current-year GPFS,5,,3,47059000.0,2nd pass: verified
+14600,Lachlan,2015-16,not_found,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,"2nd pass: Site now readable by plain curl, but IPR page lists AFS only 2022-23 to 2024-25 and annual reports 2021-22 onward"
+14600,Lachlan,2016-17,not_found,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,2nd pass: Not on site
+14600,Lachlan,2017-18,not_found,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,2nd pass: Not on site
+14600,Lachlan,2018-19,not_found,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,2nd pass: Not on site
+14600,Lachlan,2019-20,not_found,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,2nd pass: Not on site
+14600,Lachlan,2020-21,not_found,prior-year column of next GPFS,5,,1,0.0,2nd pass: Not on site; prior-year columns in the 2021-22 annual report (FS at PDF pages ~103+) are fallback
+14600,Lachlan,2021-22,downloaded,current-year GPFS,5,,2,56000.0,2nd pass: Annual report with FS appendix (no standalone GPFS on site); FS pages 103+ verified year ended 30 June 2022
+14600,Lachlan,2022-23,downloaded,current-year GPFS,5,,2,4696000.0,"2nd pass: Standalone Annual Financial Statements, verified year ended 30 June 2023"
+14600,Lachlan,2023-24,downloaded,current-year GPFS,5,,2,11771000.0,"2nd pass: Standalone AFS (link titled 2023-2024 Annual Financial Statements), verified year ended 30 June 2024; filename new_cover.pdf"
+14750,Leeton,2015-16,downloaded,current-year GPFS,5,,0,0.0,"2nd pass: Confirmed Leeton Shire Council, year ended 30 June 2016."
+14750,Leeton,2016-17,downloaded,current-year GPFS,5,,1,500000.0,2nd pass: Confirmed year ended 30 June 2017.
+14750,Leeton,2017-18,downloaded,current-year GPFS,5,,1,1948000.0,2nd pass: Confirmed year ended 30 June 2018.
+14750,Leeton,2018-19,downloaded,current-year GPFS,5,,1,783000.0,2nd pass: Confirmed year ended 30 June 2019.
+14750,Leeton,2019-20,downloaded,current-year GPFS,5,,0,0.0,"2nd pass: Confirmed year ended 30 June 2020 (124pp, 25MB, 13 empty pages)."
+14750,Leeton,2020-21,downloaded,current-year GPFS,5,,0,0.0,2nd pass: Confirmed year ended 30 June 2021 (14MB).
+14750,Leeton,2021-22,downloaded,current-year GPFS,5,,1,17000.0,2nd pass: Confirmed year ended 30 June 2022.
+14750,Leeton,2022-23,downloaded,current-year GPFS,5,,1,270000.0,2nd pass: File named 2023-01-02-2024-final; confirmed year ended 30 June 2023.
+14750,Leeton,2023-24,downloaded,current-year GPFS,5,,1,398000.0,2nd pass: Confirmed year ended 30 June 2024.
+14950,Lockhart,2015-16,not_found,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,2nd pass: Site has AFS only from 2022; business papers only from 2022
+14950,Lockhart,2016-17,not_found,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,2nd pass: Not on site
+14950,Lockhart,2017-18,not_found,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,2nd pass: Not on site
+14950,Lockhart,2018-19,not_found,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,2nd pass: Not on site
+14950,Lockhart,2019-20,not_found,prior-year column of next GPFS,5,,0,0.0,2nd pass: Not on site; FY2020-21 GPFS prior-year comparatives are fallback
+14950,Lockhart,2020-21,downloaded,current-year GPFS,5,,1,0.0,"Verified Lockhart, 30 June 2021"
+14950,Lockhart,2021-22,downloaded,current-year GPFS,5,,1,474000.0,Verified 30 June 2022
+14950,Lockhart,2022-23,downloaded,current-year GPFS,5,,4,2030000.0,Verified 30 June 2023
+14950,Lockhart,2023-24,downloaded,current-year GPFS,5,,3,2434000.0,Verified 30 June 2024
+15050,Maitland,2015-16,not_found,prior-year column of next GPFS,5,,1,0.0,2nd pass: Council site lists only recent GPFS; guessed URL patterns 404; searches found none. Prior-year column of 2016-17 GPFS covers it.
+15050,Maitland,2016-17,downloaded,current-year GPFS,5,,1,653000.0,"Scanned/image PDF, needs OCR; verified by OCR p1 and p3 (year ending 30 June 2017)."
+15050,Maitland,2017-18,not_found,prior-year column of next GPFS,5,,1,867000.0,2nd pass: Not on council site or in search; URL patterns 404. Covered by prior-year column of 2018-19 GPFS.
+15050,Maitland,2018-19,downloaded,current-year GPFS,5,,1,0.0,"26 MB scanned PDF, needs OCR; verified by OCR p3."
+15050,Maitland,2019-20,not_found,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,"2nd pass: Not found by listing, search or URL patterns. Covered by 2020-21/2021-22 prior-year columns if those exist."
+15050,Maitland,2020-21,not_found,prior-year column of next GPFS,5,,1,0.0,2nd pass: Not found; 2021-22 GPFS prior-year column covers it.
+15050,Maitland,2021-22,downloaded,current-year GPFS,5,,1,1000000.0,GPFS verified
+15050,Maitland,2022-23,downloaded,current-year GPFS,5,,2,5432000.0,"Mostly image PDF, needs OCR; verified by OCR p3."
+15050,Maitland,2023-24,downloaded,current-year GPFS,5,,1,3517000.0,GPFS verified
+15800,Narrandera,2015-16,not_found,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,2nd pass: Old /sites/default/files URLs now return the homepage; no GPFS link on the current site
+15800,Narrandera,2016-17,not_found,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,2nd pass: No official GPFS URL located
+15800,Narrandera,2017-18,not_found,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,2nd pass: No official GPFS URL located
+15800,Narrandera,2018-19,not_found,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,2nd pass: Only referenced inside a Dec 2019 business paper; URL not located
+15800,Narrandera,2019-20,not_found,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,2nd pass: Old page gone; no URL
+15800,Narrandera,2020-21,not_found,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,2nd pass: No URL located
+15800,Narrandera,2021-22,not_found,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,"2nd pass: Previously known /sites/default/files/2022-10/... URL now serves the homepage HTML, not a PDF"
+15800,Narrandera,2022-23,not_found,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,2nd pass: No URL located
+15800,Narrandera,2023-24,not_downloaded,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,"2nd pass: GPFS is Attachment 1 in 2024-10-10-attachments-15-october-2024.pdf (https://www.narrandera.nsw.gov.au/files/assets/public/v/1/files/council/meetings/2024/2024-10-10-attachments-15-october-2024.pdf), 80 MB, over the 40 MB dl.py cap. Not downloaded"
+15850,Narromine,2015-16,downloaded,current-year GPFS,5,,0,0.0,Verified year ended 30 June 2016.
+15850,Narromine,2016-17,downloaded,current-year GPFS,5,,1,1010000.0,Verified year ended 30 June 2017.
+15850,Narromine,2017-18,downloaded,current-year GPFS,5,,0,0.0,"Annual report annexure containing GPFS, year ended 30 June 2018."
+15850,Narromine,2018-19,downloaded,current-year GPFS,5,,0,0.0,Verified year ended 30 June 2019 (file labelled Redacted).
+15850,Narromine,2019-20,downloaded,current-year GPFS,5,,0,0.0,"Annual report annexure with GPFS, year ended 30 June 2020."
+15850,Narromine,2020-21,downloaded,current-year GPFS,5,,0,0.0,"Annual report annexure with GPFS, year ended 30 June 2021."
+15850,Narromine,2021-22,downloaded,current-year GPFS,5,,0,0.0,"Annual report annexure with GPFS, year ended 30 June 2022."
+15850,Narromine,2022-23,downloaded,current-year GPFS,5,,0,0.0,"Annual report annexure with GPFS, year ended 30 June 2023."
+15850,Narromine,2023-24,downloaded,current-year GPFS,5,,0,0.0,"Annual report annexure 2 with GPFS, year ended 30 June 2024."
+16150,Orange,2015-16,downloaded,current-year GPFS,5,,0,0.0,2nd pass: Annual report with GPFS appendix (PDF pages ~68-70+); no standalone GPFS on site
+16150,Orange,2016-17,downloaded,current-year GPFS,5,,0,0.0,2nd pass: Annual report with GPFS appendix (pages ~72+)
+16150,Orange,2017-18,downloaded,current-year GPFS,5,,0,0.0,2nd pass: Annual report with GPFS appendix (pages ~68+)
+16150,Orange,2018-19,downloaded,current-year GPFS,5,,0,0.0,2nd pass: Annual report with GPFS appendix (pages ~80+)
+16150,Orange,2019-20,downloaded,current-year GPFS,5,,0,0.0,2nd pass: Annual report with GPFS appendix (pages ~76+)
+16150,Orange,2020-21,downloaded,current-year GPFS,5,,0,0.0,2nd pass: Annual report with financials (pages ~126+)
+16150,Orange,2021-22,downloaded,current-year GPFS,5,,0,0.0,2nd pass: Annual report with GPFS appendix (pages ~90+)
+16150,Orange,2022-23,downloaded,current-year GPFS,5,,1,0.0,2nd pass: Annual report with GPFS appendix (pages ~111+)
+16150,Orange,2023-24,downloaded,current-year GPFS,5,,1,1029000.0,"2nd pass: Standalone GPFS, verified"
+16900,Shellharbour,2015-16,not_found,prior-year column of next GPFS,5,,0,0.0,2nd pass: No FY2015-16 report on council site or in search; FY2016-17 annual report prior-year column covers it.
+16900,Shellharbour,2016-17,downloaded,current-year GPFS,5,,0,0.0,"2nd pass: Annual report 2016-17 incl. audited FS (FS from PDF page 115, cash flow p124; checked year ended 30 June 2017). Source cdn.shellharbour.nsw.gov.au (council business paper attachment)."
+16900,Shellharbour,2017-18,downloaded,current-year GPFS,5,,0,0.0,"Standalone GPFS, council name and year ended 30 June 2018 confirmed on p1-3 (from Feb 2019 business paper attachment on cdn.shellharbour.nsw.gov.au)."
+16900,Shellharbour,2018-19,downloaded,current-year GPFS,5,,0,0.0,"Standalone GPFS, year ended 30 June 2019 confirmed."
+16900,Shellharbour,2019-20,downloaded,current-year GPFS,5,,0,0.0,Meeting attachment titled annual report including audited FS; GPFS for year ended 30 June 2020 confirmed on p1-3.
+16900,Shellharbour,2020-21,downloaded,current-year GPFS,5,,0,0.0,No standalone GPFS found; full annual report 2020-21 (20 MB). GPFS year ended 30 June 2021 start at PDF page 111.
+16900,Shellharbour,2021-22,downloaded,current-year GPFS,5,,0,0.0,Standalone GPFS year ended 30 June 2022 confirmed.
+16900,Shellharbour,2022-23,downloaded,current-year GPFS,5,,0,0.0,No standalone GPFS found; full annual report 2022-23 (34 MB). GPFS year ended 30 June 2023 start at PDF page 116.
+16900,Shellharbour,2023-24,downloaded,current-year GPFS,5,,0,0.0,Standalone GPFS year ended 30 June 2024 confirmed.
+17350,Temora,2015-16,downloaded,current-year GPFS,5,,5,0.0,"2nd pass: Standalone GPFS, name and year verified"
+17350,Temora,2016-17,downloaded,current-year GPFS,5,,2,2766000.0,"2nd pass: Standalone GPFS, verified"
+17350,Temora,2017-18,downloaded,current-year GPFS,5,,3,2813000.0,"2nd pass: Standalone GPFS, verified"
+17350,Temora,2018-19,downloaded,current-year GPFS,5,,2,1336000.0,"2nd pass: Standalone GPFS, verified"
+17350,Temora,2019-20,downloaded,current-year GPFS,5,,2,0.0,"2nd pass: Standalone GPFS, verified"
+17350,Temora,2020-21,downloaded,current-year GPFS,5,,2,757000.0,"2nd pass: Standalone GPFS, verified"
+17350,Temora,2021-22,downloaded,current-year GPFS,5,,2,1410000.0,"2nd pass: Standalone GPFS, verified"
+17350,Temora,2022-23,downloaded,current-year GPFS,5,,3,5226000.0,"2nd pass: Standalone GPFS (on-exhibition copy), verified"
+17350,Temora,2023-24,downloaded,current-year GPFS,5,,3,319000.0,"2nd pass: Standalone GPFS, verified"
+18100,Weddin,2015-16,not_found,none,0,capex_ippe;grants_contrib_operating;grants_contrib_capital;total_expenses;depreciation,0,0.0,"2nd pass: Only the annual report is listed (no standalone FS); downloaded it, found it contains no financial statements, discarded via discard.py."
+18100,Weddin,2016-17,not_found,prior-year column of next GPFS,5,,1,2200000.0,2nd pass: Same as 2015-16; annual report has no financial statements; discarded.
+18100,Weddin,2017-18,downloaded,current-year GPFS,5,,1,939000.0,2nd pass: Confirmed year ended 30 June 2018.
+18100,Weddin,2018-19,downloaded,current-year GPFS,5,,1,84000.0,2nd pass: Confirmed year ended 30 June 2019.
+18100,Weddin,2019-20,downloaded,current-year GPFS,5,,1,91000.0,2nd pass: Confirmed year ended 30 June 2020.
+18100,Weddin,2020-21,downloaded,current-year GPFS,5,,1,0.0,2nd pass: Confirmed year ended 30 June 2021.
+18100,Weddin,2021-22,downloaded,current-year GPFS,5,,1,0.0,2nd pass: Confirmed year ended 30 June 2022.
+18100,Weddin,2022-23,downloaded,current-year GPFS,5,,1,5265000.0,2nd pass: Confirmed year ended 30 June 2023.
+18100,Weddin,2023-24,downloaded,current-year GPFS,5,,1,8656000.0,2nd pass: Confirmed year ended 30 June 2024.
+18200,Wentworth,2015-16,downloaded,current-year GPFS,5,,0,0.0,verified year ended 30 June 2016
+18200,Wentworth,2016-17,downloaded,current-year GPFS,5,,0,0.0,verified year ended 30 June 2017
+18200,Wentworth,2017-18,downloaded,current-year GPFS,5,,0,0.0,verified year ended 30 June 2018
+18200,Wentworth,2018-19,downloaded,current-year GPFS,5,,0,0.0,verified year ended 30 June 2019
+18200,Wentworth,2019-20,downloaded,current-year GPFS,5,,0,0.0,combined annual report and financial statements; FS for year ended 30 June 2020 at PDF pages ~29-33 incl. cash flow with IPPE purchase line; no standalone GPFS found
+18200,Wentworth,2020-21,downloaded,current-year GPFS,5,,0,0.0,verified year ended 30 June 2021
+18200,Wentworth,2021-22,downloaded,current-year GPFS,5,,0,0.0,verified year ended 30 June 2022
+18200,Wentworth,2022-23,downloaded,current-year GPFS,5,,1,3500000.0,verified year ended 30 June 2023
+18200,Wentworth,2023-24,downloaded,current-year GPFS,5,,1,4000000.0,verified year ended 30 June 2024

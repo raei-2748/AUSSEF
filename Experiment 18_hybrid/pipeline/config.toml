@@ -1,0 +1,145 @@
+# Experiment 14 config (Y v4, chosen AFTER seeing v3 results; PRESPEC.md, LOCK_PRESPEC.txt).
+# Each [[indicator]] gives, for every Y version it belongs to, the column of inputs/v4_indicators.csv used.
+# A version key that is absent = the indicator is not in that Y version.
+# Rank rule, pillar rule, composite rule: identical to Experiment 9 (percentile rank after sign, 1 = worst;
+# pillar = mean of ranks present; Y = weighted mean of pillars present, re-normalised).
+# Y versions: main (Y_v4), olg (OLG-group-matched FAR comparison), resdeaths (SL4 residents only),
+# h0 / h12 / h3 (per-horizon). Y_v4_mag uses the "main" columns with z-scores clipped to [-3, 3].
+
+[meta]
+version = "4"
+label = "v4 (post-v3)"
+seed = 20261002
+
+[sources]
+indicators = "inputs/v4_indicators.csv"
+exp9_table = "../Experiment 9/results/ANALYSIS_TABLE.csv"   # X sets, DL v2, v1 and v3 Ys (read-only)
+
+[[indicator]]
+pillar = "DL"
+name = "DL1_homes_destroyed_per_1000_dwellings"
+sign = 1
+main = "homes_per_1000_v2_inferred"
+olg = "homes_per_1000_v2_inferred"
+resdeaths = "homes_per_1000_v2_inferred"
+h0 = "homes_per_1000_v2_inferred"
+
+[[indicator]]
+pillar = "IL"
+name = "IL2_income_affected_sa2_excess_far"
+sign = -1
+main = "IL2"
+olg = "IL2_olg"
+resdeaths = "IL2"
+h12 = "IL2"
+
+[[indicator]]
+pillar = "IL"
+name = "IL3_business_affected_sa2_excess_far"
+sign = -1
+main = "IL3"
+olg = "IL3_olg"
+resdeaths = "IL3"
+h12 = "IL3"
+
+[[indicator]]
+pillar = "FP"
+name = "FP1_grants_per_resident_rise_excess_far"
+sign = 1
+main = "FP1_main"
+olg = "FP1_main_olg"
+resdeaths = "FP1_main"
+h0 = "FP1_h0"
+h12 = "FP1_h12"
+h3 = "FP1_h3"
+
+[[indicator]]
+pillar = "FP"
+name = "FP2_fire_grant_share_jump_excess_far"
+sign = 1
+main = "FP2_main"
+olg = "FP2_main_olg"
+resdeaths = "FP2_main"
+h0 = "FP2_h0"
+h12 = "FP2_h12"
+h3 = "FP2_h3"
+
+[[indicator]]
+pillar = "FP"
+name = "FP3_capex_share_jump_excess_far"
+sign = 1
+main = "FP3_main"
+olg = "FP3_main_olg"
+resdeaths = "FP3_main"
+h0 = "FP3_h0"
+h12 = "FP3_h12"
+h3 = "FP3_h3"
+
+[[indicator]]
+pillar = "FP"
+name = "FP4_cash_cover_drawdown_excess_far"
+sign = -1
+main = "FP4_main"
+olg = "FP4_main_olg"
+resdeaths = "FP4_main"
+h0 = "FP4_h0"
+h12 = "FP4_h12"
+
+[[indicator]]
+pillar = "SL"
+name = "SL1_rent_rise_year2_excess_far"
+sign = 1
+main = "SL1_main"
+olg = "SL1_main_olg"
+resdeaths = "SL1_main"
+h12 = "SL1_main"
+h3 = "SL1_h3"
+
+[[indicator]]
+pillar = "SL"
+name = "SL2_domestic_violence_rise_excess_far"
+sign = 1
+main = "SL2"
+olg = "SL2_olg"
+resdeaths = "SL2"
+h12 = "SL2"
+
+[[indicator]]
+pillar = "SL"
+name = "SL3_rebuild_gap_trend_adjusted"
+sign = 1
+main = "SL3"
+olg = "SL3_olg"
+resdeaths = "SL3"
+h12 = "SL3"
+
+[[indicator]]
+pillar = "SL"
+name = "SL4_deaths_per_100k_residents"
+sign = 1
+main = "SL4"
+olg = "SL4"
+resdeaths = "SL4_resident"
+h0 = "SL4"
+
+[weights]
+main = [0.25, 0.25, 0.25, 0.25]   # equal, order DL, IL, FP, SL
+
+[x]
+pre = ["H", "E2", "V", "F", "X23"]
+fire = ["log_share", "peak_ffdi", "severity_high_extreme", "log_homes_in_fire_per_1000", "log_homes_within_1km_per_1000"]
+
+[rf]
+n_estimators = 500
+max_features = 0.3333
+min_samples_leaf = 5
+
+[ridge]
+alphas = [0.001, 0.00316, 0.01, 0.0316, 0.1, 0.316, 1.0, 3.16, 10.0, 31.6, 100.0, 316.0, 1000.0]
+
+[validation]
+council_folds = 5
+n_boot = 2000
+perm_repeats = 30
+shuffle_main = 200
+shuffle_pillar = 100

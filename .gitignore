@@ -29,3 +29,19 @@ aussef_duckdb/source_tables/evidence_master_expanded.csv
 
 # Live master workbook (kept local, not versioned in git)
 data/master_workbook/*.xlsx
+
+# Large inputs kept local only (listed with hashes in docs/storage/NOT_IN_GIT.txt)
+/Experiment 13/dv/raw/SuburbData.zip
+/Experiment 15_nightlights/work/fire_pix.parquet
+/Experiment 16_building_exposure/data/osm2019_features.parquet
+/Experiment 13/income_ato/raw/ato_t6_2011-12.xlsx
+/Experiment 15_nightlights/work/rad.npy
+/Experiment 13/exposure/raw/POA_2021_AUST.xlsx
+/Experiment 13/exposure/raw/SAL_2021_AUST.xlsx
+/fire_event_dataset/experiment_rf_v1/snapshot/nsw_bushfires_2015_2025_XY.xlsx
+/fire_event_dataset/experiment_rf_v2/snapshot/nsw_bushfires_2015_2025_XY.xlsx
+/Experiment 15_nightlights/work/dwell_grid.npy
+/Experiment 16_building_exposure/data/osm2019_lines.parquet
+/.claude/
+/.vscode/
+/graphify-out/

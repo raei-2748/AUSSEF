@@ -1,0 +1,70 @@
+region_id,council,2015-16,2016-17,2017-18,2018-19,2019-20,2020-21,2021-22,2022-23,2023-24
+10180,Armidale Regional,missing,missing,missing,prior-year comparative only,found,prior-year comparative only,found,missing,missing
+10250,Ballina,missing,missing,missing,missing,missing,missing,missing,missing,missing
+10470,Bathurst Regional,missing,missing,missing,missing,missing,missing,missing,missing,missing
+10550,Bega Valley,missing,missing,missing,prior-year comparative only,found,found,missing,missing,missing
+10600,Bellingen,missing,missing,missing,missing,missing,missing,missing,missing,missing
+10850,Blayney,missing,missing,prior-year comparative only,found,found,found,found,found,found
+10900,Blue Mountains,missing,missing,missing,prior-year comparative only,found,found,prior-year comparative only,found,missing
+10950,Bogan,missing,missing,missing,missing,missing,missing,missing,missing,missing
+11200,Brewarrina,missing,missing,missing,missing,prior-year comparative only,found,found,found,found
+11350,Byron,missing,missing,missing,missing,missing,missing,missing,missing,missing
+11400,Cabonne,missing,missing,missing,missing,missing,missing,missing,missing,missing
+11650,Central Coast (NSW),missing,found,found,prior-year comparative only,found,prior-year comparative only,found,found,missing
+11720,Cessnock,missing,missing,missing,missing,missing,missing,missing,missing,missing
+11730,Clarence Valley,missing,missing,missing,prior-year comparative only,found,found,missing,missing,missing
+11750,Cobar,found,found,found,found,found,found,found,found,prior-year comparative only
+11800,Coffs Harbour,missing,missing,missing,missing,missing,missing,missing,missing,missing
+12150,Coonamble,prior-year comparative only,found,found,found,found,found,found,found,found
+12160,Cootamundra-Gundagai Regional,missing,found,found,found,found,found,found,found,found
+12350,Cowra,missing,missing,missing,missing,missing,missing,missing,missing,missing
+12390,Dubbo Regional,missing,found,found,found,found,found,found,found,found
+12700,Dungog,missing,missing,missing,missing,missing,missing,missing,missing,missing
+12750,Eurobodalla,missing,missing,missing,prior-year comparative only,found,found,missing,missing,missing
+13010,Glen Innes Severn,missing,missing,missing,prior-year comparative only,found,found,missing,missing,missing
+13310,Goulburn Mulwaree,missing,missing,missing,missing,missing,missing,missing,missing,missing
+13340,Greater Hume Shire,missing,missing,missing,missing,missing,missing,missing,missing,missing
+13660,Gwydir,prior-year comparative only,found,found,missing,missing,missing,missing,missing,missing
+13800,Hawkesbury,missing,missing,missing,missing,missing,missing,missing,missing,missing
+14220,Inverell,found,missing,prior-year comparative only,found,found,missing,prior-year comparative only,found,found
+14350,Kempsey,missing,missing,missing,prior-year comparative only,found,found,missing,missing,missing
+14500,Ku-ring-gai,missing,missing,missing,missing,missing,missing,missing,missing,missing
+14550,Kyogle,missing,missing,missing,missing,missing,missing,prior-year comparative only,found,found
+14650,Lake Macquarie,missing,missing,missing,missing,missing,missing,missing,missing,missing
+14850,Lismore,missing,prior-year comparative only,found,found,found,found,found,found,missing
+14870,Lithgow,missing,missing,missing,missing,missing,missing,missing,missing,missing
+14900,Liverpool,missing,missing,missing,missing,missing,missing,missing,missing,missing
+14920,Liverpool Plains,missing,missing,missing,missing,missing,missing,missing,missing,missing
+15240,Mid-Coast,missing,missing,missing,prior-year comparative only,found,found,missing,missing,missing
+15270,Mid-Western Regional,missing,missing,missing,missing,missing,missing,missing,missing,missing
+15300,Moree Plains,missing,missing,missing,missing,missing,missing,missing,missing,missing
+15650,Muswellbrook,found,found,found,found,found,found,found,found,found
+15700,Nambucca Valley,missing,missing,missing,missing,missing,missing,missing,missing,missing
+15750,Narrabri,missing,missing,missing,missing,missing,missing,missing,missing,missing
+15900,Newcastle,missing,missing,prior-year comparative only,found,found,found,found,found,found
+16100,Oberon,missing,missing,missing,missing,missing,missing,missing,prior-year comparative only,found
+16200,Parkes,missing,missing,missing,missing,missing,missing,missing,missing,missing
+16350,Penrith,found,found,found,found,found,found,found,found,found
+16380,Port Macquarie-Hastings,missing,missing,missing,missing,missing,missing,missing,missing,missing
+16400,Port Stephens,missing,missing,missing,missing,missing,missing,missing,missing,missing
+16490,Queanbeyan-Palerang Regional,missing,missing,missing,missing,missing,missing,prior-year comparative only,found,found
+16610,Richmond Valley,found,found,found,found,found,found,found,found,found
+16950,Shoalhaven,missing,missing,missing,prior-year comparative only,found,found,missing,missing,missing
+17000,Singleton,missing,missing,prior-year comparative only,found,missing,missing,missing,missing,missing
+17040,Snowy Monaro Regional,missing,missing,missing,missing,missing,missing,missing,missing,missing
+17080,Snowy Valleys,missing,missing,missing,prior-year comparative only,found,found,missing,missing,missing
+17150,Sutherland Shire,missing,missing,missing,missing,missing,missing,missing,missing,missing
+17310,Tamworth Regional,missing,missing,prior-year comparative only,found,found,found,found,found,found
+17400,Tenterfield,found,found,found,found,found,found,found,found,found
+17550,Tweed,missing,missing,missing,missing,missing,missing,missing,missing,missing
+17620,Upper Hunter Shire,missing,missing,missing,missing,missing,missing,missing,missing,missing
+17640,Upper Lachlan Shire,found,found,found,found,found,found,found,found,found
+17650,Uralla,missing,missing,missing,missing,missing,missing,missing,missing,missing
+17750,Wagga Wagga,missing,missing,missing,missing,missing,missing,missing,missing,missing
+17850,Walcha,missing,missing,prior-year comparative only,found,found,found,found,found,found
+17900,Walgett,missing,missing,prior-year comparative only,found,found,found,found,found,found
+17950,Warren,found,found,found,found,found,found,found,found,found
+18020,Warrumbungle Shire,missing,missing,missing,missing,missing,missing,missing,missing,missing
+18350,Wingecarribee,missing,missing,missing,prior-year comparative only,found,found,missing,missing,missing
+18400,Wollondilly,found,found,found,found,found,found,found,prior-year comparative only,found
+18710,Yass Valley,missing,missing,missing,missing,missing,missing,missing,missing,missing

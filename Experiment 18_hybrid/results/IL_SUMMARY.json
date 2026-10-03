@@ -1,0 +1,177 @@
+{
+ "n_rows": 218,
+ "n_rows_with_model": 88,
+ "rows_with_model_by_season": {
+  "2014": 1,
+  "2015": 3,
+  "2016": 8,
+  "2017": 4,
+  "2018": 19,
+  "2019": 36,
+  "2022": 7,
+  "2023": 8,
+  "2024": 2
+ },
+ "missing_reasons": {
+  "has model": 88,
+  "no TRA visitor spend": 68,
+  "no homes-destroyed count (no rebuild offset)": 62
+ },
+ "settings": {
+  "unconstrained": {
+   "d": 6,
+   "r": "1km",
+   "b": 0.66,
+   "delta": 0.3,
+   "typ": 2
+  },
+  "constrained": {
+   "d": 1,
+   "r": "inside",
+   "b": 0.66,
+   "delta": 0.3,
+   "typ": 2
+  },
+  "P_calibrated": {
+   "d": 1,
+   "r": "1km",
+   "b": 0.66,
+   "delta": 0.3,
+   "typ": 2
+  }
+ },
+ "totals": {
+  "unconstrained": {
+   "setting": {
+    "d": 6,
+    "r": "1km",
+    "b": 0.66,
+    "delta": 0.3,
+    "typ": 2
+   },
+   "rows_with_model": 88,
+   "all_rows": {
+    "output_loss_net_Am": 681.1339795042328,
+    "output_loss_gross_Am": 1070.749932876336,
+    "offset_in_24m_Am": 332.1310608,
+    "direct_tourism_Am": 670.638825982431,
+    "direct_bi_Am": 294.6030611873663,
+    "jobs_year1": 6350.167384571966,
+    "labour_income_loss_Am": 280.0874760851242
+   },
+   "black_summer": {
+    "output_loss_net_Am": 282.6129884795922,
+    "output_loss_gross_Am": 649.46266267405,
+    "offset_in_24m_Am": 312.4976976,
+    "direct_tourism_Am": 425.9484059586967,
+    "direct_bi_Am": 160.21362767745177,
+    "labour_income_loss_Am": 162.1401583588609,
+    "labour_income_loss_gross_Am": 202.98758911856683,
+    "rows": 36
+   }
+  },
+  "constrained": {
+   "setting": {
+    "d": 1,
+    "r": "inside",
+    "b": 0.66,
+    "delta": 0.3,
+    "typ": 2
+   },
+   "rows_with_model": 88,
+   "all_rows": {
+    "output_loss_net_Am": -317.6557522175617,
+    "output_loss_gross_Am": 71.96020115454152,
+    "offset_in_24m_Am": 332.1310608,
+    "direct_tourism_Am": 15.682923155107998,
+    "direct_bi_Am": 49.10051019789437,
+    "jobs_year1": 103.54030750906581,
+    "labour_income_loss_Am": -24.58997134663392
+   },
+   "black_summer": {
+    "output_loss_net_Am": -322.2881490983994,
+    "output_loss_gross_Am": 44.56152509605842,
+    "offset_in_24m_Am": 312.4976976,
+    "direct_tourism_Am": 13.41969244215056,
+    "direct_bi_Am": 26.702271279575292,
+    "labour_income_loss_Am": -28.036385582107318,
+    "labour_income_loss_gross_Am": 12.811045177598611,
+    "rows": 36
+   }
+  },
+  "P_calibrated": {
+   "setting": {
+    "d": 1,
+    "r": "1km",
+    "b": 0.66,
+    "delta": 0.3,
+    "typ": 2
+   },
+   "rows_with_model": 88,
+   "all_rows": {
+    "output_loss_net_Am": -211.15763122604722,
+    "output_loss_gross_Am": 178.458322146056,
+    "offset_in_24m_Am": 332.1310608,
+    "direct_tourism_Am": 111.77313766373847,
+    "direct_bi_Am": 49.10051019789437,
+    "jobs_year1": 900.1966953103909,
+    "labour_income_loss_Am": 10.544854270962976
+   },
+   "black_summer": {
+    "output_loss_net_Am": -258.60589708211614,
+    "output_loss_gross_Am": 108.24377711234165,
+    "offset_in_24m_Am": 312.4976976,
+    "direct_tourism_Am": 70.9914009931161,
+    "direct_bi_Am": 26.702271279575292,
+    "labour_income_loss_Am": -7.016165906611456,
+    "labour_income_loss_gross_Am": 33.831264853094474,
+    "rows": 36
+   }
+  }
+ },
+ "constrained_primary_inside": 3,
+ "same_pick_as_pilot": true,
+ "out_of_sample_P_calibrated_on_B_checks": {
+  "M1": "inside",
+  "M1b": "overstates",
+  "M2": "inside",
+  "M2b": "understates",
+  "M3": "overstates"
+ },
+ "il_model_nontrivial": true,
+ "il_model_tied_rows": 4,
+ "n_settings": 1620,
+ "n_settings_3_primary_inside": 177,
+ "n_settings_2plus_primary_inside": 481,
+ "spearman": {
+  "ILmodel_vs_DL": [
+   -0.8938786458818798,
+   88
+  ],
+  "ILmodel_vs_ILmeasured": [
+   -0.22203212858895094,
+   83
+  ],
+  "ILmodel_vs_share": [
+   -0.4436343143640749,
+   88
+  ],
+  "ILmodel_vs_gross": [
+   -0.37891863332159215,
+   88
+  ],
+  "ILgross_vs_DL": [
+   0.7001112770041383,
+   88
+  ],
+  "ILgross_vs_ILmeasured": [
+   -0.08177424193233038,
+   83
+  ]
+ },
+ "jobs_year1_per_home_destroyed": {
+  "constrained": 0.04250423132556068,
+  "unconstrained": 2.6068010609901338,
+  "exp12_income_support_per_home_upper": 4.48
+ }
+}

@@ -1,0 +1,55 @@
+region_id,council,fy,status,local_path,url,reason
+12350,Cowra,2015-16,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+12350,Cowra,2016-17,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+12350,Cowra,2017-18,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+12350,Cowra,2018-19,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+12350,Cowra,2019-20,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+12350,Cowra,2020-21,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+12350,Cowra,2021-22,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+12350,Cowra,2022-23,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+12350,Cowra,2023-24,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+12390,Dubbo Regional,2015-16,missing,, ,"Dubbo Regional's first statements cover 13 May 2016-30 June 2017 (see FY2016-17 file); council page only lists former Dubbo City and Wellington councils' 2015-16 statements, not chased"
+12390,Dubbo Regional,2016-17,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/12390/12390_2016-17_gpfs.pdf,https://www.dubbo.nsw.gov.au/ArticleDocuments/11102/Dubbo%20Regional%20Council%20Financial%20Statements%202016-2017.pdf.aspx,statements cover 13 May 2016 to 30 June 2017 (first period after amalgamation; also covers FY2015-16 partial period)
+12390,Dubbo Regional,2017-18,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/12390/12390_2017-18_gpfs.pdf,https://www.dubbo.nsw.gov.au/ArticleDocuments/11102/Dubbo%20Regional%20Council%20Financial%20Statements%202017-2018.pdf.aspx,
+12390,Dubbo Regional,2018-19,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/12390/12390_2018-19_gpfs.pdf,https://www.dubbo.nsw.gov.au/ArticleDocuments/11102/Dubbo%20Regional%20Council%20-%20Financial%20Statements%202018-19.pdf.aspx,
+12390,Dubbo Regional,2019-20,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/12390/12390_2019-20_gpfs.pdf,https://www.dubbo.nsw.gov.au/ArticleDocuments/11102/Dubbo%20Regional%20Council%20-%20%20Annual%20Financial%20Statements%202019%202020%20-%20Annual%20Report%20(1).pdf.aspx,
+12390,Dubbo Regional,2020-21,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/12390/12390_2020-21_gpfs.pdf,https://www.dubbo.nsw.gov.au/ArticleDocuments/11102/Dubbo%20Regional%20Council%20-%20Annual%20Financial%20Statements%20-2020-2021%20(3).pdf.aspx,
+12390,Dubbo Regional,2021-22,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/12390/12390_2021-22_gpfs.pdf,https://www.dubbo.nsw.gov.au/ArticleDocuments/11102/Dubbo%20Regional%20Council%20-%20Annual%20Financial%20Statements%202021-2022%20(1).pdf.aspx,
+12390,Dubbo Regional,2022-23,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/12390/12390_2022-23_gpfs.pdf,https://www.dubbo.nsw.gov.au/ArticleDocuments/11102/Dubbo%20Regional%20Council%20-%20Annual%20Financial%20Statements-%20%202022-2023%20(1).pdf.aspx,
+12390,Dubbo Regional,2023-24,downloaded,fire_event_dataset/data/raw/council_pdfs/financial_statements/12390/12390_2023-24_gpfs.pdf,https://www.dubbo.nsw.gov.au/ArticleDocuments/11102/2023-2024%20Dubbo%20Regional%20Council%20Financial%20Statements.pdf.aspx,
+12700,Dungog,2015-16,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+12700,Dungog,2016-17,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+12700,Dungog,2017-18,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+12700,Dungog,2018-19,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+12700,Dungog,2019-20,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+12700,Dungog,2020-21,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+12700,Dungog,2021-22,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+12700,Dungog,2022-23,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+12700,Dungog,2023-24,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+12750,Eurobodalla,2015-16,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+12750,Eurobodalla,2016-17,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+12750,Eurobodalla,2017-18,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+12750,Eurobodalla,2018-19,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+12750,Eurobodalla,2019-20,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+12750,Eurobodalla,2020-21,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+12750,Eurobodalla,2021-22,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+12750,Eurobodalla,2022-23,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+12750,Eurobodalla,2023-24,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+13010,Glen Innes Severn,2015-16,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+13010,Glen Innes Severn,2016-17,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+13010,Glen Innes Severn,2017-18,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+13010,Glen Innes Severn,2018-19,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+13010,Glen Innes Severn,2019-20,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+13010,Glen Innes Severn,2020-21,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+13010,Glen Innes Severn,2021-22,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+13010,Glen Innes Severn,2022-23,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+13010,Glen Innes Severn,2023-24,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+13310,Goulburn Mulwaree,2015-16,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+13310,Goulburn Mulwaree,2016-17,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+13310,Goulburn Mulwaree,2017-18,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+13310,Goulburn Mulwaree,2018-19,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+13310,Goulburn Mulwaree,2019-20,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+13310,Goulburn Mulwaree,2020-21,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+13310,Goulburn Mulwaree,2021-22,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+13310,Goulburn Mulwaree,2022-23,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page
+13310,Goulburn Mulwaree,2023-24,missing,, ,site returned HTTP 403 (bot protection) to the guarded download tool; no workaround attempted; link found via search/council page

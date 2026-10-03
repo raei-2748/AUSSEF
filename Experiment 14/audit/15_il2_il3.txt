@@ -1,0 +1,18 @@
+SA2s in sa2_info: 640 | without council map: 0
+{'indicator': 'IL2', 'gccsa_mode': 'per_sa2', 'sa2_pop_min': 0, 'n_mine': 112, 'n_built': 112, 'only_mine': 0, 'only_built': 0, 'max_abs_diff': np.float64(0.00688999109072666), 'n_differ': 15}
+{'indicator': 'IL2', 'gccsa_mode': 'per_sa2', 'sa2_pop_min': 100, 'n_mine': 112, 'n_built': 112, 'only_mine': 0, 'only_built': 0, 'max_abs_diff': np.float64(3.2057689836051395e-15), 'n_differ': 0}
+{'indicator': 'IL2', 'gccsa_mode': 'council_gccsa', 'sa2_pop_min': 0, 'n_mine': 112, 'n_built': 112, 'only_mine': 0, 'only_built': 0, 'max_abs_diff': np.float64(0.00688999109072666), 'n_differ': 15}
+{'indicator': 'IL2', 'gccsa_mode': 'council_gccsa', 'sa2_pop_min': 100, 'n_mine': 112, 'n_built': 112, 'only_mine': 0, 'only_built': 0, 'max_abs_diff': np.float64(3.2127078775090467e-15), 'n_differ': 0}
+{'indicator': 'IL3', 'gccsa_mode': 'per_sa2', 'sa2_pop_min': 0, 'n_mine': 167, 'n_built': 167, 'only_mine': 0, 'only_built': 0, 'max_abs_diff': np.float64(8.118505867571457e-16), 'n_differ': 0}
+{'indicator': 'IL3', 'gccsa_mode': 'per_sa2', 'sa2_pop_min': 100, 'n_mine': 167, 'n_built': 167, 'only_mine': 0, 'only_built': 0, 'max_abs_diff': np.float64(0.0265013993822358), 'n_differ': 106}
+{'indicator': 'IL3', 'gccsa_mode': 'council_gccsa', 'sa2_pop_min': 0, 'n_mine': 167, 'n_built': 167, 'only_mine': 0, 'only_built': 0, 'max_abs_diff': np.float64(8.118505867571457e-16), 'n_differ': 0}
+{'indicator': 'IL3', 'gccsa_mode': 'council_gccsa', 'sa2_pop_min': 100, 'n_mine': 167, 'n_built': 167, 'only_mine': 0, 'only_built': 0, 'max_abs_diff': np.float64(0.0265013993822358), 'n_differ': 106}
+  indicator     gccsa_mode  sa2_pop_min  n_mine  n_built  only_mine  only_built  max_abs_diff  n_differ
+0       IL2        per_sa2            0     112      112          0           0  6.889991e-03        15
+1       IL2        per_sa2          100     112      112          0           0  3.205769e-15         0
+2       IL2  council_gccsa            0     112      112          0           0  6.889991e-03        15
+3       IL2  council_gccsa          100     112      112          0           0  3.212708e-15         0
+4       IL3        per_sa2            0     167      167          0           0  8.118506e-16         0
+5       IL3        per_sa2          100     167      167          0           0  2.650140e-02       106
+6       IL3  council_gccsa            0     167      167          0           0  8.118506e-16         0
+7       IL3  council_gccsa          100     167      167          0           0  2.650140e-02       106

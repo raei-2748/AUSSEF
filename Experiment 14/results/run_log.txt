@@ -1,0 +1,17 @@
+Y_v4 done 17s
+DL done 36s
+IL done 50s
+FP done 67s
+SL done 84s
+Y_v4_mag done 101s
+Y_v4_H0 done 118s
+Y_v4_H12 done 135s
+Y_v4_H3 done 151s
+Y_v4_olg done 168s
+Y_v4_resident_deaths done 185s
+shuffle Y_v4 PRE+FIRE p=0.005 676s
+shuffle Y_v4 PRE p=0.020 1151s
+shuffle DL PRE+FIRE p=0.010 1384s
+shuffle IL PRE+FIRE p=0.109 1588s
+shuffle FP PRE+FIRE p=0.733 1815s
+shuffle SL PRE+FIRE p=0.376 2051s

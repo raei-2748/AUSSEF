@@ -1,0 +1,13 @@
+# Files kept on the laptop but not in git (over 10 MB), 2026-10-03
+# sha256  bytes  path
+cfee0dcbdaf5753a59852122a674368e62bc9179b3848d9f3ebfa754c317a0f3  12661404  Experiment 13/dv/raw/SuburbData.zip
+262ad707111f34d6182da057743b567ea91b9d728c081ea86c024abb2e9ed20c  12759573  Experiment 15_nightlights/work/fire_pix.parquet
+eee706ae0ac6d46ba3863bf3622371a054d547c334c873c23cfb6e6021845ff0  13781377  Experiment 16_building_exposure/data/osm2019_features.parquet
+85b56d91f8994bc53bfc0b4da94ca6152826c06130ee3fc9a3375d31941a706d  15485945  Experiment 13/income_ato/raw/ato_t6_2011-12.xlsx
+cb014ed290e15ffdfeedf7ea69de0b528334d31e11d08f2ebd59d738e24623d7  16717664  Experiment 15_nightlights/work/rad.npy
+e1b82115e4cb46691924f6aa996f928d3771596e1d015acc17efdd807bb12c2e  18584662  Experiment 13/exposure/raw/POA_2021_AUST.xlsx
+e6be7af2fc4670375d49dfd9d83c98d48eea5049d038327d8eea94b598c7c9a3  20446326  Experiment 13/exposure/raw/SAL_2021_AUST.xlsx
+123423eaed7174987f72c63cc40ad334e26c636b2e28358f94cf4fcd60c32ec3  22408486  fire_event_dataset/experiment_rf_v1/snapshot/nsw_bushfires_2015_2025_XY.xlsx
+123423eaed7174987f72c63cc40ad334e26c636b2e28358f94cf4fcd60c32ec3  22408486  fire_event_dataset/experiment_rf_v2/snapshot/nsw_bushfires_2015_2025_XY.xlsx
+6f784c354dddf9fbac43f21c964fdddc68629da8d3cc90bbcaf9be2dd57dcbb9  28016768  Experiment 15_nightlights/work/dwell_grid.npy
+2a8c3a2786927a04d97ee2112987474838deeca6990e0cdfb683c34146e38a0d  125469738  Experiment 16_building_exposure/data/osm2019_lines.parquet

@@ -1,0 +1,149 @@
+{
+  "verdict": "AMENDED_BENCHMARK_GAIN_NOT_ESTABLISHED",
+  "primary_rows": 79,
+  "primary_groups": 24,
+  "cv_rows": 218,
+  "cv_groups": 49,
+  "reference_class_cutoffs": [
+    0.4866308906879208,
+    0.6353925611165694,
+    0.7543974862033601
+  ],
+  "primary_metrics": [
+    {
+      "split": "primary_recent_seasons",
+      "model": "mean",
+      "rows": 79,
+      "groups": 24,
+      "group_mae": 0.14946485132432605,
+      "row_mae": 0.17526085281634032,
+      "rmse": 0.20631236601000247,
+      "r2": -0.9557165785270869,
+      "class_accuracy": 0.3037974683544304,
+      "class_macro_f1": 0.11650485436893204,
+      "class_mae": 1.1139240506329113
+    },
+    {
+      "split": "primary_recent_seasons",
+      "model": "median",
+      "rows": 79,
+      "groups": 24,
+      "group_mae": 0.14659594020546435,
+      "row_mae": 0.17198185651390496,
+      "rmse": 0.20249787429702326,
+      "r2": -0.8840669670634684,
+      "class_accuracy": 0.3037974683544304,
+      "class_macro_f1": 0.11650485436893204,
+      "class_mae": 1.1139240506329113
+    },
+    {
+      "split": "primary_recent_seasons",
+      "model": "ridge",
+      "rows": 79,
+      "groups": 24,
+      "group_mae": 0.11980028374116296,
+      "row_mae": 0.12885256182648555,
+      "rmse": 0.16988122285361826,
+      "r2": -0.32600803298191794,
+      "class_accuracy": 0.4430379746835443,
+      "class_macro_f1": 0.3112482755339898,
+      "class_mae": 0.7468354430379747
+    },
+    {
+      "split": "primary_recent_seasons",
+      "model": "rf",
+      "rows": 79,
+      "groups": 24,
+      "group_mae": 0.12997933905732081,
+      "row_mae": 0.15574706089721096,
+      "rmse": 0.1814467953897625,
+      "r2": -0.5127041651757194,
+      "class_accuracy": 0.3037974683544304,
+      "class_macro_f1": 0.15,
+      "class_mae": 1.0886075949367089
+    }
+  ],
+  "cv_metrics": [
+    {
+      "split": "group_cv_pooled",
+      "model": "mean",
+      "rows": 218,
+      "groups": 49,
+      "group_mae": 0.12002651157292761,
+      "row_mae": 0.12240440526386351,
+      "rmse": 0.15031219982395752,
+      "r2": -0.09141153120945855,
+      "class_accuracy": 0.3761467889908257,
+      "class_macro_f1": 0.15748983773977893,
+      "class_mae": 0.8715596330275229
+    },
+    {
+      "split": "group_cv_pooled",
+      "model": "median",
+      "rows": 218,
+      "groups": 49,
+      "group_mae": 0.12017755271678073,
+      "row_mae": 0.12757990890979662,
+      "rmse": 0.15796493011815027,
+      "r2": -0.20537293524449707,
+      "class_accuracy": 0.4954128440366973,
+      "class_macro_f1": 0.1656441717791411,
+      "class_mae": 0.7568807339449541
+    },
+    {
+      "split": "group_cv_pooled",
+      "model": "ridge",
+      "rows": 218,
+      "groups": 49,
+      "group_mae": 0.1036995455832637,
+      "row_mae": 0.11425261239214458,
+      "rmse": 0.14601977899416618,
+      "r2": -0.029967331611262304,
+      "class_accuracy": 0.47706422018348627,
+      "class_macro_f1": 0.29620279146141215,
+      "class_mae": 0.6238532110091743
+    },
+    {
+      "split": "group_cv_pooled",
+      "model": "rf",
+      "rows": 218,
+      "groups": 49,
+      "group_mae": 0.10728950355515209,
+      "row_mae": 0.11377526227306628,
+      "rmse": 0.1396317571763952,
+      "r2": 0.05817875404655537,
+      "class_accuracy": 0.43577981651376146,
+      "class_macro_f1": 0.24339643108965664,
+      "class_mae": 0.6697247706422018
+    }
+  ],
+  "primary_bootstrap": [
+    {
+      "split": "primary_recent_seasons",
+      "baseline": "mean",
+      "improvement_group_mae": 0.0194855122670052,
+      "ci_low": 0.0057026458751424725,
+      "ci_high": 0.031451598261452295,
+      "improvement_pct": 13.036852540483443,
+      "groups": 24
+    },
+    {
+      "split": "primary_recent_seasons",
+      "baseline": "median",
+      "improvement_group_mae": 0.016616601148143523,
+      "ci_low": 0.0036741251090735443,
+      "ci_high": 0.02789785016080089,
+      "improvement_pct": 11.334966797071058,
+      "groups": 24
+    },
+    {
+      "split": "primary_recent_seasons",
+      "baseline": "ridge",
+      "improvement_group_mae": -0.010179055316157856,
+      "ci_low": -0.04120849105949944,
+      "ci_high": 0.020049853649470015,
+      "improvement_pct": -8.496687151551685,
+      "groups": 24
+    }
+  ]
+}

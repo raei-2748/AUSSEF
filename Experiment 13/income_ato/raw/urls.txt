@@ -1,0 +1,13 @@
+2022-23 https://data.gov.au/data/dataset/5fa69f19-ec44-4c46-88eb-0f6fd5c2f43b/resource/c92eeed8-2010-4f7f-94ab-e4bb6e324dde/download/ts23individual06taxablestatusstatesa4postcode.xlsx
+2021-22 https://data.gov.au/data/dataset/5fa69f19-ec44-4c46-88eb-0f6fd5c2f43b/resource/00847743-8b5b-4d41-a15a-1a28cf00ea81/download/ts22individual06taxablestatusstatesa4postcode.xlsx
+2020-21 https://data.gov.au/data/dataset/5fa69f19-ec44-4c46-88eb-0f6fd5c2f43b/resource/10c9ad1f-8cef-4ddd-838b-972c55b377ab/download/ts21individual06taxablestatusstateterritorypostcode.xlsx
+2019-20 https://data.gov.au/data/dataset/5fa69f19-ec44-4c46-88eb-0f6fd5c2f43b/resource/d2eb3863-78c6-4afe-a348-83043df5aeab/download/ts20individual06taxablestatusstateterritorypostcode.xlsx
+2018-19 https://data.gov.au/data/dataset/5fa69f19-ec44-4c46-88eb-0f6fd5c2f43b/resource/9129cf1e-8eb0-4c25-98e3-95fc2697267c/download/ts19individual06taxablestatusstateterritorypostcode.xlsx
+2017-18 https://data.gov.au/data/dataset/5fa69f19-ec44-4c46-88eb-0f6fd5c2f43b/resource/b713d037-d9f5-49e5-a492-502cd7b3a15a/download/ts18individual06taxablestatusstatepostcode.xlsx
+2016-17 https://data.gov.au/data/dataset/5fa69f19-ec44-4c46-88eb-0f6fd5c2f43b/resource/a05364a6-b127-4c08-8edf-e6e96ec9e1be/download/ts17individual06taxablestatusstatepostcode.xlsx
+2015-16 https://data.gov.au/data/dataset/5fa69f19-ec44-4c46-88eb-0f6fd5c2f43b/resource/31456a8b-7cd9-4f55-bdcb-2acbbb209bd0/download/taxstats2016individual06taxablestatusstateterritorypostcodetaxableincome.xlsx
+2014-15 https://data.gov.au/data/dataset/5fa69f19-ec44-4c46-88eb-0f6fd5c2f43b/resource/a28d3f45-25fe-450e-bf59-f3a29c613327/download/taxstats2015individual06taxablestatusstateterritorypostcode.xlsx
+2013-14 https://data.gov.au/data/dataset/5fa69f19-ec44-4c46-88eb-0f6fd5c2f43b/resource/755973c6-b2be-4c28-b729-4c2f2d85c6ce/download/taxstats2014individual06taxablestatuspostcode.xlsx
+2012-13 https://data.gov.au/data/dataset/5fa69f19-ec44-4c46-88eb-0f6fd5c2f43b/resource/dfcbd00f-1aa0-4791-98f0-fd2a97b42436/download/taxstats2013individual06_selected-items-by-taxable-status-postcode.xlsx
+2011-12 https://data.gov.au/data/dataset/5fa69f19-ec44-4c46-88eb-0f6fd5c2f43b/resource/00a01ddb-69ee-4f3c-bd74-e1a7840f4610/download/taxstats2012individual06_selected-items-by-taxable-status-state-and-postcode.xlsx
+2010-11 https://data.gov.au/data/dataset/5fa69f19-ec44-4c46-88eb-0f6fd5c2f43b/resource/10f6add6-883d-4e7e-a7da-23bf007f711e/download/cor00345977_2011ind6.xlsx

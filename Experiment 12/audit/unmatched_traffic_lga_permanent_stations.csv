@@ -1,0 +1,30 @@
+source_name,key,region_id,matched_to,n
+Ashfield,ashfield,,,4
+Auburn,auburn,,,7
+Bankstown,bankstown,,,16
+Bombala,bombala,,,1
+Botany Bay,botanybay,,,4
+Canterbury,canterbury,,,6
+Cooma-Monaro,coomamonaro,,,4
+Corowa,corowa,,,1
+Gosford,gosford,,,13
+Great Lakes,greatlakes,,,1
+Greater Taree,greatertaree,,,3
+Gundagai,gundagai,,,3
+Guyra,guyra,,,1
+Holroyd,holroyd,,,9
+Hurstville,hurstville,,,1
+Jerilderie,jerilderie,,,2
+Kogarah,kogarah,,,3
+Leichhardt,leichhardt,,,7
+Manly,manly,,,2
+Marrickville,marrickville,,,4
+NULL,null,,,2
+Nambucca,nambucca,,,1
+Palerang,palerang,,,2
+Pittwater,pittwater,,,2
+Rockdale,rockdale,,,7
+Snowy River,snowyriver,,,4
+Warringah,warringah,,,12
+Wellington,wellington,,,1
+Wyong,wyong,,,4

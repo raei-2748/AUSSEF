@@ -1,0 +1,4 @@
+PRESPEC_AMENDMENT_1.md sha256 6f418161668791543fe08a5d7e2a5e274d5d02a1a8ad7885c2c29ecc8da8f222
+analysis code at lock: src/analysis.py sha256 96ccd2d435aef0b32b8c00d3e45dcb73086728f389365c30c5e515f3f141f5f2
+locked 2026-10-02T12:58:15Z
+note: work/rad.npy absent; no real radiance read.

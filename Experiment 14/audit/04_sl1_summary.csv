@@ -1,0 +1,5 @@
+indicator,min_post_quarters,n_mine,n_built,n_both,only_mine,only_built,max_abs_diff,n_differ
+SL1_main,1,183,183,183,0,0,2.6922908347160046e-15,0
+SL1_main,2,178,183,178,0,5,0.003570210074154395,89
+SL1_h3,1,166,166,166,0,0,1.8492152253912764e-15,0
+SL1_h3,2,163,166,163,0,3,0.015344185160064045,104

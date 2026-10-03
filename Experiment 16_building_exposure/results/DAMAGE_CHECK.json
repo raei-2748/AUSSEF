@@ -1,0 +1,110 @@
+{
+  "all seasons (primary)": {
+    "homes_destroyed": {
+      "rows": 135,
+      "rho": 0.7613661782999731,
+      "rho_ci": [
+        0.6644693415431383,
+        0.832016841818162
+      ],
+      "minus_area": 0.0656753195242109,
+      "minus_area_ci": [
+        -0.02205825889345712,
+        0.13879525485018088
+      ],
+      "verdict": "Not better than area burned"
+    },
+    "facilities_destroyed": {
+      "rows": 54,
+      "rho": 0.6159395302554361,
+      "rho_ci": [
+        0.4141344333898344,
+        0.7958944325338673
+      ],
+      "minus_area": -0.09512130552439291,
+      "minus_area_ci": [
+        -0.2970505609174751,
+        0.12709640200859162
+      ],
+      "minus_homes": -0.042166905033822255,
+      "minus_homes_ci": [
+        -0.1644108313697008,
+        0.07176598641541711
+      ],
+      "verdict": "Not better than area burned"
+    },
+    "outbuildings_destroyed": {
+      "rows": 65,
+      "rho": 0.7560802638082562,
+      "rho_ci": [
+        0.6058945463639356,
+        0.8520281051210954
+      ],
+      "minus_area": 0.007897064349330796,
+      "minus_area_ci": [
+        -0.10767922064415883,
+        0.1314608190690182
+      ],
+      "minus_homes": -0.10837103951944793,
+      "minus_homes_ci": [
+        -0.2273628945421405,
+        -0.01843612295595725
+      ],
+      "verdict": "Not better than area burned"
+    }
+  },
+  "Black Summer only (reported)": {
+    "homes_destroyed": {
+      "rows": 52,
+      "rho": 0.8851251707462481,
+      "rho_ci": [
+        0.8055522906650229,
+        0.9294431421506797
+      ],
+      "minus_area": 0.06864387233294755,
+      "minus_area_ci": [
+        -0.012215020568197853,
+        0.17781182335756945
+      ],
+      "verdict": "Not better than area burned"
+    },
+    "facilities_destroyed": {
+      "rows": 50,
+      "rho": 0.6323692787984534,
+      "rho_ci": [
+        0.39149732740652443,
+        0.8055728317264256
+      ],
+      "minus_area": -0.09764290412347076,
+      "minus_area_ci": [
+        -0.3351454728530236,
+        0.11968613428211212
+      ],
+      "minus_homes": -0.04027629047297232,
+      "minus_homes_ci": [
+        -0.1745285663445469,
+        0.08133286592400214
+      ],
+      "verdict": "Not better than area burned"
+    },
+    "outbuildings_destroyed": {
+      "rows": 52,
+      "rho": 0.7866602410457386,
+      "rho_ci": [
+        0.6342230903189263,
+        0.8857269129462721
+      ],
+      "minus_area": -0.00866711914087337,
+      "minus_area_ci": [
+        -0.12651473870667262,
+        0.11143869896560803
+      ],
+      "minus_homes": -0.12581615487890585,
+      "minus_homes_ci": [
+        -0.26043813736329446,
+        -0.025411064061043084
+      ],
+      "verdict": "Not better than area burned"
+    }
+  }
+}

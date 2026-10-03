@@ -1,0 +1,2 @@
+PRESPEC_DAY3.md sha256 9ed947284fd36f4a69dabf513eb4c6a69ef8ab7cce1a006cba5772f4a7ad3ece
+locked 2026-09-30T23:39:57Z before any Day 3 number

@@ -1,0 +1,34 @@
+{
+  "workbook_sha256": "123423eaed7174987f72c63cc40ad334e26c636b2e28358f94cf4fcd60c32ec3",
+  "panel_rows": 186,
+  "councils": 40,
+  "train_rows": 122,
+  "train_councils": 40,
+  "train_fires": 52,
+  "test_rows": 64,
+  "test_councils": 33,
+  "test_fires": 41,
+  "x_candidates": 223,
+  "x_excluded_by_registry": [
+    "X_socio_remoteness",
+    "X_socio_remoteness_class_max",
+    "X_socio_grp_sa4_proxy_aud_m",
+    "X_socio_grp_per_capita_sa4_aud",
+    "X_socio_grp_sa4_nominal_growth_pct",
+    "X_socio_grp_sa4_real_growth_pct"
+  ],
+  "cells_masked_by_registry": 2948,
+  "x_kept": 80,
+  "black_summer_train_rows": 35,
+  "rf_params": {
+    "min_samples_leaf": 2,
+    "max_features": 0.33
+  },
+  "ridge_params": {
+    "alpha": 1000.0
+  },
+  "rf_pred_dev_range": [
+    -0.07103849531517269,
+    0.05544514688371798
+  ]
+}

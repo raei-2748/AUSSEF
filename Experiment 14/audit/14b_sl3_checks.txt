@@ -1,0 +1,10 @@
+_LGA2018.csv {('10130', 'Armidale Regional (A)'): {'min': '2018-07', 'max': '2019-06', 'count': 12}, ('14170', 'Inner West (A)'): {'min': '2018-07', 'max': '2019-06', 'count': 12}, ('14200', 'Inverell (A)'): {'min': '2018-07', 'max': '2019-06', 'count': 12}}
+_LGA2019.csv {('10130', 'Armidale Regional (A)'): {'min': '2019-07', 'max': '2020-06', 'count': 12}, ('14170', 'Inner West (A)'): {'min': '2019-07', 'max': '2020-06', 'count': 12}, ('14200', 'Inverell (A)'): {'min': '2019-07', 'max': '2020-06', 'count': 12}}
+_LGA2020.csv {('10180', 'Armidale Regional (A)'): {'min': '2020-07', 'max': '2021-06', 'count': 12}, ('14170', 'Inner West (A)'): {'min': '2020-07', 'max': '2021-06', 'count': 12}}
+_LGA2021.csv {('10180', 'Armidale Regional'): {'min': '2021-07', 'max': '2022-06', 'count': 12}, ('14170', 'Inner West'): {'min': '2021-07', 'max': '2022-06', 'count': 12}}
+_LGA2022.csv {('10180', 'Armidale'): {'min': '2022-07', 'max': '2023-06', 'count': 12}, ('14170', 'Inner West'): {'min': '2022-07', 'max': '2023-06', 'count': 12}}
+_LGA2023.csv {('10180', 'Armidale Regional'): {'min': '2023-07', 'max': '2024-06', 'count': 12}, ('14170', 'Inner West'): {'min': '2023-07', 'max': '2024-06', 'count': 12}}
+_LGA2024.csv {('10180', 'Armidale Regional'): {'min': '2024-07', 'max': '2025-06', 'count': 12}, ('14170', 'Inner West'): {'min': '2024-07', 'max': '2025-06', 'count': 12}}
+_LGA2025.csv {('10180', 'Armidale'): {'min': '2025-07', 'max': '2026-06', 'count': 12}, ('14170', 'Inner West'): {'min': '2025-07', 'max': '2026-06', 'count': 12}}
+_LGA2026.csv {('10180', 'Armidale'): {'min': '2026-07', 'max': '2026-07', 'count': 1}, ('14170', 'Inner West'): {'min': '2026-07', 'max': '2026-07', 'count': 1}}
+Tenterfield 843 m0: 2019-02 -> pre window 2018-02 to 2019-01 | months from 2018-07 in it: 7

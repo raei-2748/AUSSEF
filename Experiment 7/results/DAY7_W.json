@@ -1,0 +1,275 @@
+{
+  "dataset": "W: DSS Benefit and Payment Recipient Demographics (data.gov.au dss-payment-demographic-data), SA2 sheet, quarterly; working-age income-support recipients per 1,000 residents",
+  "source_dir": "/Users/ray/Research/AUSSEF - Local/fire_event_dataset/data/raw/sa2/W",
+  "units": "income-support recipients per 1,000 residents per 10 pp of residents within 1 km",
+  "worse_direction": "up",
+  "period_range": "2016Q1..2025Q2",
+  "panel_rows": 19298,
+  "sa2s": 623,
+  "code_match": {
+    "sa2_info_n": 640,
+    "sa2_info_codes_in_2021_files": 640,
+    "sa2_info_codes_with_any_value": 640,
+    "by_vintage": {
+      "2011": {
+        "rows": 6480,
+        "unchanged": 5424,
+        "name_identical": 4920,
+        "in_sa2_info": 5400,
+        "quarters": 12
+      },
+      "2016": {
+        "rows": 9792,
+        "unchanged": 8806,
+        "name_identical": 8007,
+        "in_sa2_info": 8772,
+        "quarters": 17
+      },
+      "2021": {
+        "rows": 5778,
+        "unchanged": 5778,
+        "name_identical": 5778,
+        "in_sa2_info": 5760,
+        "quarters": 9
+      }
+    },
+    "per_quarter_sa2_info_matched": {
+      "2016Q1": 450,
+      "2016Q2": 450,
+      "2016Q3": 450,
+      "2016Q4": 450,
+      "2017Q1": 450,
+      "2017Q2": 450,
+      "2017Q3": 450,
+      "2017Q4": 450,
+      "2018Q1": 450,
+      "2018Q2": 450,
+      "2018Q3": 450,
+      "2018Q4": 450,
+      "2019Q1": 516,
+      "2019Q2": 516,
+      "2019Q3": 516,
+      "2019Q4": 516,
+      "2020Q1": 516,
+      "2020Q2": 516,
+      "2020Q3": 516,
+      "2020Q4": 516,
+      "2021Q1": 516,
+      "2021Q2": 516,
+      "2021Q3": 516,
+      "2021Q4": 516,
+      "2022Q1": 516,
+      "2022Q2": 516,
+      "2022Q3": 516,
+      "2022Q4": 516,
+      "2023Q1": 516,
+      "2023Q2": 640,
+      "2023Q3": 640,
+      "2023Q4": 640,
+      "2024Q1": 640,
+      "2024Q2": 640,
+      "2024Q3": 640,
+      "2024Q4": 640,
+      "2025Q1": 640,
+      "2025Q2": 640
+    },
+    "match_rate_any_value": 1.0,
+    "match_rate_2021_files": 1.0,
+    "sa2_info_codes_unchanged_in_asgs2011": 450,
+    "sa2_info_codes_unchanged_in_asgs2016": 516,
+    "dose_sa2s_total": 424,
+    "dose_sa2s_with_value": 424
+  },
+  "main": {
+    "n_obs": 19298,
+    "n_sa2": 623,
+    "n_clusters": 90,
+    "n_treated_sa2": 408,
+    "mean_y": 98.67741585065302,
+    "primary": {
+      "est": 0.2060601066039417,
+      "se": 0.12530422972200467,
+      "ci_low": -0.03953618365118744,
+      "ci_high": 0.45165639685907083
+    },
+    "placebo": {
+      "est": 0.1832988416132891,
+      "se": 0.09715573827862647,
+      "ci_low": -0.0071264054128187815,
+      "ci_high": 0.373724088639397
+    },
+    "coefs_per10pp": {
+      "b0": 0.21534035841935575,
+      "b1": 0.2108489794147372,
+      "b2": 0.23244297136582093,
+      "b3": 0.15095740817252862,
+      "b4": 0.22071081564726602,
+      "l1": 0.18464023296398854,
+      "l2": 0.15721048603788937,
+      "l3": 0.2210780848417031,
+      "l4": 0.1702665626095754
+    },
+    "ses_per10pp": {
+      "b0": 0.10971050925682167,
+      "b1": 0.10344761342584743,
+      "b2": 0.1564208904741973,
+      "b3": 0.14506687952921493,
+      "b4": 0.16883997099676412,
+      "l1": 0.09707819930423221,
+      "l2": 0.10739328444076557,
+      "l3": 0.10998233368239432,
+      "l4": 0.10936598115027243
+    }
+  },
+  "verdict": "Not detected",
+  "bound_in_worse_direction": 0.45165639685907083,
+  "heavy": {
+    "definition": "sample = SA2s with any fire-quarter dose >= 25% plus SA2s with zero dose in every quarter; same model",
+    "n_obs": 8903,
+    "n_sa2": 317,
+    "n_clusters": 76,
+    "n_treated_sa2": 109,
+    "mean_y": 86.97451891344153,
+    "primary": {
+      "est": 0.15270848385217853,
+      "se": 0.11419301738472304,
+      "ci_low": -0.07110983022187861,
+      "ci_high": 0.37652679792623567
+    },
+    "placebo": {
+      "est": 0.1429918963715724,
+      "se": 0.10171696884308667,
+      "ci_low": -0.056373362560877494,
+      "ci_high": 0.3423571553040223
+    },
+    "coefs_per10pp": {
+      "b0": 0.1320353032681185,
+      "b1": 0.18333116092761748,
+      "b2": 0.18512453848089577,
+      "b3": 0.11250512712587063,
+      "b4": 0.15054628945839021,
+      "l1": 0.14988083759159457,
+      "l2": 0.12951685121774711,
+      "l3": 0.19778943640927782,
+      "l4": 0.09478046026767006
+    },
+    "ses_per10pp": {
+      "b0": 0.10047201525376122,
+      "b1": 0.09747224543922615,
+      "b2": 0.14392190012412343,
+      "b3": 0.13514190813595914,
+      "b4": 0.15112272623156134,
+      "l1": 0.09586623456839273,
+      "l2": 0.11339434296180324,
+      "l3": 0.12337178535201421,
+      "l4": 0.10770605342341805
+    },
+    "verdict": "Not detected"
+  },
+  "black_summer": {
+    "definition": "dose kept only for fire quarters 2019Q3-2020Q1 (other quarters set to 0); full sample; same model",
+    "n_obs": 19298,
+    "n_sa2": 623,
+    "n_clusters": 90,
+    "n_treated_sa2": 138,
+    "mean_y": 98.67741585065302,
+    "primary": {
+      "est": 0.27508459722589196,
+      "se": 0.18727460873750432,
+      "ci_low": -0.09197363589961649,
+      "ci_high": 0.6421428303514004
+    },
+    "placebo": {
+      "est": 0.31448572137543335,
+      "se": 0.14582117632245553,
+      "ci_low": 0.0286762157834205,
+      "ci_high": 0.6002952269674462
+    },
+    "coefs_per10pp": {
+      "b0": 0.22744292525384557,
+      "b1": 0.2961400240930714,
+      "b2": 0.5233411188256182,
+      "b3": 0.19194021447700216,
+      "b4": 0.13655870347992263,
+      "l1": 0.23994882349429145,
+      "l2": 0.2644860349720805,
+      "l3": 0.3001484368662763,
+      "l4": 0.4533595901690851
+    },
+    "ses_per10pp": {
+      "b0": 0.12977966948300432,
+      "b1": 0.13962139132300527,
+      "b2": 0.33758981492386464,
+      "b3": 0.2518686818706576,
+      "b4": 0.2394024594238794,
+      "l1": 0.13491488487058917,
+      "l2": 0.14732863624697468,
+      "l3": 0.13835002291472628,
+      "l4": 0.18935099265132876
+    },
+    "verdict": "Not detected"
+  },
+  "sensitivities_not_prespecified": {
+    "no_min_pop_filter": {
+      "primary": {
+        "est": -4.3890219069899725,
+        "se": 2.168869975095005,
+        "ci_low": -8.640007058176183,
+        "ci_high": -0.1380367558037623
+      },
+      "placebo": {
+        "est": 0.993025972945286,
+        "se": 3.8234416414140666,
+        "ci_low": -6.500919644226284,
+        "ci_high": 8.486971590116857
+      },
+      "n_obs": 19932,
+      "verdict": "Not detected"
+    },
+    "lt5_cells_as_2p5": {
+      "primary": {
+        "est": 0.20335238103639092,
+        "se": 0.12628693994750684,
+        "ci_low": -0.044170021260722475,
+        "ci_high": 0.4508747833335043
+      },
+      "placebo": {
+        "est": 0.19370024401390135,
+        "se": 0.0985728780276809,
+        "ci_low": 0.0004974030796467688,
+        "ci_high": 0.38690308494815595
+      },
+      "n_obs": 19298,
+      "verdict": "Not detected"
+    },
+    "before_expanded_series_2016Q1_2022Q3": {
+      "primary": {
+        "est": 0.0695776132463632,
+        "se": 0.10810699819221715,
+        "ci_low": -0.1423121032103824,
+        "ci_high": 0.28146732970310884
+      },
+      "placebo": {
+        "est": 0.06967923453855383,
+        "se": 0.0798988508190558,
+        "ci_low": -0.08692251306679553,
+        "ci_high": 0.2262809821439032
+      },
+      "n_obs": 12693,
+      "verdict": "Not detected"
+    }
+  },
+  "deviations": [
+    "SA2s with Census 2021 population < 100 excluded (per-1,000 rate explodes for near-empty SA2s; same rule as Day 5). Unfiltered result in sensitivities.",
+    "Suppressed cells ('<5', i.e. 1-4 recipients) are excluded from the sum ('summed where available'), not turned into NaN totals as in dss.py (at SA2 level that rule would blank most SA2s because small legacy payments are '<5'). Sensitivity with '<5' = 2.5 reported.",
+    "Dec 2022 and Mar 2023 use the expanded/aligned DSS versions (all later files are expanded only)."
+  ],
+  "notes": [
+    "DSS changed its method from Dec 2022 (\"expanded\" data): NSW JobSeeker count is +6.7% in the expanded Dec 2022 file vs the historic one (+14% Mar 2023). A common shift is absorbed by GCCSA x quarter effects; an SA2-proportional shift is not. Sensitivity truncated at 2022Q3 reported.",
+    "Before Dec 2022 values 1-4 were published as <5; from Dec 2022 all cells are rounded to the nearest 5.",
+    "Denominator is fixed Census 2021 population, so with SA2 x season effects the outcome moves only with recipient counts.",
+    "JobSeeker replaced Newstart on 20 Mar 2020 (treated as one series, as in dss.py); COVID-19 surge in 2020Q2-2021 is common to GCCSA x quarter effects only to the extent it is uniform.",
+    "Leads for 2024Q3..2025Q2 reach beyond the dose panel end (2025Q2); later fires counted as 0.",
+    "Primary and placebo are averages of the 5 lag / 4 lead coefficients, scaled to 10 pp of residents; CIs are normal (1.96) with CR1 small-sample correction (same code as day7_U_unemployment.py)."
+  ]
+}

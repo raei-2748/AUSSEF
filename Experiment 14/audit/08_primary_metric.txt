@@ -1,0 +1,14 @@
+     n       rho    mae_rf  mae_mean                     target      xset         mae_diff_ci            rho_ci
+0  218  0.428066  0.100147  0.112916  Y_v4 (auditor re-derived)  PRE+FIRE  [-0.0190, -0.0070]  [+0.275, +0.540]
+1  218  0.428066  0.100147  0.112916        Y_v4 (built column)  PRE+FIRE                 NaN               NaN
+2  218  0.185187  0.108884  0.112916  Y_v4 (auditor re-derived)       PRE                 NaN               NaN
+['target', 'xset', 'cv', 'model', 'n', 'councils', 'seasons', 'rho', 'rho_lo', 'rho_hi', 'mae', 'mae_lo', 'mae_hi', 'rf_minus_this_mae', 'rf_minus_this_lo', 'rf_minus_this_hi', 'rf_beats_this']
+   target      xset      cv      model    n  councils  seasons       rho    rho_lo    rho_hi       mae    mae_lo    mae_hi  rf_minus_this_mae  rf_minus_this_lo  rf_minus_this_hi rf_beats_this
+0    Y_v4       PRE  season       mean  218        69        9 -0.392542 -0.532518 -0.248938  0.112916  0.101676  0.124051          -0.004032         -0.011554          0.003264         False
+1    Y_v4       PRE  season      ridge  218        69        9 -0.195462 -0.356185 -0.038117  0.113554  0.101772  0.125036          -0.004670         -0.012115          0.002746         False
+2    Y_v4       PRE  season  size_line  218        69        9 -0.131440 -0.237989 -0.014677  0.113029  0.101350  0.124343          -0.004146         -0.012304          0.004538         False
+3    Y_v4       PRE  season         rf  218        69        9  0.185187 -0.073508  0.365705  0.108884  0.097042  0.121670                NaN               NaN               NaN           NaN
+8    Y_v4  PRE+FIRE  season       mean  218        69        9 -0.392542 -0.534749 -0.241785  0.112916  0.102408  0.123624          -0.012769         -0.019353         -0.006986          True
+9    Y_v4  PRE+FIRE  season      ridge  218        69        9  0.410523  0.258097  0.546238  0.098173  0.087999  0.108350           0.001974         -0.003339          0.007742         False
+10   Y_v4  PRE+FIRE  season  size_line  218        69        9 -0.131440 -0.243397 -0.016168  0.113029  0.102214  0.123535          -0.012883         -0.018298         -0.007323          True
+11   Y_v4  PRE+FIRE  season         rf  218        69        9  0.428066  0.276317  0.544532  0.100147  0.090350  0.110037                NaN               NaN               NaN           NaN

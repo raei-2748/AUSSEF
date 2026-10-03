@@ -1,0 +1,6 @@
+variant,n,rho,p_perm
+C1 H0 1 project name rule,98,-0.25368176393119557,0.260747850429914
+C1 H0 2 old names mapped,112,-0.24194214036158704,0.26774645070985803
+C1 H0 3 old names mapped + full-direction days only,101,-0.04589906309563129,0.860627874425115
+C1 H0 4 old names mapped + one-direction days scaled to all directions,112,-0.03074261269321197,0.8450309938012398
+C1 H0 5 project name rule + full-direction days only,89,-0.0395678753911666,0.8804239152169566

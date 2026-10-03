@@ -1,0 +1,124 @@
+{
+  "source": "/Users/ray/Library/CloudStorage/GoogleDrive-raywang886@gmail.com/My Drive/Application Folder - Ray/3. Extracurriculars/AUSSEF/Data/nsw_bushfires_2015_2025_XY.xlsx",
+  "source_sha256": "123423eaed7174987f72c63cc40ad334e26c636b2e28358f94cf4fcd60c32ec3",
+  "snapshot_sha256": "123423eaed7174987f72c63cc40ad334e26c636b2e28358f94cf4fcd60c32ec3",
+  "frozen_at_utc": "2026-09-28T03:16:07.700602+00:00",
+  "rows": 218,
+  "declarations": 96,
+  "councils": 69,
+  "event_groups": 49,
+  "largest_groups": [
+    {
+      "event_group": "E031",
+      "rows": "67",
+      "declarations": "8",
+      "first_start": "2018-07-23",
+      "last_start": "2019-12-28",
+      "fy_min": "2018",
+      "fy_max": "2019"
+    },
+    {
+      "event_group": "E006",
+      "rows": "23",
+      "declarations": "12",
+      "first_start": "2023-08-12",
+      "last_start": "2024-01-21",
+      "fy_min": "2023",
+      "fy_max": "2023"
+    },
+    {
+      "event_group": "E026",
+      "rows": "18",
+      "declarations": "9",
+      "first_start": "2017-08-08",
+      "last_start": "2018-02-11",
+      "fy_min": "2017",
+      "fy_max": "2017"
+    },
+    {
+      "event_group": "E001",
+      "rows": "16",
+      "declarations": "2",
+      "first_start": "2023-02-06",
+      "last_start": "2023-03-14",
+      "fy_min": "2022",
+      "fy_max": "2022"
+    },
+    {
+      "event_group": "E046",
+      "rows": "13",
+      "declarations": "6",
+      "first_start": "2016-11-04",
+      "last_start": "2017-02-16",
+      "fy_min": "2016",
+      "fy_max": "2016"
+    },
+    {
+      "event_group": "E025",
+      "rows": "7",
+      "declarations": "4",
+      "first_start": "2017-09-03",
+      "last_start": "2018-01-26",
+      "fy_min": "2017",
+      "fy_max": "2017"
+    },
+    {
+      "event_group": "E002",
+      "rows": "5",
+      "declarations": "2",
+      "first_start": "2023-01-14",
+      "last_start": "2023-03-09",
+      "fy_min": "2022",
+      "fy_max": "2022"
+    },
+    {
+      "event_group": "E032",
+      "rows": "4",
+      "declarations": "3",
+      "first_start": "2018-10-30",
+      "last_start": "2019-02-18",
+      "fy_min": "2018",
+      "fy_max": "2018"
+    }
+  ],
+  "years": {
+    "2015": 4,
+    "2016": 8,
+    "2017": 22,
+    "2018": 34,
+    "2019": 71,
+    "2023": 63,
+    "2024": 11,
+    "2025": 5
+  },
+  "fy_counts": {
+    "2014": 1,
+    "2015": 3,
+    "2016": 16,
+    "2017": 35,
+    "2018": 27,
+    "2019": 57,
+    "2022": 26,
+    "2023": 38,
+    "2024": 15
+  },
+  "pillars_n": {
+    "2": 18,
+    "3": 116,
+    "4": 84
+  },
+  "class_from_y_counts": {
+    "1": 108,
+    "2": 66,
+    "3": 33,
+    "4": 11
+  },
+  "final_class_floor_changes": 23,
+  "reference_y_class_cutoffs": [
+    0.4866308906879208,
+    0.6353925611165694,
+    0.7543974862033601
+  ],
+  "X_columns": 223,
+  "target_status": "Frozen workbook target, ranked across the full reference cohort; not independent measurement validation."
+}

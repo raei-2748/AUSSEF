@@ -1,0 +1,17 @@
+  indicator            variant  n_mine  n_built  n_both  only_mine  only_built  max_abs_diff  n_differ
+0  FP4_main     namesakes_kept     199      199     199          0           0  8.881784e-16         0
+1    FP4_h0     namesakes_kept     199      199     199          0           0  1.776357e-15         0
+2   FP4_h12     namesakes_kept     161      161     161          0           0  1.776357e-15         0
+3  FP4_main  namesakes_dropped     199      199     199          0           0  8.320000e-02        15
+4    FP4_h0  namesakes_dropped     199      199     199          0           0  1.995000e-02         1
+5   FP4_h12  namesakes_dropped     161      161     161          0           0  2.850000e-01        14
+6       SL2          min12post     216      216     216          0           0  9.714451e-17         0
+FP4_main differing rows: 0
+Empty DataFrame
+Columns: [agrn, region_name, F, FP4_main_mine, FP4_main_built]
+Index: []
+SL2 differing rows: 0
+Empty DataFrame
+Columns: [agrn, region_name, F, SL2_mine, SL2_built]
+Index: []
+SL2 n by F: {2014: 1, 2015: 3, 2016: 16, 2017: 35, 2018: 27, 2019: 57, 2022: 26, 2023: 38, 2024: 13}

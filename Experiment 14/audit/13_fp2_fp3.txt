@@ -1,0 +1,36 @@
+fire councils in statements: 36 | fire councils without any fire-related line: [13660, 15900, 16100, 16490]
+          cmp_variant  has_lines_rule indicator  n_mine  n_built  only_mine  only_built  max_abs_diff  n_differ  min_cmp
+0      cmp_label_rule            True  FP2_main      51       51          0           0  9.974660e-17         0      0.0
+1      cmp_label_rule            True    FP2_h0      61       61          0           0  9.627715e-17         0      0.0
+2      cmp_label_rule            True   FP2_h12      51       51          0           0  9.714451e-17         0      0.0
+3      cmp_label_rule            True    FP2_h3      28       28          0           0  9.291613e-17         0      0.0
+4      cmp_label_rule            True  FP3_main      52       52          0           0  9.714451e-17         0      0.0
+5      cmp_label_rule            True    FP3_h0      64       64          0           0  8.326673e-17         0      0.0
+6      cmp_label_rule            True   FP3_h12      52       52          0           0  9.714451e-17         0      0.0
+7      cmp_label_rule            True    FP3_h3      29       29          0           0  8.326673e-17         0      0.0
+8      cmp_label_rule           False  FP2_main      52       51          1           0  9.974660e-17         0      0.0
+9      cmp_label_rule           False    FP2_h0      64       61          3           0  9.627715e-17         0      0.0
+10     cmp_label_rule           False   FP2_h12      52       51          1           0  9.714451e-17         0      0.0
+11     cmp_label_rule           False    FP2_h3      29       28          1           0  9.291613e-17         0      0.0
+12     cmp_label_rule           False  FP3_main      52       52          0           0  9.714451e-17         0      0.0
+13     cmp_label_rule           False    FP3_h0      64       64          0           0  8.326673e-17         0      0.0
+14     cmp_label_rule           False   FP3_h12      52       52          0           0  9.714451e-17         0      0.0
+15     cmp_label_rule           False    FP3_h3      29       29          0           0  8.326673e-17         0      0.0
+16  cmp_no_label_rule            True  FP2_main      51       51          0           0  1.273452e-02        49      0.0
+17  cmp_no_label_rule            True    FP2_h0      61       61          0           0  5.723929e-03        61      0.0
+18  cmp_no_label_rule            True   FP2_h12      51       51          0           0  1.273452e-02        45      0.0
+19  cmp_no_label_rule            True    FP2_h3      28       28          0           0  4.654759e-04        26      0.0
+20  cmp_no_label_rule            True  FP3_main      52       52          0           0  9.714451e-17         0      0.0
+21  cmp_no_label_rule            True    FP3_h0      64       64          0           0  8.326673e-17         0      0.0
+22  cmp_no_label_rule            True   FP3_h12      52       52          0           0  9.714451e-17         0      0.0
+23  cmp_no_label_rule            True    FP3_h3      29       29          0           0  8.326673e-17         0      0.0
+24  cmp_no_label_rule           False  FP2_main      52       51          1           0  1.273452e-02        49      0.0
+25  cmp_no_label_rule           False    FP2_h0      64       61          3           0  5.723929e-03        61      0.0
+26  cmp_no_label_rule           False   FP2_h12      52       51          1           0  1.273452e-02        45      0.0
+27  cmp_no_label_rule           False    FP2_h3      29       28          1           0  4.654759e-04        26      0.0
+28  cmp_no_label_rule           False  FP3_main      52       52          0           0  9.714451e-17         0      0.0
+29  cmp_no_label_rule           False    FP3_h0      64       64          0           0  8.326673e-17         0      0.0
+30  cmp_no_label_rule           False   FP3_h12      52       52          0           0  9.714451e-17         0      0.0
+31  cmp_no_label_rule           False    FP3_h3      29       29          0           0  8.326673e-17         0      0.0
+comparison councils with statements that are FAR, by F: {2014: 23, 2015: 23, 2016: 21, 2017: 17, 2018: 17, 2019: 14, 2022: 12, 2023: 19, 2024: 18}
+FP2_main rows by F: {2014: 0, 2015: 0, 2016: 2, 2017: 4, 2018: 8, 2019: 27, 2022: 10, 2023: 0, 2024: 0}

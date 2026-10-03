@@ -1,0 +1,224 @@
+column,rule,action,source_family,masked_cells,release_status
+X_fire_burn_area_in_council_ha,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_fire_fires_n,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_fire_share_of_council_burned,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_fire_largest_fire_total_area_ha,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_fire_max_fire_duration_days,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_fire_duration_days_wmean,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_fire_max_ffdi,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_fire_ffdi_wmean,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_fire_min_spei3,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_fire_kbdi_at_start_max,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_fire_drought_factor_at_start_max,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_fire_max_temp_c,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_fire_min_rh_pct,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_fire_max_wind_kmh,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_fire_rain_during_fire_mm_min,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_fire_temp_max_wmean,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_fire_humidity_min_wmean,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_fire_wind_max_wmean,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_fire_hotspot_density_max,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_fire_hotspots_n,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_fire_hotspot_viirs_count_in_council,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_fire_severity_high_extreme_share,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_fire_severity_share_low_wmean,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_fire_severity_share_moderate_wmean,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_fire_severity_share_high_wmean,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_fire_severity_share_extreme_wmean,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_fire_ignition_causes,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_env_mean_slope_deg,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_env_elevation_wmean,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_env_elevation_min,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_env_elevation_max,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_env_slope_p90_max,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_env_dominant_vegetation,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_env_mean_canopy_pct,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_env_canopy_cover_wmean,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_env_canopy_cover_share_over_30pct_wmean,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_env_vegetation_forest_share_wmean,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_env_vegetation_cleared_share_wmean,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_env_vegetation_groups,Retrospective final fire characteristics or fixed environmental reference,retain,fire_or_environment,0,not an operational forecast
+X_env_road_km_burned,Both road exposure columns use the 1 January 2019 OSM extract; mask earlier fires,not_before,osm_2019,68,"dated network snapshot, not present-day roads"
+X_env_road_km_within_100m_sum,Both road exposure columns use the 1 January 2019 OSM extract; mask earlier fires,not_before,osm_2019,68,"dated network snapshot, not present-day roads"
+X_socio_pop_in_fire,Census-derived value allowed only after release for the row vintage,census_release,census_basic,20,verified basic Census release dates
+X_socio_pop_within_1km,Census-derived value allowed only after release for the row vintage,census_release,census_basic,20,verified basic Census release dates
+X_socio_pop_within_5km,Census-derived value allowed only after release for the row vintage,census_release,census_basic,20,verified basic Census release dates
+X_socio_pop_within_5km_all_councils,Census-derived value allowed only after release for the row vintage,census_release,census_basic,20,verified basic Census release dates
+X_socio_dwellings_in_fire,Census-derived value allowed only after release for the row vintage,census_release,census_basic,20,verified basic Census release dates
+X_socio_dwellings_within_1km,Census-derived value allowed only after release for the row vintage,census_release,census_basic,20,verified basic Census release dates
+X_socio_dwellings_within_5km,Census-derived value allowed only after release for the row vintage,census_release,census_basic,20,verified basic Census release dates
+X_socio_pop_density,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_population_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_population_density_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_SEIFA,Census-derived value allowed only after release for the row vintage,census_release,seifa,79,verified SEIFA release dates
+X_socio_seifa_irsd,Census-derived value allowed only after release for the row vintage,census_release,seifa,79,verified SEIFA release dates
+X_socio_remoteness,Only RA 2021 supplied; no historical remoteness series verified,exclude,remoteness_2021,218,excluded rather than assume historical availability
+X_socio_remoteness_class_max,Only RA 2021 supplied; no historical remoteness series verified,exclude,remoteness_2021,218,excluded rather than assume historical availability
+X_socio_grp_sa4_proxy_aud_m,2025 BCARR product; historical publication availability not established for supplied fires,exclude,bcarr_2025,217,excluded rather than assume retrospective release was available
+X_socio_income_proxy_aud,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_grp_per_capita_sa4_aud,2025 BCARR product; historical publication availability not established for supplied fires,exclude,bcarr_2025,79,excluded rather than assume retrospective release was available
+X_socio_grp_reds_region_2020_aud_m,2020 reference in 2023 REDS product; allow after full 2023 publication year,not_before,reds_2023,189,conservative publication-year bound; exact release day unverified
+X_socio_nsw_sfd_sa_aud_m_qm1,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_nsw_sfd_sa_aud_m_qp0,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_nsw_sfd_sa_aud_m_qp1,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_nsw_sfd_sa_aud_m_qp4,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_nsw_sfd_chg_pct_qp1_vs_qm1,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_nsw_sfd_yoy_pct_q0,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_grp_sa4_nominal_growth_pct,2025 BCARR product; historical publication availability not established for supplied fires,exclude,bcarr_2025,218,excluded rather than assume retrospective release was available
+X_socio_grp_sa4_real_growth_pct,2025 BCARR product; historical publication availability not established for supplied fires,exclude,bcarr_2025,218,excluded rather than assume retrospective release was available
+X_socio_total_income_aud_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_median_income_aud_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_income_earners_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_pia_emp_income_earners_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_pia_emp_income_mean_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_pia_emp_income_median_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_pia_emp_income_total_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_pia_own_biz_income_earners_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_pia_own_biz_income_main_source_pct_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_pia_own_biz_income_mean_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_pia_own_biz_income_median_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_pia_own_biz_income_total_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_unemp_rate_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_labour_force_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_unemployed_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_payroll_qm4,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_payroll_qm1,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_jobs_emp_A_agri_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_jobs_emp_B_mining_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_jobs_emp_C_manuf_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_jobs_emp_D_utilities_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_jobs_emp_E_constr_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_jobs_emp_F_wholesale_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_jobs_emp_G_retail_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_jobs_emp_H_accom_food_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_jobs_emp_I_transport_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_jobs_emp_J_info_media_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_jobs_emp_K_finance_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_jobs_emp_L_real_estate_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_jobs_emp_M_professional_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_jobs_emp_N_admin_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_jobs_emp_O_public_admin_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_jobs_emp_P_education_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_jobs_emp_Q_health_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_jobs_emp_R_arts_rec_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_jobs_emp_S_other_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_jobs_emp_total_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_jobs_female_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_jobs_male_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_jobs_total_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_accom_food_biz_share_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_ind_share_agri,Census-derived value allowed only after release for the row vintage,census_release,census_employment,28,conservative 2016 availability bound from ABS October 23 industry release; 2021 second release
+X_socio_ind_share_mining,Census-derived value allowed only after release for the row vintage,census_release,census_employment,28,conservative 2016 availability bound from ABS October 23 industry release; 2021 second release
+X_socio_ind_share_manufacturing,Census-derived value allowed only after release for the row vintage,census_release,census_employment,28,conservative 2016 availability bound from ABS October 23 industry release; 2021 second release
+X_socio_ind_share_utilities,Census-derived value allowed only after release for the row vintage,census_release,census_employment,28,conservative 2016 availability bound from ABS October 23 industry release; 2021 second release
+X_socio_ind_share_construction,Census-derived value allowed only after release for the row vintage,census_release,census_employment,28,conservative 2016 availability bound from ABS October 23 industry release; 2021 second release
+X_socio_ind_share_wholesale,Census-derived value allowed only after release for the row vintage,census_release,census_employment,28,conservative 2016 availability bound from ABS October 23 industry release; 2021 second release
+X_socio_ind_share_retail,Census-derived value allowed only after release for the row vintage,census_release,census_employment,28,conservative 2016 availability bound from ABS October 23 industry release; 2021 second release
+X_socio_ind_share_accom_food,Census-derived value allowed only after release for the row vintage,census_release,census_employment,28,conservative 2016 availability bound from ABS October 23 industry release; 2021 second release
+X_socio_ind_share_transport,Census-derived value allowed only after release for the row vintage,census_release,census_employment,28,conservative 2016 availability bound from ABS October 23 industry release; 2021 second release
+X_socio_ind_share_information_media,Census-derived value allowed only after release for the row vintage,census_release,census_employment,28,conservative 2016 availability bound from ABS October 23 industry release; 2021 second release
+X_socio_ind_share_finance_insurance,Census-derived value allowed only after release for the row vintage,census_release,census_employment,28,conservative 2016 availability bound from ABS October 23 industry release; 2021 second release
+X_socio_ind_share_rental_real_estate,Census-derived value allowed only after release for the row vintage,census_release,census_employment,28,conservative 2016 availability bound from ABS October 23 industry release; 2021 second release
+X_socio_ind_share_professional_services,Census-derived value allowed only after release for the row vintage,census_release,census_employment,28,conservative 2016 availability bound from ABS October 23 industry release; 2021 second release
+X_socio_ind_share_admin_support,Census-derived value allowed only after release for the row vintage,census_release,census_employment,28,conservative 2016 availability bound from ABS October 23 industry release; 2021 second release
+X_socio_ind_share_public_administration,Census-derived value allowed only after release for the row vintage,census_release,census_employment,28,conservative 2016 availability bound from ABS October 23 industry release; 2021 second release
+X_socio_ind_share_education,Census-derived value allowed only after release for the row vintage,census_release,census_employment,28,conservative 2016 availability bound from ABS October 23 industry release; 2021 second release
+X_socio_ind_share_health_social,Census-derived value allowed only after release for the row vintage,census_release,census_employment,28,conservative 2016 availability bound from ABS October 23 industry release; 2021 second release
+X_socio_ind_share_arts_recreation,Census-derived value allowed only after release for the row vintage,census_release,census_employment,28,conservative 2016 availability bound from ABS October 23 industry release; 2021 second release
+X_socio_ind_share_other_services,Census-derived value allowed only after release for the row vintage,census_release,census_employment,28,conservative 2016 availability bound from ABS October 23 industry release; 2021 second release
+X_socio_employed_persons_census,Census-derived value allowed only after release for the row vintage,census_release,census_employment,28,conservative 2016 availability bound from ABS October 23 industry release; 2021 second release
+X_socio_tra_tourism_biz_total_2017,2014-2017 tourism reference window must precede ignition,not_before,tra_2014_2017,31,reference window guard; exact publication date unverified
+X_socio_biz_entries_total_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_biz_entries_turnover_total_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_biz_exits_total_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_biz_exits_turnover_total_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_insolv_biz_economic_conditions_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_insolv_biz_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_insolv_nonbiz_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_biz_total_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_biz_A_agri_total_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_biz_B_mining_total_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_biz_C_manuf_total_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_biz_D_utilities_total_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_biz_E_constr_total_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_biz_F_wholesale_total_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_biz_G_retail_total_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_biz_H_accom_food_total_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_biz_I_transport_total_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_biz_J_info_media_total_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_biz_K_finance_total_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_biz_L_real_estate_total_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_biz_M_professional_total_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_biz_N_admin_total_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_biz_O_public_admin_total_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_biz_P_education_total_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_biz_Q_health_total_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_biz_R_arts_rec_total_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_biz_S_other_total_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_biz_X_unknown_total_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_insolv_total_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_tra_avg_stay_dom_overnight_1417avg,2014-2017 tourism reference window must precede ignition,not_before,tra_2014_2017,31,reference window guard; exact publication date unverified
+X_socio_tra_avg_stay_intl_1417avg,2014-2017 tourism reference window must precede ignition,not_before,tra_2014_2017,31,reference window guard; exact publication date unverified
+X_socio_tra_avg_stay_total_1417avg,2014-2017 tourism reference window must precede ignition,not_before,tra_2014_2017,31,reference window guard; exact publication date unverified
+X_socio_tra_nights_dom_overnight_1417avg,2014-2017 tourism reference window must precede ignition,not_before,tra_2014_2017,31,reference window guard; exact publication date unverified
+X_socio_tra_nights_intl_1417avg,2014-2017 tourism reference window must precede ignition,not_before,tra_2014_2017,31,reference window guard; exact publication date unverified
+X_socio_tra_nights_total_1417avg,2014-2017 tourism reference window must precede ignition,not_before,tra_2014_2017,31,reference window guard; exact publication date unverified
+X_socio_tra_spend_dom_day_1417avg,2014-2017 tourism reference window must precede ignition,not_before,tra_2014_2017,29,reference window guard; exact publication date unverified
+X_socio_tra_spend_dom_overnight_1417avg,2014-2017 tourism reference window must precede ignition,not_before,tra_2014_2017,31,reference window guard; exact publication date unverified
+X_socio_tra_spend_intl_1417avg,2014-2017 tourism reference window must precede ignition,not_before,tra_2014_2017,31,reference window guard; exact publication date unverified
+X_socio_tra_spend_total_1417avg,2014-2017 tourism reference window must precede ignition,not_before,tra_2014_2017,29,reference window guard; exact publication date unverified
+X_socio_tra_visitors_dom_day_1417avg,2014-2017 tourism reference window must precede ignition,not_before,tra_2014_2017,29,reference window guard; exact publication date unverified
+X_socio_tra_visitors_dom_overnight_1417avg,2014-2017 tourism reference window must precede ignition,not_before,tra_2014_2017,31,reference window guard; exact publication date unverified
+X_socio_tra_visitors_intl_1417avg,2014-2017 tourism reference window must precede ignition,not_before,tra_2014_2017,31,reference window guard; exact publication date unverified
+X_socio_tra_visitors_total_1417avg,2014-2017 tourism reference window must precede ignition,not_before,tra_2014_2017,29,reference window guard; exact publication date unverified
+X_socio_ntl_mean_qm4,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_ntl_mean_qm1,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_ntl_mean_exfire_qm4,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_ntl_mean_exfire_qm1,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_income_support_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_jobseeker_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_dwellings_census,Census-derived value allowed only after release for the row vintage,census_release,census_basic,20,verified basic Census release dates
+X_socio_dwellings_occupied,Census-derived value allowed only after release for the row vintage,census_release,census_basic,20,verified basic Census release dates
+X_socio_dw_owned_mortgage_share_census,Census-derived value allowed only after release for the row vintage,census_release,census_basic,20,verified basic Census release dates
+X_socio_dw_owned_outright_share_census,Census-derived value allowed only after release for the row vintage,census_release,census_basic,20,verified basic Census release dates
+X_socio_dw_rented_share_census,Census-derived value allowed only after release for the row vintage,census_release,census_basic,20,verified basic Census release dates
+X_socio_dw_flat_apartment_share_census,Census-derived value allowed only after release for the row vintage,census_release,census_basic,20,verified basic Census release dates
+X_socio_rent_median_weekly_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_rent_new_bonds_lodged_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_socio_area_km2,"2021 council boundaries define the common study geography, not historical change",retain,fixed_geography,0,fixed geographic convention
+X_council_historical_disaster_count,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_insurance_proxy_share,Census-derived value allowed only after release for the row vintage,census_release,census_basic,20,verified basic Census release dates
+X_council_own_source_revenue_ratio,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_grants_pct_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_own_source_pct_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_total_revenue_incl_cap_aud_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_grants_per_capita_aud_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_olg_capital_grants_derived_aud_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_net_op_result_pre_cap_aud_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_operating_ratio_pct_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_exp_community_aud_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_exp_environment_aud_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_exp_governance_aud_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_exp_other_aud_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_exp_public_order_aud_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_exp_recreation_aud_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_exp_roads_aud_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_roads_share_pct_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_service_share_pct_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_total_expenses_aud_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_total_expenses_cont_ops_aud_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_cash_reserve,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_cash_cover_months_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_unrestricted_current_ratio_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_debt_burden,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_debt_service_cover_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_debt_service_cover_ratio_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_debt_service_ratio_pct_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_renewals_ratio_pct_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_infra_backlog_ratio_pct_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_maintenance_gap_aud_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_maintenance_ratio_pct_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_road_km_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_olg_asset_maint_actual_aud_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_olg_asset_maint_required_aud_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified
+X_council_council_population_pre,Codebook pre-event annual/quarterly predictor; retrospective statistical vintage,retain,annual_pre_event,0,historical release/revisions not certified

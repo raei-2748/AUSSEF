@@ -1,0 +1,9 @@
+variant,indicator,n_mine,n_built,n_both,only_mine,only_built,max_abs_diff,n_rows_differ_gt_1e9
+namesakes_dropped,FP1_main,199,199,199,0,0,0.007636570665870368,4
+namesakes_dropped,FP1_h0,214,214,214,0,0,0.006476277272116054,1
+namesakes_dropped,FP1_h12,199,199,199,0,0,0.0022939908935467046,3
+namesakes_dropped,FP1_h3,134,134,134,0,0,0.014219918563449119,4
+namesakes_kept,FP1_main,199,199,199,0,0,2.220446049250313e-16,0
+namesakes_kept,FP1_h0,214,214,214,0,0,9.71445146547012e-17,0
+namesakes_kept,FP1_h12,199,199,199,0,0,2.220446049250313e-16,0
+namesakes_kept,FP1_h3,134,134,134,0,0,1.1102230246251565e-16,0

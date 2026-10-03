@@ -1,0 +1,2 @@
+C1 (2 Oct 2026, after lock): run_channels.py businesses(): p.ne referred to the pandas method DataFrame.ne, crash; changed to p['ne']. No change to the specification.
+D2 (2 Oct 2026, from audit): PIA placebo not estimable (only 2 pre-fire years; one fake term dropped and run_channel averaged the remaining one). Write-up corrected; code unchanged.

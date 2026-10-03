@@ -1,0 +1,2 @@
+PRESPEC_DAY2.md sha256 ca12cd1b35c8709762e88bbc211a0b399dc520d08b0d505e599cf7303fccaedc
+locked 2026-09-30T10:29:42Z before any Day 2 model was fitted

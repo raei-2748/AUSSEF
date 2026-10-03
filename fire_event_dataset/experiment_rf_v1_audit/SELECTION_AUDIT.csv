@@ -1,0 +1,13 @@
+outer,model,original,corrected,choice_changed
+primary_recent_seasons,rf,"{""max_features"": 0.33, ""min_samples_leaf"": 15}","{""max_features"": 0.33, ""min_samples_leaf"": 15}",False
+primary_recent_seasons,ridge,"{""alpha"": 100}","{""alpha"": 100}",False
+group_cv_1,rf,"{""max_features"": 0.33, ""min_samples_leaf"": 3}","{""max_features"": 0.33, ""min_samples_leaf"": 3}",False
+group_cv_1,ridge,"{""alpha"": 100}","{""alpha"": 100}",False
+group_cv_2,rf,"{""max_features"": 0.33, ""min_samples_leaf"": 8}","{""max_features"": 0.33, ""min_samples_leaf"": 8}",False
+group_cv_2,ridge,"{""alpha"": 100}","{""alpha"": 100}",False
+group_cv_3,rf,"{""max_features"": 0.33, ""min_samples_leaf"": 3}","{""max_features"": 0.33, ""min_samples_leaf"": 15}",True
+group_cv_3,ridge,"{""alpha"": 100}","{""alpha"": 100}",False
+group_cv_4,rf,"{""max_features"": 0.7, ""min_samples_leaf"": 3}","{""max_features"": 0.7, ""min_samples_leaf"": 3}",False
+group_cv_4,ridge,"{""alpha"": 100}","{""alpha"": 100}",False
+group_cv_5,rf,"{""max_features"": 0.7, ""min_samples_leaf"": 3}","{""max_features"": 0.7, ""min_samples_leaf"": 3}",False
+group_cv_5,ridge,"{""alpha"": 100}","{""alpha"": 100}",False

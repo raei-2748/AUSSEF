@@ -1,0 +1,724 @@
+Potential application of VIIRS Day/Night Band for monitoring
+nighttime surface PM 2.5 air quality from space
+Jun Wang a, *, Clint Aegerter a, Xiaoguang Xu a, James J. Szykman b
+a Department of Earth and Atmospheric Sciences, University of Nebraska, Lincoln, NE, USA
+b National Exposure Research Laboratory, U.S. Environmental Protection Agency, RTP, NC, USA
+highlights
+/C15VIIRS Day/Night Band (DNB) is much more sensitive to aerosols than to water vapor
+/C15Modeling of outdoor light transfer in nighttime atmosphere for VIIRS DNB
+/C15DNB potential for estimating surface PM 2.5 is shown qualitatively and quantitatively
+/C15PM2.5 at VIIRS night overpass time is much closer to daily-mean PM 2.5 than at daytime
+/C15Strategies for future DNB remote sensing of aerosols are elaborated
+article info
+Article history:
+Received 7 April 2015
+Received in revised form
+4 November 2015
+Accepted 5 November 2015
+Available online 10 November 2015
+Keywords:
+Nighttime
+PM2.5
+VIIRS
+Day/Night Band
+abstract
+A pilot study is conducted to illustrate the potential of using radiance data collected by the Day/Night
+Band (DNB) of the Visible Infrared Imaging Radiometer Suite (VIIRS) aboard the Suomi National Polar-
+orbiting Partnership (S-NPP) satellite for particulate matter (PM) air quality monitoring at night. The
+study focuses on the moonless and cloudless nights in Atlanta, Georgia during August eOctober 2012. We
+show with radiative transfer calculations that DNB at night is sensitive to the change of aerosols and
+much less sensitive to the change of water vapor in the atmosphere illuminated by common outdoor
+light bulbs at the surface. We further show both qualitatively that the contrast of DNB images can
+indicate the change of air quality at the urban scale, and quantitatively that change of light intensity
+during the night (as characterized by VIIRS DNB) re ﬂects the change of surface PM 2.5. Compared to four
+meteorological variables ( u and v components of surface wind speed, surface pressure, and columnar
+water vapor amount) that can be obtained from surface measurements, the DNB light intensity is the
+only variable that shows either the largest or second largest correlation with surface PM 2.5 measured at 5
+different sites. A simple multivariate regression model with consideration of the change of DNB light
+intensity can yield improved estimate of surface PM 2.5 as compared to the model with consideration of
+meteorological variables only. Cross validation of this DNB-based regression model shows that the
+estimated surface PM 2.5 concentration has nearly no bias and a linear correlation coef ﬁcient (R) of 0.67
+with respect to the corresponding hourly observed surface PM 2.5 concentration. Furthermore, ground-
+based observations support that surface PM 2.5 concentration at the VIIRS night overpass (~1:00 am
+local) time is representative of daily-mean PM 2.5 air quality (R ¼ 0.82 and mean bias of /C00.1 mgm /C03).
+While the potential appears promising, mapping surface PM 2.5 from space with visible light at night still
+face various challenges and the strategies to address some of these challenges are elaborated for future
+studies.
+© 2015 Elsevier Ltd. All rights reserved.
+1. Introduction
+The last decade has seen a growing interest of applying satellite
+remote sensing data to derive mass concentration of aerosol or
+particulate matter at the surface ( Wang and Christopher, 2003; Liu
+* Corresponding author. 303 Bessey Hall, Lincoln, NE, 68588, USA.
+E-mail address: jwang7@unl.edu (J. Wang).
+Contents lists available at ScienceDirect
+Atmospheric Environment
+journal homepage: www.elsevier.com/l ocate/atmosenv
+http://dx.doi.org/10.1016/j.atmosenv.2015.1 1.013
+1352-2310/© 2015 Elsevier Ltd. All rights reserved.
+Atmospheric Environment 124 (2016) 55 e63
+et al., 2004; Hoff and Christopher, 2009; van Donkelaar et al., 2013).
+Surface Particulate Matter (PM) concentration is a primary stan-
+dard for evaluating air quality, and improved estimates of the
+spatial distribution from satellite data, if accurate, can enhance the
+ground-based aerosol observation network and provide an
+improved understanding of spatial gradients of PM for air quality
+assessment at the regional to continental scale. Indeed, operational
+monitoring of particulate matter (PM) with aerodynamic diameters
+less than 2.5 mm (PM 2.5) does not exist in many developing coun-
+tries such as China and India ( Hoff and Christopher, 2009 ), even
+though it has been known for decades that increased exposure to
+PM2.5 can induce respiratory diseases and premature death (Wilson
+and Spengler, 1996).
+While the air quality standards for PM vary in different coun-
+tries, the standards are often expressed in terms of surface dry PM
+mass concentration at 24-h or annual averages, which contrasts
+with an instantaneous aerosol optical measurement derived from
+radiances at the satellite overpass time. For example, the most
+recent primary National Ambient Air Quality Standards (NAAQS)
+for PM2.5 promulgated by U.S. EPA set the daily standard at 35 mgm-
+3 (24-hr average) and the annual standard at 12 mgm-3. At the vast
+majority of surface PM 2.5 monitors used to determine compliance
+with these standards, the method is based on an integrated (24-h)
+ﬁlter-based measurement operated every 3rd day. There are also
+continuous PM2.5 monitoring methods which provide hourly PM 2.5
+measurements, with the vast majority being used to supply data to
+support development of air quality models and forecasts, including
+the Air Quality Index (AQI). Regardless of the type monitor or use of
+data, additional information on both the temporal and spatial dis-
+tribution of PM 2.5 can ﬁll gaps in the assessment of air quality
+conditions.
+This study introduces the ﬁrst attempt to derive the near-
+surface PM 2.5 at night from the visible lights measured by the
+Day/Night Band (DNB) on the VIIRS sensor aboard the NPP satellite
+launched in October 201 1. VIIRS views the Earth at 22 channels,
+including 9 bands (in addition to DNB) in the visible to near infrared
+(IR) spectrum, 8 bands in middle IR and 4 bands in thermal IR ( Lee
+and Miller, 2006). With its swath of ~3000 km at the equator, VIIRS
+provides global coverage twice within 24 h. Similar to its prede-
+cessor, the Operational Linescan System (OLS) that has been aboard
+the DMSP for detecting clouds and city lights during night ( Elvidge
+et al., 1999 ), the VIIRS DNB has a spectral width covering
+0.4e0.9 mm. Different from OLS, which has only 6-bit quantization,
+a nominal footprint of 2 km at nadir, and no onboard calibration,
+VIIRS DNB has 3-level of gains (for low, medium, and high intensity
+light) respectively digitized with 13, 13, and 14-bits, onboard cali-
+bration, and a nearly constant resolution of ~750 m across the scan
+swath ( Lee and Miller, 2006 ). Such advanced capability in DNB
+provides an unprecedented opportunity to monitor visible light
+during night from space. While past case studies have used artiﬁcial
+light from OLS and DNB to derive aerosol optical depth at night
+(Zhang et al., 2008; Johnson et al., 2013 ), the application of the
+VIIRS DNB for nighttime PM air quality applications is still unex-
+plored because the operational retrieval of AOD from VIIRS is only
+conducted during daytime by using radiance data at shortwave
+spectrum (Jackson et al., 2013 ).
+Estimates of surface PM 2.5 at night from space are important for
+various reasons. First, surface PM 2.5 often has a distinct diurnal
+cycle, and hence satellite-based estimate of surface PM 2.5 at night
+can be used together with other remote sensing techniques that
+rely on sunlight to estimate daily-averaged PM ( Wang and
+Christopher, 2003; Liu et al., 2004; Al-Saadi et al., 2005; Gupta
+et al., 2006 ;P . Gupta et al., 2006; Engel-Cox et al., 2013; van Don-
+kelaar et al., 2013 ). Second, factors that regulate the surface PM at
+night often highly contrast with their counterparts during daytime;
+these factors include a shallow nocturnal boundary layer, low ef-
+ﬁciency in oxidation and gas-to-particle conversion, weak turbu-
+lent mixing (sometimes further suppressed by temperature
+inversion), and largely reduced emissions from human activity such
+as transportation, cooking, construction, etc. ( Seinfeld and Pandis,
+2006). Observation-constrained assessments of the relative
+importance of these factors are highly needed for a better under-
+standing of the change of surface daily PM2.5 mass, but currently are
+hindered by the fact that operational retrievals of aerosols from
+space are made most often during daytime (with an exception of
+using lidar such as CALIOP that often has limited spatial coverage,
+Winker et al. (2002) ).
+At night, arti ﬁcial lights and moonlight are two major sources
+for the visible lights. While the spatiotemporal distribution of
+incoming moonlight at the top of atmosphere can be much better
+quantiﬁed than arti ﬁcial lights ( Miller and Turner, 2009 ), the in-
+tensity of arti ﬁcial lights, especially in an urban environment, is
+generally more stable and a factor of 10 higher than moonlight
+(Miller and Turner, 2009 ). Hence, in this study, we will explore the
+potential of using city lights in a large urban center (Atlanta) to
+derive the surface PM 2.5 at night. In addition, the intensity of city
+lights is also shown to be a good indicator of city population and
+energy consumption (Elvidge et al., 1999), and hence, the process of
+using city lights to derive surface PM 2.5 can ﬁt the emergent needs
+for operational air monitoring in urban regions where the NAAQS
+are often not in compliance (such as the Atlanta Metropolitan
+Statistical Area or MSA). Through a case study, this paper is aimed
+to introduce the potential of VIIRS DNB for nighttime PM estimate
+to the air quality community, and to elaborate on the challenges of
+the next steps. We present data and our approach in Section 2,
+analysis in Section 3, and conclude our paper in Section 4.
+2. Data and approach
+2.1. Data and DNB sensitivity to aerosol and water vapor
+Located aboard S-NPP, the VIIRS is a 22-band scanning radi-
+ometer with a nominal spatial resolution of 375 m in the ﬁve im-
+agery bands (I-bands) and 750 m in both the 16 moderate-
+resolution bands (M-bands) and the day enight band (DNB)
+(Polivka et al., 2015). Over a single orbit, the intensity of visible light
+that VIIRS encounters can range seven orders of magnitude (from
+daytime cloud re ﬂection of solar radiation to nighttime illumina-
+tion by airglow, starlight, and zodiacal light in clear sky conditions)
+(Lee and Miller, 2006 ). To achieve high radiometric resolution
+across such a large dynamical range of visible light, DNB is deigned
+to: (a) have a broad spectral coverage (of 0.4e0.9 mm and half width
+and half maxima of the spectral response function at 0.7 mm, Fig. 1),
+and (b) select its ampli ﬁcation gain dynamically from three
+simultaneously collecting stages (groups of detectors) ( Lee et al.,
+2006). Each of three stages (corresponding to high, medium, and
+low gains, respectively) covers a radiance range of more than 500:1
+and has generous overlap with its adjacent stage(s) to ensure a
+good single-to-noise ratio ( Lee et al., 2006 ). In average, DNB's
+radiometric uncertainties are estimated as 3.5%, 7.8%, and 1 1.0%
+during daytime, twilight, and nighttime conditions, respectively
+(Miller et al., 2012 ). With such accuracy, DNB data is shown to be
+valuable for studying meteorological and surface features illumi-
+nated by moonlight as well as for detecting airglow structures in
+the mesosphere at night ( Miller et al., 2012 ).
+The VIIRS sensor data records (SDRs) of calibrated radiances
+and brightness temperatures cover a spectral range from 0.41 1 to
+1 1.87mm and are used in a wide range of Earth observation ap-
+plications, including ﬁre detection and characterization, retrieval
+of cloud and aerosol properties, and land and sea surface
+J. Wang et al. / Atmospheric Environment 124 (2016) 55 e6356
+temperature estimation ( Cao et al., 2013 ). For this study, three
+VIIRS datasets are used: (a) VIIRS DNB scienti ﬁc data record (SDR)
+that includes DNB radiances ( Cao et al., 2013 ); (b) VIIRS DNB
+geolocation SDR that includes the latitude, longitude, moonphase
+angle, and Moon-Sun-Earth-Satellite geometries ( Cao et al., 2013 );
+(c) VIIRS cloud mask intermediate product (CVM) ( Kopp et al.,
+2014). In addition, VIIRS night imagery is also used to ﬁlter out
+the days that have clouds.
+In total, 15 moonless and cloudless nights of data are found from
+1 August 2012 to 30 October 2012. Hourly PM 2.5 data were
+extracted from the Environmental Protection Agency (EPA) Air
+Quality System (AQS) Data Mart for 5 Georgia Department of Nat-
+ural Resources (GADNR) continuous PM 2.5 monitoring stations
+within Atlanta, Georgia. 3 sites (denoted as A, B, and C in Fig. 2) are
+in the Atlanta suburb region and 2 sites (D and E) are in the Atlanta
+urban center. Table 1 lists each site (A-E) AQS site ID, location,
+county and monitor type. Furthermore, the PM 2.5 mass averaged
+over these 5 sites is used to represent the mean state of the PM air
+quality in Atlanta, and it is compared to the light intensity averaged
+over the core of the urban center (i.e., CTR site denoted as F in
+Table 1 and Fig. 2 ).
+In the moonless mid-night (the VIIRS overpass time), the out-
+door lights are the dominate source for the broadband radiance
+measured by DNB, although airglow and star lights can also been
+seen in the DNB image (Miller and Turner, 2009) . However, the
+spectra of outdoor lights can highly vary, depending on the color
+temperature of (and in many cases gases inside) the light bulb, as
+well as the bulb variety ( Elvidge et al., 2010 ). In the U.S., high-
+pressure sodium lamps (HPS) are the most common type of light
+source used for outdoor applications ( Rea et al., 2009 ), while
+ﬂuorescent and light-emitting diode (LED) lamps are also often
+used. By comparing the spectral radiances emitted from these three
+types of lamps (the color lines of Fig. 1a) with the spectral trans-
+mittance of cloud-free and aerosol-free mid-latitude summer at-
+mosphere (the grey line in Fig. 1a) in the DNB spectrum, we ﬁnd
+that the radiances from outdoor lamps are primarily in the visible
+spectrum less than 0.65 mm, and hence, their transfer within the
+atmosphere are not affected by the major gas absorption lines (such
+as 0.69 mm of O 2 B, 0.76 mm of O 2 A, 0.72 mm and 0.82 mm of water
+vapor). We note that HPS lamp does have an emission peak coin-
+cident at 0.82 mm of water vapor absorption, but both the width of
+this peak emission and the water vapor line are very narrow
+(<3 nm) with respect to the broad spectrum of DNB.
+Overall, our calculation (after integrating the spectral trans-
+mittance, lamp spectral intensity, and DNB response function)
+reveals that the change of water vapor has negligible effect on the
+DNB transmittance in the atmosphere (or the atmospheric radia-
+tive transfer that affects DNB signal). Regardless of aerosol loading,
+variation of preciptitable water by 40% results in a maximum
+change of DNB transmittance by ~1% when the light source is from
+HPS (Fig. 1b). In contrast, a change of AOD from 0.0 to 0.5 and 1.0 at
+0.55 mm can lead to the change of DNB transmittance by ~30% and
+~28%, respectively ( Fig. 1b). Interestingly, Fig. 1b also shows that as
+AOD increases (from 0 to 1), the DNB transmittance decrease is
+smaller for HPS spectra (blue line) than for LED or ﬂuorescent
+spectra (e.g., red or green line). This smaller decrease is due to the
+enhanced multiple scattering of aerosols (associated with the in-
+crease of AOD) that is larger and thus renders more decrease of
+transmittance in shorter wavelengths ( <0.7 mm) where the radi-
+ances emitted from LED and ﬂuorescent bulbs are mostly
+concentrated. Hence, the relative contribution of emission at
+wavelengths larger than 0.7 mm (such as in the case of HPS) is
+becoming larger as AOD increases, which explains why in Fig. 1b,
+for AOD ¼ 0 blue line is below, and for AOD ¼ 1 blue line is above
+the red and green lines.
+2.2. Assumptions and regression approach
+While our analysis in Fig. 1 suggests that the DNB is sensitive to
+the change of atmospheric aerosols (and is much less sensitive to
+the change of water vapor), accurate modeling of the light transfer
+in the night can be further complicated by the surface conditions,
+especially how the light from lampas interacts with surfaces and
+buildings. Here, as the exploratory ﬁrst step, we make the same
+assumption as Zhang et al. (2008) that the upward visible radiation
+from the surface layer (including surface canopy, buildings, streets,
+etc.) is Lambertian and has a constant intensity of I0 for a given
+location during our 3-month study period. In this assumption, the
+surface canopy and buildings are considered as one surface layer,
+and I0 is the intensity of light at the top of surface layer entering into
+the atmosphere. Hence, I0 is not exactly equal to the intensity of
+light at the ground and is a result of multiple scattering and
+reﬂection of lights between air and buildings within the surface
+layer. I0 is expected to be strongest in places with intense lights at
+Fig. 1. (a) DNB spectral response function (shaded grey area) and atmospheric trans-
+mittances (black line for AOD ¼ 0) overlaid with the emission spectra of commonly
+used city lamps: (70-Watt) high pressure sodium lamp (HPS, blue line), standard (32-
+Watt) ﬂuorescent tube (red line), and 100-Watt natural-white LED streetlight lamp
+(green line). (b) atmospheric transmittance integrated over DNB as a function of col-
+uman water vapor amount (e.g., precipitable water) for three different surface condi-
+tions (illuminated by HPS, ﬂuorescent, and LED lampls, respectivley) and three aerosol
+conditions (with AOD of 0, 0.5, and 1 at 0.55 mm). The simulation is conducted with
+UNiﬁed and Linearized Vector Radiative Transfer Model (UNL-VRTM, Wang et al.,
+(2014)) for the standard mid-latitude summer atmospehric pro ﬁle. Aerosol proper-
+ties are based on Dubovik et al., (2002) for urban aerosols. The database of spectral
+intensity emitted from HPS, ﬂuorescent, and LED bulbs are from Elvidge et al., (2010) .
+J. Wang et al. / Atmospheric Environment 124 (2016) 55 e63 57
+the ground (such as city centers) and weaker in suburb areas.
+However, at a speci ﬁc location, we can reasonably assume that
+surface features (such as layout of buildings and location of lights)
+don't change within 3 months in a particular year; consequently, in
+the following analysis, I0 is treated as a constant for each location
+within VIIRS pixel, but is allowed vary spatially.
+Fig. 2. (a)e(d): images of VIIRS DNB radiances for Atlanta city on 24 Sep., 15 Sep., 25 Oct., and 17 Aug. 2012 respectively; solid circles denote the location of 5 EPA PM2.5 monitoring
+sites color coded with the measured PM 2.5 mass concentration during the satellite overpass time. For (a), the satellite viewing zenith angle q and the moonphase angle h are 46.90/C14,
+and 59.36/C14, respectively; the set of these angle values for (b), (c), and (d) are (50.60 /C14, 152.04/C14), (9.55/C14, 52.22/C14), and (1.45/C14, and 173.36/C14) respectively. (e): the difference between (a)
+and (c). (f): same as (e) but for (b) and (d). Note the data are gridded into 0.03 /C14resolution in (e) and (f).
+Table 1
+Summary information of the 5 Georgia DNR continuous PM 2.5 sites.
+Site AQS site ID County Longitude Latitude PM 2.5 Monitor type a
+A 131350002 Gwinnett /C084.069 33.961 R &P TEOM Series 1400
+B 130770002 Coweta /C084.746 33.404 R &P TEOM Series 1400
+C 131510002 Henry /C084.161 33.433 R &P TEOM Series 1400
+D 131210055 Fulton /C084.357 33.720 R &P TEOM Series 1400
+E 130890002 DeKalb /C084.290 33.688 MetOne BAM-1020
+F(CTR)b N/Ab N/Ab /C084.39 33.75 N/A b
+a A measurement intercomparison between BAM ( b-ray Attenuation Monitor) and TEOM (Tapered Element Oscillating Microbalance) monitors conducted by Schwab et al.,
+2006 revealed high correlation of 0.96 and low standard errors of 0.02 and 0.33 associated with slope (~1.02) and intercept (~1.72), respectively ( Schwab et al., 2006 ).
+b Site F is the center of study area, and its PM 2.5 concentration is computed by averaging the hourly PM 2.5 mass concentration measured at the sites A-E. See text for details.
+J. Wang et al. / Atmospheric Environment 124 (2016) 55 e6358
+By neglecting multiple scattering (the same strategy as Zhang
+et al. (2008) ), the radiance I that DNB measures for an atmo-
+spheric optical depth t at viewing angle with its cosine value of m is:
+I ¼ I0e/C0t=m (1)
+We further assume that the pro ﬁle of aerosol extinction coef ﬁ-
+cient follows a well-de ﬁned structure in the nocturnal boundary
+layer, so that the optical depth (or total extinction) can be related to
+the surface extinction coef ﬁcient by an effective height H (Wang
+and Christopher, 2003 ):
+taer ¼ PM2:5f ðrhÞQmext H (2)
+where Qmext is the mass extinction ef ﬁciency at dry conditions, and
+f(rh) is the correction factor for relative humidity impact on aerosol
+size and refractive index, and hence aerosol extinction ef ﬁciency,
+due to particle hygroscopic growth ( Wang and Martin, 2007 ). As in
+Kessner et al. (2013), H is mathematically de ﬁned as the integral of
+the shape of aerosol extinction pro ﬁle in an atmospheric column.
+By combining equations (1) and (2) , we obtain:
+PM2:5f ðrhÞQmext H
+m þ tRay þ tgas ¼ lnðI0Þ/C0lnðIÞ (3)
+To the ﬁrst order, the Rayleigh scattering optical depth tRay is
+linearly proportional to the surface pressure ( Ps by a factor of bp),
+while the optical depth due to gas absorption tgas is linearly pro-
+portional to the precipitable water vapor amount ( W) by a factor of
+bw (Liou, 2002 ). Hence, equation (3) can be re-written as:
+PM2:5f ðrhÞQmext H
+m ¼ lnðI0Þ/C0lnðIÞ/C0bw /C2W /C0bp /C2Ps (4)
+where subscripts w and p denotes water vapor and pressure,
+respectively.
+We apply equation (4) over the 5 ground-based GADNR sites and
+the CTR site to evaluate practical robustness of equation (4). At each
+of these sites, we obtain the surface pressure data from weather
+stations in Atlanta, column water vapor amount from MODIS ob-
+servations ( King et al., 2003 ), PM 2.5 mass from ground-based ob-
+servations, m and I from DNB data. However, f(rh), Qmext, and H are
+not directly measured, and hence, have to be either directly
+assumed or determined from atmospheric chemistry transport
+models. We model f(rh) based upon the parameterization used by
+Interagency Monitoring of Protected Visual Environments
+(IMPROVE) for the fall season in this region ( Malm et al., 1994 ),
+noting that ammonium sulfate dominates the particle compsition
+in this region. Q mext andH depend respectively on aerosol
+composition and boundary layer height (or turbulent mixing) and
+thus vary with time. However, we found that using Qmext, RH, and H
+from a chemistry transport model (such as WRF-Chem) did not
+improve the results that we obtained in the regression analysis
+(Section 3) assuming that the product of Qmext and H are constant
+and using the hourly RH data reported by National Weather Service
+in Atlanta. Since the accurate values of Qmext and H are not available
+from in situ measurements, we treat the Qmext and H as constants in
+our following analysis, with an acknowledgment that such simple
+treatment should be improved once we have more in situ data
+about these parameters. Consequently, equation (4) becomes
+PM2:5f ðrhÞ
+m ¼ a0 /C0aI lnðIÞ/C0ar /C2W /C0ap /C2Ps (5)
+where a0, aI , ar , and ap are linear coef ﬁcients, and vary with space
+and time
+While equation (5) establishes the link between surface PM 2.5
+and the intensity of light measured by the DNB, PM 2.5 concentra-
+tion at night over a particular location is traditionally modeled
+without use of any DNB data, and its day-to-day change can be
+affected by meteorological factors such as wind speed and wind
+direction. Hence, after deriving PM 2.5 from equation (5), we also
+developed another linear model (meteorological model) through
+regression with wind speed u and v and other meteorological var-
+iables (water vapor W and surface pressure Ps). The goal here is to
+show that the regression based on the equation (5) or optical
+approach, which is based on the radiative transfer theory, can
+provide better estimate of surface PM 2.5 than the empirical
+approach using meteorological variables only.
+Leave-one-out cross validation technique is applied to evaluate
+the predictive potential of linear regression models ( Wilks, 201 1).
+At each site, assuming we have N sets of known variables (of PM2:5,
+f ðrhÞ, m, W, I, and Ps), the linear regression analysis can be con-
+ducted N times (assuming normality of the residuals), and each
+time, only N-1 sets of variables be used in the regression while
+leaving one set of variables out for evaluating the regression. By
+doing so, we have a total of 5N independent data points (and trials)
+to evaluate the robustness of equation (5). Note, because f ðrhÞ and m
+are known variables and physically the left side of the equation (5)
+represents the optical path of aerosol, we use left size of equation as
+the dependent variable in regression for each site. This cross-
+evaluation is a ﬁrst step to evaluate the potential of using DNB to
+estimate surface PM 2.5.
+3. Results
+3.1. Case demonstration
+We ﬁrst show two sets of paired images, one set focusing on
+nights with moonlight, and another set focusing on moonless
+nights. In each set, one nadir image with high PM 2.5 (larger than
+10 mgm /C03) and small moonphase angle (stronger moonlight, Fig. 2c
+or 2d) is paired and contrasted with another edge-view image with
+low PM2.5 (less than 8 mgm-3) and large moonphase angle (weaker
+moonlight, Fig. 2a or 2b). For each set, if the atmospheric conditions
+of aerosols are the same, the nadir view image ( Fig. 2c, d), because
+of their shorter radiative path length (e.g., airmass factor), would be
+brighter than their counterparts of edge view images ( Fig. 2 a, b).
+However, the opposite is true, as shown in Fig. 1, which indicates
+that the DNB is sensitive to the change of PM 2.5 at the surface. The
+smaller intensity of light in nadir view images on 25 October
+(Fig. 2 c) and 17 August 2012 ( Fig. 2 d) can only be attributed to
+higher surface PM2.5 concentration in these two days (as compared
+respectively to images Fig. 2 a and b for 24 Sep. and 15 Sep. 2012).
+Quantitatively, large reduction of visible lights can be seen in urban
+centers and suburb regions where light sources at the surface are
+strong (Fig. 2e, f), while only a marginal difference can be found in
+rural areas that do not have city lights ( Fig. 2 e). This quantitative
+contrast suggests that city lights amplify the signal of aerosols in
+radiative extinction, enabling the change of PM 2.5 to be detectable
+from DNB.
+3.2. Daily representativeness of PM 2.5 during VIIRS night overpass
+time
+In 3-month averages for each hour, site E shows minimal diurnal
+variation, when compared to sites A-D ( Fig. 2). Site E is the location
+for the GADNR NCore site, and is located southeast of the urban
+core. The NCore site was designed to assess transport from the
+urban core and secondary pollutant formation ( GADNR, 2014 ), a
+reason for the more constant hourly pro ﬁle versus sites A-D. Sites
+J. Wang et al. / Atmospheric Environment 124 (2016) 55 e63 59
+A-D exhibit the consistent diurnal variation of surface PM2.5 (Fig. 3):
+(a) sharp increase from 4:00 to 8:00 a.m. re ﬂecting effects due to
+local traf ﬁc, the shallow boundary layer, and buildup of aerosol
+precursors at night; (b) progressive decrease between 8:00 a.m. to
+2:00 p.m. reﬂecting the growth of the day-time boundary layer and
+inﬂuence of strong turbulent mixing; (c) slow increase between
+2:00e8:00 pm re ﬂecting again the increase of traf ﬁc and weak-
+ening of boundary layer mixing toward evening; (d) nearly constant
+(with slightly decrease) in 8:00 pm e4:00 am re ﬂecting the stable
+nocturnal boundary layer. Such a diurnal variation pattern is indeed
+typical over the urban areas in the southeastern part of United
+States ( Wang and Christopher, 2003 ). As a result of this diurnal
+variation pattern, PM 2.5 mass during VIIRS overpass time at night
+(~1:00 am local time) is representative of the 24-h mean of PM 2.5
+within the deviation of less than 10% on average in 3 months
+(Fig. 3 ), which favors the use of VIIRS DNB to derive surface PM 2.5
+for regional and daily-to-seasonal air quality evaluations. In addi-
+tion, as expected, the suburb PM2.5 concentrations (sites A, B, and C)
+are on average 2 e4 mgm-3 smaller than those of urban centers (D
+and E). It is noted in Fig. 3 that PM2.5 in mid-morning (10:00 am) is
+also representative of daily mean of PM2.5, and this time corre-
+sponds well with the MODIS/Terra satellite overpass time ( Wang
+and Christopher, 2003 ). Further analysis ( Fig. 4 ) shows that PM 2.5
+at 1:00 locale time is highly correlated with corresponding daily
+mean PM 2.5 (R ¼ 0.82) with mean bias of /C00.1 mgm /C03 and root-
+mean-square error (RMSE) of 3.1 mgm /C03; in contrast, R, mean
+bias, and RMSE between PM 2.5 at 13:00 (e.g., VIIRS and MODIS/
+Aqua daytime overpass) and the daily mean are 0.75, /C01.9 mgm /C03,
+and 3.5 mgm /C03, respectively. This contrast suggests that PM 2.5
+derived from VIIRS DNB at night, if accurate, is more representative
+than the counterparts from VIIRS and MODIS/Aqua daytime data for
+assessing daily-mean air quality.
+3.3. Regression analysis
+Following equation (5), we ﬁrst analyze the variables that
+should be included in the regression prediction of surface PM 2.5.
+Table 2 shows that while different variables have different corre-
+lations with the left-side term of eq. (5) at each site, lnI is the only
+variable that has either the largest or second largest statistically
+signiﬁcant (negative) correlation with the left-side term of equa-
+tion (5) over all sites, which suggests that lnI should be an indis-
+pensable part in our multiple regression for modeling PM 2.5. In
+contrast, the change of surface pressure was the only variable that
+shows neither the largest nor second largest correlation with the
+optical term for PM 2.5. Other variables such as water vapor ( W), u,
+and v can also be useful for predicting PM 2.5, but their importance
+varies by site (as in Table 2). Note, to have the correlation analysis
+results in one table ( Table 2), we show the correlation coef ﬁcients
+of u /C2f(rh)/m and v /C2f(rh)/m with PM2.5 /C2f(rh)/m (e.g., left-side of
+equation 5 assuming QextH as constant); similar results are found
+when correlation coef ﬁcients are computed for u (or v) and PM 2.5.
+The positive correlation between precipitiable water and surface
+PM2.5 is consistent with some early studies that showed surface
+PM2.5 is positively correlated with AOD that in turn is positively
+correlated with precipitiable water ( Wang and Christopher, 2003;
+Smirnov et al., 2000 ). Interestingly, while horizontal wind ( u) is
+negatively correlated surface PM 2.5 (Table 2), meridional wind ( v)
+shows positive correlation, likely re ﬂecting more polluted source
+from the south.
+It should be noted that equation (5) or optical model is based on
+the physics that governs the radiative transfer, although many as-
+sumptions are made in the derivation of equation (5). Hence, the
+ﬁrst step for construction of multiple-variable regression for the
+optical model is to include those most signi ﬁcant variables (such as
+lnI) in the model (or equation (5)). We didn't include u and v in the
+optical model because they are not part of the physics affecting the
+radiative transfer. Instead, they together with water vapor and
+surface pressure are included in another regression model that
+estimates the surface PM 2.5 purely based upon the meteorological
+variables.
+Following the leave-out-one cross validation strategy, Fig. 5 a
+presents the inter-comparison between PM 2.5 estimates from the
+multiple regression based on the optical model (as described in
+equation (5)) and the counterparts from the ground measurements.
+Overall, the predicted PM 2.5 (y) and observed (x) show a linear
+correlation coefﬁcient R of 0.67 and a best- ﬁt equation of y ¼ 0.996
+x þ 0.044. The overall bias in the prediction is close to zero
+(mean ± standard deviation of x: 10.89 ± 5.54 and y: 10.96 ± 5.52).
+These statistics are all better than the counterparts ( Fig. 5 b) from
+the multiple regression model using meteorological variables only
+(e.g., R of 0.5 and a best- ﬁt equation of y ¼ 0.921 x þ 0.477, and
+mean bias of /C00.39). This result highlights the potential of applying
+the city-light data from satellite into the geospatial modeling of
+PM2.5 at night.
+Fig. 3. Diurnal variation (solid line) and daily mean (dot line) of 3-month
+(AugusteOctober 2012) averages of hourly PM 2.5 mass concentration at 5 EPA moni-
+toring sites in Atlanta. The location for site A-E is shown in Fig. 1. The bottom panel is
+similar as panel A but for the mean of data collected at all stations. Also overlaid (in
+green line) is the normal VIIRS overpass time at night. (For interpretation of the ref-
+erences to color in this ﬁgure legend, the reader is referred to the web version of this
+article.)
+J. Wang et al. / Atmospheric Environment 124 (2016) 55 e6360
+4. Summary and discussions
+We presented a pilot study to illustrate the potential of using
+VIIRS DNB for particulate matter air quality monitoring at night.
+The case study focused on the moonless and cloudless nights in
+Atlanta during August eOctober 2012. We showed that, among 5
+variables (including u and v component of wind speed, surface
+pressure, and columnar water vapor amount), the change of light
+intensity from VIIRS DNB is always among the top two variables
+that have the highest correlation with the change of measured
+surface PM 2.5. This is also consistent with results from our
+Fig. 4. (a) Inter-comparison between daily-mean (x-axis) PM 2.5 concentration and the corresponding PM 2.5 concentration measured at local time (LT) 1:00 (y-axis). (b) same as (a)
+except for PM 2.5 concentration measured at LT 13:00 (y-axis). The comparison is based on ground-based observations at sites A-E during during August eOctober 2012 in Atlanta,
+GA. Each circle represents data measured at one ground site on a particular day and is ﬁlled with same color for the same site. See text for details.
+Table 2
+Correlation coef ﬁcients (R) between PM 2.5 /C2f(rh)/m and different variables at 6
+ground sites (A-F as described in Table 1 and marked in Fig. 2 )a.
+A B C D E F(CTR)
+Variables\R
+lnI ¡0.78 ¡0.56 ¡0.53 /C00.39 ¡0.71 ¡0.73
+DPs 0.05 0.21 0.08 0.14 0.10 0.10
+W 0.49 0.38 0.85 0.17 0.00 0.10
+u /C2f(rh)/m /C00.21 /C00.08 /C00.21 /C00.30 /C00.60 /C00.66
+v /C2f(rh)/m 0.59 0.49 0.48 0.53 0.54 0.52
+a At each site, the largest value is in bold and second largest value is in the italic
+bold.
+Fig. 5. Inter-comparison between predicted (y-axis) and measured (x-axis) PM 2.5. The prediction is based upon two models: (a) the optical model that includes variables of DNB
+radiance, surface pressure, and columnar water vapor (as described in equation (5)); and (b) the linear regression model based on surface meteorological variables ( u and v wind,
+water vapor, and surface pressure) only. Each of those measured PM 2.5 data points in x-axis is excluded in the regression that predicts the corresponding PM 2.5 in y-axis (e.g., leave-
+one-out cross validation).
+J. Wang et al. / Atmospheric Environment 124 (2016) 55 e63 61
+radiative transfer modeling that suggests the high sensitivity of
+DNB to the change of aerosols (and much less sensitivity of DNB to
+the change of water vapor) in the atmosphere illuminated by
+commonly-used outdoor lamps (such as high pressure sodium,
+LED and ﬂuoresces lights). Under the assumption that Beer's Law is
+valid for analyzing the transfer of surface light through the at-
+mosphere to space and the variation of the relationship between
+AOD and surface PM 2.5 is minimal at night (although varies
+spatially), a simple linear regression model is constructed to relate
+the DNB-measured light intensity to the GADNR-measured surface
+PM2.5. The coef ﬁcients needed in this regression model can be
+obtained by using spatially and temporally paired surface PM 2.5
+data, meteorological variables, and DNB data. Cross validation
+shows that the regression model can estimate the surface PM 2.5
+with nearly no bias and a linear correlation coef ﬁcient of 0.67.
+While the potential of using DNB data to estimate surface PM 2.5 is
+demonstrated, several challenges should be addressed in future
+studies toward automatically mapping surface PM 2.5 at night from
+space. We outline these challenges and provide some strategies for
+thought in below.
+First, a radiative transfer model that can account for the atmo-
+spheric transfer of both moonlight and surface-leaving visible light
+simultaneously is highly needed. Construction of such a model
+appears technically feasible, because (a) the code and database for a
+moonlight source function has been compiled by Miller and Turner
+(2009) and (b) several radiative transfer models, under the
+framework of discrete coordinate for a multi-layered plane-parallel
+medium, have been developed recently to account for surface-
+leaving radiances (especially those water-leaving radiances for
+ocean color retrievals, Spurr, 2006; Wang et al., 2014 ).
+Second, spatial and temporal characterization of city light
+sources needs to be improved. The source function of city light is a
+function of bulb types as well as the light interaction with the
+surface that in turn depends on the altitude of these bulbs and the
+layout of their surrounding buildings and canopies. However,
+similar as the way that surface canopy and buildings are treated as
+one layer of the planar boundary (characterized by bi-directional
+reﬂectance function or BRDF) in the current radiative transfer
+model for satellite remote sensing, we think it is necessary to
+characterize the nighttime visible radiances coming out from the
+surface layer at different angles. A dedicated ﬁeld campaign with
+multi-angle instrument capability can be a good start to pursue
+this.
+Finally, many challenges in the use of daytime satellite data to
+estimate surface PM2.5 still remain (in the nighttime), including the
+lack of a measurement-based aerosol extinction pro ﬁle that links
+AOD to surface PM 2.5, conversion of ambient aerosol mass to dry
+aerosol mass that requires an account of aerosol hygroscopic
+growth and thereby knowledge of aerosol composition, as well as
+estimated dry surface PM 2.5 from total aerosol mass ( Wang et al.,
+2010). Existing measurements for these compounding factors
+often lack spatial or temporal coverage, and therefore, it is fore-
+seeable that a combination of satellite and chemistry transport
+models is highly needed for operational estimates of surface PM 2.5
+from satellite data.
+Disclaimer
+The research described in this article has been reviewed by the
+National Exposure Research Laboratory, U.S. Environmental Pro-
+tection Agency and approved for publication. Approval does not
+signify that the contents necessarily re ﬂect the views and the
+policies of the Agency nor does mention of trade names or com-
+mercial products constitute endorsement or recommendation for
+use.
+Acknowledgment
+This study is supported by the NASA Applied Science Program
+(NNX1 1AJ03G) managed by John A. Haynes and the Suomi-NPP
+program managed by Diane Wickland and Paula Bontempi. We
+acknowledge Mr. Zhifeng Yang for his assistance in data analysis.
+References
+Al-Saadi, J., Szykman, J., Pierce, R.B., Kittaka, C., Neil, D., Chu, D.A., Remer, L.,
+Gumley, L., Prins, E., Weinstock, L., MacDonald, C., Wayland, R., Dimmick, F.,
+Fishman, J., 2005. Improving national air quality forecasts with satellite aerosol
+observations. Bull. Am. Met. Soc. 86, 1249 e1261.
+Cao, C., Xiong, J., Blonski, S., Liu, Q., Uprety, S., Shao, X., Bai, Y., Weng, F., 2013. Suomi
+NPP VIIRS sensor data record veri ﬁcation, validation, and long-term perfor-
+mance monitoring. J. Geophys. Res. Atmos. 1 18 (20), 1 1,664 e1 1,678.
+Dubovik, O., Holben, B., Eck, T.F., Smirnov, A., Kaufman, Y.J., King, M.D., Tanre, D.,
+Slutsker, I., 2002. Variability of absorption and optical properties of key aerosol
+types observed in worldwide locations. J. Atmos. Sci. 59 (3), 590 e608.
+Elvidge, C.D., Baugh, K.E., Dietz, J.B., Bland, T., Sutton, P.C., Kroehl, H.W., 1999.
+Radiance calibration of DMSP-OLS low-light imaging data of human settle-
+ments. Remote Sens. Environ. 68 (1), 77 e88.
+Elvidge, C.D., Keith, D.M., Tuttle, B.T., Baugh, K.E., 2010. Spectral identi ﬁcation of
+lighting type and character. Sensors 10 (4), 3961 e3988.
+Engel-Cox, J., Kim Oanh, N.T., van Donkelaar, A., Martin, R.V., Zell, E., 2013. Toward
+the next generation of air quality monitoring: particulate matter. Atmos. En-
+viron. 80, 584 e590.
+Georgia Department of Natural Resources, 2014. Enviromental Protection Division,
+Ambinet Air Monitoring Plan. www.air.dnr.state.ga.us/amp/2014_Ambient_Air_
+Monitoring_Plan.pdf.
+Gupta, P., Christopher, S.A., Wang, J., Gehrig, R., Lee, Y.-C., Kumar, N., 2006. Satellite
+remote sensing of particulate matter and air quality assessment over global
+cities. Atmos. Environ. 40, 5880 e5892.
+Hoff, R., Christopher, S.A., 2009. Remote sensing of particulate matter air pollution
+from space : have we reached the promised land? J. Air Waste Manage. Assoc.
+59, 642 e675.
+Jackson, J.M., Liu, H., Laszlo, I., Kondragunta, S., Remer, L.A., Huang, J., Huang, H.-C.,
+2013. Suomi-NPP VIIRS aerosol algorithms and data products. J. Geophys. Res.
+Atmos. 1 18, 12,673e12,689. http://dx.doi.org/10.1002/2013JD020449.
+Johnson, R.S., Zhang, J., Hyer, E.J., Miller, S.D., Reid, J.S., 2013. Preliminary in-
+vestigations toward nighttime aerosol optical depth retrievals from the VIIRS
+Day/Night Band. Atmos. Meas. Tech. 6 (5), 1245 e1255.
+Kessner, A., Wang, J., Levy, R., Colarco, P., 2013. Remote sensing of surface visibility
+from space: a look at the United States East Coast. Atmos. Environ. 81, 136 e147.
+King, M.D., Menzel, W.P., Kaufman, Y.J., Tanre, D., Gao, B.-C., Platnick, S.,
+Ackerman, S.A., Remer, L.A., Pincus, R., Hubanks, P.A., 2003. Cloud and aerosol
+properties, precipitable water and pro ﬁles of temperature and water vapor
+from MODIS. IEEE Trans. Geosci. Remote Sens. 41 (2), 442 e458.
+Kopp, T.J., Thomas, W., Heidinger, A.K., Botambekov, D., Frey, R.A., Hutchison, K.D.,
+Iisager, B.D., Brueske, K., Reed, B., 2014. The VIIRS cloud mask: progress in the
+ﬁrst Year of S-NPP owards a common cloud detection scheme. J. Geophys. Res.
+Atmos. 1 19, 2441e2456.
+Lee, T.F., Miller, S.D., 2006. NASA MODIS previews NPOESS VIIRS capabilities.
+Weather Forecast. 21, 649 e655.
+Lee, T.E., Miller, S.D., Turk, F.J., Schueler, C., Julian, R., Deyo, S., Dills, P., Wang, S.,
+2006. The NPOESS VIIRS Day/Night visible sensor,. Bull. Am. Meteorological Soc.
+87 (2), 191 e199.
+Liou, K.N., 2002. An Introduction to Atmospheric Radiation, second ed. pp, Orlando,
+FL, USA .
+Liu, Y., Park, R.J., Jacob, D.J., Li, Q., Kilaru, V., Sarmat, J.A., 2004. Mapping annual
+mean ground-level PM 2.5 concentrations using multiangle imaging spectror-
+adiometer aerosol optical thickness over the contiguous United States.
+J. Geophys. Res. 109, D23S10. http://dx.doi.org/10.1029/2004JD005025.
+Malm, W.C., Sisler, J.F., Huffman, D., Eldred, R.A., Cahill, T.A., 1994. Spatial and sea-
+sonal trends in particle concentration and optical extinction in the United
+States. J. Geophys. Res. 99, 1357 e1370.
+Miller, S.D., Turner, R.E., 2009. A Dynamic Lunar spectral irradiance data set for
+NPOESS/VIIRS Day/Night band nighttime environmental applications. Geo-
+science Remote Sens. IEEE Trans. 47 (7), 2316 e2329.
+Miller, S.D., Mills, S.P., Elvidge, C.D., Lindsey, D.T., Lee, T.F., Hawkins, J.D., 2012. Suomi
+satellite brings to light a unique frontier of nighttime environmental sensing
+capabilities. Proc. Natl. Acad. Sci. U.S.A. 109 (39), 15706 e15711.
+Polivka, T., Hyer, E., Wang, J., Peterson, D., 2015. First global analysis of saturation
+artifacts in the VIIRS infrared channels and the effects of sample aggregation.
+IEEE Geoscience Remote Sens. Lett. 1262 e1266.
+Rea, M., Bullough, J., Akashi, Y., 2009. Several views of metal halide and high-
+pressure sodium lighting for outdoor applications. Light. Res. Technol. 41 (4),
+297e320.
+Smirnov, A., Holben, B.N., Dubovik, O., O'Neill, N.T., Remer, L.A., Eck, T.F., Slutsker, I.,
+Savoie, D., 2000. Measurement of atmospheric optical parameters on U.S.
+Atlantic coast sites, ships, and Bermuda during TARFOX. J. Geophys. Res. 105,
+9887e9901. http://dx.doi.org/10.1029/1999JD901067.
+J. Wang et al. / Atmospheric Environment 124 (2016) 55 e6362
+Seinfeld, J.H., Pandis, S.N., 2006. Atmospheric Chemistry and Physics : From Air
+Pollution to Climate Change, second ed. New York John Wiley and Sons, Inc., US.
+1203.
+Spurr, R., 2006. VLIDORT: a linearized pseudo-spherical vector discrete ordinate
+radiative transfer code for forward model and retrieval studies in multilayer
+multiple scattering media. J. Quantitative Spectrosc. Radiat. Transf. 102 (2),
+316e342.
+Schwab, J.J., Felton, H.D., Rattigan, O.V., Demerjian, K.L., 2006. New York state urban
+and rural measurements of continuous PM2.5 mass by FDMS, TEOM, and BAM.
+J. Air Waste Manage. Assoc. 56, 372 e383.
+van Donkelaar, A., Martin, R.V., Spurr, R.J.D., Drury, E., Remer, L.A., Levy, R.C.,
+Wang, J., 2013. Optimal estimation for global ground-level ﬁne particulate
+matter concentrations. J. Geophys. Res. Atmos. 1 18 (1 1), 5621 e5636.
+Wang, J., Christopher, S.A., 2003. Intercomparison between satellite-derived aerosol
+optical thickness and PM2.5 mass: implications for air quality studies. Geophys.
+Res. Lett. 30 (21), 2095. http://dx.doi.org/10.1029/2003GL018174.
+Wang, J., Martin, S.T., 2007. Satellite characterization of urban aerosols: importance
+of including hygroscopicity and mixing state in the retrieval algorithms.
+J. Geophys. Res. 1 12, D17203,. http://dx.doi.org/10.1029/2006JD008078.
+Wang, J., Xu, X., Spurr, R., Wang, Y., Drury, E., 2010. Improved algorithm for MODIS
+satellite retrievals of aerosol optical thickness over land in dusty atmosphere:
+implications for air quality monitoring in China. Remote Sens. Environ. 1 14,
+2575e2583.
+Wang, J., Xu, X., Ding, S., Zeng, J., Spurr, R., Liu, X., Chance, K., Mishchenko, M., 2014.
+A numerical testbed for remote sensing of aerosols, and its demonstration for
+evaluating retrieval synergy from a geostationary satellite constellation of GEO-
+CAPE and GOES-R,. J. Quantitative Spectrosc. Radiat. Transf. 146 (0), 510 e528.
+Wilks, D.S., 201 1. Statistical Methods in the Atmospheric Sciences, 3 ed. Academic
+Press. 704 pp.
+Wilson, R., Spengler, J., 1996. In: Particles in our Air: Concentrations and Health
+Effects. Harvard Univ. Press, p. 254 .
+Winker, D., Pelon, J., McCormick, M.P., 2002. The CALIPSO Mission: Aerosol and
+Cloud Observations from Space, Int. Coord., Gr. on Laser Atmos. Stud. (Qu /C19ebec,
+CA).
+Zhang, J., Reid, J.S., Miller, S.D., Turk, F.J., 2008. Strategy for studying nocturnal
+aerosol optical depth using arti ﬁcial lights. Int. J. Remote Sens. 29 (16),
+4599e4613.
+J. Wang et al. / Atmospheric Environment 124 (2016) 55 e63 63

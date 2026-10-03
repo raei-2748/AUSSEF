@@ -1,0 +1,228 @@
+{
+  "dataset": "B: ABS CABEE 8165.0 business counts by SA2 (June stocks, all industries), ASGS 2021 (June 2015-2018 from ASGS 2016 releases, unchanged codes only, ratio-linked)",
+  "source_files": [
+    "jul2015-jun2019_816508.xls",
+    "jul2017-jun2021_816508.xlsx",
+    "jul2019-jun2023_8165DC08_revised.xlsx",
+    "jul2021-jun2025_8165DC08.xlsx",
+    "jun2013-jun2017_816508.xls"
+  ],
+  "source_dir": "/Users/ray/Research/AUSSEF - Local/fire_event_dataset/data/raw/sa2/businesses",
+  "units": "% change in business count (log points x 100) per 10 pp of residents within 1 km",
+  "worse_direction": "down",
+  "period_range": "June 2015..June 2025",
+  "panel_rows": 6305,
+  "sa2s": 639,
+  "code_match": {
+    "sa2_info_n": 640,
+    "sa2_info_codes_in_cabee_asgs2021": 640,
+    "sa2_info_codes_with_positive_count": 639,
+    "sa2_info_codes_linked_back_to_asgs2016": 469,
+    "match_rate": 1.0,
+    "dose_sa2s_with_counts": 423,
+    "dose_sa2s_total": 424
+  },
+  "dose_fy_range": [
+    2014,
+    2024
+  ],
+  "main": {
+    "n_obs": 6305,
+    "n_sa2": 639,
+    "n_clusters": 92,
+    "n_treated_sa2": 423,
+    "primary": {
+      "est": 0.13999999630690685,
+      "se": 0.7415550363017139,
+      "ci_low": -1.3134478748444525,
+      "ci_high": 1.593447867458266
+    },
+    "placebo": {
+      "est": -0.31376247407305724,
+      "se": 0.594415144470456,
+      "ci_low": -1.4788161572351508,
+      "ci_high": 0.8512912090890364
+    },
+    "coefs_pct_per10pp": {
+      "b0": -0.14358014285252582,
+      "b1": 0.28358013915943264,
+      "l1": -0.23008799340700903,
+      "l2": -0.08367448066604821
+    },
+    "ses_pct_per10pp": {
+      "b0": 0.4679586278507698,
+      "b1": 0.32461534338984854,
+      "l1": 0.4346453979672843,
+      "l2": 0.18755152575389503
+    }
+  },
+  "verdict": "Not detected",
+  "bound_in_worse_direction": -1.3134478748444525,
+  "heavy": {
+    "definition": "sample = SA2s with any FY dose >= 25% plus SA2s with zero dose in every FY; same model",
+    "n_obs": 3346,
+    "n_sa2": 344,
+    "n_clusters": 81,
+    "n_treated_sa2": 128,
+    "primary": {
+      "est": 0.2575956616037268,
+      "se": 0.80566618353485,
+      "ci_low": -1.321510058124579,
+      "ci_high": 1.8367013813320328
+    },
+    "placebo": {
+      "est": -0.1696307008013371,
+      "se": 0.6489834723851353,
+      "ci_low": -1.4416383066762024,
+      "ci_high": 1.1023769050735281
+    },
+    "coefs_pct_per10pp": {
+      "b0": -0.06919817918759727,
+      "b1": 0.3267938407913241,
+      "l1": -0.16911517238854834,
+      "l2": -0.0005155284127887562
+    },
+    "ses_pct_per10pp": {
+      "b0": 0.5100950984451584,
+      "b1": 0.345755167927511,
+      "l1": 0.4648294602003315,
+      "l2": 0.21301936258527743
+    },
+    "verdict": "Not detected"
+  },
+  "black_summer": {
+    "definition": "dose kept only for FY 2019 (Jul 2019-Jun 2020, covers fire quarters 2019Q3-2020Q1; other FYs set to 0); full sample; same model",
+    "n_obs": 6305,
+    "n_sa2": 639,
+    "n_clusters": 92,
+    "n_treated_sa2": 148,
+    "primary": {
+      "est": -1.9051076280532173,
+      "se": 1.5964396815840882,
+      "ci_low": -5.03412940395803,
+      "ci_high": 1.2239141478515954
+    },
+    "placebo": {
+      "est": -2.086219438385261,
+      "se": 1.3144077940394212,
+      "ci_low": -4.6624587147025265,
+      "ci_high": 0.4900198379320049
+    },
+    "coefs_pct_per10pp": {
+      "b0": -1.6427412120862246,
+      "b1": -0.2623664159669928,
+      "l1": -1.4275814797735435,
+      "l2": -0.6586379586117176
+    },
+    "ses_pct_per10pp": {
+      "b0": 1.0706962640950466,
+      "b1": 0.6299631751651675,
+      "l1": 1.1177796327539558,
+      "l2": 0.24278808285350326
+    },
+    "verdict": "Not detected"
+  },
+  "sens_window_all_terms_observed": {
+    "definition": "June 2016-2023 only, where every dose term (FY y-2..y+1) lies inside the dose panel",
+    "n_obs": 4571,
+    "n_sa2": 638,
+    "n_clusters": 91,
+    "n_treated_sa2": 422,
+    "primary": {
+      "est": -0.288677145391083,
+      "se": 0.7929541682013622,
+      "ci_low": -1.8428673150657529,
+      "ci_high": 1.2655130242835868
+    },
+    "placebo": {
+      "est": -0.020990572864981155,
+      "se": 0.6227584755332215,
+      "ci_low": -1.2415971849100953,
+      "ci_high": 1.1996160391801332
+    },
+    "coefs_pct_per10pp": {
+      "b0": -0.565535237151089,
+      "b1": 0.27685809176000603,
+      "l1": -0.2218326454161761,
+      "l2": 0.2008420725511949
+    },
+    "ses_pct_per10pp": {
+      "b0": 0.5429935119223994,
+      "b1": 0.3610239883266847,
+      "l1": 0.46064985846268675,
+      "l2": 0.21415969071807353
+    },
+    "verdict": "Not detected"
+  },
+  "sens_unlinked": {
+    "definition": "latest-release counts without ratio-linking the ASGS 2016 years",
+    "n_obs": 6305,
+    "n_sa2": 639,
+    "n_clusters": 92,
+    "n_treated_sa2": 423,
+    "primary": {
+      "est": 0.12084868978362082,
+      "se": 0.7151930329338618,
+      "ci_low": -1.2809296547667484,
+      "ci_high": 1.5226270343339898
+    },
+    "placebo": {
+      "est": -0.282872040561609,
+      "se": 0.5404402804375456,
+      "ci_low": -1.3421349902191981,
+      "ci_high": 0.7763909090959802
+    },
+    "coefs_pct_per10pp": {
+      "b0": -0.14977105521034645,
+      "b1": 0.2706197449939673,
+      "l1": -0.20576288151464645,
+      "l2": -0.07710915904696253
+    },
+    "ses_pct_per10pp": {
+      "b0": 0.4543204880160896,
+      "b1": 0.3179203388488446,
+      "l1": 0.4020866265960608,
+      "l2": 0.17338448946437185
+    },
+    "verdict": "Not detected"
+  },
+  "sens_asgs2021_only": {
+    "definition": "June 2019-2025 only (ASGS 2021 releases, no chaining)",
+    "n_obs": 4454,
+    "n_sa2": 639,
+    "n_clusters": 92,
+    "n_treated_sa2": 422,
+    "primary": {
+      "est": -0.002436740390467975,
+      "se": 0.9122412175760316,
+      "ci_low": -1.7904295268394899,
+      "ci_high": 1.785556046058554
+    },
+    "placebo": {
+      "est": -0.45540144767594914,
+      "se": 0.8513751112532164,
+      "ci_low": -2.124096665732253,
+      "ci_high": 1.213293770380355
+    },
+    "coefs_pct_per10pp": {
+      "b0": -0.2627185358215709,
+      "b1": 0.2602817954311029,
+      "l1": -0.36533699999455155,
+      "l2": -0.09006444768139767
+    },
+    "ses_pct_per10pp": {
+      "b0": 0.5970825271451091,
+      "b1": 0.3547453948026813,
+      "l1": 0.5737567054966398,
+      "l2": 0.2965461132703892
+    },
+    "verdict": "Not detected"
+  },
+  "notes": [
+    "Dose panel covers FY 2014 (fires from Jan 2015 only) to FY 2024; dose terms outside it are set to 0 (June 2015 lag FY 2013; June 2024-2025 leads FY 2025-2026), as in the U script.",
+    "Each CABEE SA2 cube holds only its last 3 Junes, so five releases are chained; June values come from the latest release containing them.",
+    "CABEE cells are perturbed by the ABS for confidentiality; the SA2 total is the sum of perturbed division totals.",
+    "From the Jul2017-Jun2021 release on, size ranges are annualised; the Total column (all sizes) is used throughout.",
+    "Primary = beta0 + beta1, placebo = lambda1 + lambda2 (sums, per PRESPEC), scaled to 10 pp of residents; normal CIs (1.96) with cluster CR1 correction (as day7_U_unemployment.py)."
+  ]
+}

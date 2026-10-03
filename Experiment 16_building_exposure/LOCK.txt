@@ -1,0 +1,12 @@
+Experiment 16 lock. Written 2026-10-02 22:47 AEST BEFORE any damage count or employment/earnings outcome was compared with any exposure.
+sha256 of the plan, the code and the outcome-free exposure files:
+348f43025e9f1d13c18bb1603063698969f88bb16856df0351672ec506641aec  PRESPEC.md
+5925856d73a70b49da12853b3174e855981c4d138e493bd505a7cd839a4b214f  extract_osm.py
+ac6d8842d5c4501203b59527d08c31656814a6de889151d1e94ada84baf041bd  build_exposure.py
+bc29cd69d00fb544a82f1522dde460fc9c1482dd9379e877baa72e7be1df6e12  run.sh
+cd0d0db230b0da2ea40f1bdaaa0de9e6f6651b9541e6d12ae4014fbb5d7bc9e7  results/EXPOSURE_COUNCIL_FIRE.csv
+48a46de99a40ff25103f118adfe20e0449f7242a348d1715e50c4e622a8f9699  data/sa2_fy_exposure.parquet
+37d285eca229a5617ec3849c940ba3c247d5db9f4be8da6998572264ed15a4ef  data/sa2_totals_2021.parquet
+eee706ae0ac6d46ba3863bf3622371a054d547c334c873c23cfb6e6021845ff0  data/osm2019_features.parquet
+2a8c3a2786927a04d97ee2112987474838deeca6990e0cdfb683c34146e38a0d  data/osm2019_lines.parquet
+Reproducibility rerun 2026-10-02 22:55: build_exposure.py council regenerated results/EXPOSURE_COUNCIL_FIRE.csv byte-identical to the locked hash (cd0d0db2...).

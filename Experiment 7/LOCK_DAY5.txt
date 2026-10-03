@@ -1,0 +1,2 @@
+PRESPEC_DAY5.md sha256 3dd379727aa43d45d1c337d43a4e8a015ceead7f21af0dabcfca24bda6320274
+locked 2026-10-01T01:15:09Z before any SA2 income number

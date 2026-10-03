@@ -1,0 +1,22 @@
+             variant indicator  n_mine  n_built  n_both  only_mine  only_built  max_abs_diff  n_rows_differ_gt_1e9
+0  namesakes_dropped  FP1_main     199      199     199          0           0  7.636571e-03                     4
+1  namesakes_dropped    FP1_h0     214      214     214          0           0  6.476277e-03                     1
+2  namesakes_dropped   FP1_h12     199      199     199          0           0  2.293991e-03                     3
+3  namesakes_dropped    FP1_h3     134      134     134          0           0  1.421992e-02                     4
+4     namesakes_kept  FP1_main     199      199     199          0           0  2.220446e-16                     0
+5     namesakes_kept    FP1_h0     214      214     214          0           0  9.714451e-17                     0
+6     namesakes_kept   FP1_h12     199      199     199          0           0  2.220446e-16                     0
+7     namesakes_kept    FP1_h3     134      134     134          0           0  1.110223e-16                     0
+namesakes_dropped differing FP1_main rows:
+                      agrn     region_name     F  FP1_main_namesakes_dropped_mine  FP1_main_built
+198  RAA-raa_2015_p15_r01        Narrabri  2014                        -0.471995       -0.468387
+199  RAA-raa_2015_p15_r05  Blue Mountains  2015                        -0.235683       -0.228046
+200  RAA-raa_2015_p15_r09      Shoalhaven  2015                        -0.125123       -0.117486
+201  RAA-raa_2015_p15_r11      Hawkesbury  2015                        -0.486507       -0.478870
+namesakes_kept differing FP1_main rows:
+ Empty DataFrame
+Columns: [agrn, region_name, F, FP1_main_namesakes_kept_mine, FP1_main_built]
+Index: []
+post-years used (FP1_main): {3: 138, 1: 38, 2: 27, 0: 15}
+min FAR councils with a value: 0
+FP1_main by F: n with value {2014: 1, 2015: 3, 2016: 14, 2017: 33, 2018: 27, 2019: 57, 2022: 26, 2023: 38, 2024: 0}

@@ -1,0 +1,224 @@
+column,rule,masked_cells
+X_fire_burn_area_in_council_ha,eligible X; no special reference-year mask,0
+X_fire_fires_n,eligible X; no special reference-year mask,0
+X_fire_share_of_council_burned,eligible X; no special reference-year mask,0
+X_fire_largest_fire_total_area_ha,eligible X; no special reference-year mask,0
+X_fire_max_fire_duration_days,eligible X; no special reference-year mask,0
+X_fire_duration_days_wmean,eligible X; no special reference-year mask,0
+X_fire_max_ffdi,eligible X; no special reference-year mask,0
+X_fire_ffdi_wmean,eligible X; no special reference-year mask,0
+X_fire_min_spei3,eligible X; no special reference-year mask,0
+X_fire_kbdi_at_start_max,eligible X; no special reference-year mask,0
+X_fire_drought_factor_at_start_max,eligible X; no special reference-year mask,0
+X_fire_max_temp_c,eligible X; no special reference-year mask,0
+X_fire_min_rh_pct,eligible X; no special reference-year mask,0
+X_fire_max_wind_kmh,eligible X; no special reference-year mask,0
+X_fire_rain_during_fire_mm_min,eligible X; no special reference-year mask,0
+X_fire_temp_max_wmean,eligible X; no special reference-year mask,0
+X_fire_humidity_min_wmean,eligible X; no special reference-year mask,0
+X_fire_wind_max_wmean,eligible X; no special reference-year mask,0
+X_fire_hotspot_density_max,eligible X; no special reference-year mask,0
+X_fire_hotspots_n,eligible X; no special reference-year mask,0
+X_fire_hotspot_viirs_count_in_council,eligible X; no special reference-year mask,0
+X_fire_severity_high_extreme_share,eligible X; no special reference-year mask,0
+X_fire_severity_share_low_wmean,eligible X; no special reference-year mask,0
+X_fire_severity_share_moderate_wmean,eligible X; no special reference-year mask,0
+X_fire_severity_share_high_wmean,eligible X; no special reference-year mask,0
+X_fire_severity_share_extreme_wmean,eligible X; no special reference-year mask,0
+X_fire_ignition_causes,eligible X; no special reference-year mask,0
+X_env_mean_slope_deg,eligible X; no special reference-year mask,0
+X_env_elevation_wmean,eligible X; no special reference-year mask,0
+X_env_elevation_min,eligible X; no special reference-year mask,0
+X_env_elevation_max,eligible X; no special reference-year mask,0
+X_env_slope_p90_max,eligible X; no special reference-year mask,0
+X_env_dominant_vegetation,eligible X; no special reference-year mask,0
+X_env_mean_canopy_pct,eligible X; no special reference-year mask,0
+X_env_canopy_cover_wmean,eligible X; no special reference-year mask,0
+X_env_canopy_cover_share_over_30pct_wmean,eligible X; no special reference-year mask,0
+X_env_vegetation_forest_share_wmean,eligible X; no special reference-year mask,0
+X_env_vegetation_cleared_share_wmean,eligible X; no special reference-year mask,0
+X_env_vegetation_groups,eligible X; no special reference-year mask,0
+X_env_road_km_burned,eligible X; no special reference-year mask,0
+X_env_road_km_within_100m_sum,eligible X; no special reference-year mask,0
+X_socio_pop_in_fire,eligible X; no special reference-year mask,0
+X_socio_pop_within_1km,eligible X; no special reference-year mask,0
+X_socio_pop_within_5km,eligible X; no special reference-year mask,0
+X_socio_pop_within_5km_all_councils,eligible X; no special reference-year mask,0
+X_socio_dwellings_in_fire,eligible X; no special reference-year mask,0
+X_socio_dwellings_within_1km,eligible X; no special reference-year mask,0
+X_socio_dwellings_within_5km,eligible X; no special reference-year mask,0
+X_socio_pop_density,eligible X; no special reference-year mask,0
+X_socio_population_pre,eligible X; no special reference-year mask,0
+X_socio_population_density_pre,eligible X; no special reference-year mask,0
+X_socio_SEIFA,Census reference year after fire start or vintage unavailable,4
+X_socio_seifa_irsd,Census reference year after fire start or vintage unavailable,4
+X_socio_remoteness,eligible X; no special reference-year mask,0
+X_socio_remoteness_class_max,eligible X; no special reference-year mask,0
+X_socio_grp_sa4_proxy_aud_m,SA4 GRP reference financial year ends after fire start or vintage unavailable,3
+X_socio_income_proxy_aud,eligible X; no special reference-year mask,0
+X_socio_grp_per_capita_sa4_aud,SA4 GRP reference financial year ends after fire start or vintage unavailable,0
+X_socio_grp_reds_region_2020_aud_m,REDS 2020 reference used only from 2021,126
+X_socio_nsw_sfd_sa_aud_m_qm1,eligible X; no special reference-year mask,0
+X_socio_nsw_sfd_sa_aud_m_qp0,eligible X; no special reference-year mask,0
+X_socio_nsw_sfd_sa_aud_m_qp1,eligible X; no special reference-year mask,0
+X_socio_nsw_sfd_sa_aud_m_qp4,eligible X; no special reference-year mask,0
+X_socio_nsw_sfd_chg_pct_qp1_vs_qm1,eligible X; no special reference-year mask,0
+X_socio_nsw_sfd_yoy_pct_q0,eligible X; no special reference-year mask,0
+X_socio_grp_sa4_nominal_growth_pct,excluded: full 2015-2021 reference growth window,218
+X_socio_grp_sa4_real_growth_pct,excluded: full 2015-2021 reference growth window,218
+X_socio_total_income_aud_pre,eligible X; no special reference-year mask,0
+X_socio_median_income_aud_pre,eligible X; no special reference-year mask,0
+X_socio_income_earners_pre,eligible X; no special reference-year mask,0
+X_socio_pia_emp_income_earners_pre,eligible X; no special reference-year mask,0
+X_socio_pia_emp_income_mean_pre,eligible X; no special reference-year mask,0
+X_socio_pia_emp_income_median_pre,eligible X; no special reference-year mask,0
+X_socio_pia_emp_income_total_pre,eligible X; no special reference-year mask,0
+X_socio_pia_own_biz_income_earners_pre,eligible X; no special reference-year mask,0
+X_socio_pia_own_biz_income_main_source_pct_pre,eligible X; no special reference-year mask,0
+X_socio_pia_own_biz_income_mean_pre,eligible X; no special reference-year mask,0
+X_socio_pia_own_biz_income_median_pre,eligible X; no special reference-year mask,0
+X_socio_pia_own_biz_income_total_pre,eligible X; no special reference-year mask,0
+X_socio_unemp_rate_pre,eligible X; no special reference-year mask,0
+X_socio_labour_force_pre,eligible X; no special reference-year mask,0
+X_socio_unemployed_pre,eligible X; no special reference-year mask,0
+X_socio_payroll_qm4,eligible X; no special reference-year mask,0
+X_socio_payroll_qm1,eligible X; no special reference-year mask,0
+X_socio_jobs_emp_A_agri_pre,eligible X; no special reference-year mask,0
+X_socio_jobs_emp_B_mining_pre,eligible X; no special reference-year mask,0
+X_socio_jobs_emp_C_manuf_pre,eligible X; no special reference-year mask,0
+X_socio_jobs_emp_D_utilities_pre,eligible X; no special reference-year mask,0
+X_socio_jobs_emp_E_constr_pre,eligible X; no special reference-year mask,0
+X_socio_jobs_emp_F_wholesale_pre,eligible X; no special reference-year mask,0
+X_socio_jobs_emp_G_retail_pre,eligible X; no special reference-year mask,0
+X_socio_jobs_emp_H_accom_food_pre,eligible X; no special reference-year mask,0
+X_socio_jobs_emp_I_transport_pre,eligible X; no special reference-year mask,0
+X_socio_jobs_emp_J_info_media_pre,eligible X; no special reference-year mask,0
+X_socio_jobs_emp_K_finance_pre,eligible X; no special reference-year mask,0
+X_socio_jobs_emp_L_real_estate_pre,eligible X; no special reference-year mask,0
+X_socio_jobs_emp_M_professional_pre,eligible X; no special reference-year mask,0
+X_socio_jobs_emp_N_admin_pre,eligible X; no special reference-year mask,0
+X_socio_jobs_emp_O_public_admin_pre,eligible X; no special reference-year mask,0
+X_socio_jobs_emp_P_education_pre,eligible X; no special reference-year mask,0
+X_socio_jobs_emp_Q_health_pre,eligible X; no special reference-year mask,0
+X_socio_jobs_emp_R_arts_rec_pre,eligible X; no special reference-year mask,0
+X_socio_jobs_emp_S_other_pre,eligible X; no special reference-year mask,0
+X_socio_jobs_emp_total_pre,eligible X; no special reference-year mask,0
+X_socio_jobs_female_pre,eligible X; no special reference-year mask,0
+X_socio_jobs_male_pre,eligible X; no special reference-year mask,0
+X_socio_jobs_total_pre,eligible X; no special reference-year mask,0
+X_socio_accom_food_biz_share_pre,eligible X; no special reference-year mask,0
+X_socio_ind_share_agri,Census reference year after fire start or vintage unavailable,4
+X_socio_ind_share_mining,Census reference year after fire start or vintage unavailable,4
+X_socio_ind_share_manufacturing,Census reference year after fire start or vintage unavailable,4
+X_socio_ind_share_utilities,Census reference year after fire start or vintage unavailable,4
+X_socio_ind_share_construction,Census reference year after fire start or vintage unavailable,4
+X_socio_ind_share_wholesale,Census reference year after fire start or vintage unavailable,4
+X_socio_ind_share_retail,Census reference year after fire start or vintage unavailable,4
+X_socio_ind_share_accom_food,Census reference year after fire start or vintage unavailable,4
+X_socio_ind_share_transport,Census reference year after fire start or vintage unavailable,4
+X_socio_ind_share_information_media,Census reference year after fire start or vintage unavailable,4
+X_socio_ind_share_finance_insurance,Census reference year after fire start or vintage unavailable,4
+X_socio_ind_share_rental_real_estate,Census reference year after fire start or vintage unavailable,4
+X_socio_ind_share_professional_services,Census reference year after fire start or vintage unavailable,4
+X_socio_ind_share_admin_support,Census reference year after fire start or vintage unavailable,4
+X_socio_ind_share_public_administration,Census reference year after fire start or vintage unavailable,4
+X_socio_ind_share_education,Census reference year after fire start or vintage unavailable,4
+X_socio_ind_share_health_social,Census reference year after fire start or vintage unavailable,4
+X_socio_ind_share_arts_recreation,Census reference year after fire start or vintage unavailable,4
+X_socio_ind_share_other_services,Census reference year after fire start or vintage unavailable,4
+X_socio_employed_persons_census,Census reference year after fire start or vintage unavailable,4
+X_socio_tra_tourism_biz_total_2017,TRA 2014-2017 averages used only from 2018,31
+X_socio_biz_entries_total_pre,eligible X; no special reference-year mask,0
+X_socio_biz_entries_turnover_total_pre,eligible X; no special reference-year mask,0
+X_socio_biz_exits_total_pre,eligible X; no special reference-year mask,0
+X_socio_biz_exits_turnover_total_pre,eligible X; no special reference-year mask,0
+X_socio_insolv_biz_economic_conditions_pre,eligible X; no special reference-year mask,0
+X_socio_insolv_biz_pre,eligible X; no special reference-year mask,0
+X_socio_insolv_nonbiz_pre,eligible X; no special reference-year mask,0
+X_socio_biz_total_pre,eligible X; no special reference-year mask,0
+X_socio_biz_A_agri_total_pre,eligible X; no special reference-year mask,0
+X_socio_biz_B_mining_total_pre,eligible X; no special reference-year mask,0
+X_socio_biz_C_manuf_total_pre,eligible X; no special reference-year mask,0
+X_socio_biz_D_utilities_total_pre,eligible X; no special reference-year mask,0
+X_socio_biz_E_constr_total_pre,eligible X; no special reference-year mask,0
+X_socio_biz_F_wholesale_total_pre,eligible X; no special reference-year mask,0
+X_socio_biz_G_retail_total_pre,eligible X; no special reference-year mask,0
+X_socio_biz_H_accom_food_total_pre,eligible X; no special reference-year mask,0
+X_socio_biz_I_transport_total_pre,eligible X; no special reference-year mask,0
+X_socio_biz_J_info_media_total_pre,eligible X; no special reference-year mask,0
+X_socio_biz_K_finance_total_pre,eligible X; no special reference-year mask,0
+X_socio_biz_L_real_estate_total_pre,eligible X; no special reference-year mask,0
+X_socio_biz_M_professional_total_pre,eligible X; no special reference-year mask,0
+X_socio_biz_N_admin_total_pre,eligible X; no special reference-year mask,0
+X_socio_biz_O_public_admin_total_pre,eligible X; no special reference-year mask,0
+X_socio_biz_P_education_total_pre,eligible X; no special reference-year mask,0
+X_socio_biz_Q_health_total_pre,eligible X; no special reference-year mask,0
+X_socio_biz_R_arts_rec_total_pre,eligible X; no special reference-year mask,0
+X_socio_biz_S_other_total_pre,eligible X; no special reference-year mask,0
+X_socio_biz_X_unknown_total_pre,eligible X; no special reference-year mask,0
+X_socio_insolv_total_pre,eligible X; no special reference-year mask,0
+X_socio_tra_avg_stay_dom_overnight_1417avg,TRA 2014-2017 averages used only from 2018,31
+X_socio_tra_avg_stay_intl_1417avg,TRA 2014-2017 averages used only from 2018,31
+X_socio_tra_avg_stay_total_1417avg,TRA 2014-2017 averages used only from 2018,31
+X_socio_tra_nights_dom_overnight_1417avg,TRA 2014-2017 averages used only from 2018,31
+X_socio_tra_nights_intl_1417avg,TRA 2014-2017 averages used only from 2018,31
+X_socio_tra_nights_total_1417avg,TRA 2014-2017 averages used only from 2018,31
+X_socio_tra_spend_dom_day_1417avg,TRA 2014-2017 averages used only from 2018,29
+X_socio_tra_spend_dom_overnight_1417avg,TRA 2014-2017 averages used only from 2018,31
+X_socio_tra_spend_intl_1417avg,TRA 2014-2017 averages used only from 2018,31
+X_socio_tra_spend_total_1417avg,TRA 2014-2017 averages used only from 2018,29
+X_socio_tra_visitors_dom_day_1417avg,TRA 2014-2017 averages used only from 2018,29
+X_socio_tra_visitors_dom_overnight_1417avg,TRA 2014-2017 averages used only from 2018,31
+X_socio_tra_visitors_intl_1417avg,TRA 2014-2017 averages used only from 2018,31
+X_socio_tra_visitors_total_1417avg,TRA 2014-2017 averages used only from 2018,29
+X_socio_ntl_mean_qm4,eligible X; no special reference-year mask,0
+X_socio_ntl_mean_qm1,eligible X; no special reference-year mask,0
+X_socio_ntl_mean_exfire_qm4,eligible X; no special reference-year mask,0
+X_socio_ntl_mean_exfire_qm1,eligible X; no special reference-year mask,0
+X_socio_income_support_pre,eligible X; no special reference-year mask,0
+X_socio_jobseeker_pre,eligible X; no special reference-year mask,0
+X_socio_dwellings_census,Census reference year after fire start or vintage unavailable,4
+X_socio_dwellings_occupied,eligible X; no special reference-year mask,0
+X_socio_dw_owned_mortgage_share_census,Census reference year after fire start or vintage unavailable,4
+X_socio_dw_owned_outright_share_census,Census reference year after fire start or vintage unavailable,4
+X_socio_dw_rented_share_census,Census reference year after fire start or vintage unavailable,4
+X_socio_dw_flat_apartment_share_census,Census reference year after fire start or vintage unavailable,4
+X_socio_rent_median_weekly_pre,eligible X; no special reference-year mask,0
+X_socio_rent_new_bonds_lodged_pre,eligible X; no special reference-year mask,0
+X_socio_area_km2,eligible X; no special reference-year mask,0
+X_council_historical_disaster_count,eligible X; no special reference-year mask,0
+X_council_insurance_proxy_share,Census reference year after fire start or vintage unavailable,4
+X_council_own_source_revenue_ratio,eligible X; no special reference-year mask,0
+X_council_grants_pct_pre,eligible X; no special reference-year mask,0
+X_council_own_source_pct_pre,eligible X; no special reference-year mask,0
+X_council_total_revenue_incl_cap_aud_pre,eligible X; no special reference-year mask,0
+X_council_grants_per_capita_aud_pre,eligible X; no special reference-year mask,0
+X_council_olg_capital_grants_derived_aud_pre,eligible X; no special reference-year mask,0
+X_council_net_op_result_pre_cap_aud_pre,eligible X; no special reference-year mask,0
+X_council_operating_ratio_pct_pre,eligible X; no special reference-year mask,0
+X_council_exp_community_aud_pre,eligible X; no special reference-year mask,0
+X_council_exp_environment_aud_pre,eligible X; no special reference-year mask,0
+X_council_exp_governance_aud_pre,eligible X; no special reference-year mask,0
+X_council_exp_other_aud_pre,eligible X; no special reference-year mask,0
+X_council_exp_public_order_aud_pre,eligible X; no special reference-year mask,0
+X_council_exp_recreation_aud_pre,eligible X; no special reference-year mask,0
+X_council_exp_roads_aud_pre,eligible X; no special reference-year mask,0
+X_council_roads_share_pct_pre,eligible X; no special reference-year mask,0
+X_council_service_share_pct_pre,eligible X; no special reference-year mask,0
+X_council_total_expenses_aud_pre,eligible X; no special reference-year mask,0
+X_council_total_expenses_cont_ops_aud_pre,eligible X; no special reference-year mask,0
+X_council_cash_reserve,eligible X; no special reference-year mask,0
+X_council_cash_cover_months_pre,eligible X; no special reference-year mask,0
+X_council_unrestricted_current_ratio_pre,eligible X; no special reference-year mask,0
+X_council_debt_burden,eligible X; no special reference-year mask,0
+X_council_debt_service_cover_pre,eligible X; no special reference-year mask,0
+X_council_debt_service_cover_ratio_pre,eligible X; no special reference-year mask,0
+X_council_debt_service_ratio_pct_pre,eligible X; no special reference-year mask,0
+X_council_renewals_ratio_pct_pre,eligible X; no special reference-year mask,0
+X_council_infra_backlog_ratio_pct_pre,eligible X; no special reference-year mask,0
+X_council_maintenance_gap_aud_pre,eligible X; no special reference-year mask,0
+X_council_maintenance_ratio_pct_pre,eligible X; no special reference-year mask,0
+X_council_road_km_pre,eligible X; no special reference-year mask,0
+X_council_olg_asset_maint_actual_aud_pre,eligible X; no special reference-year mask,0
+X_council_olg_asset_maint_required_aud_pre,eligible X; no special reference-year mask,0
+X_council_council_population_pre,eligible X; no special reference-year mask,0

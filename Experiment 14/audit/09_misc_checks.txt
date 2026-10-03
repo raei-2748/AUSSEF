@@ -1,0 +1,56 @@
+indicator coverage by fire year:
+       FP1  FP2  FP3  FP4  SL1  SL2  SL3  SL4  DL1  IL2  IL3
+F                                                          
+2014    1    0    0    1    0    1    0    0    1    0    0
+2015    3    0    0    3    0    3    0    3    3    0    3
+2016   14    2    2   14    0   16    0   14    9   12   12
+2017   33    4    4   33   21   35    0   35    8   17   17
+2018   27    8    9   27   27   27    1   27   27   27   17
+2019   57   27   27   57   57   57   25   57   52   56   56
+2022   26   10   10   26   25   26    0    0   24    0   24
+2023   38    0    0   38   38   38    1    4    9    0   38
+2024    0    0    0    0   15   13    0    0    2    0    0
+FP1_main post years by F: {2014: {3: 1}, 2015: {3: 3}, 2016: {3: 16}, 2017: {3: 35}, 2018: {3: 27}, 2019: {3: 56, 2: 1}, 2022: {2: 26}, 2023: {1: 38}, 2024: {0: 15}}
+SL1_main rows by number of post quarters observable (5-8): {1: 5, 2: 9, 3: 1, 4: 168} | rent last quarter 2026Q2
+rows by number of pillars: {1: 13, 2: 25, 3: 54, 4: 126}
+one-pillar rows by season: {2024: 13}
+SL4 values: zeros 123 positive 17 | rank given to zeros: [0.44285714]
+rows sharing a council-FY: 98 | distinct council-FY among them: 47 | FP1 identical within council-FY: True
+mean Y_v4 / FP1_main / FP pillar by season:
+          Y_v4  FP1_main     FP     DL     SL
+season                                      
+2014    0.460    -0.468  0.103  0.304  0.972
+2015    0.401    -0.275  0.472  0.304  0.442
+2016    0.423    -0.217  0.406  0.459  0.450
+2017    0.466    -0.197  0.430  0.430  0.484
+2018    0.497     0.158  0.544  0.363  0.478
+2019    0.567     0.114  0.560  0.671  0.597
+2022    0.423     0.024  0.432  0.356  0.347
+2023    0.544     0.222  0.493  0.600  0.420
+2024    0.468       NaN    NaN  0.304  0.460
+pooled OOF rho: 0.428 | within-season rho (ranks within season, seasons n>=10): 0.497
+per-season OOF rho: {2016: np.float64(0.26), 2017: np.float64(0.48), 2018: np.float64(0.72), 2019: np.float64(0.53), 2022: np.float64(0.39), 2023: np.float64(0.39), 2024: np.float64(0.73)}
+rho between season-mean y and season-mean prediction: 0.15
+      F  far  burned_or_row_in_F1_F3  burned_or_row_in_Fm2_Fm1  clean_both
+0  2014  120                      32                         0          88
+1  2015  106                      31                         0          75
+2  2016   86                      23                         1          63
+3  2017   62                      11                         3          51
+4  2018   68                      10                         5          57
+5  2019   43                       6                         1          36
+6  2022   78                      27                         4          49
+7  2023   62                       3                         7          53
+8  2024   80                       0                        19          61
+FP1_main, FAR also clean in F+1..F+3: n 199 (was 199 ) | Spearman with built 0.997 | mean shift -0.001 | shift by F: {2014: 0.0, 2015: -0.005, 2016: -0.027, 2017: -0.013, 2018: -0.027, 2019: 0.01, 2022: 0.034, 2023: -0.005, 2024: nan} | min comparison n: 36
+                                      indicator    n  spearman_with_log_homes_in_fire
+0    ind_DL1_homes_destroyed_per_1000_dwellings  135                            0.778
+1        ind_IL2_income_affected_sa2_excess_far  112                           -0.120
+2      ind_IL3_business_affected_sa2_excess_far  167                            0.069
+3   ind_FP1_grants_per_resident_rise_excess_far  199                            0.249
+4      ind_FP2_fire_grant_share_jump_excess_far   51                            0.523
+5           ind_FP3_capex_share_jump_excess_far   52                            0.222
+6        ind_FP4_cash_cover_drawdown_excess_far  199                            0.035
+7            ind_SL1_rent_rise_year2_excess_far  183                            0.262
+8     ind_SL2_domestic_violence_rise_excess_far  216                            0.032
+9            ind_SL3_rebuild_gap_trend_adjusted   27                           -0.151
+10            ind_SL4_deaths_per_100k_residents  140                            0.485

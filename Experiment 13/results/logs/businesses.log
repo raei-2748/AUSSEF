@@ -1,0 +1,102 @@
+/Users/ray/Research/AUSSEF - Local/Experiment 13/run_channels.py:201: RuntimeWarning: invalid value encountered in multiply
+  p.loc[o15, 'link'] = p.loc[o15, 'link'].values * np.array([f17.get(k, np.nan) for k, oo in zip(idx, o15) if oo])
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 180 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 168 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+businesses P n_H primary {'main_per10': np.float64(8.572), 'main_lo': np.float64(-6.443), 'main_hi': np.float64(25.996), 'placebo_per10': np.float64(-8.948), 'placebo_lo': np.float64(-21.978), 'placebo_hi': np.float64(6.259)} 2283 163
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 180 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 160 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+businesses P n_H R_dose {'main_per10': np.float64(0.506), 'main_lo': np.float64(-1.322), 'main_hi': np.float64(2.369), 'placebo_per10': np.float64(0.488), 'placebo_lo': np.float64(-3.125), 'placebo_hi': np.float64(4.236)} 2283 249
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 180 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 168 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/models/_result_accessor_mixin.py:168: UserWarning: Empty variance-covariance matrix detected
+  warnings.warn(
+businesses P n_H binary_H10 {'main_per10': np.float64(2.118), 'main_lo': np.float64(1.207), 'main_hi': np.float64(3.037)} 2283 2
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 179 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 168 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+businesses P n_E primary {'main_per10': np.float64(-4.54), 'main_lo': np.float64(-10.406), 'main_hi': np.float64(1.71), 'placebo_per10': np.float64(5.273), 'placebo_lo': np.float64(-3.896), 'placebo_hi': np.float64(15.317)} 2290 163
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 196 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 39 observations removed because of separation.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 183 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 36 observations removed because of separation.
+  warnings.warn(
+businesses P n_A primary {'main_per10': np.float64(2.783), 'main_lo': np.float64(-9.266), 'main_hi': np.float64(16.432), 'placebo_per10': np.float64(8.901), 'placebo_lo': np.float64(0.234), 'placebo_hi': np.float64(18.318)} 2132 162
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 177 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 3 observations removed because of separation.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 166 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 3 observations removed because of separation.
+  warnings.warn(
+businesses P n_G primary {'main_per10': np.float64(-4.576), 'main_lo': np.float64(-13.321), 'main_hi': np.float64(5.051), 'placebo_per10': np.float64(-3.915), 'placebo_lo': np.float64(-17.649), 'placebo_hi': np.float64(12.109)} 2293 163
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 174 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 163 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+businesses P n_ALL primary {'main_per10': np.float64(-0.408), 'main_lo': np.float64(-3.859), 'main_hi': np.float64(3.167), 'placebo_per10': np.float64(0.211), 'placebo_lo': np.float64(-3.908), 'placebo_hi': np.float64(4.507)} 2311 163
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 173 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 163 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+businesses P ne_share primary {'main_per10': 0.022, 'main_lo': np.float64(-0.027), 'main_hi': np.float64(0.071), 'placebo_per10': 0.041, 'placebo_lo': np.float64(-0.015), 'placebo_hi': np.float64(0.098)} 2310 162
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 28 observations removed because of separation.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 180 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+businesses B n_H primary {'main_per10': np.float64(3.55), 'main_lo': np.float64(-1.233), 'main_hi': np.float64(8.565), 'placebo_per10': np.float64(0.97), 'placebo_lo': np.float64(-4.483), 'placebo_hi': np.float64(6.734)} 5801 119
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 28 observations removed because of separation.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 180 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+businesses B n_H R_dose {'main_per10': np.float64(-0.073), 'main_lo': np.float64(-1.185), 'main_hi': np.float64(1.053), 'placebo_per10': np.float64(-0.13), 'placebo_lo': np.float64(-0.824), 'placebo_hi': np.float64(0.568)} 5801 148
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 28 observations removed because of separation.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 180 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/models/feols_.py:2513: UserWarning: 
+            1 variables dropped due to multicollinearity.
+            The following variables are dropped: ['o1'].
+            
+  warnings.warn(
+businesses B n_H binary_H10 {'main_per10': np.float64(0.954), 'main_lo': np.float64(-0.144), 'main_hi': np.float64(2.064), 'placebo_per10': np.float64(0.675), 'placebo_lo': np.float64(-0.407), 'placebo_hi': np.float64(1.768)} 5801 19
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 28 observations removed because of separation.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 180 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+businesses B n_H GCCSA_fe {'main_per10': np.float64(3.711), 'main_lo': np.float64(-1.001), 'main_hi': np.float64(8.647), 'placebo_per10': np.float64(1.167), 'placebo_lo': np.float64(-4.93), 'placebo_hi': np.float64(7.655)} 5801 119
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 35 observations removed because of separation.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 179 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+businesses B n_E primary {'main_per10': np.float64(1.337), 'main_lo': np.float64(-1.284), 'main_hi': np.float64(4.029), 'placebo_per10': np.float64(-0.257), 'placebo_lo': np.float64(-1.97), 'placebo_hi': np.float64(1.487)} 5798 119
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 42 observations removed because of separation.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 196 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 33 observations removed because of separation.
+  warnings.warn(
+businesses B n_A primary {'main_per10': np.float64(1.651), 'main_lo': np.float64(-0.325), 'main_hi': np.float64(3.666), 'placebo_per10': np.float64(3.228), 'placebo_lo': np.float64(1.852), 'placebo_hi': np.float64(4.622)} 5723 119
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 37 observations removed because of separation.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 177 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 3 observations removed because of separation.
+  warnings.warn(
+businesses B n_G primary {'main_per10': np.float64(1.896), 'main_lo': np.float64(-2.705), 'main_hi': np.float64(6.714), 'placebo_per10': np.float64(4.992), 'placebo_lo': np.float64(-3.467), 'placebo_hi': np.float64(14.193)} 5800 119
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 174 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+businesses B n_ALL primary {'main_per10': np.float64(-0.392), 'main_lo': np.float64(-2.071), 'main_hi': np.float64(1.315), 'placebo_per10': np.float64(0.333), 'placebo_lo': np.float64(-0.693), 'placebo_hi': np.float64(1.369)} 5846 119
+/Users/ray/.cache/uv/archive-v0/4O048L0PcVLGHHVYAoT88/lib/python3.13/site-packages/pyfixest/estimation/formula/model_matrix.py:151: UserWarning: 173 singleton fixed effect(s) dropped from the model.
+  warnings.warn(
+businesses B ne_share primary {'main_per10': -0.038, 'main_lo': np.float64(-0.096), 'main_hi': np.float64(0.019), 'placebo_per10': -0.018, 'placebo_lo': np.float64(-0.046), 'placebo_hi': np.float64(0.011)} 5833 119

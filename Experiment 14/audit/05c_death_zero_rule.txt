@@ -1,0 +1,10 @@
+      F  official_season_total  deaths_allocated_to_panel_rows  leftover  zero_rows  rule_ok
+0  2015                      1                             0.0       1.0          2     True
+1  2016                      2                             0.0       2.0         11    False
+2  2017                      0                             0.0       0.0         32     True
+3  2018                      0                             1.0      -1.0         24     True
+4  2019                     25                            25.0       0.0         43     True
+seasons failing the stated rule: [2016]
+check y0 == built Y_v4: 2.220446049250313e-16
+rows changed: 139 | Spearman(Y_v4, Y_v4 with bad-season zeros missing): 0.9955
+primary metric (rho, MAE RF, MAE mean) as built: (np.float64(0.428), np.float64(0.1002), np.float64(0.1129)) | with bad-season zeros missing: (np.float64(0.434), np.float64(0.1002), np.float64(0.1127))

@@ -1,0 +1,12 @@
+indicator,n,spearman_with_log_homes_in_fire
+ind_DL1_homes_destroyed_per_1000_dwellings,135,0.778
+ind_IL2_income_affected_sa2_excess_far,112,-0.12
+ind_IL3_business_affected_sa2_excess_far,167,0.069
+ind_FP1_grants_per_resident_rise_excess_far,199,0.249
+ind_FP2_fire_grant_share_jump_excess_far,51,0.523
+ind_FP3_capex_share_jump_excess_far,52,0.222
+ind_FP4_cash_cover_drawdown_excess_far,199,0.035
+ind_SL1_rent_rise_year2_excess_far,183,0.262
+ind_SL2_domestic_violence_rise_excess_far,216,0.032
+ind_SL3_rebuild_gap_trend_adjusted,27,-0.151
+ind_SL4_deaths_per_100k_residents,140,0.485
